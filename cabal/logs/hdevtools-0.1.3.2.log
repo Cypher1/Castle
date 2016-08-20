@@ -1,0 +1,23 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-44220/hdevtools-0.1.3.2'
+Configuring hdevtools-0.1.3.2...
+Building hdevtools-0.1.3.2...
+Preprocessing executable 'hdevtools' for hdevtools-0.1.3.2...
+[ 1 of 13] Compiling Paths_hdevtools  ( dist/build/autogen/Paths_hdevtools.hs, dist/build/hdevtools/hdevtools-tmp/Paths_hdevtools.o )
+[ 2 of 13] Compiling FindSymbol       ( src/FindSymbol.hs, dist/build/hdevtools/hdevtools-tmp/FindSymbol.o )
+[ 3 of 13] Compiling Info             ( src/Info.hs, dist/build/hdevtools/hdevtools-tmp/Info.o )
+[ 4 of 13] Compiling Types            ( src/Types.hs, dist/build/hdevtools/hdevtools-tmp/Types.o )
+[ 5 of 13] Compiling Stack            ( src/Stack.hs, dist/build/hdevtools/hdevtools-tmp/Stack.o )
+[ 6 of 13] Compiling Daemonize        ( src/Daemonize.hs, dist/build/hdevtools/hdevtools-tmp/Daemonize.o )
+[ 7 of 13] Compiling CommandArgs      ( src/CommandArgs.hs, dist/build/hdevtools/hdevtools-tmp/CommandArgs.o )
+[ 8 of 13] Compiling Util             ( src/Util.hs, dist/build/hdevtools/hdevtools-tmp/Util.o )
+[ 9 of 13] Compiling Cabal            ( src/Cabal.hs, dist/build/hdevtools/hdevtools-tmp/Cabal.o )
+[10 of 13] Compiling CommandLoop      ( src/CommandLoop.hs, dist/build/hdevtools/hdevtools-tmp/CommandLoop.o )
+[11 of 13] Compiling Server           ( src/Server.hs, dist/build/hdevtools/hdevtools-tmp/Server.o )
+[12 of 13] Compiling Client           ( src/Client.hs, dist/build/hdevtools/hdevtools-tmp/Client.o )
+[13 of 13] Compiling Main             ( src/Main.hs, dist/build/hdevtools/hdevtools-tmp/Main.o )
+Linking dist/build/hdevtools/hdevtools ...
+Warning: No documentation was generated as this package does not contain a
+library. Perhaps you want to use the --executables, --tests or --benchmarks
+flags.
+Installing executable(s) in /Users/Cypher/Library/Haskell/bin
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-44220/hdevtools-0.1.3.2'

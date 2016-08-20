@@ -1,0 +1,704 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/random-fu-0.2.7.0'
+Configuring random-fu-0.2.7.0...
+Building random-fu-0.2.7.0...
+Preprocessing library random-fu-0.2.7.0...
+[ 1 of 30] Compiling Data.Random.Internal.Find ( src/Data/Random/Internal/Find.hs, dist/build/Data/Random/Internal/Find.o )
+[ 2 of 30] Compiling Data.Random.Internal.Fixed ( src/Data/Random/Internal/Fixed.hs, dist/build/Data/Random/Internal/Fixed.o )
+[ 3 of 30] Compiling Data.Random.Internal.TH ( src/Data/Random/Internal/TH.hs, dist/build/Data/Random/Internal/TH.o )
+[ 4 of 30] Compiling Data.Random.Lift ( src/Data/Random/Lift.hs, dist/build/Data/Random/Lift.o )
+[ 5 of 30] Compiling Data.Random.RVar ( src/Data/Random/RVar.hs, dist/build/Data/Random/RVar.o )
+[ 6 of 30] Compiling Data.Random.Distribution ( src/Data/Random/Distribution.hs, dist/build/Data/Random/Distribution.o )
+[ 7 of 30] Compiling Data.Random.Distribution.Uniform ( src/Data/Random/Distribution/Uniform.hs, dist/build/Data/Random/Distribution/Uniform.o )
+
+src/Data/Random/Distribution/Uniform.hs:197:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: HasResolution r
+    • In the type signature for:
+           fixedUniform :: HasResolution r =>
+                           Fixed r -> Fixed r -> RVarT m (Fixed r)
+
+src/Data/Random/Distribution/Uniform.hs:259:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Eq a
+    • In the type signature for:
+           stdUniformNonneg :: (Distribution StdUniform a, Num a, Eq a) =>
+                               RVarT m a
+[ 8 of 30] Compiling Data.Random.List ( src/Data/Random/List.hs, dist/build/Data/Random/List.o )
+[ 9 of 30] Compiling Data.Random.Vector ( src/Data/Random/Vector.hs, dist/build/Data/Random/Vector.o )
+
+src/Data/Random/Vector.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Random/Vector.hs:10:15: warning: [-Wname-shadowing]
+    This binding for ‘words’ shadows the existing binding
+      imported from ‘Prelude’ at src/Data/Random/Vector.hs:1:8-25
+      (and originally defined in ‘base-4.9.0.0:Data.OldList’)
+[10 of 30] Compiling Data.Random.Distribution.Bernoulli ( src/Data/Random/Distribution/Bernoulli.hs, dist/build/Data/Random/Distribution/Bernoulli.o )
+
+src/Data/Random/Distribution/Bernoulli.hs:33:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Fractional a
+    • In the type signature for:
+           boolBernoulli :: (Fractional a, Ord a,
+                             Distribution StdUniform a) =>
+                            a -> RVarT m Bool
+[11 of 30] Compiling Data.Random.Distribution.Categorical ( src/Data/Random/Distribution/Categorical.hs, dist/build/Data/Random/Distribution/Categorical.o )
+
+src/Data/Random/Distribution/Categorical.hs:25:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Random/Distribution/Categorical.hs:241:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord p
+    • In the type signature for:
+           collectEvents :: (Ord e, Num p, Ord p) =>
+                            Categorical p e -> Categorical p e
+[12 of 30] Compiling Data.Random.Distribution.Exponential ( src/Data/Random/Distribution/Exponential.hs, dist/build/Data/Random/Distribution/Exponential.o )
+[13 of 30] Compiling Data.Random.Distribution.StretchedExponential ( src/Data/Random/Distribution/StretchedExponential.hs, dist/build/Data/Random/Distribution/StretchedExponential.o )
+[14 of 30] Compiling Data.Random.Distribution.Ziggurat ( src/Data/Random/Distribution/Ziggurat.hs, dist/build/Data/Random/Distribution/Ziggurat.o )
+[15 of 30] Compiling Data.Random.Distribution.Normal ( src/Data/Random/Distribution/Normal.hs, dist/build/Data/Random/Distribution/Normal.o )
+
+src/Data/Random/Distribution/Normal.hs:202:46: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:202:46-81
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:202:81
+    • In the expression: ((realToFrac x) - (realToFrac mu)) ^ 2
+      In the first argument of ‘(/)’, namely
+        ‘(- ((realToFrac x) - (realToFrac mu)) ^ 2)’
+      In the first argument of ‘exp’, namely
+        ‘((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))’
+
+src/Data/Random/Distribution/Normal.hs:204:14: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:204:14-31
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:204:31
+    • In the expression: realToFrac sigma ^ 2
+      In an equation for ‘sigma2’: sigma2 = realToFrac sigma ^ 2
+      In an equation for ‘normalPdf’:
+          normalPdf mu sigma x
+            = (recip (sqrt (2 * pi * sigma2)))
+              * (exp ((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2)))
+            where
+                sigma2 = realToFrac sigma ^ 2
+
+src/Data/Random/Distribution/Normal.hs:209:6: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:209:6-41
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:209:41
+    • In the expression: ((realToFrac x) - (realToFrac mu)) ^ 2
+      In the first argument of ‘(/)’, namely
+        ‘(- ((realToFrac x) - (realToFrac mu)) ^ 2)’
+      In the second argument of ‘(+)’, namely
+        ‘((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))’
+
+src/Data/Random/Distribution/Normal.hs:211:14: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:211:14-31
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:211:31
+    • In the expression: realToFrac sigma ^ 2
+      In an equation for ‘sigma2’: sigma2 = realToFrac sigma ^ 2
+      In an equation for ‘normalLogPdf’:
+          normalLogPdf mu sigma x
+            = log (recip (sqrt (2 * pi * sigma2)))
+              + ((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))
+            where
+                sigma2 = realToFrac sigma ^ 2
+
+src/Data/Random/Distribution/Normal.hs:236:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Floating a
+    • In the instance declaration for ‘PDF Normal a’
+[16 of 30] Compiling Data.Random.Distribution.Gamma ( src/Data/Random/Distribution/Gamma.hs, dist/build/Data/Random/Distribution/Gamma.o )
+[17 of 30] Compiling Data.Random.Distribution.Beta ( src/Data/Random/Distribution/Beta.hs, dist/build/Data/Random/Distribution/Beta.o )
+[18 of 30] Compiling Data.Random.Distribution.Binomial ( src/Data/Random/Distribution/Binomial.hs, dist/build/Data/Random/Distribution/Binomial.o )
+[19 of 30] Compiling Data.Random.Distribution.Multinomial ( src/Data/Random/Distribution/Multinomial.hs, dist/build/Data/Random/Distribution/Multinomial.o )
+[20 of 30] Compiling Data.Random.Distribution.ChiSquare ( src/Data/Random/Distribution/ChiSquare.hs, dist/build/Data/Random/Distribution/ChiSquare.o )
+[21 of 30] Compiling Data.Random.Distribution.Dirichlet ( src/Data/Random/Distribution/Dirichlet.hs, dist/build/Data/Random/Distribution/Dirichlet.o )
+[22 of 30] Compiling Data.Random.Distribution.Poisson ( src/Data/Random/Distribution/Poisson.hs, dist/build/Data/Random/Distribution/Poisson.o )
+[23 of 30] Compiling Data.Random.Distribution.Rayleigh ( src/Data/Random/Distribution/Rayleigh.hs, dist/build/Data/Random/Distribution/Rayleigh.o )
+[24 of 30] Compiling Data.Random.Distribution.Simplex ( src/Data/Random/Distribution/Simplex.hs, dist/build/Data/Random/Distribution/Simplex.o )
+
+src/Data/Random/Distribution/Simplex.hs:14:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[25 of 30] Compiling Data.Random.Distribution.T ( src/Data/Random/Distribution/T.hs, dist/build/Data/Random/Distribution/T.o )
+[26 of 30] Compiling Data.Random.Distribution.Triangular ( src/Data/Random/Distribution/Triangular.hs, dist/build/Data/Random/Distribution/Triangular.o )
+[27 of 30] Compiling Data.Random.Distribution.Weibull ( src/Data/Random/Distribution/Weibull.hs, dist/build/Data/Random/Distribution/Weibull.o )
+[28 of 30] Compiling Data.Random.Sample ( src/Data/Random/Sample.hs, dist/build/Data/Random/Sample.o )
+[29 of 30] Compiling Data.Random      ( src/Data/Random.hs, dist/build/Data/Random.o )
+[30 of 30] Compiling Data.Random.Distribution.Pareto ( src/Data/Random/Distribution/Pareto.hs, dist/build/Data/Random/Distribution/Pareto.o )
+[ 1 of 30] Compiling Data.Random.Internal.Find ( src/Data/Random/Internal/Find.hs, dist/build/Data/Random/Internal/Find.p_o )
+[ 2 of 30] Compiling Data.Random.Internal.Fixed ( src/Data/Random/Internal/Fixed.hs, dist/build/Data/Random/Internal/Fixed.p_o )
+[ 3 of 30] Compiling Data.Random.Internal.TH ( src/Data/Random/Internal/TH.hs, dist/build/Data/Random/Internal/TH.p_o )
+[ 4 of 30] Compiling Data.Random.Lift ( src/Data/Random/Lift.hs, dist/build/Data/Random/Lift.p_o )
+[ 5 of 30] Compiling Data.Random.RVar ( src/Data/Random/RVar.hs, dist/build/Data/Random/RVar.p_o )
+[ 6 of 30] Compiling Data.Random.Distribution ( src/Data/Random/Distribution.hs, dist/build/Data/Random/Distribution.p_o )
+[ 7 of 30] Compiling Data.Random.Distribution.Uniform ( src/Data/Random/Distribution/Uniform.hs, dist/build/Data/Random/Distribution/Uniform.p_o )
+
+src/Data/Random/Distribution/Uniform.hs:197:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: HasResolution r
+    • In the type signature for:
+           fixedUniform :: HasResolution r =>
+                           Fixed r -> Fixed r -> RVarT m (Fixed r)
+
+src/Data/Random/Distribution/Uniform.hs:259:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Eq a
+    • In the type signature for:
+           stdUniformNonneg :: (Distribution StdUniform a, Num a, Eq a) =>
+                               RVarT m a
+[ 8 of 30] Compiling Data.Random.List ( src/Data/Random/List.hs, dist/build/Data/Random/List.p_o )
+[ 9 of 30] Compiling Data.Random.Vector ( src/Data/Random/Vector.hs, dist/build/Data/Random/Vector.p_o )
+
+src/Data/Random/Vector.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Random/Vector.hs:10:15: warning: [-Wname-shadowing]
+    This binding for ‘words’ shadows the existing binding
+      imported from ‘Prelude’ at src/Data/Random/Vector.hs:1:8-25
+      (and originally defined in ‘base-4.9.0.0:Data.OldList’)
+[10 of 30] Compiling Data.Random.Distribution.Bernoulli ( src/Data/Random/Distribution/Bernoulli.hs, dist/build/Data/Random/Distribution/Bernoulli.p_o )
+
+src/Data/Random/Distribution/Bernoulli.hs:33:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Fractional a
+    • In the type signature for:
+           boolBernoulli :: (Fractional a, Ord a,
+                             Distribution StdUniform a) =>
+                            a -> RVarT m Bool
+[11 of 30] Compiling Data.Random.Distribution.Categorical ( src/Data/Random/Distribution/Categorical.hs, dist/build/Data/Random/Distribution/Categorical.p_o )
+
+src/Data/Random/Distribution/Categorical.hs:25:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Random/Distribution/Categorical.hs:241:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord p
+    • In the type signature for:
+           collectEvents :: (Ord e, Num p, Ord p) =>
+                            Categorical p e -> Categorical p e
+[12 of 30] Compiling Data.Random.Distribution.Exponential ( src/Data/Random/Distribution/Exponential.hs, dist/build/Data/Random/Distribution/Exponential.p_o )
+[13 of 30] Compiling Data.Random.Distribution.StretchedExponential ( src/Data/Random/Distribution/StretchedExponential.hs, dist/build/Data/Random/Distribution/StretchedExponential.p_o )
+[14 of 30] Compiling Data.Random.Distribution.Ziggurat ( src/Data/Random/Distribution/Ziggurat.hs, dist/build/Data/Random/Distribution/Ziggurat.p_o )
+[15 of 30] Compiling Data.Random.Distribution.Normal ( src/Data/Random/Distribution/Normal.hs, dist/build/Data/Random/Distribution/Normal.p_o )
+
+src/Data/Random/Distribution/Normal.hs:202:46: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:202:46-81
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:202:81
+    • In the expression: ((realToFrac x) - (realToFrac mu)) ^ 2
+      In the first argument of ‘(/)’, namely
+        ‘(- ((realToFrac x) - (realToFrac mu)) ^ 2)’
+      In the first argument of ‘exp’, namely
+        ‘((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))’
+
+src/Data/Random/Distribution/Normal.hs:204:14: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:204:14-31
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:204:31
+    • In the expression: realToFrac sigma ^ 2
+      In an equation for ‘sigma2’: sigma2 = realToFrac sigma ^ 2
+      In an equation for ‘normalPdf’:
+          normalPdf mu sigma x
+            = (recip (sqrt (2 * pi * sigma2)))
+              * (exp ((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2)))
+            where
+                sigma2 = realToFrac sigma ^ 2
+
+src/Data/Random/Distribution/Normal.hs:209:6: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:209:6-41
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:209:41
+    • In the expression: ((realToFrac x) - (realToFrac mu)) ^ 2
+      In the first argument of ‘(/)’, namely
+        ‘(- ((realToFrac x) - (realToFrac mu)) ^ 2)’
+      In the second argument of ‘(+)’, namely
+        ‘((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))’
+
+src/Data/Random/Distribution/Normal.hs:211:14: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:211:14-31
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:211:31
+    • In the expression: realToFrac sigma ^ 2
+      In an equation for ‘sigma2’: sigma2 = realToFrac sigma ^ 2
+      In an equation for ‘normalLogPdf’:
+          normalLogPdf mu sigma x
+            = log (recip (sqrt (2 * pi * sigma2)))
+              + ((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))
+            where
+                sigma2 = realToFrac sigma ^ 2
+
+src/Data/Random/Distribution/Normal.hs:236:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Floating a
+    • In the instance declaration for ‘PDF Normal a’
+[16 of 30] Compiling Data.Random.Distribution.Gamma ( src/Data/Random/Distribution/Gamma.hs, dist/build/Data/Random/Distribution/Gamma.p_o )
+[17 of 30] Compiling Data.Random.Distribution.Beta ( src/Data/Random/Distribution/Beta.hs, dist/build/Data/Random/Distribution/Beta.p_o )
+[18 of 30] Compiling Data.Random.Distribution.Binomial ( src/Data/Random/Distribution/Binomial.hs, dist/build/Data/Random/Distribution/Binomial.p_o )
+[19 of 30] Compiling Data.Random.Distribution.Multinomial ( src/Data/Random/Distribution/Multinomial.hs, dist/build/Data/Random/Distribution/Multinomial.p_o )
+[20 of 30] Compiling Data.Random.Distribution.ChiSquare ( src/Data/Random/Distribution/ChiSquare.hs, dist/build/Data/Random/Distribution/ChiSquare.p_o )
+[21 of 30] Compiling Data.Random.Distribution.Dirichlet ( src/Data/Random/Distribution/Dirichlet.hs, dist/build/Data/Random/Distribution/Dirichlet.p_o )
+[22 of 30] Compiling Data.Random.Distribution.Poisson ( src/Data/Random/Distribution/Poisson.hs, dist/build/Data/Random/Distribution/Poisson.p_o )
+[23 of 30] Compiling Data.Random.Distribution.Rayleigh ( src/Data/Random/Distribution/Rayleigh.hs, dist/build/Data/Random/Distribution/Rayleigh.p_o )
+[24 of 30] Compiling Data.Random.Distribution.Simplex ( src/Data/Random/Distribution/Simplex.hs, dist/build/Data/Random/Distribution/Simplex.p_o )
+
+src/Data/Random/Distribution/Simplex.hs:14:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+[25 of 30] Compiling Data.Random.Distribution.T ( src/Data/Random/Distribution/T.hs, dist/build/Data/Random/Distribution/T.p_o )
+[26 of 30] Compiling Data.Random.Distribution.Triangular ( src/Data/Random/Distribution/Triangular.hs, dist/build/Data/Random/Distribution/Triangular.p_o )
+[27 of 30] Compiling Data.Random.Distribution.Weibull ( src/Data/Random/Distribution/Weibull.hs, dist/build/Data/Random/Distribution/Weibull.p_o )
+[28 of 30] Compiling Data.Random.Sample ( src/Data/Random/Sample.hs, dist/build/Data/Random/Sample.p_o )
+[29 of 30] Compiling Data.Random      ( src/Data/Random.hs, dist/build/Data/Random.p_o )
+[30 of 30] Compiling Data.Random.Distribution.Pareto ( src/Data/Random/Distribution/Pareto.hs, dist/build/Data/Random/Distribution/Pareto.p_o )
+Running Haddock for random-fu-0.2.7.0...
+Preprocessing library random-fu-0.2.7.0...
+
+src/Data/Random/Distribution/Uniform.hs:197:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: HasResolution r
+    • In the type signature for:
+           fixedUniform :: HasResolution r =>
+                           Fixed r -> Fixed r -> RVarT m (Fixed r)
+
+src/Data/Random/Distribution/Uniform.hs:259:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Eq a
+    • In the type signature for:
+           stdUniformNonneg :: (Distribution StdUniform a, Num a, Eq a) =>
+                               RVarT m a
+
+src/Data/Random/Vector.hs:6:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Random/Vector.hs:10:15: warning: [-Wname-shadowing]
+    This binding for ‘words’ shadows the existing binding
+      imported from ‘Prelude’ at src/Data/Random/Vector.hs:1:8-25
+      (and originally defined in ‘base-4.9.0.0:Data.OldList’)
+
+src/Data/Random/Distribution/Bernoulli.hs:33:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Fractional a
+    • In the type signature for:
+           boolBernoulli :: (Fractional a, Ord a,
+                             Distribution StdUniform a) =>
+                            a -> RVarT m Bool
+
+src/Data/Random/Distribution/Categorical.hs:25:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/Random/Distribution/Categorical.hs:241:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord p
+    • In the type signature for:
+           collectEvents :: (Ord e, Num p, Ord p) =>
+                            Categorical p e -> Categorical p e
+
+src/Data/Random/Distribution/Normal.hs:202:46: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:202:46-81
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:202:81
+    • In the expression: ((realToFrac x) - (realToFrac mu)) ^ 2
+      In the first argument of ‘(/)’, namely
+        ‘(- ((realToFrac x) - (realToFrac mu)) ^ 2)’
+      In the first argument of ‘exp’, namely
+        ‘((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))’
+
+src/Data/Random/Distribution/Normal.hs:204:14: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:204:14-31
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:204:31
+    • In the expression: realToFrac sigma ^ 2
+      In an equation for ‘sigma2’: sigma2 = realToFrac sigma ^ 2
+      In an equation for ‘normalPdf’:
+          normalPdf mu sigma x
+            = (recip (sqrt (2 * pi * sigma2)))
+              * (exp ((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2)))
+            where
+                sigma2 = realToFrac sigma ^ 2
+
+src/Data/Random/Distribution/Normal.hs:209:6: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:209:6-41
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:209:41
+    • In the expression: ((realToFrac x) - (realToFrac mu)) ^ 2
+      In the first argument of ‘(/)’, namely
+        ‘(- ((realToFrac x) - (realToFrac mu)) ^ 2)’
+      In the second argument of ‘(+)’, namely
+        ‘((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))’
+
+src/Data/Random/Distribution/Normal.hs:211:14: warning: [-Wtype-defaults]
+    • Defaulting the following constraints to type ‘Integer’
+        (Integral b0)
+          arising from a use of ‘^’
+          at src/Data/Random/Distribution/Normal.hs:211:14-31
+        (Num b0)
+          arising from the literal ‘2’
+          at src/Data/Random/Distribution/Normal.hs:211:31
+    • In the expression: realToFrac sigma ^ 2
+      In an equation for ‘sigma2’: sigma2 = realToFrac sigma ^ 2
+      In an equation for ‘normalLogPdf’:
+          normalLogPdf mu sigma x
+            = log (recip (sqrt (2 * pi * sigma2)))
+              + ((- ((realToFrac x) - (realToFrac mu)) ^ 2) / (2 * sigma2))
+            where
+                sigma2 = realToFrac sigma ^ 2
+
+src/Data/Random/Distribution/Normal.hs:236:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Floating a
+    • In the instance declaration for ‘PDF Normal a’
+Haddock coverage:
+  50% (  2 /  4) in 'Data.Random.Internal.Find'
+  Missing documentation for:
+    Module header
+    findMax (src/Data/Random/Internal/Find.hs:9)
+  20% (  1 /  5) in 'Data.Random.Internal.Fixed'
+  Missing documentation for:
+    Module header
+    resolutionOf (src/Data/Random/Internal/Fixed.hs:24)
+    resolutionOf2 (src/Data/Random/Internal/Fixed.hs:27)
+    unMkFixed (src/Data/Random/Internal/Fixed.hs:43)
+ 100% (  4 /  4) in 'Data.Random.Internal.TH'
+  43% (  3 /  7) in 'Data.Random.Lift'
+  Missing documentation for:
+    Module header
+     (src/Data/Random/Lift.hs:31)
+     (src/Data/Random/Lift.hs:34)
+     (src/Data/Random/Lift.hs:43)
+  83% (  5 /  6) in 'Data.Random.RVar'
+  Missing documentation for:
+    Module header
+  25% (  1 /  4) in 'Data.Random.Distribution'
+  Missing documentation for:
+    Module header
+    PDF (src/Data/Random/Distribution.hs:64)
+    CDF (src/Data/Random/Distribution.hs:71)
+  80% ( 20 / 25) in 'Data.Random.Distribution.Uniform'
+  Missing documentation for:
+    Module header
+    uniform (src/Data/Random/Distribution/Uniform.hs:229)
+    uniformT (src/Data/Random/Distribution/Uniform.hs:235)
+    boundedStdUniformCDF (src/Data/Random/Distribution/Uniform.hs:109)
+    enumUniformCDF (src/Data/Random/Distribution/Uniform.hs:217)
+  44% (  4 /  9) in 'Data.Random.List'
+  Missing documentation for:
+    Module header
+    randomElementT (src/Data/Random/List.hs:16)
+    shuffleT (src/Data/Random/List.hs:27)
+    shuffleNT (src/Data/Random/List.hs:41)
+    shuffleNofMT (src/Data/Random/List.hs:48)
+  50% (  1 /  2) in 'Data.Random.Vector'
+  Missing documentation for:
+    Module header
+  10% (  4 / 40) in 'Data.Random.Distribution.Bernoulli'
+  Missing documentation for:
+    Module header
+    boolBernoulliCDF (src/Data/Random/Distribution/Bernoulli.hs:38)
+    generalBernoulliCDF (src/Data/Random/Distribution/Bernoulli.hs:49)
+    Bernoulli (src/Data/Random/Distribution/Bernoulli.hs:56)
+     (src/Data/Random/Distribution/Bernoulli.hs:58)
+     (src/Data/Random/Distribution/Bernoulli.hs:62)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:67)
+     (src/Data/Random/Distribution/Bernoulli.hs:78)
+     (src/Data/Random/Distribution/Bernoulli.hs:78)
+     (src/Data/Random/Distribution/Bernoulli.hs:78)
+     (src/Data/Random/Distribution/Bernoulli.hs:78)
+     (src/Data/Random/Distribution/Bernoulli.hs:89)
+     (src/Data/Random/Distribution/Bernoulli.hs:93)
+     (src/Data/Random/Distribution/Bernoulli.hs:97)
+     (src/Data/Random/Distribution/Bernoulli.hs:101)
+  75% ( 12 / 16) in 'Data.Random.Distribution.Categorical'
+  Missing documentation for:
+    Module header
+    toList (src/Data/Random/Distribution/Categorical.hs:62)
+    totalWeight (src/Data/Random/Distribution/Categorical.hs:68)
+    numEvents (src/Data/Random/Distribution/Categorical.hs:73)
+   0% (  0 /  8) in 'Data.Random.Distribution.Exponential'
+  Missing documentation for:
+    Module header
+    Exponential (src/Data/Random/Distribution/Exponential.hs:13)
+    floatingExponential (src/Data/Random/Distribution/Exponential.hs:15)
+    floatingExponentialCDF (src/Data/Random/Distribution/Exponential.hs:20)
+    exponential (src/Data/Random/Distribution/Exponential.hs:23)
+    exponentialT (src/Data/Random/Distribution/Exponential.hs:26)
+     (src/Data/Random/Distribution/Exponential.hs:29)
+     (src/Data/Random/Distribution/Exponential.hs:31)
+   0% (  0 /  8) in 'Data.Random.Distribution.StretchedExponential'
+  Missing documentation for:
+    Module header
+    StretchedExponential (src/Data/Random/Distribution/StretchedExponential.hs:13)
+    floatingStretchedExponential (src/Data/Random/Distribution/StretchedExponential.hs:15)
+    floatingStretchedExponentialCDF (src/Data/Random/Distribution/StretchedExponential.hs:20)
+    stretchedExponential (src/Data/Random/Distribution/StretchedExponential.hs:23)
+    stretchedExponentialT (src/Data/Random/Distribution/StretchedExponential.hs:26)
+     (src/Data/Random/Distribution/StretchedExponential.hs:29)
+     (src/Data/Random/Distribution/StretchedExponential.hs:31)
+ 100% (  7 /  7) in 'Data.Random.Distribution.Ziggurat'
+  92% ( 12 / 13) in 'Data.Random.Distribution.Normal'
+  Missing documentation for:
+    Module header
+  12% (  1 /  8) in 'Data.Random.Distribution.Gamma'
+  Missing documentation for:
+    Module header
+    Gamma (src/Data/Random/Distribution/Gamma.hs:74)
+    gamma (src/Data/Random/Distribution/Gamma.hs:62)
+    gammaT (src/Data/Random/Distribution/Gamma.hs:65)
+    Erlang (src/Data/Random/Distribution/Gamma.hs:75)
+    erlang (src/Data/Random/Distribution/Gamma.hs:68)
+    erlangT (src/Data/Random/Distribution/Gamma.hs:71)
+   0% (  0 / 10) in 'Data.Random.Distribution.Beta'
+  Missing documentation for:
+    Module header
+    fractionalBeta (src/Data/Random/Distribution/Beta.hs:21)
+    beta (src/Data/Random/Distribution/Beta.hs:30)
+    betaT (src/Data/Random/Distribution/Beta.hs:35)
+    Beta (src/Data/Random/Distribution/Beta.hs:38)
+    logBetaPdf (src/Data/Random/Distribution/Beta.hs:41)
+     (src/Data/Random/Distribution/Beta.hs:50)
+     (src/Data/Random/Distribution/Beta.hs:54)
+     (src/Data/Random/Distribution/Beta.hs:58)
+     (src/Data/Random/Distribution/Beta.hs:58)
+   4% (  2 / 51) in 'Data.Random.Distribution.Binomial'
+  Missing documentation for:
+    Module header
+    integralBinomial (src/Data/Random/Distribution/Binomial.hs:26)
+    integralBinomialCDF (src/Data/Random/Distribution/Binomial.hs:48)
+    floatingBinomial (src/Data/Random/Distribution/Binomial.hs:96)
+    floatingBinomialCDF (src/Data/Random/Distribution/Binomial.hs:99)
+    floatingBinomialPDF (src/Data/Random/Distribution/Binomial.hs:102)
+    floatingBinomialLogPDF (src/Data/Random/Distribution/Binomial.hs:105)
+    binomial (src/Data/Random/Distribution/Binomial.hs:116)
+    binomialT (src/Data/Random/Distribution/Binomial.hs:127)
+    Binomial (src/Data/Random/Distribution/Binomial.hs:130)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distri
+src/Data/Random/Distribution/Simplex.hs:14:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+bution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:132)
+     (src/Data/Random/Distribution/Binomial.hs:148)
+     (src/Data/Random/Distribution/Binomial.hs:148)
+     (src/Data/Random/Distribution/Binomial.hs:148)
+     (src/Data/Random/Distribution/Binomial.hs:148)
+     (src/Data/Random/Distribution/Binomial.hs:148)
+     (src/Data/Random/Distribution/Binomial.hs:148)
+   0% (  0 /  5) in 'Data.Random.Distribution.Multinomial'
+  Missing documentation for:
+    Module header
+    multinomial (src/Data/Random/Distribution/Multinomial.hs:8)
+    multinomialT (src/Data/Random/Distribution/Multinomial.hs:11)
+    Multinomial (src/Data/Random/Distribution/Multinomial.hs:14)
+     (src/Data/Random/Distribution/Multinomial.hs:17)
+   0% (  0 /  6) in 'Data.Random.Distribution.ChiSquare'
+  Missing documentation for:
+    Module header
+    chiSquare (src/Data/Random/Distribution/ChiSquare.hs:13)
+    chiSquareT (src/Data/Random/Distribution/ChiSquare.hs:16)
+    ChiSquare (src/Data/Random/Distribution/ChiSquare.hs:19)
+     (src/Data/Random/Distribution/ChiSquare.hs:21)
+     (src/Data/Random/Distribution/ChiSquare.hs:27)
+   0% (  0 /  6) in 'Data.Random.Distribution.Dirichlet'
+  Missing documentation for:
+    Module header
+    fractionalDirichlet (src/Data/Random/Distribution/Dirichlet.hs:15)
+    dirichlet (src/Data/Random/Distribution/Dirichlet.hs:24)
+    dirichletT (src/Data/Random/Distribution/Dirichlet.hs:27)
+    Dirichlet (src/Data/Random/Distribution/Dirichlet.hs:30)
+     (src/Data/Random/Distribution/Dirichlet.hs:32)
+   0% (  0 / 34) in 'Data.Random.Distribution.Poisson'
+  Missing documentation for:
+    Module header
+    integralPoisson (src/Data/Random/Distribution/Poisson.hs:20)
+    integralPoissonCDF (src/Data/Random/Distribution/Poisson.hs:45)
+    fractionalPoisson (src/Data/Random/Distribution/Poisson.hs:53)
+    fractionalPoissonCDF (src/Data/Random/Distribution/Poisson.hs:56)
+    poisson (src/Data/Random/Distribution/Poisson.hs:59)
+    poissonT (src/Data/Random/Distribution/Poisson.hs:62)
+    Poisson (src/Data/Random/Distribution/Poisson.hs:65)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:67)
+     (src/Data/Random/Distribution/Poisson.hs:78)
+     (src/Data/Random/Distribution/Poisson.hs:78)
+     (src/Data/Random/Distribution/Poisson.hs:78)
+     (src/Data/Random/Distribution/Poisson.hs:78)
+  12% (  1 /  8) in 'Data.Random.Distribution.Rayleigh'
+  Missing documentation for:
+    Module header
+    floatingRayleigh (src/Data/Random/Distribution/Rayleigh.hs:13)
+    rayleigh (src/Data/Random/Distribution/Rayleigh.hs:24)
+    rayleighT (src/Data/Random/Distribution/Rayleigh.hs:27)
+    rayleighCDF (src/Data/Random/Distribution/Rayleigh.hs:30)
+     (src/Data/Random/Distribution/Rayleigh.hs:33)
+     (src/Data/Random/Distribution/Rayleigh.hs:36)
+  60% (  3 /  5) in 'Data.Random.Distribution.Simplex'
+  Missing documentation for:
+    Module header
+    stdSimplexT (src/Data/Random/Distribution/Simplex.hs:39)
+   0% (  0 /  6) in 'Data.Random.Distribution.T'
+  Missing documentation for:
+    Module header
+    t (src/Data/Random/Distribution/T.hs:22)
+    tT (src/Data/Random/Distribution/T.hs:25)
+    T (src/Data/Random/Distribution/T.hs:28)
+     (src/Data/Random/Distribution/T.hs:31)
+     (src/Data/Random/Distribution/T.hs:39)
+  50% (  3 /  6) in 'Data.Random.Distribution.Triangular'
+  Missing documentation for:
+    Module header
+     (src/Data/Random/Distribution/Triangular.hs:56)
+     (src/Data/Random/Distribution/Triangular.hs:58)
+   0% (  0 /  4) in 'Data.Random.Distribution.Weibull'
+  Missing documentation for:
+    Module header
+    Weibull (src/Data/Random/Distribution/Weibull.hs:7)
+     (src/Data/Random/Distribution/Weibull.hs:10)
+     (src/Data/Random/Distribution/Weibull.hs:15)
+  57% (  4 /  7) in 'Data.Random.Sample'
+  Missing documentation for:
+    Module header
+     (src/Data/Random/Sample.hs:24)
+     (src/Data/Random/Sample.hs:28)
+  83% ( 34 / 41) in 'Data.Random'
+  Missing documentation for:
+    CDF (src/Data/Random/Distribution.hs:71)
+    PDF (src/Data/Random/Distribution.hs:64)
+    uniform (src/Data/Random/Distribution/Uniform.hs:229)
+    uniformT (src/Data/Random/Distribution/Uniform.hs:235)
+    Gamma (src/Data/Random/Distribution/Gamma.hs:74)
+    gamma (src/Data/Random/Distribution/Gamma.hs:62)
+    gammaT (src/Data/Random/Distribution/Gamma.hs:65)
+   0% (  0 /  6) in 'Data.Random.Distribution.Pareto'
+  Missing documentation for:
+    Module header
+    pareto (src/Data/Random/Distribution/Pareto.hs:9)
+    paretoT (src/Data/Random/Distribution/Pareto.hs:12)
+    Pareto (src/Data/Random/Distribution/Pareto.hs:15)
+     (src/Data/Random/Distribution/Pareto.hs:17)
+     (src/Data/Random/Distribution/Pareto.hs:22)
+Warning: Data.Random.Distribution.Normal: could not find link destinations for:
+    normalF
+Documentation created: dist/doc/html/random-fu/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-random-fu-0.2.7837204200578134256.0
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/random-fu-0.2.7.0
+Registering random-fu-0.2.7.0...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/random-fu-0.2.7.0'

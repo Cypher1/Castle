@@ -1,0 +1,29 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/random-shuffle-0.0.4'
+Configuring random-shuffle-0.0.4...
+Building random-shuffle-0.0.4...
+Preprocessing library random-shuffle-0.0.4...
+[1 of 1] Compiling System.Random.Shuffle ( src/System/Random/Shuffle.hs, dist/build/System/Random/Shuffle.o )
+
+src/System/Random/Shuffle.hs:59:1: warning: [-Wtabs]
+    Tab character found here, and in 10 further locations.
+    Please use spaces instead.
+[1 of 1] Compiling System.Random.Shuffle ( src/System/Random/Shuffle.hs, dist/build/System/Random/Shuffle.p_o )
+
+src/System/Random/Shuffle.hs:59:1: warning: [-Wtabs]
+    Tab character found here, and in 10 further locations.
+    Please use spaces instead.
+Running Haddock for random-shuffle-0.0.4...
+Preprocessing library random-shuffle-0.0.4...
+
+src/System/Random/Shuffle.hs:59:1: warning: [-Wtabs]
+    Tab character found here, and in 10 further locations.
+    Please use spaces instead.
+Haddock coverage:
+ 100% (  4 /  4) in 'System.Random.Shuffle'
+Documentation created: dist/doc/html/random-shuffle/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-random-shuffle-0.01828087692621301815.4
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/random-shuffle-0.0.4
+Registering random-shuffle-0.0.4...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/random-shuffle-0.0.4'

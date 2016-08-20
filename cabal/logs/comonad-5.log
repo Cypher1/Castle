@@ -1,0 +1,118 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3207/comonad-5'
+[1 of 1] Compiling Main             ( /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3207/comonad-5/dist/setup/setup.hs, /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3207/comonad-5/dist/setup/Main.o )
+Linking /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3207/comonad-5/dist/setup/setup ...
+Configuring comonad-5...
+Building comonad-5...
+Preprocessing library comonad-5...
+[ 1 of 15] Compiling Data.Functor.Composition ( src/Data/Functor/Composition.hs, dist/build/Data/Functor/Composition.o )
+[ 2 of 15] Compiling Control.Comonad.Trans.Identity ( src/Control/Comonad/Trans/Identity.hs, dist/build/Control/Comonad/Trans/Identity.o )
+[ 3 of 15] Compiling Control.Comonad  ( src/Control/Comonad.hs, dist/build/Control/Comonad.o )
+[ 4 of 15] Compiling Control.Comonad.Trans.Class ( src/Control/Comonad/Trans/Class.hs, dist/build/Control/Comonad/Trans/Class.o )
+[ 5 of 15] Compiling Control.Comonad.Hoist.Class ( src/Control/Comonad/Hoist/Class.hs, dist/build/Control/Comonad/Hoist/Class.o )
+[ 6 of 15] Compiling Control.Comonad.Trans.Env ( src/Control/Comonad/Trans/Env.hs, dist/build/Control/Comonad/Trans/Env.o )
+[ 7 of 15] Compiling Control.Comonad.Trans.Store ( src/Control/Comonad/Trans/Store.hs, dist/build/Control/Comonad/Trans/Store.o )
+[ 8 of 15] Compiling Control.Comonad.Trans.Traced ( src/Control/Comonad/Trans/Traced.hs, dist/build/Control/Comonad/Trans/Traced.o )
+[ 9 of 15] Compiling Control.Comonad.Env.Class ( src/Control/Comonad/Env/Class.hs, dist/build/Control/Comonad/Env/Class.o )
+[10 of 15] Compiling Control.Comonad.Env ( src/Control/Comonad/Env.hs, dist/build/Control/Comonad/Env.o )
+[11 of 15] Compiling Control.Comonad.Identity ( src/Control/Comonad/Identity.hs, dist/build/Control/Comonad/Identity.o )
+[12 of 15] Compiling Control.Comonad.Store.Class ( src/Control/Comonad/Store/Class.hs, dist/build/Control/Comonad/Store/Class.o )
+[13 of 15] Compiling Control.Comonad.Store ( src/Control/Comonad/Store.hs, dist/build/Control/Comonad/Store.o )
+[14 of 15] Compiling Control.Comonad.Traced.Class ( src/Control/Comonad/Traced/Class.hs, dist/build/Control/Comonad/Traced/Class.o )
+[15 of 15] Compiling Control.Comonad.Traced ( src/Control/Comonad/Traced.hs, dist/build/Control/Comonad/Traced.o )
+[ 1 of 15] Compiling Data.Functor.Composition ( src/Data/Functor/Composition.hs, dist/build/Data/Functor/Composition.p_o )
+[ 2 of 15] Compiling Control.Comonad.Trans.Identity ( src/Control/Comonad/Trans/Identity.hs, dist/build/Control/Comonad/Trans/Identity.p_o )
+[ 3 of 15] Compiling Control.Comonad  ( src/Control/Comonad.hs, dist/build/Control/Comonad.p_o )
+[ 4 of 15] Compiling Control.Comonad.Trans.Class ( src/Control/Comonad/Trans/Class.hs, dist/build/Control/Comonad/Trans/Class.p_o )
+[ 5 of 15] Compiling Control.Comonad.Hoist.Class ( src/Control/Comonad/Hoist/Class.hs, dist/build/Control/Comonad/Hoist/Class.p_o )
+[ 6 of 15] Compiling Control.Comonad.Trans.Env ( src/Control/Comonad/Trans/Env.hs, dist/build/Control/Comonad/Trans/Env.p_o )
+[ 7 of 15] Compiling Control.Comonad.Trans.Store ( src/Control/Comonad/Trans/Store.hs, dist/build/Control/Comonad/Trans/Store.p_o )
+[ 8 of 15] Compiling Control.Comonad.Trans.Traced ( src/Control/Comonad/Trans/Traced.hs, dist/build/Control/Comonad/Trans/Traced.p_o )
+[ 9 of 15] Compiling Control.Comonad.Env.Class ( src/Control/Comonad/Env/Class.hs, dist/build/Control/Comonad/Env/Class.p_o )
+[10 of 15] Compiling Control.Comonad.Env ( src/Control/Comonad/Env.hs, dist/build/Control/Comonad/Env.p_o )
+[11 of 15] Compiling Control.Comonad.Identity ( src/Control/Comonad/Identity.hs, dist/build/Control/Comonad/Identity.p_o )
+[12 of 15] Compiling Control.Comonad.Store.Class ( src/Control/Comonad/Store/Class.hs, dist/build/Control/Comonad/Store/Class.p_o )
+[13 of 15] Compiling Control.Comonad.Store ( src/Control/Comonad/Store.hs, dist/build/Control/Comonad/Store.p_o )
+[14 of 15] Compiling Control.Comonad.Traced.Class ( src/Control/Comonad/Traced/Class.hs, dist/build/Control/Comonad/Traced/Class.p_o )
+[15 of 15] Compiling Control.Comonad.Traced ( src/Control/Comonad/Traced.hs, dist/build/Control/Comonad/Traced.p_o )
+Running Haddock for comonad-5...
+Preprocessing library comonad-5...
+Haddock coverage:
+  50% (  1 /  2) in 'Data.Functor.Composition'
+  Missing documentation for:
+    Module header
+ 100% (  2 /  2) in 'Control.Comonad.Trans.Identity'
+ 100% ( 22 / 22) in 'Control.Comonad'
+  50% (  1 /  2) in 'Control.Comonad.Trans.Class'
+  Missing documentation for:
+    ComonadTrans (src/Control/Comonad/Trans/Class.hs:23)
+  50% (  1 /  2) in 'Control.Comonad.Hoist.Class'
+  Missing documentation for:
+    ComonadHoist (src/Control/Comonad/Hoist/Class.hs:19)
+  69% (  9 / 13) in 'Control.Comonad.Trans.Env'
+  Missing documentation for:
+    Env (src/Control/Comonad/Trans/Env.hs:133)
+    runEnv (src/Control/Comonad/Trans/Env.hs:140)
+    EnvT (src/Control/Comonad/Trans/Env.hs:134)
+    runEnvT (src/Control/Comonad/Trans/Env.hs:143)
+  73% ( 11 / 15) in 'Control.Comonad.Trans.Store'
+  Missing documentation for:
+    Store (src/Control/Comonad/Trans/Store.hs:118)
+    runStore (src/Control/Comonad/Trans/Store.hs:124)
+    StoreT (src/Control/Comonad/Trans/Store.hs:127)
+    runStoreT (src/Control/Comonad/Trans/Store.hs:129)
+  33% (  4 / 12) in 'Control.Comonad.Trans.Traced'
+  Missing documentation for:
+    Traced (src/Control/Comonad/Trans/Traced.hs:65)
+    traced (src/Control/Comonad/Trans/Traced.hs:67)
+    runTraced (src/Control/Comonad/Trans/Traced.hs:70)
+    TracedT (src/Control/Comonad/Trans/Traced.hs:73)
+    trace (src/Control/Comonad/Trans/Traced.hs:100)
+    listen (src/Control/Comonad/Trans/Traced.hs:103)
+    listens (src/Control/Comonad/Trans/Traced.hs:106)
+    censor (src/Control/Comonad/Trans/Traced.hs:109)
+  33% (  1 /  3) in 'Control.Comonad.Env.Class'
+  Missing documentation for:
+    ComonadEnv (src/Control/Comonad/Env/Class.hs:34)
+    asks (src/Control/Comonad/Env/Class.hs:37)
+  60% (  9 / 15) in 'Control.Comonad.Env'
+  Missing documentation for:
+    ComonadEnv (src/Control/Comonad/Env/Class.hs:34)
+    asks (src/Control/Comonad/Env/Class.hs:37)
+    Env (src/Control/Comonad/Trans/Env.hs:133)
+    runEnv (src/Control/Comonad/Trans/Env.hs:140)
+    EnvT (src/Control/Comonad/Trans/Env.hs:134)
+    runEnvT (src/Control/Comonad/Trans/Env.hs:143)
+ 100% (  4 /  4) in 'Control.Comonad.Identity'
+  25% (  1 /  4) in 'Control.Comonad.Store.Class'
+  Missing documentation for:
+    ComonadStore (src/Control/Comonad/Store/Class.hs:35)
+    lowerPos (src/Control/Comonad/Store/Class.hs:59)
+    lowerPeek (src/Control/Comonad/Store/Class.hs:63)
+  62% (  8 / 13) in 'Control.Comonad.Store'
+  Missing documentation for:
+    ComonadStore (src/Control/Comonad/Store/Class.hs:35)
+    Store (src/Control/Comonad/Trans/Store.hs:118)
+    runStore (src/Control/Comonad/Trans/Store.hs:124)
+    StoreT (src/Control/Comonad/Trans/Store.hs:127)
+    runStoreT (src/Control/Comonad/Trans/Store.hs:129)
+  33% (  1 /  3) in 'Control.Comonad.Traced.Class'
+  Missing documentation for:
+    ComonadTraced (src/Control/Comonad/Traced/Class.hs:34)
+    traces (src/Control/Comonad/Traced/Class.hs:37)
+  57% (  8 / 14) in 'Control.Comonad.Traced'
+  Missing documentation for:
+    ComonadTraced (src/Control/Comonad/Traced/Class.hs:34)
+    traces (src/Control/Comonad/Traced/Class.hs:37)
+    Traced (src/Control/Comonad/Trans/Traced.hs:65)
+    traced (src/Control/Comonad/Trans/Traced.hs:67)
+    runTraced (src/Control/Comonad/Trans/Traced.hs:70)
+    TracedT (src/Control/Comonad/Trans/Traced.hs:73)
+Warning: Control.Comonad: could not find link destinations for:
+    Id Digit Node Elem FingerTree StateL StateR State
+Documentation created: dist/doc/html/comonad/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-comonad-59449758251567121210
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/comonad-5
+Registering comonad-5...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3207/comonad-5'

@@ -1,0 +1,22 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/MonadPrompt-1.0.0.5'
+Configuring MonadPrompt-1.0.0.5...
+Building MonadPrompt-1.0.0.5...
+Preprocessing library MonadPrompt-1.0.0.5...
+[1 of 1] Compiling Control.Monad.Prompt ( Control/Monad/Prompt.hs, dist/build/Control/Monad/Prompt.o )
+[1 of 1] Compiling Control.Monad.Prompt ( Control/Monad/Prompt.hs, dist/build/Control/Monad/Prompt.p_o )
+Running Haddock for MonadPrompt-1.0.0.5...
+Preprocessing library MonadPrompt-1.0.0.5...
+Haddock coverage:
+  81% ( 17 / 21) in 'Control.Monad.Prompt'
+  Missing documentation for:
+    Prompt (Control/Monad/Prompt.hs:88)
+    unRecPrompt (Control/Monad/Prompt.hs:157)
+    unPromptT (Control/Monad/Prompt.hs:199)
+    unRecPromptT (Control/Monad/Prompt.hs:257)
+Documentation created: dist/doc/html/MonadPrompt/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-MonadPrompt-1.0.021463194511908194298.5
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/MonadPrompt-1.0.0.5
+Registering MonadPrompt-1.0.0.5...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/MonadPrompt-1.0.0.5'

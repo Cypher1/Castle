@@ -1,0 +1,53 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3208/bytes-0.15.2'
+[1 of 1] Compiling Main             ( /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3208/bytes-0.15.2/dist/setup/setup.hs, /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3208/bytes-0.15.2/dist/setup/Main.o )
+Linking /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3208/bytes-0.15.2/dist/setup/setup ...
+Configuring bytes-0.15.2...
+Building bytes-0.15.2...
+Preprocessing library bytes-0.15.2...
+[1 of 5] Compiling Data.Bytes.Signed ( src/Data/Bytes/Signed.hs, dist/build/Data/Bytes/Signed.o )
+[2 of 5] Compiling Data.Bytes.VarInt ( src/Data/Bytes/VarInt.hs, dist/build/Data/Bytes/VarInt.o )
+[3 of 5] Compiling Data.Bytes.Put   ( src/Data/Bytes/Put.hs, dist/build/Data/Bytes/Put.o )
+[4 of 5] Compiling Data.Bytes.Get   ( src/Data/Bytes/Get.hs, dist/build/Data/Bytes/Get.o )
+[5 of 5] Compiling Data.Bytes.Serial ( src/Data/Bytes/Serial.hs, dist/build/Data/Bytes/Serial.o )
+[1 of 5] Compiling Data.Bytes.Signed ( src/Data/Bytes/Signed.hs, dist/build/Data/Bytes/Signed.p_o )
+[2 of 5] Compiling Data.Bytes.VarInt ( src/Data/Bytes/VarInt.hs, dist/build/Data/Bytes/VarInt.p_o )
+[3 of 5] Compiling Data.Bytes.Put   ( src/Data/Bytes/Put.hs, dist/build/Data/Bytes/Put.p_o )
+[4 of 5] Compiling Data.Bytes.Get   ( src/Data/Bytes/Get.hs, dist/build/Data/Bytes/Get.p_o )
+[5 of 5] Compiling Data.Bytes.Serial ( src/Data/Bytes/Serial.hs, dist/build/Data/Bytes/Serial.p_o )
+Running Haddock for bytes-0.15.2...
+Preprocessing library bytes-0.15.2...
+Haddock coverage:
+  20% (  1 /  5) in 'Data.Bytes.Signed'
+  Missing documentation for:
+    Unsigned (src/Data/Bytes/Signed.hs:22)
+    unsigned (src/Data/Bytes/Signed.hs:37)
+    Signed (src/Data/Bytes/Signed.hs:40)
+    signed (src/Data/Bytes/Signed.hs:54)
+  50% (  1 /  2) in 'Data.Bytes.VarInt'
+  Missing documentation for:
+    VarInt (src/Data/Bytes/VarInt.hs:29)
+  75% (  3 /  4) in 'Data.Bytes.Put'
+  Missing documentation for:
+    MonadPut (src/Data/Bytes/Put.hs:50)
+  75% (  3 /  4) in 'Data.Bytes.Get'
+  Missing documentation for:
+    MonadGet (src/Data/Bytes/Get.hs:46)
+  71% ( 15 / 21) in 'Data.Bytes.Serial'
+  Missing documentation for:
+    Serial1 (src/Data/Bytes/Serial.hs:661)
+    serialize1 (src/Data/Bytes/Serial.hs:734)
+    deserialize1 (src/Data/Bytes/Serial.hs:738)
+    Serial2 (src/Data/Bytes/Serial.hs:797)
+    serialize2 (src/Data/Bytes/Serial.hs:801)
+    deserialize2 (src/Data/Bytes/Serial.hs:805)
+Warning: Data.Bytes.Put: could not find link destinations for:
+    ~
+Warning: Data.Bytes.Get: could not find link destinations for:
+    ~
+Documentation created: dist/doc/html/bytes/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-bytes-0.15222122669889119397.2
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/bytes-0.15.2
+Registering bytes-0.15.2...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3208/bytes-0.15.2'

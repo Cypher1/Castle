@@ -1,0 +1,184 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/random-source-0.3.0.6'
+Configuring random-source-0.3.0.6...
+Building random-source-0.3.0.6...
+Preprocessing library random-source-0.3.0.6...
+[ 1 of 11] Compiling Data.Random.Source.Internal.Prim ( src/Data/Random/Source/Internal/Prim.hs, dist/build/Data/Random/Source/Internal/Prim.o )
+[ 2 of 11] Compiling Data.Random.Internal.Words ( src/Data/Random/Internal/Words.hs, dist/build/Data/Random/Internal/Words.o )
+[ 3 of 11] Compiling Data.Random.Internal.Source ( src/Data/Random/Internal/Source.hs, dist/build/Data/Random/Internal/Source.o )
+
+src/Data/Random/Internal/Source.hs:74:5: warning: [-Wredundant-constraints]
+    • Redundant constraint: MonadRandom m
+    • In the type signature for:
+           getRandomNByteInteger :: (MonadRandom m, MonadRandom m) =>
+                                    Int -> m Integer
+      In the ambiguity check for ‘getRandomNByteInteger’
+      To defer the ambiguity check to use sites, enable AllowAmbiguousTypes
+      When checking the class method:
+        getRandomNByteInteger :: forall (m :: * -> *).
+                                 (MonadRandom m, MonadRandom m) =>
+                                 Int -> m Integer
+[ 4 of 11] Compiling Data.Random.Source.Internal.TH ( src/Data/Random/Source/Internal/TH.hs, dist/build/Data/Random/Source/Internal/TH.o )
+
+src/Data/Random/Source/Internal/TH.hs:85:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘requireMethod’
+
+src/Data/Random/Source/Internal/TH.hs:93:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘score’
+
+src/Data/Random/Source/Internal/TH.hs:104:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘inline’
+
+src/Data/Random/Source/Internal/TH.hs:107:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘noinline’
+
+src/Data/Random/Source/Internal/TH.hs:110:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘replaceMethodName’
+[ 5 of 11] Compiling Data.Random.Source.PureMT ( src/Data/Random/Source/PureMT.hs, dist/build/Data/Random/Source/PureMT.o )
+
+src/Data/Random/Source/PureMT.hs:35:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           withMTRef :: (Monad m, ModifyRef sr m PureMT) =>
+                        (PureMT -> (t, PureMT)) -> sr -> m t
+[ 6 of 11] Compiling Data.Random.Source.Std ( src/Data/Random/Source/Std.hs, dist/build/Data/Random/Source/Std.o )
+[ 7 of 11] Compiling Data.Random.Source.StdGen ( src/Data/Random/Source/StdGen.hs, dist/build/Data/Random/Source/StdGen.o )
+
+src/Data/Random/Source/StdGen.hs:68:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           getRandomPrimFromRandomGenRef :: (Monad m, ModifyRef sr m g,
+                                             RandomGen g) =>
+                                            sr -> Prim a -> m a
+[ 8 of 11] Compiling Data.Random.Source ( src/Data/Random/Source.hs, dist/build/Data/Random/Source.o )
+[ 9 of 11] Compiling Data.Random.Source.DevRandom ( src/Data/Random/Source/DevRandom.hs, dist/build/Data/Random/Source/DevRandom.o )
+[10 of 11] Compiling Data.Random.Source.IO ( src/Data/Random/Source/IO.hs, dist/build/Data/Random/Source/IO.o )
+[11 of 11] Compiling Data.Random.Source.MWC ( src/Data/Random/Source/MWC.hs, dist/build/Data/Random/Source/MWC.o )
+[ 1 of 11] Compiling Data.Random.Source.Internal.Prim ( src/Data/Random/Source/Internal/Prim.hs, dist/build/Data/Random/Source/Internal/Prim.p_o )
+[ 2 of 11] Compiling Data.Random.Internal.Words ( src/Data/Random/Internal/Words.hs, dist/build/Data/Random/Internal/Words.p_o )
+[ 3 of 11] Compiling Data.Random.Internal.Source ( src/Data/Random/Internal/Source.hs, dist/build/Data/Random/Internal/Source.p_o )
+
+src/Data/Random/Internal/Source.hs:74:5: warning: [-Wredundant-constraints]
+    • Redundant constraint: MonadRandom m
+    • In the type signature for:
+           getRandomNByteInteger :: (MonadRandom m, MonadRandom m) =>
+                                    Int -> m Integer
+      In the ambiguity check for ‘getRandomNByteInteger’
+      To defer the ambiguity check to use sites, enable AllowAmbiguousTypes
+      When checking the class method:
+        getRandomNByteInteger :: forall (m :: * -> *).
+                                 (MonadRandom m, MonadRandom m) =>
+                                 Int -> m Integer
+[ 4 of 11] Compiling Data.Random.Source.Internal.TH ( src/Data/Random/Source/Internal/TH.hs, dist/build/Data/Random/Source/Internal/TH.p_o )
+
+src/Data/Random/Source/Internal/TH.hs:85:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘requireMethod’
+
+src/Data/Random/Source/Internal/TH.hs:93:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘score’
+
+src/Data/Random/Source/Internal/TH.hs:104:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘inline’
+
+src/Data/Random/Source/Internal/TH.hs:107:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘noinline’
+
+src/Data/Random/Source/Internal/TH.hs:110:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘replaceMethodName’
+[ 5 of 11] Compiling Data.Random.Source.PureMT ( src/Data/Random/Source/PureMT.hs, dist/build/Data/Random/Source/PureMT.p_o )
+
+src/Data/Random/Source/PureMT.hs:35:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           withMTRef :: (Monad m, ModifyRef sr m PureMT) =>
+                        (PureMT -> (t, PureMT)) -> sr -> m t
+[ 6 of 11] Compiling Data.Random.Source.Std ( src/Data/Random/Source/Std.hs, dist/build/Data/Random/Source/Std.p_o )
+[ 7 of 11] Compiling Data.Random.Source.StdGen ( src/Data/Random/Source/StdGen.hs, dist/build/Data/Random/Source/StdGen.p_o )
+
+src/Data/Random/Source/StdGen.hs:68:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           getRandomPrimFromRandomGenRef :: (Monad m, ModifyRef sr m g,
+                                             RandomGen g) =>
+                                            sr -> Prim a -> m a
+[ 8 of 11] Compiling Data.Random.Source ( src/Data/Random/Source.hs, dist/build/Data/Random/Source.p_o )
+[ 9 of 11] Compiling Data.Random.Source.DevRandom ( src/Data/Random/Source/DevRandom.hs, dist/build/Data/Random/Source/DevRandom.p_o )
+[10 of 11] Compiling Data.Random.Source.IO ( src/Data/Random/Source/IO.hs, dist/build/Data/Random/Source/IO.p_o )
+[11 of 11] Compiling Data.Random.Source.MWC ( src/Data/Random/Source/MWC.hs, dist/build/Data/Random/Source/MWC.p_o )
+Running Haddock for random-source-0.3.0.6...
+Preprocessing library random-source-0.3.0.6...
+
+src/Data/Random/Internal/Source.hs:74:5: warning: [-Wredundant-constraints]
+    • Redundant constraint: MonadRandom m
+    • In the type signature for:
+           getRandomNByteInteger :: (MonadRandom m, MonadRandom m) =>
+                                    Int -> m Integer
+      In the ambiguity check for ‘getRandomNByteInteger’
+      To defer the ambiguity check to use sites, enable AllowAmbiguousTypes
+      When checking the class method:
+        getRandomNByteInteger :: forall (m :: * -> *).
+                                 (MonadRandom m, MonadRandom m) =>
+                                 Int -> m Integer
+
+src/Data/Random/Source/Internal/TH.hs:85:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘requireMethod’
+
+src/Data/Random/Source/Internal/TH.hs:93:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘score’
+
+src/Data/Random/Source/Internal/TH.hs:104:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘inline’
+
+src/Data/Random/Source/Internal/TH.hs:107:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘noinline’
+
+src/Data/Random/Source/Internal/TH.hs:110:1: warning: [-Wunused-top-binds]
+    Defined but not used: ‘replaceMethodName’
+
+src/Data/Random/Source/PureMT.hs:35:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           withMTRef :: (Monad m, ModifyRef sr m PureMT) =>
+                        (PureMT -> (t, PureMT)) -> sr -> m t
+
+src/Data/Random/Source/StdGen.hs:68:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: Monad m
+    • In the type signature for:
+           getRandomPrimFromRandomGenRef :: (Monad m, ModifyRef sr m g,
+                                             RandomGen g) =>
+                                            sr -> Prim a -> m a
+Haddock coverage:
+ 100% (  2 /  2) in 'Data.Random.Source.Internal.Prim'
+  79% ( 11 / 14) in 'Data.Random.Internal.Words'
+  Missing documentation for:
+    buildWord32' (src/Data/Random/Internal/Words.hs:44)
+    buildWord64' (src/Data/Random/Internal/Words.hs:71)
+    buildWord64'' (src/Data/Random/Internal/Words.hs:81)
+  80% (  4 /  5) in 'Data.Random.Internal.Source'
+  Missing documentation for:
+    Module header
+  67% (  2 /  3) in 'Data.Random.Source.Internal.TH'
+  Missing documentation for:
+    Module header
+ 100% (  5 /  5) in 'Data.Random.Source.PureMT'
+  33% (  1 /  3) in 'Data.Random.Source.Std'
+  Missing documentation for:
+    Module header
+     (src/Data/Random/Source/Std.hs:18)
+  86% (  6 /  7) in 'Data.Random.Source.StdGen'
+  Missing documentation for:
+    getRandomPrimFromStdGenIO (src/Data/Random/Source/StdGen.hs:56)
+  80% (  4 /  5) in 'Data.Random.Source'
+  Missing documentation for:
+    Module header
+  50% (  1 /  2) in 'Data.Random.Source.DevRandom'
+  Missing documentation for:
+    Module header
+ 100% (  1 /  1) in 'Data.Random.Source.IO'
+ 100% (  7 /  7) in 'Data.Random.Source.MWC'
+Documentation created: dist/doc/html/random-source/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-random-source-0.3.015320627671049997439.6
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/random-source-0.3.0.6
+Registering random-source-0.3.0.6...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/random-source-0.3.0.6'

@@ -1,0 +1,69 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-9367/extra-1.4.10'
+Configuring extra-1.4.10...
+Building extra-1.4.10...
+Preprocessing library extra-1.4.10...
+[ 1 of 17] Compiling System.Info.Extra ( src/System/Info/Extra.hs, dist/build/System/Info/Extra.o )
+[ 2 of 17] Compiling System.Environment.Extra ( src/System/Environment/Extra.hs, dist/build/System/Environment/Extra.o )
+[ 3 of 17] Compiling Numeric.Extra    ( src/Numeric/Extra.hs, dist/build/Numeric/Extra.o )
+[ 4 of 17] Compiling Data.Typeable.Extra ( src/Data/Typeable/Extra.hs, dist/build/Data/Typeable/Extra.o )
+[ 5 of 17] Compiling Data.Tuple.Extra ( src/Data/Tuple/Extra.hs, dist/build/Data/Tuple/Extra.o )
+[ 6 of 17] Compiling Data.List.Extra  ( src/Data/List/Extra.hs, dist/build/Data/List/Extra.o )
+[ 7 of 17] Compiling Data.Version.Extra ( src/Data/Version/Extra.hs, dist/build/Data/Version/Extra.o )
+[ 8 of 17] Compiling Data.IORef.Extra ( src/Data/IORef/Extra.hs, dist/build/Data/IORef/Extra.o )
+[ 9 of 17] Compiling Data.Either.Extra ( src/Data/Either/Extra.hs, dist/build/Data/Either/Extra.o )
+[10 of 17] Compiling Control.Monad.Extra ( src/Control/Monad/Extra.hs, dist/build/Control/Monad/Extra.o )
+[11 of 17] Compiling System.Directory.Extra ( src/System/Directory/Extra.hs, dist/build/System/Directory/Extra.o )
+[12 of 17] Compiling Control.Exception.Extra ( src/Control/Exception/Extra.hs, dist/build/Control/Exception/Extra.o )
+[13 of 17] Compiling System.Time.Extra ( src/System/Time/Extra.hs, dist/build/System/Time/Extra.o )
+[14 of 17] Compiling Control.Concurrent.Extra ( src/Control/Concurrent/Extra.hs, dist/build/Control/Concurrent/Extra.o )
+[15 of 17] Compiling System.IO.Extra  ( src/System/IO/Extra.hs, dist/build/System/IO/Extra.o )
+[16 of 17] Compiling System.Process.Extra ( src/System/Process/Extra.hs, dist/build/System/Process/Extra.o )
+[17 of 17] Compiling Extra            ( src/Extra.hs, dist/build/Extra.o )
+[ 1 of 17] Compiling System.Info.Extra ( src/System/Info/Extra.hs, dist/build/System/Info/Extra.p_o )
+[ 2 of 17] Compiling System.Environment.Extra ( src/System/Environment/Extra.hs, dist/build/System/Environment/Extra.p_o )
+[ 3 of 17] Compiling Numeric.Extra    ( src/Numeric/Extra.hs, dist/build/Numeric/Extra.p_o )
+[ 4 of 17] Compiling Data.Typeable.Extra ( src/Data/Typeable/Extra.hs, dist/build/Data/Typeable/Extra.p_o )
+[ 5 of 17] Compiling Data.Tuple.Extra ( src/Data/Tuple/Extra.hs, dist/build/Data/Tuple/Extra.p_o )
+[ 6 of 17] Compiling Data.List.Extra  ( src/Data/List/Extra.hs, dist/build/Data/List/Extra.p_o )
+[ 7 of 17] Compiling Data.Version.Extra ( src/Data/Version/Extra.hs, dist/build/Data/Version/Extra.p_o )
+[ 8 of 17] Compiling Data.IORef.Extra ( src/Data/IORef/Extra.hs, dist/build/Data/IORef/Extra.p_o )
+[ 9 of 17] Compiling Data.Either.Extra ( src/Data/Either/Extra.hs, dist/build/Data/Either/Extra.p_o )
+[10 of 17] Compiling Control.Monad.Extra ( src/Control/Monad/Extra.hs, dist/build/Control/Monad/Extra.p_o )
+[11 of 17] Compiling System.Directory.Extra ( src/System/Directory/Extra.hs, dist/build/System/Directory/Extra.p_o )
+[12 of 17] Compiling Control.Exception.Extra ( src/Control/Exception/Extra.hs, dist/build/Control/Exception/Extra.p_o )
+[13 of 17] Compiling System.Time.Extra ( src/System/Time/Extra.hs, dist/build/System/Time/Extra.p_o )
+[14 of 17] Compiling Control.Concurrent.Extra ( src/Control/Concurrent/Extra.hs, dist/build/Control/Concurrent/Extra.p_o )
+[15 of 17] Compiling System.IO.Extra  ( src/System/IO/Extra.hs, dist/build/System/IO/Extra.p_o )
+[16 of 17] Compiling System.Process.Extra ( src/System/Process/Extra.hs, dist/build/System/Process/Extra.p_o )
+[17 of 17] Compiling Extra            ( src/Extra.hs, dist/build/Extra.p_o )
+Running Haddock for extra-1.4.10...
+Preprocessing library extra-1.4.10...
+Haddock coverage:
+ 100% (  4 /  4) in 'System.Info.Extra'
+ 100% (  4 /  4) in 'System.Environment.Extra'
+ 100% (  7 /  7) in 'Numeric.Extra'
+ 100% (  5 /  5) in 'Data.Typeable.Extra'
+ 100% ( 14 / 14) in 'Data.Tuple.Extra'
+ 100% ( 58 / 58) in 'Data.List.Extra'
+ 100% (  4 /  4) in 'Data.Version.Extra'
+ 100% (  7 /  7) in 'Data.IORef.Extra'
+ 100% (  7 /  7) in 'Data.Either.Extra'
+ 100% ( 29 / 29) in 'Control.Monad.Extra'
+ 100% (  7 /  7) in 'System.Directory.Extra'
+ 100% ( 19 / 19) in 'Control.Exception.Extra'
+ 100% (  9 /  9) in 'System.Time.Extra'
+ 100% ( 26 / 26) in 'Control.Concurrent.Extra'
+ 100% ( 24 / 24) in 'System.IO.Extra'
+ 100% (  5 /  5) in 'System.Process.Extra'
+ 100% (213 /213) in 'Extra'
+Warning: Data.Typeable.Extra: could not find link destinations for:
+    ~ unsafeIndex unsafeRangeSize
+Warning: Extra: could not find link destinations for:
+    ~ unsafeIndex unsafeRangeSize
+Documentation created: dist/doc/html/extra/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-extra-1.416460350011025921153.10
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/extra-1.4.10
+Registering extra-1.4.10...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-9367/extra-1.4.10'

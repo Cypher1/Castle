@@ -1,0 +1,50 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/rvar-0.2.0.3'
+Configuring rvar-0.2.0.3...
+Building rvar-0.2.0.3...
+Preprocessing library rvar-0.2.0.3...
+[1 of 1] Compiling Data.RVar        ( src/Data/RVar.hs, dist/build/Data/RVar.o )
+
+src/Data/RVar.hs:43:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/RVar.hs:48:1: warning: [-Wunused-imports]
+    The qualified import of ‘Control.Monad.Identity’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Identity’
+    To import instances alone, use: import Control.Monad.Identity()
+[1 of 1] Compiling Data.RVar        ( src/Data/RVar.hs, dist/build/Data/RVar.p_o )
+
+src/Data/RVar.hs:43:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/RVar.hs:48:1: warning: [-Wunused-imports]
+    The qualified import of ‘Control.Monad.Identity’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Identity’
+    To import instances alone, use: import Control.Monad.Identity()
+Running Haddock for rvar-0.2.0.3...
+Preprocessing library rvar-0.2.0.3...
+
+src/Data/RVar.hs:43:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Data/RVar.hs:48:1: warning: [-Wunused-imports]
+    The qualified import of ‘Control.Monad.Identity’ is redundant
+      except perhaps to import instances from ‘Control.Monad.Identity’
+    To import instances alone, use: import Control.Monad.Identity()
+Haddock coverage:
+  82% (  9 / 11) in 'Data.RVar'
+  Missing documentation for:
+    runRVarT (src/Data/RVar.hs:145)
+    sampleRVarT (src/Data/RVar.hs:148)
+Documentation created: dist/doc/html/rvar/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-rvar-0.2.012778441887638.3
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/rvar-0.2.0.3
+Registering rvar-0.2.0.3...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/rvar-0.2.0.3'

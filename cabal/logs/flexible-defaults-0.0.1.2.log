@@ -1,0 +1,101 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3209/flexible-defaults-0.0.1.2'
+Configuring flexible-defaults-0.0.1.2...
+Building flexible-defaults-0.0.1.2...
+Preprocessing library flexible-defaults-0.0.1.2...
+[1 of 3] Compiling Language.Haskell.TH.FlexibleDefaults.Solve ( src/Language/Haskell/TH/FlexibleDefaults/Solve.hs, dist/build/Language/Haskell/TH/FlexibleDefaults/Solve.o )
+
+src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:13:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[2 of 3] Compiling Language.Haskell.TH.FlexibleDefaults.DSL ( src/Language/Haskell/TH/FlexibleDefaults/DSL.hs, dist/build/Language/Haskell/TH/FlexibleDefaults/DSL.o )
+
+src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:4:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:9:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[3 of 3] Compiling Language.Haskell.TH.FlexibleDefaults ( src/Language/Haskell/TH/FlexibleDefaults.hs, dist/build/Language/Haskell/TH/FlexibleDefaults.o )
+
+src/Language/Haskell/TH/FlexibleDefaults.hs:28:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[1 of 3] Compiling Language.Haskell.TH.FlexibleDefaults.Solve ( src/Language/Haskell/TH/FlexibleDefaults/Solve.hs, dist/build/Language/Haskell/TH/FlexibleDefaults/Solve.p_o )
+
+src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:13:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[2 of 3] Compiling Language.Haskell.TH.FlexibleDefaults.DSL ( src/Language/Haskell/TH/FlexibleDefaults/DSL.hs, dist/build/Language/Haskell/TH/FlexibleDefaults/DSL.p_o )
+
+src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:4:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:9:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+[3 of 3] Compiling Language.Haskell.TH.FlexibleDefaults ( src/Language/Haskell/TH/FlexibleDefaults.hs, dist/build/Language/Haskell/TH/FlexibleDefaults.p_o )
+
+src/Language/Haskell/TH/FlexibleDefaults.hs:28:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+Running Haddock for flexible-defaults-0.0.1.2...
+Preprocessing library flexible-defaults-0.0.1.2...
+
+src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:13:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:4:1: warning: [-Wunused-imports]
+    The import of ‘Control.Applicative’ is redundant
+      except perhaps to import instances from ‘Control.Applicative’
+    To import instances alone, use: import Control.Applicative()
+
+src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:9:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+
+src/Language/Haskell/TH/FlexibleDefaults.hs:28:1: warning: [-Wunused-imports]
+    The import of ‘Data.Monoid’ is redundant
+      except perhaps to import instances from ‘Data.Monoid’
+    To import instances alone, use: import Data.Monoid()
+Haddock coverage:
+   0% (  0 /  7) in 'Language.Haskell.TH.FlexibleDefaults.Solve'
+  Missing documentation for:
+    Module header
+    ImplSpec (src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:18)
+    scoreImplSpec (src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:30)
+    Problem (src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:27)
+    Solution (src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:28)
+    scoreSolution (src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:33)
+    chooseImplementations (src/Language/Haskell/TH/FlexibleDefaults/Solve.hs:44)
+  59% ( 13 / 22) in 'Language.Haskell.TH.FlexibleDefaults.DSL'
+  Missing documentation for:
+    Module header
+    Impls (src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:19)
+     (src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:21)
+     (src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:24)
+    addImplSpecs (src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:34)
+    addImplSpec (src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:37)
+    toProblem (src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:40)
+    applyInline (src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:90)
+    setInline (src/Language/Haskell/TH/FlexibleDefaults/DSL.hs:123)
+ 100% ( 15 / 15) in 'Language.Haskell.TH.FlexibleDefaults'
+Documentation created: dist/doc/html/flexible-defaults/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-flexible-defaults-0.0.113349489051724586126.2
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/flexible-defaults-0.0.1.2
+Registering flexible-defaults-0.0.1.2...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3209/flexible-defaults-0.0.1.2'

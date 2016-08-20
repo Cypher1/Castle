@@ -1,0 +1,11 @@
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[user]
+	name = cypher
+	email = jp10010101010000@gmail.com
+[push]
+	default = simple
+[core]
+	editor = /usr/bin/vim

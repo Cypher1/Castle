@@ -1,0 +1,19 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3209/erf-2.0.0.0'
+Configuring erf-2.0.0.0...
+Building erf-2.0.0.0...
+Preprocessing library erf-2.0.0.0...
+[1 of 1] Compiling Data.Number.Erf  ( src/Data/Number/Erf.hs, dist/build/Data/Number/Erf.o )
+[1 of 1] Compiling Data.Number.Erf  ( src/Data/Number/Erf.hs, dist/build/Data/Number/Erf.p_o )
+Running Haddock for erf-2.0.0.0...
+Preprocessing library erf-2.0.0.0...
+Haddock coverage:
+  67% (  2 /  3) in 'Data.Number.Erf'
+  Missing documentation for:
+    Module header
+Documentation created: dist/doc/html/erf/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-erf-2.0.015810301051557810404.0
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/erf-2.0.0.0
+Registering erf-2.0.0.0...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3209/erf-2.0.0.0'

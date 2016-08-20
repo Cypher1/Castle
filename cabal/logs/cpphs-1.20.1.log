@@ -1,0 +1,87 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-9365/cpphs-1.20.1'
+Configuring cpphs-1.20.1...
+Building cpphs-1.20.1...
+Preprocessing library cpphs-1.20.1...
+[ 1 of 11] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/build/Language/Preprocessor/Cpphs/HashDefine.o )
+[ 2 of 11] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/build/Language/Preprocessor/Cpphs/SymTab.o )
+[ 3 of 11] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/build/Language/Preprocessor/Unlit.o )
+[ 4 of 11] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/build/Language/Preprocessor/Cpphs/Options.o )
+[ 5 of 11] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/build/Language/Preprocessor/Cpphs/Position.o )
+[ 6 of 11] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/build/Language/Preprocessor/Cpphs/Tokenise.o )
+[ 7 of 11] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/build/Language/Preprocessor/Cpphs/MacroPass.o )
+[ 8 of 11] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/build/Language/Preprocessor/Cpphs/ReadFirst.o )
+[ 9 of 11] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/build/Language/Preprocessor/Cpphs/CppIfdef.o )
+[10 of 11] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/build/Language/Preprocessor/Cpphs/RunCpphs.o )
+[11 of 11] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/build/Language/Preprocessor/Cpphs.o )
+[ 1 of 11] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/build/Language/Preprocessor/Cpphs/HashDefine.p_o )
+[ 2 of 11] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/build/Language/Preprocessor/Cpphs/SymTab.p_o )
+[ 3 of 11] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/build/Language/Preprocessor/Unlit.p_o )
+[ 4 of 11] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/build/Language/Preprocessor/Cpphs/Options.p_o )
+[ 5 of 11] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/build/Language/Preprocessor/Cpphs/Position.p_o )
+[ 6 of 11] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/build/Language/Preprocessor/Cpphs/Tokenise.p_o )
+[ 7 of 11] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/build/Language/Preprocessor/Cpphs/MacroPass.p_o )
+[ 8 of 11] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/build/Language/Preprocessor/Cpphs/ReadFirst.p_o )
+[ 9 of 11] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/build/Language/Preprocessor/Cpphs/CppIfdef.p_o )
+[10 of 11] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/build/Language/Preprocessor/Cpphs/RunCpphs.p_o )
+[11 of 11] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/build/Language/Preprocessor/Cpphs.p_o )
+Preprocessing executable 'cpphs' for cpphs-1.20.1...
+[ 1 of 12] Compiling Language.Preprocessor.Cpphs.SymTab ( Language/Preprocessor/Cpphs/SymTab.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/SymTab.o )
+[ 2 of 12] Compiling Language.Preprocessor.Cpphs.Position ( Language/Preprocessor/Cpphs/Position.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Position.o )
+[ 3 of 12] Compiling Language.Preprocessor.Cpphs.ReadFirst ( Language/Preprocessor/Cpphs/ReadFirst.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/ReadFirst.o )
+[ 4 of 12] Compiling Language.Preprocessor.Cpphs.Options ( Language/Preprocessor/Cpphs/Options.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Options.o )
+[ 5 of 12] Compiling Language.Preprocessor.Cpphs.HashDefine ( Language/Preprocessor/Cpphs/HashDefine.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/HashDefine.o )
+[ 6 of 12] Compiling Language.Preprocessor.Cpphs.Tokenise ( Language/Preprocessor/Cpphs/Tokenise.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/Tokenise.o )
+[ 7 of 12] Compiling Language.Preprocessor.Cpphs.MacroPass ( Language/Preprocessor/Cpphs/MacroPass.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/MacroPass.o )
+[ 8 of 12] Compiling Language.Preprocessor.Cpphs.CppIfdef ( Language/Preprocessor/Cpphs/CppIfdef.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/CppIfdef.o )
+[ 9 of 12] Compiling Language.Preprocessor.Unlit ( Language/Preprocessor/Unlit.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Unlit.o )
+[10 of 12] Compiling Language.Preprocessor.Cpphs.RunCpphs ( Language/Preprocessor/Cpphs/RunCpphs.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs/RunCpphs.o )
+[11 of 12] Compiling Language.Preprocessor.Cpphs ( Language/Preprocessor/Cpphs.hs, dist/build/cpphs/cpphs-tmp/Language/Preprocessor/Cpphs.o )
+[12 of 12] Compiling Main             ( cpphs.hs, dist/build/cpphs/cpphs-tmp/Main.o )
+Linking dist/build/cpphs/cpphs ...
+Running Haddock for cpphs-1.20.1...
+Preprocessing library cpphs-1.20.1...
+Haddock coverage:
+  83% (  5 /  6) in 'Language.Preprocessor.Cpphs.HashDefine'
+  Missing documentation for:
+    HashDefine (Language/Preprocessor/Cpphs/HashDefine.hs:25)
+  33% (  3 /  9) in 'Language.Preprocessor.Cpphs.SymTab'
+  Missing documentation for:
+    emptyST (Language/Preprocessor/Cpphs/SymTab.hs:30)
+    insertST (Language/Preprocessor/Cpphs/SymTab.hs:31)
+    deleteST (Language/Preprocessor/Cpphs/SymTab.hs:32)
+    lookupST (Language/Preprocessor/Cpphs/SymTab.hs:33)
+    definedST (Language/Preprocessor/Cpphs/SymTab.hs:34)
+    flattenST (Language/Preprocessor/Cpphs/SymTab.hs:35)
+ 100% (  2 /  2) in 'Language.Preprocessor.Unlit'
+ 100% (  7 /  7) in 'Language.Preprocessor.Cpphs.Options'
+ 100% ( 15 / 15) in 'Language.Preprocessor.Cpphs.Position'
+  86% (  6 /  7) in 'Language.Preprocessor.Cpphs.Tokenise'
+  Missing documentation for:
+    deWordStyle (Language/Preprocessor/Cpphs/Tokenise.hs:71)
+ 100% (  5 /  5) in 'Language.Preprocessor.Cpphs.MacroPass'
+ 100% (  2 /  2) in 'Language.Preprocessor.Cpphs.ReadFirst'
+ 100% (  2 /  2) in 'Language.Preprocessor.Cpphs.CppIfdef'
+   0% (  0 /  5) in 'Language.Preprocessor.Cpphs.RunCpphs'
+  Missing documentation for:
+    Module header
+    runCpphs (Language/Preprocessor/Cpphs/RunCpphs.hs:22)
+    runCpphsPass1 (Language/Preprocessor/Cpphs/RunCpphs.hs:27)
+    runCpphsPass2 (Language/Preprocessor/Cpphs/RunCpphs.hs:40)
+    runCpphsReturningSymTab (Language/Preprocessor/Cpphs/RunCpphs.hs:53)
+  86% ( 25 / 29) in 'Language.Preprocessor.Cpphs'
+  Missing documentation for:
+    runCpphs (Language/Preprocessor/Cpphs/RunCpphs.hs:22)
+    runCpphsPass1 (Language/Preprocessor/Cpphs/RunCpphs.hs:27)
+    runCpphsPass2 (Language/Preprocessor/Cpphs/RunCpphs.hs:40)
+    runCpphsReturningSymTab (Language/Preprocessor/Cpphs/RunCpphs.hs:53)
+Warning: Language.Preprocessor.Cpphs: could not find link destinations for:
+    HashDefine
+Documentation created: dist/doc/html/cpphs/index.html
+Preprocessing executable 'cpphs' for cpphs-1.20.1...
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-cpphs-1.202035308228158374933.1
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/cpphs-1.20.1
+Installing executable(s) in /Users/Cypher/Library/Haskell/bin
+Registering cpphs-1.20.1...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-9365/cpphs-1.20.1'

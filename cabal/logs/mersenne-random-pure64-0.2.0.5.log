@@ -1,0 +1,68 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/mersenne-random-pure64-0.2.0.5'
+Configuring mersenne-random-pure64-0.2.0.5...
+Building mersenne-random-pure64-0.2.0.5...
+Preprocessing library mersenne-random-pure64-0.2.0.5...
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+[1 of 4] Compiling System.Random.Mersenne.Pure64.Base ( dist/build/System/Random/Mersenne/Pure64/Base.hs, dist/build/System/Random/Mersenne/Pure64/Base.o )
+[2 of 4] Compiling System.Random.Mersenne.Pure64.Internal ( System/Random/Mersenne/Pure64/Internal.hs, dist/build/System/Random/Mersenne/Pure64/Internal.o )
+[3 of 4] Compiling System.Random.Mersenne.Pure64.MTBlock ( System/Random/Mersenne/Pure64/MTBlock.hs, dist/build/System/Random/Mersenne/Pure64/MTBlock.o )
+[4 of 4] Compiling System.Random.Mersenne.Pure64 ( System/Random/Mersenne/Pure64.hs, dist/build/System/Random/Mersenne/Pure64.o )
+[1 of 4] Compiling System.Random.Mersenne.Pure64.Base ( dist/build/System/Random/Mersenne/Pure64/Base.hs, dist/build/System/Random/Mersenne/Pure64/Base.p_o )
+[2 of 4] Compiling System.Random.Mersenne.Pure64.Internal ( System/Random/Mersenne/Pure64/Internal.hs, dist/build/System/Random/Mersenne/Pure64/Internal.p_o )
+[3 of 4] Compiling System.Random.Mersenne.Pure64.MTBlock ( System/Random/Mersenne/Pure64/MTBlock.hs, dist/build/System/Random/Mersenne/Pure64/MTBlock.p_o )
+[4 of 4] Compiling System.Random.Mersenne.Pure64 ( System/Random/Mersenne/Pure64.hs, dist/build/System/Random/Mersenne/Pure64.p_o )
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+clang: warning: optimization flag '-finline-functions' is not supported
+clang: warning: argument unused during compilation: '--param max-inline-insns-single=1800'
+Running Haddock for mersenne-random-pure64-0.2.0.5...
+Preprocessing library mersenne-random-pure64-0.2.0.5...
+Haddock coverage:
+  19% (  3 / 16) in 'System.Random.Mersenne.Pure64.Base'
+  Missing documentation for:
+    MTState (System/Random/Mersenne/Pure64/Base.hsc:27)
+    UInt64 (System/Random/Mersenne/Pure64/Base.hsc:29)
+    c_init_genrand64 (System/Random/Mersenne/Pure64/Base.hsc:34)
+    c_genrand64_int64 (System/Random/Mersenne/Pure64/Base.hsc:37)
+    c_genrand64_real2 (System/Random/Mersenne/Pure64/Base.hsc:40)
+    sizeof_MTState (System/Random/Mersenne/Pure64/Base.hsc:43)
+    c_mix_word64 (System/Random/Mersenne/Pure64/Base.hsc:48)
+    c_seed_genrand64_block (System/Random/Mersenne/Pure64/Base.hsc:51)
+    c_next_genrand64_block (System/Random/Mersenne/Pure64/Base.hsc:54)
+    c_init_genrand64_unsafe (System/Random/Mersenne/Pure64/Base.hsc:68)
+    c_genrand64_int64_unsafe (System/Random/Mersenne/Pure64/Base.hsc:71)
+    c_genrand64_real2_unsafe (System/Random/Mersenne/Pure64/Base.hsc:74)
+    c_memcpy (System/Random/Mersenne/Pure64/Base.hsc:77)
+  60% (  3 /  5) in 'System.Random.Mersenne.Pure64.Internal'
+  Missing documentation for:
+    Module header
+    MTBlock (System/Random/Mersenne/Pure64/Internal.hs:20)
+  90% (  9 / 10) in 'System.Random.Mersenne.Pure64.MTBlock'
+  Missing documentation for:
+    MTBlock (System/Random/Mersenne/Pure64/Internal.hs:20)
+Cannot find documentation for: $notes
+ 100% ( 13 / 13) in 'System.Random.Mersenne.Pure64'
+Documentation created: dist/doc/html/mersenne-random-pure64/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-mersenne-random-pure64-0.2.012893357351755699915.5
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/mersenne-random-pure64-0.2.0.5
+Registering mersenne-random-pure64-0.2.0.5...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3206/mersenne-random-pure64-0.2.0.5'

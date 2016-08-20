@@ -1,0 +1,30 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/monad-loops-0.4.3'
+Configuring monad-loops-0.4.3...
+Building monad-loops-0.4.3...
+Preprocessing library monad-loops-0.4.3...
+[1 of 1] Compiling Control.Monad.Loops ( src/Control/Monad/Loops.hs, dist/build/Control/Monad/Loops.o )
+[1 of 1] Compiling Control.Monad.Loops ( src/Control/Monad/Loops.hs, dist/build/Control/Monad/Loops.p_o )
+Running Haddock for monad-loops-0.4.3...
+Preprocessing library monad-loops-0.4.3...
+Haddock coverage:
+  75% ( 36 / 48) in 'Control.Monad.Loops'
+  Missing documentation for:
+    minimaOnByM (src/Control/Monad/Loops.hs:405)
+    maximaOnByM (src/Control/Monad/Loops.hs:420)
+    minimaByM (src/Control/Monad/Loops.hs:423)
+    maximaByM (src/Control/Monad/Loops.hs:426)
+    minimaOnM (src/Control/Monad/Loops.hs:429)
+    maximaOnM (src/Control/Monad/Loops.hs:432)
+    minimumOnByM (src/Control/Monad/Loops.hs:436)
+    maximumOnByM (src/Control/Monad/Loops.hs:451)
+    minimumByM (src/Control/Monad/Loops.hs:454)
+    maximumByM (src/Control/Monad/Loops.hs:457)
+    minimumOnM (src/Control/Monad/Loops.hs:460)
+    maximumOnM (src/Control/Monad/Loops.hs:463)
+Documentation created: dist/doc/html/monad-loops/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-monad-loops-0.47537995051102246882.3
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/monad-loops-0.4.3
+Registering monad-loops-0.4.3...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/monad-loops-0.4.3'

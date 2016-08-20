@@ -1,0 +1,200 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-9369/uniplate-1.6.12'
+Configuring uniplate-1.6.12...
+Building uniplate-1.6.12...
+Preprocessing library uniplate-1.6.12...
+[ 1 of 21] Compiling Data.Generics.Uniplate.Data.Instances ( Data/Generics/Uniplate/Data/Instances.hs, dist/build/Data/Generics/Uniplate/Data/Instances.o )
+[ 2 of 21] Compiling Data.Generics.Uniplate.Internal.Utils ( Data/Generics/Uniplate/Internal/Utils.hs, dist/build/Data/Generics/Uniplate/Internal/Utils.o )
+[ 3 of 21] Compiling Data.Generics.Uniplate ( Data/Generics/Uniplate.hs, dist/build/Data/Generics/Uniplate.o )
+[ 4 of 21] Compiling Data.Generics.UniplateOn ( Data/Generics/UniplateOn.hs, dist/build/Data/Generics/UniplateOn.o )
+[ 5 of 21] Compiling Data.Generics.Str ( Data/Generics/Str.hs, dist/build/Data/Generics/Str.o )
+[ 6 of 21] Compiling Data.Generics.Uniplate.Operations ( Data/Generics/Uniplate/Operations.hs, dist/build/Data/Generics/Uniplate/Operations.o )
+[ 7 of 21] Compiling Data.Generics.Compos ( Data/Generics/Compos.hs, dist/build/Data/Generics/Compos.o )
+[ 8 of 21] Compiling Data.Generics.SYB ( Data/Generics/SYB.hs, dist/build/Data/Generics/SYB.o )
+[ 9 of 21] Compiling Data.Generics.Uniplate.Internal.Data ( Data/Generics/Uniplate/Internal/Data.hs, dist/build/Data/Generics/Uniplate/Internal/Data.o )
+[10 of 21] Compiling Data.Generics.Uniplate.Data ( Data/Generics/Uniplate/Data.hs, dist/build/Data/Generics/Uniplate/Data.o )
+[11 of 21] Compiling Data.Generics.Uniplate.Internal.DataOnlyOperations ( Data/Generics/Uniplate/Internal/DataOnlyOperations.hs, dist/build/Data/Generics/Uniplate/Internal/DataOnlyOperations.o )
+[12 of 21] Compiling Data.Generics.Uniplate.DataOnly ( Data/Generics/Uniplate/DataOnly.hs, dist/build/Data/Generics/Uniplate/DataOnly.o )
+[13 of 21] Compiling Data.Generics.Uniplate.Direct ( Data/Generics/Uniplate/Direct.hs, dist/build/Data/Generics/Uniplate/Direct.o )
+[14 of 21] Compiling Data.Generics.Uniplate.Typeable ( Data/Generics/Uniplate/Typeable.hs, dist/build/Data/Generics/Uniplate/Typeable.o )
+[15 of 21] Compiling Data.Generics.Uniplate.Zipper ( Data/Generics/Uniplate/Zipper.hs, dist/build/Data/Generics/Uniplate/Zipper.o )
+[16 of 21] Compiling Data.Generics.UniplateStr ( Data/Generics/UniplateStr.hs, dist/build/Data/Generics/UniplateStr.o )
+[17 of 21] Compiling Data.Generics.UniplateStrOn ( Data/Generics/UniplateStrOn.hs, dist/build/Data/Generics/UniplateStrOn.o )
+[18 of 21] Compiling Data.Generics.Biplate ( Data/Generics/Biplate.hs, dist/build/Data/Generics/Biplate.o )
+[19 of 21] Compiling Data.Generics.PlateDirect ( Data/Generics/PlateDirect.hs, dist/build/Data/Generics/PlateDirect.o )
+[20 of 21] Compiling Data.Generics.PlateTypeable ( Data/Generics/PlateTypeable.hs, dist/build/Data/Generics/PlateTypeable.o )
+[21 of 21] Compiling Data.Generics.PlateData ( Data/Generics/PlateData.hs, dist/build/Data/Generics/PlateData.o )
+[ 1 of 21] Compiling Data.Generics.Uniplate.Data.Instances ( Data/Generics/Uniplate/Data/Instances.hs, dist/build/Data/Generics/Uniplate/Data/Instances.p_o )
+[ 2 of 21] Compiling Data.Generics.Uniplate.Internal.Utils ( Data/Generics/Uniplate/Internal/Utils.hs, dist/build/Data/Generics/Uniplate/Internal/Utils.p_o )
+[ 3 of 21] Compiling Data.Generics.Uniplate ( Data/Generics/Uniplate.hs, dist/build/Data/Generics/Uniplate.p_o )
+[ 4 of 21] Compiling Data.Generics.UniplateOn ( Data/Generics/UniplateOn.hs, dist/build/Data/Generics/UniplateOn.p_o )
+[ 5 of 21] Compiling Data.Generics.Str ( Data/Generics/Str.hs, dist/build/Data/Generics/Str.p_o )
+[ 6 of 21] Compiling Data.Generics.Uniplate.Operations ( Data/Generics/Uniplate/Operations.hs, dist/build/Data/Generics/Uniplate/Operations.p_o )
+[ 7 of 21] Compiling Data.Generics.Compos ( Data/Generics/Compos.hs, dist/build/Data/Generics/Compos.p_o )
+[ 8 of 21] Compiling Data.Generics.SYB ( Data/Generics/SYB.hs, dist/build/Data/Generics/SYB.p_o )
+[ 9 of 21] Compiling Data.Generics.Uniplate.Internal.Data ( Data/Generics/Uniplate/Internal/Data.hs, dist/build/Data/Generics/Uniplate/Internal/Data.p_o )
+[10 of 21] Compiling Data.Generics.Uniplate.Data ( Data/Generics/Uniplate/Data.hs, dist/build/Data/Generics/Uniplate/Data.p_o )
+[11 of 21] Compiling Data.Generics.Uniplate.Internal.DataOnlyOperations ( Data/Generics/Uniplate/Internal/DataOnlyOperations.hs, dist/build/Data/Generics/Uniplate/Internal/DataOnlyOperations.p_o )
+[12 of 21] Compiling Data.Generics.Uniplate.DataOnly ( Data/Generics/Uniplate/DataOnly.hs, dist/build/Data/Generics/Uniplate/DataOnly.p_o )
+[13 of 21] Compiling Data.Generics.Uniplate.Direct ( Data/Generics/Uniplate/Direct.hs, dist/build/Data/Generics/Uniplate/Direct.p_o )
+[14 of 21] Compiling Data.Generics.Uniplate.Typeable ( Data/Generics/Uniplate/Typeable.hs, dist/build/Data/Generics/Uniplate/Typeable.p_o )
+[15 of 21] Compiling Data.Generics.Uniplate.Zipper ( Data/Generics/Uniplate/Zipper.hs, dist/build/Data/Generics/Uniplate/Zipper.p_o )
+[16 of 21] Compiling Data.Generics.UniplateStr ( Data/Generics/UniplateStr.hs, dist/build/Data/Generics/UniplateStr.p_o )
+[17 of 21] Compiling Data.Generics.UniplateStrOn ( Data/Generics/UniplateStrOn.hs, dist/build/Data/Generics/UniplateStrOn.p_o )
+[18 of 21] Compiling Data.Generics.Biplate ( Data/Generics/Biplate.hs, dist/build/Data/Generics/Biplate.p_o )
+[19 of 21] Compiling Data.Generics.PlateDirect ( Data/Generics/PlateDirect.hs, dist/build/Data/Generics/PlateDirect.p_o )
+[20 of 21] Compiling Data.Generics.PlateTypeable ( Data/Generics/PlateTypeable.hs, dist/build/Data/Generics/PlateTypeable.p_o )
+[21 of 21] Compiling Data.Generics.PlateData ( Data/Generics/PlateData.hs, dist/build/Data/Generics/PlateData.p_o )
+Running Haddock for uniplate-1.6.12...
+Preprocessing library uniplate-1.6.12...
+Haddock coverage:
+ 100% ( 16 / 16) in 'Data.Generics.Uniplate.Data.Instances'
+  86% (  6 /  7) in 'Data.Generics.Uniplate.Internal.Utils'
+  Missing documentation for:
+    unsafeCoerce
+ 100% ( 19 / 19) in 'Data.Generics.Uniplate'
+  55% ( 11 / 20) in 'Data.Generics.UniplateOn'
+  Missing documentation for:
+    universeOn (Data/Generics/UniplateOn.hs:38)
+    transformOn (Data/Generics/UniplateOn.hs:50)
+    transformOnM (Data/Generics/UniplateOn.hs:55)
+    rewriteOn (Data/Generics/UniplateOn.hs:60)
+    rewriteOnM (Data/Generics/UniplateOn.hs:65)
+    descendOn (Data/Generics/UniplateOn.hs:70)
+    descendOnM (Data/Generics/UniplateOn.hs:75)
+    holesOn (Data/Generics/UniplateOn.hs:83)
+    contextsOn (Data/Generics/UniplateOn.hs:90)
+  46% (  6 / 13) in 'Data.Generics.Str'
+  Missing documentation for:
+    Str (Data/Generics/Str.hs:21)
+     (Data/Generics/Str.hs:24)
+    strMap (Data/Generics/Str.hs:32)
+    strMapM (Data/Generics/Str.hs:42)
+     (Data/Generics/Str.hs:50)
+     (Data/Generics/Str.hs:57)
+     (Data/Generics/Str.hs:63)
+  76% ( 22 / 29) in 'Data.Generics.Uniplate.Operations'
+  Missing documentation for:
+    universeBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:189)
+    transformBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:212)
+    transformBiM (Data/Generics/Uniplate/Internal/OperationsInc.hs:218)
+    rewriteBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:223)
+    rewriteBiM (Data/Generics/Uniplate/Internal/OperationsInc.hs:228)
+    contextsBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:235)
+    holesBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:243)
+ 100% (  8 /  8) in 'Data.Generics.Compos'
+ 100% ( 13 / 13) in 'Data.Generics.SYB'
+   8% (  4 / 49) in 'Data.Generics.Uniplate.Internal.Data'
+  Missing documentation for:
+    TypeSet (Data/Generics/Uniplate/Internal/Data.hs:59)
+    TypeMap (Data/Generics/Uniplate/Internal/Data.hs:60)
+    TypeKey (Data/Generics/Uniplate/Internal/Data.hs:62)
+    typeKey (Data/Generics/Uniplate/Internal/Data.hs:64)
+    ! (Data/Generics/Uniplate/Internal/Data.hs:89)
+    map_findWithDefault (Data/Generics/Uniplate/Internal/Data.hs:90)
+    map_fromAscList (Data/Generics/Uniplate/Internal/Data.hs:91)
+    map_keysSet (Data/Generics/Uniplate/Internal/Data.hs:92)
+    map_member (Data/Generics/Uniplate/Internal/Data.hs:93)
+    set_partition (Data/Generics/Uniplate/Internal/Data.hs:94)
+    set_toAscList (Data/Generics/Uniplate/Internal/Data.hs:95)
+    set_unions (Data/Generics/Uniplate/Internal/Data.hs:96)
+    uniplateVerbose (Data/Generics/Uniplate/Internal/Data.hs:102)
+    Answer (Data/Generics/Uniplate/Internal/Data.hs:111)
+    Oracle (Data/Generics/Uniplate/Internal/Data.hs:115)
+    hitTest (Data/Generics/Uniplate/Internal/Data.hs:118)
+    Cache (Data/Generics/Uniplate/Internal/Data.hs:134)
+    cache (Data/Generics/Uniplate/Internal/Data.hs:139)
+    readCacheFollower (Data/Generics/Uniplate/Internal/Data.hs:143)
+    readCacheHitMap (Data/Generics/Uniplate/Internal/Data.hs:166)
+    TypeMap2 (Data/Generics/Uniplate/Internal/Data.hs:183)
+    lookup2 (Data/Generics/Uniplate/Internal/Data.hs:185)
+    insert2 (Data/Generics/Uniplate/Internal/Data.hs:188)
+    IntMap2 (Data/Generics/Uniplate/Internal/Data.hs:192)
+    intLookup2 (Data/Generics/Uniplate/Internal/Data.hs:194)
+    intInsert2 (Data/Generics/Uniplate/Internal/Data.hs:197)
+    Follower (Data/Generics/Uniplate/Internal/Data.hs:205)
+    follower (Data/Generics/Uniplate/Internal/Data.hs:209)
+    dataBox (Data/Generics/Uniplate/Internal/Data.hs:227)
+    sybChildren (Data/Generics/Uniplate/Internal/Data.hs:232)
+    HitMap (Data/Generics/Uniplate/Internal/Data.hs:251)
+    emptyHitMap (Data/Generics/Uniplate/Internal/Data.hs:253)
+    insertHitMap (Data/Generics/Uniplate/Internal/Data.hs:261)
+    fixEq (Data/Generics/Uniplate/Internal/Data.hs:285)
+    C (Data/Generics/Uniplate/Internal/Data.hs:293)
+    CC (Data/Generics/Uniplate/Internal/Data.hs:295)
+    biplateData (Data/Generics/Uniplate/Internal/Data.hs:298)
+    uniplateData (Data/Generics/Uniplate/Internal/Data.hs:305)
+    descendData (Data/Generics/Uniplate/Internal/Data.hs:316)
+    descendBiData (Data/Generics/Uniplate/Internal/Data.hs:319)
+    descendDataM (Data/Generics/Uniplate/Internal/Data.hs:325)
+    descendBiDataM (Data/Generics/Uniplate/Internal/Data.hs:328)
+    Transformer (Data/Generics/Uniplate/Internal/Data.hs:338)
+    transformer_ (Data/Generics/Uniplate/Internal/Data.hs:347)
+    transformBis_ (Data/Generics/Uniplate/Internal/Data.hs:366)
+  80% (  4 /  5) in 'Data.Generics.Uniplate.Data'
+  Missing documentation for:
+    Transformer (Data/Generics/Uniplate/Internal/Data.hs:338)
+  72% ( 21 / 29) in 'Data.Generics.Uniplate.Internal.DataOnlyOperations'
+  Missing documentation for:
+    Module header
+    universeBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:189)
+    transformBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:212)
+    transformBiM (Data/Generics/Uniplate/Internal/OperationsInc.hs:218)
+    rewriteBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:223)
+    rewriteBiM (Data/Generics/Uniplate/Internal/OperationsInc.hs:228)
+    contextsBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:235)
+    holesBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:243)
+  75% ( 24 / 32) in 'Data.Generics.Uniplate.DataOnly'
+  Missing documentation for:
+    universeBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:189)
+    transformBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:212)
+    transformBiM (Data/Generics/Uniplate/Internal/OperationsInc.hs:218)
+    rewriteBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:223)
+    rewriteBiM (Data/Generics/Uniplate/Internal/OperationsInc.hs:228)
+    contextsBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:235)
+    holesBi (Data/Generics/Uniplate/Internal/OperationsInc.hs:243)
+    Transformer (Data/Generics/Uniplate/Internal/Data.hs:338)
+ 100% ( 11 / 11) in 'Data.Generics.Uniplate.Direct'
+ 100% ( 10 / 10) in 'Data.Generics.Uniplate.Typeable'
+ 100% ( 14 / 14) in 'Data.Generics.Uniplate.Zipper'
+ 100% ( 21 / 21) in 'Data.Generics.UniplateStr'
+  55% ( 11 / 20) in 'Data.Generics.UniplateStrOn'
+  Missing documentation for:
+    universeOn (Data/Generics/UniplateStrOn.hs:42)
+    transformOn (Data/Generics/UniplateStrOn.hs:64)
+    transformOnM (Data/Generics/UniplateStrOn.hs:69)
+    rewriteOn (Data/Generics/UniplateStrOn.hs:74)
+    rewriteOnM (Data/Generics/UniplateStrOn.hs:79)
+    descendOn (Data/Generics/UniplateStrOn.hs:84)
+    descendOnM (Data/Generics/UniplateStrOn.hs:89)
+    holesOn (Data/Generics/UniplateStrOn.hs:95)
+    contextsOn (Data/Generics/UniplateStrOn.hs:102)
+  47% (  9 / 19) in 'Data.Generics.Biplate'
+  Missing documentation for:
+    universeBi (Data/Generics/Biplate.hs:53)
+    childrenBi (Data/Generics/Biplate.hs:57)
+    transformBi (Data/Generics/Biplate.hs:63)
+    transformBiM (Data/Generics/Biplate.hs:67)
+    rewriteBi (Data/Generics/Biplate.hs:71)
+    rewriteBiM (Data/Generics/Biplate.hs:75)
+    descendBi (Data/Generics/Biplate.hs:79)
+    descendBiM (Data/Generics/Biplate.hs:83)
+    contextsBi (Data/Generics/Biplate.hs:89)
+    holesBi (Data/Generics/Biplate.hs:93)
+ 100% ( 10 / 10) in 'Data.Generics.PlateDirect'
+ 100% ( 10 / 10) in 'Data.Generics.PlateTypeable'
+ 100% (  2 /  2) in 'Data.Generics.PlateData'
+Warning: Data.Generics.Uniplate.Direct: could not find link destinations for:
+    Type
+Warning: Data.Generics.Uniplate.Typeable: could not find link destinations for:
+    Type
+Warning: Data.Generics.PlateDirect: could not find link destinations for:
+    Type
+Warning: Data.Generics.PlateTypeable: could not find link destinations for:
+    Type
+Documentation created: dist/doc/html/uniplate/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-uniplate-1.610447881241927702196.12
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/uniplate-1.6.12
+Registering uniplate-1.6.12...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-9369/uniplate-1.6.12'

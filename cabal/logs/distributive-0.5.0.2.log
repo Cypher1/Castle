@@ -1,0 +1,24 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/distributive-0.5.0.2'
+[1 of 1] Compiling Main             ( /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/distributive-0.5.0.2/dist/setup/setup.hs, /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/distributive-0.5.0.2/dist/setup/Main.o )
+Linking /var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/distributive-0.5.0.2/dist/setup/setup ...
+Configuring distributive-0.5.0.2...
+Building distributive-0.5.0.2...
+Preprocessing library distributive-0.5.0.2...
+[1 of 2] Compiling Data.Distributive.Generic ( src/Data/Distributive/Generic.hs, dist/build/Data/Distributive/Generic.o )
+[2 of 2] Compiling Data.Distributive ( src/Data/Distributive.hs, dist/build/Data/Distributive.o )
+[1 of 2] Compiling Data.Distributive.Generic ( src/Data/Distributive/Generic.hs, dist/build/Data/Distributive/Generic.p_o )
+[2 of 2] Compiling Data.Distributive ( src/Data/Distributive.hs, dist/build/Data/Distributive.p_o )
+Running Haddock for distributive-0.5.0.2...
+Preprocessing library distributive-0.5.0.2...
+Haddock coverage:
+  67% (  2 /  3) in 'Data.Distributive.Generic'
+  Missing documentation for:
+    GDistributive (src/Data/Distributive/Generic.hs:35)
+ 100% (  4 /  4) in 'Data.Distributive'
+Documentation created: dist/doc/html/distributive/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-distributive-0.5.02817252261901915394.2
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/distributive-0.5.0.2
+Registering distributive-0.5.0.2...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3210/distributive-0.5.0.2'

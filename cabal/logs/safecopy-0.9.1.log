@@ -1,0 +1,284 @@
+cabal: Entering directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3209/safecopy-0.9.1'
+Configuring safecopy-0.9.1...
+Building safecopy-0.9.1...
+Preprocessing library safecopy-0.9.1...
+[1 of 5] Compiling Data.SafeCopy.SafeCopy ( src/Data/SafeCopy/SafeCopy.hs, dist/build/Data/SafeCopy/SafeCopy.o )
+
+src/Data/SafeCopy/SafeCopy.hs:230:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: SafeCopy a
+    • In the type signature for:
+           extension :: (SafeCopy a, Migrate a) => Kind a
+
+src/Data/SafeCopy/SafeCopy.hs:382:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: SafeCopy a
+    • In the type signature for:
+           versionFromReverseKind :: (SafeCopy a,
+                                      SafeCopy (MigrateFrom (Reverse a))) =>
+                                     Kind a -> Version (MigrateFrom (Reverse a))
+[2 of 5] Compiling Data.SafeCopy.Derive ( src/Data/SafeCopy/Derive.hs, dist/build/Data/SafeCopy/Derive.o )
+[3 of 5] Compiling Data.SafeCopy.Internal ( src/Data/SafeCopy/Internal.hs, dist/build/Data/SafeCopy/Internal.o )
+[4 of 5] Compiling Data.SafeCopy.Instances ( src/Data/SafeCopy/Instances.hs, dist/build/Data/SafeCopy/Instances.o )
+
+src/Data/SafeCopy/Instances.hs:81:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord a
+    • In the instance declaration for ‘SafeCopy (Set.Set a)’
+
+src/Data/SafeCopy/Instances.hs:86:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord a
+    • In the instance declaration for ‘SafeCopy (Map.Map a b)’
+
+src/Data/SafeCopy/Instances.hs:428:15: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Typeable1’
+    (imported from Data.Typeable, but defined in Data.Typeable.Internal):
+    Deprecated: "renamed to 'Typeable'"
+
+src/Data/SafeCopy/Instances.hs:431:15: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Typeable2’
+    (imported from Data.Typeable, but defined in Data.Typeable.Internal):
+    Deprecated: "renamed to 'Typeable'"
+[5 of 5] Compiling Data.SafeCopy    ( src/Data/SafeCopy.hs, dist/build/Data/SafeCopy.o )
+[1 of 5] Compiling Data.SafeCopy.SafeCopy ( src/Data/SafeCopy/SafeCopy.hs, dist/build/Data/SafeCopy/SafeCopy.p_o )
+
+src/Data/SafeCopy/SafeCopy.hs:230:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: SafeCopy a
+    • In the type signature for:
+           extension :: (SafeCopy a, Migrate a) => Kind a
+
+src/Data/SafeCopy/SafeCopy.hs:382:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: SafeCopy a
+    • In the type signature for:
+           versionFromReverseKind :: (SafeCopy a,
+                                      SafeCopy (MigrateFrom (Reverse a))) =>
+                                     Kind a -> Version (MigrateFrom (Reverse a))
+[2 of 5] Compiling Data.SafeCopy.Derive ( src/Data/SafeCopy/Derive.hs, dist/build/Data/SafeCopy/Derive.p_o )
+[3 of 5] Compiling Data.SafeCopy.Internal ( src/Data/SafeCopy/Internal.hs, dist/build/Data/SafeCopy/Internal.p_o )
+[4 of 5] Compiling Data.SafeCopy.Instances ( src/Data/SafeCopy/Instances.hs, dist/build/Data/SafeCopy/Instances.p_o )
+
+src/Data/SafeCopy/Instances.hs:81:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord a
+    • In the instance declaration for ‘SafeCopy (Set.Set a)’
+
+src/Data/SafeCopy/Instances.hs:86:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord a
+    • In the instance declaration for ‘SafeCopy (Map.Map a b)’
+
+src/Data/SafeCopy/Instances.hs:428:15: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Typeable1’
+    (imported from Data.Typeable, but defined in Data.Typeable.Internal):
+    Deprecated: "renamed to 'Typeable'"
+
+src/Data/SafeCopy/Instances.hs:431:15: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Typeable2’
+    (imported from Data.Typeable, but defined in Data.Typeable.Internal):
+    Deprecated: "renamed to 'Typeable'"
+[5 of 5] Compiling Data.SafeCopy    ( src/Data/SafeCopy.hs, dist/build/Data/SafeCopy.p_o )
+Running Haddock for safecopy-0.9.1...
+Preprocessing library safecopy-0.9.1...
+
+src/Data/SafeCopy/SafeCopy.hs:230:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: SafeCopy a
+    • In the type signature for:
+           extension :: (SafeCopy a, Migrate a) => Kind a
+
+src/Data/SafeCopy/SafeCopy.hs:382:1: warning: [-Wredundant-constraints]
+    • Redundant constraint: SafeCopy a
+    • In the type signature for:
+           versionFromReverseKind :: (SafeCopy a,
+                                      SafeCopy (MigrateFrom (Reverse a))) =>
+                                     Kind a -> Version (MigrateFrom (Reverse a))
+
+src/Data/SafeCopy/Instances.hs:81:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord a
+    • In the instance declaration for ‘SafeCopy (Set.Set a)’
+
+src/Data/SafeCopy/Instances.hs:86:10: warning: [-Wredundant-constraints]
+    • Redundant constraint: Ord a
+    • In the instance declaration for ‘SafeCopy (Map.Map a b)’
+
+src/Data/SafeCopy/Instances.hs:428:15: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Typeable1’
+    (imported from Data.Typeable, but defined in Data.Typeable.Internal):
+    Deprecated: "renamed to 'Typeable'"
+
+src/Data/SafeCopy/Instances.hs:431:15: warning: [-Wdeprecations]
+    In the use of type constructor or class ‘Typeable2’
+    (imported from Data.Typeable, but defined in Data.Typeable.Internal):
+    Deprecated: "renamed to 'Typeable'"
+Haddock coverage:
+  43% ( 18 / 42) in 'Data.SafeCopy.SafeCopy'
+  Missing documentation for:
+    isPrimitive (src/Data/SafeCopy/SafeCopy.hs:64)
+    constructGetterFromVersion (src/Data/SafeCopy/SafeCopy.hs:137)
+    castVersion (src/Data/SafeCopy/SafeCopy.hs:250)
+     (src/Data/SafeCopy/SafeCopy.hs:253)
+     (src/Data/SafeCopy/SafeCopy.hs:262)
+    Profile (src/Data/SafeCopy/SafeCopy.hs:283)
+    mkProfile (src/Data/SafeCopy/SafeCopy.hs:291)
+    Consistency (src/Data/SafeCopy/SafeCopy.hs:301)
+    availableVersions (src/Data/SafeCopy/SafeCopy.hs:303)
+    getForwardKind (src/Data/SafeCopy/SafeCopy.hs:316)
+    validChain (src/Data/SafeCopy/SafeCopy.hs:320)
+    checkConsistency (src/Data/SafeCopy/SafeCopy.hs:337)
+    computeConsistency (src/Data/SafeCopy/SafeCopy.hs:344)
+    isObviouslyConsistent (src/Data/SafeCopy/SafeCopy.hs:358)
+    proxyFromConsistency (src/Data/SafeCopy/SafeCopy.hs:367)
+    proxyFromKind (src/Data/SafeCopy/SafeCopy.hs:370)
+    consistentFromProxy (src/Data/SafeCopy/SafeCopy.hs:373)
+    versionFromProxy (src/Data/SafeCopy/SafeCopy.hs:376)
+    versionFromKind (src/Data/SafeCopy/SafeCopy.hs:379)
+    versionFromReverseKind (src/Data/SafeCopy/SafeCopy.hs:382)
+    kindFromProxy (src/Data/SafeCopy/SafeCopy.hs:385)
+    Proxy (src/Data/SafeCopy/SafeCopy.hs:391)
+    mkProxy (src/Data/SafeCopy/SafeCopy.hs:393)
+    asProxyType (src/Data/SafeCopy/SafeCopy.hs:396)
+  18% (  4 / 22) in 'Data.SafeCopy.Derive'
+  Missing documentation for:
+    Module header
+    deriveSafeCopyIndexedType (src/Data/SafeCopy/Derive.hs:115)
+    deriveSafeCopySimpleIndexedType (src/Data/SafeCopy/Derive.hs:170)
+    deriveSafeCopyHappstackDataIndexedType (src/Data/SafeCopy/Derive.hs:220)
+    DeriveType (src/Data/SafeCopy/Derive.hs:223)
+    forceTag (src/Data/SafeCopy/Derive.hs:225)
+    tyVarName (src/Data/SafeCopy/Derive.hs:229)
+    internalDeriveSafeCopy (src/Data/SafeCopy/Derive.hs:235)
+    internalDeriveSafeCopy' (src/Data/SafeCopy/Derive.hs:240)
+    internalDeriveSafeCopyIndexedType (src/Data/SafeCopy/Derive.hs:296)
+    internalDeriveSafeCopyIndexedType' (src/Data/SafeCopy/Derive.hs:301)
+    mkPutCopy (src/Data/SafeCopy/Derive.hs:348)
+    mkGetCopy (src/Data/SafeCopy/Derive.hs:365)
+    mkSafeFunctions (src/Data/SafeCopy/Derive.hs:398)
+    conSize (src/Data/SafeCopy/Derive.hs:431)
+    conName (src/Data/SafeCopy/Derive.hs:441)
+    conTypes (src/Data/SafeCopy/Derive.hs:447)
+    typeName (src/Data/SafeCopy/Derive.hs:453)
+  33% ( 21 / 63) in 'Data.SafeCopy.Internal'
+  Missing documentation for:
+    Module header
+    isPrimitive (src/Data/SafeCopy/SafeCopy.hs:64)
+    constructGetterFromVersion (src/Data/SafeCopy/SafeCopy.hs:137)
+    castVersion (src/Data/SafeCopy/SafeCopy.hs:250)
+     (src/Data/SafeCopy/SafeCopy.hs:253)
+     (src/Data/SafeCopy/SafeCopy.hs:262)
+    Profile (src/Data/SafeCopy/SafeCopy.hs:283)
+    mkProfile (src/Data/SafeCopy/SafeCopy.hs:291)
+    Consistency (src/Data/SafeCopy/SafeCopy.hs:301)
+    availableVersions (src/Data/SafeCopy/SafeCopy.hs:303)
+    getForwardKind (src/Data/SafeCopy/SafeCopy.hs:316)
+    validChain (src/Data/SafeCopy/SafeCopy.hs:320)
+    checkConsistency (src/Data/SafeCopy/SafeCopy.hs:337)
+    computeConsistency (src/Data/SafeCopy/SafeCopy.hs:344)
+    isObviouslyConsistent (src/Data/SafeCopy/SafeCopy.hs:358)
+    proxyFromConsistency (src/Data/SafeCopy/SafeCopy.hs:367)
+    proxyFromKind (src/Data/SafeCopy/SafeCopy.hs:370)
+    consistentFromProxy (src/Data/SafeCopy/SafeCopy.hs:373)
+    versionFromProxy (src/Data/SafeCopy/SafeCopy.hs:376)
+    versionFromKind (src/Data/SafeCopy/SafeCopy.hs:379)
+    versionFromReverseKind (src/Data/SafeCopy/SafeCopy.hs:382)
+    kindFromProxy (src/Data/SafeCopy/SafeCopy.hs:385)
+    Proxy (src/Data/SafeCopy/SafeCopy.hs:391)
+    mkProxy (src/Data/SafeCopy/SafeCopy.hs:393)
+    asProxyType (src/Data/SafeCopy/SafeCopy.hs:396)
+    deriveSafeCopyIndexedType (src/Data/SafeCopy/Derive.hs:115)
+    deriveSafeCopySimpleIndexedType (src/Data/SafeCopy/Derive.hs:170)
+    deriveSafeCopyHappstackDataIndexedType (src/Data/SafeCopy/Derive.hs:220)
+    DeriveType (src/Data/SafeCopy/Derive.hs:223)
+    forceTag (src/Data/SafeCopy/Derive.hs:225)
+    tyVarName (src/Data/SafeCopy/Derive.hs:229)
+    internalDeriveSafeCopy (src/Data/SafeCopy/Derive.hs:235)
+    internalDeriveSafeCopy' (src/Data/SafeCopy/Derive.hs:240)
+    internalDeriveSafeCopyIndexedType (src/Data/SafeCopy/Derive.hs:296)
+    internalDeriveSafeCopyIndexedType' (src/Data/SafeCopy/Derive.hs:301)
+    mkPutCopy (src/Data/SafeCopy/Derive.hs:348)
+    mkGetCopy (src/Data/SafeCopy/Derive.hs:365)
+    mkSafeFunctions (src/Data/SafeCopy/Derive.hs:398)
+    conSize (src/Data/SafeCopy/Derive.hs:431)
+    conName (src/Data/SafeCopy/Derive.hs:441)
+    conTypes (src/Data/SafeCopy/Derive.hs:447)
+    typeName (src/Data/SafeCopy/Derive.hs:453)
+   3% (  2 / 74) in 'Data.SafeCopy.Instances'
+  Missing documentation for:
+    Module header
+     (src/Data/SafeCopy/Instances.hs:51)
+     (src/Data/SafeCopy/Instances.hs:59)
+     (src/Data/SafeCopy/Instances.hs:73)
+     (src/Data/SafeCopy/Instances.hs:81)
+     (src/Data/SafeCopy/Instances.hs:86)
+     (src/Data/SafeCopy/Instances.hs:91)
+     (src/Data/SafeCopy/Instances.hs:96)
+     (src/Data/SafeCopy/Instances.hs:101)
+     (src/Data/SafeCopy/Instances.hs:106)
+    iarray_getCopy (src/Data/SafeCopy/Instances.hs:111)
+    iarray_putCopy (src/Data/SafeCopy/Instances.hs:118)
+     (src/Data/SafeCopy/Instances.hs:125)
+     (src/Data/SafeCopy/Instances.hs:130)
+     (src/Data/SafeCopy/Instances.hs:135)
+     (src/Data/SafeCopy/Instances.hs:139)
+     (src/Data/SafeCopy/Instances.hs:142)
+     (src/Data/SafeCopy/Instances.hs:145)
+     (src/Data/SafeCopy/Instances.hs:149)
+     (src/Data/SafeCopy/Instances.hs:154)
+     (src/Data/SafeCopy/Instances.hs:162)
+     (src/Data/SafeCopy/Instances.hs:164)
+     (src/Data/SafeCopy/Instances.hs:172)
+     (src/Data/SafeCopy/Instances.hs:177)
+     (src/Data/SafeCopy/Instances.hs:181)
+     (src/Data/SafeCopy/Instances.hs:193)
+     (src/Data/SafeCopy/Instances.hs:198)
+     (src/Data/SafeCopy/Instances.hs:202)
+     (src/Data/SafeCopy/Instances.hs:210)
+     (src/Data/SafeCopy/Instances.hs:212)
+     (src/Data/SafeCopy/Instances.hs:214)
+     (src/Data/SafeCopy/Instances.hs:216)
+     (src/Data/SafeCopy/Instances.hs:218)
+     (src/Data/SafeCopy/Instances.hs:220)
+     (src/Data/SafeCopy/Instances.hs:222)
+     (src/Data/SafeCopy/Instances.hs:224)
+     (src/Data/SafeCopy/Instances.hs:226)
+     (src/Data/SafeCopy/Instances.hs:228)
+     (src/Data/SafeCopy/Instances.hs:230)
+     (src/Data/SafeCopy/Instances.hs:232)
+     (src/Data/SafeCopy/Instances.hs:234)
+     (src/Data/SafeCopy/Instances.hs:236)
+     (src/Data/SafeCopy/Instances.hs:243)
+     (src/Data/SafeCopy/Instances.hs:248)
+     (src/Data/SafeCopy/Instances.hs:250)
+     (src/Data/SafeCopy/Instances.hs:252)
+     (src/Data/SafeCopy/Instances.hs:263)
+     (src/Data/SafeCopy/Instances.hs:269)
+     (src/Data/SafeCopy/Instances.hs:277)
+     (src/Data/SafeCopy/Instances.hs:283)
+     (src/Data/SafeCopy/Instances.hs:289)
+     (src/Data/SafeCopy/Instances.hs:295)
+     (src/Data/SafeCopy/Instances.hs:304)
+     (src/Data/SafeCopy/Instances.hs:310)
+     (src/Data/SafeCopy/Instances.hs:321)
+     (src/Data/SafeCopy/Instances.hs:332)
+     (src/Data/SafeCopy/Instances.hs:341)
+     (src/Data/SafeCopy/Instances.hs:350)
+     (src/Data/SafeCopy/Instances.hs:363)
+     (src/Data/SafeCopy/Instances.hs:372)
+     (src/Data/SafeCopy/Instances.hs:390)
+     (src/Data/SafeCopy/Instances.hs:393)
+     (src/Data/SafeCopy/Instances.hs:397)
+    typeName (src/Data/SafeCopy/Instances.hs:425)
+    typeName1 (src/Data/SafeCopy/Instances.hs:428)
+    typeName2 (src/Data/SafeCopy/Instances.hs:431)
+    getGenericVector (src/Data/SafeCopy/Instances.hs:434)
+    putGenericVector (src/Data/SafeCopy/Instances.hs:438)
+     (src/Data/SafeCopy/Instances.hs:442)
+     (src/Data/SafeCopy/Instances.hs:446)
+     (src/Data/SafeCopy/Instances.hs:450)
+     (src/Data/SafeCopy/Instances.hs:454)
+  85% ( 23 / 27) in 'Data.SafeCopy'
+  Missing documentation for:
+    Profile (src/Data/SafeCopy/SafeCopy.hs:283)
+    deriveSafeCopyIndexedType (src/Data/SafeCopy/Derive.hs:115)
+    deriveSafeCopySimpleIndexedType (src/Data/SafeCopy/Derive.hs:170)
+    deriveSafeCopyHappstackDataIndexedType (src/Data/SafeCopy/Derive.hs:220)
+Documentation created: dist/doc/html/safecopy/index.html
+Creating package registration file:
+/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/pkgConf-safecopy-0.919027373351127401868.1
+Installing library in
+/Users/Cypher/Library/Haskell/ghc-8.0.1-x86_64/lib/safecopy-0.9.1
+Registering safecopy-0.9.1...
+cabal: Leaving directory '/var/folders/cp/z1sxk2ts4sjbh8xd7ddmbfmm0000gn/T/cabal-tmp-3209/safecopy-0.9.1'
