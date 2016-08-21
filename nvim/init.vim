@@ -7,7 +7,6 @@ Plug 'bling/vim-airline'                " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
 Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
-Plug 'bitc/vim-hdevtools'               " Haskell types
 call plug#end()
 
 " GUI
@@ -34,7 +33,7 @@ set backup writebackup backupdir=/tmp/
 set foldmethod=manual foldlevel=0
 
 au BufWritePre * :mkview
-au BufRead * :execute "try\n    loadview\ncatch\nendtry"
+au BufRead * :try|loadview|catch|endtry
 au VimResized * :silent! mode<CR>
 au BufEnter * :silent! mode<CR>
 
@@ -82,18 +81,27 @@ au BufEnter *.hs  map <silent> <leader>p :term runhaskell -Wall -fno-warn-unused
 au BufEnter *.cpp map <silent> <leader>p :term g++ % -Wall -Werror -std=c++14; ./a.out <CR>
 
 " NeoMake
-let g:neomake_verbose = 3
 let g:neomake_cpp_enabled_makers = ['clang']
 let g:neomake_cpp_enabled_makers = ['clang']
 let g:neomake_cpp_clang_maker = {
    \ 'exe': 'clang++',
    \ 'args': ["-std=c++14", '-Wall', '-Wextra'],
    \ }
-let g:neomake_haskell_enabled_makers = ['hlint']
+let g:neomake_haskell_enabled_makers = ['ghcmod']
 let g:neomake_python_enabled_makers = ['pylint']
 let g:neomake_markdown_enabled_makers = ['mdl']
 let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
 au BufWritePre * :silent! Neomake
+
+function! LocationNext()
+  try
+    lnext
+  catch
+    try | lfirst | catch | endtry
+  endtry
+endfunction
+
+nnoremap <leader>e :call LocationNext()<CR>
 
 " Open in chrome
 au BufEnter *.md       map <silent> <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
