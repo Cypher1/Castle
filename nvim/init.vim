@@ -6,6 +6,7 @@ Plug 'bling/vim-airline'                " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
 Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'bitc/vim-hdevtools'               " Haskell types
 call plug#end()
 
 " GUI
@@ -30,6 +31,11 @@ set viminfo=
 set nostartofline
 set backup writebackup backupdir=/tmp/
 set foldmethod=manual foldlevel=0
+
+au BufWritePre * :mkview
+au BufRead * :execute "try\n    loadview\ncatch\nendtry"
+au VimResized * :silent! mode<CR>
+au BufEnter * :silent! mode<CR>
 
 " Indent
 set tabstop=4 softtabstop=4 shiftwidth=4
@@ -83,20 +89,15 @@ let g:neomake_python_enabled_makers = ['pylint']
 let g:neomake_markdown_enabled_makers = ['mdl']
 let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
 au BufWritePre * :silent! Neomake
-map <leader>c :w<CR>:Neomake!<CR>
 
 " Open in chrome
 au BufEnter *.md       map <silent> <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
 au BufEnter *.markdown map <silent> <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
 au BufEnter *.html     map <silent> <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
 
+" Html options
 au FileType html setl sw=2 sts=2 et
 au BufWritePre,BufRead *.html :normal gg=G
-
-au BufWritePre * :mkview
-au BufRead * :execute "try\n    loadview\ncatch\nendtry"
-au VimResized * :silent! mode<CR>
-au BufEnter * :silent! mode<CR>
 
 " No more arrow keys
 map <Up>    <NOP>
