@@ -1,3 +1,4 @@
+" Plugins
 call plug#begin('~/.config/nvim/plugged') " Plugins go here
 Plug 'altercation/vim-colors-solarized' " Colours!
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
@@ -40,6 +41,10 @@ au BufEnter * :silent! mode<CR>
 " Indent
 set tabstop=4 softtabstop=4 shiftwidth=4
 set smarttab shiftround expandtab autoindent
+
+" Html options
+au FileType html setl sw=2 sts=2 et
+au BufWritePre,BufRead *.html :normal gg=G
 
 " Git
 nnoremap <leader>gA :Git add .<CR><CR>
@@ -94,10 +99,6 @@ au BufWritePre * :silent! Neomake
 au BufEnter *.md       map <silent> <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
 au BufEnter *.markdown map <silent> <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
 au BufEnter *.html     map <silent> <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
-
-" Html options
-au FileType html setl sw=2 sts=2 et
-au BufWritePre,BufRead *.html :normal gg=G
 
 " No more arrow keys
 map <Up>    <NOP>
