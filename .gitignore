@@ -1,4 +1,6 @@
 nvim/view/*
 nvim/.netrwhist
+nvim/plugged
+nvim/bundle
 cabal/packages/*
 cabal/packages/hackage.haskell.org/*.tar
