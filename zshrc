@@ -77,5 +77,5 @@ source /usr/local/opt/autoenv/activate.sh
 function cd {
     autoenv_cd "$@"
     chpwd_last_working_dir "$@"
-    ls -FG | grep -v '\.o' | grep -v '\.hi' | grep -v '\.pyc'
+    ls -FG | grep -v '\.o$' | grep -v '\.hi$' | grep -v '\.pyc$'
 }
