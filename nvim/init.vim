@@ -92,6 +92,7 @@ let g:neomake_python_enabled_makers = ['pylint']
 let g:neomake_markdown_enabled_makers = ['mdl']
 let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
 au BufWritePre * :silent! Neomake
+au InsertChange,TextChanged * update | Neomake
 
 function! LocationNext()
   try
