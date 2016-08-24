@@ -81,7 +81,7 @@ au BufEnter *.hs  map <silent> <leader>p :term runhaskell -Wall -fno-warn-unused
 au BufEnter *.cpp map <silent> <leader>p :term g++ % -Wall -Werror -std=c++14; ./a.out <CR>
 
 " NeoMake
-let g:neomake_cpp_enabled_makers = ['clang']
+let g:neomake_haskell_enabled_makers = ['ghcmod']
 let g:neomake_cpp_enabled_makers = ['clang']
 let g:neomake_cpp_clang_maker = {
    \ 'exe': 'clang++',
