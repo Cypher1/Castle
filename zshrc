@@ -72,10 +72,3 @@ alias mimir="ssh app@mimir.systems"
 
 # OVERRIDES
 export PATH="$PATH:/usr/local/bin:/Users/Cypher/Library/Haskell/bin"
-
-source /usr/local/opt/autoenv/activate.sh
-function cd {
-    autoenv_cd "$@"
-    chpwd_last_working_dir "$@"
-    ls -FG | grep -v '\.o$' | grep -v '\.hi$' | grep -v '\.pyc$'
-}
