@@ -55,9 +55,9 @@ map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
 
 function! AutoFormat()
     let l:save = winsaveview() " Save cursor
-    %s/\t/    /ce              " Tabs to spaces
-    %s/\s*$//ce                " Remove trailing spaces
-    %s/) {/) {/ce              " Enforce styles
+    %s/\t/    /e               " Tabs to spaces
+    %s/\s\s*$//e               " Remove trailing spaces
+    %s/){/) {/ce               " Enforce styles
     " Add spaces around operators
     %s/\>\([\+\-=\*\/]*\)\</ \1 /ce
     call winrestview(l:save)    " Reset cursor
