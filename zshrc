@@ -25,7 +25,7 @@ alias cp="cp -r"
 alias rm="rm -r"
 alias grep="egrep --color=always"
 VISUAL="nvim"
-alias vi="nvim -O"
+alias vi="nvim "
 alias vim="nvim -O"
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias ghc="ghc -Wall"
@@ -54,7 +54,7 @@ function clean {
 
 # GIT COMMANDS
 alias -s git='git clone'
-alias s="git status -sb || ls"
+alias s="git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"
