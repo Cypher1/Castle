@@ -52,6 +52,13 @@ function clean {
     clear;
 }
 
+# HISTORY
+export HISTSIZE=100000                 # set history size
+export SAVEHIST=100000                 # save history after logout
+export HISTFILE=~/.config/zsh_history  # history file
+setopt INC_APPEND_HISTORY              # append into history file
+setopt HIST_IGNORE_DUPS                # save only one command if 2 common are same and consistent
+
 # GIT COMMANDS
 alias -s git='git clone'
 alias s="git status -sb 2> /dev/null && echo '-------'; ls"
