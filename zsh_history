@@ -10022,3 +10022,173 @@
 : 1473511374:0;d zshrc
 : 1473511379:0;a zshrc
 : 1473511382:0;a zsh_history
+: 1473511393:0;m "Saved zsh history for use elsewhere"
+: 1473511393:0;clear
+: 1473511394:0;s
+: 1473511399:0;d
+: 1473511407:0;clear
+: 1473511407:0;s
+: 1473511411:0;d nvim
+: 1473511416:0;q
+: 1473512574:0;z Kan
+: 1473512577:0;npm start
+: 1473512596:0;p
+: 1473512602:0;which q
+: 1473512604:0;clear
+: 1473512606:0;which P
+: 1473512625:0;p origin/master
+: 1473512631:0;git pull origin/master
+: 1473512637:0;git pull master
+: 1473512639:0;clear
+: 1473512639:0;s
+: 1473512643:0;git branch
+: 1473512647:0;git fetch
+: 1473512721:0;git checkout master
+: 1473512726:0;git pull
+: 1473512736:0;s
+: 1473512763:0;cd imports
+: 1473512764:0;cd ui
+: 1473512764:0;ls
+: 1473512805:0;git checkout cypher_dev 
+: 1473512807:0;clear
+: 1473512807:0;ls
+: 1473513085:0;man git-merge
+: 1473513091:0;git merge master
+: 1473513096:0;s
+: 1473513105:0;vimdiff
+: 1473513111:0;vimdiff .
+: 1473513126:0;cd ..
+: 1473513127:0;..
+: 1473513129:0;vimdiff
+: 1473513133:0;s
+: 1473513138:0;vim .meteor/packages
+: 1473513166:0;clear
+: 1473513167:0;s
+: 1473513172:0;d .meteor/packages
+: 1473513179:0;d .meteor/versions
+: 1473513186:0;vim .meteor/versions
+: 1473513209:0;s
+: 1473513212:0;a .meteor
+: 1473513217:0;cd imports/ui
+: 1473513218:0;clear
+: 1473513218:0;s
+: 1473513227:0;d pages/landing.html style.scss
+: 1473513231:0;vim pages/landing.html style.scss
+: 1473513254:0;clear
+: 1473513254:0;s
+: 1473513256:0;a pages/landing.html
+: 1473513257:0;a style.scss
+: 1473513259:0;s
+: 1473513262:0;m "Merged"
+: 1473513263:0;clear
+: 1473513264:0;p
+: 1473513270:0;clear
+: 1473513271:0;s
+: 1473513404:0;clear
+: 1473513405:0;s
+: 1473513423:0;git log
+: 1473513510:0;cd ...
+: 1473513523:0;cat **/*.* | wc -l
+: 1473513550:0;cat imports/**/*.* server/* client/* | wc -l
+: 1473513569:0;cat imports/**/*.* server/* client/*
+: 1473513581:0;q
+: 1473557330:0;zrc
+: 1473557382:0;exec zsh
+: 1473557598:0;zrc
+: 1473558811:0;clear
+: 1473558811:0;s
+: 1473558917:0;zle -al
+: 1473558922:0;zle -al | grep "history"
+: 1473558945:0;zrc
+: 1473559186:0;exec zsh
+: 1473559188:0;clear
+: 1473559212:0;ls
+: 1473559232:0;clear
+: 1473559269:0;zrc
+: 1473559292:0;exec zsh
+: 1473559301:0;zrc
+: 1473559313:0;exec zsh
+: 1473559320:0;clear
+: 1473559331:0;zrc
+: 1473559604:0;git clone git://github.com/zsh-users/zsh-autosuggestions ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions
+: 1473559612:0;exec zsh
+: 1473559613:0;clear
+: 1473559613:0;ls
+: 1473559671:0;clear
+: 1473559695:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+: 1473559699:0;echo $ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+: 1473559705:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=7
+: 1473559712:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=6
+: 1473559718:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=1
+: 1473559722:0;ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE=9
+: 1473559725:0;clear
+: 1473559772:0;zrc
+: 1473559813:0;exec zsh
+: 1473559820:0;zrc
+: 1473559831:0;exec zsh
+: 1473559833:0;clear
+: 1473559842:0;echo $ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+: 1473559848:0;clear
+: 1473559849:0;zrc
+: 1473559859:0;echo $ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+: 1473559861:0;zrc
+: 1473559866:0;exec zsh
+: 1473559869:0;echo $ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+: 1473559876:0;zrc
+: 1473559882:0;exec zsh
+: 1473559884:0;clear
+: 1473559891:0;echo $ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+: 1473559897:0;zrc
+: 1473559915:0;exec zsh
+: 1473559917:0;clear
+: 1473559919:0;echo $ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE
+: 1473559936:0;echo "$TERM"
+: 1473559940:0;zrc
+: 1473559973:0;exec zsh
+: 1473559979:0;zrc
+: 1473559990:0;clear
+: 1473559992:0;exec zsh
+: 1473560026:0;zrc
+: 1473560093:0;exec zsh
+: 1473560107:0;zrc
+: 1473560121:0;clear
+: 1473560126:0;exec zsh
+: 1473560139:0;zrc
+: 1473560150:0;exec z
+: 1473560173:0;exec zsh
+: 1473560175:0;zrx
+: 1473560177:0;zrc
+: 1473560189:0;exec zsh
+: 1473560208:0;zrc
+: 1473560216:0;exec zsh
+: 1473560218:0;clear
+: 1473560220:0;exec zsh
+: 1473560245:0;clear
+: 1473560246:0;ls
+: 1473560251:0;clear
+: 1473560269:0;ls
+: 1473560294:0;clear
+: 1473560306:0;ping google.com
+: 1473560378:0;zrc
+: 1473560396:0;clear
+: 1473560399:0;exec zsh
+: 1473560401:0;ls
+: 1473560411:0;clear
+: 1473560412:0;zrc
+: 1473560428:0;cd .config
+: 1473560433:0;zrc
+: 1473560441:0;clear
+: 1473560446:0;cd ~/.config
+: 1473560449:0;s
+: 1473560449:0;d
+: 1473560451:0;clear
+: 1473560454:0;d
+: 1473560478:0;s
+: 1473560482:0;d zshrc
+: 1473560487:0;a zshrc
+: 1473560494:0;D
+: 1473560498:0;a zshrc
+: 1473560503:0;m "Added some plugins for zsh"
+: 1473560504:0;clear
+: 1473560504:0;s
+: 1473560508:0;a zsh_history
