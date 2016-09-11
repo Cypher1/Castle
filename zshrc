@@ -14,7 +14,7 @@ BULLETTRAIN_GIT_DIRTY_FG=black
 BULLETTRAIN_GIT_FG=black
 BULLETTRAIN_PROMPT_CHAR=""
 
-plugins=(sudo z gitfast last-working-dir pip cabal gem jsontools zsh-completions django)
+plugins=(brew cabal catimg django extract gem gitfast jsontools last-working-dir npm pip python sudo z zsh-autosuggestions zsh-completions)
 source $ZSH/oh-my-zsh.sh
 export KEYTIMEOUT=1
 
@@ -79,3 +79,6 @@ alias mimir="ssh app@mimir.systems"
 
 # OVERRIDES
 export PATH="$PATH:/usr/local/bin:/Users/Cypher/Library/Haskell/bin"
+
+bindkey '^F' autosuggest-accept
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=cyan"
