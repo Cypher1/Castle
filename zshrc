@@ -48,6 +48,7 @@ function clean {
     rm *.o;
     rm *.class;
     rm *.hi;
+    rm *.gch;
     rm nohup.out;
     clear;
 }
