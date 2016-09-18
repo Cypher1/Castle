@@ -4,9 +4,13 @@ Plug 'altercation/vim-colors-solarized' " Colours!
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'bling/vim-airline'                " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
-Plug 'scrooloose/nerdtree'              " Add file browser
+Plug 'xolox/vim-misc'                   " xolox dependency
+Plug 'xolox/vim-session'                " Sessions
 Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
+Plug 'zchee/deoplete-clang'             " Completion for C(++)
+Plug 'eagletmt/neco-ghc'                         " Completion for Haskell
 call plug#end()
 
 " Colour Scheme
@@ -28,13 +32,17 @@ set mouse=nicr
 set ttimeoutlen=50 " fast key codes
 set clipboard+=unnamedplus
 set backspace=indent,eol,start
+let g:deoplete#enable_at_startup = 1
+let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib/llvm-3.7/lib/libclang.dylib"
+set sessionoptions-=options
+let g:session_command_aliases = 1
 
 " Change vim options
 " Handle buffer backups and closing
 set backup writebackup backupdir=/tmp/ hidden
 
 " Tab complete filenames in commands
-set wildmenu wildignorecase wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.hi
+set wildmenu wildignorecase wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.hi,*.gch
 
 "makes sed global, caseless, display (only the) next search item
 set gdefault smartcase incsearch nohlsearch
@@ -52,15 +60,18 @@ set nostartofline
 " Key mappings
 tnoremap <Esc> <C-\><C-n>
 map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
+"Deoplete
+inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 function! AutoFormat()
     let l:save = winsaveview() " Save cursor
     %s/\t/    /e               " Tabs to spaces
     %s/\s\s*$//e               " Remove trailing spaces
     %s/){/) {/ce               " Enforce styles
-    " Add spaces around operators
-    %s/\>\([\+\-=\*\/]*\)\</ \1 /ce
-    call winrestview(l:save)    " Reset cursor
+    %s/{ \([^/]\)/{\1/ce       " Enforce styles
+    %s/\([^/ ]\) }/\1}/ce      " Enforce styles
+    execute "normal gg=G"
+    call winrestview(l:save)   " Reset cursor
 endfunction
 nnoremap <leader>i :call AutoFormat()<CR>
 
@@ -82,8 +93,8 @@ nnoremap <leader>gb :Gblame<CR>
 map <leader>\ :vsp<space>
 map <leader>- :sp<space>
 map <leader>e :e<space>
-map <leader>n :bp<CR>
-map <leader>m :bn<CR>
+map <leader>n :bn<CR>
+map <leader>m :bp<CR>
 map <leader>q :bd<CR>
 map <leader>w :w<CR>
 
