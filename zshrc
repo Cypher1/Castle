@@ -16,7 +16,7 @@ BULLETTRAIN_GIT_FG=black
 BULLETTRAIN_PROMPT_CHAR=""
 BULLETTRAIN_GIT_FETCH=true
 
-plugins=(brew cabal catimg django extract gem gitfast jsontools last-working-dir npm pip python sudo z zsh-autosuggestions zsh-completions)
+plugins=(brew cabal catimg extract gem gitfast jsontools last-working-dir npm pip python sudo z zsh-autosuggestions zsh-completions)
 source $ZSH/oh-my-zsh.sh
 export KEYTIMEOUT=1
 
@@ -39,9 +39,16 @@ alias zrc="vim ~/.zshrc"
 alias vrc="vim ~/.config/nvim/init.vim"
 alias .="clear && cd . && ls"
 alias ..="clear && cd .. && ls"
+alias r="clear"
 alias q="exit"
 alias u="du -hs *"
-alias -s py='python'
+alias -s py='vim'
+alias -s cpp='vim'
+alias -s h='vim'
+alias -s tem='vim'
+alias -s md='vim'
+alias -s html='vim'
+alias -s js='vim'
 alias server="python -m SimpleHTTPServer"
 alias jp='processing-java --sketch=`pwd` --present'
 
@@ -57,8 +64,8 @@ function clean {
 }
 
 # HISTORY
-export HISTSIZE=100000                 # set history size
-export SAVEHIST=100000                 # save history after logout
+export HISTSIZE=1000000                # set history size
+export SAVEHIST=1000000                # save history after logout
 export HISTFILE=~/.config/zsh_history  # history file
 setopt INC_APPEND_HISTORY              # append into history file
 setopt HIST_IGNORE_DUPS                # save only one command if 2 common are same and consistent
@@ -83,6 +90,4 @@ alias mimir="ssh app@mimir.systems"
 
 # OVERRIDES
 export PATH="$PATH:/usr/local/bin:/Users/Cypher/Library/Haskell/bin"
-
-bindkey '^F' autosuggest-accept
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
