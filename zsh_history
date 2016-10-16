@@ -11820,3 +11820,5473 @@
 : 1474184586:0;s
 : 1474184589:0;d zsh_history
 : 1474184596:0;a zsh_history
+: 1474184598:0;m "More history"
+: 1474184600:0;s
+: 1474184605:0;d nvim/.init.vim-rplugin\~
+: 1474184616:0;rm nvim/.init.vim-rplugin\~
+: 1474184617:0;clear
+: 1474184617:0;s
+: 1474184620:0;d nvim
+: 1474184635:0;a nvim
+: 1474184686:0;m "Playing with some new plugins and added .ghc to ignorelist"
+: 1474184687:0;D
+: 1474184692:0;D nvim
+: 1474184695:0;s
+: 1474184698:0;p
+: 1474184704:0;clear
+: 1474184704:0;s
+: 1474184706:0;exit
+: 1474184740:0;s
+: 1474184763:0;mv imports/ui/pages/group_page.html imports/ui/templates
+: 1474184780:0;git mv imports/ui/templates/group_page.html imports/ui/pages
+: 1474184781:0;s
+: 1474184790:0;mv imports/ui/pages/group_page.js imports/ui/templates
+: 1474184796:0;git mv imports/ui/templates/group_page.js imports/ui/pages
+: 1474184797:0;clear
+: 1474184797:0;s
+: 1474184803:0;d imports/ui/pages/pages.js
+: 1474184815:0;a imports/ui/pages/pages.js
+: 1474184825:0;d imports/ui/templates/templates.js
+: 1474184828:0;a imports/ui/templates/templates.js
+: 1474184829:0;clear
+: 1474184829:0;s
+: 1474184863:0;d imports/api/groups.js
+: 1474184875:0;d imports/ui/templates
+: 1474184881:0;clear
+: 1474184881:0;s
+: 1474184885:0;cd imports/ui
+: 1474184886:0;clear
+: 1474184886:0;s
+: 1474184925:0;cd ../api
+: 1474184929:0;clear
+: 1474184929:0;ls
+: 1474184932:0;cd ../ui/pages
+: 1474184933:0;ls
+: 1474184937:0;vim group_page.html group_page.js
+: 1474184997:0;ls
+: 1474184999:0;vi pages.js
+: 1474185059:0;s
+: 1474185061:0;clear
+: 1474185061:0;s
+: 1474185077:0;vim group_page.js ../../startup/router.js
+: 1474185561:0;cd ...
+: 1474185563:0;cd ..
+: 1474185570:0;vim imports/ui/body.html
+: 1474185578:0;vim imports/ui/body.html imports/ui/mainLayout.html
+: 1474185593:0;vim imports/ui/body.js
+: 1474187345:0;grep -R "subscribe" .
+: 1474187349:0;cd imports
+: 1474187350:0;grep -R "subscribe" .
+: 1474187380:0;vim ui/templates/task_list.js ui/pages/group_page.js ui/pages/group.js
+: 1474187974:0;s
+: 1474187975:0;clear
+: 1474187975:0;s
+: 1474187983:0;vim ui/pages/group.js
+: 1474187999:0;vim ui/pages/groups.js ui/pages/group_page.js api/groups.js
+: 1474194895:0;clear
+: 1474194895:0;ls
+: 1474194899:0;vrc
+: 1474195049:0;clear
+: 1474195050:0;vrc
+: 1474195092:0;clear
+: 1474195094:0;vrc
+: 1474195250:0;zrc
+: 1474195326:0;vrc
+: 1474195359:0;clear
+: 1474195360:0;s
+: 1474195363:0;q
+: 1474195471:0;vim ui/pages/groups.js ui/pages/group_page.js api/groups.js
+: 1474195488:0;vrc
+: 1474195536:0;cd ~/.c
+: 1474195538:0;cd ~/.config
+: 1474195541:0;vim nvim/init.vim
+: 1474195546:0;cd nvim
+: 1474195546:0;d
+: 1474195553:0;vim init.vim
+: 1474196045:0;clear
+: 1474196048:0;ls
+: 1474196050:0;zrc
+: 1474196097:0;clear
+: 1474196099:0;zrc
+: 1474196108:0;ls
+: 1474196111:0;exec zsh
+: 1474196112:0;clear
+: 1474196113:0;ls
+: 1474196114:0;zrc
+: 1474196121:0;exec zsh
+: 1474196123:0;clear
+: 1474196123:0;ls
+: 1474196126:0;s
+: 1474196130:0;clear
+: 1474196130:0;ls
+: 1474196148:0;vrc
+: 1474196185:0;d init.vim
+: 1474196194:0;git checkout init.vim
+: 1474196195:0;clear
+: 1474196197:0;vim init.vim
+: 1474196215:0;git checkout init.vim
+: 1474196219:0;clear
+: 1474196220:0;ls
+: 1474196220:0;s
+: 1474196225:0;vim
+: 1474196247:0;clear
+: 1474196247:0;s
+: 1474196251:0;rm .init.vim-rplugin\~
+: 1474196252:0;clear
+: 1474196253:0;s
+: 1474196257:0;cd ..
+: 1474196259:0;d
+: 1474196264:0;clear
+: 1474196264:0;q
+: 1474196268:0;z Kan
+: 1474196269:0;clear
+: 1474196270:0;s
+: 1474196365:0;clear
+: 1474196365:0;s
+: 1474196369:0;d imports/ui/templates
+: 1474196393:0;cd imports
+: 1474196394:0;cd ui
+: 1474196395:0;clear
+: 1474196395:0;s
+: 1474196401:0;d templates/group.js
+: 1474196407:0;vim templates/group.js
+: 1474196412:0;clear
+: 1474196414:0;a templates/group.js
+: 1474196415:0;s
+: 1474196420:0;d templates/task.js
+: 1474196439:0;git checkout templates/task.js
+: 1474196439:0;clear
+: 1474196440:0;s
+: 1474196447:0;d templates/task_list.js
+: 1474196459:0;git checkout templates/task_list.js
+: 1474196459:0;clear
+: 1474196460:0;s
+: 1474196465:0;git diff body.html
+: 1474196471:0;git checkout body.html
+: 1474196476:0;git diff body.js
+: 1474196484:0;vim body.js
+: 1474196491:0;a body.js
+: 1474196492:0;clear
+: 1474196493:0;s
+: 1474196503:0;d pages/groups.js
+: 1474196510:0;cat pages/groups.js
+: 1474196518:0;a pages/groups.js
+: 1474196519:0;clear
+: 1474196519:0;s
+: 1474196523:0;cd templates
+: 1474196525:0;s
+: 1474196530:0;cd ../pages
+: 1474196535:0;a group_page.*
+: 1474196536:0;clear
+: 1474196536:0;s
+: 1474196543:0;vim group_page.js
+: 1474196558:0;a group_page.js
+: 1474196559:0;clear
+: 1474196559:0;s
+: 1474196562:0;cd ../../
+: 1474196563:0;cd api
+: 1474196564:0;ls
+: 1474196564:0;clear
+: 1474196565:0;s
+: 1474196568:0;d group_pages 
+: 1474196570:0;clear
+: 1474196571:0;s
+: 1474196576:0;a groups.js
+: 1474196582:0;D groups.js
+: 1474196589:0;clear
+: 1474196590:0;s
+: 1474196595:0;git branch orion
+: 1474196601:0;git checkout orion
+: 1474196602:0;clear
+: 1474196602:0;s
+: 1474196610:0;clear
+: 1474196612:0;ls
+: 1474196615:0;git checkout master
+: 1474196625:0;git branch -d orion 
+: 1474196626:0;ls
+: 1474196628:0;git branch
+: 1474196631:0;git branch orion
+: 1474196636:0;git checkout ori
+: 1474196638:0;git checkout orion
+: 1474196639:0;clear
+: 1474196640:0;s
+: 1474196642:0;meteor add orionjs:core orionjs:materialize
+: 1474196858:0;meteor remove orionjs:core orionjs:materialize
+: 1474196862:0;clear
+: 1474196872:0;git branch
+: 1474196876:0;git checkout group_pages 
+: 1474196877:0;clear
+: 1474196877:0;s
+: 1474196884:0;cd ../.../
+: 1474196888:0;cd ....
+: 1474196889:0;clear
+: 1474196890:0;cd KanFam_Ethics
+: 1474196891:0;s
+: 1474196894:0;d .meteor
+: 1474196901:0;meteor remove orionjs:core orionjs:materialize
+: 1474196905:0;q
+: 1474197035:0;reboot
+: 1474197075:0;q
+: 1474243219:0;s
+: 1474243223:0;d imports/startup/router.js
+: 1474243400:0;q
+: 1474243405:0;z Cpp
+: 1474243405:0;ls
+: 1474243406:0;clear
+: 1474243408:0;ls
+: 1474243411:0;cd Ass3
+: 1474243412:0;ls
+: 1474243444:0;vim Graph.h Graph.tem tests/test14.cpp
+: 1474243553:0;ls
+: 1474243555:0;./test
+: 1474243764:0;cd tests
+: 1474243765:0;ls
+: 1474243823:0;.
+: 1474243824:0;ls
+: 1474243833:0;vim result14.txt
+: 1474243873:0;cd ..
+: 1474243874:0;./test
+: 1474244652:0;z Kan
+: 1474244653:0;ls
+: 1474244657:0;git log
+: 1474244668:0;git log > ../Log_Book
+: 1474244671:0;cd ..
+: 1474244672:0;vim Log_Book
+: 1474245267:0;clear
+: 1474245268:0;s
+: 1474245272:0;cd KanFam_Ethics
+: 1474245272:0;.
+: 1474245273:0;s
+: 1474245673:0;q
+: 1474245699:0;./test
+: 1474246152:0;vim tests/test13.cpp
+: 1474246190:0;./test
+: 1474246413:0;when-changed Graph.h Graph.tem tests/* -c ./test
+: 1474246451:0;when-changed Graph.h Graph.tem tests/*.cpp -c ./test
+: 1474246692:0;cse
+: 1474246864:0;q
+: 1474248341:0;s
+: 1474248346:0;clear
+: 1474248347:0;s
+: 1474248350:0;q
+: 1474248353:0;npm start
+: 1474248379:0;clear
+: 1474248379:0;s
+: 1474248504:0;vim imports/startup/router.js
+: 1474248784:0;vim .meteor/packages
+: 1474249358:0;npm start
+: 1474249362:0;q
+: 1474249372:0;git pull
+: 1474249384:0;git pull origin master 
+: 1474250091:0;q
+: 1474250139:0;vim
+: 1474250185:0;q
+: 1474252669:0;npm start
+: 1474254380:0;ls
+: 1474254380:0;s
+: 1474254382:0;clear
+: 1474254382:0;s
+: 1474254385:0;z Cpp
+: 1474254386:0;.
+: 1474254386:0;ls
+: 1474254389:0;cd Lectures
+: 1474254389:0;ls
+: 1474254396:0;vim Lecture_13.md
+: 1474254514:0;z Kan
+: 1474254523:0;vim Lecture_13.md
+: 1474254528:0;vim
+: 1474254805:0;exit
+: 1474254810:0;clear
+: 1474254811:0;q
+: 1474254822:0;reboot
+: 1474254865:0;clear
+: 1474254866:0;ls
+: 1474254869:0;z cpp
+: 1474254872:0;vim Lecture_13.md
+: 1474254876:0;cd Lectures
+: 1474254878:0;vim Lecture_13.md
+: 1474254886:0;npm start
+: 1474254893:0;cd -
+: 1474254897:0;z kan
+: 1474254898:0;.
+: 1474254899:0;ls
+: 1474254927:0;vim imports/ui/pages/group_page.js imports/api/groups.js
+: 1474255246:0;sudo nvram SystemAudioVolume="%00"
+: 1474255297:0;ls
+: 1474255298:0;.
+: 1474255298:0;s
+: 1474255346:0;vim imports/api/groups.js imports/ui/templates/group.html imports/ui/pages/group_page.js
+: 1474255353:0;q
+: 1474255813:0;ls
+: 1474255814:0;s
+: 1474255817:0;z cpp
+: 1474255817:0;clear
+: 1474255818:0;ls
+: 1474255828:0;vim multi.cpp
+: 1474256058:0;which g++
+: 1474256062:0;g++ test.cpp
+: 1474256064:0;ls
+: 1474256067:0;g++ multi.cpp
+: 1474256069:0;./a.out
+: 1474256082:0;vim multi.cpp
+: 1474256154:0;g++ multi.cpp
+: 1474256156:0;./a.out
+: 1474256175:0;vim multi.cpp
+: 1474256206:0;g++ multi.cpp
+: 1474256208:0;./a.out
+: 1474256219:0;vim multi.cpp
+: 1474256349:0;mkdir mutli
+: 1474256354:0;mv multi.cpp mutli
+: 1474256354:0;ls
+: 1474256358:0;rm a.out
+: 1474256359:0;clear
+: 1474256359:0;ls
+: 1474256360:0;cd mutli
+: 1474256361:0;ls
+: 1474256369:0;cp multi.cpp multi2.cpp
+: 1474256371:0;vim multi2.cpp
+: 1474256480:0;g++ multi2.cpp
+: 1474256482:0;./a.out
+: 1474256491:0;vim multi2.cpp
+: 1474256500:0;g++ multi2.cpp && ./a.out
+: 1474256540:0;cp multi.cpp example.cpp
+: 1474256542:0;vim example.cpp
+: 1474256665:0;g++ example.cpp
+: 1474256666:0;./a.out
+: 1474256682:0;vim example.cpp
+: 1474256688:0;./a.out
+: 1474256690:0;vim example.cpp
+: 1474256710:0;./a.out
+: 1474256719:0;g++ example.cpp && ./a.out
+: 1474256728:0;vim example.cpp
+: 1474256755:0;g++ example.cpp && ./a.out
+: 1474256767:0;vim example.cpp
+: 1474256772:0;cp example.cpp fuck.cpp
+: 1474256774:0;vim fuck.cpp
+: 1474256791:0;g++ fuck.cpp
+: 1474256794:0;./a.out
+: 1474256810:0;clear
+: 1474256913:0;vim multi2.cpp
+: 1474256936:0;g++ example.cpp && ./a.out
+: 1474256940:0;vim multi2.cpp
+: 1474256943:0;vim example.cpp
+: 1474256949:0;g++ example.cpp && ./a.out
+: 1474256957:0;vim example.cpp
+: 1474256969:0;g++ example.cpp && ./a.out
+: 1474257088:0;vim example.cpp
+: 1474257112:0;g++ example.cpp && ./a.out
+: 1474257134:0;vim example.cpp
+: 1474257140:0;g++ example.cpp && ./a.out
+: 1474258339:0;cd ../Ass3
+: 1474258339:0;.
+: 1474258340:0;l
+: 1474258347:0;vim Graph.h Graph.tem
+: 1474258585:0;./test
+: 1474258614:0;vi Graph.h Graph.tem
+: 1474258653:0;when-changed Graph.h Graph.tem tests/*.cpp -c ./test
+: 1474259083:0;clear
+: 1474259084:0;q
+: 1474259497:0;g++ shared.cpp
+: 1474259498:0;./a.out
+: 1474259501:0;g++ shared.cpp
+: 1474259508:0;vim shared.cpp
+: 1474259537:0;g++ shared.cpp && ./a.out
+: 1474259546:0;vim shared.cpp
+: 1474259580:0;g++ shared.cpp && ./a.out
+: 1474259582:0;vim shared.cpp
+: 1474259610:0;g++ shared.cpp && ./a.out
+: 1474259616:0;vim shared.cpp
+: 1474259671:0;g++ shared.cpp && ./a.out
+: 1474259674:0;vim shared.cpp
+: 1474259692:0;g++ shared.cpp && ./a.out
+: 1474259698:0;vim shared.cpp
+: 1474259711:0;g++ shared.cpp && ./a.out
+: 1474259715:0;vim shared.cpp
+: 1474259719:0;g++ shared.cpp && ./a.out
+: 1474259724:0;vim shared.cpp
+: 1474259741:0;g++ shared.cpp && ./a.out
+: 1474259751:0;vim shared.cpp
+: 1474259791:0;g++ shared.cpp && ./a.out
+: 1474259895:0;clear
+: 1474259895:0;ls
+: 1474259899:0;vim shared.cpp
+: 1474260047:0;g++ shared.cpp && ./a.out
+: 1474260062:0;vim shared.cpp
+: 1474260110:0;g++ shared.cpp && ./a.out
+: 1474260114:0;vim shared.cpp
+: 1474260136:0;g++ shared.cpp && ./a.out
+: 1474260142:0;vim shared.cpp
+: 1474260147:0;g++ shared.cpp && ./a.out
+: 1474260151:0;vim shared.cpp
+: 1474260187:0;g++ shared.cpp && ./a.out
+: 1474260188:0;vim shared.cpp
+: 1474260208:0;g++ shared.cpp && ./a.out
+: 1474260211:0;vim shared.cpp
+: 1474260236:0;g++ shared.cpp -o dissidents
+: 1474260246:0;./dissidents
+: 1474260249:0;rm dissidents
+: 1474260250:0;clear
+: 1474260250:0;ls
+: 1474260253:0;rm a.out
+: 1474260254:0;clear
+: 1474260254:0;ls
+: 1474260257:0;vim shared.cpp
+: 1474260288:0;g++ shared.cpp -o dissidents
+: 1474260289:0;./dissidents
+: 1474260291:0;rm dissidents
+: 1474260292:0;clear
+: 1474260293:0;ls
+: 1474260549:0;./a.out | pbcopy
+: 1474260552:0;./a.out
+: 1474260559:0;vim shared.cpp
+: 1474260570:0;g++ shared.cpp && ./a.out
+: 1474260579:0;g++ shared.cpp && ./a.out | pbcopy
+: 1474261271:0;vrc
+: 1474261481:0;vim Lecture_13.md
+: 1474261532:0;vrc
+: 1474261536:0;vim Lecture_13.md
+: 1474261574:0;ls
+: 1474261578:0;vim Lecture_1.md
+: 1474261684:0;q
+: 1474261707:0;vim imports/ui/pages/group_page.js imports/api/groups.js
+: 1474261978:0;cd ~/.config
+: 1474261978:0;s
+: 1474261981:0;git checkout nvim
+: 1474261982:0;clear
+: 1474261982:0;s
+: 1474261985:0;rm nvim/.init.vim-rplugin\~
+: 1474261986:0;clear
+: 1474261988:0;vim
+: 1474262004:0;ls
+: 1474262004:0;s
+: 1474262006:0;clear
+: 1474262006:0;ls
+: 1474262016:0;vrc
+: 1474262208:0;exec
+: 1474262210:0;clear
+: 1474262211:0;s
+: 1474262212:0;vim
+: 1474262224:0;cd nvim
+: 1474262224:0;ls
+: 1474262228:0;cd plugged
+: 1474262228:0;ls
+: 1474262238:0;cd vim-colors-solarized-black
+: 1474262239:0;ls
+: 1474262243:0;cd ....
+: 1474262268:0;cd nvim/plugged/vim-colors-solarized-black/colors
+: 1474262269:0;ls
+: 1474262332:0;vim
+: 1474262395:0;cp solarized.vim ~/.config/nvim/colors/solarized.vim
+: 1474262406:0;mkdir ~/.config/nvim/colors/
+: 1474262408:0;cp solarized.vim ~/.config/nvim/colors/solarized.vim
+: 1474262410:0;vim
+: 1474262415:0;cd ~/.config
+: 1474262416:0;cd nvim
+: 1474262416:0;ls
+: 1474262418:0;cd colors
+: 1474262418:0;ls
+: 1474262420:0;vim solarized.vim
+: 1474262430:0;rm solarized.vim
+: 1474262431:0;cd ..
+: 1474262432:0;rm colors
+: 1474262433:0;clear
+: 1474262435:0;vrc
+: 1474262583:0;git checkout init.vim
+: 1474262583:0;s
+: 1474262593:0;vrc
+: 1474262630:0;cd plugged
+: 1474262631:0;ls
+: 1474262639:0;rm vim-colors-solarized-black
+: 1474262643:0;y
+: 1474262645:0;yclear
+: 1474262647:0;clear
+: 1474262647:0;ls
+: 1474262649:0;cd vim-colors-solarized
+: 1474262650:0;ls
+: 1474262652:0;cd colors
+: 1474262653:0;ls
+: 1474262656:0;vim solarized.vim
+: 1474262671:0;cd ...
+: 1474262677:0;cd vim-airline-themes
+: 1474262677:0;ls
+: 1474262681:0;cd plugin
+: 1474262682:0;ls
+: 1474262684:0;vim airline-themes.vim
+: 1474262690:0;ls
+: 1474262691:0;cd ..
+: 1474262691:0;ls
+: 1474262693:0;cd autoload
+: 1474262693:0;ls
+: 1474262695:0;vim airline
+: 1474262719:0;clear
+: 1474262719:0;vim
+: 1474262763:0;clear
+: 1474262764:0;s
+: 1474262770:0;git checkout airline
+: 1474262772:0;cd ...
+: 1474262777:0;cd vim-colors-solarized
+: 1474262778:0;git checkout
+: 1474262779:0;clear
+: 1474262780:0;s
+: 1474262783:0;git checkout colors
+: 1474262784:0;s
+: 1474262785:0;cd ..
+: 1474262787:0;s
+: 1474262788:0;clear
+: 1474262789:0;cd ../../
+: 1474262790:0;ls
+: 1474262791:0;clear
+: 1474262791:0;s
+: 1474262792:0;exec
+: 1474262793:0;clear
+: 1474262795:0;vim
+: 1474262811:0;clear
+: 1474262813:0;s
+: 1474265716:0;z cpp
+: 1474265717:0;ls
+: 1474265719:0;cd Ass3
+: 1474265720:0;.
+: 1474265726:0;cat tests/result1.txt
+: 1474265768:0;vim Graph.h Graph.tem
+: 1474268107:0;cd ..
+: 1474268108:0;ls
+: 1474268111:0;cd Tests
+: 1474268111:0;.
+: 1474268112:0;s
+: 1474268115:0;git pull origin master 
+: 1474268124:0;clear
+: 1474268127:0;cd asst3
+: 1474268127:0;.
+: 1474268128:0;s
+: 1474268133:0;git checkout GraphTester.o
+: 1474268134:0;clear
+: 1474268134:0;s
+: 1474268138:0;rm GraphTester.o
+: 1474268139:0;clear
+: 1474268139:0;ls
+: 1474268142:0;./test.sh ../../Ass3/
+: 1474268165:0;vim ../../Ass3/Graph.h ../../Ass3/Graph.tem
+: 1474268408:0;./test.sh ../../Ass3/
+: 1474268429:0;vim ../../Ass3/Graph.h ../../Ass3/Graph.tem
+: 1474268545:0;./test.sh ../../Ass3/
+: 1474271273:0;cd ../../Ass3
+: 1474271274:0;clear
+: 1474271274:0;ls
+: 1474271282:0;scp Graph.* z5017666@cse.unsw.edu.au:./Graph
+: 1474271287:0;cse
+: 1474271309:0;q
+: 1474271312:0;z Kan
+: 1474271313:0;clear
+: 1474271313:0;s
+: 1474271320:0;clear
+: 1474271326:0;open http://localhost:3000/
+: 1474271390:0;vim imports/api/groups.js imports/ui/templates/group.html imports/ui/pages/group_page.js
+: 1474272344:0;cd
+: 1474272358:0;cd Drive
+: 1474272359:0;ls
+: 1474272360:0;cd Me
+: 1474272360:0;ls
+: 1474272367:0;vim shit_gf_says
+: 1474272375:0;vim shit_gf_says.md
+: 1474273185:0;vrc
+: 1474273242:0;vim imports/api/tasks.js
+: 1474273338:0;vrc
+: 1474273691:0;q
+: 1474273816:0;clear
+: 1474273818:0;vim imports/api/tasks.js
+: 1474273823:0;vrc
+: 1474273845:0;vim imports/api/tasks.js
+: 1474273852:0;vrc
+: 1474273888:0;vim imports/api/tasks.js
+: 1474273899:0;vrc
+: 1474273923:0;vim imports/api/tasks.js
+: 1474273928:0;vrc
+: 1474273967:0;vim imports/api/tasks.js
+: 1474274088:0;vrc
+: 1474274100:0;vim imports/api/tasks.js
+: 1474274140:0;clear
+: 1474274140:0;s
+: 1474274144:0;a .
+: 1474274157:0;vim imports/ui/pages/groups.js
+: 1474274271:0;clear
+: 1474274271:0;s
+: 1474274277:0;a imports/ui/pages
+: 1474274278:0;clear
+: 1474274278:0;s
+: 1474274298:0;m "Basic Group api work and some updates the group pages and groups_page"
+: 1474274299:0;p
+: 1474274308:0;git push --set-upstream origin group_pages
+: 1474275260:0;clear
+: 1474275265:0;cd imports/ui
+: 1474275279:0;vim pages/dashboard.html templates/task_list.html
+: 1474275879:0;clear
+: 1474275880:0;s
+: 1474275884:0;q
+: 1474275972:0;clear
+: 1474275973:0;.
+: 1474275974:0;ls
+: 1474276675:0;sudo nvram SystemAudioVolume=%0
+: 1474276679:0;sudo nvram SystemAudioVolume=%01
+: 1474276683:0;sudo nvram SystemAudioVolume=%0.01
+: 1474276685:0;sudo nvram SystemAudioVolume=%01
+: 1474276689:0;reboot
+: 1474277695:0;clear
+: 1474277776:0;ls
+: 1474277777:0;s
+: 1474277810:0;sudo nvram SystemAudioVolume=%00
+: 1474277824:0;sudo nvram -p
+: 1474277884:0;sudo nvram -p | grep SystemAudioVolume
+: 1474278055:0;sudo nvram SystemAudioVolume=" "
+: 1474278124:0;clear
+: 1474278124:0;ls
+: 1474278125:0;s
+: 1474278181:0;npm start
+: 1474278187:0;ls
+: 1474278241:0;vim templates/group.js
+: 1474278897:0;clear
+: 1474278898:0;s
+: 1474278900:0;q
+: 1474279612:0;clear
+: 1474279612:0;s
+: 1474279616:0;d
+: 1474279632:0;q
+: 1474331985:0;ls
+: 1474334482:0;npm start
+: 1474335140:0;ghci
+: 1474337144:0;q
+: 1474337146:0;clear
+: 1474337146:0;s
+: 1474337153:0;q
+: 1474337171:0;cd ~/Documents/Jarvis/site
+: 1474337171:0;clear
+: 1474337172:0;s
+: 1474337175:0;clear
+: 1474337177:0;npm start
+: 1474342131:0;ls
+: 1474342131:0;s
+: 1474345580:0;ls
+: 1474345584:0;clear
+: 1474345584:0;ls
+: 1474345601:0;cp ../../KanFam_Ethics/.meteor .meteor
+: 1474345626:0;s
+: 1474345629:0;cd .meteor
+: 1474345629:0;ls
+: 1474345634:0;mv .meteor/* .
+: 1474345639:0;ls
+: 1474345643:0;rm .meteor
+: 1474345653:0;rm -rf .meteor
+: 1474345667:0;clear
+: 1474345667:0;ls
+: 1474345670:0;..
+: 1474345673:0;ls
+: 1474345676:0;cd imports
+: 1474345677:0;ls
+: 1474345678:0;cd ui
+: 1474345679:0;ls
+: 1474345706:0;cp ~/Documents/KanFam_Ethics/imports/ui/body.html body.html
+: 1474345716:0;cp ~/Documents/KanFam_Ethics/imports/ui/style.scss style.scss
+: 1474345719:0;vim style.scss
+: 1474345797:0;clear
+: 1474345797:0;s
+: 1474345802:0;d body.html
+: 1474345805:0;vim body.
+: 1474345807:0;vim body.html
+: 1474345810:0;clear
+: 1474345812:0;s
+: 1474345817:0;a style.scss ../../.meteor
+: 1474345818:0;clear
+: 1474345818:0;s
+: 1474345822:0;meteor install
+: 1474345826:0;cd ..
+: 1474345828:0;ls
+: 1474345828:0;clear
+: 1474345828:0;s
+: 1474345830:0;D
+: 1474345838:0;a .
+: 1474345847:0;m "Added some packages and style"
+: 1474345847:0;clear
+: 1474345856:0;ls
+: 1474345869:0;diff imports/ui/mainLayout.html ~/Documents/KanFam_Ethics/imports/ui/mainLayout.html
+: 1474345882:0;clear
+: 1474345883:0;ls
+: 1474345885:0;cd imports/u
+: 1474345886:0;cd imports/ui
+: 1474345887:0;ls
+: 1474345891:0;cd pages
+: 1474345891:0;ls
+: 1474345895:0;vim dashboard.html
+: 1474345923:0;cp ~/Documents/KanFam_Ethics/imports/ui/pages/landing.html landing.html
+: 1474345926:0;vim landing.html
+: 1474346020:0;diff ~/Documents/KanFam_Ethics/imports/ui/body.js ../body.js
+: 1474346025:0;cp ~/Documents/KanFam_Ethics/imports/ui/body.js ../body.js
+: 1474346026:0;cd ..
+: 1474346028:0;vim body.js
+: 1474346039:0;clear
+: 1474346039:0;s
+: 1474346045:0;cd ../startup
+: 1474346046:0;ls
+: 1474346063:0;diff ~/Documents/KanFam_Ethics/imports/startup/router.js router.js
+: 1474346070:0;cp ~/Documents/KanFam_Ethics/imports/startup/router.js router.js
+: 1474346072:0;vim router.js
+: 1474346109:0;clear
+: 1474346109:0;ls
+: 1474346112:0;cd ../p
+: 1474346117:0;cd ..
+: 1474346118:0;cd ui
+: 1474346120:0;cd pages
+: 1474346120:0;ls
+: 1474346129:0;vim pages.js repo.html repos.html
+: 1474346195:0;cd ..
+: 1474346199:0;vim templates/navlist.html
+: 1474346219:0;cp ~/Documents/KanFam_Ethics/imports/ui/templates/navlist.html templates/navlist.html
+: 1474346221:0;vim templates/navlist.html
+: 1474346422:0;clear
+: 1474346424:0;vim footer.html
+: 1474346429:0;cd templates
+: 1474346430:0;vim footer.html
+: 1474346575:0;cd ..
+: 1474346576:0;cd pages
+: 1474346577:0;ls
+: 1474346578:0;clear
+: 1474346578:0;ls
+: 1474346588:0;cd ..
+: 1474346589:0;ls
+: 1474346610:0;vim ../startup/router.js pages/pages.js pages/feedback.html pages/feedback.js
+: 1474347782:0;npm start
+: 1474348141:0;z Cpp
+: 1474348143:0;cd Tutorials
+: 1474348144:0;ls
+: 1474348152:0;mk Iterators
+: 1474348153:0;ls
+: 1474348245:0;clear
+: 1474348245:0;ls
+: 1474348249:0;vim week9.cpp
+: 1474348306:0;g++ week9.cpp
+: 1474348340:0;clear && g++ week9.cpp && ./a.out
+: 1474349221:0;cp ../T8/Library.hpp .
+: 1474349222:0;ls
+: 1474349227:0;vim Library.hpp Library_Iterator.hpp
+: 1474351301:0;clear
+: 1474351301:0;q
+: 1474356008:0;clear
+: 1474356008:0;s
+: 1474357983:0;mongo
+: 1474357986:0;meteor mongo
+: 1474357997:0;z Jarvis/site
+: 1474358003:0;meteor mongo 
+: 1474358112:0;git diff body.js
+: 1474358116:0;vim body.js
+: 1474358132:0;cd ../api
+: 1474358132:0;ls
+: 1474358135:0;vim api.js
+: 1474358150:0;clear
+: 1474358168:0;cd ..
+: 1474358181:0;cd api
+: 1474358184:0;mv api.js apis.js
+: 1474358185:0;clear
+: 1474358186:0;cd ..
+: 1474358186:0;s
+: 1474358191:0;a api
+: 1474358192:0;s
+: 1474358193:0;clear
+: 1474358193:0;s
+: 1474358220:0;vim api/feedback.js
+: 1474358238:0;meteor mongo 
+: 1474358250:0;db.tasks
+: 1474358258:0;meteor mongo 
+: 1474359081:0;z HCI
+: 1474359082:0;.
+: 1474359083:0;ls
+: 1474359085:0;cd Assignment2
+: 1474359085:0;.
+: 1474359086:0;ls
+: 1474359100:0;open usability-test-plan.docx
+: 1474359121:0;q
+: 1474364133:0;defaults write com.apple.dock expose-animation-duration -float 0.15;killall Dock
+: 1474365476:0;ps -ef | grep with
+: 1474365478:0;ps -ef | grep witch
+: 1474365485:0;pkill -9 24818
+: 1474365489:0;kill -9 24818
+: 1474365492:0;ps -ef | grep witch
+: 1474365498:0;q
+: 1474376354:0;clear
+: 1474376355:0;s
+: 1474423243:0;clear
+: 1474423244:0;z Kan
+: 1474423248:0;meteor mongo 
+: 1474423254:0;npm start
+: 1474423265:0;q
+: 1474423275:0;meteor mongo 
+: 1474423419:0;clear
+: 1474423419:0;s
+: 1474423432:0;clear
+: 1474423433:0;s
+: 1474423712:0;z Ethics
+: 1474423714:0;cd ..
+: 1474423718:0;mv KanFam_Ethics KanFam
+: 1474423720:0;z Ethics
+: 1474423722:0;clear
+: 1474423722:0;ls
+: 1474423728:0;vim Lecture9.md
+: 1474424212:0;ps -ef | grep context
+: 1474424214:0;ps -ef | grep contexts
+: 1474424274:0;ps -ef | grep Contexts
+: 1474424281:0;kill -9 25379
+: 1474424282:0;clear
+: 1474424284:0;ps -ef | grep Contexts
+: 1474424766:0;meteor
+: 1474424770:0;s
+: 1474424773:0;clear
+: 1474424776:0;s
+: 1474424780:0;d imports/ui/templates/group.js
+: 1474424793:0;d imports/ui/templates/task.html
+: 1474425231:0;vrc
+: 1474425266:0;vim Lecture9.md
+: 1474425344:0;clear
+: 1474425345:0;s
+: 1474425356:0;meteor mongo
+: 1474425467:0;z Jarvis
+: 1474425468:0;q
+: 1474426108:0;clear
+: 1474426108:0;s
+: 1474426124:0;cd imports/ui/templates
+: 1474426124:0;clear
+: 1474426125:0;s
+: 1474426129:0;d task_list.js
+: 1474426136:0;D task_list.js
+: 1474426140:0;vim task_list.js
+: 1474426153:0;d task_list.js
+: 1474426160:0;git checkout task_list.js
+: 1474426160:0;clear
+: 1474426161:0;s
+: 1474426164:0;git checkout task_list.js
+: 1474426166:0;git pull
+: 1474426173:0;git branch
+: 1474426175:0;git branch master
+: 1474426181:0;git checkout master
+: 1474426185:0;clear
+: 1474426186:0;s
+: 1474426190:0;d group.js
+: 1474426196:0;git checkout group.js
+: 1474426197:0;clear
+: 1474426197:0;s
+: 1474426202:0;git checkout task*
+: 1474426203:0;clear
+: 1474426203:0;s
+: 1474426206:0;git checkout master
+: 1474426207:0;clear
+: 1474426208:0;s
+: 1474426210:0;git pull
+: 1474426216:0;clear
+: 1474426217:0;ls
+: 1474426248:0;vrc
+: 1474426251:0;zrc
+: 1474426438:0;exec
+: 1474426439:0;clear
+: 1474426439:0;s
+: 1474426441:0;zrc
+: 1474426451:0;exec zsh
+: 1474426453:0;clear
+: 1474426453:0;s
+: 1474426473:0;zrc
+: 1474426481:0;exec zsh
+: 1474426483:0;clear
+: 1474426493:0;zrc
+: 1474426510:0;exec zsh
+: 1474426514:0;zrc
+: 1474426578:0;exec zsh
+: 1474426581:0;zrc
+: 1474426590:0;exec zsh
+: 1474426594:0;zrc
+: 1474426632:0;exec zsh
+: 1474426635:0;clear
+: 1474426637:0;zrc
+: 1474426640:0;clear
+: 1474426643:0;exec zsh
+: 1474426644:0;clear
+: 1474426644:0;ls
+: 1474426835:0;vrc
+: 1474426837:0;zrc
+: 1474426867:0;exec zsh
+: 1474427007:0;ls
+: 1474427007:0;s
+: 1474427008:0;clear
+: 1474427014:0;z Kanfam
+: 1474427039:0;exec zsh
+: 1474427046:0;clear
+: 1474427046:0;ls
+: 1474427056:0;exec zsh
+: 1474427057:0;clear
+: 1474427064:0;exec zsh
+: 1474427065:0;clear
+: 1474427106:0;q
+: 1474427309:0;ls
+: 1474427416:0;q
+: 1474427427:0;zrc
+: 1474427454:0;cat *
+: 1474427456:0;clear
+: 1474427462:0;cd /
+: 1474427472:0;grep -R "subscribe" . > /dev/null
+: 1474427503:0;clear
+: 1474427506:0;zrc
+: 1474427523:0;exec zsh
+: 1474427524:0;ls
+: 1474427526:0;clear
+: 1474427527:0;ls
+: 1474427536:0;zrc
+: 1474427583:0;clear
+: 1474427586:0;vim
+: 1474427600:0;cd
+: 1474427604:0;z Kanfam
+: 1474427605:0;clear
+: 1474427606:0;ls
+: 1474427614:0;z Cpp
+: 1474427615:0;ls
+: 1474427617:0;cd Ass3
+: 1474427620:0;./test.sh ../../Ass3/
+: 1474427621:0;ls
+: 1474427622:0;./test
+: 1474427787:0;zrc
+: 1474427801:0;exec zsh
+: 1474427802:0;clear
+: 1474427803:0;s
+: 1474427806:0;z Kan
+: 1474427808:0;s
+: 1474427809:0;clear
+: 1474427810:0;s
+: 1474427820:0;git branch
+: 1474427823:0;git checkout group_pages 
+: 1474427825:0;clear
+: 1474427825:0;s
+: 1474427862:0;q
+: 1474427938:0;clear
+: 1474427938:0;s
+: 1474427940:0;cd ..
+: 1474427941:0;ls
+: 1474427945:0;cd Ass4
+: 1474427949:0;cd ../Tutorials
+: 1474427950:0;ls
+: 1474427951:0;cd Iterators
+: 1474427952:0;ls
+: 1474427952:0;clear
+: 1474427953:0;ls
+: 1474427965:0;cp Library_Iterator.hpp ../../Ass4/
+: 1474427966:0;q
+: 1474427968:0;clear
+: 1474427968:0;.
+: 1474427969:0;ls
+: 1474427971:0;.
+: 1474427972:0;zrc
+: 1474428000:0;exec zsh
+: 1474428001:0;clear
+: 1474428001:0;ls
+: 1474428002:0;.
+: 1474428016:0;vim twl.txt
+: 1474428019:0;clear
+: 1474428019:0;ls
+: 1474428028:0;mkdir tests
+: 1474428031:0;mv test* tests
+: 1474428032:0;ls
+: 1474428037:0;mv twl.txt tests
+: 1474428038:0;clear
+: 1474428038:0;ls
+: 1474428042:0;vim Makefile
+: 1474428065:0;clear
+: 1474428065:0;make
+: 1474428068:0;ls
+: 1474428071:0;vim Makefile
+: 1474428078:0;make
+: 1474428089:0;cd tests
+: 1474428090:0;ls
+: 1474428092:0;vim *
+: 1474428123:0;clear
+: 1474428123:0;s
+: 1474428125:0;cd ..
+: 1474428126:0;make
+: 1474428161:0;vim btree_iterator.hpp Library_Iterator.hpp
+: 1474428861:0;ls
+: 1474428863:0;make
+: 1474429188:0;vim btree_iterator.hpp Library_Iterator.hpp
+: 1474429192:0;make
+: 1474429218:0;vim btree_iterator.hpp btree.tem
+: 1474429223:0;vi btree_iterator.hpp btree.tem
+: 1474429231:0;make
+: 1474429437:0;cse
+: 1474429493:0;	q
+: 1474429531:0;make
+: 1474431293:0;clear
+: 1474431295:0;make
+: 1474431514:0;q
+: 1474431676:0;make
+: 1474432021:0;clear
+: 1474433320:0;q
+: 1474433565:0;make
+: 1474433655:0;./tests/test01
+: 1474433900:0;clear
+: 1474433900:0;ls
+: 1474439658:0;z Doc
+: 1474439661:0;cd ...
+: 1474439661:0;ls
+: 1474439673:0;mkdir CppNN
+: 1474439675:0;cd CppNN
+: 1474439676:0;ls
+: 1474439677:0;git@github.com:stagadish/NNplusplus.git
+: 1474439692:0;ls
+: 1474439695:0;q
+: 1474439696:0;ls
+: 1474439711:0;ln -s NNplusplus/Matrix.cpp Matrix.cpp
+: 1474439711:0;ls
+: 1474439716:0;ln -s NNplusplus/Matrix.hpp Matrix.hpp
+: 1474439730:0;ln -s NNplusplus/NeuralNet.hpp NeuralNet.hpp
+: 1474439734:0;ln -s NNplusplus/NeuralNet.cpp NeuralNet.cpp
+: 1474439734:0;ls
+: 1474439735:0;clear
+: 1474439736:0;ls
+: 1474439740:0;.
+: 1474439745:0;vim test.cpp
+: 1474441249:0;ls
+: 1474441261:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441288:0;ln -s NNplusplus/MatrixExceptions.hpp MatrixExceptions.hpp
+: 1474441289:0;ls
+: 1474441290:0;clear
+: 1474441292:0;ln -s NNplusplus/MatrixExceptions.hpp MatrixExceptions.hpp
+: 1474441296:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441504:0;./a.out
+: 1474441565:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441568:0;./a.out
+: 1474441605:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441610:0;./a.out
+: 1474441629:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441633:0;./a.out
+: 1474441642:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441645:0;./a.out
+: 1474441773:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441777:0;./a.out
+: 1474441793:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441796:0;./a.out
+: 1474441822:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441825:0;./a.out
+: 1474441886:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441889:0;./a.out
+: 1474441908:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441911:0;./a.out
+: 1474441922:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441925:0;./a.out
+: 1474441973:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441976:0;./a.out
+: 1474441987:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474441991:0;./a.out
+: 1474442034:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474442037:0;./a.out
+: 1474442067:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474442069:0;./a.out
+: 1474442111:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474442114:0;./a.out
+: 1474442154:0;g++ test.cpp Matrix.cpp NeuralNet.cpp
+: 1474442156:0;./a.out
+: 1474442326:0;when-changed test.cpp -c  g++ test.cpp Matrix.cpp NeuralNet.cpp && ./a.out
+: 1474442389:0;which g++
+: 1474442407:0;when-changed test.cpp -c  g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out
+: 1474442425:0;clear
+: 1474442426:0;ls
+: 1474442427:0;when-changed test.cpp -c  g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out
+: 1474442607:0;when-changed test.cpp -c  (g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out)
+: 1474442621:0;when-changed test.cpp -c "$(g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out)"
+: 1474442658:0;when-changed test.cpp "$(g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out)"
+: 1474442706:0;when-changed test.cpp -c "g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out"
+: 1474445201:0;ls
+: 1474445252:0;.
+: 1474445837:0;mv output.nn.nn output.nn
+: 1474445838:0;ls
+: 1474445839:0;clear
+: 1474445840:0;ls
+: 1474445844:0;vim output.nn
+: 1474445860:0;vim Matrix.hpp
+: 1474446007:0;q
+: 1474505856:0;ls
+: 1474505856:0;s
+: 1474505859:0;.
+: 1474505921:0;z Kan
+: 1474505926:0;p
+: 1474505939:0;ls
+: 1474505947:0;git checkout master 
+: 1474505948:0;clear
+: 1474505949:0;ls
+: 1474505950:0;s
+: 1474505953:0;npm start
+: 1474505966:0;l
+: 1474505967:0;.
+: 1474506393:0;git checkout KatBranch 
+: 1474506396:0;git pull
+: 1474506406:0;git status
+: 1474506407:0;clear
+: 1474506413:0;git checkout master
+: 1474506418:0;git merge KatBranch 
+: 1474506424:0;git status
+: 1474506426:0;s
+: 1474506431:0;vim templates.js
+: 1474506463:0;a templates.js
+: 1474506464:0;clear
+: 1474506464:0;s
+: 1474506467:0;vim ../body.js
+: 1474506494:0;clear
+: 1474506494:0;s
+: 1474506497:0;a ../body.js
+: 1474506497:0;s
+: 1474506498:0;clear
+: 1474506498:0;s
+: 1474506503:0;cd ../../api
+: 1474506504:0;clear
+: 1474506504:0;s
+: 1474506508:0;vim task_list.js
+: 1474506610:0;clear
+: 1474506610:0;s
+: 1474506621:0;vim tasks.js
+: 1474506978:0;a tasks.js
+: 1474506979:0;clear
+: 1474506979:0;s
+: 1474506986:0;d task_list.js
+: 1474506994:0;vim task_list.js
+: 1474507022:0;a task_list.js
+: 1474507023:0;clear
+: 1474507023:0;s
+: 1474507031:0;cd ../../
+: 1474507032:0;ls
+: 1474507041:0;cd imports/ui/templates
+: 1474507046:0;vim templates.js
+: 1474507061:0;clear
+: 1474507062:0;s
+: 1474507063:0;a templates.js
+: 1474507064:0;clear
+: 1474507082:0;s
+: 1474507247:0;clear
+: 1474507247:0;s
+: 1474507253:0;.
+: 1474507393:0;clear
+: 1474507407:0;vim task_list.html task.html
+: 1474507987:0;clear
+: 1474507988:0;s
+: 1474507997:0;cd ...
+: 1474508004:0;grep -R "style" .
+: 1474508021:0;clear
+: 1474508024:0;cd startup
+: 1474508026:0;cd ..
+: 1474508029:0;cd ui/templates
+: 1474508029:0;clear
+: 1474508030:0;ls
+: 1474508037:0;vim task.html
+: 1474508196:0;npm start
+: 1474508456:0;vrc
+: 1474508463:0;vim task.html
+: 1474511658:0;clear
+: 1474511658:0;s
+: 1474511661:0;a .
+: 1474511662:0;clear
+: 1474511670:0;m "Merged and added some css work"
+: 1474511673:0;git push
+: 1474511683:0;git pull
+: 1474511695:0;git push
+: 1474511704:0;git status
+: 1474511706:0;d
+: 1474511709:0;a ../style.scss
+: 1474511709:0;clear
+: 1474511712:0;m "Merged and added some css work"
+: 1474511713:0;git push
+: 1474511767:0;git branch
+: 1474511772:0;git branch -d orion 
+: 1474511773:0;clear
+: 1474511773:0;s
+: 1474511774:0;git branch
+: 1474536342:0;q
+: 1474536344:0;cd
+: 1474536347:0;cd -
+: 1474536347:0;q
+: 1474536349:0;cd -
+: 1474536350:0;cd .
+: 1474536361:0;cd ../Tutorials
+: 1474536361:0;ls
+: 1474536363:0;cd Iterators
+: 1474536363:0;ls
+: 1474536369:0;rm Library.hpp.gch
+: 1474536374:0;clean
+: 1474536375:0;ls
+: 1474536379:0;rm a.out
+: 1474536380:0;clear
+: 1474536380:0;ls
+: 1474536385:0;zip *
+: 1474536387:0;ls
+: 1474536388:0;clear
+: 1474536390:0;open .
+: 1474536435:0;q
+: 1474592008:0;vrc
+: 1474592023:0;clear
+: 1474592032:0;vim Matrix.hpp
+: 1474592036:0;clear
+: 1474592036:0;s
+: 1474592043:0;cd NNplusplus
+: 1474592044:0;s
+: 1474592046:0;d
+: 1474592055:0;cd ..
+: 1474592057:0;vim Matrix.hpp
+: 1474592080:0;vim Matrix.cpp
+: 1474592090:0;ls
+: 1474592096:0;vim NeuralNet.*
+: 1474592823:0;clear
+: 1474592827:0;make
+: 1474592831:0;when-changed Graph.h Graph.tem tests/*.cpp -c ./test
+: 1474592835:0;ls
+: 1474592840:0;make
+: 1474592841:0;make all
+: 1474593478:0;clear
+: 1474593478:0;s
+: 1474593481:0;cd NNplusplus
+: 1474593481:0;ls
+: 1474593482:0;clear
+: 1474593483:0;s
+: 1474593487:0;d Matrix.cpp
+: 1474593494:0;a Matrix.cpp
+: 1474593498:0;d Matrix.hpp
+: 1474593524:0;cp Matrix.hpp new_Matrix.hpp
+: 1474593531:0;git checkout Matrix.hpp
+: 1474593539:0;vim Matrix.hpp new_Matrix.hpp
+: 1474593592:0;clear
+: 1474593599:0;diff Matrix.hpp new_Matrix.hpp
+: 1474593606:0;rm new_Matrix.hpp
+: 1474593612:0;when-changed test.cpp -c "g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out"
+: 1474593620:0;g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out
+: 1474593626:0;clear
+: 1474593627:0;s
+: 1474593631:0;a Matrix.hpp
+: 1474593632:0;clear
+: 1474593633:0;s
+: 1474593640:0;rm Matrix.hpp.gch
+: 1474593641:0;clear
+: 1474593641:0;s
+: 1474593646:0;d NeuralNet.cpp
+: 1474593652:0;a NeuralNet.cpp
+: 1474593652:0;d
+: 1474593661:0;d NeuralNet.hpp
+: 1474593689:0;git checkout NeuralNet.hpp
+: 1474593692:0;vim NeuralNet.hpp
+: 1474593726:0;clear
+: 1474593726:0;s
+: 1474593730:0;a NeuralNet.hpp
+: 1474593737:0;rm NeuralNet.hpp.gch
+: 1474593737:0;clear
+: 1474593738:0;s
+: 1474593750:0;m "Added printing functions to Matrix and Neural Net"
+: 1474593751:0;clear
+: 1474593751:0;s
+: 1474593766:0;cd ..
+: 1474593779:0;vim test.cpp NeuralNet.cpp NeuralNet.hpp
+: 1474593804:0;clear
+: 1474593804:0;s
+: 1474595980:0;clear
+: 1474595981:0;ls
+: 1474595984:0;vim output.nn
+: 1474596013:0;clear
+: 1474596013:0;ls
+: 1474596018:0;cd NNplusplus
+: 1474596018:0;ls
+: 1474596018:0;s
+: 1474596020:0;clear
+: 1474596020:0;cd ..
+: 1474596027:0;vim NeuralNet.hpp test.cpp
+: 1474596267:0;clear
+: 1474596268:0;ls
+: 1474596270:0;clear
+: 1474596294:0;ls
+: 1474596300:0;g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out
+: 1474597475:0;z Lectures
+: 1474597476:0;ls
+: 1474597485:0;vim Lecture_14.md
+: 1474598031:0;g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out
+: 1474599796:0;clear
+: 1474599797:0;s
+: 1474599798:0;cd NNplusplus
+: 1474599799:0;ls
+: 1474599800:0;clear
+: 1474599800:0;s
+: 1474599805:0;d NeuralNet.cpp
+: 1474599809:0;a NeuralNet.cpp
+: 1474599812:0;d NeuralNet.hpp
+: 1474599816:0;a NeuralNet.hpp
+: 1474599816:0;clear
+: 1474599816:0;s
+: 1474599840:0;m "Added a training function which takes a lambda to evaluate the Net"
+: 1474599841:0;p
+: 1474599850:0;clear
+: 1474599852:0;q
+: 1474599878:0;git remote add origin git@github.com:Cypher1/NNplusplus.git
+: 1474599884:0;git remote
+: 1474599896:0;git remote add mystream git@github.com:Cypher1/NNplusplus.git
+: 1474599908:0;git push --set-upstream mystream master 
+: 1474600206:0;q
+: 1474601387:0;s
+: 1474601388:0;clear
+: 1474601388:0;q
+: 1474601394:0;clear
+: 1474601395:0;ls
+: 1474601399:0;ls **/*.scss
+: 1474601403:0;c;ear
+: 1474601404:0;clear
+: 1474612457:0;ls
+: 1474612458:0;clear
+: 1474612458:0;s
+: 1474612725:0;clear
+: 1474612725:0;ls
+: 1474612731:0;make
+: 1474612736:0;make all
+: 1474612766:0;clear
+: 1474612767:0;make all
+: 1474700626:0;ls
+: 1474700633:0;vim tests.cpp
+: 1474700640:0;..
+: 1474700641:0;clear
+: 1474700641:0;ls
+: 1474700644:0;vim test.cpp
+: 1474701054:0;g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out
+: 1474701094:0;q
+: 1474701460:0;s
+: 1474701463:0;rm a.out
+: 1474701464:0;clear
+: 1474701465:0;s
+: 1474701467:0;cd ..
+: 1474701469:0;.
+: 1474701472:0;cd Misc
+: 1474701472:0;ls
+: 1474701474:0;cd ..
+: 1474701474:0;ls
+: 1474701485:0;clear
+: 1474701485:0;ls
+: 1474701492:0;clear
+: 1474701492:0;ls
+: 1474701495:0;cd Jarvis
+: 1474701495:0;ls
+: 1474701497:0;s
+: 1474701498:0;cd ..
+: 1474701498:0;clear
+: 1474701498:0;s
+: 1474701502:0;vim find_nao.sh
+: 1474701507:0;clear
+: 1474701823:0;ls
+: 1474701855:0;q
+: 1474705744:0;clear
+: 1474705745:0;ls
+: 1474705752:0;cp tests/test01.cpp test00.cpp
+: 1474705755:0;vim test00.cpp
+: 1474705937:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474707448:0;clear
+: 1474707450:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474773514:0;sudo g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out[A
+: 1474773517:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out[A
+: 1474774369:0;clear
+: 1474774370:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out[A
+: 1474774372:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474779605:0;clear
+: 1474779607:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782068:0;:q
+: 1474782069:0;clear
+: 1474782069:0;q
+: 1474782071:0;clear
+: 1474782071:0;q
+: 1474782158:0;z Cpp
+: 1474782160:0;ls
+: 1474782160:0;clear
+: 1474782161:0;ls
+: 1474782164:0;vim test00.cpp
+: 1474782379:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782391:0;vim btree_iterator.hpp btree.tem
+: 1474782411:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782430:0;vim btree_iterator.hpp
+: 1474782463:0;clear
+: 1474782464:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782514:0;clear
+: 1474782517:0;vim btree.hpp
+: 1474782520:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782524:0;vim btree_iterator.hpp
+: 1474782531:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782538:0;vim btree_iterator.hpp
+: 1474782554:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782565:0;vim btree_iterator.hpp
+: 1474782573:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782593:0;vim btree.hpp
+: 1474782632:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782641:0;vim btree.hpp
+: 1474782677:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782691:0;vim btree.hpp +281
+: 1474782709:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782718:0;vim btree.hpp +129
+: 1474782806:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782815:0;clear
+: 1474782819:0;vim btree.hpp
+: 1474782995:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474782998:0;vim btree.hpp
+: 1474783031:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783034:0;vim btree.hpp
+: 1474783054:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783061:0;vim btree.hpp +124
+: 1474783075:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783077:0;clear
+: 1474783078:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783099:0;vim btree.hpp
+: 1474783123:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783138:0;vim btree.hpp
+: 1474783144:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783147:0;clear
+: 1474783147:0;ls
+: 1474783151:0;vim btree.hpp
+: 1474783560:0;clear
+: 1474783560:0;ls
+: 1474783564:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783590:0;vim btree_iterator.hpp
+: 1474783617:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783626:0;vim btree_iterator.hpp
+: 1474783788:0;clear
+: 1474783790:0;q
+: 1474783797:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783806:0;vim btree_iterator.hpp
+: 1474783833:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783847:0;vim btree_iterator.hpp
+: 1474783855:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783864:0;vim btree_iterator.hpp
+: 1474783873:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783900:0;vim btree_iterator.hpp
+: 1474783961:0;clear
+: 1474783963:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474783970:0;vim btree_iterator.hpp
+: 1474783986:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474784019:0;vim btree_iterator.hpp
+: 1474784033:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474784039:0;vim btree_iterator.hpp
+: 1474784045:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474784049:0;vim btree_iterator.hpp
+: 1474784056:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474784062:0;vim btree_iterator.hpp
+: 1474784085:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474784091:0;vim btree_iterator.hpp
+: 1474784127:0;vim btree.hpp
+: 1474784559:0;q
+: 1474789471:0;ls
+: 1474789485:0;when-changed test.cpp -c "g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out"
+: 1474789491:0;vim test00.cpp
+: 1474789505:0;cd ..
+: 1474789505:0;ls
+: 1474789509:0;z cPPnn
+: 1474789512:0;when-changed test.cpp -c "g++ -std=c++14 -Wall -Werror -O2 test.cpp Matrix.cpp NeuralNet.cpp && ./a.out"
+: 1474789516:0;exec zsh
+: 1474789517:0;ls
+: 1474789519:0;vim test.cpp
+: 1474789530:0;q
+: 1474789533:0;clear
+: 1474789534:0;q
+: 1474789853:0;s
+: 1474789855:0;cd..
+: 1474789856:0;..
+: 1474789856:0;.
+: 1474790153:0;reboot
+: 1474790206:0;q
+: 1474792301:0;ls
+: 1474792363:0;z Cpp
+: 1474792365:0;.
+: 1474792379:0;vim btree.hpp
+: 1474792385:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474792430:0;when-changed btree.hpp btree.tem btree_iterator.hpp btree_iterator.tem -c "clear && g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out"
+: 1474799785:0;q
+: 1474859239:0;s
+: 1474862995:0;q
+: 1474864229:0;cd ~/Library
+: 1474864230:0;ls
+: 1474864244:0;cd ..
+: 1474864245:0;ls
+: 1474864252:0;open Library
+: 1474864360:0;chflags hidden ~/Library
+: 1474864364:0;chflags nohidden ~/Library
+: 1474864760:0;q
+: 1474864773:0;cd Documents
+: 1474864773:0;ls
+: 1474864775:0;cd Processing3
+: 1474864775:0;ls
+: 1474864778:0;cd LewisAndClark
+: 1474864779:0;ls
+: 1474864779:0;clear
+: 1474864780:0;s
+: 1474864781:0;git init
+: 1474864783:0;clear
+: 1474864783:0;s
+: 1474864789:0;vim Object.pde
+: 1474867637:0;processing-java
+: 1474867652:0;processing-java --sketch="LewisAndClark"
+: 1474867668:0;processing-java --sketch="."
+: 1474867672:0;processing-java --sketch="." --run
+: 1474867680:0;cd ..
+: 1474867682:0;processing-java --sketch="LewisAndClark"
+: 1474867721:0;cd LewisAndClark
+: 1474867723:0;processing-java --sketch="LewisAndClark"
+: 1474867733:0;cd ..
+: 1474867738:0;processing-java --sketch="LewisAndClark"
+: 1474867742:0;ls
+: 1474867745:0;ls LewisAndClark
+: 1474867750:0;processing-java --sketch="LewisAndClark" --run
+: 1474867761:0;processing-java --sketch="~/Documents/Processing3/LewisAndClark" --run
+: 1474867764:0;processing-java --sketch="~/Documents/Processing3/LewisAndClark/" --run
+: 1474867773:0;processing-java --sketch="~/Documents/Processing3/LewisAndClark/LewisAndClark.pde" --run
+: 1474867775:0;clear
+: 1474867944:0;cd LewisAndClark
+: 1474867963:0;processing-java --sketch=`pwd`/LewisAndClark
+: 1474867966:0;processing-java --sketch=`pwd`/LewisAndClark --run
+: 1474867971:0;processing-java --sketch=`pwd` --run
+: 1474867996:0;processing-java --sketch=`pwd` --present
+: 1474868013:0;echo "processing-java --sketch=`pwd` --present" >> ~/.zshrc
+: 1474868014:0;zrc
+: 1474868052:0;exec zsh
+: 1474868055:0;clear
+: 1474868055:0;s
+: 1474868058:0;clear
+: 1474868060:0;jp
+: 1474871541:0;clear
+: 1474871541:0;s
+: 1474871542:0;clear
+: 1474871939:0;jp
+: 1474872140:0;clear
+: 1474872140:0;s
+: 1474872143:0;cd code
+: 1474872143:0;ls
+: 1474872144:0;cd ..
+: 1474872145:0;clear
+: 1474872145:0;ls
+: 1474872150:0;vim sketch.properties
+: 1474872152:0;rm sketch.properties
+: 1474872153:0;clear
+: 1474872153:0;s
+: 1474872155:0;cd code
+: 1474872155:0;ls
+: 1474872156:0;s
+: 1474872158:0;clear
+: 1474872159:0;cat sketch.properties
+: 1474872161:0;rm sketch.properties
+: 1474872162:0;cd .
+: 1474872163:0;..
+: 1474872164:0;rm code
+: 1474872165:0;clear
+: 1474872165:0;s
+: 1474872170:0;rm AndroidManifest.xml
+: 1474872170:0;clear
+: 1474872171:0;s
+: 1474872377:0;jp
+: 1474873800:0;q
+: 1474873830:0;jp
+: 1474873979:0;clear
+: 1474874042:0;jp
+: 1474874352:0;clear
+: 1474874355:0;jp
+: 1474874390:0;clear
+: 1474874391:0;ls
+: 1474874392:0;rm PlayerShip.pde
+: 1474874393:0;clear
+: 1474874398:0;vim Ship.pde
+: 1474874401:0;clear
+: 1474874402:0;jp
+: 1474875902:0;clear
+: 1474875902:0;s
+: 1474875905:0;clear
+: 1474875905:0;ls
+: 1474875910:0;a Ship.pde
+: 1474875911:0;a Control.pde
+: 1474875913:0;a Interact.pde
+: 1474875916:0;a World.pde
+: 1474875921:0;a LewisAndClark.pde
+: 1474875921:0;clear
+: 1474875921:0;s
+: 1474875924:0;a Object.pde
+: 1474875925:0;clear
+: 1474875925:0;s
+: 1474875932:0;git mv Control.pde Controller.pde
+: 1474875934:0;clear
+: 1474875935:0;s
+: 1474875951:0;m "First commit with basic controller, ships, physics system"
+: 1474875951:0;clear
+: 1474875952:0;s
+: 1474875976:0;jp
+: 1474876017:0;clear
+: 1474876029:0;vim World.pde
+: 1474876101:0;jp
+: 1474877086:0;clear
+: 1474877087:0;jp
+: 1474878084:0;clear
+: 1474878086:0;d
+: 1474878088:0;clear
+: 1474878089:0;s
+: 1474878091:0;d Interact.pde
+: 1474878094:0;a Interact.pde
+: 1474878099:0;s
+: 1474878101:0;d Object.pde
+: 1474878104:0;a Object.pde
+: 1474878107:0;a Ship.pde
+: 1474878109:0;a World.pde
+: 1474878109:0;clear
+: 1474878110:0;s
+: 1474878122:0;m "Improved APIs and added rockets to the ship class"
+: 1474878123:0;clear
+: 1474878146:0;jp
+: 1474878183:0;q
+: 1474887686:0;z Volumes
+: 1474887687:0;ls
+: 1474887692:0;cd MobileBackups
+: 1474887692:0;ls
+: 1474887693:0;cd Backups.backupdb
+: 1474887694:0;ls
+: 1474887696:0;cd Cortana
+: 1474887697:0;ls
+: 1474887699:0;cd ...
+: 1474887700:0;cd ..
+: 1474887700:0;ls
+: 1474887703:0;cd Seagate\ Expansion\ Drive
+: 1474887704:0;clear
+: 1474887704:0;ls
+: 1474887712:0;cd ../
+: 1474887713:0;ls
+: 1474887717:0;cd Expansion
+: 1474887718:0;ls
+: 1474887719:0;clear
+: 1474887719:0;ls
+: 1474887721:0;cd Videos
+: 1474887721:0;ls
+: 1474887723:0;cd Movies
+: 1474887723:0;ls
+: 1474887728:0;clear
+: 1474887731:0;ls
+: 1474887740:0;man rename
+: 1474887753:0;rename
+: 1474887758:0;man rename
+: 1474887763:0;clear
+: 1474887767:0;brew install rename
+: 1474898365:0;clear
+: 1474898367:0;q
+: 1474941271:0;ls
+: 1474941475:0;cd Documents
+: 1474941476:0;ls
+: 1474941479:0;cd Processing3
+: 1474941480:0;cd L
+: 1474941482:0;cd LewisAndClark
+: 1474941483:0;clear
+: 1474941484:0;s
+: 1474941486:0;vim LewisAndClark.pde
+: 1474941549:0;q
+: 1474941557:0;jp
+: 1474963813:0;z Cpp
+: 1474963820:0;cd ../../4920_Ethics
+: 1474963821:0;.
+: 1474963835:0;vim Essay.md
+: 1474964081:0;ls
+: 1474964088:0;mv Essay.md essay.md
+: 1474964089:0;clear
+: 1474964089:0;ls
+: 1474964092:0;vim essay.md
+: 1474964355:0;clear
+: 1474964358:0;cd ../Ass4
+: 1474964359:0;.
+: 1474964370:0;vim btree.hpp btree_iterator.hpp
+: 1474965708:0;when-changed btree.hpp btree.tem btree_iterator.hpp btree_iterator.tem -c "clear && g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out"
+: 1474966221:0;clear
+: 1474966222:0;when-changed btree.hpp btree.tem btree_iterator.hpp btree_iterator.tem -c "clear && g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out"
+: 1474966321:0;when-changed btree.hpp btree.tem btree_iterator.hpp btree_iterator.tem -c "clear && echo "HELLO WORLD" && g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out"
+: 1474966353:0;when-changed btree.hpp btree.tem btree_iterator.hpp btree_iterator.tem -c "clear && echo 'HELLO WORLD' && g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out"
+: 1474966519:0;clear
+: 1474966533:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out"
+: 1474966535:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1474967781:0;clear
+: 1474967782:0;cd ..
+: 1474967782:0;ls
+: 1474967787:0;mkdir Include
+: 1474967788:0;cd Include
+: 1474967789:0;ls
+: 1474967800:0;vim A.hpp B.hpp
+: 1474968004:0;clear
+: 1474968004:0;ls
+: 1474968046:0;g++ -std=c++14 -Wall -Werror -O2 A.cpp B.cpp
+: 1474968048:0;ls
+: 1474968052:0;cd ../Include
+: 1474968055:0;g++ -std=c++14 -Wall -Werror -O2 A.cpp B.cpp
+: 1474968252:0;ls
+: 1474968255:0;cat *
+: 1474968262:0;vim *
+: 1474968276:0;clear
+: 1474968277:0;cat *
+: 1474968281:0;cat * | pbcopy
+: 1474968457:0;vim *
+: 1474968571:0;g++ -std=c++14 -Wall -Werror -O2 A.cpp B.cpp
+: 1474968580:0;clear
+: 1474968580:0;ls
+: 1474968583:0;cd ../Ass4
+: 1474968584:0;.
+: 1474968587:0;vim btree.hpp btree_iterator.hpp
+: 1474968707:0;cat essay.md| pbcopy
+: 1474968725:0;q
+: 1474969196:0;zrc
+: 1474969217:0;exec zsh
+: 1474969221:0;clear
+: 1474969222:0;s
+: 1474969227:0;z Lewis
+: 1474969228:0;clear
+: 1474969228:0;s
+: 1474969618:0;clear
+: 1474969620:0;cd ../Ass4
+: 1474976976:0;jp
+: 1475031844:0;cd ..
+: 1475031845:0;ls
+: 1475031848:0;cd Include
+: 1475031848:0;ls
+: 1475031851:0;vim *.hpp
+: 1475032343:0;cd ../Include
+: 1475032345:0;g++ -std=c++14 -Wall -Werror -O2 A.cpp B.cpp
+: 1475032785:0;./a.out
+: 1475032812:0;g++ -std=c++14 -Wall -Werror -O2 A.cpp B.cpp
+: 1475032814:0;./a.out
+: 1475032987:0;cd ../Ass4
+: 1475032991:0;clear
+: 1475032991:0;ls
+: 1475033002:0;vim btree.hpp btree_iterator.hpp
+: 1475033046:0;cp btree_iterator.hpp btree_iterator.tem
+: 1475033052:0;vim btree_iterator.hpp btree_iterator.tem
+: 1475033668:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475034132:0;vim btree_iterator.hpp btree_iterator.tem
+: 1475034138:0;clear
+: 1475034140:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475034237:0;ls
+: 1475034239:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475035387:0;which g++
+: 1475035390:0;zrc
+: 1475035410:0;exec zsh
+: 1475035415:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475035423:0;which g++
+: 1475035440:0;g++ -std=c++14 -O2 test00.cpp && ./a.out
+: 1475035465:0;which g++
+: 1475035472:0;zrc
+: 1475035484:0;exec zsh
+: 1475035488:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475039117:0;vrc
+: 1475039175:0;clear
+: 1475039175:0;ls
+: 1475039180:0;vim LewisAndClark.pde
+: 1475039186:0;vrc
+: 1475039212:0;vim LewisAndClark.pde
+: 1475039259:0;vrc
+: 1475039283:0;vim LewisAndClark.pde
+: 1475039315:0;vrc
+: 1475039341:0;vim LewisAndClark.pde
+: 1475039353:0;vrc
+: 1475039366:0;vim LewisAndClark.pde
+: 1475039380:0;vrc
+: 1475039399:0;clear
+: 1475039400:0;s
+: 1475039402:0;q
+: 1475039403:0;clear
+: 1475039746:0;s
+: 1475039747:0;clear
+: 1475039750:0;vim LewisAndClark.pde Ship.pde
+: 1475039965:0;vrc
+: 1475039978:0;processing-java
+: 1475039990:0;processing-java --sketch=`pwd` --present --display
+: 1475040038:0;vrc
+: 1475040052:0;vim LewisAndClark.pde Ship.pde
+: 1475107875:0;vrc
+: 1475108016:0;clear
+: 1475108016:0;ls
+: 1475108045:0;cat ~/.config/nvim/init.vim| pbcopy
+: 1475108077:0;cat ~/.config/nvim/init.vim| wc -l
+: 1475108080:0;clear
+: 1475108081:0;w
+: 1475108083:0;q
+: 1475108792:0;mimir
+: 1475110644:0;exit
+: 1475151060:0;clear
+: 1475151109:0;reboot
+: 1475151182:0;clear
+: 1475151183:0;q
+: 1475208430:0;ls
+: 1475208437:0;vim btree_iterator.hpp btree_iterator.tem
+: 1475209231:0;.
+: 1475209240:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475209255:0;vim btree.tem
+: 1475209269:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213024:0;g++ -b -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213027:0;g++ -v -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213033:0;g++ -b -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213034:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213273:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp btree.hpp && ./a.out
+: 1475213415:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213670:0;grep "operator<<" *
+: 1475213696:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213867:0;clang -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213875:0;clang++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475213912:0;clear
+: 1475213924:0;open .
+: 1475214134:0;cse
+: 1475214137:0;clear
+: 1475214137:0;ls
+: 1475214165:0;scp *.hpp z5017666@cse.unsw.edu.au:./Btree/
+: 1475214171:0;scp *.tem z5017666@cse.unsw.edu.au:./Btree/
+: 1475214182:0;scp *.cpp z5017666@cse.unsw.edu.au:./Btree/
+: 1475214231:0;vim btree.tem
+: 1475214288:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475214309:0;q
+: 1475214315:0;cse
+: 1475214536:0;scp z5017666@cse.unsw.edu.au:./Btree/* .
+: 1475214546:0;scp z5017666@cse.unsw.edu.au:./Btree/btree.hpp .
+: 1475214552:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475214598:0;clear
+: 1475214602:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475214615:0;vim btree.hpp btree.tem
+: 1475214637:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475215132:0;clear
+: 1475215209:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475215224:0;clear
+: 1475215224:0;ls
+: 1475215226:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475216359:0;vim btree.hpp btree.tem
+: 1475216406:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475217274:0;sudo nOA
+: 1475217277:0;g++ -std=c++14 -Wall -Werror -O2 test00.cpp && ./a.out
+: 1475217668:0;q
+: 1475223522:0;ls
+: 1475223535:0;z Lewis
+: 1475223537:0;s
+: 1475223542:0;vim .log
+: 1475223545:0;rm .log
+: 1475223549:0;vim LewisAndClark.pde Ship.pde
+: 1475226499:0;processing-java --sketch=`pwd` --present
+: 1475226512:0;vim World.pde
+: 1475226518:0;clear
+: 1475226519:0;processing-java --sketch=`pwd` --present
+: 1475226531:0;vim .log
+: 1475226534:0;ls
+: 1475226540:0;vrc
+: 1475226556:0;clear
+: 1475226561:0;q
+: 1475226630:0;vim World.pde Ship.pde Landing.pde
+: 1475227294:0;grep "acc()" *
+: 1475227308:0;grep "void acc()"
+: 1475227311:0;grep "void acc()" *
+: 1475227313:0;clear
+: 1475227313:0;ls
+: 1475227315:0;vim *.pde
+: 1475227457:0;processing-java --sketch=`pwd` --present
+: 1475227569:0;vrc
+: 1475227580:0;vim *.pde
+: 1475227659:0;q
+: 1475291836:0;clear
+: 1475291847:0;vim Ship.pde World.pde
+: 1475291889:0;clear
+: 1475291890:0;s
+: 1475291897:0;vim .gitignore
+: 1475291909:0;ls
+: 1475291912:0;clear
+: 1475291913:0;s
+: 1475291915:0;a .gitignore
+: 1475291917:0;clear
+: 1475291917:0;s
+: 1475291924:0;a Landing.pde
+: 1475291925:0;clear
+: 1475291926:0;s
+: 1475291929:0;d LewisAndClark.pde
+: 1475291938:0;vim LewisAndClark.pde
+: 1475291944:0;clear
+: 1475291944:0;a
+: 1475291945:0;.
+: 1475291946:0;s
+: 1475291949:0;a LewisAndClark.pde
+: 1475291949:0;clear
+: 1475291950:0;s
+: 1475291952:0;d Object.pde
+: 1475291982:0;a Object.pde
+: 1475291983:0;clear
+: 1475291983:0;s
+: 1475291986:0;d Ship.pde
+: 1475291995:0;a Ship.pde
+: 1475291996:0;clear
+: 1475291997:0;s
+: 1475291998:0;d
+: 1475292004:0;a World.pde
+: 1475292004:0;clear
+: 1475292004:0;s
+: 1475292062:0;m "Upped ship speed, improved time based rocket jet creation code, added a stub class for landings (i.e. ports, planets, docks) and improved structure of Object code"
+: 1475292064:0;clear
+: 1475292064:0;s
+: 1475292066:0;vim Object.pde
+: 1475292286:0;grep * "void update"
+: 1475292292:0;grep "void update" *
+: 1475292296:0;vim Object.pde Ship.pde
+: 1475292691:0;q
+: 1475308676:0;s
+: 1475308678:0;d
+: 1475308688:0;q
+: 1475326510:0;s
+: 1475326518:0;vim Ship.pde Object.pde Landing.pde
+: 1475329813:0;clear
+: 1475329813:0;s
+: 1475329816:0;vim Ship.pde Object.pde Landing.pde
+: 1475329846:0;ps -ef
+: 1475329851:0;ps -ef | grep "Lewis"
+: 1475329856:0;ps -ef | grep "LewisAndClark"
+: 1475329861:0;ps -e | grep "LewisAndClark"
+: 1475329873:0;ps -e | grep "LewisAndClark" | cut -f 1
+: 1475329876:0;ps -e | grep "LewisAndClark" | cut -f 2
+: 1475329888:0;ps -e | grep "LewisAndClark" | cut -f 1
+: 1475329900:0;ps -e | grep "LewisAndClark" | grep "[^ ]*"
+: 1475329904:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475329934:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*" | grep "^.*$"
+: 1475329936:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*" | grep "^..*$"
+: 1475329945:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*" | grep -v "^$"
+: 1475329952:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475329960:0;pkill -9 18425
+: 1475329962:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475329969:0;kill -9 18425
+: 1475329971:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475329975:0;kill -9 18427
+: 1475329977:0;kill -9 18430
+: 1475329980:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475329983:0;kill -9 18461
+: 1475329984:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475329987:0;kill -9 18463
+: 1475330000:0;kill -9 18465
+: 1475330010:0;kill -9 184725
+: 1475330014:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475330018:0;kill -9 184723
+: 1475330022:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475330027:0;kill -9 18723
+: 1475330028:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475330031:0;kill -9 18725
+: 1475330033:0;ps -e | grep "LewisAndClark" | grep -o "[^ ]*"
+: 1475330519:0;q
+: 1475376094:0;zsh
+: 1475376098:0;cd ~/M
+: 1475376102:0;cd ~/Music
+: 1475376105:0;youtube-dl https://www.youtube.com/watch\?v\=QUSa0ynx98Y
+: 1475376538:0;q
+: 1475376541:0;cd .
+: 1475376542:0;q
+: 1475384688:0;cat | wc -w
+: 1475384694:0;q
+: 1475384704:0;cat | wc -w
+: 1475384709:0;pbpaste | wc -w
+: 1475384712:0;q
+: 1475387372:0;cd /Volumes
+: 1475387372:0;ls
+: 1475387379:0;q
+: 1475387671:0;pbpaste | wc -w
+: 1475391271:0;q
+: 1475392407:0;pbpaste | wc -w
+: 1475462730:0;s
+: 1475462730:0;cd
+: 1475462731:0;clear
+: 1475462731:0;ls
+: 1475462733:0;cd Documents
+: 1475462733:0;ls
+: 1475462737:0;cd Processing3
+: 1475462737:0;.
+: 1475462738:0;ls
+: 1475462740:0;dc L
+: 1475462742:0;dc LewisAndClark
+: 1475462745:0;cd LewisAndClark
+: 1475462746:0;.
+: 1475462746:0;s
+: 1475462754:0;vim Ship.pde Landing.pde LewisAndClark.pde
+: 1475463640:0;watch cat .log
+: 1475464039:0;processing-java --sketch=`pwd` --present
+: 1475464069:0;clear
+: 1475464071:0;vim Ship.pde Landing.pde LewisAndClark.pde
+: 1475464523:0;clear
+: 1475464523:0;s
+: 1475464526:0;a Jet.pde
+: 1475464528:0;d Ship.pde
+: 1475464535:0;a Ship.pde
+: 1475464538:0;clear
+: 1475464538:0;s
+: 1475464539:0;a .
+: 1475464540:0;clear
+: 1475464540:0;s
+: 1475467623:0;clear
+: 1475467624:0;s
+: 1475467667:0;.
+: 1475467668:0;s
+: 1475467701:0;clear
+: 1475467701:0;s
+: 1475467707:0;vim Ship.pde Landing.pde LewisAndClark.pde
+: 1475468840:0;q
+: 1475471487:0;z /Users/Cypher/Documents/KanFam
+: 1475471492:0;npm start
+: 1475471543:0;git pull
+: 1475471720:0;git checkout carmenBranch
+: 1475471721:0;clear
+: 1475471721:0;s
+: 1475471723:0;git status
+: 1475471726:0;cd client
+: 1475471726:0;ls
+: 1475471729:0;vim main.js
+: 1475471770:0;s
+: 1475471772:0;a main.js
+: 1475471782:0;m "Bug fix replaces is not a function"
+: 1475471783:0;git push
+: 1475473852:0;q
+: 1475473980:0;git checkout group_pages
+: 1475473981:0;s
+: 1475473982:0;clear
+: 1475473982:0;s
+: 1475473984:0;cd ../imports
+: 1475473985:0;s
+: 1475473986:0;npm start
+: 1475473995:0;s
+: 1475474007:0;clear
+: 1475474009:0;q
+: 1475474011:0;clear
+: 1475474012:0;s
+: 1475474013:0;mimir
+: 1475474810:0;ping mimir.systems
+: 1475474829:0;mail
+: 1475475208:0;q
+: 1475475410:0;s
+: 1475475752:0;clear
+: 1475475770:0;git checkout calendarAPI
+: 1475475777:0;git branch calendarAPI
+: 1475475780:0;git checkout calendarAPI
+: 1475475781:0;clear
+: 1475475782:0;s
+: 1475475784:0;cd api
+: 1475475785:0;ls
+: 1475475789:0;vim tasks.js
+: 1475475841:0;git pull
+: 1475475863:0;git pull --set-upstream-to=origin/master
+: 1475475867:0;clear
+: 1475475868:0;git pull
+: 1475475891:0;git branch --set-upstream-to=origin/master calendarAPI 
+: 1475475895:0;clear
+: 1475475895:0;s
+: 1475476039:0;git checkout css
+: 1475476051:0;clear
+: 1475476051:0;s
+: 1475476054:0;clear
+: 1475476054:0;s
+: 1475476059:0;npm start
+: 1475476062:0;cd ../
+: 1475476062:0;ls
+: 1475476065:0;cd ui
+: 1475476066:0;cd pages
+: 1475476067:0;ls
+: 1475476091:0;git checkout master
+: 1475476095:0;clear
+: 1475476095:0;s
+: 1475476098:0;git stash
+: 1475476098:0;clear
+: 1475476098:0;s
+: 1475476102:0;git checkout master
+: 1475476105:0;git merge css
+: 1475476111:0;cd ../templates
+: 1475476118:0;vim footer.html
+: 1475476127:0;clear
+: 1475476127:0;s
+: 1475476133:0;a footer.html
+: 1475476139:0;vim ../pages/landing.html
+: 1475476204:0;clear
+: 1475476205:0;s
+: 1475476208:0;a ../pages/landing.html
+: 1475476209:0;clear
+: 1475476209:0;s
+: 1475476227:0;cd ../pages
+: 1475476231:0;vim landing.html
+: 1475476378:0;s
+: 1475476380:0;a landing.html
+: 1475476380:0;clear
+: 1475476380:0;s
+: 1475476399:0;vim landing.html
+: 1475476571:0;s
+: 1475476574:0;a landing.html
+: 1475476575:0;s
+: 1475476594:0;m "Added an option for logged in users for the landing page (and merged)"
+: 1475476595:0;clear
+: 1475476595:0;s
+: 1475476596:0;p
+: 1475476607:0;git pull
+: 1475476618:0;git status
+: 1475476622:0;git push
+: 1475476638:0;clear
+: 1475476638:0;s
+: 1475476731:0;git status
+: 1475476732:0;git pull
+: 1475476740:0;clear
+: 1475476740:0;s
+: 1475476815:0;ls
+: 1475476858:0;cd ../ap
+: 1475476859:0;cd ../api
+: 1475476862:0;cd ../../api
+: 1475476863:0;clear
+: 1475476863:0;ls
+: 1475476868:0;vim tasks.js
+: 1475476876:0;git stash apply 
+: 1475476888:0;vim tasks.js
+: 1475476894:0;git stash
+: 1475476896:0;clear
+: 1475476896:0;s
+: 1475476901:0;git checkout tasks.js
+: 1475476904:0;clear
+: 1475476908:0;git stash
+: 1475476916:0;git merge abort
+: 1475476923:0;git stash
+: 1475476926:0;s
+: 1475476927:0;d
+: 1475476935:0;git checkout master
+: 1475476942:0;clear
+: 1475476943:0;git merge
+: 1475476953:0;git merge -h
+: 1475476957:0;git merge --abort 
+: 1475476972:0;clear
+: 1475476972:0;s
+: 1475476973:0;d
+: 1475476976:0;git stash
+: 1475476987:0;git merge
+: 1475476991:0;git merge --abort
+: 1475477000:0;vim tasks.js
+: 1475477023:0;clear
+: 1475477023:0;s
+: 1475477025:0;d
+: 1475477030:0;git status
+: 1475477040:0;git reset HEAD tasks.js
+: 1475477044:0;git status
+: 1475477045:0;s
+: 1475477046:0;d
+: 1475477048:0;clear
+: 1475477048:0;s
+: 1475477052:0;vim tasks.js
+: 1475477059:0;clear
+: 1475477059:0;s
+: 1475477073:0;git checkout calendarAPI
+: 1475477074:0;clear
+: 1475477075:0;s
+: 1475477077:0;vim tasks.js
+: 1475477155:0;clear
+: 1475477156:0;s
+: 1475477178:0;clear
+: 1475477178:0;s
+: 1475477192:0;vim tasks.js
+: 1475477236:0;clear
+: 1475477236:0;s
+: 1475477238:0;git pull
+: 1475477244:0;git stash
+: 1475477245:0;clear
+: 1475477245:0;s
+: 1475477247:0;git pull
+: 1475477260:0;clear
+: 1475477260:0;s
+: 1475477263:0;vim tasks.js
+: 1475477411:0;clear
+: 1475477411:0;s
+: 1475477416:0;git checkout tasks.js
+: 1475477417:0;clear
+: 1475477417:0;s
+: 1475477420:0;vim tasks.js
+: 1475477436:0;cd ..
+: 1475477437:0;ls
+: 1475477439:0;cd ui
+: 1475477439:0;ls
+: 1475477444:0;cd templates
+: 1475477445:0;ls
+: 1475477452:0;vim task_list.js
+: 1475477978:0;s
+: 1475477978:0;clear
+: 1475477979:0;s
+: 1475477986:0;vim task_list.js
+: 1475478265:0;q
+: 1475478764:0;z ~/Drive
+: 1475478767:0;cd Me
+: 1475478773:0;vim RESUME.markdown
+: 1475478948:0;clear
+: 1475478948:0;s
+: 1475479060:0;vim RESUME.markdown
+: 1475479349:0;q
+: 1475479679:0;pbpaste | wc -w
+: 1475487215:0;vim
+: 1475487521:0;cd ..
+: 1475487523:0;cd Documents
+: 1475487526:0;vim aliens.py
+: 1475488382:0;rm aliens.py
+: 1475488383:0;q
+: 1475488396:0;vim test
+: 1475488488:0;ls
+: 1475488494:0;vim aliens.py
+: 1475488742:0;ls
+: 1475488744:0;python aliens.py
+: 1475489277:0;q
+: 1475494970:0;pbpaste | wc -w
+: 1475496566:0;cd ~/Downloads
+: 1475496566:0;ls
+: 1475496572:0;ls -la
+: 1475496592:0;mv Report\ -\ Google\ Docs.pdf essay.pdf
+: 1475496609:0;scp essay.pdf z5017666@cse.unsw.edu.au:./
+: 1475496623:0;cse
+: 1475496777:0;q
+: 1475497049:0;s
+: 1475497052:0;clear
+: 1475497052:0;s
+: 1475497056:0;rm REC*
+: 1475497057:0;ls
+: 1475497059:0;rm Rec*
+: 1475497060:0;clear
+: 1475497060:0;ls
+: 1475497070:0;rm *.zip
+: 1475497071:0;clear
+: 1475497071:0;ls
+: 1475497078:0;rm document.pdf
+: 1475497080:0;rm essay.pdf
+: 1475497083:0;rm iinets-hollywood-ending-what-does-its-court-victory-mean-for-copyright-law-6577.html 
+: 1475497084:0;ls
+: 1475497086:0;rm musicmanager.dmg
+: 1475497087:0;clear
+: 1475497088:0;ls
+: 1475497092:0;rm namebench-1.3.1-Mac_OS_X.dmg
+: 1475497095:0;rm online_privacy_and_isps.pdf
+: 1475497096:0;.
+: 1475497097:0;ls
+: 1475497098:0;clear
+: 1475497099:0;ls
+: 1475497105:0;q
+: 1475537553:0;ls
+: 1475537562:0;cd ~/Documents/Jarvis
+: 1475537563:0;ls
+: 1475537564:0;s
+: 1475537570:0;npm start
+: 1475537588:0;vim package.json
+: 1475537591:0;clear
+: 1475537592:0;ls
+: 1475537596:0;rm npm-debug.log
+: 1475537596:0;clear
+: 1475537596:0;s
+: 1475537598:0;cd site
+: 1475537599:0;clear
+: 1475537599:0;s
+: 1475537601:0;npm start
+: 1475537606:0;s
+: 1475537608:0;cd site
+: 1475537609:0;clear
+: 1475537609:0;s
+: 1475537712:0;vim imports/ui/pages/groups.js
+: 1475537823:0;z nvim
+: 1475537824:0;ls
+: 1475537826:0;cd plugged
+: 1475537826:0;ls
+: 1475537827:0;clear
+: 1475537827:0;ls
+: 1475537831:0;cd deoplete
+: 1475537834:0;cd deoplete.nvim
+: 1475537835:0;clear
+: 1475537835:0;ls
+: 1475537838:0;cd plugin
+: 1475537838:0;ls
+: 1475537841:0;vim deoplete.vim
+: 1475537847:0;ls
+: 1475537849:0;cd ../autoload
+: 1475537850:0;ls
+: 1475537853:0;vim deoplete.vim
+: 1475537886:0;ls
+: 1475537888:0;cd deoplete
+: 1475537888:0;ls
+: 1475537891:0;vim *
+: 1475537921:0;clear
+: 1475537923:0;cd ..
+: 1475537924:0;..
+: 1475537925:0;ls
+: 1475537926:0;clear
+: 1475537927:0;ls
+: 1475537931:0;cd vim-signify
+: 1475537932:0;ls
+: 1475537934:0;cd autoload
+: 1475537935:0;ls
+: 1475537938:0;vim sy.vim
+: 1475537957:0;q
+: 1475537961:0;clear
+: 1475537961:0;s
+: 1475538135:0;vrc
+: 1475538165:0;clear
+: 1475538166:0;s
+: 1475538173:0;vrc
+: 1475538184:0;clear
+: 1475538185:0;s
+: 1475538192:0;clear
+: 1475538192:0;ls
+: 1475538194:0;s
+: 1475538196:0;d
+: 1475538413:0;vi ****
+: 1475538440:0;vrc
+: 1475538450:0;vi ****
+: 1475538480:0;vi ***
+: 1475538492:0;vi *.html *.js
+: 1475538496:0;vi *.js
+: 1475538498:0;ls
+: 1475538500:0;cd imports
+: 1475538501:0;clear
+: 1475538501:0;s
+: 1475538508:0;vim api/*
+: 1475538525:0;clear
+: 1475538526:0;s
+: 1475538547:0;cd ..
+: 1475538547:0;ls
+: 1475538562:0;cd client
+: 1475538563:0;ls
+: 1475538568:0;cd ../server
+: 1475538569:0;ls
+: 1475538572:0;vim main.js
+: 1475538581:0;cd ../imports
+: 1475538582:0;clear
+: 1475538582:0;s
+: 1475538586:0;ls
+: 1475538602:0;cd startup
+: 1475538603:0;ls
+: 1475538606:0;vim accounts-config.js router.js
+: 1475538615:0;cd ..
+: 1475538616:0;clear
+: 1475538616:0;ls
+: 1475538618:0;cd ui
+: 1475538618:0;ls
+: 1475538624:0;vim body.html
+: 1475538650:0;vim pages
+: 1475538687:0;cd templates
+: 1475538688:0;ls
+: 1475538691:0;vim templates.js
+: 1475538736:0;cd ..
+: 1475538737:0;ls
+: 1475538744:0;vim style.scss
+: 1475538854:0;clear
+: 1475538854:0;s
+: 1475538968:0;clear
+: 1475538968:0;s
+: 1475538990:0;cd pages
+: 1475538990:0;clear
+: 1475538991:0;s
+: 1475538994:0;vim feedback.html
+: 1475539108:0;(\
+  export PKG=eslint-config-airbnb;\
+  npm info "$PKG" peerDependencies --json | command sed 's/[\{\},]//g ; s/: /@/g' | xargs npm install --save-dev "$PKG"\
+)
+: 1475539133:0;npm install --save-dev eslint-config-airbnb eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#npm install --save-dev eslint-config-airbnb eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+: 1475539173:0;npm install --save-dev eslint-config-airbnb eslint@^#.#.# eslint-plugin-jsx-a11y eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#npm install --save-dev eslint-config-airbnb eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+: 1475539200:0;npm install --save-dev eslint-config-airbnb eslint@^#.#.# eslint-plugin-jsx-a11y@^#.#.# eslint-plugin-import@^#.#.# eslint-plugin-react@^#.#.#
+: 1475539220:0;npm install --save-dev eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react
+: 1475539258:0;vim .eslintrc
+: 1475539266:0;vim ~/.eslintrc
+: 1475539284:0;npm i eslint-config-airbnb
+: 1475539302:0;clear
+: 1475539302:0;s
+: 1475539306:0;vim feedback.html
+: 1475539310:0;q
+: 1475539429:0;meteor mongo
+: 1475539445:0;clear
+: 1475539455:0;vim feedback.js
+: 1475539582:0;cd ../../api
+: 1475539582:0;ls
+: 1475539587:0;vim tasks.js feedback.js
+: 1475539738:0;cd ../ui
+: 1475539740:0;cd pages
+: 1475539741:0;ls
+: 1475539751:0;vim feedback.js ../templates/task.js
+: 1475540474:0;cd ../../api
+: 1475540475:0;ls
+: 1475540478:0;vim apis.js
+: 1475540482:0;clear
+: 1475540482:0;s
+: 1475540488:0;clear
+: 1475540488:0;s
+: 1475540498:0;meteor mongo
+: 1475540543:0;vim feedback.js
+: 1475540618:0;meteor mongo
+: 1475540664:0;clear
+: 1475540665:0;s
+: 1475540684:0;clear
+: 1475540684:0;s
+: 1475540691:0;cd ..
+: 1475540692:0;ls
+: 1475540693:0;clear
+: 1475540693:0;s
+: 1475540694:0;cd ui
+: 1475540695:0;ls
+: 1475540715:0;clear
+: 1475540715:0;s
+: 1475540717:0;d
+: 1475540720:0;cd ..
+: 1475540722:0;cd api
+: 1475540722:0;s
+: 1475540723:0;clear
+: 1475540723:0;s
+: 1475540725:0;d feedback.js
+: 1475540729:0;vim feedback.js
+: 1475540770:0;a feedback.js
+: 1475540771:0;a apis.js
+: 1475540772:0;clear
+: 1475540772:0;s
+: 1475540775:0;d tasks.js
+: 1475540786:0;a ../ui/pages/feedback.*
+: 1475540787:0;s
+: 1475540803:0;m "Fixed feedback bug"
+: 1475540804:0;clear
+: 1475540804:0;s
+: 1475540812:0;a tasks*
+: 1475540813:0;s
+: 1475540816:0;m "Styling"
+: 1475540817:0;clear
+: 1475540817:0;s
+: 1475540820:0;cd ../startup
+: 1475540821:0;clear
+: 1475540821:0;s
+: 1475540823:0;d router.js
+: 1475540828:0;a router.js
+: 1475540845:0;m "Fixed router redirect bug (redirect on login)"
+: 1475540846:0;clear
+: 1475540846:0;s
+: 1475540849:0;cd ../ui
+: 1475540850:0;s
+: 1475540851:0;clear
+: 1475540851:0;s
+: 1475540853:0;d body.
+: 1475540855:0;d body.js
+: 1475540863:0;vim body.
+: 1475540924:0;git add body.js
+: 1475540925:0;clear
+: 1475540925:0;s
+: 1475540931:0;cd pages
+: 1475540932:0;s
+: 1475540939:0;m "Cleaned up tutorial code"
+: 1475540941:0;clear
+: 1475540941:0;s
+: 1475540944:0;d landing.html
+: 1475540949:0;a landing.html
+: 1475540953:0;m "Added parallax"
+: 1475540954:0;clear
+: 1475540954:0;s
+: 1475540956:0;d pages.js
+: 1475540960:0;a pages.js
+: 1475540963:0;m "Added pages"
+: 1475540964:0;clear
+: 1475540964:0;s
+: 1475540970:0;a repo*
+: 1475540978:0;m "Added pages for repos"
+: 1475540978:0;clear
+: 1475540979:0;s
+: 1475540981:0;cd ../templates
+: 1475540982:0;clear
+: 1475540982:0;ls
+: 1475540983:0;s
+: 1475540985:0;d footer.html
+: 1475540991:0;a footer.html
+: 1475540998:0;m "Added link to feedback page"
+: 1475540998:0;clear
+: 1475540998:0;s
+: 1475541001:0;d navlist.html
+: 1475541004:0;a navlist.html
+: 1475541011:0;m "Added nav for repos and dash"
+: 1475541012:0;clear
+: 1475541012:0;s
+: 1475541016:0;cd ../../../
+: 1475541016:0;s
+: 1475541018:0;d
+: 1475541028:0;a server/main.js
+: 1475541046:0;m "Import apis list so that the list is next to the api files"
+: 1475541047:0;clear
+: 1475541047:0;s
+: 1475541049:0;d
+: 1475541060:0;npm run lint
+: 1475541066:0;npm run eslint
+: 1475541069:0;clear
+: 1475541069:0;s
+: 1475541072:0;git checkout package.json
+: 1475541073:0;clear
+: 1475541073:0;s
+: 1475541076:0;git push
+: 1475541078:0;clear
+: 1475541078:0;s
+: 1475541079:0;q
+: 1475541167:0;git checkout master
+: 1475541168:0;clear
+: 1475541168:0;s
+: 1475541170:0;npm start
+: 1475541179:0;clear
+: 1475541179:0;s
+: 1475541180:0;git pull
+: 1475541190:0;git 
+: 1475541191:0;clear
+: 1475541192:0;status
+: 1475541192:0;s
+: 1475541197:0;git stash
+: 1475541198:0;clear
+: 1475541198:0;s
+: 1475541203:0;clear
+: 1475541203:0;s
+: 1475541208:0;git pull
+: 1475541225:0;git add .meteor
+: 1475541228:0;rm node_modules
+: 1475541234:0;git stash
+: 1475541236:0;git pull
+: 1475541241:0;ckear
+: 1475541241:0;s
+: 1475541244:0;git apply
+: 1475541248:0;git stash apply
+: 1475541249:0;clear
+: 1475541250:0;s
+: 1475541254:0;cd .meteor
+: 1475541255:0;ls
+: 1475541257:0;vim .id
+: 1475541266:0;clear
+: 1475541266:0;s
+: 1475541270:0;git checkout .id
+: 1475541271:0;clear
+: 1475541272:0;s
+: 1475541275:0;git stash .id
+: 1475541276:0;clear
+: 1475541277:0;s
+: 1475541279:0;git add .id
+: 1475541280:0;s
+: 1475541283:0;git diff p
+: 1475541285:0;git diff platforms
+: 1475541290:0;git add platforms
+: 1475541292:0;git stash
+: 1475541293:0;clear
+: 1475541293:0;s
+: 1475541295:0;git pull
+: 1475541301:0;clear
+: 1475541302:0;s
+: 1475541304:0;clear
+: 1475541305:0;s
+: 1475541308:0;rm npm-debug.log
+: 1475541308:0;clear
+: 1475541309:0;s
+: 1475541309:0;ls
+: 1475541310:0;clear
+: 1475541310:0;ls
+: 1475541315:0;npm start
+: 1475541338:0;git branch --set-upstream-to=origin/master betterFeedback
+: 1475541346:0;git branch betterFeedback
+: 1475541350:0;git checkout betterFeedback 
+: 1475541352:0;git branch --set-upstream-to=origin/master betterFeedback
+: 1475541353:0;clear
+: 1475541353:0;s
+: 1475541359:0;cd imports
+: 1475541360:0;cd ui
+: 1475541370:0;vim pages/feedback.html pages/feedback.js
+: 1475541532:0;clear
+: 1475541532:0;s
+: 1475541534:0;a pages/feedback.js
+: 1475541535:0;s
+: 1475541545:0;m "Added a toast and cleared the form on feedback submit"
+: 1475541546:0;clea
+: 1475541546:0;rs
+: 1475541548:0;git push
+: 1475541553:0;git push origin betterFeedback 
+: 1475541559:0;clear
+: 1475541560:0;s
+: 1475541563:0;git push
+: 1475541571:0;git push origin HEAD:betterFeedback 
+: 1475541578:0;clear
+: 1475541578:0;s
+: 1475541579:0;clear
+: 1475541580:0;s
+: 1475549879:0;meteor npm install --save bcrypt
+: 1475549885:0;clear
+: 1475549885:0;s
+: 1475549917:0;meteor mongo
+: 1475549946:0;clear
+: 1475549948:0;cd ../api
+: 1475549949:0;ls
+: 1475549950:0;vim apis.js
+: 1475549959:0;ls
+: 1475549959:0;clear
+: 1475549960:0;ls
+: 1475549984:0;vim ../../server/main.js
+: 1475549992:0;ls
+: 1475549998:0;clear
+: 1475549998:0;s
+: 1475550006:0;z Lewis
+: 1475550007:0;s
+: 1475550013:0;vim LewisAndClark.pde
+: 1475550910:0;cse
+: 1475550952:0;q
+: 1475550956:0;clear
+: 1475551789:0;ps -ef | grep "LewisAndClark"
+: 1475551799:0;pkill 96220
+: 1475551803:0;kill -9 96220
+: 1475551804:0;clear
+: 1475551805:0;kill -9 96220
+: 1475551808:0;ps -ef | grep "LewisAndClark"
+: 1475551816:0;kill -9 96222
+: 1475551818:0;ps -ef | grep "LewisAndClark"
+: 1475551820:0;clear
+: 1475551820:0;s
+: 1475551823:0;clear
+: 1475551824:0;ls
+: 1475551831:0;vim Ship.pde
+: 1475551881:0;cd ~/Drive/Uni/2016/3141_Haskell
+: 1475551883:0;ls
+: 1475551885:0;cd Ass1
+: 1475551885:0;ls
+: 1475551889:0;vim Physics.hs
+: 1475553694:0;q
+: 1475554374:0;z tut
+: 1475554375:0;ls
+: 1475554382:0;mkdir Threads
+: 1475554385:0;cd Threads
+: 1475554385:0;ls
+: 1475554454:0;git clone git@github.com:sol-prog/Mandelbrot_set.git
+: 1475554501:0;cp ~/Downloads/mandel.cpp Mandelbrot_set/
+: 1475554503:0;cd Mandelbrot_set
+: 1475554504:0;ls
+: 1475554505:0;s
+: 1475554505:0;clear
+: 1475554506:0;s
+: 1475554508:0;vim mandel.cpp
+: 1475554520:0;make
+: 1475554522:0;ls
+: 1475554523:0;clear
+: 1475554523:0;ls
+: 1475554530:0;g++ mandel.cpp
+: 1475554554:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandel.cpp -lfreeimage -o mandelSingle
+: 1475554671:0;brew install freeimage
+: 1475554694:0;ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+: 1475554702:0;clear
+: 1475554702:0;s
+: 1475554703:0;q
+: 1475554710:0;ls
+: 1475554711:0;clear
+: 1475554711:0;s
+: 1475554779:0;brew install freeimage
+: 1475554791:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandel.cpp -lfreeimage -o mandelSingle
+: 1475554795:0;./mandelSingle
+: 1475554797:0;ls
+: 1475554808:0;clear
+: 1475554808:0;ls
+: 1475554820:0;./mandelSingle
+: 1475554826:0;vim save_image.
+: 1475554832:0;vim save_image.cpp
+: 1475554840:0;vim mandel.cpp
+: 1475554871:0;clear
+: 1475554872:0;ls
+: 1475554898:0;eog mandelbrot.png
+: 1475554904:0;brew install eog
+: 1475554919:0;open mandelbrot.png
+: 1475554961:0;clear
+: 1475554962:0;s
+: 1475554963:0;clear
+: 1475554963:0;s
+: 1475554996:0;vim .gitignore
+: 1475555003:0;ls
+: 1475555007:0;s
+: 1475555030:0;clear
+: 1475555031:0;s
+: 1475555034:0;a .gitignore
+: 1475555034:0;clear
+: 1475555035:0;s
+: 1475555040:0;clear
+: 1475555040:0;s
+: 1475555042:0;clear
+: 1475555042:0;s
+: 1475555045:0;./mandelSingle
+: 1475555056:0;vim mandel.cpp
+: 1475555077:0;./mandelSingle
+: 1475555085:0;./mandelSingle && open mandelbrot.png
+: 1475555147:0;cp mandel.cpp mandelThread.cpp
+: 1475555148:0;clear
+: 1475555148:0;ls
+: 1475555157:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandel.cpp -lfreeimage -o mandelSingle
+: 1475555160:0;./mandelSingle && open mandelbrot.png
+: 1475555179:0;vim mandelThread.cpp
+: 1475555248:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread
+: 1475555283:0;./mandelThread && open *.png
+: 1475555320:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread
+: 1475555323:0;./mandelThread && open *.png
+: 1475555352:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread
+: 1475555354:0;./mandelThread && open *.png
+: 1475555365:0;clear
+: 1475555378:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread && ./mandelThread && open *.png
+: 1475555691:0;vim mandelThread.cpp
+: 1475555729:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread && ./mandelThread && open *.png
+: 1475556075:0;sudo g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread && ./mandelThread && open *.pngOA
+: 1475556078:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread && ./mandelThread && open *.pngOA
+: 1475556083:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread && ./mandelThread && open *.png
+: 1475556225:0;clear
+: 1475556226:0;s
+: 1475556234:0;cp mandelThread.cpp mandelThread2.cpp
+: 1475556237:0;vim mandelThread2.cpp
+: 1475556250:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread2.cpp -lfreeimage -o mandelThread && ./mandelThread2 && open *.png
+: 1475556261:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread2.cpp -lfreeimage -o mandelThread2 && ./mandelThread2 && open *.png
+: 1475556273:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread.cpp -lfreeimage -o mandelThread && ./mandelThread && open *.png
+: 1475556287:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread2.cpp -lfreeimage -o mandelThread2 && ./mandelThread2 && open *.png
+: 1475556795:0;sudo g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread2.cpp -lfreeimage -o mandelThread2 && ./mandelThread2 && open *.pngOA
+: 1475556798:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread2.cpp -lfreeimage -o mandelThread2 && ./mandelThread2 && open *.pngOA
+: 1475556808:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread2.cpp -lfreeimage -o mandelThread2 && ./mandelThread2 && open *.png
+: 1475556953:0;z Kan
+: 1475556955:0;s
+: 1475556958:0;git stash
+: 1475556962:0;git checkout master
+: 1475556963:0;npm start
+: 1475557073:0;git checkout calendarAPI
+: 1475557077:0;git stash apply
+: 1475557081:0;s
+: 1475557082:0;clear
+: 1475557082:0;s
+: 1475557090:0;g++ -std=c++11 -O1 save_image.cpp utils.cpp mandelThread2.cpp -lfreeimage -o mandelThread2 && ./mandelThread2 && open *.png
+: 1475560019:0;clear
+: 1475560020:0;s
+: 1475560031:0;vim .gitignore
+: 1475560040:0;clear
+: 1475560040:0;s
+: 1475560044:0;a .gitignore
+: 1475560044:0;clear
+: 1475560045:0;s
+: 1475560049:0;a mandel.cpp
+: 1475560050:0;clear
+: 1475560050:0;s
+: 1475560053:0;a save_image.cpp
+: 1475560054:0;clear
+: 1475560054:0;s
+: 1475560057:0;a window.h
+: 1475560057:0;clear
+: 1475560057:0;s
+: 1475560058:0;clear
+: 1475560059:0;q
+: 1475561678:0;s
+: 1475561682:0;z Cpp
+: 1475561683:0;.
+: 1475561683:0;ls
+: 1475561686:0;cd ../Ass4
+: 1475561687:0;ls
+: 1475561705:0;clear
+: 1475561705:0;s
+: 1475561719:0;open .
+: 1475561749:0;q
+: 1475561754:0;ls
+: 1475561761:0;vim btree.hpp btree.tem
+: 1475561813:0;clear
+: 1475561816:0;make
+: 1475561817:0;ls
+: 1475561830:0;make all
+: 1475561894:0;ls
+: 1475561897:0;make clean
+: 1475561900:0;make all
+: 1475562495:0;clear
+: 1475562495:0;s
+: 1475562518:0;make all
+: 1475562615:0;make clean
+: 1475562616:0;make all
+: 1475562665:0;./test00
+: 1475562855:0;make clean && make all && ./test00 
+: 1475564806:0;clear
+: 1475564807:0;make clean && make all && ./test00 
+: 1475565208:0;g++ test00.cpp
+: 1475565212:0;vim test00.cpp
+: 1475565228:0;make clean && make all && ./test00 
+: 1475576318:0;q
+: 1475629616:0;clear
+: 1475629618:0;z Kan
+: 1475629619:0;clear
+: 1475629619:0;s
+: 1475629625:0;git stash
+: 1475629628:0;git checkout KatBranch 
+: 1475629629:0;ls
+: 1475629630:0;git pull
+: 1475629636:0;clear
+: 1475629637:0;s
+: 1475629639:0;cd imports/ui
+: 1475629639:0;ls
+: 1475629641:0;cd templates
+: 1475629643:0;ls
+: 1475629648:0;vim task_list.html
+: 1475629792:0;clear
+: 1475629792:0;s
+: 1475629795:0;a task_list.js
+: 1475629812:0;m "Fixed show Completed vs show priority bug"
+: 1475629815:0;npm start
+: 1475629867:0;ls
+: 1475629872:0;vim task_list.js
+: 1475630488:0;z Ethics
+: 1475630489:0;ls
+: 1475630497:0;vim Lecture10.md
+: 1475630689:0;cd -2
+: 1475630693:0;z Kan
+: 1475630694:0;clear
+: 1475630694:0;s
+: 1475630697:0;meteor mongo
+: 1475630834:0;git diff
+: 1475630890:0;ls
+: 1475630891:0;s
+: 1475630894:0;cd ../../
+: 1475630896:0;cd api
+: 1475630896:0;clear
+: 1475630896:0;s
+: 1475630901:0;d task_list.js
+: 1475630940:0;d tasks.js
+: 1475631021:0;vim task_list.js
+: 1475631132:0;git stash
+: 1475631134:0;clear
+: 1475631134:0;s
+: 1475631164:0;npm start
+: 1475631205:0;git checkout master
+: 1475631383:0;git checkout KatBranch 
+: 1475631391:0;git log
+: 1475631411:0;git reset HEAD d8ac4d4b1a4281117d38021a22e574d3d55d80c4
+: 1475631417:0;git log
+: 1475631444:0;git reset HEAD~
+: 1475631446:0;git status
+: 1475631450:0;s
+: 1475631456:0;cd ../ui/templates/
+: 1475631457:0;clear
+: 1475631457:0;s
+: 1475631459:0;vim task_list.js
+: 1475631589:0;clear
+: 1475631589:0;s
+: 1475631591:0;a task_list.js
+: 1475631594:0;m "Fixed show Completed vs show priority bug"
+: 1475631595:0;clear
+: 1475631595:0;s
+: 1475631600:0;git pull
+: 1475631722:0;git push
+: 1475631758:0;vim task_list.js
+: 1475631816:0;clears
+: 1475631817:0;clear
+: 1475631817:0;s
+: 1475631821:0;git checkout master
+: 1475631900:0;git pull
+: 1475631903:0;q
+: 1475632099:0;git checkout social
+: 1475632103:0;git branch social
+: 1475632104:0;clear
+: 1475632104:0;s
+: 1475632106:0;vim footer.html
+: 1475632232:0;a footer.html
+: 1475632243:0;m "Added a link to a twitter feed"
+: 1475632244:0;clear
+: 1475632245:0;git push
+: 1475632252:0;clear
+: 1475632252:0;s
+: 1475632282:0;git checkout groupsbranch
+: 1475632283:0;clear
+: 1475632283:0;s
+: 1475632352:0;git pull origin master 
+: 1475632431:0;clear
+: 1475632432:0;s
+: 1475632438:0;git rebase master
+: 1475632442:0;clear
+: 1475632442:0;s
+: 1475632448:0;git checkout master
+: 1475632458:0;git branch
+: 1475632465:0;git branch remove group_pages
+: 1475632469:0;git branch remove groupsbranch 
+: 1475632476:0;git branch -r remove 
+: 1475632479:0;git branch -d remove 
+: 1475632483:0;git branch -d group
+: 1475632486:0;git branch -d group_pages 
+: 1475632488:0;git branch -d groupsbranch 
+: 1475632489:0;clear
+: 1475632489:0;s
+: 1475632492:0;git status
+: 1475632493:0;git branch
+: 1475632500:0;git branch -d groupsbranch 
+: 1475632504:0;git branch -D groupsbranch 
+: 1475632505:0;clear
+: 1475632506:0;s
+: 1475632508:0;git branch
+: 1475632516:0;git checkout css
+: 1475632519:0;git log
+: 1475632529:0;git branch -d css
+: 1475632534:0;git checkout master
+: 1475632535:0;git branch -d css
+: 1475632536:0;clear
+: 1475632536:0;s
+: 1475632540:0;git branch
+: 1475632624:0;git checkout master
+: 1475632627:0;npm start
+: 1475632737:0;clear
+: 1475632737:0;s
+: 1475632739:0;d
+: 1475632775:0;.
+: 1475632779:0;rm npm-debug.log
+: 1475632781:0;..
+: 1475632782:0;ls
+: 1475632829:0;z Cpp
+: 1475632830:0;.
+: 1475632833:0;cd ../Ass4
+: 1475632834:0;.
+: 1475632834:0;ls
+: 1475632835:0;.
+: 1475633354:0;mimir
+: 1475633704:0;q
+: 1475633904:0;git checkout email
+: 1475633909:0;git branch email
+: 1475633911:0;meteor add email
+: 1475634548:0;cd ..
+: 1475634549:0;clear
+: 1475634549:0;s
+: 1475634552:0;git checkout email
+: 1475634554:0;s
+: 1475634559:0;cd startup
+: 1475634559:0;ls
+: 1475634564:0;vim email-config.js
+: 1475634593:0;clear
+: 1475634593:0;s
+: 1475634645:0;vim email-config.js
+: 1475635515:0;clear
+: 1475635516:0;s
+: 1475635530:0;cd ..
+: 1475635532:0;ls
+: 1475635533:0;..
+: 1475635537:0;cd server
+: 1475635537:0;.
+: 1475635541:0;vim main.js
+: 1475635556:0;..
+: 1475635565:0;cd client
+: 1475635566:0;ls
+: 1475635569:0;vim main.js
+: 1475635592:0;cd ../server
+: 1475635595:0;vim main.js
+: 1475635852:0;clear
+: 1475635853:0;ls
+: 1475635856:0;cd ../imports/startup
+: 1475635858:0;rm email-config.js
+: 1475635858:0;clear
+: 1475635859:0;s
+: 1475635865:0;cd ../../server
+: 1475635867:0;vim main.js
+: 1475635872:0;clear
+: 1475635872:0;s
+: 1475635891:0;vim main.js
+: 1475636367:0;s
+: 1475636372:0;rm ../imports/startup/email-config.js
+: 1475636373:0;clear
+: 1475636373:0;s
+: 1475636383:0;meteor add cunneen:mailgun
+: 1475636422:0;vim main.js
+: 1475636855:0;s
+: 1475636858:0;git stash
+: 1475636859:0;clear
+: 1475636859:0;s
+: 1475636861:0;D
+: 1475636863:0;log
+: 1475636865:0;git log
+: 1475636868:0;clear
+: 1475636869:0;s
+: 1475636874:0;meteor add email
+: 1475636925:0;cd ..
+: 1475636959:0;vim imports/startup/email-config.js server/main.js
+: 1475637136:0;q
+: 1475637805:0;cd ../Axure
+: 1475637806:0;ls
+: 1475637807:0;cd HTML
+: 1475637807:0;ls
+: 1475637808:0;cd Untitled
+: 1475637809:0;l
+: 1475637810:0;sclear
+: 1475637811:0;s
+: 1475637812:0;clear
+: 1475637812:0;s
+: 1475637817:0;vim index.html
+: 1475637909:0;cd ...
+: 1475637910:0;ls
+: 1475637911:0;cd ..
+: 1475637912:0;rm Axure
+: 1475637913:0;clear
+: 1475637913:0;s
+: 1475637914:0;q
+: 1475639579:0;clear
+: 1475639583:0;npm start
+: 1475642290:0;meteor mongo
+: 1475642296:0;z Kan
+: 1475642299:0;meteor mongo
+: 1475642819:0;q
+: 1475642933:0;vim email_example.js
+: 1475643065:0;s
+: 1475643069:0;d .meteor
+: 1475643072:0;a .meteor
+: 1475643073:0;clear
+: 1475643073:0;s
+: 1475643075:0;d social 
+: 1475643077:0;clear
+: 1475643077:0;s
+: 1475643079:0;d server
+: 1475643082:0;a server
+: 1475643082:0;clear
+: 1475643082:0;s
+: 1475643086:0;a email_example.js
+: 1475643086:0;clear
+: 1475643086:0;s
+: 1475643090:0;a imports/startup/email-config.js
+: 1475643091:0;clera
+: 1475643091:0;s
+: 1475643092:0;clear
+: 1475643092:0;s
+: 1475643112:0;m "Added basic email configuration and an example script"
+: 1475643112:0;clear
+: 1475643113:0;s
+: 1475643113:0;p
+: 1475643120:0;git push --set-upstream origin email 
+: 1475643127:0;git push
+: 1475643157:0;ls
+: 1475643376:0;q
+: 1475643377:0;clear
+: 1475643377:0;s
+: 1475643384:0;git checkout calendarAPI
+: 1475643385:0;clear
+: 1475643385:0;s
+: 1475643388:0;git pull
+: 1475643395:0;clear
+: 1475643395:0;s
+: 1475643407:0;q
+: 1475643445:0;git checkout email
+: 1475643447:0;meteor add meteorhacks:ssr
+: 1475643471:0;a .meteor
+: 1475643483:0;m "Added server side rendering for emailing"
+: 1475644846:0;git log
+: 1475644854:0;git log > ../Log_Book
+: 1475644855:0;cd ..
+: 1475644856:0;ls
+: 1475644857:0;vim Log_Book
+: 1475645438:0;mv Log_Book Log_Book.md
+: 1475645440:0;vim Log_Book.md
+: 1475646008:0;clear
+: 1475646009:0;s
+: 1475646021:0;cd KanFam
+: 1475646035:0;vim create_log.sh
+: 1475646123:0;clear
+: 1475646123:0;ls
+: 1475646124:0;cd ..
+: 1475646125:0;vim Log_Book.md
+: 1475646166:0;cd KanFam
+: 1475646166:0;ls
+: 1475646168:0;pwd
+: 1475646171:0;pwd | base
+: 1475646172:0;pwd | basename
+: 1475646174:0;clear
+: 1475646185:0;basename "$(pwd)"
+: 1475646341:0;clear
+: 1475646341:0;ls
+: 1475646351:0;chmod +x create_log.sh
+: 1475646352:0;clear
+: 1475646355:0;./create_log.sh
+: 1475646370:0;ls
+: 1475646374:0;vim git_log.md
+: 1475646405:0;./create_log.sh
+: 1475646422:0;vim git_log.md
+: 1475646461:0;./create_log.sh
+: 1475646465:0;cat git_log.md
+: 1475646509:0;cat git_log.md | head
+: 1475646512:0;./create_log.sh
+: 1475646513:0;cat git_log.md | head
+: 1475646515:0;clear
+: 1475646616:0;./create_log.sh
+: 1475646637:0;s
+: 1475646639:0;clear
+: 1475646639:0;s
+: 1475646643:0;./create_log.sh
+: 1475646677:0;vim git_log.md
+: 1475646688:0;./create_log.sh
+: 1475646690:0;vim git_log.md
+: 1475646745:0;clear
+: 1475646745:0;s
+: 1475646747:0;vim git_log.md
+: 1475646751:0;./create_log.sh
+: 1475646878:0;./create_log.sh cypher "Joshua Pratt"
+: 1475647722:0;git log -h
+: 1475647740:0;git log -h --decorate=full
+: 1475647746:0;git log -h --decorate="full"
+: 1475647757:0;git log -h --decorate=full
+: 1475647763:0;git log --decorate=full 
+: 1475647774:0;git log -h
+: 1475647781:0;git log -h --use-mailmap
+: 1475647794:0;git log --source
+: 1475647807:0;clear
+: 1475647814:0;./create_log.sh cypher "Joshua Pratt"
+: 1475648964:0;vim git_log.md
+: 1475649077:0;clear
+: 1475649079:0;./create_log.sh cypher "Joshua Pratt"
+: 1475649084:0;vim git_log.md
+: 1475649122:0;./create_log.sh cypher "Joshua Pratt"
+: 1475649124:0;vim git_log.md
+: 1475649159:0;./create_log.sh cypher "Joshua Pratt"
+: 1475649163:0;vim git_log.md
+: 1475649189:0;./create_log.sh cypher "Joshua Pratt"
+: 1475649237:0;vim git_log.md
+: 1475649277:0;./create_log.sh cypher "Joshua Pratt" && vim git_log.md
+: 1475649388:0;vim git_log.md
+: 1475649391:0;./create_log.sh cypher "Joshua Pratt" && vim git_log.md
+: 1475649589:0;./create_log.sh cypher "Joshua Pratt"
+: 1475649591:0;clear
+: 1475649592:0;./create_log.sh cypher "Joshua Pratt"
+: 1475649618:0;vim git_log.md
+: 1475649667:0;./create_log.sh cypher "Joshua Pratt"
+: 1475649964:0;sudo ./create_log.sh cypher "Joshua Pratt"OA
+: 1475649966:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650040:0;vim git_log.md
+: 1475650048:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650049:0;vim git_log.md
+: 1475650079:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650080:0;vim git_log.md
+: 1475650107:0;./create_log.sh cypher "Joshua Pratt" && vim git_log.md
+: 1475650195:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650452:0;vim git_log.md
+: 1475650488:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650489:0;vim git_log.md
+: 1475650609:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650611:0;vim git_log.md
+: 1475650624:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650713:0;vim git_log.md
+: 1475650742:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650743:0;vim git_log.md
+: 1475650774:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650775:0;vim git_log.md
+: 1475650804:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650805:0;vim git_log.md
+: 1475650821:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650860:0;vim git_log.md
+: 1475650879:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650880:0;vim git_log.md
+: 1475650907:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650909:0;vim git_log.md
+: 1475650994:0;./create_log.sh cypher "Joshua Pratt"
+: 1475650996:0;vim git_log.md
+: 1475651066:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651081:0;vim git_log.md
+: 1475651089:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651091:0;vim git_log.md
+: 1475651151:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651152:0;vim git_log.md
+: 1475651181:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651182:0;vim git_log.md
+: 1475651194:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651195:0;vim git_log.md
+: 1475651211:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651213:0;vim git_log.md
+: 1475651226:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651227:0;vim git_log.md
+: 1475651245:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651246:0;vim git_log.md
+: 1475651278:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651279:0;vim git_log.md
+: 1475651299:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651301:0;vim git_log.md
+: 1475651340:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651342:0;vim git_log.md
+: 1475651354:0;vim create_log.sh
+: 1475651357:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651358:0;vim create_log.sh
+: 1475651364:0;vim git_log.md
+: 1475651391:0;vim create_log.sh
+: 1475651395:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651396:0;vim create_log.sh
+: 1475651400:0;vim git_log.md
+: 1475651413:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651415:0;vim git_log.md
+: 1475651430:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651431:0;vim git_log.md
+: 1475651445:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651447:0;vim git_log.md
+: 1475651458:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651460:0;vim git_log.md
+: 1475651594:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651596:0;vim git_log.md
+: 1475651608:0;./create_log.sh cypher "Joshua Pratt"
+: 1475651609:0;vim git_log.md
+: 1475651689:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652055:0;vim git_log.md
+: 1475652073:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652076:0;vim git_log.md
+: 1475652246:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652366:0;vim git_log.md
+: 1475652382:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652411:0;vim git_log.md
+: 1475652427:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652429:0;vim git_log.md
+: 1475652465:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652467:0;vim git_log.md
+: 1475652478:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652481:0;vim git_log.md
+: 1475652606:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652651:0;vim git_log.md
+: 1475652664:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652666:0;vim git_log.md
+: 1475652762:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652769:0;:q
+: 1475652770:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652774:0;vim git_log.md
+: 1475652783:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652785:0;vim git_log.md
+: 1475652812:0;./create_log.sh cypher "Joshua Pratt"
+: 1475652814:0;vim git_log.md
+: 1475652868:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653013:0;vim git_log.md
+: 1475653022:0;git log
+: 1475653055:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653060:0;vim git_log.md
+: 1475653084:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653086:0;vim git_log.md
+: 1475653095:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653098:0;vim git_log.md
+: 1475653106:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653108:0;vim git_log.md
+: 1475653126:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653230:0;:q
+: 1475653231:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653234:0;./create_log.sh cypher "Joshua Pratt" | head
+: 1475653237:0;./create_log.sh cypher "Joshua Pratt" | head -n 10
+: 1475653239:0;./create_log.sh cypher "Joshua Pratt" | head -n 20
+: 1475653343:0;tr
+: 1475653482:0;./create_log.sh cypher "Joshua Pratt" | head -n 20
+: 1475653488:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653558:0;vim git_log.md
+: 1475653590:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653593:0;vim git_log.md
+: 1475653603:0;./create_log.sh cypher "Joshua Pratt"
+: 1475653607:0;vim git_log.md
+: 1475653634:0;vim create_log.py
+: 1475653669:0;which python
+: 1475653688:0;./create_log.py
+: 1475653714:0;./create_log.py cypher "Joshua Pratt"
+: 1475654187:0;sudo ./create_log.py cypher "Joshua Pratt"OA
+: 1475654189:0;./create_log.py cypher "Joshua Pratt"
+: 1475654437:0;sudo A.OA
+: 1475654439:0;./create_log.py cypher "Joshua Pratt"
+: 1475655007:0;./create_log.py cypher "Joshua Pratt" > git_log.md
+: 1475655010:0;vim git_log.md
+: 1475655020:0;./create_log.py cypher "Joshua Pratt" > git_log.md
+: 1475655022:0;vim git_log.md
+: 1475655092:0;./create_log.py cypher "Joshua Pratt" > git_log.md
+: 1475655733:0;when-changed create_log.py -c "./create_log.py cypher "Joshua Pratt" > git_log.md"
+: 1475655742:0;clear
+: 1475655750:0;when-changed create_log.py -c "./create_log.py cypher \"Joshua Pratt\" > git_log.md"
+: 1475655760:0;chmod +x create_log.py
+: 1475655765:0;rm create_log.sh
+: 1475655766:0;clear
+: 1475655766:0;s
+: 1475655769:0;when-changed create_log.py -c "./create_log.py cypher \"Joshua Pratt\" > git_log.md"
+: 1475657449:0;q
+: 1475657950:0;diff git_log.md ../Log_Book.md
+: 1475657996:0;diff -y git_log.md ../Log_Book.md
+: 1475658144:0;git log
+: 1475658280:0;diff -y git_log.md ../Log_Book.md
+: 1475658289:0;diff -y git_log.md ../Log_Book.md | less
+: 1475658346:0;git log
+: 1475658761:0;./create_log.py cypher "Joshua Pratt
+: 1475658762:0;./create_log.py cypher "Joshua Pratt"
+: 1475658777:0;q
+: 1475659969:0;when-changed create_log.py -c "./create_log.py cypher \"Joshua Pratt\" > git_log.md"
+: 1475661304:0;diff -y git_log.md ../Log_Book.md | less
+: 1475661406:0;diff -y --suppress-common-lines git_log.md ../Log_Book.md | less
+: 1475661444:0;clear
+: 1475661444:0;s
+: 1475661450:0;rm git_log.md
+: 1475661451:0;clear
+: 1475661451:0;s
+: 1475661453:0;q
+: 1475661484:0;clear
+: 1475661484:0;s
+: 1475661492:0;mv create_log.py git_log
+: 1475661504:0;which python
+: 1475661514:0;mv git_log usr/local/bin/
+: 1475661519:0;mv git_log /usr/local/bin/
+: 1475661522:0;git_log
+: 1475661563:0;vim `which git_log`
+: 1475661699:0;git_log
+: 1475661701:0;vim `which git_log`
+: 1475661725:0;git_log
+: 1475661742:0;vim `which git_log`
+: 1475661752:0;git_log
+: 1475661757:0;vim `which git_log`
+: 1475661781:0;git_log
+: 1475661784:0;vim `which git_log`
+: 1475661802:0;git_log cypher "Joshua Pratt"
+: 1475661804:0;clear
+: 1475661813:0;rm git_log.md
+: 1475661814:0;clear
+: 1475661814:0;s
+: 1475661816:0;vim `which git_log`
+: 1475661844:0;clear
+: 1475661846:0;s
+: 1475661848:0;git_log
+: 1475661855:0;git_log > git_log.md
+: 1475661858:0;vim git_log.md
+: 1475661873:0;git_log cypher "Joshua Pratt" > git_log.md
+: 1475661881:0;vim git_log.md
+: 1475661890:0;clear
+: 1475661890:0;s
+: 1475661895:0;vim `which git_log`
+: 1475662005:0;q
+: 1475662008:0;git_log cypher "Joshua Pratt" > git_log.md
+: 1475662015:0;vim git_log.md
+: 1475662030:0;git_log > git_log.md
+: 1475662032:0;vim git_log.md
+: 1475662041:0;vim `which git_log`
+: 1475662065:0;git_log cypher "Joshua Pratt" > git_log.md
+: 1475662068:0;vim git_log.md
+: 1475662078:0;git_log cypher > git_log.md
+: 1475662080:0;vim git_log.md
+: 1475662085:0;q
+: 1475662093:0;clear
+: 1475662094:0;s
+: 1475662095:0;q
+: 1475662097:0;s
+: 1475662099:0;rm git_log.md
+: 1475662100:0;clear
+: 1475662100:0;s
+: 1475662103:0;clear
+: 1475662103:0;s
+: 1475662106:0;d
+: 1475662107:0;log
+: 1475662110:0;git log
+: 1475662116:0;clear
+: 1475662116:0;s
+: 1475662120:0;git push
+: 1475662127:0;clear
+: 1475662127:0;s
+: 1475662129:0;q
+: 1475711363:0;git status
+: 1475711366:0;npm start
+: 1475711381:0;vim imports/startup/email-config.js server/main.js
+: 1475711475:0;ls
+: 1475711479:0;vim email_example.js
+: 1475711494:0;mv email_example.js email.js.example
+: 1475711496:0;clear
+: 1475711496:0;s
+: 1475711511:0;mv email.js.example email_example.js
+: 1475711512:0;clear
+: 1475711513:0;s
+: 1475711518:0;git mv email_example.js email_example.example
+: 1475711519:0;clear
+: 1475711520:0;s
+: 1475711541:0;clear
+: 1475711541:0;ls
+: 1475711553:0;clear
+: 1475711553:0;ls
+: 1475711559:0;git mv email_example.example email.example
+: 1475711561:0;clears
+: 1475711562:0;clear
+: 1475711562:0;s
+: 1475711588:0;m "Moved js file to .example to stop meteor loading things it shouldn't and crashing"
+: 1475711590:0;git push
+: 1475711646:0;git checkout KatBranch 
+: 1475711649:0;git pull
+: 1475711935:0;vim imports/ui/templates/task.html
+: 1475711942:0;cd imports/ui/templates
+: 1475711948:0;vim task.js
+: 1475712290:0;clear
+: 1475712290:0;s
+: 1475712293:0;git stash
+: 1475712294:0;clear
+: 1475712294:0;s
+: 1475712298:0;git pull
+: 1475712309:0;git log
+: 1475712315:0;which git log
+: 1475712316:0;q
+: 1475712331:0;npm start
+: 1475712552:0;clear
+: 1475712552:0;s
+: 1475712612:0;meteor install
+: 1475712617:0;meteor update
+: 1475712753:0;ls
+: 1475712754:0;gst
+: 1475712783:0;git pull
+: 1475712799:0;glg
+: 1475712929:0;cd ....
+: 1475712930:0;cd .meteor
+: 1475712933:0;vim versions
+: 1475713651:0;s
+: 1475713652:0;clear
+: 1475713652:0;s
+: 1475713653:0;d
+: 1475713685:0;diff versions ~/Downloads/versions.txt
+: 1475713691:0;diff -y --suppress-common-lines versions ~/Downloads/versions.txt
+: 1475713726:0;clear
+: 1475713726:0;s
+: 1475713732:0;npm start
+: 1475714236:0;cd ..
+: 1475714237:0;clear
+: 1475714237:0;ls
+: 1475714247:0;git_log cypher "Joshua Pratt" > git_log.md
+: 1475714250:0;vim git_log.md
+: 1475714280:0;rm git_log.md
+: 1475714281:0;clear
+: 1475714281:0;s
+: 1475714284:0;a .meteor
+: 1475714293:0;m "Updates to main packages"
+: 1475714294:0;clear
+: 1475714294:0;s
+: 1475714297:0;git push
+: 1475714583:0;git_log > git_log.md
+: 1475714585:0;vim git_log.md
+: 1475714673:0;rm git_log.md
+: 1475714674:0;clear
+: 1475714674:0;s
+: 1475714947:0;git checkout master
+: 1475714948:0;clear
+: 1475714948:0;s
+: 1475714950:0;git pull
+: 1475715034:0;ipconfig
+: 1475715037:0;ifconfig
+: 1475715132:0;git checkout KatBranch
+: 1475715135:0;npm start
+: 1475715204:0;cd imports/ui/templates
+: 1475715208:0;vim task.html
+: 1475715227:0;vim task.js
+: 1475715254:0;vim task_list
+: 1475715260:0;ls
+: 1475715289:0;clear
+: 1475715290:0;git status
+: 1475715291:0;d
+: 1475715294:0;a task.js
+: 1475715298:0;d
+: 1475715299:0;D
+: 1475715318:0;m "Activate dropdown on click rather than hover"
+: 1475715319:0;ciear
+: 1475715320:0;clear
+: 1475715320:0;ls
+: 1475715321:0;push
+: 1475715323:0;p
+: 1475715601:0;cd ....
+: 1475715602:0;ls
+: 1475715602:0;..
+: 1475715603:0;ls
+: 1475715606:0;git@github.com:Cypher1/KanFam_Ethics.git
+: 1475715611:0;cd ..../
+: 1475715613:0;cd ...
+: 1475715615:0;ls
+: 1475715616:0;clear
+: 1475715618:0;s
+: 1475715667:0;cd KanFam_Ethics
+: 1475715689:0;ls
+: 1475715689:0;clear
+: 1475715691:0;npm start
+: 1475715692:0;ls
+: 1475715859:0;clear
+: 1475715864:0;meteor npm install --save bcrypt
+: 1475716075:0;cd ..
+: 1475716077:0;rm KanFam
+: 1475716081:0;rm -rf KanFam
+: 1475716109:0;q
+: 1475716110:0;clear
+: 1475716170:0;q
+: 1475716174:0;clear
+: 1475716174:0;s
+: 1475716175:0;q
+: 1475716177:0;clears
+: 1475716179:0;clear
+: 1475716180:0;s
+: 1475716185:0;q
+: 1475717165:0;s
+: 1475717169:0;rm Axure\ User\ Data
+: 1475717173:0;clear
+: 1475717174:0;ls
+: 1475717179:0;mkdir Mosaic
+: 1475717194:0;cp ~/Drive/Me/mosaic Mosaic
+: 1475717196:0;cd Mosaic
+: 1475717196:0;ls
+: 1475717201:0;mv mosaic* .
+: 1475717206:0;mv mosaic/* .
+: 1475717207:0;ls
+: 1475717209:0;cd mosaic
+: 1475717209:0;ls
+: 1475717210:0;cd ..
+: 1475717212:0;rm mosaic
+: 1475717213:0;clear
+: 1475717213:0;ls
+: 1475717218:0;npm start
+: 1475717338:0;cp ~/Pictures/zfkmfDm.jpg image.jpg
+: 1475717339:0;clear
+: 1475717339:0;s
+: 1475717345:0;mv image.jpg example.jpg
+: 1475717347:0;clear
+: 1475717359:0;s
+: 1475717362:0;git init
+: 1475717362:0;clear
+: 1475717363:0;s
+: 1475717374:0;a README js mosaic.html package.json server.js
+: 1475717375:0;clear
+: 1475717375:0;s
+: 1475717384:0;vim .gitignore
+: 1475717391:0;clear
+: 1475717391:0;s
+: 1475717395:0;a .gitignore
+: 1475717395:0;clear
+: 1475717396:0;s
+: 1475717408:0;m "First Commit, example code with my solution"
+: 1475717409:0;cler
+: 1475717409:0;s
+: 1475717410:0;clear
+: 1475717410:0;s
+: 1475719069:0;rm example.jpg
+: 1475719069:0;clear
+: 1475719070:0;s
+: 1475719073:0;vim .gitignore
+: 1475719081:0;clear
+: 1475719081:0;s
+: 1475719083:0;a .gitignore
+: 1475719084:0;clear
+: 1475719084:0;s
+: 1475719103:0;mv js/example.png .
+: 1475719115:0;clear
+: 1475719115:0;s
+: 1475719118:0;rm .DS_Store
+: 1475722578:0;m "Added png to ignore list"
+: 1475722579:0;clear
+: 1475722579:0;s
+: 1475722583:0;rm npm-debug.log
+: 1475722584:0;clear
+: 1475722584:0;s
+: 1475723486:0;open example.jpg
+: 1475723662:0;vim server.js
+: 1475729031:0;clear
+: 1475729031:0;s
+: 1475729032:0;d
+: 1475729041:0;git stash
+: 1475729042:0;clear
+: 1475729043:0;s
+: 1475729069:0;vim js/client.js
+: 1475731089:0;clear
+: 1475731089:0;s
+: 1475731240:0;npm install
+: 1475731251:0;ls
+: 1475731277:0;q
+: 1475731280:0;clear
+: 1475731281:0;ls
+: 1475731281:0;s
+: 1475731282:0;clear
+: 1475731282:0;s
+: 1475731285:0;rm .DS_Store
+: 1475731286:0;clear
+: 1475731286:0;s
+: 1475731293:0;npm test
+: 1475731316:0;clear
+: 1475731317:0;cd tests
+: 1475731319:0;ls
+: 1475731320:0;cd test
+: 1475731322:0;ls
+: 1475731325:0;vim example_test.js
+: 1475731425:0;..
+: 1475731430:0;vim js/client.js
+: 1475731579:0;vim test/example_test.js test/average_color_test.js
+: 1475754107:0;q
+: 1475754114:0;clear
+: 1475754114:0;s
+: 1475754117:0;rm .DS_Store
+: 1475754122:0;a .
+: 1475754127:0;clear
+: 1475754127:0;s
+: 1475754137:0;git rm node_modules
+: 1475754139:0;clear
+: 1475754140:0;s
+: 1475754147:0;q
+: 1475754151:0;cd
+: 1475754153:0;clear
+: 1475754153:0;s
+: 1475754155:0;cse
+: 1475754167:0;q
+: 1475754522:0;z Graph
+: 1475754524:0;z Cpp
+: 1475754525:0;s
+: 1475754528:0;vim Graph.tem
+: 1475754620:0;q
+: 1475795311:0;cd ../Ass4
+: 1475795312:0;.
+: 1475795318:0;vim btree.hpp btree.tem
+: 1475795341:0;g++ test00.cpp
+: 1475795590:0;./a.out
+: 1475795673:0;g++ test00.cpp
+: 1475795676:0;./a.out
+: 1475795770:0;g++ test00.cpp && ./a.out
+: 1475796011:0;which g++
+: 1475796014:0;zrc
+: 1475796022:0;clear
+: 1475796024:0;exec zsh
+: 1475796025:0;clear
+: 1475796027:0;g++ test00.cpp && ./a.out
+: 1475796348:0;cse
+: 1475796575:0;q
+: 1475797630:0;g++ test00.cpp && ./a.out
+: 1475798213:0;clear
+: 1475798270:0;g++ test00.cpp && ./a.out
+: 1475798939:0;clear
+: 1475798942:0;g++ test00.cpp && ./a.out
+: 1475799057:0;clear
+: 1475799058:0;g++ test00.cpp && ./a.out
+: 1475799230:0;ping 8.8.8.8
+: 1475799389:0;g++ test00.cpp && ./a.out
+: 1475799392:0;clear && g++ test00.cpp && ./a.out
+: 1475802355:0;watch "clear && g++ test00.cpp && ./a.out"
+: 1475802551:0;watch "clear && g++ -Wall -Werror -std=c++11 test00.cpp && ./a.out"
+: 1475802575:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp && ./a.out"
+: 1475802677:0;q
+: 1475802695:0;cd ..
+: 1475802695:0;ls
+: 1475802698:0;cd Lectures
+: 1475802699:0;ls
+: 1475802712:0;vim Lecture_15.md
+: 1475804948:0;clear
+: 1475804948:0;s
+: 1475804950:0;vim Lecture_15.md
+: 1475806710:0;g++ test00.cpp && ./a.out
+: 1475806717:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp && ./a.out"
+: 1475806723:0;q
+: 1475806733:0;vim Lecture_15_OOP.md
+: 1475808670:0;q
+: 1475812300:0;vim /Users/Cypher/Drive/Uni/2016/6771_Cpp/Lectures/Lecture_15_OOP.md
+: 1475812318:0;q
+: 1475819162:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address" && ./a.out"
+: 1475819166:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && ./a.out"
+: 1475819191:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out"
+: 1475820557:0;vim btree.hpp btree.tem
+: 1475821411:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out"
+: 1475832807:0;clear
+: 1475832808:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out"
+: 1475833792:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out && echo '-----------------'"
+: 1475833810:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1475839490:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp && sudo ./a.out; echo '-----------------'"
+: 1475840107:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1475841972:0;clear
+: 1475841975:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1475842066:0;./a.out
+: 1475842078:0;clear
+: 1475842081:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1475910078:0;vim btree.hpp btree.tem
+: 1475910087:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1475913246:0;z Kan
+: 1475913247:0;ls
+: 1475913249:0;cd server
+: 1475913249:0;ls
+: 1475913261:0;vim main.js ../imports/api/groups.js
+: 1475913274:0;git checkout groupsbranch
+: 1475913278:0;vim main.js ../imports/api/groups.js
+: 1475913292:0;git pull
+: 1475913299:0;clear
+: 1475913299:0;s
+: 1475913301:0;d
+: 1475913313:0;git pull master origin
+: 1475913318:0;git pull origin master 
+: 1475913331:0;s
+: 1475913332:0;d
+: 1475913335:0;a main.js
+: 1475913341:0;m "Added groups api to server"
+: 1475913342:0;clear
+: 1475913342:0;s
+: 1475913344:0;git pull origin master 
+: 1475913349:0;s
+: 1475913351:0;vim main.js
+: 1475913361:0;a main.js
+: 1475913364:0;m "Merged"
+: 1475913367:0;git push
+: 1475913375:0;clear
+: 1475913375:0;s
+: 1475913381:0;clear
+: 1475913381:0;s
+: 1475913870:0;git checkout email
+: 1475913873:0;git pull origin master 
+: 1475913879:0;s
+: 1475913887:0;cd ../.meteor
+: 1475913889:0;vim versions
+: 1475913908:0;d
+: 1475913910:0;D
+: 1475913913:0;s
+: 1475913914:0;clear
+: 1475913917:0;D versions
+: 1475913921:0;d versions
+: 1475913923:0;a versions
+: 1475913928:0;npm start
+: 1475913979:0;s
+: 1475913980:0;a versions
+: 1475913984:0;m "Merging versions"
+: 1475913985:0;clear
+: 1475913985:0;s
+: 1475913988:0;git push
+: 1475914102:0;cd ..
+: 1475914103:0;vim email.example
+: 1475914105:0;clear
+: 1475914151:0;s
+: 1475914157:0;git checkout origin/revert-56-email 
+: 1475914176:0;git branch -d origin/revert-56-email
+: 1475914178:0;clear
+: 1475914178:0;s
+: 1475914180:0;git branch
+: 1475914185:0;clear
+: 1475914185:0;s
+: 1475914196:0;git checkout groupsbranch
+: 1475914200:0;clear
+: 1475914200:0;s
+: 1475914205:0;git branch
+: 1475914208:0;git branch origin/
+: 1475914210:0;git branch origin
+: 1475914213:0;git branch master
+: 1475914214:0;clear
+: 1475914215:0;s
+: 1475924325:0;cd ~/Pictures
+: 1475924326:0;ls
+: 1475924328:0;cd Grandma.photoslibrary
+: 1475924328:0;ls
+: 1475924331:0;ls *
+: 1475924339:0;cd Masters
+: 1475924339:0;ls
+: 1475924342:0;cd 2016
+: 1475924342:0;clear
+: 1475924343:0;ls
+: 1475924344:0;cd 10
+: 1475924344:0;ls
+: 1475924346:0;cd 08
+: 1475924346:0;ls
+: 1475924348:0;cd 20161008-105631
+: 1475924349:0;ls
+: 1475924373:0;mkdir ~/Pictures/Grandma
+: 1475924380:0;cp * ~/Pictures/Grandma
+: 1475924386:0;open ~/Pictures/Grandma
+: 1475925753:0;git branch
+: 1475925759:0;q
+: 1475926029:0;s
+: 1475926034:0;q
+: 1475926038:0;s
+: 1475926039:0;clear
+: 1475926040:0;s
+: 1475926044:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1475970076:0;vim btree.hpp btree.tem
+: 1476002443:0;clear
+: 1476002445:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1476002621:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp && sudo ./a.out; echo '-----------------'"
+: 1476002730:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1476014998:0;make
+: 1476015089:0;./tests/test01
+: 1476015185:0;when-changed *.hpp *.tem *.cpp -c "clear && g++ -Wall -Werror -std=c++11 test00.cpp -fsanitize=address && sudo ./a.out; echo '-----------------'"
+: 1476015259:0;./tests/test01
+: 1476015262:0;make
+: 1476015265:0;make all
+: 1476015271:0;./tests/test01
+: 1476015438:0;vim tests/test01.cpp
+: 1476015514:0;make all && ./tests/test01
+: 1476015537:0;vim tests/test01.cpp
+: 1476015576:0;make all && ./tests/test01
+: 1476016162:0;vim /tests/test01/cpp
+: 1476016172:0;vim tests/test01.cpp
+: 1476016269:0;make all && ./tests/test01
+: 1476016509:0;vim tests/test01.cpp
+: 1476016573:0;make all && ./tests/test01
+: 1476016605:0;cd tests
+: 1476016606:0;ls
+: 1476016610:0;cd ..
+: 1476016612:0;make clean
+: 1476016615:0;make all
+: 1476016640:0;make clean && make all && ./tests/test01
+: 1476017396:0;./tests/test02
+: 1476017403:0;vim tests/test02.cpp
+: 1476017436:0;./tests/test03
+: 1476017442:0;vim tests/test03.cpp
+: 1476017461:0;clear
+: 1476017462:0;s
+: 1476017616:0;make clean && make all
+: 1476017831:0;ls
+: 1476017835:0;rm *.hpp.gch
+: 1476017836:0;clear
+: 1476017836:0;s
+: 1476017842:0;cse_cp
+: 1476017847:0;cse
+: 1476018085:0;q
+: 1476018659:0;vim btree.tem
+: 1476018675:0;make clean && make all && ./tests/test01
+: 1476018735:0;vim tests/test01.cpp
+: 1476018743:0;make clean && make all && ./tests/test01
+: 1476051596:0;vim btree.tem
+: 1476051832:0;make clean && make all && ./tests/test01
+: 1476052057:0;make clean
+: 1476052062:0;./tests/test01
+: 1476052065:0;make clean && make all && ./tests/test01
+: 1476054129:0;z Kan
+: 1476054132:0;git pull
+: 1476054139:0;git fetch
+: 1476054148:0;git checkout master
+: 1476054152:0;git pull
+: 1476054158:0;clears
+: 1476054159:0;clear
+: 1476054159:0;s
+: 1476054161:0;npm start
+: 1476055539:0;s
+: 1476055555:0;git checkout improved_login
+: 1476055563:0;git branch improved_login
+: 1476055567:0;git checkout improved_login 
+: 1476055568:0;clear
+: 1476055568:0;s
+: 1476055572:0;cd imports
+: 1476055573:0;ls
+: 1476055575:0;cd ui
+: 1476055575:0;ls
+: 1476055577:0;cd pages
+: 1476055578:0;ls
+: 1476055581:0;vim login.html
+: 1476055593:0;ls
+: 1476055594:0;cd ..
+: 1476055594:0;ls
+: 1476055596:0;cd templates
+: 1476055597:0;ls
+: 1476055597:0;clear
+: 1476055598:0;ls
+: 1476055740:0;vim login_signup.html
+: 1476058169:0;git_log > git_log.md
+: 1476058172:0;chrome git_log.md
+: 1476058182:0;rm git_log.md
+: 1476058183:0;cd ...
+: 1476058184:0;..
+: 1476058187:0;git_log > git_log.md
+: 1476058189:0;chrom git_log.md
+: 1476058191:0;chrome git_log.md
+: 1476058526:0;git_log cypher "Joshua Pratt" > git_log.md
+: 1476058528:0;chrome git_log.md
+: 1476058553:0;git_log > git_log.md
+: 1476058561:0;git_log cypher "Joshua Pratt" > git_log.md
+: 1476060532:0;cse
+: 1476061679:0;clear
+: 1476061679:0;s
+: 1476061683:0;vim imports/startup/accounts-config.js
+: 1476061689:0;q
+: 1476061718:0;s
+: 1476061720:0;git checkout ..
+: 1476061721:0;s
+: 1476061722:0;cd ..
+: 1476061724:0;..
+: 1476061725:0;s
+: 1476061729:0;git stash
+: 1476061729:0;clear
+: 1476061730:0;s
+: 1476061734:0;git checkout calendarAPI
+: 1476061738:0;git checkout calendar
+: 1476061740:0;npm start
+: 1476062532:0;clear
+: 1476062532:0;s
+: 1476062536:0;rm git_log.md
+: 1476062537:0;clear
+: 1476062537:0;s
+: 1476063258:0;git pull
+: 1476063273:0;npm start
+: 1476063283:0;cd imports/ui
+: 1476063287:0;cd templates
+: 1476063291:0;vim all_lists.html
+: 1476063319:0;git checkout master all_lists.html
+: 1476063320:0;clear
+: 1476063321:0;s
+: 1476063325:0;vim all_lists.html
+: 1476063402:0;clear
+: 1476063402:0;s
+: 1476063405:0;a all_lists.html
+: 1476063408:0;clear
+: 1476063408:0;s
+: 1476063414:0;ls
+: 1476063473:0;ping 8.8.8.8
+: 1476063516:0;clear
+: 1476063516:0;s
+: 1476063519:0;cd ../pages
+: 1476063520:0;ls
+: 1476063522:0;vim calendar.
+: 1476063528:0;vim calendar.html
+: 1476063562:0;vim calendar.js
+: 1476063565:0;clear
+: 1476063565:0;s
+: 1476063567:0;git pull
+: 1476063575:0;s
+: 1476063581:0;clear
+: 1476063582:0;ls
+: 1476063598:0;make clean && make all && ./tests/test01
+: 1476063602:0;make clean && make all && time ./tests/test01
+: 1476064282:0;vim btree.tem
+: 1476065048:0;make clean && make all && time ./tests/test01
+: 1476065333:0;ls
+: 1476065335:0;cse_cp
+: 1476065339:0;cse
+: 1476065395:0;exit
+: 1476065396:0;q
+: 1476065482:0;z Cpp
+: 1476065483:0;clear
+: 1476065483:0;s
+: 1476065484:0;cd ..
+: 1476065485:0;ls
+: 1476065488:0;mk Ass5
+: 1476065489:0;ls
+: 1476065685:0;vim BucketSort.h
+: 1476065754:0;vim Makefile
+: 1476065758:0;make
+: 1476065765:0;vim sortTester.cpp
+: 1476066694:0;make
+: 1476066706:0;vim Makefile
+: 1476066744:0;clear
+: 1476066744:0;s
+: 1476066745:0;make
+: 1476066750:0;make clean
+: 1476066751:0;make
+: 1476066766:0;vim sortTester.cpp
+: 1476066789:0;make
+: 1476066792:0;./sortTester
+: 1476066803:0;clear
+: 1476066804:0;vim sortTester.cpp
+: 1476066816:0;clear
+: 1476066826:0;make && ./sortTester
+: 1476066839:0;when-changed *.cpp *.h make && ./sortTester
+: 1476066847:0;when-changed *.cpp *.h -c "make && ./sortTester"
+: 1476066850:0;clear
+: 1476066850:0;ls
+: 1476066854:0;vim BucketSort.cpp
+: 1476067152:0;when-changed *.cpp *.h -c "clear && make && ./sortTester"
+: 1476067749:0;cd ../Ass4
+: 1476067750:0;ls
+: 1476067754:0;vim btree.hpp
+: 1476067930:0;make
+: 1476067933:0;make all
+: 1476067941:0;vim btree.hpp
+: 1476067950:0;vim btree_iterator.hpp btree_iterator.tem
+: 1476067981:0;clear
+: 1476067983:0;make all
+: 1476067987:0;vim btree_iterator.hpp btree_iterator.tem
+: 1476068073:0;clear
+: 1476068073:0;s
+: 1476068074:0;make
+: 1476068077:0;make all
+: 1476068081:0;vim Makefile
+: 1476068087:0;make
+: 1476068089:0;clear
+: 1476068089:0;s
+: 1476068091:0;q
+: 1476087895:0;q
+: 1476096554:0;reboot
+: 1476144243:0;clear
+: 1476144248:0;cd
+: 1476144251:0;curl -sSf https://static.rust-lang.org/rustup.sh | sh
+: 1476144285:0;rustup install stable
+: 1476144287:0;ls
+: 1476144288:0;rust
+: 1476144294:0;rustc
+: 1476144506:0;cd Documents
+: 1476144507:0;ls
+: 1476144515:0;cd Misc
+: 1476144516:0;clear
+: 1476144516:0;ls
+: 1476144929:0;cargo new helloWorld --bin
+: 1476144931:0;cd helloWorld
+: 1476144931:0;ls
+: 1476144935:0;vim Cargo.toml src
+: 1476144955:0;ls
+: 1476144957:0;cd src
+: 1476144957:0;ls
+: 1476144962:0;rustc main.rs
+: 1476144962:0;ls
+: 1476144964:0;./main
+: 1476144979:0;vim main.rs
+: 1476145166:0;rustc
+: 1476145174:0;vrc
+: 1476145191:0;zsh
+: 1476145197:0;cd ~/.config/nvim
+: 1476145197:0;ls
+: 1476145200:0;cd plugged
+: 1476145200:0;ls
+: 1476145205:0;cd neomake
+: 1476145206:0;ls
+: 1476145208:0;cd plugin
+: 1476145209:0;ls
+: 1476145210:0;vim neomake.vim
+: 1476145217:0;cd ..
+: 1476145218:0;ls
+: 1476145260:0;git pull
+: 1476145272:0;exit
+: 1476145273:0;clear
+: 1476145273:0;s
+: 1476145276:0;clear
+: 1476145277:0;ls
+: 1476145277:0;s
+: 1476145283:0;cd .
+: 1476145285:0;clear
+: 1476145286:0;s
+: 1476145290:0;cd ..
+: 1476145291:0;ls
+: 1476145292:0;cd ..
+: 1476145292:0;ls
+: 1476145293:0;clear
+: 1476145294:0;s
+: 1476145297:0;cd helloWorld
+: 1476145297:0;ls
+: 1476145298:0;clear
+: 1476145298:0;s
+: 1476145300:0;cd src
+: 1476145300:0;ls
+: 1476145302:0;vim main.rs
+: 1476145687:0;rustc main.rs
+: 1476145689:0;vim main.rs
+: 1476145698:0;rustc main.rs
+: 1476145707:0;vim main.rs
+: 1476145731:0;rustc main.rs
+: 1476145760:0;./main
+: 1476145806:0;rustc main.rs && ./main
+: 1476145852:0;which rustc
+: 1476145900:0;rustc main.rs && ./main
+: 1476146000:0;sudo rustc main.rs && ./mainOA
+: 1476146004:0;rustc main.rs && .
+: 1476146018:0;rustc main.rs && ./main
+: 1476146266:0;ls
+: 1476146268:0;./main
+: 1476146295:0;vim main.rs
+: 1476146324:0;vrc
+: 1476146354:0;vim main.rs
+: 1476146665:0;rustc main.rs && ./main
+: 1476147473:0;vim main.rs
+: 1476148784:0;cd ../Ass4
+: 1476148793:0;time g++ test00.cpp
+: 1476148809:0;cat *.h *.cpp | wc -l
+: 1476148814:0;cat *.hpp *.cpp | wc -l
+: 1476148822:0;cat *.hpp *.cpp *.tem | wc -l
+: 1476148844:0;q
+: 1476153185:0;rustc main.rs && ./main
+: 1476153759:0;sudo rustc main.rs && ./mainOA
+: 1476153763:0;rustc main.rs && ./main
+: 1476154016:0;q
+: 1476154060:0;cd ../Ass5
+: 1476154060:0;clear
+: 1476154061:0;ls
+: 1476154077:0;when-changed *.cpp *.h -c "clear && make && ./sortTester"
+: 1476154090:0;vi BucketSort.cpp BucketSort.h
+: 1476155703:0;when-changed *.cpp *.h -c "clear && make && ./sortTester"
+: 1476158812:0;cse
+: 1476158861:0;q
+: 1476164519:0;vrc
+: 1476164704:0;clear
+: 1476164704:0;ls
+: 1476164708:0;vim BucketSort.cpp
+: 1476164766:0;vim sortTester.cpp
+: 1476166136:0;when-changed *.cpp *.h -c "clear && make && ./sortTester"
+: 1476167099:0;clear && make && ./sortTester"
+: 1476167100:0;clear && make && ./sortTester
+: 1476167295:0;vim Makefile
+: 1476167326:0;clear && make && ./sortTester
+: 1476172162:0;vim Makefile
+: 1476172185:0;clear && make && ./sortTester
+: 1476172242:0;vim Makefile
+: 1476172248:0;make clean
+: 1476172250:0;clear && make && ./sortTester
+: 1476172325:0;when-changed * -c "clear && make && ./sortTester"
+: 1476172493:0;clear && make && ./sortTester
+: 1476173775:0;when-changed * -c "clear && make && ./sortTester"
+: 1476173807:0;when-changed *.cpp -c "clear && make && ./sortTester"
+: 1476174883:0;when-changed *.cpp -c "make && ./sortTester && echo '-----------'"
+: 1476175770:0;when-changed *.cpp -c "make > /dev/null && ./sortTester && echo '-----------'"
+: 1476184728:0;clear
+: 1476184728:0;s
+: 1476184737:0;cse_cp *.cpp *.h
+: 1476184743:0;cse_cp
+: 1476184762:0;rm BucketSort.h.gch
+: 1476184770:0;clear
+: 1476184771:0;ls
+: 1476184784:0;cse_cp
+: 1476184790:0;rm *.o
+: 1476184791:0;clear
+: 1476184791:0;ls
+: 1476184802:0;cse
+: 1476184803:0;q
+: 1476189895:0;cse
+: 1476190020:0;q
+: 1476230612:0;z Kan
+: 1476230613:0;s
+: 1476230615:0;clear
+: 1476230617:0;git status
+: 1476230619:0;git pull
+: 1476230643:0;git reset HEAD imports/ui/templates/all_lists.html
+: 1476230644:0;clear
+: 1476230646:0;git pull
+: 1476230654:0;s
+: 1476230657:0;git stash
+: 1476230659:0;git pull
+: 1476230668:0;clear
+: 1476230668:0;s
+: 1476230670:0;git status
+: 1476230671:0;clear
+: 1476230674:0;npm start
+: 1476230720:0;vim sortTester2.cpp
+: 1476230752:0;vim Makefile
+: 1476230818:0;clear
+: 1476230818:0;s
+: 1476230823:0;vim sortTester2.cpp
+: 1476230831:0;clear
+: 1476230831:0;s
+: 1476230835:0;rm sortTester
+: 1476230838:0;cse_cp
+: 1476230842:0;cse
+: 1476230927:0;vim sortTester.cpp
+: 1476230937:0;clear
+: 1476230940:0;cse_cp
+: 1476230943:0;cse
+: 1476230963:0;vim BucketSort.cpp
+: 1476230986:0;clear
+: 1476230987:0;s
+: 1476230993:0;cse_cp && cse
+: 1476231007:0;vim Makefile
+: 1476231020:0;clear
+: 1476231022:0;cse_cp && cse
+: 1476232383:0;q
+: 1476233342:0;cd ../Ass5
+: 1476233345:0;z ../Ass5
+: 1476233347:0;vim BucketSort.cpp
+: 1476233382:0;clear
+: 1476233382:0;q
+: 1476233918:0;cse
+: 1476233981:0;clear
+: 1476233982:0;s
+: 1476234073:0;clear
+: 1476234074:0;ls
+: 1476234076:0;vim BucketSort.cpp
+: 1476234592:0;z Ethics
+: 1476234593:0;ls
+: 1476234601:0;z /Users/Cypher/Drive/Uni/2016/4920_Ethics
+: 1476234602:0;clea
+: 1476234603:0;clear
+: 1476234603:0;ls
+: 1476234615:0;vim Lecture11.md
+: 1476237404:0;make
+: 1476237411:0;sudo make
+: 1476237432:0;clear
+: 1476237436:0;make
+: 1476237442:0;vim Makefile
+: 1476237452:0;cp Makefile Makefile_pthread
+: 1476237454:0;vim Makefile
+: 1476237474:0;clear
+: 1476237474:0;s
+: 1476237475:0;make
+: 1476237480:0;make clean
+: 1476237487:0;ls
+: 1476237492:0;vim Makefile
+: 1476237505:0;clear
+: 1476237506:0;make
+: 1476237509:0;./sortTester
+: 1476237518:0;vim BucketSort.cpp
+: 1476237552:0;make
+: 1476237554:0;./sortTester2
+: 1476237568:0;clear
+: 1476237572:0;vim sortTester2.cpp
+: 1476237584:0;cse_cp && cse
+: 1476237690:0;vim Makefile Makefile_pthread
+: 1476237710:0;cse_cp
+: 1476237712:0;cse
+: 1476237737:0;vim sortTester2.cpp Makefile Makefile_pthread
+: 1476237754:0;cse_cp && cse
+: 1476238609:0;vim sortTester2.cpp
+: 1476238615:0;make
+: 1476238873:0;clear
+: 1476238876:0;vim BucketSort.cpp
+: 1476239380:0;make
+: 1476239383:0;./sortTester2
+: 1476239385:0;time ./sortTester2
+: 1476239391:0;cse_cp
+: 1476239403:0;cse
+: 1476239839:0;vim BucketSort.cpp
+: 1476240623:0;make
+: 1476240627:0;make clean
+: 1476240630:0;make
+: 1476240651:0;vim BucketSort.cpp
+: 1476240660:0;make
+: 1476240677:0;clear
+: 1476240678:0;make clean
+: 1476240681:0;vim BucketSort.cpp
+: 1476240688:0;clear
+: 1476240690:0;make
+: 1476240704:0;clear
+: 1476240704:0;ls
+: 1476240708:0;vim sortTester2.cpp
+: 1476240724:0;clear
+: 1476240727:0;make
+: 1476240743:0;vim BucketSort.cpp
+: 1476240778:0;make
+: 1476240789:0;vim BucketSort.cpp
+: 1476240984:0;clear
+: 1476240985:0;make
+: 1476240990:0;time ./sortTester2
+: 1476240996:0;cse_cp && cse
+: 1476241121:0;vim BucketSort.cpp
+: 1476241185:0;clear
+: 1476241186:0;s
+: 1476241241:0;q
+: 1476241248:0;vim sortTester2.cpp
+: 1476241252:0;make
+: 1476241255:0;./sortTester2
+: 1476241264:0;time ./sortTester2
+: 1476241424:0;cse_cp
+: 1476241435:0;cse
+: 1476241701:0;vim BucketSort.cpp
+: 1476241704:0;z -
+: 1476241706:0;clear
+: 1476241707:0;z Cpp
+: 1476241709:0;clear
+: 1476241711:0;vim BucketSort.cpp
+: 1476245145:0;scp z5017666@cse.unsw.edu.au:./myBucketSort.cpp working_BucketSort.cpp
+: 1476245154:0;scp z5017666@cse.unsw.edu.au:./BucketSort.cpp working_BucketSort.cpp
+: 1476245163:0;vim BucketSort.cpp
+: 1476245548:0;mv BucketSort.cpp careful_BucketSort.cpp
+: 1476245558:0;mv careful_BucketSort.cpp sharing_BucketSort.cpp
+: 1476245567:0;cp working_BucketSort.cpp BucketSort.cpp
+: 1476245569:0;make
+: 1476245574:0;./sortTester
+: 1476245767:0;vim BucketSort.cpp
+: 1476245785:0;diff sharing_BucketSort.cpp BucketSort.cpp
+: 1476245814:0;clear
+: 1476245819:0;rm sharing_BucketSort.cpp
+: 1476245819:0;clear
+: 1476245820:0;ls
+: 1476245821:0;rm working_BucketSort.cpp
+: 1476245822:0;clear
+: 1476245822:0;s
+: 1476245824:0;vim BucketSort.cpp
+: 1476245864:0;make && ./sortTester
+: 1476245886:0;q
+: 1476245894:0;make && ./sortTester
+: 1476246042:0;./sortTester
+: 1476246060:0;s
+: 1476246068:0;vim BucketSort.cpp
+: 1476246071:0;q
+: 1476246123:0;cp BucketSort.cpp ../WorkingBucketSort.cpp
+: 1476246124:0;clear
+: 1476246124:0;ls
+: 1476246125:0;vim BucketSort.cpp
+: 1476246193:0;cse_cp
+: 1476246198:0;cse
+: 1476246268:0;q
+: 1476246271:0;python
+: 1476246354:0;vim test.py
+: 1476246541:0;rm test.py
+: 1476246542:0;clear
+: 1476246542:0;s
+: 1476246543:0;q
+: 1476250032:0;cse
+: 1476250183:0;clear
+: 1476250183:0;ls
+: 1476250228:0;rm BucketSort.cpp
+: 1476250237:0;mv ../WorkingBucketSort.cpp BucketSort.cpp
+: 1476250241:0;cp BucketSort.cpp ../WorkingBucketSort.cpp
+: 1476250244:0;vim BucketSort.cpp
+: 1476250274:0;make && ./sortTester2
+: 1476250300:0;vim BucketSort.cpp
+: 1476250675:0;make && ./sortTester2
+: 1476250866:0;make && time ./sortTester2
+: 1476250878:0;mv BucketSort.cpp careful_BucketSort.cpp
+: 1476250896:0;cp ../WorkingBucketSort.cpp BucketSort.cpp
+: 1476250913:0;make && time ./sortTester2
+: 1476250964:0;mv careful_BucketSort.cpp BucketSort.cpp
+: 1476250976:0;vim BucketSort.cpp sortTester2.cpp
+: 1476250980:0;make && time ./sortTester2
+: 1476251010:0;make clean; make && time ./sortTester
+: 1476251498:0;make clean; make && time ./sortTester2
+: 1476251804:0;clear
+: 1476251805:0;s
+: 1476251809:0;cse_cp
+: 1476251812:0;q
+: 1476251822:0;cse
+: 1476252124:0;q
+: 1476252830:0;clear
+: 1476252831:0;s
+: 1476252837:0;vim BucketSort.cpp
+: 1476252894:0;clear
+: 1476252894:0;s
+: 1476252895:0;exit
+: 1476252983:0;vim BucketSort.cpp
+: 1476253352:0;clear
+: 1476253352:0;ls
+: 1476253356:0;vim sortTester2.cpp
+: 1476253399:0;clear
+: 1476253399:0;ls
+: 1476253403:0;make
+: 1476253410:0;vim sortTester2.cpp
+: 1476253424:0;vim sortTester.cpp
+: 1476253439:0;clear
+: 1476253439:0;ls
+: 1476253445:0;make && ./sortTester
+: 1476253458:0;vim sortTester.cpp
+: 1476253465:0;make && ./sortTester
+: 1476254339:0;vim BucketSort.cpp
+: 1476254404:0;make && ./sortTester
+: 1476254410:0;vim BucketSort.cpp
+: 1476254486:0;make && ./sortTester
+: 1476254489:0;vim BucketSort.cpp
+: 1476254563:0;q
+: 1476255000:0;ls
+: 1476255003:0;vim sortTester2.cpp
+: 1476255014:0;make
+: 1476258544:0;ls
+: 1476258557:0;cse
+: 1476258743:0;cse_cp
+: 1476258752:0;cse
+: 1476258816:0;make
+: 1476258823:0;time ./sortTester2
+: 1476258937:0;vim BucketSort.cpp sortTester2.cpp
+: 1476258947:0;clear
+: 1476258948:0;make
+: 1476258956:0;time ./sortTester2
+: 1476259630:0;ls
+: 1476259648:0;mv BucketSort.cpp myBucketSort.cpp
+: 1476259654:0;vim BucketSort.cpp
+: 1476259697:0;vim BucketSort.h
+: 1476259703:0;make
+: 1476259717:0;mv sortTester2 theirsortTester2
+: 1476259724:0;mv myBucketSort.cpp BucketSort.cpp
+: 1476259727:0;vim BucketSort.h
+: 1476259730:0;clear
+: 1476259731:0;make
+: 1476259735:0;ls
+: 1476259738:0;time ./sortTester2
+: 1476259750:0;time ./sortTester2 2> myOut 
+: 1476259799:0;timeeirsortTester2 2> theirOut
+: 1476259817:0;vim theirOut myOut
+: 1476259822:0;clear
+: 1476259823:0;ls
+: 1476259831:0;time theirsortTester2 2> theirOut
+: 1476259840:0;vim theirOut
+: 1476259843:0;clear
+: 1476259843:0;ls
+: 1476259849:0;time ./theirsortTester2 2> theirOut
+: 1476259862:0;vim myOut
+: 1476260209:0;time ./sortTester2 2> myOut
+: 1476260268:0;cat theirOut
+: 1476260273:0;rm theirOut
+: 1476260277:0;rm myOut
+: 1476260324:0;exit
+: 1476260355:0;z kan
+: 1476260356:0;clear
+: 1476260357:0;ls
+: 1476275213:0;z Ass5
+: 1476275214:0;ls
+: 1476275217:0;vim BucketSort.cpp
+: 1476275223:0;vim sortTester2.cpp
+: 1476275235:0;make
+: 1476275241:0;time ./sortTester2
+: 1476275350:0;ls
+: 1476275360:0;time ./theirsortTester2
+: 1476275509:0;ps -ef | grep sort
+: 1476275556:0;q
+: 1476275562:0;reboot
+: 1476275850:0;time ./theirsortTester2
+: 1476275861:0;q
+: 1476276008:0;time ./sortTester2
+: 1476317785:0;clear
+: 1476317785:0;ls
+: 1476317788:0;q
+: 1476317793:0;vim BucketSort.cpp
+: 1476317843:0;make
+: 1476317847:0;./sortTester
+: 1476317855:0;time ./sortTester2
+: 1476317982:0;git checkout groupsbranch
+: 1476317984:0;clear
+: 1476317984:0;ls
+: 1476317985:0;git pull
+: 1476318067:0;ls
+: 1476318072:0;vim package.json
+: 1476318082:0;vimdiff package.json
+: 1476318087:0;git diff package.json
+: 1476318095:0;git checkout package.json
+: 1476318101:0;clear
+: 1476318130:0;ls
+: 1476318134:0;cd imports
+: 1476318135:0;ls
+: 1476318137:0;cd startup
+: 1476318137:0;ls
+: 1476318139:0;vim router.js
+: 1476318184:0;cd ..
+: 1476318186:0;ls
+: 1476318187:0;cd imports
+: 1476318188:0;ls
+: 1476318191:0;cd ui
+: 1476318192:0;clear
+: 1476318193:0;ls
+: 1476318196:0;cd templates
+: 1476318197:0;ls
+: 1476318202:0;cd ..
+: 1476318206:0;cd pages
+: 1476318206:0;ls
+: 1476318208:0;vim dashboard.html
+: 1476318226:0;cd ..
+: 1476318226:0;ls
+: 1476318228:0;cd templates
+: 1476318229:0;ls
+: 1476318238:0;vim navbar.html navbar.js
+: 1476318345:0;npm start
+: 1476318353:0;cd ..
+: 1476318356:0;vim body.js
+: 1476318422:0;cd templates
+: 1476318427:0;vim navbar.html
+: 1476318626:0;s
+: 1476318628:0;cd ..
+: 1476318629:0;ls
+: 1476318629:0;clear
+: 1476318630:0;ls
+: 1476318634:0;s
+: 1476318636:0;d body.js
+: 1476318640:0;a body.js
+: 1476318646:0;d templates/all_lists.js
+: 1476318651:0;a templates/all_lists.js
+: 1476318672:0;s
+: 1476318678:0;d templates/navbar.js
+: 1476318685:0;s templates/navbar.js
+: 1476318689:0;s templates/navbar.html
+: 1476318692:0;d templates/navbar.html
+: 1476318701:0;git checkout templates/navbar.html
+: 1476318702:0;clear
+: 1476318702:0;s
+: 1476318716:0;m "Added helper for user_email"
+: 1476318717:0;clear
+: 1476318717:0;s
+: 1476318719:0;git push
+: 1476318763:0;ls
+: 1476318765:0;cd pages
+: 1476318766:0;clear
+: 1476318766:0;ls
+: 1476318777:0;clear
+: 1476318777:0;ls
+: 1476318806:0;vim ../../startup/router.js groups.html groups.js group_page.html group_page.html
+: 1476319620:0;npm start
+: 1476320318:0;q
+: 1476320327:0;z Ass5
+: 1476320331:0;time ./sortTester2
+: 1476320622:0;vim group_page.html
+: 1476320652:0;vim ../templates/group.html
+: 1476320770:0;clear
+: 1476320771:0;s
+: 1476320773:0;a group_page.
+: 1476320775:0;a group_page.*
+: 1476320775:0;s
+: 1476320778:0;cd ../templates
+: 1476320778:0;s
+: 1476320780:0;a all_lists.js group.html
+: 1476320781:0;clear
+: 1476320781:0;s
+: 1476320790:0;m "Fixed up passing data to group"
+: 1476320791:0;clear
+: 1476320791:0;s
+: 1476320792:0;p
+: 1476320827:0;clear
+: 1476320827:0;s
+: 1476320914:0;vim group.html
+: 1476320962:0;clear
+: 1476320963:0;cd ....
+: 1476320964:0;ls
+: 1476320966:0;cd imports
+: 1476320966:0;ls
+: 1476320969:0;cd ui
+: 1476320970:0;ls
+: 1476320972:0;vim style.scss
+: 1476321018:0;clear
+: 1476321018:0;s
+: 1476321019:0;a style.scss
+: 1476321026:0;m "Added a real background color"
+: 1476321026:0;p
+: 1476321033:0;clear
+: 1476321034:0;s
+: 1476321037:0;git checkout master
+: 1476321066:0;git pull origin master 
+: 1476321076:0;git checkout groupsbranch
+: 1476321077:0;clear
+: 1476321077:0;s
+: 1476321078:0;git pull origin master 
+: 1476321091:0;s
+: 1476321099:0;vi pages/group_page.js templates/group.html
+: 1476321165:0;s
+: 1476321171:0;d pages/group_page.js
+: 1476321175:0;a pages/group_page.js
+: 1476321178:0;a templates/group.html
+: 1476321189:0;m "Merged in groupsbranch to master"
+: 1476321189:0;clear
+: 1476321189:0;s
+: 1476321192:0;git push
+: 1476321440:0;clear
+: 1476321446:0;git checkout users
+: 1476321450:0;git branch user
+: 1476321453:0;git checkout user
+: 1476321454:0;clear
+: 1476321454:0;ls
+: 1476321456:0;cd ..
+: 1476321461:0;cd imports
+: 1476321462:0;ls
+: 1476321463:0;cd startup
+: 1476321464:0;ls
+: 1476321464:0;clear
+: 1476321465:0;ls
+: 1476321470:0;vim accounts-config.js
+: 1476321570:0;git checkout master
+: 1476321571:0;git pull
+: 1476321653:0;cp git_log ~/git_log.sh
+: 1476321660:0;cp `which git_log` ~/git_log.sh
+: 1476321664:0;cd
+: 1476321664:0;ls
+: 1476321666:0;vim git_log.sh
+: 1476321743:0;mv git_log.sh git_log.py
+: 1476321747:0;vim git_log.py
+: 1476321761:0;python git_log.py
+: 1476321766:0;vim git_log.py
+: 1476321790:0;python git_log.py
+: 1476321839:0;vim git_log.py
+: 1476322082:0;clear
+: 1476322083:0;cd ..
+: 1476322083:0;ls
+: 1476322087:0;cd ui
+: 1476322087:0;ls
+: 1476322092:0;vim style.scss
+: 1476322226:0;cd pages
+: 1476322226:0;ls
+: 1476322233:0;vim landing.html
+: 1476322239:0;clear
+: 1476322239:0;s
+: 1476322243:0;a landing.html
+: 1476322244:0;a ../style.scss
+: 1476322248:0;m "Fixed parallax"
+: 1476322250:0;clear
+: 1476322250:0;s
+: 1476322263:0;git push
+: 1476322286:0;git checkout groupsbranch
+: 1476322295:0;clear
+: 1476322295:0;ls
+: 1476322298:0;vim groups.htlm
+: 1476322305:0;vim groups.html
+: 1476322310:0;clear
+: 1476322310:0;s
+: 1476322327:0;a groups.html
+: 1476322334:0;m "Added spacing at the bottom"
+: 1476322335:0;git push
+: 1476322580:0;clear
+: 1476322622:0;q
+: 1476322627:0;cd ....
+: 1476322632:0;vim .meteor/packages
+: 1476322753:0;vim imports/startup/accounts-config.js
+: 1476323149:0;cd ~/.meteor/packages/
+: 1476323150:0;clear
+: 1476323151:0;ls
+: 1476323156:0;ls | grep "mater"
+: 1476323166:0;cd useraccounts_materialize
+: 1476323167:0;ls
+: 1476323167:0;clear
+: 1476323168:0;ls
+: 1476323169:0;cd 1.14.2
+: 1476323169:0;.
+: 1476323175:0;cd web.browser
+: 1476323176:0;ls
+: 1476323177:0;cd lib
+: 1476323177:0;ls
+: 1476323182:0;vim at_form.html
+: 1476323196:0;vim at_signin_link.html
+: 1476323229:0;vim at_signup_link.html
+: 1476323259:0;z Kan
+: 1476323260:0;ls
+: 1476323265:0;git checkout user
+: 1476323266:0;ls
+: 1476323272:0;cd imports
+: 1476323273:0;cd ui
+: 1476323274:0;ls
+: 1476323279:0;vim templates/navlist.html
+: 1476323299:0;cd ..
+: 1476323303:0;cd imports/startup
+: 1476323305:0;vim router.js
+: 1476323324:0;cd ..
+: 1476323325:0;cd ui
+: 1476323325:0;ls
+: 1476323326:0;clear
+: 1476323327:0;cd pages
+: 1476323328:0;ls
+: 1476323329:0;vim pages.js
+: 1476323342:0;cp login.html sign_up.html
+: 1476323343:0;vim pages.js
+: 1476323346:0;vim sign_up.html
+: 1476323395:0;vim at_form.html
+: 1476323555:0;clear
+: 1476323555:0;ls
+: 1476323564:0;vim full_page_at_form.html
+: 1476323598:0;q
+: 1476323617:0;s
+: 1476323621:0;rm sign_up.html
+: 1476323624:0;clear
+: 1476323624:0;ls
+: 1476323631:0;s
+: 1476323636:0;vim login.html
+: 1476323641:0;clear
+: 1476323641:0;s
+: 1476323644:0;vim pages.js
+: 1476323648:0;clear
+: 1476323649:0;ls
+: 1476323650:0;s
+: 1476323654:0;d login.html
+: 1476323661:0;git checkout login.html
+: 1476323662:0;s
+: 1476323669:0;clear
+: 1476323669:0;ls
+: 1476323671:0;s
+: 1476323673:0;cd ../../startup
+: 1476323675:0;vim router.js
+: 1476324122:0;cd ../ui/
+: 1476324122:0;ls
+: 1476324124:0;cd pages
+: 1476324125:0;ls
+: 1476324131:0;vim login.html login.html
+: 1476324148:0;cd ../templates
+: 1476324149:0;ls
+: 1476324151:0;vim login_signup.
+: 1476324155:0;vim login_signup.html
+: 1476324170:0;cd ../pages
+: 1476324171:0;ls
+: 1476324174:0;vim login.html
+: 1476324361:0;cp login.html sign_up.html
+: 1476324363:0;vim sign_up.html
+: 1476324474:0;rm sign_up.html
+: 1476324477:0;vim login.html
+: 1476324491:0;vim ../../startup/router.js
+: 1476324499:0;clear
+: 1476324500:0;s
+: 1476324504:0;clear
+: 1476324504:0;s
+: 1476324507:0;d ../../startup/router.js
+: 1476324511:0;vim ../../startup/router.js
+: 1476324514:0;clear
+: 1476324514:0;s
+: 1476324522:0;d ../../startup/router.js
+: 1476324528:0;vim ../../startup/router.js
+: 1476324531:0;clear
+: 1476324531:0;s
+: 1476324534:0;vim login.html
+: 1476324537:0;git checkout login.html
+: 1476324538:0;clear
+: 1476324545:0;cd ../templates/
+: 1476324548:0;vim navlist.html
+: 1476324557:0;clear
+: 1476324557:0;s
+: 1476324560:0;a navlist.html
+: 1476324565:0;vim ../pages/landing.html
+: 1476324578:0;clear
+: 1476324578:0;s
+: 1476324581:0;a ../pages/landing.html
+: 1476324582:0;clear
+: 1476324582:0;s
+: 1476324633:0;git pull origin master 
+: 1476324640:0;s
+: 1476324676:0;m "Merged signup page into login to make sign in simpler, materialize accounts is broken"
+: 1476324678:0;git push
+: 1476324685:0;git push --set-upstream origin user
+: 1476324707:0;clear
+: 1476324709:0;ls
+: 1476324712:0;git pull origin master 
+: 1476324731:0;s
+: 1476324734:0;vim ../pages/landing.html
+: 1476324743:0;s
+: 1476324751:0;a ../pages/landing.html
+: 1476324752:0;s
+: 1476324754:0;m "Merged"
+: 1476324755:0;clear
+: 1476324756:0;git push
+: 1476324791:0;s
+: 1476324794:0;cd ..
+: 1476324795:0;ls
+: 1476324800:0;clear
+: 1476324800:0;s
+: 1476324801:0;cd ui
+: 1476324803:0;vim style.scss
+: 1476324809:0;s
+: 1476324810:0;a style.scss
+: 1476324812:0;m "Merged"
+: 1476324814:0;git push
+: 1476329535:0;python2 git_log.py
+: 1476329544:0;clear
+: 1476329547:0;vim git_log.py
+: 1476329606:0;python2 git_log.py
+: 1476329615:0;vim git_log.py
+: 1476329622:0;python2 git_log.py
+: 1476329624:0;ls
+: 1476329635:0;cp git_log.py `which git_log`
+: 1476329637:0;git_log
+: 1476329639:0;clear
+: 1476329640:0;ls
+: 1476329768:0;vim git_log.py
+: 1476329830:0;clear
+: 1476329831:0;s
+: 1476329833:0;q
+: 1476330585:0;z Ass5
+: 1476330587:0;time ./sortTester2
+: 1476330595:0;vim sortTester2.cpp
+: 1476331561:0;clear
+: 1476331561:0;ls
+: 1476331644:0;npm start
+: 1476331670:0;time ./sortTester2
+: 1476331701:0;vim BucketSort.cpp
+: 1476331710:0;time ./sortTester2
+: 1476331714:0;vim sortTester2.cpp
+: 1476331730:0;make && time ./sortTester2
+: 1476331832:0;vim sortTester2.cpp
+: 1476331840:0;clear
+: 1476331841:0;q
+: 1476332049:0;cd ..
+: 1476332049:0;ls
+: 1476332051:0;cd startup
+: 1476332052:0;clear
+: 1476332052:0;ls
+: 1476332060:0;vim accounts-config.js
+: 1476333413:0;s
+: 1476333417:0;a accounts-config.js
+: 1476333425:0;m "Working on accounts settings"
+: 1476333518:0;git branch dashtemplates
+: 1476333519:0;s
+: 1476333523:0;git checkout dashtemplates
+: 1476333523:0;clear
+: 1476333524:0;s
+: 1476333538:0;cd ...
+: 1476333540:0;cd imports
+: 1476333543:0;cd ui/pages
+: 1476333543:0;ls
+: 1476333547:0;clear
+: 1476333548:0;ls
+: 1476333555:0;vim dashboard.html
+: 1476333561:0;vim all_lists.html
+: 1476333565:0;cd ../templates
+: 1476333566:0;vim all_lists.html
+: 1476333663:0;clear
+: 1476333663:0;s
+: 1476333666:0;a all_lists.html
+: 1476333689:0;m "Resized the create list UI for all_lists.html"
+: 1476333691:0;git push
+: 1476333697:0;git push --set-upstream origin dashtemplates
+: 1476333800:0;git pull origin master 
+: 1476333807:0;git push
+: 1476333849:0;clear
+: 1476333849:0;s
+: 1476333852:0;git checkout user
+: 1476333853:0;clear
+: 1476333854:0;s
+: 1476333856:0;d
+: 1476333858:0;D
+: 1476333860:0;clear
+: 1476333860:0;cd ..
+: 1476333861:0;..
+: 1476333864:0;cd server
+: 1476333868:0;cd ../imports/startup
+: 1476333872:0;vim accounts-config.js
+: 1476334974:0;meteor mongo
+: 1476335051:0;clear
+: 1476335234:0;s
+: 1476335241:0;git merge dashtemplates
+: 1476335272:0;vim ../ui/templates/all_lists.html
+: 1476335396:0;clear
+: 1476335396:0;s
+: 1476335654:0;cd ..
+: 1476335657:0;s
+: 1476335659:0;a startup/accounts-config.js
+: 1476335676:0;m "Improved sign up ui, needs work"
+: 1476335677:0;clear
+: 1476335677:0;s
+: 1476335681:0;git checkout dashtemplates 
+: 1476335683:0;s
+: 1476335685:0;cd ui
+: 1476335694:0;vim templates/all_lists.html
+: 1476335983:0;clear
+: 1476335983:0;s
+: 1476335988:0;a templates/all_lists.html
+: 1476335989:0;clear
+: 1476335989:0;s
+: 1476335989:0;d
+: 1476335999:0;m "Centering for create new list"
+: 1476335999:0;clear
+: 1476335999:0;s
+: 1476336000:0;clear
+: 1476336001:0;s
+: 1476336002:0;git push
+: 1476336012:0;clear
+: 1476336017:0;vim templates/all_lists.html
+: 1476342040:0;s
+: 1476342041:0;z Ass5
+: 1476342042:0;clear
+: 1476342047:0;vim sortTester2.cpp
+: 1476342052:0;make
+: 1476342054:0;make all
+: 1476342055:0;clear
+: 1476342058:0;time ./sortTester2
+: 1476342083:0;time ./sortTester
+: 1476342091:0;vim sortTester.cpp
+: 1476342100:0;make all
+: 1476342103:0;time ./sortTester
+: 1476342110:0;cse_cp
+: 1476342122:0;vim BucketSort.cpp
+: 1476342151:0;cse
+: 1476342336:0;vim sortTester.cpp
+: 1476342377:0;make
+: 1476342418:0;./sortTester
+: 1476342438:0;vim sortTester.cpp BucketSort.cpp
+: 1476342494:0;vim sortTester.cpp
+: 1476342603:0;clear
+: 1476342604:0;vim sortTester.cpp
+: 1476342657:0;clear
+: 1476342658:0;make
+: 1476342662:0;./sortTester
+: 1476342675:0;vim BucketSort.cpp
+: 1476342686:0;make
+: 1476342688:0;./sortTester
+: 1476342703:0;vim sortTester.cpp
+: 1476342715:0;make && ./sortTester
+: 1476342723:0;vim BucketSort.cpp
+: 1476342734:0;make && ./sortTester
+: 1476342743:0;time ./sortTester2
+: 1476342773:0;vim BucketSort.cpp BucketSort.h
+: 1476342796:0;clear
+: 1476342796:0;s
+: 1476342817:0;make && ./sortTester
+: 1476342829:0;vim BucketSort.cpp
+: 1476342855:0;make && ./sortTester
+: 1476342896:0;vim BucketSort.cpp BucketSort.h
+: 1476342923:0;make && ./sortTester
+: 1476342932:0;vim sortTester.cpp
+: 1476342959:0;make && ./sortTester && ./sortTester2
+: 1476342990:0;q
+: 1476343009:0;clear
+: 1476343010:0;s
+: 1476343012:0;./sortTester2
+: 1476343017:0;time ./sortTester2
+: 1476343127:0;make && ./sortTester && ./sortTester2
+: 1476343138:0;./sortTester2
+: 1476343146:0;time ./sortTester2
+: 1476343227:0;make && ./sortTester && ./sortTester2
+: 1476343312:0;vim Makefile
+: 1476343336:0;make
+: 1476343340:0;./sortTester
+: 1476343358:0;clear
+: 1476343362:0;vim Makefile
+: 1476343379:0;make
+: 1476343382:0;make clean
+: 1476343383:0;make
+: 1476343387:0;./sortTester
+: 1476343412:0;make
+: 1476343416:0;./sortTester
+: 1476343422:0;time ./sortTester2
+: 1476343542:0;make && ./sortTester && ./sortTester2
+: 1476343747:0;vim test.py
+: 1476343886:0;rm test.py
+: 1476343890:0;vim pow.cpp
+: 1476344017:0;clear
+: 1476344018:0;s
+: 1476344024:0;vim BucketSort.h
+: 1476344034:0;vim BucketSort.cpp
+: 1476344071:0;make && ./sortTester && ./sortTester2
+: 1476344116:0;ls
+: 1476344118:0;vim pow.cpp
+: 1476344133:0;vim BucketSort.h
+: 1476344139:0;clear
+: 1476344140:0;s
+: 1476344142:0;make && ./sortTester && ./sortTester2
+: 1476344169:0;vim BucketSort.cpp
+: 1476344228:0;vim pow.cpp
+: 1476344255:0;clear
+: 1476344256:0;make && ./sortTester && ./sortTester2
+: 1476344268:0;vim BucketSort.cpp
+: 1476344352:0;make && ./sortTester && ./sortTester2
+: 1476344409:0;make && ./sortTester
+: 1476344918:0;time ./sortTester2
+: 1476344938:0;clear
+: 1476344938:0;make
+: 1476344940:0;./sortTester
+: 1476344945:0;time ./sortTester2
+: 1476344952:0;vim sortTester2.cpp
+: 1476344963:0;make && time ./sortTester2
+: 1476344967:0;q
+: 1476345150:0;reboot
+: 1476345192:0;clear
+: 1476345194:0;make
+: 1476345209:0;time ./sortTester2
+: 1476345276:0;vim sortTester2.cpp
+: 1476345282:0;make
+: 1476345287:0;time ./sortTester2
+: 1476345331:0;vim sortTester2.cpp
+: 1476345393:0;time ./sortTester2
+: 1476345511:0;cse_cp
+: 1476345519:0;q
+: 1476345522:0;cse
+: 1476345639:0;./sortTester
+: 1476345664:0;vim BucketSort.cpp
+: 1476345703:0;clear
+: 1476345704:0;ls
+: 1476345706:0;vim BucketSort.cpp
+: 1476345717:0;make
+: 1476345720:0;./sortTester
+: 1476345725:0;time ./sortTester2
+: 1476345781:0;time ./sortTester
+: 1476345787:0;vim BucketSort.cpp BucketSort.h
+: 1476345816:0;cse_cp
+: 1476345856:0;mv Makefile Makefile_mac
+: 1476345861:0;mv Makefile_pthread Makefile
+: 1476345863:0;make
+: 1476345912:0;vim Makefile
+: 1476345937:0;make
+: 1476345941:0;vim Makefile
+: 1476346004:0;make
+: 1476346015:0;vim Makefile
+: 1476346085:0;clear
+: 1476346085:0;make
+: 1476346089:0;vim Makefile
+: 1476346245:0;make
+: 1476346247:0;clear
+: 1476346250:0;ls
+: 1476346253:0;rm Makefile_mac
+: 1476346255:0;clear
+: 1476346256:0;ls
+: 1476346256:0;make
+: 1476346259:0;cse_cp
+: 1476346280:0;vim Makefile
+: 1476346299:0;make
+: 1476346302:0;make clean
+: 1476346303:0;make
+: 1476346308:0;cse_cp
+: 1476346403:0;vim Makefile
+: 1476346443:0;clear
+: 1476346443:0;make
+: 1476346445:0;make clean
+: 1476346446:0;make
+: 1476346453:0;cse_cp
+: 1476346484:0;vim BucketSort.cpp
+: 1476346569:0;make && ./sortTester
+: 1476346584:0;vim BucketSort.cpp
+: 1476348113:0;q
+: 1476348129:0;vim BucketSort.h
+: 1476348132:0;clear
+: 1476348132:0;s
+: 1476348134:0;make
+: 1476348137:0;./sortTester
+: 1476348140:0;cse_cp
+: 1476348144:0;cse
+: 1476348195:0;clear
+: 1476348198:0;time ./sortTester2
+: 1476348222:0;q
+: 1476348590:0;z Kan
+: 1476348596:0;s
+: 1476348597:0;d
+: 1476348604:0;git checkout groupsbranch
+: 1476348605:0;s
+: 1476348608:0;cd imports
+: 1476348611:0;cd api
+: 1476348612:0;ls
+: 1476348614:0;vim groups.js
+: 1476348903:0;npm start
+: 1476349346:0;clear
+: 1476349346:0;s
+: 1476349349:0;cd ../ui
+: 1476349350:0;cd pages
+: 1476349352:0;ls
+: 1476349357:0;vim group_page.html
+: 1476349361:0;cd ..
+: 1476349362:0;cd templates
+: 1476349363:0;ls
+: 1476349365:0;vim group.js
+: 1476349372:0;vim group_page.js
+: 1476349378:0;cd ..
+: 1476349388:0;grep -R "remove-group" .
+: 1476349402:0;clear
+: 1476349403:0;cd imports
+: 1476349405:0;grep -R "remove-group" .
+: 1476349415:0;vim ./ui/templates/all_groups.js
+: 1476349473:0;cd ../private
+: 1476349477:0;cd ../api
+: 1476349478:0;cd i
+: 1476349482:0;cd ../imports
+: 1476349483:0;cd api
+: 1476349484:0;clear
+: 1476349484:0;ls
+: 1476349486:0;vim groups.js
+: 1476349648:0;clear
+: 1476349648:0;s
+: 1476349651:0;a groups.js
+: 1476349655:0;cd ../ui/
+: 1476349657:0;cd pages
+: 1476349666:0;d group_page.html
+: 1476349675:0;git checkout group_page.html
+: 1476349676:0;clear
+: 1476349676:0;s
+: 1476349679:0;cd ../templates
+: 1476349682:0;clear
+: 1476349683:0;ls
+: 1476349690:0;vim all_groups.html all_groups.js
+: 1476349714:0;vim group.js
+: 1476349724:0;clear
+: 1476349725:0;s
+: 1476349728:0;a all_groups.js
+: 1476349729:0;a group.js
+: 1476349783:0;clear
+: 1476349783:0;s
+: 1476349793:0;vim group.js
+: 1476349917:0;clear
+: 1476349917:0;s
+: 1476349919:0;a group.js
+: 1476349920:0;clear
+: 1476349921:0;s
+: 1476349948:0;m "Bug fixes for groups page, move a bunch of code out of all_groups and into groups.js"
+: 1476349953:0;git pull origin master 
+: 1476349962:0;clear
+: 1476349962:0;s
+: 1476349965:0;git push
+: 1476349981:0;git pull
+: 1476349994:0;s
+: 1476349999:0;vim group.js
+: 1476350051:0;.
+: 1476350052:0;s
+: 1476350056:0;a group.js
+: 1476350078:0;s
+: 1476350082:0;cd ../../api
+: 1476350093:0;d groups.js
+: 1476350113:0;vim groups.js
+: 1476350194:0;.
+: 1476350196:0;s
+: 1476350200:0;a groups.js
+: 1476350209:0;q
+: 1476350211:0;npm start
+: 1476350231:0;s
+: 1476350236:0;m "Bug fixes for groups page, move a bunch of code out of all_groups and into groups.js"
+: 1476350239:0;git push
+: 1476350632:0;..
+: 1476350637:0;cd ui
+: 1476350640:0;vim style.scss
+: 1476350653:0;a style.scss
+: 1476350661:0;npm start
+: 1476350671:0;s
+: 1476350683:0;m "Fixed parallax"
+: 1476350684:0;p
+: 1476350752:0;git checkout user 
+: 1476350759:0;git pull origin master 
+: 1476350851:0;meteor mongo
+: 1476350888:0;git push
+: 1476351034:0;git checkout calendar
+: 1476351037:0;clear
+: 1476351080:0;git pull origin master 
+: 1476351105:0;git push
+: 1476351113:0;clear
+: 1476351114:0;ls
+: 1476367846:0;git pull origin master 
+: 1476367854:0;s
+: 1476367863:0;cd templates
+: 1476367868:0;clear
+: 1476367868:0;s
+: 1476367880:0;vim templates.js all_lists.html
+: 1476407032:0;clear
+: 1476407033:0;s
+: 1476407041:0;vim ../../../.meteor/versions
+: 1476407057:0;clear
+: 1476407058:0;s
+: 1476407062:0;a ../../../.meteor
+: 1476407063:0;clear
+: 1476407063:0;s
+: 1476407070:0;vim all_lists.html
+: 1476407075:0;a all_lists.html
+: 1476407076:0;clear
+: 1476407076:0;s
+: 1476407080:0;a templates.js
+: 1476407083:0;vim templates.js
+: 1476407162:0;clear
+: 1476407162:0;s
+: 1476407174:0;a templates.js calendar.js myOauth.js mysocial.js
+: 1476407175:0;clear
+: 1476407175:0;s
+: 1476407178:0;d login_signup.js
+: 1476407183:0;a login_signup.js
+: 1476407184:0;clear
+: 1476407184:0;s
+: 1476407186:0;cd ../pages
+: 1476407192:0;clear
+: 1476407193:0;s
+: 1476407195:0;d dashboard.html
+: 1476407198:0;vim dashboard.html
+: 1476407239:0;npm start
+: 1476407253:0;z Cpp
+: 1476407255:0;cd ..
+: 1476407256:0;cd Lectures
+: 1476407257:0;ls
+: 1476407261:0;vim Lecture_16_OOP.md
+: 1476407355:0;vim ../../startup/accounts-config.js
+: 1476407381:0;clear
+: 1476407381:0;s
+: 1476407390:0;a ../../startup/accounts-config.js
+: 1476407391:0;clear
+: 1476407391:0;s
+: 1476407393:0;d dashboard.html
+: 1476407396:0;a dashboard.html
+: 1476407410:0;vim dashboard.html
+: 1476407429:0;clear
+: 1476407429:0;s
+: 1476407431:0;a dashboard.html
+: 1476407432:0;clear
+: 1476407432:0;s
+: 1476407435:0;cd ../templates
+: 1476407436:0;ls
+: 1476407437:0;clear
+: 1476407437:0;ls
+: 1476407439:0;vim user_info.
+: 1476407443:0;vim user_info.html
+: 1476407549:0;s
+: 1476407554:0;clear
+: 1476407554:0;s
+: 1476407557:0;a dashboard.html
+: 1476407560:0;a user_info.html
+: 1476407561:0;clear
+: 1476407561:0;s
+: 1476407564:0;a ../pages/dashboard.html
+: 1476407565:0;clear
+: 1476407565:0;s
+: 1476407580:0;clear
+: 1476407582:0;vim templates.js
+: 1476407590:0;cd ../pages
+: 1476407591:0;vim pages.js
+: 1476407597:0;clear
+: 1476407597:0;s
+: 1476407609:0;m "Merged and import fixes"
+: 1476407610:0;clear
+: 1476407612:0;git push
+: 1476407619:0;git pull
+: 1476407625:0;s
+: 1476407628:0;cd ../
+: 1476407629:0;cd templates
+: 1476407631:0;vim user_info.html
+: 1476407769:0;clear
+: 1476407769:0;s
+: 1476407771:0;a user_info.html
+: 1476407772:0;clear
+: 1476407772:0;s
+: 1476407774:0;m "Merged and import fixes"
+: 1476407775:0;clear
+: 1476407776:0;s
+: 1476407777:0;p
+: 1476407783:0;clear
+: 1476407783:0;s
+: 1476407786:0;cd ...
+: 1476407788:0;..
+: 1476407796:0;grep -R "dash" *
+: 1476407803:0;vim imports/startup/accounts-config.js
+: 1476407810:0;clear
+: 1476407810:0;s
+: 1476407814:0;a imports/startup/accounts-config.js
+: 1476407817:0;grep -R "dash" *
+: 1476407829:0;clear
+: 1476407830:0;s
+: 1476407831:0;git push
+: 1476407840:0;m "Fixed url issue"
+: 1476407841:0;p
+: 1476408175:0;z Ass5
+: 1476408176:0;.
+: 1476408190:0;vim BucketSort.h
+: 1476408195:0;vim BucketSort.cpp
+: 1476408200:0;vim test.cpp
+: 1476408667:0;vim BucketSort.cpp BucketSort.h
+: 1476408711:0;make
+: 1476408715:0;./sortTester
+: 1476408925:0;make
+: 1476408927:0;./sortTester
+: 1476408932:0;vim BucketSort.cpp BucketSort.h
+: 1476408943:0;clear
+: 1476408943:0;s
+: 1476408946:0;make
+: 1476408949:0;time ./sortTester2
+: 1476409014:0;cse_cp
+: 1476409024:0;cse
+: 1476411329:0;vim pow.cpp
+: 1476411382:0;q
+: 1476411987:0;vim BucketSort.cpp BucketSort.h
+: 1476412010:0;make
+: 1476412013:0;./sortTester
+: 1476412017:0;./sortTester2
+: 1476412030:0;time ./sortTester2
+: 1476412142:0;vim BucketSort.cpp BucketSort.h
+: 1476412181:0;clear
+: 1476412181:0;s
+: 1476412184:0;make
+: 1476412189:0;time ./sortTester2
+: 1476412245:0;time ./sortTester
+: 1476412251:0;clear
+: 1476412252:0;cse_cp
+: 1476412492:0;vim BucketSort.cpp BucketSort.h
+: 1476412672:0;q
+: 1476412726:0;make
+: 1476412732:0;./sortTester
+: 1476412738:0;clear
+: 1476412741:0;make clean
+: 1476412741:0;make
+: 1476412748:0;vim BucketSort.cpp
+: 1476412757:0;./sortTester
+: 1476412765:0;vim BucketSort.h
+: 1476412776:0;time ./sortTester2
+: 1476412942:0;cse_cp
+: 1476412950:0;time ./sortTester2
+: 1476412954:0;clear
+: 1476412955:0;cse
+: 1476413013:0;q
+: 1476413324:0;ls
+: 1476413326:0;vim BucketSort.h
+: 1476413344:0;vim BucketSort.cpp
+: 1476413362:0;clear
+: 1476413363:0;make
+: 1476413368:0;cse_cp
+: 1476413375:0;./sortTester
+: 1476413382:0;time ./sortTester2
+: 1476413384:0;cse
+: 1476413452:0;q
+: 1476413546:0;clear
+: 1476413547:0;cse
+: 1476413552:0;clear
+: 1476413552:0;ls
+: 1476413570:0;vim BucketSort.cpp
+: 1476413629:0;q
+: 1476414717:0;make
+: 1476414720:0;./sortTester
+: 1476414724:0;time ./sortTester2
+: 1476414788:0;vim BucketSort.cpp
+: 1476414881:0;make
+: 1476414884:0;./sortTester
+: 1476414889:0;time ./sortTester2
+: 1476414928:0;vim BucketSort.cpp
+: 1476414958:0;time ./sortTester2
+: 1476415066:0;make
+: 1476415068:0;time ./sortTester2
+: 1476415199:0;make && time ./sortTester2
+: 1476415210:0;make
+: 1476415214:0;time ./sortTester2
+: 1476415258:0;make
+: 1476415260:0;time ./sortTester2
+: 1476415274:0;make
+: 1476415278:0;time ./sortTester2
+: 1476415972:0;vim test.cpp
+: 1476416282:0;clear
+: 1476416282:0;s
+: 1476416285:0;vim BucketSort.cpp
+: 1476416433:0;make
+: 1476416436:0;vim BucketSort.cpp
+: 1476416466:0;make && time ./sortTester2
+: 1476416696:0;make
+: 1476416699:0;make && time ./sortTester2
+: 1476416705:0;vim BucketSort.cpp
+: 1476416743:0;make && time ./sortTester2
+: 1476416998:0;./sortTester
+: 1476417048:0;make && time ./sortTester2
+: 1476417290:0;make
+: 1476417294:0;time ./sortTester2
+: 1476417583:0;make && time ./sortTester2
+: 1476423629:0;cp BucketSort.cpp ../WorkingBucketSort.cpp
+: 1476423633:0;vim BucketSort.cpp
+: 1476425056:0;make && time ./sortTester
+: 1476425061:0;./sortTester2
+: 1476425066:0;time ./sortTester2
+: 1476425337:0;make
+: 1476425341:0;./sortTester
+: 1476425345:0;time ./sortTester2
+: 1476425541:0;make
+: 1476425543:0;time ./sortTester2
+: 1476425725:0;make && ./sortTester && time ./sortTester2
+: 1476425834:0;time ./sortTester2
+: 1476425893:0;clear
+: 1476425893:0;s
+: 1476425902:0;time ./theirsortTester2
+: 1476425905:0;q
+: 1476431389:0;s
+: 1476431398:0;./theirsortTester2
+: 1476431401:0;cse_cp
+: 1476431410:0;cse
+: 1476431473:0;vim BucketSort.cpp
+: 1476431499:0;cse_cp
+: 1476431587:0;vim BucketSort.cpp
+: 1476432524:0;make
+: 1476432528:0;./sortTester
+: 1476432535:0;time ./sortTester2
+: 1476432596:0;cse_cp
+: 1476432605:0;cse
+: 1476432642:0;clear
+: 1476432643:0;s
+: 1476432650:0;rm BucketSort.h.gch
+: 1476432658:0;cse
+: 1476432776:0;exit
+: 1476500179:0;clear
+: 1476500283:0;ls
+: 1476500284:0;cd imports
+: 1476500285:0;ls
+: 1476500287:0;cd ui
+: 1476500288:0;ls
+: 1476500291:0;cd templates
+: 1476500292:0;ls
+: 1476500293:0;clear
+: 1476500293:0;s
+: 1476500298:0;vim calendar.js calendar.html
+: 1476500522:0;npm start
+: 1476501206:0;meteor mongo
+: 1476502345:0;npm start
+: 1476502753:0;clear
+: 1476502757:0;vim task.html
+: 1476502942:0;vim ../../../.meteor/packages
+: 1476502993:0;vim task.html
+: 1476503008:0;grep -R "datepicker" .
+: 1476503012:0;vim task.js
+: 1476503148:0;meteor mongo
+: 1476503323:0;q
+: 1476505387:0;cd ...
+: 1476505389:0;..
+: 1476505390:0;cd .meteor
+: 1476505391:0;ls
+: 1476505394:0;vim packages
+: 1476505407:0;meteor add momentjs:moment
+: 1476505457:0;meteor add fullcalendar:fullcalendar
+: 1476505544:0;clear
+: 1476505544:0;s
+: 1476505547:0;vim packages
+: 1476505557:0;q
+: 1476505872:0;vim calendar.js
+: 1476507071:0;clear
+: 1476507071:0;s
+: 1476507079:0;a calendar.html calendar.js
+: 1476507080:0;clear
+: 1476507080:0;ls
+: 1476507081:0;s
+: 1476507084:0;cd ../../
+: 1476507085:0;clear
+: 1476507085:0;s
+: 1476507090:0;d api/tasks.js
+: 1476507140:0;vim api/tasks.js
+: 1476507247:0;s
+: 1476507250:0;a api/tasks.js
+: 1476507251:0;clear
+: 1476507251:0;s
+: 1476507261:0;vim ui/templates/calendar.js
+: 1476507278:0;s
+: 1476507283:0;a ui/templates
+: 1476507289:0;cd ../.meteor
+: 1476507290:0;clear
+: 1476507290:0;s
+: 1476507292:0;d
+: 1476507330:0;vim packages
+: 1476507345:0;git checkout packages
+: 1476507346:0;vim packages
+: 1476507377:0;clear
+: 1476507377:0;s
+: 1476507380:0;d versions
+: 1476507386:0;git checkout versions
+: 1476507387:0;clear
+: 1476507387:0;s
+: 1476507389:0;cd ..
+: 1476507445:0;m "Followed Calendar tutorial to build events calendar. Needs interactivity. Supports color and reactivity"
+: 1476507446:0;p
+: 1476507904:0;git checkout user
+: 1476507905:0;clear
+: 1476507905:0;s
+: 1476507907:0;git pull
+: 1476507913:0;clear
+: 1476507918:0;git pull o
+: 1476507921:0;git pull origin master 
+: 1476507937:0;s
+: 1476507939:0;clear
+: 1476507940:0;cd imports/ui
+: 1476507941:0;ls
+: 1476507942:0;s
+: 1476507944:0;cd templates
+: 1476507946:0;vim all_lists.html
+: 1476507972:0;clear
+: 1476507972:0;s
+: 1476507973:0;a all_lists.html
+: 1476507974:0;clear
+: 1476507974:0;s
+: 1476508007:0;clear
+: 1476508008:0;s
+: 1476508012:0;m "Merged"
+: 1476508013:0;clear
+: 1476508013:0;s
+: 1476508016:0;git push
+: 1476508242:0;cd ../
+: 1476508242:0;ls
+: 1476508247:0;cd ../startup
+: 1476508248:0;ls
+: 1476508249:0;vim router.js
+: 1476508770:0;s
+: 1476508778:0;git checkout calendar
+: 1476508843:0;cd ..
+: 1476508847:0;cd ui/templates
+: 1476508849:0;vim calendar.js
+: 1476508860:0;s
+: 1476508861:0;a calendar.js
+: 1476508862:0;clear
+: 1476508862:0;s
+: 1476508886:0;m "Fixed the default code hiding Sunday for no good reason"
+: 1476508888:0;git push
+: 1476508930:0;clear
+: 1476508930:0;s
+: 1476508934:0;git checkout user
+: 1476508935:0;clear
+: 1476508935:0;s
+: 1476508938:0;q
+: 1476509009:0;z Applications
+: 1476509010:0;ls
+: 1476509015:0;cd Kerbal\ Space\ Program\ Demo.app
+: 1476509016:0;ls
+: 1476509018:0;cd Contents
+: 1476509018:0;ls
+: 1476509021:0;cd Resources
+: 1476509022:0;ls
+: 1476509025:0;open shortcut.icns
+: 1476509036:0;cd ..
+: 1476509036:0;ls
+: 1476509038:0;cd MacOS
+: 1476509039:0;ls
+: 1476509040:0;cd ..
+: 1476509041:0;clear
+: 1476509042:0;ls
+: 1476509044:0;cd ..
+: 1476509044:0;ls
+: 1476509049:0;open Icon$'\r'
+: 1476509052:0;clear
+: 1476509054:0;open .
+: 1476509063:0;cd ..
+: 1476509066:0;open .
+: 1476509089:0;cd ~/Applications
+: 1476509089:0;ls
+: 1476509094:0;mv * /Applications
+: 1476509101:0;mv * /Applications/
+: 1476509112:0;ls /Applications | grep Over
+: 1476509114:0;ls
+: 1476509119:0;clear
+: 1476509119:0;ls
+: 1476509121:0;q
+: 1476509254:0;ls
+: 1476509257:0;rm Overgrowth.app
+: 1476509258:0;ls
+: 1476509262:0;cd /Applications
+: 1476509263:0;ls
+: 1476509267:0;ls | grep Kerbal
+: 1476509272:0;rm Kerbal\ Space\ Program\ Demo.app
+: 1476509273:0;clear
+: 1476509274:0;s
+: 1476509277:0;q
+: 1476584043:0;z
+: 1476584045:0;clear
+: 1476584045:0;ls
+: 1476584050:0;cd 
+: 1476584051:0;clear
+: 1476584052:0;ls
+: 1476584062:0;diff git_log.py `which git_log`
+: 1476584064:0;rm git_log.py
+: 1476584065:0;clear
+: 1476584065:0;s
+: 1476584071:0;cd Desktop
+: 1476584071:0;ls
+: 1476584072:0;cd ..
+: 1476584074:0;clear
+: 1476584074:0;ls
+: 1476584080:0;cd .config
+: 1476584081:0;s
+: 1476584088:0;vim .gitignore
+: 1476584094:0;ls
+: 1476584097:0;s
+: 1476584126:0;a .gitignore
+: 1476584126:0;clear
+: 1476584127:0;s
+: 1476584128:0;q
+: 1476584130:0;clear
+: 1476584130:0;s
+: 1476584135:0;d nvim
+: 1476584159:0;vim nvim/init.vim
+: 1476584185:0;git diff nvim/init.vim
+: 1476584253:0;a nvim/init.vim
+: 1476584274:0;m "Reindented init.vim and added java-processing"
+: 1476584278:0;clear
+: 1476584278:0;s
+: 1476584281:0;d nvim
+: 1476584287:0;a nvim
+: 1476584288:0;clear
+: 1476584288:0;s
+: 1476584291:0;m "Neomake update"
+: 1476584292:0;clear
+: 1476584292:0;s
+: 1476584296:0;d zshrc
+: 1476584302:0;vim zshrc
+: 1476584328:0;a zshrc
+: 1476584351:0;m "Added java-processing alias, optimization flag to g++ and fixed variable name for BULLETTRAIN_EXEC_TIME_SHOW"
+: 1476584354:0;s
+: 1476584358:0;d zsh_history
+: 1476584374:0;a zsh_history
