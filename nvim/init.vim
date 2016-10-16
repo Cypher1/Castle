@@ -4,13 +4,12 @@ Plug 'altercation/vim-colors-solarized' " Colours!
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'bling/vim-airline'                " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
-Plug 'xolox/vim-misc'                   " xolox dependency
-Plug 'xolox/vim-session'                " Sessions
 Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'zchee/deoplete-clang'             " Completion for C(++)
-Plug 'eagletmt/neco-ghc'                         " Completion for Haskell
+Plug 'eagletmt/neco-ghc'                " Completion for Haskell
+Plug 'junegunn/fzf', { 'div': '~/.fzf', 'do': './install -all' }
 call plug#end()
 
 " Colour Scheme
