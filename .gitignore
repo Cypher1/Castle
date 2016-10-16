@@ -5,3 +5,6 @@ nvim/bundle
 cabal/packages/*
 cabal/packages/hackage.haskell.org/*.tar
 *.log
+.DS_Store
+.isolated-storage
+*~

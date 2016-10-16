@@ -45,22 +45,28 @@ set backup writebackup backupdir=/tmp/ hidden
 set wildmenu wildignorecase wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.hi,*.gch
 
 "makes sed global, caseless, display (only the) next search item
-set gdefault smartcase incsearch nohlsearch
+set gdefault smartcase ignorecase incsearch nohlsearch
 
 " Manage folds
 set foldmethod=manual foldlevel=0
 au BufWritePre * :mkview
 au BufRead * :try|loadview|catch|endtry
 
-" Move vertically on split lines
+" Move (and move text) vertically on split lines
 map j gj
 map k gk
+"<A-j>
+nnoremap ∆ :m .+1<CR>==
+inoremap ∆ <Esc>:m .+1<CR>==gi
+"<A-k>
+nnoremap ˚ :m .-2<CR>==
+inoremap ˚ <Esc>:m .-2<CR>==gi
 set nostartofline
 
 " Key mappings
 tnoremap <Esc> <C-\><C-n>
 map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
-"Deoplete
+" Deoplete
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
 function! AutoFormat()
@@ -68,8 +74,7 @@ function! AutoFormat()
     %s/\t/    /e               " Tabs to spaces
     %s/\s\s*$//e               " Remove trailing spaces
     %s/){/) {/ce               " Enforce styles
-    %s/{ \([^/]\)/{\1/ce       " Enforce styles
-    %s/\([^/ ]\) }/\1}/ce      " Enforce styles
+    " %s/\/\/ *\(.*\)/\/\* \1 \*\//ce
     execute "normal gg=G"
     call winrestview(l:save)   " Reset cursor
 endfunction
@@ -110,12 +115,13 @@ map <silent> <leader>k :wincmd k<CR>
 map <silent> <leader>l :wincmd l<CR>
 
 " NeoMake
+let g:neomake_rust_enabled_makers = ['cargo']
 let g:neomake_haskell_enabled_makers = ['ghcmod']
 let g:neomake_cpp_enabled_makers = ['clang']
 let g:neomake_cpp_clang_maker = {
-   \ 'exe': 'clang++',
-   \ 'args': ["-std=c++14", '-Wall', '-Wextra'],
-   \ }
+            \ 'exe': 'clang++',
+            \ 'args': ["-std=c++14", '-Wall', '-Wextra'],
+            \ }
 let g:neomake_haskell_enabled_makers = ['ghcmod']
 let g:neomake_python_enabled_makers = ['pylint']
 let g:neomake_markdown_enabled_makers = ['mdl']
@@ -123,11 +129,11 @@ let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
 au BufWritePre * :silent! Neomake
 
 function! LocationNext()
-  try
-    lnext
-  catch
-    try | lfirst | catch | endtry
-  endtry
+    try
+        lnext
+    catch
+        try | lfirst | catch | endtry
+    endtry
 endfunction
 
 nnoremap <leader>e :call LocationNext()<CR>
@@ -136,8 +142,9 @@ nnoremap <leader>e :call LocationNext()<CR>
 au BufNewFile,BufRead *.tem set filetype=cpp
 
 " Html Options
-au FileType html setl sw=2 sts=2 et
+au FileType html,css,javascript setl sw=2 sts=2 et
 au BufWritePre,BufRead *.html :normal gg=G
+autocmd TextChanged,TextChangedI *.md silent write
 :iabbrev </ </<C-X><C-O>
 " Open in chrome
 au BufEnter *.md       map <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
@@ -149,6 +156,7 @@ au BufEnter *.sh  map <silent> <leader>p :term sh % <CR>
 au BufEnter *.py  map <silent> <leader>p :term python % <CR>
 au BufEnter *.hs  map <silent> <leader>p :term runhaskell -Wall -fno-warn-unused-binds % <CR>
 au BufEnter *.cpp map <silent> <leader>p :term g++ % -Wall -Werror -std=c++14; ./a.out <CR>
+au BufEnter *.pde map <silent> <leader>p :!clear; processing-java --sketch=`pwd` --present 2&> .log & <CR>
 
 " No more arrow keys
 map <Up>    <NOP>
