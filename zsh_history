@@ -17290,3 +17290,133 @@
 : 1476584354:0;s
 : 1476584358:0;d zsh_history
 : 1476584374:0;a zsh_history
+: 1476584380:0;m "More history"
+: 1476584381:0;s
+: 1476584384:0;git push
+: 1476584387:0;q
+: 1476584399:0;s
+: 1476584406:0;head zsh_history
+: 1476584437:0;cat zsh_history | grep -o "[^;].*$"
+: 1476584440:0;clear
+: 1476584450:0;cat zsh_history | grep -o "[^;]*$"
+: 1476584452:0;clear
+: 1476584458:0;head zsh_history
+: 1476584487:0;cat zsh_history | cut -d';' 2
+: 1476584495:0;cat zsh_history | cut -f -d';' 2
+: 1476584502:0;cat zsh_history | cut -f 2 -d';'
+: 1476584509:0;cat zsh_history | cut -f 2 -d';' | sort
+: 1476584512:0;cat zsh_history | cut -f 2 -d';' | sort | uniq
+: 1476584516:0;cat zsh_history | cut -f 2 -d';' | sort | uniq -n
+: 1476584518:0;cat zsh_history | cut -f 2 -d';' | sort | uniq -c
+: 1476584522:0;cat zsh_history | cut -f 2 -d';' | sort | uniq -c | sort -n
+: 1476584598:0;zrc
+: 1476584635:0;exech zsh
+: 1476584637:0;exec zsh
+: 1476584639:0;.
+: 1476584640:0;r
+: 1476584645:0;zrc
+: 1476584651:0;cat zsh_history | cut -f 2 -d';' | sort | uniq -c | sort -n
+: 1476584669:0;cat zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n
+: 1476584885:0;cat zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | tail
+: 1476585160:0;time zsh -i -c exit
+: 1476585210:0;vim zshrc
+: 1476585382:0;clears
+: 1476585385:0;exec zsh
+: 1476585386:0;r
+: 1476585460:0;clear
+: 1476585491:0;s
+: 1476585668:0;cat zshrc | grep plugins
+: 1476585739:0;vim zshrc
+: 1476585881:0;r
+: 1476585919:0;vim ~/.config/zshrc
+: 1476585960:0;exec
+: 1476585961:0;s
+: 1476585964:0;clear
+: 1476585964:0;s
+: 1476586015:0;exec
+: 1476586017:0;clear
+: 1476586143:0;exec
+: 1476586145:0;clear
+: 1476586146:0;s
+: 1476586424:0;exec zsh
+: 1476586426:0;clear
+: 1476586426:0;s
+: 1476586429:0;clear
+: 1476586429:0;s
+: 1476586433:0;clear
+: 1476586437:0;brew install fzf
+: 1476586442:0;clear
+: 1476586443:0;vrc
+: 1476586482:0;clear
+: 1476586486:0;q
+: 1476586488:0;clear
+: 1476586489:0;vim
+: 1476586517:0;vrc
+: 1476586706:0;fzf
+: 1476586728:0;cd
+: 1476586731:0;fzf
+: 1476586751:0;clear
+: 1476586786:0;zrc
+: 1476586874:0;clear
+: 1476586875:0;e
+: 1476586878:0;exec zsh
+: 1476586879:0;.
+: 1476586883:0;z Cpp
+: 1476586888:0;../Ass5
+: 1476586889:0;.
+: 1476586894:0;sortTester.cpp
+: 1476586902:0;BucketSort.cpp
+: 1476586960:0;history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | tail
+: 1476586976:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | tail
+: 1476587011:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim' -v 'clear' -v 'ls' | tail
+: 1476587023:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls' | tail
+: 1476587030:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd' | tail
+: 1476587060:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd|git' | tail
+: 1476587068:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd|git|.' | tail
+: 1476587074:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd|git|^.$' | tail
+: 1476587087:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd|git' | git -v '^.$' | tail
+: 1476587091:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd|git' | grep -v '^.$' | tail
+: 1476587103:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd|git' | grep -v "^.$" | tail
+: 1476587115:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd|git' | grep -v "^[a-z\.]$" | tail
+: 1476587131:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | sort | uniq -c | sort -n | grep -v 'vim|clear|ls|cd|git' | grep '..*' | tail
+: 1476587177:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | grep -v 'git|vim|cd|ls' | grep -v '^.$' | sort | uniq -c | sort -n | tail
+: 1476587191:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | grep -v 'clear|git|vim|cd|ls' | grep -v '^.$' | sort | uniq -c | sort -n | tail
+: 1476587222:0;clear
+: 1476587223:0;s
+: 1476587288:0;cat ~/.config/zsh_history | cut -f 2 -d';' | cut -f 1 -d' ' | grep -v 'clear|git|vim|cd|ls' | grep -v '^.$' | sort | uniq -c | sort -n | tail
+: 1476587628:0;zstyle ':completion:*' menu select
+: 1476587640:0;clear
+: 1476587648:0;cd
+: 1476587663:0;zstyle ':completion:*' menu select
+: 1476587674:0;zstyle ':completion:*' menu select=20
+: 1476587679:0;setopt menu_complete
+: 1476587762:0;vim zshrc
+: 1476587765:0;zrc
+: 1476587831:0;clear
+: 1476587831:0;s
+: 1476587834:0;exec zsh
+: 1476587870:0;vrc
+: 1476587874:0;zrc
+: 1476587911:0;clear
+: 1476587911:0;s
+: 1476587914:0;z .config
+: 1476590574:0;s
+: 1476590579:0;d nvim
+: 1476590645:0;s
+: 1476590646:0;clear
+: 1476590646:0;s
+: 1476590651:0;d zshrc
+: 1476590660:0;vim zshrc
+: 1476590792:0;cd ..
+: 1476590796:0;vim .zshrc
+: 1476590800:0;clear
+: 1476590802:0;cd .config
+: 1476590803:0;s
+: 1476590805:0;a .zshrc
+: 1476590807:0;clear
+: 1476590807:0;s
+: 1476590810:0;a zshrc
+: 1476590823:0;m "Cleaned up zsh and added some aliases to improve speed"
+: 1476590824:0;clear
+: 1476590824:0;s
+: 1476590830:0;a zsh_history
