@@ -73,8 +73,16 @@ setopt INC_APPEND_HISTORY              # append into history file
 setopt HIST_IGNORE_DUPS                # save only one command if 2 common are same and consistent
 
 # GIT COMMANDS
+function gitbranchcheck { # FUNCTION TO CHECKOUT OR CREATE A BRANCH
+    git checkout $1 || (git branch $1; git checkout $1);
+}
+function _gitbranchcheck { # AUTO COMPLETE BRANCHES
+    reply=($(git branch | grep -o '[^ ]*$'))
+}
+compctl -K _gitbranchcheck gitbranchcheck
 alias -s git='git clone'
 alias s="git status -sb 2> /dev/null && echo '-------'; ls"
+alias b="gitbranchcheck"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"
