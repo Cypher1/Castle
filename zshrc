@@ -35,20 +35,22 @@ alias g++="g++ -std=c++14 -Wall -Werror"
 
 # ADDITIONS
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
-alias zrc="vim ~/.zshrc"
-alias vrc="vim ~/.config/nvim/init.vim"
+alias zrc="nvim ~/.zshrc"
+alias vrc="nvim ~/.config/nvim/init.vim"
 alias .="clear && cd . && ls"
 alias ..="clear && cd .. && ls"
 alias r="clear"
+alias v="nvim"
+alias t="time"
 alias q="exit"
 alias u="du -hs *"
-alias -s py='vim'
-alias -s cpp='vim'
-alias -s h='vim'
-alias -s tem='vim'
-alias -s md='vim'
-alias -s html='vim'
-alias -s js='vim'
+alias -s py='nvim'
+alias -s cpp='nvim'
+alias -s h='nvim'
+alias -s tem='nvim'
+alias -s md='nvim'
+alias -s html='nvim'
+alias -s js='nvim'
 alias server="python -m SimpleHTTPServer"
 alias jp='processing-java --sketch=`pwd` --present'
 
