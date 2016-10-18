@@ -10,6 +10,7 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'zchee/deoplete-clang'             " Completion for C(++)
 Plug 'eagletmt/neco-ghc'                " Completion for Haskell
 Plug 'junegunn/fzf', { 'div': '~/.fzf', 'do': './install -all' }
+Plug 'tmhedberg/matchit'                " % Match based jumping
 call plug#end()
 
 " Colour Scheme
