@@ -88,11 +88,10 @@ set tabstop=4 softtabstop=4 shiftwidth=4
 set smarttab shiftround expandtab autoindent copyindent
 
 " Git
-nnoremap <leader>gA :Git add .<CR><CR>
-nnoremap <leader>ga :Git add %:p<CR><CR>
-nnoremap <leader>gs :Gstatus<CR>
-nnoremap <leader>gc :Gcommit -v -q<CR>
-nnoremap <leader>gb :Gblame<CR>
+nnoremap <leader>g :Gstatus<CR><CR>
+nnoremap <leader>c :Gcommit<CR>
+nnoremap <leader>b :Gblame<CR>
+nnoremap <leader>v :Gmove
 
 " Control files
 map <leader>\ :vsp<space>
@@ -102,10 +101,6 @@ map <leader>n :bn<CR>
 map <leader>m :bp<CR>
 map <leader>q :bd<CR>
 map <leader>w :w<CR>
-
-" NERD Tree Options
-let NERDTreeQuitOnOpen = 1
-map <leader>f :NERDTreeToggle<CR>
 
 " Splits
 set splitbelow splitright
