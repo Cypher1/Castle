@@ -65,6 +65,16 @@ function clean {
     clear;
 }
 
+function confirm {
+    # call with a prompt string or use a default
+    echo -n "${1:-Are you sure?} [y/N] "
+    read response
+    if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]] then;
+        return 0;
+    fi;
+    return 1;
+}
+
 # HISTORY
 export HISTSIZE=1000000                # set history size
 export SAVEHIST=1000000                # save history after logout
@@ -90,6 +100,7 @@ alias g="git log --graph"
 alias d="git diff"
 alias D="git diff --staged"
 alias P="git pull"
+alias gitnuke="confirm 'CONFIRM NUKE' && git fetch origin && git reset --hard origin/master"
 alias P='git fetch && git diff origin/master && confirm "Pull?" && git pull'
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 

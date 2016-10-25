@@ -3,7 +3,7 @@
 	smudge = git-lfs smudge %f
 	required = true
 [user]
-	name = cypher
+	name = Joshua Pratt
 	email = jp10010101010000@gmail.com
 [push]
 	default = simple
