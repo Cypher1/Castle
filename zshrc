@@ -1,5 +1,5 @@
 DEFAULT_USER="cypher"
-export ZSH=/Users/Cypher/.oh-my-zsh
+export ZSH="`cd; pwd`/.oh-my-zsh"
 
 ZSH_THEME="bullet-train"
 BULLETTRAIN_STATUS_EXIT_SHOW=true
@@ -16,7 +16,7 @@ BULLETTRAIN_GIT_FG=black
 BULLETTRAIN_PROMPT_CHAR=""
 BULLETTRAIN_GIT_FETCH=true
 
-plugins=(brew cabal catimg extract gem gitfast jsontools last-working-dir npm pip python sudo z zsh-autosuggestions zsh-completions)
+plugins=(cabal catimg extract gem gitfast jsontools last-working-dir npm pip python sudo z zsh-autosuggestions zsh-completions)
 source $ZSH/oh-my-zsh.sh
 export KEYTIMEOUT=1
 
