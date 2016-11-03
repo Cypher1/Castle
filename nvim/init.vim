@@ -133,11 +133,14 @@ endfunction
 
 nnoremap <leader>e :call LocationNext()<CR>
 
+au FocusGained,BufEnter * :silent! !
+
 " Cpp add template files
 au BufNewFile,BufRead *.tem set filetype=cpp
 
 " Html Options
 au FileType html,css,javascript setl sw=2 sts=2 et
+au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
 au BufWritePre,BufRead *.html :normal gg=G
 autocmd TextChanged,TextChangedI *.md silent write
 :iabbrev </ </<C-X><C-O>
