@@ -1,11 +1,17 @@
 [filter "lfs"]
-	clean = git-lfs clean %f
-	smudge = git-lfs smudge %f
-	required = true
+    clean = git-lfs clean %f
+    smudge = git-lfs smudge %f
+    required = true
 [user]
-	name = Joshua Pratt
-	email = jp10010101010000@gmail.com
+    name = Joshua Pratt
+    email = jp10010101010000@gmail.com
 [push]
-	default = simple
+    default = simple
 [core]
-	editor = /usr/bin/vim
+    editor = /usr/local/bin/nvim
+[merge]
+    tool = vimdiff
+[mergetool]
+  prompt = true
+[mergetool "vimdiff"]
+  cmd = nvim -d $BASE $LOCAL $REMOTE $MERGED -c '$wincmd w' -c 'wincmd J'
