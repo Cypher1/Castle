@@ -8,9 +8,13 @@ Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'zchee/deoplete-clang'             " Completion for C(++)
+Plug 'rhysd/vim-clang-format'           " Formatting for Code
 Plug 'eagletmt/neco-ghc'                " Completion for Haskell
+Plug 'bitc/vim-hdevtools'               " Types for Haskell
 Plug 'junegunn/fzf', { 'div': '~/.fzf', 'do': './install -all' }
 Plug 'tmhedberg/matchit'                " % Match based jumping
+Plug 'chrisbra/csv.vim'                 " Tables
+Plug 'neovimhaskell/haskell-vim'        " Haskell syntax
 call plug#end()
 
 " Colour Scheme
@@ -64,21 +68,13 @@ inoremap ˚ <Esc>:m .-2<CR>==gi
 set nostartofline
 
 " Key mappings
+map <leader>r :mode<CR>
+nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
+au FileType c,cpp,javascript,java nnoremap <leader>i :ClangFormat<CR>
 tnoremap <Esc> <C-\><C-n>
 map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
 " Deoplete
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
-
-function! AutoFormat()
-    let l:save = winsaveview() " Save cursor
-    %s/\t/    /e               " Tabs to spaces
-    %s/\s\s*$//e               " Remove trailing spaces
-    %s/){/) {/ce               " Enforce styles
-    " %s/\/\/ *\(.*\)/\/\* \1 \*\//ce
-    execute "normal gg=G"
-    call winrestview(l:save)   " Reset cursor
-endfunction
-nnoremap <leader>i :call AutoFormat()<CR>
 
 " Write as sudo
 cmap w!! w !sudo tee % >/dev/null
@@ -111,17 +107,16 @@ map <silent> <leader>l :wincmd l<CR>
 
 " NeoMake
 let g:neomake_rust_enabled_makers = ['cargo']
-let g:neomake_haskell_enabled_makers = ['ghcmod']
+let g:neomake_haskell_enabled_makers = ['ghcmod', 'hlint']
 let g:neomake_cpp_enabled_makers = ['clang']
 let g:neomake_cpp_clang_maker = {
             \ 'exe': 'clang++',
             \ 'args': ["-std=c++14", '-Wall', '-Wextra'],
             \ }
-let g:neomake_haskell_enabled_makers = ['ghcmod']
 let g:neomake_python_enabled_makers = ['pylint']
 let g:neomake_markdown_enabled_makers = ['mdl']
 let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
-au BufWritePre * :silent! Neomake
+au BufWritePre * :silent! Neomake " Includes auto tidy for html etc
 
 function! LocationNext()
     try
@@ -142,7 +137,6 @@ au BufNewFile,BufRead *.tem set filetype=cpp
 au FileType html,css,javascript setl sw=2 sts=2 et
 au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
 au BufWritePre,BufRead *.html :normal gg=G
-autocmd TextChanged,TextChangedI *.md silent write
 :iabbrev </ </<C-X><C-O>
 " Open in chrome
 au BufEnter *.md       map <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
@@ -152,6 +146,7 @@ au BufEnter *.html     map <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
 " Program Options
 au BufEnter *.sh  map <silent> <leader>p :term sh % <CR>
 au BufEnter *.py  map <silent> <leader>p :term python % <CR>
+au BufEnter *.js  map <silent> <leader>p :term node % <CR>
 au BufEnter *.hs  map <silent> <leader>p :term runhaskell -Wall -fno-warn-unused-binds % <CR>
 au BufEnter *.cpp map <silent> <leader>p :term g++ % -Wall -Werror -std=c++14; ./a.out <CR>
 au BufEnter *.pde map <silent> <leader>p :!clear; processing-java --sketch=`pwd` --present 2&> .log & <CR>
