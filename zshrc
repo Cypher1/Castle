@@ -32,6 +32,7 @@ alias vim="nvim -O"
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias ghc="ghc -Wall"
 alias g++="g++ -std=c++14 -Wall -Werror"
+alias cat="ccat"
 
 # ADDITIONS
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
@@ -53,6 +54,7 @@ alias -s html='nvim'
 alias -s js='nvim'
 alias server="python -m SimpleHTTPServer"
 alias jp='processing-java --sketch=`pwd` --present'
+alias robo="open ~/VMs/Ubuntu\ 64-bit\ 14.04.1.vmwarevm"
 
 function mk { mkdir $1; cd $1; }
 function clean {
