@@ -1,3 +1,6 @@
 [TYPECHECK]
 ignored-modules = numpy, tensorflow
 docstring-min-length=10
+
+# Good variable names which should always be accepted, separated by a comma
+good-names=i,j,k,Run,_,x,y
