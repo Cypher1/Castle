@@ -65,6 +65,7 @@ inoremap ∆ <Esc>:m .+1<CR>==gi
 "<A-k>
 nnoremap ˚ :m .-2<CR>==
 inoremap ˚ <Esc>:m .-2<CR>==gi
+nnoremap Q q
 set nostartofline
 
 " Key mappings
@@ -144,12 +145,12 @@ au BufEnter *.markdown map <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
 au BufEnter *.html     map <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
 
 " Program Options
-au BufEnter *.sh  map <silent> <leader>p :term sh % <CR>
-au BufEnter *.py  map <silent> <leader>p :term python % <CR>
-au BufEnter *.js  map <silent> <leader>p :term node % <CR>
-au BufEnter *.hs  map <silent> <leader>p :term runhaskell -Wall -fno-warn-unused-binds % <CR>
-au BufEnter *.cpp map <silent> <leader>p :term g++ % -Wall -Werror -std=c++14; ./a.out <CR>
-au BufEnter *.pde map <silent> <leader>p :!clear; processing-java --sketch=`pwd` --present 2&> .log & <CR>
+au BufEnter *.sh  map <silent> <leader>p :vsp \| term sh % <CR>
+au BufEnter *.py  map <silent> <leader>p :vsp \| term python % <CR>
+au BufEnter *.js  map <silent> <leader>p :vsp \| term node % <CR>
+au BufEnter *.hs  map <silent> <leader>p :vsp \| term runhaskell -Wall -fno-warn-unused-binds % <CR>
+au BufEnter *.cpp map <silent> <leader>p :vsp \| term g++ % -Wall -Werror -std=c++14; ./a.out <CR>
+au BufEnter *.pde map <silent> <leader>p :vsp \| term processing-java --sketch=`pwd` --present 2&> .log & <CR>
 
 " No more arrow keys
 map <Up>    <NOP>
