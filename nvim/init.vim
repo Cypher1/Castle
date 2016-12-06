@@ -74,6 +74,9 @@ nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 au FileType c,cpp,javascript,java nnoremap <leader>i :ClangFormat<CR>
 tnoremap <Esc> <C-\><C-n>
 map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
+" HdevTools
+map <leader>t :HdevtoolsType<CR>
+map <leader>T :HdevtoolsClear<CR>
 " Deoplete
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
@@ -150,7 +153,7 @@ au BufEnter *.py  map <silent> <leader>p :vsp \| term python % <CR>
 au BufEnter *.js  map <silent> <leader>p :vsp \| term node % <CR>
 au BufEnter *.hs  map <silent> <leader>p :vsp \| term runhaskell -Wall -fno-warn-unused-binds % <CR>
 au BufEnter *.cpp map <silent> <leader>p :vsp \| term g++ % -Wall -Werror -std=c++14; ./a.out <CR>
-au BufEnter *.pde map <silent> <leader>p :vsp \| term processing-java --sketch=`pwd` --present 2&> .log & <CR>
+au BufEnter *.pde map <silent> <leader>p :vsp \| term processing-java --sketch=`pwd` --present<CR>
 
 " No more arrow keys
 map <Up>    <NOP>
