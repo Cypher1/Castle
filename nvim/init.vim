@@ -71,7 +71,9 @@ set nostartofline
 map <leader>r :mode<CR>
 nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 au FileType c,cpp,javascript,java nnoremap <leader>i :ClangFormat<CR>
-tnoremap <Esc> <C-\><C-n>
+if exists(':tnoremap')
+    tnoremap <Esc> <C-\><C-n>
+endif
 map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
 " Deoplete
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
