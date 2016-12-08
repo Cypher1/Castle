@@ -1,20 +1,20 @@
 " Plugins
 call plug#begin('~/.config/nvim/plugged') " Plugins go here
 Plug 'altercation/vim-colors-solarized' " Colours!
-Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'bling/vim-airline'                " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
 Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
+Plug 'tmhedberg/matchit'                " % Match based jumping
+Plug 'chrisbra/csv.vim'                 " Tables
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'zchee/deoplete-clang'             " Completion for C(++)
 Plug 'rhysd/vim-clang-format'           " Formatting for Code
-Plug 'eagletmt/neco-ghc'                " Completion for Haskell
-Plug 'bitc/vim-hdevtools'               " Types for Haskell
-Plug 'junegunn/fzf', { 'div': '~/.fzf', 'do': './install -all' }
-Plug 'tmhedberg/matchit'                " % Match based jumping
-Plug 'chrisbra/csv.vim'                 " Tables
-Plug 'neovimhaskell/haskell-vim'        " Haskell syntax
+Plug 'eagletmt/neco-ghc'                " Haskell Completion
+Plug 'bitc/vim-hdevtools'               " Haskell Types
+Plug 'neovimhaskell/haskell-vim'        " Haskell Syntax
+Plug 'itchyny/vim-haskell-indent'       " Haskell Indent
 call plug#end()
 
 " Colour Scheme
@@ -74,7 +74,8 @@ nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 au FileType c,cpp,javascript,java nnoremap <leader>i :ClangFormat<CR>
 tnoremap <Esc> <C-\><C-n>
 map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
-" HdevTools
+" Haskell
+let g:haskell_indent_disable=0
 map <leader>t :HdevtoolsType<CR>
 map <leader>T :HdevtoolsClear<CR>
 " Deoplete
@@ -131,6 +132,10 @@ function! LocationNext()
 endfunction
 
 nnoremap <leader>e :call LocationNext()<CR>
+nnoremap ¬ :lopen<CR>
+"<A-L>
+nnoremap ˙ :lclose<CR>
+"<A-H>
 
 au FocusGained,BufEnter * :silent! !
 
@@ -143,17 +148,23 @@ au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
 au BufWritePre,BufRead *.html :normal gg=G
 :iabbrev </ </<C-X><C-O>
 " Open in chrome
-au BufEnter *.md       map <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
-au BufEnter *.markdown map <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
-au BufEnter *.html     map <leader>p :!clear;exec chrome % &>/dev/null &<CR><CR>
+function! Chrome()
+    !clear; exec chrome % &>/dev/null &
+endfunction
+au BufEnter *.md,*.markdown,*.html map <leader>p :call Chrome()<CR>
 
 " Program Options
-au BufEnter *.sh  map <silent> <leader>p :vsp \| term sh % <CR>
-au BufEnter *.py  map <silent> <leader>p :vsp \| term python % <CR>
-au BufEnter *.js  map <silent> <leader>p :vsp \| term node % <CR>
-au BufEnter *.hs  map <silent> <leader>p :vsp \| term runhaskell -Wall -fno-warn-unused-binds % <CR>
-au BufEnter *.cpp map <silent> <leader>p :vsp \| term g++ % -Wall -Werror -std=c++14; ./a.out <CR>
-au BufEnter *.pde map <silent> <leader>p :vsp \| term processing-java --sketch=`pwd` --present<CR>
+function! Vterm(filetype, call)
+    au BufEnter $filetype map <buffer><silent> <leader>p :vsp \| term $call <CR>
+    au BufEnter $filetype map <buffer><silent> <leader>P :sp \| term $call <CR>
+endfunction
+
+call Vterm("*.sh", "sh %")
+call Vterm("*.py", "python %")
+call Vterm("*.js", "node %")
+call Vterm("*.hs", "runhaskell -Wall -fno-warn-unused-binds %")
+call Vterm("*.cpp", "g++ % -Wall -Werror -std=c++14; ./a.out ")
+call Vterm("*.pde", "processing-java --sketch=`pwd` --present")
 
 " No more arrow keys
 map <Up>    <NOP>
