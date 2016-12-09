@@ -15,6 +15,7 @@ Plug 'junegunn/fzf', { 'div': '~/.fzf', 'do': './install -all' }
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'chrisbra/csv.vim'                 " Tables
 Plug 'neovimhaskell/haskell-vim'        " Haskell syntax
+Plug 'mxw/vim-xhp'                      " Xhp indent and syntax
 call plug#end()
 
 " Colour Scheme

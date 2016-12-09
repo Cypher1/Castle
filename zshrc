@@ -1,5 +1,8 @@
-DEFAULT_USER="cypher"
-export ZSH="`cd; pwd`/.oh-my-zsh"
+DEFAULT_USER="jopra"
+HOME="`cd;pwd`"
+export ZSH="$HOME/.oh-my-zsh"
+
+DEV_SERVER="jopra.sb.facebook.com"
 
 ZSH_THEME="bullet-train"
 BULLETTRAIN_STATUS_EXIT_SHOW=true
@@ -77,6 +80,16 @@ function confirm {
     return 1;
 }
 
+function lamb () {
+    if command -v "hoogle" > /dev/null 2>&1; then
+        hoogle "$@" | ccat;
+    else
+        confirm "Install Hoogle?" && cabal install hoogle
+        confirm "Download Hoogle data?" && hoogle generate
+        hoogle "$@" | ccat;
+    fi
+}
+
 # HISTORY
 export HISTSIZE=1000000                # set history size
 export SAVEHIST=1000000                # save history after logout
@@ -101,16 +114,17 @@ alias p="git push"
 alias g="git log --graph"
 alias d="git diff"
 alias D="git diff --staged"
-alias P="git pull"
 alias gitnuke="confirm 'CONFIRM NUKE' && git fetch origin && git reset --hard origin/master"
 alias P='git fetch && git diff origin/master && confirm "Pull?" && git pull'
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 # SSH via zshrc
+alias mosh="mosh -6"
+alias dev="mosh $DEV_SERVER"
 alias cse="ssh z5017666@cse.unsw.edu.au"
 alias cse_cp="scp * z5017666@cse.unsw.edu.au:./"
 alias mimir="ssh app@mimir.systems"
 
 # OVERRIDES
-export PATH="$PATH:/usr/local/bin:/Users/Cypher/Library/Haskell/bin"
+export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
