@@ -82,12 +82,11 @@ function confirm {
 
 function lamb () {
     if command -v "hoogle" > /dev/null 2>&1; then
-        hoogle "$@" | ccat;
     else
         confirm "Install Hoogle?" && cabal install hoogle
-        confirm "Download Hoogle data?" && hoogle generate
-        hoogle "$@" | ccat;
     fi
+	hoogle generate;
+	hoogle "$@" | ccat;
 }
 
 # HISTORY
