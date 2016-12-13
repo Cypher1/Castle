@@ -5,6 +5,7 @@ Plug 'bling/vim-airline'                " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
 Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'rbgrouleff/bclose.vim'            " Close properly
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'chrisbra/csv.vim'                 " Tables
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
@@ -103,7 +104,7 @@ map <leader>- :sp<space>
 map <leader>e :e<space>
 map <leader>n :bn<CR>
 map <leader>m :bp<CR>
-map <leader>q :bd<CR>
+map <leader>q :Bclose<CR>
 map <leader>w :w<CR>
 
 " Splits
@@ -158,16 +159,16 @@ au BufEnter *.md,*.markdown,*.html map <leader>p :call Chrome()<CR>
 
 " Program Options
 function! Vterm(filetype, call)
-    au BufEnter $filetype map <buffer><silent> <leader>p :vsp \| term $call <CR>
-    au BufEnter $filetype map <buffer><silent> <leader>P :sp \| term $call <CR>
+    execute 'au FileType '.a:filetype.' map <buffer><silent> <leader>p :vsp \| term '.a:call.'<CR>'
+    execute 'au FileType '.a:filetype.' map <buffer><silent> <leader>P :sp \| term '.a:call.'<CR>'
 endfunction
 
-call Vterm("*.sh", "sh %")
-call Vterm("*.py", "python %")
-call Vterm("*.js", "node %")
-call Vterm("*.hs", "runhaskell -Wall -fno-warn-unused-binds %")
-call Vterm("*.cpp", "g++ % -Wall -Werror -std=c++14; ./a.out ")
-call Vterm("*.pde", "processing-java --sketch=`pwd` --present")
+call Vterm("sh", "sh %")
+call Vterm("python", "python %")
+call Vterm("javascript", "node %")
+call Vterm("haskell", "runhaskell -Wall -fno-warn-unused-binds %")
+call Vterm("cpp", "g++ % -Wall -Werror -std=c++14; ./a.out ")
+call Vterm("arduino", "processing-java --sketch=`pwd` --present")
 
 " No more arrow keys
 map <Up>    <NOP>
