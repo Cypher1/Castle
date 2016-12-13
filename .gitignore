@@ -8,3 +8,4 @@ cabal/packages/hackage.haskell.org/*.tar
 .DS_Store
 .isolated-storage
 *~
+spell
