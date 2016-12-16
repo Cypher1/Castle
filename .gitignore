@@ -9,3 +9,4 @@ cabal/packages/hackage.haskell.org/*.tar
 .isolated-storage
 *~
 local.vim
+spell

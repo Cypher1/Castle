@@ -2,7 +2,7 @@ DEFAULT_USER="jopra"
 HOME="`cd;pwd`"
 export ZSH="$HOME/.oh-my-zsh"
 
-DEV_SERVER="devvm26488.prn1.facebook.com"
+DEV_SERVER="jopra.sb.facebook.com"
 
 ZSH_THEME="bullet-train"
 BULLETTRAIN_STATUS_EXIT_SHOW=true
@@ -80,6 +80,15 @@ function confirm {
     return 1;
 }
 
+function lamb () {
+    if command -v "hoogle" > /dev/null 2>&1; then
+    else
+        confirm "Install Hoogle?" && cabal install hoogle
+    fi
+	hoogle generate;
+	hoogle "$@" | ccat;
+}
+
 # HISTORY
 export HISTSIZE=1000000                # set history size
 export SAVEHIST=1000000                # save history after logout
@@ -104,7 +113,6 @@ alias p="git push"
 alias g="git log --graph"
 alias d="git diff"
 alias D="git diff --staged"
-alias P="git pull"
 alias gitnuke="confirm 'CONFIRM NUKE' && git fetch origin && git reset --hard origin/master"
 alias P='git fetch && git diff origin/master && confirm "Pull?" && git pull'
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
