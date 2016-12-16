@@ -12,7 +12,6 @@ Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'vim-scripts/a.vim'                " Move between .c and .h
 Plug 'rhysd/vim-clang-format'           " Formatting for Code
-Plug 'neovimhaskell/haskell-vim'        " Haskell syntax
 Plug 'jlfwong/vim-arcanist'             " Arc integration
 Plug 'eagletmt/neco-ghc'                " Haskell Completion
 Plug 'bitc/vim-hdevtools'               " Haskell Types
