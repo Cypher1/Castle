@@ -6,8 +6,10 @@ Plug 'bling/vim-airline'                " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
 Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'rbgrouleff/bclose.vim'            " Close properly
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'zchee/deoplete-clang'             " Completion for C(++)
+Plug 'vim-scripts/a.vim'                " Move between .c and .h
 Plug 'rhysd/vim-clang-format'           " Formatting for Code
 Plug 'eagletmt/neco-ghc'                " Completion for Haskell
 Plug 'bitc/vim-hdevtools'               " Types for Haskell
@@ -15,6 +17,7 @@ Plug 'junegunn/fzf', { 'div': '~/.fzf', 'do': './install -all' }
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'chrisbra/csv.vim'                 " Tables
 Plug 'neovimhaskell/haskell-vim'        " Haskell syntax
+Plug 'jlfwong/vim-arcanist'             " Arc integration
 call plug#end()
 
 " Colour Scheme
@@ -71,7 +74,9 @@ set nostartofline
 map <leader>r :mode<CR>
 nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 au FileType c,cpp,javascript,java nnoremap <leader>i :ClangFormat<CR>
-tnoremap <Esc> <C-\><C-n>
+if exists(':tonoremap')
+    tnoremap <Esc> <C-\><C-n>
+endif
 map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
 " Deoplete
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
@@ -95,7 +100,7 @@ map <leader>- :sp<space>
 map <leader>e :e<space>
 map <leader>n :bn<CR>
 map <leader>m :bp<CR>
-map <leader>q :bd<CR>
+map <leader>q :Bclose<CR>
 map <leader>w :w<CR>
 
 " Splits
@@ -113,7 +118,7 @@ let g:neomake_cpp_clang_maker = {
             \ 'exe': 'clang++',
             \ 'args': ["-std=c++14", '-Wall', '-Wextra'],
             \ }
-let g:neomake_python_enabled_makers = ['pylint']
+let g:neomake_python_enabled_makers = ['pylint', 'flake']
 let g:neomake_markdown_enabled_makers = ['mdl']
 let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
 au BufWritePre * :silent! Neomake " Includes auto tidy for html etc
@@ -127,6 +132,9 @@ function! LocationNext()
 endfunction
 
 nnoremap <leader>e :call LocationNext()<CR>
+nnoremap Q <nop>
+nnoremap qq <nop>
+nnoremap v <nop>
 
 au FocusGained,BufEnter * :silent! !
 
@@ -160,3 +168,6 @@ map <Right> >>
 " Fix resize bug
 au VimResized * :silent! mode<CR>
 au BufEnter * :silent! mode<CR>
+
+" Local settings
+silent! source local.vim
