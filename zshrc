@@ -70,6 +70,17 @@ function clean {
     clear;
 }
 
+function watch {
+    sleeptime="${2:-2}"
+    while true; do
+        clear
+        echo -n `date`
+        echo " Running \`$1\` every $sleeptime seconds"
+        sh -c "$1"
+        sleep $sleeptime
+    done;
+}
+
 function confirm {
     # call with a prompt string or use a default
     echo -n "${1:-Are you sure?} [y/N] "
@@ -85,8 +96,8 @@ function lamb () {
     else
         confirm "Install Hoogle?" && cabal install hoogle
     fi
-	hoogle generate;
-	hoogle "$@" | ccat;
+    hoogle generate;
+    hoogle "$@" | ccat;
 }
 
 # HISTORY
