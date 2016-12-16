@@ -1,5 +1,8 @@
-DEFAULT_USER="cypher"
-export ZSH="`cd; pwd`/.oh-my-zsh"
+DEFAULT_USER="jopra"
+HOME="`cd;pwd`"
+export ZSH="$HOME/.oh-my-zsh"
+
+DEV_SERVER="devvm26488.prn1.facebook.com"
 
 ZSH_THEME="bullet-train"
 BULLETTRAIN_STATUS_EXIT_SHOW=true
@@ -107,10 +110,12 @@ alias P='git fetch && git diff origin/master && confirm "Pull?" && git pull'
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 # SSH via zshrc
+alias mosh="mosh -6"
+alias dev="mosh $DEV_SERVER"
 alias cse="ssh z5017666@cse.unsw.edu.au"
 alias cse_cp="scp * z5017666@cse.unsw.edu.au:./"
 alias mimir="ssh app@mimir.systems"
 
 # OVERRIDES
-export PATH="$PATH:/usr/local/bin:/Users/Cypher/Library/Haskell/bin"
+export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
