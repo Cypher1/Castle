@@ -28,7 +28,7 @@ highlight Comment ctermfg=DarkMagenta
 highlight SignColumn ctermbg=black
 
 " Status Information
-set cursorline ruler relativenumber number laststatus=2
+set cursorline ruler relativenumber number laststatus=4
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 set list listchars=tab:>.,trail:.,extends:#,nbsp:.
