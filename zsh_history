@@ -24504,3 +24504,262 @@ mup init
 : 1482296106:0;s
 : 1482296110:0;d zsh_history
 : 1482296143:0;git add zsh_history && git commit -m "More history" && git push
+: 1481591184:0;clear
+: 1481591184:0;s
+: 1481591190:0;git add .
+: 1481913473:0;git pull
+: 1481913476:0;clear
+: 1481913477:0;s
+: 1481913480:0;git diff
+: 1481913485:0;git pull -f
+: 1481913493:0;git stash && git pull
+: 1481921425:0;s
+: 1481921428:0;vim zsh_history
+: 1481921440:0;clear
+: 1481921440:0;s
+: 1481921452:0;git checkout zsh_history && git stash apply
+: 1481921462:0;vim zsh_history
+: 1481921471:0;git checkout zsh_history && git stash apply
+: 1481921473:0;s
+: 1481921476:0;git merge
+: 1481921482:0;git add zsh_history
+: 1481921486:0;s
+: 1481921489:0;vim zsh_history
+: 1481921523:0;git checkout zsh_history && git stash apply
+: 1481921528:0;git add zsh_history
+: 1481921535:0;clear
+: 1481921535:0;s
+: 1481921539:0;vim zsh_history
+: 1481921555:0;s
+: 1481921565:0;cd ...
+: 1481921567:0;..
+: 1481921594:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-12
+: 1481921857:0;vim sentry_plan_invite.context
+: 1481921864:0;hg sl
+: 1481921867:0;git rebase
+: 1481921869:0;hg sl
+: 1481921873:0;git pull
+: 1481921880:0;clear
+: 1481921884:0;git status
+: 1481921890:0;git rebase
+: 1481921894:0;git status
+: 1481921901:0;git diff HEAD^
+: 1481921909:0;vim sentry_plan_invite.context
+: 1481922007:0;git status
+: 1481922009:0;a sentry_plan_invite.context
+: 1481922014:0;git commit --amend
+: 1481922035:0;arc diff --update D4337444
+: 1481922198:0;clear
+: 1481923086:0;pwd
+: 1481923102:0;ls tasks/si/fft_labels/content
+: 1481923190:0;cd tasks/si/fft_labels/content
+: 1481923191:0;ls
+: 1481923193:0;clean
+: 1481923194:0;ls
+: 1481923200:0;ls > ~/copy
+: 1481923243:0;cat ~/copy
+: 1481923298:0;q
+: 1481923351:0;status
+: 1481923351:0;s
+: 1481923353:0;d
+: 1481923360:0;q
+: 1481923582:0;clear
+: 1481923583:0;ls
+: 1481923781:0;q
+: 1481923811:0;hg status
+: 1481923815:0;git status
+: 1481923826:0;git branch
+: 1481923850:0;git stash -h
+: 1481923852:0;git stash show
+: 1481923864:0;git stash diff
+: 1481923872:0;git stash show *
+: 1481923886:0;clear
+: 1481923888:0;git stash drop
+: 1481923893:0;git stash show
+: 1481923899:0;git stash list
+: 1481923909:0;git stash apply
+: 1481923914:0;git diff
+: 1481923934:0;cd ../SentryEntShareCallback/
+: 1481923940:0;cd ..
+: 1481923948:0;cd SentryEntShareCallback
+: 1481923949:0;clear
+: 1481923949:0;s
+: 1481923952:0;vim Policies.hs
+: 1481923996:0;git diff
+: 1481924034:0;ls
+: 1481924040:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-12 --local-run
+: 1481924059:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-12 
+: 1481924084:0;hg status
+: 1481924092:0;hg log
+: 1481924104:0;hg sl
+: 1481924271:0;clear
+: 1481924272:0;ls
+: 1481924354:0;git status
+: 1481924753:0;git status
+: 1481924755:0;hg status
+: 1481924756:0;d
+: 1481924769:0;vim tasks/si/fft_labels/content/segment_data.py
+: 1481924787:0;clear
+: 1481924787:0;s
+: 1481924804:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-12 --local-run
+: 1481924835:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-12
+: 1481926586:0;ls
+: 1481926589:0;git status
+: 1481926591:0;git diff
+: 1481926656:0;clear
+: 1481926657:0;q
+: 1481928245:0;exec zsh
+: 1481928247:0;hl
+: 1481928248:0;lh
+: 1481928251:0;hc
+: 1481928378:0;s
+: 1481928388:0;git add Policies.hs
+: 1481928389:0;s
+: 1481928392:0;hc
+: 1481928465:0;cd ......
+: 1481928468:0;cd -
+: 1481928470:0;cd ....
+: 1481928474:0;hc
+: 1481929740:0;cd ..
+: 1481929742:0;..
+: 1481929763:0;cat floop_config| grep "sourceId" -B5
+: 1481929780:0;cat floop_config| grep "sourceId" -B6
+: 1481929784:0;cat floop_config| grep "sourceId" -B4
+: 1481929785:0;cat floop_config| grep "sourceId" -B3
+: 1481929792:0;cat floop_config| grep "sourceId" -B5
+: 1481929807:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name"
+: 1481929823:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | grep ": \".*"
+: 1481929827:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | grep -o ": \".*"
+: 1481929842:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*"
+: 1481929866:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*" | sed "s/[:\", ]//"
+: 1481929870:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*" | sed "s/[:", ]//"
+: 1481929877:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*" | sed "s/[:\", ]//"
+: 1481929880:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*" | sed "s/[:\", ]//g"
+: 1481929887:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*" | sed "s/[:\", ]//g" | grep num
+: 1481929892:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*" | sed "s/[:\", ]//g" | grep count
+: 1481929897:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*" | sed "s/[:\", ]//g" | grep share
+: 1481929901:0;cat floop_config| grep "sourceId" -B5 | grep "instance_name|signal_name" | /bin/grep -o ": \".*" | sed "s/[:\", ]//g" | grep share -i
+: 1481932871:0;q
+: 1481936981:0;ghci
+: 1481937079:0;q
+: 1481937206:0;ghci -v
+: 1481937215:0;q
+: 1481937808:0;clear
+: 1481937808:0;ls
+: 1481938412:0;x
+: 1481938414:0;s
+: 1481938420:0;vim tasks/si/fft_labels/content/segment_data.py
+: 1481938465:0;hive
+: 1481938485:0;hive --namespace si
+: 1481938509:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-12
+: 1481938517:0;cd ../dataswarm-hg
+: 1481938518:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-12
+: 1481938578:0;s
+: 1481938640:0;git status
+: 1481938650:0;git shelve
+: 1481938654:0;git stash
+: 1481939508:0;ghci
+: 1482164993:0;clear
+: 1482164994:0;ls
+: 1482166784:0;hive
+: 1482166856:0;hive --namespace si
+: 1482166923:0;ls ~
+: 1482166929:0;vim ~/Policy
+: 1482166935:0;clear
+: 1482166935:0;ls
+: 1482166937:0;ls ~
+: 1482166943:0;cat ~/datasw
+: 1482166950:0;cat ~/co
+: 1482166952:0;cat ~/copy
+: 1482166953:0;clear
+: 1482166953:0;ls
+: 1482166957:0;rm ~/copy
+: 1482166959:0;clear
+: 1482166959:0;ls
+: 1482166973:0;rm ~/error_log 
+: 1482166974:0;clear
+: 1482166974:0;ls
+: 1482166978:0;ls ~
+: 1482167002:0;vim ~/findStopped.sh
+: 1482167010:0;clear
+: 1482167011:0;ls
+: 1482167059:0;hive --namespace si
+: 1482167121:0;clear
+: 1482167125:0;ls
+: 1482167129:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-12
+: 1482168501:0;clear
+: 1482168503:0;hg status
+: 1482168505:0;git status
+: 1482168514:0;git diff HEAD^
+: 1482168611:0;git status
+: 1482168613:0;git diff
+: 1482168623:0;git commit --amend
+: 1482168631:0;git status
+: 1482168639:0;git add .
+: 1482168640:0;s
+: 1482168643:0;git commit --amend
+: 1482168649:0;git status
+: 1482168653:0;arc diff
+: 1482168663:0;clear
+: 1482168664:0;s
+: 1482168695:0;git status
+: 1482168703:0;git diff HEAD^
+: 1482168710:0;ls
+: 1482168711:0;cd -
+: 1482168714:0;cd -2
+: 1482168717:0;-2
+: 1482168718:0;clear
+: 1482168719:0;ls
+: 1482168722:0;cd local
+: 1482168725:0;cd si_sigma
+: 1482168731:0;git diff HEAD^
+: 1482168732:0;s
+: 1482168759:0;cd Contexts/Sentry/Plans/SentryPlaIn
+: 1482168765:0;cd SentryPlan
+: 1482168771:0;cd SentryPlanInvite
+: 1482168774:0;clear
+: 1482168774:0;s
+: 1482168780:0;git diff HEAD^
+: 1482168792:0;ls
+: 1482168801:0;vim Config.hs sentry_plan_invite.context Policies.hs
+: 1482168864:0;hc
+: 1482169174:0;arc unit
+: 1482169344:0;cd ~/.config
+: 1482169345:0;ls
+: 1482169345:0;s
+: 1482169349:0;vim zsh_history
+: 1482169371:0;a zsh_history
+: 1482169371:0;s
+: 1482169380:0;git diff nvim/init.vim
+: 1482169384:0;a nvim/init.vim
+: 1482169385:0;clear
+: 1482169385:0;s
+: 1482169396:0;cd nvim
+: 1482169396:0;ls
+: 1482169399:0;vim local.vim
+: 1482169402:0;vim init.vim
+: 1482169416:0;clear
+: 1482169416:0;ls
+: 1482169417:0;s
+: 1482169420:0;git status
+: 1482169453:0;git add ../zsh_history&& git commit -m "Fixed zsh_history and tabstop default" && git push
+: 1482296214:0;s
+: 1482296216:0;clear
+: 1482296216:0;s
+: 1482296221:0;vim nvim/init.vim
+: 1482296251:0;clear
+: 1482296251:0;s
+: 1482296253:0;a nvim/init.vim
+: 1482296254:0;clear
+: 1482296254:0;s
+: 1482296257:0;a nvim
+: 1482296258:0;clear
+: 1482296258:0;s
+: 1482296266:0;git pull
+: 1482296271:0;vim zsh_history
+: 1482296282:0;clear
+: 1482296282:0;s
+: 1482296285:0;a zsh_history
+: 1482296286:0;clear
+: 1482296287:0;s
+: 1482296294:0;git add zsh_history && git commit -m "More history" && git push

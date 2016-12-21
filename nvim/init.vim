@@ -5,12 +5,14 @@ Plug 'bling/vim-airline'                " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
 Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'rbgrouleff/bclose.vim'            " Close properly
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'chrisbra/csv.vim'                 " Tables
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
-Plug 'zchee/deoplete-clang'             " Completion for C(++)
+Plug 'vim-scripts/a.vim'                " Move between .c and .h
 Plug 'rhysd/vim-clang-format'           " Formatting for Code
+Plug 'jlfwong/vim-arcanist'             " Arc integration
 Plug 'eagletmt/neco-ghc'                " Haskell Completion
 Plug 'bitc/vim-hdevtools'               " Haskell Types
 Plug 'neovimhaskell/haskell-vim'        " Haskell Syntax
@@ -26,7 +28,7 @@ highlight Comment ctermfg=DarkMagenta
 highlight SignColumn ctermbg=black
 
 " Status Information
-set cursorline ruler relativenumber number laststatus=2
+set cursorline ruler relativenumber number laststatus=4
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 set list listchars=tab:>.,trail:.,extends:#,nbsp:.
@@ -103,7 +105,7 @@ map <leader>- :sp<space>
 map <leader>e :e<space>
 map <leader>n :bn<CR>
 map <leader>m :bp<CR>
-map <leader>q :bd<CR>
+map <leader>q :Bclose<CR>
 map <leader>w :w<CR>
 
 " Splits
@@ -121,7 +123,7 @@ let g:neomake_cpp_clang_maker = {
             \ 'exe': 'clang++',
             \ 'args': ["-std=c++14", '-Wall', '-Wextra'],
             \ }
-let g:neomake_python_enabled_makers = ['pylint']
+let g:neomake_python_enabled_makers = ['pylint', 'flake']
 let g:neomake_markdown_enabled_makers = ['mdl']
 let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
 au BufWritePre * :silent! Neomake " Includes auto tidy for html etc
@@ -135,6 +137,9 @@ function! LocationNext()
 endfunction
 
 nnoremap <leader>e :call LocationNext()<CR>
+nnoremap Q <nop>
+nnoremap qq <nop>
+nnoremap v <nop>
 nnoremap ¬ :lopen<CR>
 "<A-L>
 nnoremap ˙ :lclose<CR>
@@ -192,3 +197,6 @@ map <Right> >>
 " Fix resize bug
 au VimResized * :silent! mode<CR>
 au BufEnter * :silent! mode<CR>
+
+" Local settings
+silent! source local.vim
