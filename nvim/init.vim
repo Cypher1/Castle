@@ -150,24 +150,38 @@ au FileType html,css,javascript setl sw=2 sts=2 et
 au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
 au BufWritePre,BufRead *.html :normal gg=G
 :iabbrev </ </<C-X><C-O>
-" Open in chrome
+
+" Program Options
 function! Chrome()
     !clear; exec chrome % &>/dev/null &
 endfunction
 au BufEnter *.md,*.markdown,*.html map <leader>p :call Chrome()<CR>
 
-" Program Options
-function! Vterm(filetype, call)
-    au BufEnter $filetype map <buffer><silent> <leader>p :vsp \| term $call <CR>
-    au BufEnter $filetype map <buffer><silent> <leader>P :sp \| term $call <CR>
+function! Vterm(...)
+    execute 'vsp | term '.join(a:000, ' ')
 endfunction
 
-call Vterm("*.sh", "sh %")
-call Vterm("*.py", "python %")
-call Vterm("*.js", "node %")
-call Vterm("*.hs", "runhaskell -Wall -fno-warn-unused-binds %")
-call Vterm("*.cpp", "g++ % -Wall -Werror -std=c++14; ./a.out ")
-call Vterm("*.pde", "processing-java --sketch=`pwd` --present")
+function! Term(...)
+    execute 'sp | term '.join(a:000, ' ')
+endfunction
+
+command! -nargs=* Chrome call Chrome(<f-args>)
+command! -nargs=* Vterm call Vterm(<f-args>)
+command! -nargs=* Term call Term(<f-args>)
+
+function! Repl(filetype, call)
+    " echo "Setting up " a:filetype " -> " a:call
+    execute 'au FileType '.a:filetype.' map <buffer><silent> <leader>p :Vterm '.a:call.'<CR>'
+    execute 'au FileType '.a:filetype.' map <buffer><silent> <leader>P :Term '.a:call.'<CR>'
+endfunction
+
+call Repl("sh", "bash %")
+call Repl("zsh", "zsh %")
+call Repl("python", "python %")
+call Repl("javascript", "node %")
+call Repl("haskell", "runhaskell -Wall -fno-warn-unused-binds %")
+call Repl("cpp", "g++ % -Wall -Werror -std=c++14; ./a.out")
+call Repl("arduino", "processing-java --sketch=`pwd` --present")
 
 " No more arrow keys
 map <Up>    <NOP>
