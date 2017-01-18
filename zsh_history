@@ -24763,3 +24763,16 @@ mup init
 : 1482296286:0;clear
 : 1482296287:0;s
 : 1482296294:0;git add zsh_history && git commit -m "More history" && git push
+: 1484769942:0;clear
+: 1484769942:0;s
+: 1484769949:0;git stash apply
+: 1484769960:0;cd nvim
+: 1484769960:0;ls
+: 1484769961:0;s
+: 1484769969:0;d plugge
+: 1484769978:0;git add plugged
+: 1484769979:0;clear
+: 1484769980:0;s
+: 1484769982:0;cd ..
+: 1484769983:0;s
+: 1484769987:0;a zsh_history
