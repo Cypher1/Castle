@@ -23728,6 +23728,782 @@ mup init
 : 1478154612:0;s
 : 1478154613:0;d
 : 1478154645:0;a zsh_history
+: 1481259808:0;clear
+: 1481259809:0;s
+: 1481259813:0;d nvim/plugged
+: 1481259818:0;a nvim
+: 1481259819:0;s
+: 1481259829:0;git commit -m "Updated plugs"
+: 1481259830:0;p
+: 1481259840:0;lamb "Int -> Int -> Int"
+: 1481259843:0;exec zsh
+: 1481259844:0;lamb "Int -> Int -> Int"
+: 1481259851:0;zrc
+: 1481259893:0;exec zsh
+: 1481259894:0;lamb "Int -> Int -> Int"
+: 1481259901:0;zrc
+: 1481259911:0;clear
+: 1481259913:0;exec zsh
+: 1481259915:0;lamb "Int -> Int -> Int"
+: 1481259923:0;d zshrc
+: 1481259927:0;a zshrc
+: 1481259938:0;m "Fixed some assumptions in lamb (hoogle wrapper)"
+: 1481259939:0;p
+: 1481391067:0;z Adv
+: 1481391069:0;git pull
+: 1481391073:0;ls
+: 1481391081:0;mkdir Day10_Robots
+: 1481391083:0;cd Day10_Robots
+: 1481391084:0;.
+: 1481391087:0;vim Rob.hs
+: 1481391105:0;q
+: 1481392749:0;when-changed *.hs -c "clear && runhaskell *.hs < input.txt"
+: 1481406397:0;when-changed *.hs -c "clear && runhaskell Robf.hs < input.txt"
+: 1481412285:0;ls
+: 1481412287:0;cd ~/
+: 1481412288:0;ls
+: 1481412289:0;cd Library
+: 1481412290:0;ls
+: 1481412290:0;uy
+: 1481412292:0;u
+: 1481412303:0;cd Haskell
+: 1481412303:0;u
+: 1481413542:0;when-changed *.hs -c "clear && runhaskell Robf.hs < input.txt"
+: 1481413784:0;cd
+: 1481413785:0;clear
+: 1481413786:0;ls
+: 1481413795:0;vim sumNeg.hs
+: 1481414029:0;python
+: 1481414043:0;q
+: 1481414250:0;lamb "foldl"
+: 1481414258:0;q
+: 1481414945:0;vrc
+: 1481415776:0;ghci
+: 1481415836:0;clear
+: 1481415836:0;q
+: 1481415869:0;vim sumNeg.hs
+: 1481416456:0;ls
+: 1481416458:0;cd Proj
+: 1481416463:0;cd Documents/Projects
+: 1481416463:0;ls
+: 1481416468:0;cd ../Processing3
+: 1481416469:0;l
+: 1481416471:0;cd LewisAndClark
+: 1481416472:0;.
+: 1481416473:0;vim Interact.pde
+: 1481416502:0;clear
+: 1481416502:0;ls
+: 1481416722:0;vim Interact.pde
+: 1481417055:0;clear
+: 1481417057:0;vim test.sh
+: 1481417160:0;vrc
+: 1481417440:0;vim blah.zsh
+: 1481417454:0;sh
+: 1481417871:0;exit
+: 1481417457:0;bash
+: 1481417871:0;exit
+: 1481417460:0;clear
+: 1481417460:0;s
+: 1481417505:0;vim test.sh
+: 1481417837:0;rm test.sh
+: 1481417838:0;clear
+: 1481417838:0;ls
+: 1481417842:0;z adv
+: 1481417843:0;s
+: 1481417846:0;cd Day10_Robots
+: 1481417847:0;ls
+: 1481417850:0;vim Robf.hs
+: 1481417870:0;q
+: 1481417874:0;vim Robf.hs
+: 1481417981:0;clear
+: 1481417981:0;q
+: 1481418067:0;vrc
+: 1481418271:0;ls
+: 1481418274:0;vim Rob.hs
+: 1481418283:0;vrc
+: 1481418306:0;vim Rob.hs
+: 1481418329:0;vrc
+: 1481418354:0;vim Rob.hs
+: 1481418369:0;vrc
+: 1481418380:0;vim
+: 1481418659:0;vim Robf.hs
+: 1481418791:0;vim ~/**.md
+: 1481418900:0;vrc
+: 1481419348:0;clear
+: 1481419352:0;ls
+: 1481419356:0;vim 
+: 1481419797:0;q
+: 1481419869:0;clear
+: 1481419869:0;ls
+: 1481419870:0;vim
+: 1481419901:0;vim ~/.config/zsh_history
+: 1481419919:0;clear
+: 1481419920:0;exec zsh
+: 1481419922:0;clear
+: 1481419922:0;ls
+: 1481419923:0;s
+: 1481419928:0;cd ..
+: 1481419929:0;ls
+: 1481419932:0;cd Day10_Robots
+: 1481419932:0;ls
+: 1481419933:0;.
+: 1481419934:0;s
+: 1481419936:0;a .
+: 1481419937:0;s
+: 1481419939:0;clear
+: 1481419939:0;ls
+: 1481419945:0;vim Rebf.hs
+: 1481419951:0;vim Robf.hs
+: 1481420038:0;cd ..
+: 1481420039:0;cd ls
+: 1481420040:0;ls
+: 1481420044:0;cd Day8_LCD
+: 1481420045:0;ls
+: 1481420047:0;vim Lcd.hs
+: 1481423251:0;ls
+: 1481423353:0;s
+: 1481423354:0;.
+: 1481423354:0;s
+: 1481423656:0;vrc
+: 1481423781:0;ls
+: 1481423784:0;z Jarvis
+: 1481423785:0;s
+: 1481423786:0;git pull
+: 1481423790:0;sl
+: 1481423790:0;ls
+: 1481423791:0;cd site
+: 1481423792:0;s
+: 1481423793:0;clear
+: 1481423793:0;ls
+: 1481423797:0;cd public
+: 1481423798:0;ls
+: 1481423805:0;mv brainGraphic.png logo.png
+: 1481423806:0;cd ..
+: 1481423812:0;grep -R "brainGraphic"
+: 1481423821:0;grep -R "brainGraphic" **
+: 1481423830:0;vim imports/ui/pages/landing.html
+: 1481423835:0;clear
+: 1481423835:0;s
+: 1481423841:0;meteor
+: 1481424019:0;ping lobaltest.meteorapp.com
+: 1481424055:0;ping lobal.io
+: 1481426132:0;clear
+: 1481426132:0;s
+: 1481426146:0;git mv public/logo.png public/brainGraphic.png
+: 1481426156:0;git mv public/brainGraphic.png public/logo.png
+: 1481426158:0;clear
+: 1481426158:0;s
+: 1481426190:0;a public
+: 1481426292:0;clear
+: 1481426292:0;s
+: 1481426307:0;vim imports/ui/pages/landing.html
+: 1481426314:0;a imports/ui/pages/landing.html
+: 1481426314:0;clear
+: 1481426315:0;s
+: 1481426376:0;cp public/logo.png public/brainGraphic.png
+: 1481426377:0;s
+: 1481426380:0;a public/brainGraphic.png
+: 1481426381:0;clear
+: 1481426381:0;s
+: 1481426393:0;open public/logo.png
+: 1481426405:0;gimp public/logo.png
+: 1481427052:0;s
+: 1481427063:0;git checkout logo
+: 1481427066:0;b logo
+: 1481427067:0;s
+: 1481427081:0;m "Updated the logo to the brain graphic"
+: 1481427082:0;p
+: 1481427089:0;p --set-upstream origin logo 
+: 1481428295:0;dig www.lobal.io
+: 1481428545:0;s
+: 1481428547:0;clear
+: 1481428550:0;b master
+: 1481428551:0;s
+: 1481428553:0;git pull
+: 1481428559:0;q
+: 1481428561:0;clear
+: 1481428563:0;q
+: 1481428571:0;clear
+: 1481428571:0;s
+: 1481428965:0;cd ..
+: 1481428967:0;ls
+: 1481428969:0;cd ../Misc
+: 1481428969:0;ls
+: 1481428973:0;vim reverse.hs
+: 1481429194:0;ghc reverse.hs
+: 1481429196:0;ls
+: 1481429201:0;./reverse 1e10
+: 1481429210:0;ghc reverse.hs
+: 1481429213:0;./reverse 1e10
+: 1481429257:0;./reverse 10000
+: 1481429259:0;./reverse 1000000
+: 1481429261:0;./reverse 1000000000
+: 1481429269:0;./reverse 100000000
+: 1481429272:0;./reverse 10000000
+: 1481429277:0;./reverse 1000000
+: 1481429283:0;time ./reverse 1000000
+: 1481429301:0;ghc reverse.hs
+: 1481429304:0;time ./reverse 1000000
+: 1481429547:0;time ./reverse 10000000
+: 1481429561:0;ghc reverse.hs
+: 1481429564:0;time ./reverse 10000000
+: 1481429578:0;ghc reverse.hs
+: 1481429581:0;time ./reverse 10000000
+: 1481429613:0;ghci
+: 1481429847:0;ghc reverse.hs
+: 1481429853:0;time ./reverse 10000000
+: 1481429862:0;time ./reverse 1000000
+: 1481429866:0;time ./reverse 100000000
+: 1481432875:0;z Jarvis
+: 1481432880:0;git fetch
+: 1481432892:0;git pull
+: 1481432904:0;git checkout test_deploy 
+: 1481432905:0;clear
+: 1481432905:0;ls
+: 1481432910:0;clear
+: 1481432910:0;ls
+: 1481432914:0;meteor
+: 1481432920:0;cd site
+: 1481432922:0;meteor
+: 1481432928:0;q
+: 1481432956:0;meteor npm install --save bcrypt
+: 1481432993:0;clear
+: 1481432994:0;ls
+: 1481433002:0;cd site
+: 1481433006:0;cd ui
+: 1481433007:0;ls
+: 1481433010:0;cd imports
+: 1481433011:0;ls
+: 1481433012:0;clear
+: 1481433013:0;ls
+: 1481433023:0;r
+: 1481433024:0;ls
+: 1481433026:0;cd ui
+: 1481433026:0;ls
+: 1481433050:0;cd pages
+: 1481433051:0;ls
+: 1481433054:0;vim landing.html
+: 1481433427:0;clear
+: 1481433428:0;s
+: 1481433431:0;a landing.html
+: 1481433432:0;clear
+: 1481433432:0;s
+: 1481433435:0;cd ..
+: 1481433436:0;..
+: 1481433437:0;ls
+: 1481433438:0;cd ui
+: 1481433439:0;ls
+: 1481433443:0;vim body.html
+: 1481433447:0;vim mainLayout.html
+: 1481433502:0;clear
+: 1481433503:0;ls
+: 1481433510:0;cd pages
+: 1481433510:0;ls
+: 1481433512:0;clear
+: 1481433513:0;ls
+: 1481433524:0;vim subscribe.html
+: 1481433625:0;clear
+: 1481433625:0;s
+: 1481433632:0;git branc
+: 1481433634:0;git branch
+: 1481433663:0;git branch alternate_test_deploy
+: 1481433667:0;git checkout alternate_test_deploy 
+: 1481433669:0;clear
+: 1481433669:0;s
+: 1481433672:0;a ../mainLayout.html
+: 1481433674:0;a subscribe.html
+: 1481433674:0;clear
+: 1481433675:0;s
+: 1481433701:0;vim landing.html subscribe.
+: 1481433706:0;vim landing.html subscribe.html
+: 1481433716:0;s
+: 1481433718:0;a landing.html subscribe.html
+: 1481433783:0;m "Added the image and the name to the subscribe page and converted the three front page cards into one"
+: 1481433784:0;p
+: 1481433793:0;git push --set-upstream origin alternate_test_deploy 
+: 1481433893:0;vim subscribe.html
+: 1481433973:0;clear
+: 1481433973:0;s
+: 1481433975:0;d
+: 1481433979:0;a subscribe.html
+: 1481433988:0;m "Centering for the subscription page"
+: 1481433989:0;p
+: 1481434692:0;mongo meteor
+: 1481434696:0;meteor mongo
+: 1481434709:0;ls
+: 1481434712:0;..
+: 1481434980:0;git checkout master
+: 1481434981:0;git pull
+: 1481435008:0;meteor
+: 1481435011:0;q
+: 1481435056:0;npm install --save bcrypt
+: 1481435138:0;vim templates/footer.html
+: 1481436678:0;clear
+: 1481436679:0;s
+: 1481436689:0;vim templates/footer.html
+: 1481436703:0;clear
+: 1481436703:0;s
+: 1481436710:0;a templates/footer.html
+: 1481436710:0;s
+: 1481436715:0;d mainLayout.html
+: 1481436719:0;a mainLayout.html
+: 1481436720:0;clear
+: 1481436720:0;s
+: 1481436722:0;cd ...
+: 1481436723:0;s
+: 1481436725:0;d package.json
+: 1481436729:0;a package.json
+: 1481436729:0;clear
+: 1481436730:0;s
+: 1481436854:0;b test_deploy
+: 1481436868:0;git branch -d test_deploy 
+: 1481436874:0;git branch -D test_deploy 
+: 1481436875:0;clear
+: 1481436875:0;s
+: 1481436883:0;git branc
+: 1481436885:0;git branch
+: 1481436889:0;b test_deploy
+: 1481436895:0;clear
+: 1481436896:0;s
+: 1481436900:0;git pull
+: 1481436919:0;git pull --set-upstream-to=origin/test_deploy test_deploy
+: 1481436920:0;clear
+: 1481436921:0;s
+: 1481436924:0;git push
+: 1481436930:0;git push --set-upstream origin test_deploy 
+: 1481436934:0;clear
+: 1481436934:0;s
+: 1481436964:0;m "Fixed templating for footer and added bcrypt for when we need it and to silence the error message"
+: 1481436965:0;p
+: 1481436999:0;clear
+: 1481437000:0;p
+: 1481437109:0;vim templates/footer.html
+: 1481437117:0;vim imports/ui/templates/footer.html
+: 1481437125:0;q
+: 1481442033:0;cd ~/Documents
+: 1481442033:0;ls
+: 1481442040:0;cd Artificial-brain
+: 1481442041:0;ls
+: 1481442044:0;vim mix02.eps
+: 1481442094:0;clear
+: 1481442094:0;ls
+: 1481442099:0;vim mix02.ai
+: 1481442110:0;vim mix02.jpg
+: 1481442633:0;ls
+: 1481442640:0;open mix03.svg
+: 1481442651:0;open .
+: 1481442754:0;vim test.html
+: 1481443307:0;ls
+: 1481443326:0;cp mix03.svg ~/Documents/Projects/Jarvis/site/public
+: 1481443329:0;z public
+: 1481443332:0;z Jar
+: 1481443336:0;cd site
+: 1481443338:0;meteor
+: 1481443360:0;vim imports/ui/body.html
+: 1481443372:0;vim client/main.html
+: 1481443463:0;ls
+: 1481443465:0;cd public
+: 1481443465:0;ls
+: 1481443471:0;mv mix03.svg logo.svg
+: 1481443472:0;clear
+: 1481443473:0;ls
+: 1481443507:0;open brainGraphic.png
+: 1481443528:0;q
+: 1481443619:0;s
+: 1481443622:0;cd public
+: 1481443623:0;ls
+: 1481443631:0;d ../imports/startup/router.js
+: 1481443634:0;d ../imports
+: 1481443729:0;ls
+: 1481443745:0;grep -R "png" **
+: 1481443752:0;vim logo.svg
+: 1481443790:0;cp logo.svg ../../../../
+: 1481443792:0;s
+: 1481443793:0;clear
+: 1481443797:0;cd ~/Documents
+: 1481443801:0;clear
+: 1481443801:0;ls
+: 1481443803:0;q
+: 1481443804:0;ls
+: 1481443807:0;mv logo.svg Artificial-brain
+: 1481443808:0;cd Artificial-brain
+: 1481443809:0;ls
+: 1481443814:0;rm mix03.svg
+: 1481443822:0;cp logo.svg logo.svg.bak
+: 1481443854:0;vim test.html
+: 1481443866:0;vim logo.svg
+: 1481443962:0;cp logo.svg.bar logo.svg
+: 1481443967:0;cp logo.svg.bak logo.svg
+: 1481443969:0;vim logo.svg
+: 1481443987:0;vim test.html
+: 1481443996:0;vim logo.svg
+: 1481444001:0;ls
+: 1481444008:0;vim test.html
+: 1481444025:0;mv logo.svg.bak logo.bak.svg
+: 1481444026:0;clear
+: 1481444043:0;vim logo.svg
+: 1481444449:0;ls
+: 1481444457:0;cat logo.svg
+: 1481444463:0;cat logo.svg || grep ellipse
+: 1481444478:0;cat logo.svg | grep ellipse
+: 1481444488:0;cat logo.svg | grep ellipse | cat
+: 1481444499:0;cat logo.svg | grep ellipse | grep "*"
+: 1481444501:0;cat logo.svg | grep ellipse | grep ".*"
+: 1481444638:0;cp logo.svg logo_noMat.svg
+: 1481444642:0;vim logo_noMat.svg
+: 1481444652:0;vim test.html
+: 1481444670:0;vim logo_noMat.svg
+: 1481444858:0;u
+: 1481444871:0;vim logo_noMat.svg
+: 1481445056:0;u
+: 1481445071:0;/bin/cat logo_noMat.svg
+: 1481445077:0;/bin/cat logo_noMat.svg | grep ellipse
+: 1481445087:0;/bin/cat logo_noMat.svg | grep ellipse | cut -d'\"'
+: 1481445089:0;/bin/cat logo_noMat.svg | grep ellipse | cut -d'"'
+: 1481445099:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f0 -d'"'
+: 1481445102:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 0 -d'"'
+: 1481445105:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 1 -d'"'
+: 1481445107:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2 -d'"'
+: 1481445110:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,3 -d'"'
+: 1481445115:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,3,4,5,6,7,8 -d'"'
+: 1481445118:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,3,4,5,6,7,8,9 -d'"'
+: 1481445128:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,3,4,5,6,8 -d'"'
+: 1481445142:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,4,5,6,8 -d'"'
+: 1481445151:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,4,6,8 -d'"'
+: 1481445168:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,4,6,8 -d'"' | tr '"' ' '
+: 1481445180:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,4 -d'"' | tr '"' ' '
+: 1481445192:0;/bin/cat logo_noMat.svg | grep ellipse | cut -f 2,4 -d'"' | tr '"' ' ' > coords_dots
+: 1481445206:0;/bin/cat logo_noMat.svg
+: 1481445212:0;/bin/cat logo_noMat.svg | grep -v ellipse
+: 1481445232:0;/bin/cat logo_noMat.svg | grep "line"
+: 1481445263:0;/bin/cat logo_noMat.svg | grep "line" > coords_lines
+: 1481445265:0;vim coords_lines
+: 1481445295:0;/bin/cat logo_noMat.svg | grep "line" > coords_lines
+: 1481445305:0;/bin/cat logo_noMat.svg | /bin/grep "line" > coords_lines
+: 1481445313:0;/bin/cat logo_noMat.svg | /usr/bin/grep "line" > coords_lines
+: 1481445316:0;vim coords_lines
+: 1481445711:0;clear
+: 1481445712:0;ls
+: 1481445718:0;vim lines.hs
+: 1481445842:0;runhaskell lines.hs < coords_lines
+: 1481446053:0;ls
+: 1481446056:0;vim coords_dots
+: 1481447201:0;q
+: 1481692862:0;cd ..
+: 1481692862:0;ls
+: 1481692876:0;vim rectSeries.hs
+: 1481696180:0;clear
+: 1481696180:0;s
+: 1481696185:0;mv rectSeries.hs Misc
+: 1481696186:0;clear
+: 1481696186:0;s
+: 1481696192:0;clear
+: 1481696196:0;mv Illustrator_Installer.dmg ~/Downloads
+: 1481696197:0;ls
+: 1481696203:0;rm Artificial-brain.zip
+: 1481696204:0;clear
+: 1481696204:0;ls
+: 1481698893:0;vim test.hs
+: 1481699134:0;ls
+: 1481699139:0;ghc test.hs
+: 1481699153:0;ghc -o testTrace test.hs
+: 1481699155:0;ls
+: 1481699168:0;time ./testTrace > /dev/null
+: 1481699174:0;clear
+: 1481699175:0;ls
+: 1481699190:0;time ./testTrace > 2&1> /dev/null
+: 1481699265:0;runhaskell test.hs 2>&1 > /dev/null
+: 1481699268:0;clear
+: 1481699308:0;runhaskell test.hs > /dev/null 2>&1
+: 1481699320:0;time ./testTrace > /dev/null 2>&1
+: 1481699359:0;time ./test > /dev/null 2>&1
+: 1481699387:0;ghc test.hs
+: 1481699391:0;time ./test > /dev/null 2>&1
+: 1481699398:0;ghc test.hs
+: 1481699401:0;time ./test > /dev/null 2>&1
+: 1481699448:0;ghc test.hs
+: 1481699451:0;time ./test > /dev/null 2>&1
+: 1481699464:0;ghc test.hs
+: 1481699469:0;time ./test > /dev/null 2>&1
+: 1481699488:0;ghc test.hs
+: 1481699491:0;time ./test > /dev/null 2>&1
+: 1481699534:0;ghc test.hs
+: 1481699537:0;time ./test > /dev/null 2>&1
+: 1481783134:0;q
+: 1481785537:0;ls
+: 1481785538:0;cq
+: 1481785540:0;q
+: 1481785542:0;cd Artificial-brain
+: 1481785542:0;ls
+: 1481785544:0;ls -la
+: 1481785556:0;ls -ls
+: 1481785558:0;ls -lsh
+: 1481786102:0;u
+: 1481786110:0;u *.svg *.png
+: 1481786117:0;whic hu
+: 1481786120:0;which u
+: 1481786126:0;du -hs *.svg *.png
+: 1481786451:0;pwd
+: 1481786781:0;open mix03.png
+: 1481786796:0;cd ..
+: 1481786797:0;ls
+: 1481786798:0;cd Projects
+: 1481786800:0;cd Jarvis
+: 1481786801:0;cd site
+: 1481786803:0;ls
+: 1481786805:0;cd public
+: 1481786805:0;ls
+: 1481786813:0;rm brainClear.png brainGraphic.png logo.png
+: 1481786815:0;ls
+: 1481786817:0;rm logo.svg
+: 1481786818:0;clear
+: 1481786818:0;s
+: 1481786826:0;vim ../client/main.
+: 1481786829:0;vim ../client/main.html
+: 1481786836:0;clear
+: 1481786836:0;s
+: 1481786839:0;a ../client/main.html
+: 1481786840:0;clear
+: 1481786840:0;s
+: 1481786846:0;d ../imports/ui/pages/landing.html
+: 1481786854:0;a ../imports/ui/pages/landing.html
+: 1481786863:0;d ../imports/ui/pages/subscribe.
+: 1481786866:0;d ../imports/ui/pages/subscribe.html
+: 1481786870:0;a ../imports/ui/pages/subscribe.html
+: 1481786871:0;clear
+: 1481786871:0;s
+: 1481786879:0;cd ..
+: 1481786888:0;grep -R "png" **
+: 1481786892:0;clear
+: 1481786892:0;s
+: 1481786901:0;grep -R "brain" **
+: 1481786909:0;grep -R "logo" **
+: 1481786913:0;clear
+: 1481786914:0;ls
+: 1481786917:0;grep -R "logo\." **
+: 1481786920:0;clear
+: 1481786934:0;grep -R "logo\." **
+: 1481786947:0;grep -R "logo\." ** | grep -v "node_modules"
+: 1481786952:0;clear
+: 1481786953:0;s
+: 1481786973:0;git rm public/brainClear.png public/brainGraphic.png public/logo.png
+: 1481786979:0;cd pub
+: 1481786983:0;cd public
+: 1481786984:0;ls
+: 1481786998:0;clear
+: 1481786998:0;ls
+: 1481787000:0;s
+: 1481787007:0;meteor
+: 1481787009:0;clear
+: 1481787010:0;ls
+: 1481787013:0;cd server
+: 1481787013:0;ls
+: 1481787014:0;cd ..
+: 1481787015:0;ls
+: 1481787017:0;cd client
+: 1481787017:0;ls
+: 1481787018:0;cd ..
+: 1481787019:0;clear
+: 1481787020:0;ls
+: 1481787030:0;meteor npm install --save bcrypt
+: 1481787036:0;mk public
+: 1481787044:0;q
+: 1481787046:0;ls
+: 1481787064:0;mv ~/Documents/Artificial-brain/logo_no_shadow_mini.svg logo.svg
+: 1481787077:0;vim logo.svg
+: 1481787233:0;cp logo.svg ~/Documents/Artificial-brain/logo_no_shadow_mini.svg logo.svg
+: 1481787238:0;cp logo.svg ~/Documents/Artificial-brain/logo_no_shadow_mini.svg
+: 1481787239:0;clear
+: 1481787240:0;ls
+: 1481787260:0;cp ~/Documents/Artificial-brain/logo_no_shadow.svg logo.svg
+: 1481787290:0;cp ../../../../Artificial-brain/logo_no_shadow_mini.svg logo_mini.svg
+: 1481787301:0;diff logo.svg logo_mini.svg
+: 1481787323:0;cp logo.svg logo.svg.mini
+: 1481787327:0;vim logo.svg.mini
+: 1481787384:0;mv logo.svg logo.svg.bak
+: 1481787390:0;mv logo.svg.mini logo.svg
+: 1481787398:0;diff logo.svg logo_mini.svg
+: 1481787419:0;ls
+: 1481787420:0;clear
+: 1481787420:0;ls
+: 1481787432:0;cp logo.svg logo.svg.mini.bak
+: 1481787432:0;ls
+: 1481787438:0;vim logo.svg
+: 1481787526:0;clear
+: 1481787526:0;ls
+: 1481787542:0;cp logo.svg ~/Documents/Artificial-brain/logo_no_shadow_mini.svg
+: 1481787544:0;ls
+: 1481787550:0;rm logo.svg.bak
+: 1481787552:0;ls
+: 1481787558:0;rm logo.svg.mini.bak
+: 1481787561:0;rm logo_mini.svg
+: 1481787562:0;clear
+: 1481787562:0;ls
+: 1481787565:0;cp logo.svg
+: 1481787569:0;cp logo.svg backup_logo
+: 1481787571:0;vim logo.svg
+: 1481787636:0;u
+: 1481787644:0;rm backup_logo
+: 1481787645:0;clear
+: 1481787645:0;s
+: 1481787648:0;cd ..
+: 1481787649:0;s
+: 1481787653:0;a public
+: 1481787655:0;s
+: 1481787656:0;clear
+: 1481787706:0;m "Replaced the logo with a minified svg version"
+: 1481787707:0;p
+: 1481787711:0;git pull
+: 1481787714:0;s
+: 1481787719:0;vim client/main.
+: 1481787721:0;vim client/main.html
+: 1481787736:0;clear
+: 1481787736:0;s
+: 1481787738:0;a client/main.html
+: 1481787739:0;s
+: 1481787742:0;vim client/main.html
+: 1481787793:0;vim imports/ui/pages/landing.html
+: 1481787848:0;clear
+: 1481787849:0;s
+: 1481787851:0;d
+: 1481787857:0;git checkout imports/ui/pages/landing.html
+: 1481787858:0;clear
+: 1481787858:0;s
+: 1481787861:0;d
+: 1481787863:0;s
+: 1481787867:0;git merge --continue
+: 1481787876:0;clear
+: 1481787878:0;s
+: 1481787883:0;git pull
+: 1481787891:0;D
+: 1481787940:0;s
+: 1481787947:0;git commit -m "Merged"
+: 1481787948:0;clear
+: 1481787948:0;s
+: 1481787949:0;git push
+: 1481787953:0;clear
+: 1481787954:0;s
+: 1481787954:0;q
+: 1481993011:0;cd
+: 1481993014:0;cd Documents
+: 1481993014:0;ls
+: 1481993018:0;cd Projects
+: 1481993019:0;ls
+: 1481993030:0;mkdir Extractor
+: 1481993032:0;cd Extractor
+: 1481993033:0;ls
+: 1481993033:0;.
+: 1481993039:0;touch manifest.json
+: 1481993045:0;touch popup.js
+: 1481993057:0;touch popup.html
+: 1481993057:0;.
+: 1481993338:0;touch icon.png
+: 1481993360:0;clear
+: 1481993360:0;ls
+: 1481993397:0;cat > manifest.json
+: 1481993401:0;vim manifest.json
+: 1481993634:0;q
+: 1482001935:0;ls
+: 1482001959:0;eslint content_script.js
+: 1482001964:0;eslint --init
+: 1482002023:0;eslint
+: 1482002029:0;eslint content_script.js
+: 1482002110:0;vim .eslintrc.js
+: 1482002117:0;eslint
+: 1482002122:0;eslint content_script.js
+: 1482002126:0;q
+: 1482033370:0;re
+: 1482033371:0;reboot
+: 1482034172:0;ls
+: 1482034176:0;rm ]
+: 1482034177:0;ls
+: 1482034177:0;.
+: 1482034178:0;ls
+: 1482034180:0;cd ..
+: 1482034180:0;clear
+: 1482034181:0;ls
+: 1482034183:0;cd ..
+: 1482034183:0;ls
+: 1482034184:0;clear
+: 1482034185:0;ls
+: 1482034186:0;rm 2
+: 1482034187:0;ls
+: 1482034187:0;.
+: 1482034194:0;rm test*
+: 1482034195:0;clear
+: 1482034196:0;ls
+: 1482034199:0;rm pxpp
+: 1482034201:0;clear
+: 1482034202:0;ls
+: 1482034204:0;rm www.kisspanda.net_17th_Dec_2016.csv
+: 1482034205:0;.
+: 1482034211:0;catimg Screenshot_20161215-210031.png
+: 1482034219:0;brew install ImageMagick
+: 1482034524:0;catimg Screenshot_20161215-210031.png
+: 1482034533:0;open Screenshot_20161215-210031.png
+: 1482034541:0;rm Screenshot_20161215-210031.png
+: 1482034541:0;.
+: 1482034545:0;rm Inbox\ â€ƒ³\ jp10010101010000@gmail.pdf
+: 1482034546:0;.
+: 1482034548:0;cd Misc
+: 1482034549:0;.
+: 1482034549:0;s
+: 1482034552:0;cd ..
+: 1482034553:0;clear
+: 1482034553:0;ls
+: 1482034557:0;cd Pro
+: 1482034559:0;cd Projects
+: 1482034559:0;.
+: 1482034560:0;s
+: 1482034568:0;q
+: 1482103817:0;vim test.hs
+: 1482103860:0;ls
+: 1482103865:0;which vim
+: 1482103868:0;which nvim
+: 1482103876:0;cd /usr/local/bin
+: 1482103880:0;u | grep nvim
+: 1482103883:0;vim nvim
+: 1482103900:0;q
+: 1482103921:0;cd ~/.config/nvim
+: 1482103922:0;u
+: 1482103924:0;cd ..
+: 1482103924:0;u
+: 1482122803:0;clear
+: 1482122804:0;s
+: 1482122810:0;clear
+: 1482122810:0;ls
+: 1482122811:0;d
+: 1482122815:0;clear
+: 1482122815:0;ls
+: 1482122817:0;cd nvim
+: 1482122818:0;ls
+: 1482122819:0;clear
+: 1482122819:0;s
+: 1482122821:0;d init.vim
+: 1482124370:0;ghci
+: 1482291230:0;clear
+: 1482291231:0;s
+: 1482291233:0;d init.vim
+: 1482291263:0;vim init.vim
+: 1482291295:0;clear
+: 1482291295:0;s
+: 1482291297:0;d init.vim
+: 1482292728:0;vim init.vim
+: 1482292733:0;s
+: 1482295938:0;clear
+: 1482295938:0;s
+: 1482295940:0;d init.vim
+: 1482295945:0;q
+: 1482296080:0;a init.vim
+: 1482296081:0;s
+: 1482296102:0;m "Improved term functions"
+: 1482296102:0;s
+: 1482296103:0;clear
+: 1482296104:0;s
+: 1482296105:0;cd ..
+: 1482296106:0;s
+: 1482296110:0;d zsh_history
+: 1482296143:0;git add zsh_history && git commit -m "More history" && git push
 : 1481591184:0;clear
 : 1481591184:0;s
 : 1481591190:0;git add .
@@ -23967,3 +24743,23 @@ mup init
 : 1482169417:0;s
 : 1482169420:0;git status
 : 1482169453:0;git add ../zsh_history&& git commit -m "Fixed zsh_history and tabstop default" && git push
+: 1482296214:0;s
+: 1482296216:0;clear
+: 1482296216:0;s
+: 1482296221:0;vim nvim/init.vim
+: 1482296251:0;clear
+: 1482296251:0;s
+: 1482296253:0;a nvim/init.vim
+: 1482296254:0;clear
+: 1482296254:0;s
+: 1482296257:0;a nvim
+: 1482296258:0;clear
+: 1482296258:0;s
+: 1482296266:0;git pull
+: 1482296271:0;vim zsh_history
+: 1482296282:0;clear
+: 1482296282:0;s
+: 1482296285:0;a zsh_history
+: 1482296286:0;clear
+: 1482296287:0;s
+: 1482296294:0;git add zsh_history && git commit -m "More history" && git push
