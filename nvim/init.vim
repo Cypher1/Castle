@@ -10,7 +10,6 @@ Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'chrisbra/csv.vim'                 " Tables
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
-Plug 'vim-scripts/a.vim'                " Move between .c and .h
 Plug 'rhysd/vim-clang-format'           " Formatting for Code
 Plug 'jlfwong/vim-arcanist'             " Arc integration
 Plug 'eagletmt/neco-ghc'                " Haskell Completion
@@ -18,6 +17,7 @@ Plug 'bitc/vim-hdevtools'               " Haskell Types
 Plug 'neovimhaskell/haskell-vim'        " Haskell Syntax
 Plug 'itchyny/vim-haskell-indent'       " Haskell Indent
 Plug 'mxw/vim-xhp'                      " Xhp indent and syntax
+Plug 'hhvm/vim-hack'                    " Hack type checking
 call plug#end()
 
 " Colour Scheme
@@ -26,6 +26,9 @@ set background=dark
 colorscheme solarized
 highlight Comment ctermfg=DarkMagenta
 highlight SignColumn ctermbg=black
+
+highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+match OverLength /\%81v.\+/
 
 " Status Information
 set cursorline ruler relativenumber number laststatus=4
@@ -60,8 +63,8 @@ au BufWritePre * :mkview
 au BufRead * :try|loadview|catch|endtry
 
 " Move (and move text) vertically on split lines
-map j gj
-map k gk
+nmap j gj
+nmap k gk
 "<A-j>
 nnoremap ∆ :m .+1<CR>==
 inoremap ∆ <Esc>:m .+1<CR>==gi
@@ -72,17 +75,17 @@ nnoremap Q q
 set nostartofline
 
 " Key mappings
-map <leader>r :mode<CR>
+nmap <leader>r :mode<CR>
 nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 au FileType c,cpp,javascript,java nnoremap <leader>i :ClangFormat<CR>
 if exists(':tnoremap')
-    tnoremap <Esc> <C-\><C-n>
+    tnoremap <C-e> <C-\><C-n>
 endif
-map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
+nmap <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
 " Haskell
 let g:haskell_indent_disable=0
-map <leader>t :HdevtoolsType<CR>
-map <leader>T :HdevtoolsClear<CR>
+nmap <leader>t :HdevtoolsType<CR>
+nmap <leader>T :HdevtoolsClear<CR>
 " Deoplete
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
@@ -100,20 +103,20 @@ nnoremap <leader>b :Gblame<CR>
 nnoremap <leader>v :Gmove
 
 " Control files
-map <leader>\ :vsp<space>
-map <leader>- :sp<space>
-map <leader>e :e<space>
-map <leader>n :bn<CR>
-map <leader>m :bp<CR>
-map <leader>q :Bclose<CR>
-map <leader>w :w<CR>
+nmap <leader>\ :vsp<space>
+nmap <leader>- :sp<space>
+nmap <leader>e :e<space>
+nmap <leader>n :bn<CR>
+nmap <leader>m :bp<CR>
+nmap <leader>q :Bclose<CR>
+nmap <leader>w :w<CR>
 
 " Splits
 set splitbelow splitright
-map <silent> <leader>h :wincmd h<CR>
-map <silent> <leader>j :wincmd j<CR>
-map <silent> <leader>k :wincmd k<CR>
-map <silent> <leader>l :wincmd l<CR>
+nmap <silent> <leader>h :wincmd h<CR>
+nmap <silent> <leader>j :wincmd j<CR>
+nmap <silent> <leader>k :wincmd k<CR>
+nmap <silent> <leader>l :wincmd l<CR>
 
 " NeoMake
 let g:neomake_rust_enabled_makers = ['cargo']
@@ -159,7 +162,7 @@ au BufWritePre,BufRead *.html :normal gg=G
 function! Chrome()
     !clear; exec chrome % &>/dev/null &
 endfunction
-au BufEnter *.md,*.markdown,*.html map <leader>p :call Chrome()<CR>
+au BufEnter *.md,*.markdown,*.html nmap <leader>p :call Chrome()<CR>
 
 " Program Options
 function! Vterm(filetype, call)
