@@ -24776,3 +24776,4259 @@ mup init
 : 1484769982:0;cd ..
 : 1484769983:0;s
 : 1484769987:0;a zsh_history
+: 1482169458:0;git status
+: 1482169461:0;git pull
+: 1482169463:0;clear
+: 1482169464:0;ls
+: 1482169465:0;s
+: 1482169466:0;cd ..
+: 1482169467:0;s
+: 1482169470:0;cd ..
+: 1482169478:0;vim .haxlsh
+: 1482169483:0;clear
+: 1482169483:0;s
+: 1482169492:0;vim .ghc/ghci_history
+: 1482170253:0;haxlsh
+: 1482170361:0;q
+: 1482171366:0;ls
+: 1482171370:0;git status
+: 1482171377:0;git rebase
+: 1482171381:0;git status
+: 1482171384:0;git log
+: 1482171391:0;.
+: 1482171553:0;clear
+: 1482171554:0;ls
+: 1482171556:0;git status
+: 1482172398:0;hc
+: 1482173051:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18
+: 1482173743:0;clear
+: 1482173746:0;arc unit
+: 1482173755:0;arc lint
+: 1482173771:0;git diff HEAD ^
+: 1482173773:0;git diff HEAD^
+: 1482173777:0;git status
+: 1482173780:0;arc diff
+: 1482173806:0;arc diff --update D4337444
+: 1482174241:0;arc diff
+: 1482174246:0;git diff
+: 1482174267:0;git diff HEAD^
+: 1482174799:0;q
+: 1482174813:0;clear
+: 1482174813:0;ls
+: 1482178804:0;echo $HOST
+: 1482179018:0;clear
+: 1482179019:0;ls
+: 1482179035:0;s
+: 1482179037:0;git status
+: 1482179039:0;git branch
+: 1482179097:0;git stash apply
+: 1482179099:0;s
+: 1482179110:0;cd ../../SentryEntShareCallback
+: 1482179111:0;clear
+: 1482179111:0;s
+: 1482179126:0;vim Policies.hs sentry_ent_share_callback.context Signals.hs
+: 1482179182:0;clear
+: 1482179183:0;haxlsh
+: 1482180285:0;git ustatus
+: 1482180286:0;git status
+: 1482180298:0;haxlconfig
+: 1482180306:0;haxlconfig add-policy
+: 1482180310:0;haxlconfig -h
+: 1482180315:0;haxlconfig policy
+: 1482180317:0;haxlconfig policy -h
+: 1482180320:0;haxlconfig policy add
+: 1482180342:0;haxlconfig policy add Policies.hs
+: 1482180361:0;haxlconfig policy add fftPostFrequencyResponseVector
+: 1482180371:0;haxlconfig policy add
+: 1482180374:0;cd ....
+: 1482180376:0;haxlconfig policy add
+: 1482180586:0;git diff
+: 1482180690:0;clear
+: 1482180690:0;s
+: 1482180694:0;d
+: 1482180842:0;q
+: 1482181092:0;cat sentry_ent_share_callback.context
+: 1482181254:0;q
+: 1482181318:0;hc
+: 1482181383:0;cd ....
+: 1482181385:0;hc
+: 1482182140:0;lc
+: 1482182150:0;lc > ~/out
+: 1482182152:0;exit
+: 1482182241:0;zrc
+: 1482182274:0;exec zsh
+: 1482182276:0;lc
+: 1482182297:0;clear
+: 1482182297:0;ls
+: 1482182298:0;clear
+: 1482182301:0;lc
+: 1482182303:0;exec zsh
+: 1482182304:0;lc
+: 1482182306:0;hc
+: 1482182326:0;clear
+: 1482182326:0;ls
+: 1482182338:0;cat out
+: 1482182348:0;lc > ~/out
+: 1482182350:0;cat ~?out
+: 1482182352:0;cat ~/out
+: 1482182354:0;exit
+: 1482182529:0;hc
+: 1482183031:0;find ~/sigma '.#*' -print0 
+: 1482183104:0;find '..*swp'
+: 1482183115:0;ls */**/*.swp'
+: 1482183118:0;ls '*/**/*.swp'
+: 1482183122:0;ls '**/*.swp'
+: 1482183125:0;ls '**/*.swo'
+: 1482183128:0;ls '**/*.hs'
+: 1482183131:0;ls '*/**/*.hs'
+: 1482183134:0;ls '*/**.hs'
+: 1482183139:0;ls */**.hs
+: 1482183142:0;ls */**.swp
+: 1482183144:0;ls */**.swo
+: 1482183193:0;lc
+: 1482183241:0;lc | cut -f2,3
+: 1482183246:0;lc | cut -f2,3 -d' '
+: 1482183250:0;lc | cut -f2,3 -d' ' | ls
+: 1482183257:0;ls `lc | cut -f2,3 -d' '`
+: 1482183325:0;haxlsh
+: 1482183364:0;vim ~/.haxlsh
+: 1482183379:0;hc
+: 1482183415:0;lc
+: 1482183419:0;q
+: 1482183955:0;hc
+: 1482188330:0;git diff
+: 1482188343:0;q
+: 1482190760:0;git status
+: 1482190762:0;d
+: 1482190770:0;git stash
+: 1482190770:0;git status
+: 1482190774:0;git diff HEAD^
+: 1482190777:0;clear
+: 1482190778:0;arc land
+: 1482190794:0;git stash apply
+: 1482190796:0;git status
+: 1482190797:0;clear
+: 1482190797:0;s
+: 1482190799:0;q
+: 1482192329:0;hc
+: 1482192433:0;ls
+: 1482192436:0;git status
+: 1482192486:0;cd Contexts/Sentry/SentryEntShareCallback/
+: 1482192487:0;ls
+: 1482192505:0;s
+: 1482192517:0;rm Policies.hs.html
+: 1482192518:0;clear
+: 1482192518:0;s
+: 1482192519:0;q
+: 1482195507:0;hc
+: 1482197299:0;clear
+: 1482197301:0;git status
+: 1482197308:0;git diff HEAD^
+: 1482197322:0;git stash
+: 1482197328:0;git diff HEAD^
+: 1482197334:0;git stash apply
+: 1482197366:0;vim ../Plans/SentryPlanInvite/Policies.hs Policies.hs
+: 1482197523:0;git status
+: 1482197528:0;d
+: 1482197541:0;clear
+: 1482197542:0;s
+: 1482197545:0;a Policies.hs sentry_ent_share_callback.context
+: 1482197546:0;clear
+: 1482197546:0;s
+: 1482197582:0;m "Added policy for high fftPostFrequency"
+: 1482197587:0;arc diff --create
+: 1482198031:0;clear
+: 1482198031:0;ls
+: 1482198033:0;git status
+: 1482198035:0;a Policies.hs
+: 1482198036:0;clear
+: 1482198036:0;s
+: 1482198107:0;git reset HEAD~
+: 1482198108:0;s
+: 1482198110:0;clear
+: 1482198110:0;s
+: 1482198111:0;d
+: 1482198118:0;clear
+: 1482198203:0;hc
+: 1482202607:0;clear
+: 1482202609:0;hc
+: 1482202930:0;cd ..
+: 1482202931:0;..
+: 1482202934:0;vim test.hs
+: 1482202973:0;ghc ./test.hs
+: 1482202979:0;vim test.hs
+: 1482203003:0;ghc test.hs
+: 1482203018:0;haxlsh ./test.hs
+: 1482203145:0;clear
+: 1482203145:0;ls
+: 1482203150:0;rm test.hs
+: 1482203151:0;clear
+: 1482203152:0;s
+: 1482203153:0;clear
+: 1482203154:0;s
+: 1482203156:0;git status
+: 1482203157:0;clear
+: 1482203158:0;d
+: 1482203162:0;q
+: 1482204533:0;hc
+: 1482204914:0;clear
+: 1482204914:0;s
+: 1482204917:0;d
+: 1482204921:0;clear
+: 1482204921:0;s
+: 1482205012:0;d
+: 1482205020:0;q
+: 1482205021:0;git commit -m "Added policy for logging ent_share data to scuba a portion of the time, can be modified to focus on shares with certain information or using a biasedCoin (currently set to 10%)"
+: 1482205033:0;git add .
+: 1482205034:0;clear
+: 1482205034:0;s
+: 1482205038:0;git commit --amend
+: 1482205056:0;git commit -m "Added policy for logging ent_share data to scuba a portion of the time, can be modified to focus on shares with certain information or using a biasedCoin (currently set to 10%)"
+: 1482205058:0;git status
+: 1482205063:0;s
+: 1482205069:0;git og
+: 1482205071:0;git log
+: 1482205082:0;git reset HEAD~
+: 1482205083:0;clear
+: 1482205083:0;s
+: 1482205089:0;git add ../Plans/
+: 1482205090:0;s
+: 1482205109:0;git log
+: 1482205117:0;clear
+: 1482205118:0;s
+: 1482205162:0;git commit -m "Added a threshold for num_invites for Invite to Rejection ratio policy"
+: 1482205163:0;s
+: 1482205166:0;git add Policies.hs
+: 1482205169:0;git add sentry_ent_share_callback.context
+: 1482205169:0;clear
+: 1482205170:0;s
+: 1482205175:0;git commit -m "Added policy for logging ent_share data to scuba a portion of the time, can be modified to focus on shares with certain information or using a biasedCoin (currently set to 10%)"
+: 1482205176:0;s
+: 1482205177:0;clear
+: 1482205177:0;s
+: 1482205198:0;arc diff --create
+: 1482205293:0;clear
+: 1482205294:0;q
+: 1482205311:0;clear
+: 1482205311:0;s
+: 1482205313:0;q
+: 1482254051:0;clear
+: 1482254052:0;ls
+: 1482254054:0;clear
+: 1482254054:0;s
+: 1482254283:0;haxlsh
+: 1482255228:0;git status
+: 1482255234:0;git diff HEAD^
+: 1482255253:0;vi, Contexts/Sentry/SentryEntShareCallback/Policies.hs
+: 1482255273:0;vim Contexts/Sentry/SentryEntShareCallback/Policies.hs
+: 1482255716:0;vim
+: 1482255769:0;haxlsh
+: 1482256503:0;hc
+: 1482258856:0;clear
+: 1482258856:0;s
+: 1482258858:0;d
+: 1482258867:0;git commit --amend
+: 1482258875:0;arc diff --update
+: 1482258888:0;arc diff --update D4350922
+: 1482258896:0;git status
+: 1482258899:0;a Contexts/
+: 1482258902:0;git commit --amend
+: 1482258909:0;arc diff --update D4350922
+: 1482259173:0;arc diff --update D4350922 --trace
+: 1482259253:0;vim Contexts/Sentry/SentryEntShareCallback/sentry_ent_share_callback.context
+: 1482259265:0;a Contexts/
+: 1482259266:0;clear
+: 1482259266:0;s
+: 1482259268:0;clear
+: 1482259272:0;git commit --amend
+: 1482259460:0;ls
+: 1482259464:0;cd ..
+: 1482259466:0;cd dataswarm-hg
+: 1482259466:0;ls
+: 1482259467:0;clear
+: 1482259468:0;hg status
+: 1482259472:0;hg diff
+: 1482259520:0;hg status --no-status
+: 1482259529:0;vim `hg status --no-status`
+: 1482259553:0;hg status
+: 1482259557:0;hg diff
+: 1482259566:0;git commit --amend
+: 1482259575:0;hg status
+: 1482259583:0;hg githelp commit --amend
+: 1482259589:0;hg githelp git commit --amend
+: 1482259606:0;hg githelp "git commit --amend"
+: 1482259620:0;hg commit --amend
+: 1482259628:0;hg status
+: 1482259631:0;hg diff
+: 1482259632:0;hg sl
+: 1482259645:0;arc diff --update D4331951
+: 1482260729:0;hg sl
+: 1482260737:0;hg diff .^
+: 1482260743:0;hg diff ^.
+: 1482260768:0;hg githelp git diff HEAD^
+: 1482260784:0;hg diff -r .^
+: 1482260789:0;clear
+: 1482260789:0;s
+: 1482260792:0;hg sl
+: 1482260795:0;hg rebase
+: 1482260797:0;hg pull
+: 1482260807:0;hg sl
+: 1482260835:0;hg rebase -d remote/master -s ent_share_callback_segmentation
+: 1482260842:0;hg sl
+: 1482260850:0;hg diff -r .^
+: 1482260855:0;clear
+: 1482261090:0;arc unit
+: 1482261422:0;ghci
+: 1482262393:0;clear
+: 1482262394:0;s
+: 1482262395:0;git status
+: 1482262399:0;hg status
+: 1482262401:0;hg sl
+: 1482262408:0;git status
+: 1482262419:0;clear
+: 1482262421:0;arc sl
+: 1482262423:0;clear
+: 1482262423:0;ls
+: 1482262426:0;git sl
+: 1482262432:0;clear
+: 1482263962:0;ghci
+: 1482263972:0;vim test.hs
+: 1482267542:0;ls
+: 1482267555:0;mv test.hs ~/testMap_.hs
+: 1482267557:0;clear
+: 1482267558:0;ls
+: 1482267563:0;cat risk_graceperiod_spend_daily.py
+: 1482267564:0;clear
+: 1482267565:0;ls
+: 1482267690:0;cd ../www-hg
+: 1482267690:0;ls
+: 1482267691:0;clear
+: 1482267691:0;s
+: 1482267700:0;q
+: 1482267730:0;cd flib/intern/si/clustering/nfx_segmentation_clister/
+: 1482267734:0;cd flib/intern/si/clustering/nfx_segmentation_cluster
+: 1482267760:0;cd flib/intern/si/clustering/
+: 1482267786:0;clear
+: 1482267787:0;ls
+: 1482267789:0;cd nfx_segmentation_cluster
+: 1482267790:0;clear
+: 1482267790:0;ls
+: 1482267797:0;vim NFXSegmentationClusterScheduler.php NFXSegmentationClusterTask.php __tests__
+: 1482268609:0;arc unit
+: 1482269850:0;cd ..
+: 1482269851:0;ls
+: 1482269998:0;cd acdc
+: 1482269998:0;ls
+: 1482270001:0;cd ..
+: 1482270003:0;clear
+: 1482270003:0;ls
+: 1482270006:0;cd generic_temporal_cluster
+: 1482270006:0;ls
+: 1482270007:0;cd ..
+: 1482270008:0;clear
+: 1482270009:0;ls
+: 1482270011:0;cd nfx_segmentation_cluster
+: 1482270012:0;ls
+: 1482270021:0;wc -l *
+: 1482270031:0;wc -l */*
+: 1482270036:0;wc -l */* *
+: 1482270519:0;ls
+: 1482270542:0;arc pull
+: 1482270664:0;hg status
+: 1482270683:0;hg sl
+: 1482270686:0;clear
+: 1482270688:0;hg sl
+: 1482270707:0;arc help
+: 1482270726:0;arc cleanup-feature
+: 1482270733:0;clear
+: 1482270735:0;hg sl
+: 1482270742:0;hg up
+: 1482270747:0;hg update remote/master
+: 1482270752:0;hg sl
+: 1482270758:0;clear
+: 1482270759:0;ls
+: 1482270762:0;vim SV_SI_NFX_SEGMENTATION_CLUSTER_CONFIG.php
+: 1482270824:0;cd ..
+: 1482270825:0;ls
+: 1482270843:0;cp -R nfx_segmentation_cluster fft_segmentation_cluster
+: 1482270845:0;cd fft_segmentation_cluster
+: 1482270846:0;ls
+: 1482270850:0;man rename
+: 1482270891:0;rename 'NFX' 'FFT' NFX*
+: 1482270892:0;ls
+: 1482270899:0;rename 'NFX' 'FFT' *NFX*
+: 1482270900:0;ls
+: 1482270906:0;ls __tests__
+: 1482270910:0;cd __tests__
+: 1482270913:0;rename 'NFX' 'FFT' *NFX*
+: 1482270914:0;clear
+: 1482270914:0;ls
+: 1482270918:0;vim *
+: 1482270965:0;ls
+: 1482270971:0;cd ..
+: 1482270972:0;vim *
+: 1482271010:0;q
+: 1482271015:0;clear
+: 1482271017:0;cd ../fft_segmentation_cluster
+: 1482271018:0;clear
+: 1482271018:0;ls
+: 1482271020:0;vim *
+: 1482271122:0;clear
+: 1482271122:0;s
+: 1482271139:0;d
+: 1482271142:0;hg diff
+: 1482271152:0;hg add .
+: 1482271158:0;hg diff
+: 1482271171:0;clear
+: 1482271171:0;ls
+: 1482271178:0;vim *
+: 1482271329:0;cd ~/.config
+: 1482271329:0;ls
+: 1482271334:0;cd ../.build
+: 1482271336:0;ls
+: 1482271339:0;cd neovim
+: 1482271340:0;ls
+: 1482271341:0;clear
+: 1482271341:0;ls
+: 1482271344:0;vim Makefile
+: 1482271368:0;q
+: 1482272874:0;clear
+: 1482272874:0;ls
+: 1482272884:0;vim FFTSegmentationClusterScheduler.php FFTSegmentationClusterTask.php
+: 1482273225:0;ls
+: 1482273230:0;hphpd
+: 1482273240:0;hphpd -h localhost
+: 1482273792:0;hg shelve --h
+: 1482273968:0;q
+: 1482274157:0;cd www
+: 1482274162:0;cd ~/local/www
+: 1482274163:0;ls
+: 1482274166:0;cd www-hg
+: 1482274167:0;clear
+: 1482274167:0;ls
+: 1482274175:0;hg diff -r .^
+: 1482274192:0;clear
+: 1482274193:0;hg status
+: 1482274258:0;cd flib/thrift/lib/cf/si/generic_clustering/segment_id_cluster.thrift
+: 1482274258:0;ls
+: 1482274261:0;vim segment_id_cluster_types.php
+: 1482274635:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift
+: 1482274751:0;....
+: 1482274753:0;...
+: 1482274755:0;..
+: 1482274760:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift
+: 1482274814:0;arc pull
+: 1482274818:0;arc shelve
+: 1482274823:0;hg shelve
+: 1482276942:0;arc pull
+: 1482276982:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift
+: 1482277038:0;~/local/www-hg/scripts/thrift/update_flib_files.php --help cf:si/generic_clustering/generic_cluster.thrift
+: 1482277090:0;hg pull
+: 1482277103:0;~/local/www-hg/scripts/thrift/update_flib_files.php --help cf:si/generic_clustering/generic_cluster.thrift
+: 1482277111:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift
+: 1482277347:0;/home/jopra/local/www-hg/scripts/thrift/update_flib_files.php --help
+: 1482277367:0;~/local/www-hg/scripts/thrift/update_flib_files.php -r cf:si/generic_clustering/generic_cluster.thrift
+: 1482277406:0;ls ..
+: 1482277427:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift --sigma=../si_sigma
+: 1482277449:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift --sigma=~/local/si_sigma
+: 1482277474:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift
+: 1482277529:0;vim
+: 1482277539:0;ls
+: 1482277544:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift
+: 1482277549:0;cd ..
+: 1482277552:0;cd si_sigma
+: 1482277552:0;ls
+: 1482277569:0;cd Gen
+: 1482277570:0;ls
+: 1482277615:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/plan_post_cluster.thrift
+: 1482277672:0;cd ..
+: 1482277764:0;cd flib/intern/thrift/maps
+: 1482277765:0;ls
+: 1482277900:0;lswd
+: 1482277902:0;pwd
+: 1482278029:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/plan_post_cluster.thrift
+: 1482278050:0;~/local/www-hg/scripts/thrift/update_flib_files.php cf:si/generic_clustering/generic_cluster.thrift
+: 1482278096:0;hg status
+: 1482278101:0;cd ...
+: 1482278105:0;hg status
+: 1482278109:0;cd ..
+: 1482278120:0;hg add thrift
+: 1482278125:0;hg status
+: 1482278135:0;hg diff
+: 1482278270:0;clear
+: 1482278271:0;s
+: 1482278333:0;exec zsh
+: 1482278334:0;s
+: 1482278542:0;hg commit -m "Updated thrift files"
+: 1482278551:0;arc unit
+: 1482278557:0;cd ../www-hg
+: 1482278560:0;arc lint
+: 1482279305:0;arc diff
+: 1482282251:0;q
+: 1482282687:0;hphpd -h localhost
+: 1482283270:0;cd ..
+: 1482283271:0;cd 
+: 1482283348:0;cd www
+: 1482283351:0;ls
+: 1482283355:0;cd flib
+: 1482283355:0;ls
+: 1482283384:0;cd si
+: 1482283385:0;clear
+: 1482283386:0;ls
+: 1482283413:0;cd clustering
+: 1482283414:0;ls
+: 1482283416:0;cd ..
+: 1482283417:0;clear
+: 1482283418:0;ls
+: 1482283423:0;cd cluste
+: 1482283424:0;cd cluster
+: 1482283425:0;ls
+: 1482283427:0;cd ..
+: 1482283427:0;ls
+: 1482283429:0;clear
+: 1482283429:0;ls
+: 1482283431:0;cd ..
+: 1482283432:0;clear
+: 1482283432:0;ls
+: 1482283439:0;cd clustering
+: 1482283439:0;ls
+: 1482283441:0;cd ..
+: 1482283442:0;clear
+: 1482283442:0;ls
+: 1482283459:0;q
+: 1482283472:0;pwd
+: 1482283477:0;hg status
+: 1482283481:0;pwd
+: 1482283483:0;cd ..
+: 1482283484:0;pwd
+: 1482283486:0;hg status
+: 1482283491:0;ls
+: 1482283497:0;clear
+: 1482283502:0;hg unshelve
+: 1482283528:0;hg status
+: 1482283589:0;mkdir fft_segmentation_cluster
+: 1482283591:0;ls
+: 1482283592:0;cd fft_segmentation_cluster
+: 1482283593:0;s
+: 1482283630:0;hg sl
+: 1482283679:0;hg bookmark clustering_segments_php
+: 1482283684:0;hg sl
+: 1482283694:0;hg rebase -d remote/master -s clustering_segments_php
+: 1482283698:0;hg shelve
+: 1482283714:0;cd ..
+: 1482283717:0;hg rebase -d remote/master -s clustering_segments_php
+: 1482283770:0;hg unshelve
+: 1482283793:0;cd fft_segmentation_cluster
+: 1482283852:0;hg sl
+: 1482283860:0;clear
+: 1482283860:0;s
+: 1482283886:0;cd ..
+: 1482283887:0;clear
+: 1482283888:0;ls
+: 1482283901:0;cd generic_temporal_cluster
+: 1482283902:0;ls
+: 1482283922:0;vim GTC*
+: 1482284038:0;hphpd -h localhost
+: 1482340185:0;clear
+: 1482340185:0;ls
+: 1482340186:0;cd ....
+: 1482340188:0;..
+: 1482340196:0;cd si_sigma
+: 1482340197:0;cd Con
+: 1482340201:0;cd Contexts
+: 1482340208:0;cd Sentry/SentryEntShareCallback
+: 1482340211:0;vim Policies.hs
+: 1482341018:0;hc
+: 1482345227:0;arc unit
+: 1482345230:0;arc lint
+: 1482345269:0;hg status
+: 1482345270:0;s
+: 1482345272:0;git diff
+: 1482345289:0;clear
+: 1482345289:0;s
+: 1482345291:0;a Policies.hs
+: 1482345292:0;s
+: 1482345303:0;git commit --amend
+: 1482345321:0;arc diff --update D4350922
+: 1482345400:0;clear
+: 1482345400:0;s
+: 1482346167:0;ls
+: 1482346168:0;clear
+: 1482346168:0;s
+: 1482349097:0;git pull
+: 1482349105:0;clear
+: 1482349105:0;s
+: 1482349106:0;d
+: 1482349110:0;git diff HEAD^
+: 1482349124:0;clear
+: 1482349124:0;s
+: 1482349132:0;git reset
+: 1482349135:0;git status
+: 1482349141:0;git reset HEAD~
+: 1482349143:0;clear
+: 1482349143:0;s
+: 1482349164:0;git stash
+: 1482349166:0;clear
+: 1482349166:0;s
+: 1482349168:0;git stash
+: 1482349170:0;s
+: 1482349172:0;cd ....
+: 1482349173:0;s
+: 1482349175:0;git stash
+: 1482349176:0;clear
+: 1482349177:0;s
+: 1482349186:0;git reset origin/master
+: 1482349188:0;clear
+: 1482349188:0;s
+: 1482349190:0;clear
+: 1482349190:0;s
+: 1482349192:0;git stash
+: 1482349194:0;clear
+: 1482349194:0;s
+: 1482349203:0;clear
+: 1482349203:0;s
+: 1482349249:0;git checkout origin/master
+: 1482349254:0;git status
+: 1482349261:0;git add .
+: 1482349263:0;git stash
+: 1482349264:0;clear
+: 1482349264:0;s
+: 1482349266:0;git status
+: 1482349267:0;s
+: 1482349271:0;git branch
+: 1482349276:0;git branch master
+: 1482349279:0;git checkout master
+: 1482349283:0;git status
+: 1482349289:0;git pull
+: 1482349304:0;clear
+: 1482349304:0;s
+: 1482349308:0;git branch
+: 1482349315:0;git checkout user_plan_join
+: 1482349316:0;s
+: 1482349322:0;git status
+: 1482349325:0;git diff HEAD^
+: 1482349338:0;clear
+: 1482349338:0;ls
+: 1482349340:0;git log
+: 1482349343:0;git sl
+: 1482349350:0;clear
+: 1482349354:0;git checkout master
+: 1482349358:0;git branch -d user_plan_join
+: 1482349375:0;git branch user_plan_join
+: 1482349398:0;cat > Contexts/Sentry/SentryEntShareCallback/Policies.hs
+: 1482349503:0;cat > Contexts/Sentry/SentryEntShareCallback/sentry_ent_share_callback.context
+: 1482349508:0;clear
+: 1482349508:0;s
+: 1482349552:0;hc
+: 1482349553:0;s
+: 1482349554:0;clear
+: 1482349554:0;s
+: 1482349556:0;git stash
+: 1482349558:0;git pull
+: 1482349563:0;git stash apply
+: 1482349565:0;clear
+: 1482349565:0;s
+: 1482349579:0;git add .
+: 1482349581:0;clear
+: 1482349581:0;s
+: 1482349605:0;cd Contexts/Sentry/SentryEntShareCallback/
+: 1482349605:0;s
+: 1482349606:0;d
+: 1482349607:0;D
+: 1482349611:0;git diff HEAD^
+: 1482349654:0;git diff HEAD^ > diff
+: 1482349660:0;vim diff Policies.hs
+: 1482349751:0;rm diff
+: 1482349752:0;clea
+: 1482349752:0;s
+: 1482349754:0;clear
+: 1482349754:0;s
+: 1482349760:0;git status
+: 1482349762:0;git diff
+: 1482349764:0;git diff HEAD
+: 1482349783:0;git status
+: 1482349787:0;git stash
+: 1482349858:0;git apply ~/diff.diff
+: 1482349862:0;cd ...
+: 1482349864:0;..
+: 1482349866:0;git apply ~/diff.diff
+: 1482349868:0;clear
+: 1482349868:0;s
+: 1482349895:0;git apply ~/diff.diff
+: 1482349901:0;vim ~/diff.diff
+: 1482349919:0;clear
+: 1482349919:0;s
+: 1482349922:0;git diff
+: 1482349964:0;git apply --reject --whitespace=fix  ~/diff.diff
+: 1482349972:0;git -am resolved
+: 1482349974:0;clear
+: 1482349975:0;s
+: 1482349987:0;cd Contexts/Sentry/SentryEntShareCallback
+: 1482349988:0;clear
+: 1482349989:0;s
+: 1482350043:0;q
+: 1482350053:0;q
+: 1482353764:0;clear
+: 1482353764:0;s
+: 1482353766:0;git status
+: 1482353806:0;git sl
+: 1482353818:0;git commit -m "Added policy for logging ent_share data to scuba a portion of the time, can be modified to focus on shares with certain information or using a biasedCoin (currently set to 10%)"
+: 1482353820:0;s
+: 1482353828:0;git commit -am "Added policy for logging ent_share data to scuba a portion of the time, can be modified to focus on shares with certain information or using a biasedCoin (currently set to 10%)"
+: 1482353829:0;c;ear
+: 1482353830:0;s
+: 1482353831:0;clear
+: 1482353831:0;s
+: 1482353833:0;q
+: 1482355293:0;hphpd -h localhost
+: 1482355566:0;clear
+: 1482355571:0;cd ~/local
+: 1482355571:0;ls
+: 1482355573:0;cd data
+: 1482355580:0;cd dataswarm-hg
+: 1482355581:0;.
+: 1482355588:0;git diff HEAD^
+: 1482355594:0;hg diff -r .^
+: 1482355607:0;cd tasks/si/fft_labels/content
+: 1482355609:0;vim segment_data.py
+: 1482358980:0;ls
+: 1482358996:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18 --local-run
+: 1482358999:0;cd ...
+: 1482359001:0;..
+: 1482359003:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18 --local-run
+: 1482359422:0;when-changed tasks/si/fft_labels/content/segment_data.py -c "./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18 --local-run"
+: 1482359440:0;watch "./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18 --local-run"
+: 1482359653:0;clear
+: 1482359655:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18 --local-run
+: 1482359706:0;clear
+: 1482359706:0;ls
+: 1482359817:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18 --local-run
+: 1482360417:0;ls
+: 1482360426:0;cd /tmp
+: 1482360427:0;ls
+: 1482360437:0;ls | grep tsv
+: 1482361167:0;cd /mnt/dstmp/dataswarm/si
+: 1482361167:0;ls
+: 1482361170:0;cd tmp
+: 1482361170:0;ls
+: 1482361177:0;clear
+: 1482361203:0;ls | grep "preserve_with_seg_id"
+: 1482361796:0;ls
+: 1482361813:0;head xray_uo_nudity_proactive_photo
+: 1482361820:0;clear
+: 1482361824:0;head xray_uo_nudity_proactive_linkshare
+: 1482361826:0;clear
+: 1482361826:0;ls
+: 1482361830:0;clear
+: 1482361832:0;ls | head
+: 1482361844:0;head acc_int_checkpoints_delta_unenroll.2016-12-06
+: 1482361847:0;clear
+: 1482361848:0;.
+: 1482361850:0;clear
+: 1482361854:0;ls | grep "preserve_with_seg_id"
+: 1482363820:0;ls
+: 1482363863:0;cd ...
+: 1482363865:0;cd ..
+: 1482363866:0;cd ~
+: 1482363868:0;cd local
+: 1482363869:0;ls
+: 1482363870:0;cd www-hg
+: 1482363871:0;ls
+: 1482363878:0;hg status
+: 1482363894:0;cd flib/intern/si/clustering/fft_segmentation_cluster
+: 1482363896:0;clear
+: 1482363896:0;s
+: 1482363902:0;s | cat
+: 1482363932:0;vim FFTSegmentationClusterScheduler.php /tmp/test_data.tsv\~
+: 1482364026:0;hphpd -h localhost
+: 1482364198:0;ps =ef | grep hphpd
+: 1482364207:0;ps hphpd
+: 1482364213:0;ps -ef | grep hphpd
+: 1482364224:0;pkill 2543426
+: 1482364226:0;ps -ef | grep hphpd
+: 1482364234:0;kill -9 2543426
+: 1482364237:0;hphpd -h localhost
+: 1482364279:0;cd ..
+: 1482364282:0;arc rebuild
+: 1482367700:0;vim FFTSegmentationClusterScheduler.php /tmp/test_data.tsv\~
+: 1482368161:0;hphpd -h localhost
+: 1482371169:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18
+: 1482371660:0;cd /mnt/dataswar
+: 1482371662:0;cd /mnt/dataswarm
+: 1482371663:0;ls
+: 1482371666:0;cd tmp
+: 1482371667:0;ls
+: 1482371754:0;cd ...
+: 1482371758:0;cd dstmp
+: 1482371758:0;ls
+: 1482371761:0;cd dataswarm
+: 1482371764:0;cd si
+: 1482371766:0;clear
+: 1482371766:0;ls
+: 1482371768:0;cd tmp
+: 1482371768:0;ls
+: 1482371771:0;clear
+: 1482371773:0;ls | grep "preserve_with_seg_id"
+: 1482381127:0;q
+: 1482381137:0;ls | grep "preserve_with_seg_id"
+: 1482426261:0;ls | grep "seg"
+: 1482426359:0;hive --namespace si
+: 1482426399:0;lear
+: 1482426400:0;clear
+: 1482426401:0;ls
+: 1482426403:0;q
+: 1482426994:0;ls
+: 1482426996:0;clear
+: 1482426997:0;cd ..
+: 1482426998:0;..
+: 1482427000:0;cd
+: 1482427001:0;.
+: 1482427003:0;cd datasw
+: 1482427004:0;s
+: 1482427010:0;cd dataswarm
+: 1482427010:0;.
+: 1482427012:0;s
+: 1482427019:0;cd tasks/si/fft_labels/content
+: 1482427022:0;vim segment_data.py
+: 1482427091:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18
+: 1482427095:0;cd ...
+: 1482427097:0;...
+: 1482427099:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18
+: 1482427548:0;ls
+: 1482427555:0;cd ../si_sigma
+: 1482427556:0;.
+: 1482427556:0;s
+: 1482427562:0;git diff HEAD^
+: 1482427582:0;cd Contexts/Sentry/SentryEntShareCallback
+: 1482427583:0;clear
+: 1482427583:0;s
+: 1482427586:0;ls
+: 1482427590:0;vim Policies.hs
+: 1482427932:0;hc
+: 1482430108:0;cd -
+: 1482430110:0;clear
+: 1482430110:0;s
+: 1482430111:0;cd -2
+: 1482430114:0;vim segment_data.py
+: 1482430122:0;cd ..
+: 1482430123:0;..
+: 1482430125:0;clear
+: 1482430125:0;s
+: 1482430228:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18 --local-run
+: 1482430330:0;s
+: 1482430333:0;a Policies.hs
+: 1482430336:0;git commit --amend
+: 1482430341:0;clear
+: 1482430341:0;s
+: 1482433097:0;d
+: 1482434187:0;clear
+: 1482434187:0;s
+: 1482434189:0;d
+: 1482434205:0;a Policies.hs
+: 1482434206:0;clear
+: 1482434206:0;s
+: 1482434207:0;d
+: 1482434209:0;D
+: 1482434213:0;git diff HEAD^
+: 1482434220:0;clear
+: 1482434220:0;s
+: 1482434224:0;arc unit
+: 1482434227:0;arc lint
+: 1482434385:0;clear
+: 1482434389:0;arc lint
+: 1482435596:0;c
+: 1482435598:0;arc lint
+: 1482435604:0;clear
+: 1482435604:0;s
+: 1482435606:0;a Policies.hs
+: 1482435607:0;clear
+: 1482435607:0;s
+: 1482435710:0;git commit --amend
+: 1482435714:0;clear
+: 1482435714:0;s
+: 1482435913:0;arc diff --update D4350922
+: 1482435995:0;arc lint
+: 1482438436:0;s
+: 1482438439:0;clear
+: 1482438439:0;s
+: 1482438441:0;q
+: 1482438500:0;arc lint
+: 1482438637:0;q
+: 1482439385:0;clear
+: 1482439385:0;s
+: 1482439386:0;q
+: 1482439772:0;ls
+: 1482439773:0;s
+: 1482439774:0;clear
+: 1482439775:0;s
+: 1482444330:0;ls /mnt/dstmp/dataswarm/si/tmp/
+: 1482444337:0;clear
+: 1482444338:0;ls
+: 1482444341:0;s
+: 1482444342:0;d
+: 1482444348:0;zrc
+: 1482444380:0;exec zsh
+: 1482444382:0;clear
+: 1482444382:0;d
+: 1482445407:0;ls
+: 1482445407:0;s
+: 1482445408:0;clear
+: 1482445409:0;ls
+: 1482445495:0;cd /mnt/
+: 1482445496:0;ls
+: 1482445499:0;cd dataswarm
+: 1482445499:0;ls
+: 1482445501:0;cd tmp
+: 1482445501:0;ls
+: 1482445504:0;clear
+: 1482445505:0;ls
+: 1482445507:0;cd ..
+: 1482445512:0;..
+: 1482445513:0;clear
+: 1482445513:0;ls
+: 1482445519:0;cd dstmp
+: 1482445519:0;ls
+: 1482445525:0;cd dataswarm
+: 1482445525:0;s
+: 1482445527:0;ls
+: 1482445539:0;clear
+: 1482445540:0;ls
+: 1482445545:0;cd ..
+: 1482445547:0;..
+: 1482445548:0;clear
+: 1482445548:0;ls
+: 1482445572:0;clear
+: 1482445601:0;ls **/* | grep "bad_segments.tsv"
+: 1482445618:0;ls **/* | grep data
+: 1482445683:0;clear
+: 1482445684:0;ls
+: 1482445693:0;clear
+: 1482445694:0;ls
+: 1482445705:0;ls ** | grep "bad_segments.tsv"
+: 1482445724:0;sudo ls ** | grep "bad_segments.tsv"
+: 1482445729:0;clear
+: 1482445731:0;ls ** | grep "bad_segments.tsv"
+: 1482445733:0;ls
+: 1482445749:0;cd ~/local/dataswarm
+: 1482445753:0;cd ~/local/dataswarm-hg
+: 1482445758:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18
+: 1482445771:0;ls
+: 1482445793:0;:mode
+: 1482447863:0;ghci
+: 1482448111:0;s
+: 1482448118:0;cd tasks/si/fft_labels/content
+: 1482448119:0;clear
+: 1482448119:0;ls
+: 1482448128:0;git status
+: 1482448130:0;hg status
+: 1482448145:0;pylint segment_data.py
+: 1482448157:0;.....
+: 1482448160:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18 --local-run
+: 1482448177:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-18
+: 1482448638:0;./tester si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file] 2016-12-21
+: 1482448656:0;./tester' si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1482448662:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1482448674:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21
+: 1482448965:0;clear
+: 1482448965:0;ls
+: 1482448973:0;cd /mnt/dstmp/
+: 1482448989:0;cat dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482449009:0;cd -2
+: 1482449012:0;cd -
+: 1482449015:0;cd -1
+: 1482449018:0;cd ...
+: 1482449019:0;..
+: 1482449024:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1482451524:0;s
+: 1482451525:0;clear
+: 1482451525:0;s
+: 1482451528:0;jobs
+: 1482451532:0;ps -ef
+: 1482451538:0;ps -ef | hive
+: 1482451549:0;ps -ef | grep python
+: 1482451566:0;ps -ef | wc -l
+: 1482451572:0;ps -ef | grep python | wc -l
+: 1482451619:0;clear
+: 1482451620:0;s
+: 1482451623:0;cd ~/.config
+: 1482451623:0;s
+: 1482451627:0;cd nvim
+: 1482451627:0;s
+: 1482451635:0;cd ~/.oh-my-zsh
+: 1482451635:0;s
+: 1482451637:0;d
+: 1482451642:0;clear
+: 1482451642:0;s
+: 1482451648:0;a plugins/
+: 1482451649:0;s
+: 1482451651:0;rm .oh-my-zsh
+: 1482451658:0;rm -rf .oh-my-zsh
+: 1482451659:0;clear
+: 1482451659:0;s
+: 1482451675:0;m "plugin updates"
+: 1482451676:0;clear
+: 1482451676:0;s
+: 1482451677:0;d
+: 1482451680:0;a themes/bullet-train.zsh-theme
+: 1482451681:0;s
+: 1482451687:0;m "Added bullet train"
+: 1482451688:0;clear
+: 1482451688:0;s
+: 1482451692:0;git pull
+: 1482451697:0;clear
+: 1482451697:0;s
+: 1482451701:0;clear
+: 1482451702:0;q
+: 1482451709:0;ls
+: 1482451726:0;pgrep python
+: 1482451733:0;man pgrep
+: 1482451761:0;pgrep -a python
+: 1482451798:0;q
+: 1482452255:0;...
+: 1482452256:0;..
+: 1482452259:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1482452992:0;q
+: 1482453131:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1482454649:0;ks
+: 1482454650:0;ls
+: 1482454651:0;clear
+: 1482454651:0;s
+: 1482454683:0;top
+: 1482454758:0;mpstat
+: 1482454769:0;top
+: 1482454795:0;clear
+: 1482454796:0;ls
+: 1482455050:0;top
+: 1482456065:0;=q
+: 1482456066:0;q
+: 1482456074:0;ls
+: 1482456083:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1482456168:0;top
+: 1482456174:0;clear
+: 1482456175:0;s
+: 1482457190:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482457205:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 > ~/test_data.tsv
+: 1482457207:0;s
+: 1482457277:0;q
+: 1482457318:0;wc -l ~/test_data.tsv
+: 1482457327:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 > ~/test_data.tsv
+: 1482457492:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 > ~/test_data.tsv
+: 1482457500:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482460143:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1482860836:0;cd si_sigma
+: 1482860838:0;..
+: 1482860842:0;si_sigma/
+: 1482860843:0;ls
+: 1482860864:0;cd Contexts/Sentry/SentryEntShareCallback
+: 1482860864:0;ls
+: 1482860867:0;vim Policies.hs
+: 1482861440:0;hc
+: 1482861696:0;cd /mnt/dstmp/dataswarm/si/tmp/
+: 1482861701:0;ls | grep "segment"
+: 1482861714:0;head fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482861954:0;hphpd -h localhost
+: 1482864034:0;pwd
+: 1482864048:0;hphpd -h localhost
+: 1482864059:0;fixmyserver
+: 1482864284:0;man ln
+: 1482864337:0;ln -s fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 ~/segments_test_data_21.tsv
+: 1482864344:0;cd
+: 1482864347:0;head segments_test_data_21.tsv
+: 1482864349:0;ls
+: 1482864356:0;cat segments_test_data_21.tsv
+: 1482864358:0;vim segments_test_data_21.tsv
+: 1482864362:0;clear
+: 1482864363:0;ls
+: 1482864367:0;cd -
+: 1482864379:0;head fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482864381:0;clear
+: 1482864388:0;ln fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 ~/segments_test_data_21.tsv
+: 1482864392:0;rm ~/segments_test_data_21.tsv
+: 1482864393:0;ln fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 ~/segments_test_data_21.tsv
+: 1482864397:0;clear
+: 1482865314:0;hphpd -h localhost
+: 1482865352:0;pwd
+: 1482865367:0;ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-
+: 1482865653:0;git diff
+: 1482865672:0;s
+: 1482865673:0;a Policies.hs
+: 1482865678:0;git commit --amend
+: 1482865687:0;arc diff --update D4350922
+: 1482865759:0;q
+: 1482866120:0;cd /mnt/dstmp/dataswarm/si/tmp
+: 1482866128:0;du -hs fft*
+: 1482866244:0;wc -l fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482866392:0;wc -l fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-18
+: 1482868249:0;hphpd -h localhost
+: 1482873257:0;cd ~/www
+: 1482873258:0;s
+: 1482873275:0;cd flib/intern
+: 1482873278:0;cd si/cluster
+: 1482873281:0;..
+: 1482873284:0;cd clustering
+: 1482873285:0;.
+: 1482873285:0;s
+: 1482873288:0;cd fft_segmentation_cluster
+: 1482873289:0;.
+: 1482873289:0;s
+: 1482873294:0;cd +
+: 1482873296:0;vim +
+: 1482873299:0;clear
+: 1482873300:0;ls
+: 1482873304:0;rm +
+: 1482873305:0;clear
+: 1482873305:0;s
+: 1482873388:0;clear
+: 1482873389:0;ls
+: 1482874252:0;wc -l fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482874261:0;cd /mnt/dstmp/dataswarm/si/tmp
+: 1482874263:0;wc -l fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482878225:0;hh
+: 1482878228:0;cd -
+: 1482878231:0;hh
+: 1482878264:0;clear
+: 1482878265:0;hh
+: 1482878336:0;clear
+: 1482878336:0;hh
+: 1482878377:0;clear
+: 1482878378:0;hh
+: 1482878408:0;clear && hh
+: 1482878530:0;clear && hh | grep -v "Task"
+: 1482878608:0;watch "clear && hh | grep -v "Task""
+: 1482878614:0;watch "clear && hh | grep -v 'Task'"
+: 1482878628:0;watch "clear && hh"
+: 1482878631:0;clear
+: 1482878632:0;hh
+: 1482879120:0;clear
+: 1482879122:0;hh
+: 1482879184:0;hh FFTSegmentationClusterScheduler.php
+: 1482880205:0;cd ..
+: 1482880205:0;ls
+: 1482880208:0;cd nfx_segmentation_cluster
+: 1482880211:0;vim SV_SI_NFX_SEGMENTATION_CLUSTER_CONFIG.php
+: 1482880219:0;ls
+: 1482880227:0;vim NFXSegmentationClusterScheduler.php
+: 1482880235:0;clear
+: 1482880243:0;..
+: 1482880244:0;cd fft_segmentation_cluster
+: 1482880245:0;.
+: 1482880282:0;hphpd -h localhost
+: 1482880498:0;hh
+: 1482880664:0;clear
+: 1482880664:0;hh
+: 1482881178:0;clear
+: 1482881193:0;hh
+: 1482881196:0;q
+: 1482881207:0;hh
+: 1482881560:0;clear && hh
+: 1482882000:0;hphpd -h localhost FFTSegmentationClusterScheduler.php
+: 1482882966:0;q
+: 1482884480:0;cd -
+: 1482884495:0;cd dataswarm
+: 1482884496:0;s
+: 1482884497:0;cd tasks
+: 1482884503:0;cd si/fft_labels
+: 1482884504:0;cd content
+: 1482884505:0;s
+: 1482884506:0;clear
+: 1482884507:0;s
+: 1482884507:0;d
+: 1482884512:0;a .
+: 1482884514:0;clear
+: 1482884514:0;s
+: 1482884519:0;clear
+: 1482884521:0;git status
+: 1482884523:0;hg status
+: 1482884530:0;hg commit --amend
+: 1482884562:0;hg status
+: 1482884564:0;hg sl
+: 1482884580:0;hg uncommit
+: 1482884582:0;hg status
+: 1482884586:0;hg diff
+: 1482884591:0;hg sl
+: 1482884655:0;hg commit -m "Pipeline for saving bad fft segments to a file that can then be sent to ACDC
+: 1482884656:0;hg commit -m "Pipeline for saving bad fft segments to a file that can then be sent to ACDC"
+: 1482884658:0;arc diff
+: 1482884772:0;arc lint
+: 1482884794:0;vim segment_data.py
+: 1482884864:0;arc lint
+: 1482884871:0;arc diff
+: 1482884883:0;hg commit --amend
+: 1482884891:0;arc diff
+: 1482884944:0;q
+: 1482886992:0;hh
+: 1482888378:0;clear
+: 1482888382:0;hh
+: 1482888927:0;cd /mnt/dstmp/dataswarm/si/tmp/
+: 1482888935:0;head fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1482889652:0;q
+: 1482889808:0;hh
+: 1482889988:0;ls
+: 1482890305:0;h
+: 1482890311:0;hh
+: 1482890365:0;cd -
+: 1482890373:0;bash
+: 1482890567:0;clear
+: 1482890567:0;s
+: 1482891054:0;hh
+: 1482950699:0;s
+: 1482950709:0;cd ~/local/si_sigma
+: 1482950710:0;.
+: 1482950710:0;s
+: 1482950713:0;git status
+: 1482950717:0;git diff HEAD.^
+: 1482950721:0;hg status
+: 1482950723:0;clear
+: 1482950729:0;git diff HEAD.^
+: 1482950735:0;git diff HEAD 
+: 1482950740:0;git diff HEAD^
+: 1482950748:0;cd Contexts
+: 1482950755:0;cd Sentry/SentryEntShareCallback
+: 1482950758:0;cd Policies.hs
+: 1482950760:0;vim Policies.hs
+: 1482950824:0;hc
+: 1482951077:0;clear
+: 1482951078:0;s
+: 1482951079:0;d
+: 1482951084:0;a .
+: 1482951093:0;git commit --amend
+: 1482951110:0;arc diff --update D4350922
+: 1482952468:0;q
+: 1482952833:0;hh
+: 1482953173:0;q
+: 1482958789:0;hh
+: 1482958792:0;clear
+: 1482959084:0;hh
+: 1482959505:0;arc lint
+: 1482960451:0;arc unit
+: 1482962214:0;hh
+: 1482963494:0;clear
+: 1482963495:0;ls
+: 1482963498:0;ls __tests__
+: 1482963507:0;cd __tests__
+: 1482963508:0;.
+: 1482963518:0;clear
+: 1482963606:0;rm FFTSegmentationTestCase.php
+: 1482963608:0;ls
+: 1482963610:0;vim SV_SI_FFT_SEGMENTATION_CLUSTER_CONFIGIntegrationTest.php
+: 1482963630:0;arc unit
+: 1482964682:0;s
+: 1482964686:0;cd ~/
+: 1482964687:0;ls
+: 1482964694:0;fbclone sitevars
+: 1482964727:0;cd www
+: 1482964728:0;clear
+: 1482964728:0;s
+: 1482964731:0;clear
+: 1482964731:0;ls
+: 1482964744:0;cd..
+: 1482964745:0;..
+: 1482964750:0;fbclone
+: 1482964795:0;git clone ssh://projects.git-ro.vip.facebook.com/data/gitrepos/sitevars.git
+: 1482966815:0;cd local/si_sigma
+: 1482966816:0;.
+: 1482966816:0;s
+: 1482966822:0;git diff HEAD^
+: 1482966842:0;cd Contexts/Sentry/SentryEntShareCallback
+: 1482966844:0;vim Policies.hs
+: 1482966852:0;git rebase
+: 1482966854:0;s
+: 1482966857:0;vim Policies.hs
+: 1482966876:0;cd ..
+: 1482966877:0;..
+: 1482966880:0;cd dataswarm-hg
+: 1482966881:0;s
+: 1482966883:0;ls
+: 1482966888:0;hg diff -r .^
+: 1482966894:0;cd tasks/si/fft_labels
+: 1482966895:0;cd content
+: 1482966898:0;vim segment_data.py
+: 1482966901:0;hg sl
+: 1482966909:0;hg pull
+: 1482966920:0;hg sl
+: 1482966951:0;hg rebase -d remote/master -s ent_share_callback_segmentation
+: 1482966963:0;hg status
+: 1482966967:0;vim segment_data.py
+: 1482967090:0;clear
+: 1482967090:0;s
+: 1482967101:0;hg commit --amend
+: 1482967114:0;hg sl
+: 1482967119:0;hg rebase -d remote/master -s ent_share_callback_segmentation
+: 1482967125:0;hg rebase --continue
+: 1482967126:0;s
+: 1482967139:0;hg add segment_data.py
+: 1482967143:0;hg continue
+: 1482967147:0;hg rebase
+: 1482967153:0;hg rebase --continue
+: 1482967157:0;hg help resolve
+: 1482967160:0;hg resolve
+: 1482967164:0;hg resolve --all
+: 1482967171:0;hg resolve --mark
+: 1482967176:0;hg rebase --continue
+: 1482967179:0;clear
+: 1482967179:0;s
+: 1482967180:0;hg sl
+: 1482967183:0;s
+: 1482967186:0;hg status
+: 1482967190:0;hg commit --amend
+: 1482967197:0;hg status
+: 1482967198:0;hg sl
+: 1482967214:0;arc diff --update D4369148
+: 1482967221:0;vim segment_data.py
+: 1482967258:0;hg commit --amend
+: 1482967268:0;arc diff --update D4369148
+: 1482967925:0;q
+: 1482968812:0;clear
+: 1482968813:0;s
+: 1482968831:0;hg rm __tests__/SV_SI_FFT_SEGMENTATION_CLUSTER_CONFIGIntegrationTest.phpkj
+: 1482968835:0;clear
+: 1482968910:0;hg add __tests__/
+: 1482968916:0;cd __tests__
+: 1482968919:0;hg status
+: 1482968929:0;touch FFTSegmentationTestCase.php
+: 1482968930:0;clear
+: 1482968930:0;s
+: 1482968935:0;hg rm FFTSegmentationTestCase.php
+: 1482968937:0;s
+: 1482968943:0;hg forget FFTSegmentationTestCase.php
+: 1482968946:0;rm FFTSegmentationTestCase.php
+: 1482968947:0;clear
+: 1482968948:0;s
+: 1482968950:0;cd ..
+: 1482968951:0;s
+: 1482968966:0;hg test.php ~/
+: 1482968968:0;mv test.php ~/
+: 1482968969:0;clear
+: 1482968969:0;s
+: 1482969016:0;hg commit -m "Added class for sending HIVE file output to Acdc for clustering"
+: 1482969025:0;hg status
+: 1482969028:0;hg uncommit
+: 1482969034:0;hg status
+: 1482969042:0;vim FFTSegmentationClusterScheduler.php
+: 1482969086:0;arc lint
+: 1482969378:0;hphpd -h localhost
+: 1482969398:0;mv ~/test.php .
+: 1482969538:0;cd /mnt/gfsdstmp/operations/tmp/
+: 1482969546:0;ls
+: 1482969551:0;ls profile_urls
+: 1482969554:0;ls profile_urls*
+: 1482969860:0;ls
+: 1482969865:0;exit
+: 1482969880:0;hphpd -h localhost
+: 1482970037:0;fixmyserver
+: 1482970244:0;hphpd -h localhost
+: 1482970556:0;q
+: 1482970585:0;clear
+: 1482970586:0;s
+: 1482970592:0;mv test.php ~/
+: 1482970593:0;s
+: 1482970652:0;vim FFTSegmentationClusterTask.php
+: 1482971966:0;i
+: 1482972190:0;ls
+: 1482972219:0;cd
+: 1482972298:0;clear
+: 1482972298:0;s
+: 1482972344:0;ls
+: 1482973325:0;s
+: 1482973596:0;cat | sed "s/(?<=www.facebook.com\/)[^\/]+/"
+: 1482973602:0;cat | sed "/(?<=www.facebook.com\/)[^\/]+/"
+: 1482973614:0;cat | sed "s/(?<=www.facebook.com\/)[^\/]+//"
+: 1482973705:0;ls
+: 1482973708:0;clear
+: 1482973708:0;ls
+: 1482973712:0;./findStopped.sh
+: 1482973714:0;clear
+: 1482973714:0;ls
+: 1482973721:0;cd www
+: 1482973722:0;s
+: 1482973740:0;cd flib/intern/si/clustering/fft_segmentation_cluster
+: 1482973740:0;s
+: 1482973742:0;d
+: 1482973746:0;vim
+: 1482973757:0;hphpd -h localhost
+: 1482973979:0;fixmyserver
+: 1482974737:0;clear
+: 1482974748:0;ls
+: 1482974770:0;hphpd -h localhost
+: 1482975634:0;clear
+: 1482975671:0;ls
+: 1482975695:0;;s
+: 1482975695:0;ls
+: 1482975731:0;time ls
+: 1482975757:0;ls
+: 1482975800:0;time zsh 'exit'
+: 1482975829:0;time zsh -c exit
+: 1482975852:0;q
+: 1482975869:0;clear
+: 1482975884:0;ls
+: 1482975908:0;q
+: 1482976117:0;ls
+: 1482976204:0;hphpd -h localhost
+: 1483036076:0;ls
+: 1483036081:0;hphpd -h localhost
+: 1483037161:0;ps -ef
+: 1483037168:0;ps -ef | grep phphd
+: 1483037174:0;ps -ef | grep hphpd
+: 1483037182:0;ps -ef | grep php
+: 1483037192:0;fixmyserver
+: 1483037413:0;ps -ef
+: 1483037420:0;ps -ef | grep php
+: 1483037435:0;kill -9 hphpi
+: 1483037441:0;pkill hphpi
+: 1483037443:0;sudo pkill hphpi
+: 1483037447:0;ps -ef | grep php
+: 1483037452:0;fixmyserver
+: 1483037767:0;hphpd -h localhost
+: 1483038191:0;clear
+: 1483038222:0;hh
+: 1483038919:0;bash
+: 1483038979:0;clear
+: 1483038979:0;s
+: 1483039214:0;hh
+: 1483039257:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1483039259:0;clear
+: 1483040306:0;pkill hphpi
+: 1483040317:0;sudo pkill hphpi
+: 1483040322:0;fixmyserver
+: 1483040834:0;hh
+: 1483045319:0;s
+: 1483045330:0;hg sl
+: 1483045338:0;hg pull
+: 1483045416:0;hg sl
+: 1483045443:0;hg rebase -d remote/master -s clustering_segments_php
+: 1483045447:0;s
+: 1483045506:0;hg commit -m "Creates scheduler and task for clustering 'bad' segments from FFT pipleline"
+: 1483045516:0;hg rebase -d remote/master -s clustering_segments_php
+: 1483045575:0;hg sl
+: 1483045584:0;cd ..
+: 1483045585:0;hg sl
+: 1483045596:0;arc cleanup
+: 1483045656:0;hg sl
+: 1483045666:0;hg rebase -d remote/master -s clustering_segments_php
+: 1483045719:0;hg sl
+: 1483045726:0;cd fft_segmentation_cluster
+: 1483045726:0;s
+: 1483045732:0;hg status
+: 1483045741:0;hg diff -r .^
+: 1483045751:0;arc diff
+: 1483045795:0;arc lint
+: 1483045800:0;ls
+: 1483045802:0;cd ..
+: 1483045804:0;cd fft_segmentation_cluster
+: 1483045805:0;ls
+: 1483045809:0;arc lint
+: 1483045867:0;hg commit --amend
+: 1483045899:0;arc diff
+: 1483046885:0;cd
+: 1483046886:0;ls
+: 1483046888:0;cd datasw
+: 1483046890:0;cd dataswarm
+: 1483046891:0;clear
+: 1483046891:0;s
+: 1483046894:0;ls
+: 1483046904:0;git diff HEAD^
+: 1483046911:0;hg diff -r .^
+: 1483046923:0;cd tasks/si/fft_labels/content
+: 1483046924:0;clear
+: 1483046924:0;s
+: 1483046927:0;hg diff -r .^
+: 1483046933:0;vim segment_data.py
+: 1483046942:0;hg sl
+: 1483047034:0;hg status
+: 1483047049:0;cd ....
+: 1483047050:0;..
+: 1483047057:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1483047083:0;clear
+: 1483047086:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21
+: 1483047508:0;hh
+: 1483047746:0;hi
+: 1483047747:0;hh
+: 1483047753:0;clear
+: 1483047754:0;hh
+: 1483047767:0;hphpd -h localhost
+: 1483047855:0;hh
+: 1483047862:0;arc lint
+: 1483048109:0;hh
+: 1483048211:0;clear
+: 1483048212:0;hh
+: 1483048421:0;hphpd -h localhost
+: 1483048572:0;hg diff
+: 1483048720:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1483048979:0;hg diff
+: 1483049180:0;fixmyserver
+: 1483049511:0;hphpd -h localhost
+: 1483049791:0;clear
+: 1483049793:0;arc lint
+: 1483049975:0;ps -ef
+: 1483049979:0;ps -ef | grep php
+: 1483049983:0;pkill hphpi
+: 1483049987:0;sudo pkill hphpi
+: 1483049989:0;ps -ef | grep php
+: 1483049993:0;fixmyserver
+: 1483050217:0;hphpd -h localhost
+: 1483050876:0;s
+: 1483050886:0;vim tasks/si/fft_labels/content/segment_data.py
+: 1483051005:0;clear
+: 1483051008:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1483051011:0;s
+: 1483051012:0;d
+: 1483051058:0;hg status
+: 1483051070:0;hg add tasks/si/fft_labels/content/segment_data.py
+: 1483051082:0;hg commit --amend
+: 1483051094:0;arc diff --update D4369148
+: 1483051140:0;vim tasks/si/fft_labels/content/segment_data.py
+: 1483051150:0;hg commit --amend
+: 1483051156:0;arc diff --update D4369148
+: 1483051316:0;hg sl
+: 1483051318:0;clear
+: 1483051319:0;ls
+: 1483052753:0;hg status
+: 1483052756:0;hg diff
+: 1483052765:0;hg shelve
+: 1483052783:0;hg diff
+: 1483052983:0;hh
+: 1483053106:0;arc lint
+: 1483057263:0;ps -ef | grep php
+: 1483057400:0;q
+: 1483057420:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-21 --local-run
+: 1483057611:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1483066735:0;du -hs /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1483464858:0;clear
+: 1483464863:0;du -hs /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1483464960:0;ls
+: 1483464966:0;hphpd -h localhost
+: 1483464993:0;q
+: 1483465004:0;fixmyserver
+: 1483465200:0;hphpd -h localhost
+: 1483465538:0;python -c "print 600000000/10000"
+: 1483465554:0;python -c "print 600000000/10000*10/60.0/60.0"
+: 1483465562:0;python -c "print 600000000/10000*10/60.0/60.0/24.0"
+: 1483465573:0;python -c "print 600000000/10000/60.0/60.0/24.0"
+: 1483465577:0;python -c "print 600000000/10000/60.0/60.0"
+: 1483465580:0;clear
+: 1483465580:0;ls
+: 1483466152:0;ls SV_SI_FFT_SEGMENTATION_CLUSTER_CONFIG.php
+: 1483466155:0;cat SV_SI_FFT_SEGMENTATION_CLUSTER_CONFIG.php
+: 1483466697:0;hg status
+: 1483466701:0;hg diff
+: 1483466808:0;clear
+: 1483466809:0;s
+: 1483466814:0;hg sl
+: 1483466818:0;hg commit --amend
+: 1483466850:0;hg status
+: 1483466852:0;hg sl
+: 1483466867:0;arc diff --update D4373764
+: 1483467145:0;git status
+: 1483467148:0;hg status
+: 1483467154:0;git diff HEAD^
+: 1483467158:0;hg diff -r .^
+: 1483467910:0;hg status
+: 1483467912:0;hg log
+: 1483467969:0;clear
+: 1483467971:0;q
+: 1483468055:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21
+: 1483468062:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 1
+: 1483468065:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 1 | wc -c
+: 1483468077:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 1000 | wc -c
+: 1483468091:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 100 | wc -c
+: 1483468105:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 1000 | wc -c
+: 1483468117:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 100 | wc -c
+: 1483468159:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 100 | wc -w
+: 1483468161:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 100 | wc -l
+: 1483468165:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-21 -n 100 | wc -c
+: 1483469734:0;hphpd -h localhosti
+: 1483469754:0;hphpd -h localhost
+: 1483469805:0;fixmyserver
+: 1483470303:0;hphpd -h localhost
+: 1483472409:0;reboot
+: 1483476320:0;ls
+: 1483476323:0;clear
+: 1483476337:0;vim -S ~/Task
+: 1483476514:0;hphpd -h localhost
+: 1483477102:0;fixmyserver
+: 1483479699:0;haxlconfig
+: 1483480001:0;haxlconfig -h
+: 1483480052:0;zrc
+: 1483480102:0;haxlconfig context add
+: 1483480259:0;ils
+: 1483480317:0;ils..
+: 1483480400:0;ls
+: 1483480413:0;cd ../
+: 1483480413:0;ls
+: 1483480422:0;cd locals
+: 1483480424:0;cd local
+: 1483480426:0;ls
+: 1483480429:0;cd si_sigma
+: 1483480429:0;.
+: 1483480430:0;ls
+: 1483480434:0;haxlconfig context add
+: 1483480896:0;hg status
+: 1483480901:0;ls
+: 1483480903:0;git status
+: 1483480913:0;git diff
+: 1483480917:0;git diff HEAD.^
+: 1483480919:0;git diff HEAD^
+: 1483480938:0;clear
+: 1483480938:0;s
+: 1483480944:0;haxlconfig context add
+: 1483481253:0;git status
+: 1483481256:0;haxlconfig context add
+: 1483481331:0;git status
+: 1483481334:0;haxlconfig context add
+: 1483481380:0;git status
+: 1483481384:0;d config
+: 1483481395:0;cd CsccGenericSegmentIdCluster
+: 1483481396:0;clear
+: 1483481396:0;s
+: 1483481397:0;d
+: 1483481399:0;cat *
+: 1483481404:0;cd ..
+: 1483481404:0;s
+: 1483481411:0;a .
+: 1483481412:0;s
+: 1483481448:0;git commit -m "Added context for CsccGenericSegmentIdCluster (clustering for users in segmentIdClusters from fft)"
+: 1483481454:0;git rebase
+: 1483481456:0;s
+: 1483481460:0;git sl
+: 1483481474:0;arc diff --create
+: 1483481485:0;hc
+: 1483481623:0;arc lint
+: 1483481626:0;arc unit
+: 1483481630:0;arc diff --create
+: 1483482246:0;clear
+: 1483482249:0;q
+: 1483482268:0;hphpd -h localhost
+: 1483482670:0;git status
+: 1483482671:0;hg status
+: 1483482719:0;ls
+: 1483482722:0;s
+: 1483482723:0;d
+: 1483482732:0;pwd
+: 1483482746:0;hg diff FF
+: 1483482750:0;clear
+: 1483485227:0;cd
+: 1483485229:0;cd datasw
+: 1483485230:0;cd dataswarm
+: 1483485231:0;.
+: 1483485237:0;git diff HEAD^
+: 1483485242:0;hg diff -r .^
+: 1483485255:0;cd tasks/si/fft_labels/content/
+: 1483485256:0;clear
+: 1483485257:0;s
+: 1483485307:0;./tester 'si.fft_labels.content.segment_data.pipeline' 2016-12-28 --local-run
+: 1483485310:0;cd ....
+: 1483485313:0;..
+: 1483485314:0;./tester 'si.fft_labels.content.segment_data.pipeline' 2016-12-28 --local-run
+: 1483485388:0;ls
+: 1483485389:0;s
+: 1483485392:0;cd ~/
+: 1483485392:0;ls
+: 1483485402:0;cd local/si_sigma
+: 1483485404:0;git status
+: 1483485409:0;git sl
+: 1483485414:0;arc unit
+: 1483485416:0;arc lint
+: 1483485421:0;arc diff --create
+: 1483485633:0;clear
+: 1483485633:0;ls
+: 1483485639:0;cd Contexts
+: 1483485639:0;ls
+: 1483485656:0;clear
+: 1483485657:0;ls
+: 1483485669:0;cd ..
+: 1483485669:0;ls
+: 1483485674:0;cd CsccGenericSegmentIdCluster
+: 1483485675:0;ls
+: 1483485676:0;cd ..
+: 1483485692:0;mv CsccGenericSegmentIdCluster Contexts
+: 1483485692:0;ls
+: 1483485697:0;cd Contexts
+: 1483485698:0;ls
+: 1483485783:0;mv CsccGenericSegmentIdCluster Acdc
+: 1483485784:0;ls
+: 1483485786:0;cd Acdc
+: 1483485786:0;ls
+: 1483485804:0;cd CsccGenericSegmentIdCluster
+: 1483485804:0;l
+: 1483485805:0;.
+: 1483485811:0;vim cscc_generic_segment_id_cluster.context Policies.hs
+: 1483485940:0;clear
+: 1483485940:0;s
+: 1483485953:0;..
+: 1483485964:0;s
+: 1483485972:0;mv CsccGenericSegmentIdCluster ../../
+: 1483485973:0;s
+: 1483485980:0;git mv ../../CsccGenericSegmentIdCluster/ .
+: 1483485980:0;s
+: 1483485982:0;ls
+: 1483485990:0;cd CsccGenericSegmentIdCluster
+: 1483485991:0;s
+: 1483485991:0;clear
+: 1483485992:0;s
+: 1483485997:0;a cscc_generic_segment_id_cluster.context
+: 1483485998:0;clear
+: 1483485998:0;s
+: 1483486000:0;cd ..
+: 1483486007:0;vim config
+: 1483486036:0;s
+: 1483486038:0;a config
+: 1483486039:0;clear
+: 1483486039:0;s
+: 1483486045:0;git commit --amend
+: 1483486057:0;arc diff --update D4378987
+: 1483486115:0;vim Contexts/Acdc/CsccGenericReshareContainerContentOwner/Policies.hs Contexts/Acdc/CsccGenericSegmentIdCluster/Policies.hs
+: 1483486129:0;arc unit
+: 1483486131:0;arc lint
+: 1483486147:0;vim config
+: 1483486226:0;arc lint
+: 1483486231:0;arc diff --update D4378987
+: 1483486238:0;s
+: 1483486242:0;a config
+: 1483486243:0;a .
+: 1483486246:0;git commit --amend
+: 1483486252:0;arc diff --update D4378987
+: 1483486270:0;hc
+: 1483486324:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback]' 2016-12-28 --local-run
+: 1483486354:0;clear
+: 1483486354:0;ls
+: 1483486354:0;s
+: 1483486450:0;tail /data/users/jopra/dataswarm-hg/tasks/si/fft_labels/content/segment_data.py
+: 1483486466:0;./tester 'si.fft_labels.content.segment_data.pipeline' 2016-12-28 --local-run
+: 1483486483:0;./tester 'si.fft_labels.content.segment_data' 2016-12-28 --local-run
+: 1483486500:0;./tester 'si.fft_labels.content.segment_data.pipeline' 2016-12-28 --local-run
+: 1483486520:0;cat /data/users/jopra/dataswarm-hg/tasks/si/fft_labels/content/segment_data.py
+: 1483486544:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][save_bad_segments_as_file]' 2016-12-28 --local-run
+: 1483487176:0;s
+: 1483487184:0;hg diff -r .^
+: 1483487187:0;git diff HEAD^
+: 1483487240:0;vim config
+: 1483487455:0;clear
+: 1483487456:0;s
+: 1483487460:0;a config
+: 1483487463:0;git diff HEAD^
+: 1483487474:0;vim config
+: 1483487568:0;arc lint
+: 1483487573:0;clear
+: 1483487573:0;s
+: 1483487575:0;a config
+: 1483487578:0;git diff HEAD^
+: 1483487587:0;git commit --amend
+: 1483487606:0;arc diff D4378987
+: 1483487614:0;arc diff --update D4378987
+: 1483487654:0;q
+: 1483487670:0;ls
+: 1483488278:0;q
+: 1483488288:0;cd ~/dataswarm
+: 1483488298:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-28
+: 1483488318:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-28 --local-run
+: 1483497733:0;hphpd -h localhost
+: 1483503518:0;ls
+: 1483503518:0;s
+: 1483503518:0;ls
+: 1483553000:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28
+: 1483554508:0;hphpd -h localhost
+: 1483554917:0;q
+: 1483555341:0;hphpd -h localhost
+: 1483555356:0;hphpd
+: 1483555441:0;hphpd -h localhost
+: 1483555597:0;hphpd -h localhost &> ~/hphpd_error
+: 1483555610:0;cat ~/hphpd_error
+: 1483555621:0;cat /var/tmp/cores/stacktrace.1948098.log
+: 1483555653:0;echo "-- Stack trace --" >> ~/hphpd_error
+: 1483555656:0;cat ~/hphpd_error
+: 1483555661:0;cat /var/tmp/cores/stacktrace.1948098.log
+: 1483555665:0;cat /var/tmp/cores/stacktrace.1948098.log >> ~/hphpd_error
+: 1483555667:0;cat h
+: 1483555671:0;cat ~/hphpd_error
+: 1483555675:0;clear
+: 1483555675:0;ls
+: 1483555680:0;q
+: 1483555698:0;hphpd -h localhost
+: 1483555731:0;ps -ef | grep php
+: 1483555735:0;kill -9 hphpi
+: 1483555746:0;pkill hphpi
+: 1483555748:0;sudo pkill hphpi
+: 1483555751:0;ps -ef | grep php
+: 1483555752:0;clear
+: 1483555754:0;hphpd -h localhost
+: 1483555787:0;fixmyserver
+: 1483557006:0;hphpd -h localhost
+: 1483557079:0;hh
+: 1483557141:0;hphpd -h localhost
+: 1483557143:0;hphpd -h localhostq
+: 1483557345:0;hphpd -h localhost
+: 1483557523:0;hh
+: 1483557672:0;s
+: 1483557674:0;d
+: 1483557715:0;hh
+: 1483557716:0;s
+: 1483557718:0;clear
+: 1483557719:0;d
+: 1483557736:0;clear
+: 1483557736:0;s
+: 1483557739:0;git
+: 1483557741:0;clear
+: 1483557745:0;git diff
+: 1483557747:0;clear
+: 1483557750:0;hg sl
+: 1483557755:0;hg commit --amend
+: 1483557760:0;arc unit
+: 1483557822:0;arc lint
+: 1483557864:0;hg commit --amend
+: 1483557938:0;arc diff
+: 1483557952:0;arc diff --update D4373764
+: 1483557997:0;q
+: 1483558737:0;s
+: 1483558742:0;hg commit --amend
+: 1483558780:0;arc diff --update D4373764
+: 1483558899:0;s
+: 1483558906:0;d
+: 1483558913:0;hg commit --amend
+: 1483558935:0;arc diff --update D4373764
+: 1483559518:0;clear
+: 1483559518:0;ls
+: 1483559519:0;s
+: 1483559847:0;hg sl
+: 1483559863:0;hg status
+: 1483559875:0;arc diff --update D4373764
+: 1483566899:0;hh
+: 1483566906:0;hg sl
+: 1483566912:0;hg pull
+: 1483566975:0;hg sl
+: 1483566984:0;hg rebase -d remote/master -s clustering_segments_php
+: 1483566988:0;hg diff
+: 1483567031:0;hg commit --amend
+: 1483567053:0;arc unit
+: 1483567063:0;arc lint
+: 1483567085:0;arc diff --update D4373764
+: 1483567225:0;vrc
+: 1483567244:0;vim
+: 1483567257:0;q
+: 1483567840:0;d
+: 1483567843:0;d .^
+: 1483567849:0;d HEAD^
+: 1483567853:0;git 
+: 1483567856:0;git diff HEAD^
+: 1483567861:0;hg diff -r .^
+: 1483567878:0;vim tasks/si/fft_labels/content/segment_data.py
+: 1483567904:0;cat tasks/si/fft_labels/content/segment_data.py
+: 1483569428:0;q
+: 1483571137:0;top
+: 1483571212:0;htop
+: 1483571244:0;q
+: 1483574030:0;hphpd -h localhost
+: 1483575589:0;hed /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28
+: 1483575591:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28
+: 1483575930:0;hg diff -r .^
+: 1483575937:0;cd t/s/fft/c
+: 1483575939:0;cd tasks/si/fft_labels/content
+: 1483575941:0;ls
+: 1483575941:0;..
+: 1483575945:0;ls
+: 1483575950:0;vim segments_v2.py
+: 1483575963:0;ls
+: 1483575975:0;clean
+: 1483575976:0;ls
+: 1483575982:0;vim transform.py
+: 1483577076:0;cd content
+: 1483577078:0;vim segment_data.py
+: 1483577083:0;clear
+: 1483577083:0;s
+: 1483577088:0;hg diff
+: 1483577091:0;s
+: 1483577094:0;hg shelve
+: 1483577104:0;hg rebase -d remote/master -s ent_share_callback_segmentation
+: 1483577107:0;hg pull
+: 1483577120:0;hg rebase -d remote/master -s ent_share_callback_segmentation
+: 1483577129:0;a
+: 1483577131:0;hg sl
+: 1483577137:0;vim segment_data.py
+: 1483577145:0;clear
+: 1483577146:0;s
+: 1483577152:0;clear
+: 1483577152:0;ls
+: 1483577160:0;arc lint && arc unit
+: 1483578043:0;q
+: 1483578071:0;cd 
+: 1483578074:0;/www/flib/support/admin/objects/cluster/
+: 1483578075:0;ls
+: 1483578081:0;www/flib/support/admin/objects/cluster/
+: 1483578082:0;.
+: 1483578089:0;cat SpikeClusterAdminObject.php
+: 1483578104:0;clear
+: 1483578105:0;ls
+: 1483578111:0;v *
+: 1483578154:0;.
+: 1483578156:0;cd GenericCluster
+: 1483578157:0;ls
+: 1483578160:0;cd GenericClusterUtils
+: 1483578161:0;.
+: 1483578164:0;vim RootObjectManyReshareClusterUtil.php
+: 1483578902:0;ihh
+: 1483578903:0;hh
+: 1483579472:0;arc lint
+: 1483580618:0;hh
+: 1483581002:0;hg sl
+: 1483581014:0;hg rebase -d remote/master -s clustering_segments_php
+: 1483581016:0;hg sl
+: 1483581017:0;s
+: 1483581023:0;hg shelve
+: 1483581038:0;clear
+: 1483581038:0;ls
+: 1483581040:0;hg sl
+: 1483581042:0;hg status
+: 1483581058:0;hg unshelve
+: 1483581080:0;hg add FFTClusterUtil.php FFTClusterUtil.php
+: 1483581083:0;hg shelve
+: 1483581134:0;hg status
+: 1483581154:0;arc feature acdc_to_configerator
+: 1483581191:0;hg sl
+: 1483581205:0;hg rebase -s clustering_segments_php -d remote/master
+: 1483581245:0;hg sl
+: 1483581287:0;clear
+: 1483581287:0;s
+: 1483581290:0;hg sl
+: 1483581294:0;hg unshelve
+: 1483581342:0;hg sl
+: 1483581432:0;s
+: 1483581436:0;clear
+: 1483581436:0;s
+: 1483581440:0;arc lint 
+: 1483640407:0;cd
+: 1483640408:0;;s
+: 1483640412:0;clear
+: 1483640413:0;;ls
+: 1483640414:0;.
+: 1483640416:0;ls
+: 1483640417:0;:ls
+: 1483640513:0;cd .config
+: 1483640514:0;l
+: 1483640515:0;ls
+: 1483640523:0;cd ~/.oh-my-zsh
+: 1483640523:0;ls
+: 1483640525:0;cd custom
+: 1483640526:0;ls
+: 1483640527:0;pwd
+: 1483640544:0;cd plugins
+: 1483640545:0;ls
+: 1483640551:0;git clone https://github.com/djui/alias-tips.git
+: 1483640568:0;zrc
+: 1483640593:0;exec zsh
+: 1483640594:0;clear
+: 1483640600:0;ls
+: 1483640618:0;zrc
+: 1483640642:0;time ls
+: 1483640645:0;t ls
+: 1483640654:0;du =hs *
+: 1483640659:0;du -hs *
+: 1483640660:0;u
+: 1483640663:0;clear
+: 1483640672:0;q
+: 1483640699:0;exec zsh
+: 1483640703:0;cd -
+: 1483640707:0;clear
+: 1483640877:0;hh
+: 1483640880:0;cd www
+: 1483640881:0;l
+: 1483640882:0;hh
+: 1483640884:0;.
+: 1483640886:0;cd thrift
+: 1483640886:0;ls
+: 1483641279:0;clear
+: 1483641279:0;ls
+: 1483642168:0;cd ..
+: 1483642169:0;ls
+: 1483642173:0;cd ..
+: 1483642174:0;clear
+: 1483642174:0;ls
+: 1483642176:0;cd configerator
+: 1483642176:0;ls
+: 1483642179:0;cd source
+: 1483642179:0;ls
+: 1483642180:0;cd si
+: 1483642181:0;clear
+: 1483642182:0;l
+: 1483642182:0;.
+: 1483642193:0;mk fft_bad_segments
+: 1483642240:0;ld
+: 1483642241:0;clear
+: 1483642242:0;ls
+: 1483642272:0;pwd
+: 1483642749:0;q
+: 1483642760:0;vim
+: 1483642929:0;ls
+: 1483642931:0;cd
+: 1483642932:0;cd data
+: 1483642934:0;cd datasw
+: 1483642936:0;cd dataswarm
+: 1483642936:0;.
+: 1483642943:0;git diff
+: 1483642945:0;hg diff -r .^
+: 1483642960:0;cd tasks/si/fft_labels/content
+: 1483642961:0;vim segment_data.py
+: 1483643987:0;cd ....
+: 1483643988:0;cd ...
+: 1483643991:0;cd ..
+: 1483644000:0;arc lint
+: 1483644034:0;hg sl
+: 1483644038:0;hg status
+: 1483644111:0;ls
+: 1483644113:0;pwd
+: 1483644125:0;ls
+: 1483644129:0;cd ..
+: 1483644133:0;ls
+: 1483644138:0;cd ....
+: 1483644140:0;cd
+: 1483644141:0;ls
+: 1483644142:0;cd configerator
+: 1483644143:0;ls
+: 1483644145:0;q
+: 1483644160:0;cd
+: 1483644162:0;cd www
+: 1483644162:0;ls
+: 1483644180:0;s
+: 1483644184:0;cd source
+: 1483644185:0;ls
+: 1483644186:0;cd si
+: 1483644187:0;clear
+: 1483644187:0;ls
+: 1483644189:0;cd fft_bad_segments
+: 1483644190:0;ls
+: 1483644195:0;head fft_bad_segments.thrift
+: 1483644215:0;pwd
+: 1483644235:0;~/www/scripts/thrift/update_flib_files.php si:fft_bad_segments
+: 1483644259:0;~/www/scripts/thrift/update_flib_files.php si:fft_bad_segments/fft_bad_segments.thrift
+: 1483644302:0;cd ..
+: 1483644303:0;ls
+: 1483644367:0;~/www/scripts/thrift/update_flib_files.php -b ~/configerator si:fft_bad_segments/fft_bad_segments.thrift
+: 1483644384:0;cd ..
+: 1483644384:0;ls
+: 1483644388:0;cd ..
+: 1483644389:0;clear
+: 1483644389:0;ls
+: 1483644474:0;cd flib
+: 1483644476:0;cd intern
+: 1483644477:0;cd thrift
+: 1483644478:0;ls
+: 1483644484:0;vim maps/ThriftCorePackageMap.php
+: 1483644516:0;s
+: 1483644568:0;~/www/scripts/thrift/update_flib_files.php -b ~/configerator si:fft_bad_segments/fft_bad_segments.thrift
+: 1483644585:0;vim maps/ThriftCorePackageMap.php
+: 1483644616:0;~/www/scripts/thrift/update_flib_files.php si:fft_bad_segments/fft_bad_segments.thrift
+: 1483644634:0;~/www/scripts/thrift/update_flib_files.php --help
+: 1483644669:0;~/www/scripts/thrift/update_flib_files.php si:fft_bad_segments/fft_bad_segments.thrift
+: 1483644679:0;vim maps/ThriftCorePackageMap.php
+: 1483644700:0;~/www/scripts/thrift/update_flib_files.php cf:si/fft_bad_segments/fft_bad_segments.thrift
+: 1483644719:0;s
+: 1483644726:0;hg add source
+: 1483644727:0;s
+: 1483644743:0;hg commit -m "Added thrift file for fft_bad_segments"
+: 1483644752:0;arc unit
+: 1483644755:0;arc lint
+: 1483644765:0;arc diff --create
+: 1483644905:0;arc diff --create --trace
+: 1483645361:0;clear
+: 1483645394:0;~/www/scripts/thrift/update_flib_files.php -b ~/configerator cf:si/fft_bad_segments/fft_bad_segments.thrift
+: 1483645419:0;~/www/scripts/thrift/update_flib_files.php --help
+: 1483645434:0;~/www/scripts/thrift/update_flib_files.php -t ~/configerator cf:si/fft_bad_segments/fft_bad_segments.thrift
+: 1483645960:0;ls
+: 1483645962:0;cd ..
+: 1483645963:0;s
+: 1483645970:0;hg shelve
+: 1483645984:0;hg sl
+: 1483645991:0;ls
+: 1483646003:0;cd ...
+: 1483646005:0;..
+: 1483646010:0;cd intern
+: 1483646013:0;cd si
+: 1483646015:0;clear
+: 1483646015:0;ls
+: 1483646024:0;cd reg_attacks/RegAttackManager.php
+: 1483646025:0;ls
+: 1483646034:0;pwd
+: 1483646070:0;cd ..
+: 1483646076:0;mk fft_bad_segments
+: 1483646084:0;vim fft_bad_segments.php
+: 1483646125:0;pwd
+: 1483648740:0;ls
+: 1483648743:0;hg status
+: 1483648751:0;hg commit --amend
+: 1483648768:0;arc diff --update 14907935
+: 1483648777:0;arc diff --update D4384531
+: 1483648883:0;q
+: 1483649482:0;ls
+: 1483649485:0;-
+: 1483649488:0;-2
+: 1483649491:0;cd -2
+: 1483649493:0;2
+: 1483649495:0;clear
+: 1483649495:0;ls
+: 1483649500:0;cd ~/www
+: 1483649502:0;cd ../configerator-hg
+: 1483649502:0;ls
+: 1483649504:0;s
+: 1483649509:0;hg diff -r .^
+: 1483649514:0;arc land 'segment_id_cluster'
+: 1483649681:0;hg sl
+: 1483649696:0;hg rebase -s segment_id_cluster -d remote/master
+: 1483649714:0;arc land 'segment_id_cluster'
+: 1483649780:0;arc land --status /configerator/canary/canaries-00/canary0000118884
+: 1483649870:0;~/www/scripts/thrift/update_flib_files.php cf:si/fft_bad_segments/fft_bad_segments.thrift
+: 1483649903:0;s
+: 1483650041:0;cd ~/www/flib/intern/
+: 1483650042:0;ls
+: 1483650048:0;cd maps
+: 1483650049:0;ls
+: 1483650135:0;s
+: 1483650142:0;cd ~/configerator
+: 1483650142:0;ls
+: 1483650143:0;s
+: 1483650148:0;hg diff -r .^
+: 1483650157:0;cd source
+: 1483650157:0;ls
+: 1483650193:0;cd thrift
+: 1483650194:0;cd maps
+: 1483650194:0;ls
+: 1483650198:0;pwd
+: 1483650318:0;q
+: 1483650331:0;ls
+: 1483650334:0;vim *
+: 1483650360:0;clear
+: 1483650361:0;s
+: 1483650364:0;git diff
+: 1483650368:0;hg diff
+: 1483650372:0;hg diff -r .^
+: 1483650380:0;clear
+: 1483650381:0;ls
+: 1483650391:0;pwd
+: 1483650395:0;cd ~/configerator
+: 1483650396:0;s
+: 1483650399:0;hg diff -r .^
+: 1483650410:0;hg sl
+: 1483650423:0;arc cleanup
+: 1483650440:0;clear
+: 1483650442:0;hg sl
+: 1483650443:0;hg status
+: 1483650451:0;hg diff -r .^
+: 1483650457:0;ls
+: 1483650462:0;vim ThriftInternPackageMap.php
+: 1483650671:0;clear
+: 1483650672:0;s
+: 1483650678:0;a ../../si
+: 1483650685:0;hg add ../../si
+: 1483650688:0;s
+: 1483650692:0;arc unit
+: 1483650746:0;cd ~/www
+: 1483650750:0;.
+: 1483650752:0;~/www/scripts/thrift/update_flib_files.php cf:si/fft_bad_segments/fft_bad_segments.thrift
+: 1483650773:0;hg status
+: 1483650779:0;hg add flib/
+: 1483650800:0;clear
+: 1483650804:0;hg sl
+: 1483650824:0;arc lint
+: 1483650882:0;cd flib/intern
+: 1483650889:0;cd si/fft_bad_segments
+: 1483650889:0;.
+: 1483650891:0;vim fft_bad_segments.php
+: 1483650925:0;hg mv fft_bad_segments.php FFTBadSegmentManager.php
+: 1483650931:0;hg status
+: 1483650935:0;clear
+: 1483650936:0;ls
+: 1483650938:0;vim FFTBadSegmentManager.php
+: 1483650951:0;clear
+: 1483650951:0;ls
+: 1483650955:0;hg status
+: 1483650961:0;arc lint
+: 1483650979:0;clear
+: 1483650981:0;hphpd -h localhost
+: 1483651010:0;cd flib/intern/si/fft_bad_segments
+: 1483651011:0;s
+: 1483651014:0;h
+: 1483651054:0;vim ~/test_file
+: 1483651160:0;ls
+: 1483651161:0;cd
+: 1483651162:0;ls
+: 1483651168:0;vim test_file
+: 1483651246:0;ls
+: 1483651252:0;rm hphpd_error
+: 1483651253:0;rm out
+: 1483651256:0;rm Task
+: 1483651262:0;rm Policy
+: 1483651262:0;.
+: 1483651268:0;rm testMap_.hs
+: 1483651269:0;ls
+: 1483651269:0;.
+: 1483651273:0;cat test_data.tsv
+: 1483651274:0;clear
+: 1483651275:0;ls
+: 1483651281:0;rm diff.diff
+: 1483651282:0;.
+: 1483651284:0;cat datasw
+: 1483651286:0;clear
+: 1483651288:0;rm datasw
+: 1483651288:0;.
+: 1483651293:0;cat test.php
+: 1483651317:0;cp test.php test2.php
+: 1483651321:0;vim test2.php
+: 1483651395:0;h
+: 1483651432:0;hh
+: 1483651435:0;cd 
+: 1483651436:0;hh
+: 1483651439:0;-
+: 1483651442:0;hphpd -h localhost
+: 1483651827:0;s
+: 1483651831:0;ls
+: 1483651837:0;cd configerator
+: 1483651837:0;s
+: 1483651841:0;hg diff -r .^
+: 1483651907:0;s
+: 1483651911:0;arc unit
+: 1483651983:0;arc lint
+: 1483652027:0;clear
+: 1483652028:0;s
+: 1483652030:0;arc diff
+: 1483652378:0;ls
+: 1483652382:0;s
+: 1483652387:0;cd ~/dataswarm
+: 1483652388:0;ls
+: 1483652393:0;cd tasks/si/gsi/segmentation/srt_segmentation.py
+: 1483652406:0;cdp tasks/si/gsi/segmentation/srt_segmentation.py
+: 1483652420:0;ls
+: 1483652423:0;clear
+: 1483652424:0;ls
+: 1483652431:0;vim srt_segmentation.py content_segmentation.py __init__.py
+: 1483654281:0;q
+: 1483655868:0;vim FFTBadSegmentManager.php
+: 1483655902:0;cd si
+: 1483655903:0;ls
+: 1483655905:0;cd source
+: 1483655905:0;ls
+: 1483655907:0;cd si
+: 1483655908:0;ls
+: 1483655914:0;cd fft_bad_segments
+: 1483655914:0;ls
+: 1483656843:0;q
+: 1483666850:0;cd ~/www
+: 1483666850:0;ls
+: 1483666854:0;hg diff -r .^
+: 1483666868:0;cd flib
+: 1483666868:0;ls
+: 1483666871:0;cd si
+: 1483666872:0;ls
+: 1483666881:0;cd ..
+: 1483670168:0;q
+: 1483722030:0;clear
+: 1483722030:0;s
+: 1483722036:0;d
+: 1483722155:0;git diff
+: 1483722157:0;clear
+: 1483722160:0;hg diff
+: 1483722165:0;pwd
+: 1483722169:0;cd ...
+: 1483722172:0;cd fft_labels
+: 1483722174:0;cd content
+: 1483722174:0;ls
+: 1483722175:0;.
+: 1483722180:0;clean
+: 1483722182:0;vim segment_data.py
+: 1483722190:0;q
+: 1483722780:0;ls
+: 1483722782:0;arc lint
+: 1483723292:0;cd content
+: 1483723294:0;python segment_data.py
+: 1483723304:0;cd ...
+: 1483723305:0;..
+: 1483723319:0;./tester tasks/si/fft_labels/content/segment_data.py 2016-12-28 --local-run
+: 1483723410:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run
+: 1483723550:0;cd ../www-hg
+: 1483723551:0;s
+: 1483723560:0;hg sl
+: 1483723566:0;hg update clustering_segments_php
+: 1483723571:0;hg shelve
+: 1483723586:0;hg update clustering_segments_php
+: 1483723603:0;hg diff -r .^
+: 1483723615:0;hg update acdc_to_configerator
+: 1483723618:0;hg sl
+: 1483723623:0;hg unshelve
+: 1483723647:0;arc features
+: 1483723680:0;arc feature -h
+: 1483723696:0;arc feature --cleanup
+: 1483723740:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run
+: 1483723803:0;hg sl
+: 1483723812:0;hg shelve
+: 1483723840:0;hg rebase -s acdc_to_configerator -d remote/master
+: 1483723869:0;hg unshelve
+: 1483724000:0;clear
+: 1483724001:0;hg sl
+: 1483724005:0;hg status
+: 1483724081:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run
+: 1483724166:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28
+: 1483724828:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 -x
+: 1483726580:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 ~/sample_data
+: 1483726587:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 > ~/sample_data
+: 1483726616:0;pwd
+: 1483726637:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 -x
+: 1483726651:0;clear
+: 1483726656:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 -x --local-run
+: 1483726776:0;pwd
+: 1483726797:0;ls ..
+: 1483726801:0;ls ...
+: 1483726804:0;ls ~
+: 1483726807:0;cd 
+: 1483726809:0;pwd
+: 1483726810:0;cd -
+: 1483726816:0;clear
+: 1483726876:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 -x --local-run
+: 1483727021:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483727153:0;cd ~/www
+: 1483727155:0;pwd
+: 1483727156:0;ls
+: 1483727182:0;-
+: 1483727187:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483727323:0;cat ~/sample_data
+: 1483727412:0;ls
+: 1483727425:0;cd flib/intern/si/clustering/fft_segmentation_cluster
+: 1483727431:0;vim FFTSegmentationClusterScheduler.php
+: 1483727519:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483730365:0;hh
+: 1483730367:0;clear
+: 1483730370:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483730751:0;clear
+: 1483730763:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483731743:0;clear
+: 1483731745:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483732292:0;clear
+: 1483732293:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483732468:0;hphpd -h localhost
+: 1483732499:0;ls
+: 1483732502:0;hphpd -h localhost
+: 1483732604:0;clear
+: 1483733151:0;tail /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 > ~/sample_data
+: 1483733159:0;wc -l ~/sample_data
+: 1483733166:0;tail -n 1000 /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 > ~/sample_data
+: 1483733168:0;wc -l ~/sample_data
+: 1483735712:0;tail -n 2000 /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | head -n 1000  > ~/sample_data
+: 1483735718:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483737988:0;hh
+: 1483738000:0;hh | grep -v "Manager"
+: 1483738006:0;q
+: 1483738060:0;tail -n 3000 /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | head -n 1000  > ~/sample_data
+: 1483738066:0;wc -l ~/sample_data
+: 1483738164:0;~/findStopped.sh
+: 1483738178:0;clear
+: 1483738210:0;ls
+: 1483738214:0;cd ..
+: 1483738215:0;ls
+: 1483738217:0;cd fft_bad_segments
+: 1483738218:0;ls
+: 1483738229:0;cd ../fft_bad_segments
+: 1483738233:0;clear
+: 1483738234:0;ls
+: 1483738236:0;vim FFTBadSegmentManager.php
+: 1483738284:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483738306:0;clear
+: 1483738307:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483738971:0;hphpd -h localhost
+: 1483739065:0;tail -n 3000 /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | head -n 100  > ~/sample_data
+: 1483739087:0;hphpd -h localhost
+: 1483739228:0;head ~/sample
+: 1483739231:0;head ~/sample_data
+: 1483739276:0;head ~/sample_data | cut -f1
+: 1483739315:0;head ~/sample_data | cut -f0
+: 1483739317:0;head ~/sample_data | cut -f2
+: 1483739476:0;run-help i
+: 1483739486:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483741308:0;ps -ef | grep php
+: 1483741314:0;top
+: 1483741368:0;kill -9 hphpi
+: 1483741374:0;pkill hphpi
+: 1483741375:0;sudo pkill hphpi
+: 1483741383:0;fixmyserver
+: 1483741464:0;clear
+: 1483741517:0;ps -ef
+: 1483741526:0;ps -ef | less
+: 1483741561:0;.
+: 1483741893:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483742028:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28
+: 1483749771:0;ls
+: 1483749772:0;s
+: 1483749783:0;cd ~/www
+: 1483749783:0;s
+: 1483749806:0;cd flib/
+: 1483749820:0;cd logging/logger/configs/
+: 1483749820:0;ls
+: 1483749821:0;s
+: 1483749842:0;hg shelve
+: 1483749883:0;s
+: 1483749894:0;hg sl
+: 1483749912:0;hg shelve
+: 1483749927:0;arc feature acdc_nullableint_fix
+: 1483749942:0;hg unshelve
+: 1483749993:0;hg status
+: 1483750051:0;hg commit -m "Added check for null fbid in logger"
+: 1483750072:0;arc diff --create
+: 1483750253:0;hg commit -m "Added check for null fbid in logger" --amend
+: 1483750265:0;arc diff --create
+: 1483750292:0;arc lint
+: 1483750312:0;clear
+: 1483750314:0;arc lint
+: 1483750323:0;ls
+: 1483750324:0;clear
+: 1483750331:0;ls | grep ACDC 
+: 1483750349:0;wc -l ACDCRecallLoggerConfig.php
+: 1483750351:0;clear
+: 1483750354:0;arc lint
+: 1483750365:0;cd ..
+: 1483750366:0;arc lint
+: 1483750377:0;hg s
+: 1483750379:0;hg status
+: 1483750386:0;hg diff -r .^
+: 1483750415:0;hg commit -m "Added check for null fbid in logger" --amend
+: 1483750427:0;hg diff -r .^
+: 1483750446:0;arc lint
+: 1483750463:0;cd ~/www
+: 1483750466:0;arc lint
+: 1483750485:0;arc diff --create
+: 1483750911:0;hg commit -m "Added check for null fbid in logger" --amend
+: 1483751052:0;q
+: 1483751177:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28
+: 1483751201:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | cut -f15
+: 1483751216:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | cut -f17
+: 1483751221:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | cut -f16
+: 1483751224:0;head /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | cut -f15
+: 1483751247:0;cut -f15 /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | sort | uniq
+: 1483751255:0;cut -f15 /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 | sort | uniq | wc -l
+: 1483751418:0;arc diff --update D4389968
+: 1483754578:0;s
+: 1483754581:0;hg unshelve
+: 1483754631:0;hg unshelve --continue
+: 1483754635:0;hg status
+: 1483754647:0;cd flib/logging/logger/configs/
+: 1483754648:0;ls
+: 1483754650:0;clear
+: 1483754650:0;s
+: 1483754653:0;d
+: 1483754775:0;clear
+: 1483754776:0;s
+: 1483754802:0;clear
+: 1483754803:0;s
+: 1483768672:0;d ACDCRecallLoggerConfig.php
+: 1483982422:0;python -v
+: 1483982429:0;python -V
+: 1483982583:0;split
+: 1483982645:0;split -l 10 ~/sample_data
+: 1483982646:0;ls
+: 1483982657:0;s
+: 1483982681:0;cat xaa xab xac xad xae xaf xag xah xai xaj
+: 1483982685:0;rm xa*
+: 1483982686:0;s
+: 1483982690:0;vim jeprof.3
+: 1483982694:0;cat jeprof.3*
+: 1483982697:0;rm jeprof.3*
+: 1483982698:0;s
+: 1483982700:0;clear
+: 1483982700:0;s
+: 1483982705:0;man split
+: 1483982867:0;cd ..
+: 1483982870:0;mkdir split_test
+: 1483982872:0;cd split_test
+: 1483982875:0;split -l 10 ~/sample_data
+: 1483982877:0;ls
+: 1483982898:0;split -l 10 ~/sample_data --additional-suffix=.txt
+: 1483982899:0;ls
+: 1483982901:0;rm *
+: 1483982915:0;split -l 10 ~/sample_data --additional-suffix=.txt sample_data
+: 1483982915:0;s
+: 1483982916:0;ls
+: 1483982921:0;split -l 10 ~/sample_data --additional-suffix=.txt sample_data_
+: 1483982921:0;ls
+: 1483982924:0;rm *
+: 1483982928:0;split -l 10 ~/sample_data --additional-suffix=.txt sample_data_
+: 1483982928:0;s
+: 1483982929:0;ls
+: 1483982940:0;rm *
+: 1483982948:0;split -l 10 ~/sample_data --additional-suffix=.tsv sample_data_
+: 1483982949:0;s
+: 1483982950:0;ls
+: 1483983296:0;cd ..
+: 1483983298:0;rm split_test
+: 1483983299:0;s
+: 1483983300:0;clear
+: 1483983301:0;ls
+: 1483983303:0;cd dataswarm-hg
+: 1483983305:0;arc lint
+: 1483983548:0;python3
+: 1483983553:0;pythpn
+: 1483983558:0;python -V
+: 1483983797:0;mk split_test
+: 1483983809:0;split -d -l 10 ~/sample_data --additional-suffix=.tsv sample_data_
+: 1483983810:0;s
+: 1483983842:0;split -d -l 1000000 ~/sample_data --additional-suffix=.tsv sample_data_
+: 1483983844:0;ls
+: 1483983845:0;rm *
+: 1483983849:0;split -d -l 1000000 ~/sample_data --additional-suffix=.tsv sample_data_
+: 1483983849:0;ls
+: 1483983852:0;rm sample_data_00.tsv
+: 1483983904:0;split -d -l 1000000 /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28 --additional-suffix=.tsv sample_data_
+: 1483984120:0;s
+: 1483984129:0;rm * -y
+: 1483984133:0;rm *
+: 1483984136:0;clear
+: 1483984137:0;ls
+: 1483984355:0;arc lint
+: 1483984363:0;cd ..
+: 1483984367:0;rm split_test -f
+: 1483984368:0;s
+: 1483984379:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483985099:0;ls
+: 1483985463:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483985489:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc_p00]' 2016-12-28 --local-run -x
+: 1483985548:0;q
+: 1483985863:0;pythpn
+: 1483985866:0;python
+: 1483986044:0;pwd
+: 1483986047:0;cd 
+: 1483986048:0;pwd
+: 1483986049:0;ls
+: 1483986119:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483986123:0;-
+: 1483986124:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483986186:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_*
+: 1483986335:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483986380:0;ls
+: 1483986391:0;rm <\<TMP_FILE_DS:\{prefix\}_bad_segments_\>*
+: 1483986397:0;rm "<\<TMP_FILE_DS:\{prefix\}_bad_segments_\>*"
+: 1483986399:0;s
+: 1483986413:0;rm "<TMP_FILE_DS:{prefix}_bad_segments_>*"
+: 1483986414:0;s
+: 1483986426:0;rm \<TMP_FILE_DS:\{prefix\}_bad_segments_\>*
+: 1483986427:0;s
+: 1483986428:0;clear
+: 1483986428:0;s
+: 1483986429:0;ls
+: 1483986440:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483986448:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_*
+: 1483986455:0;ls
+: 1483986492:0;ls ~/
+: 1483986500:0;cd 
+: 1483986516:0;cat sample_data0* sample_data1*
+: 1483986523:0;cat sample_data0* sample_data1* > sample_data_catted
+: 1483986529:0;diff sample_data sample_data_catted
+: 1483986536:0;rm sample_data0*
+: 1483986537:0;rm sample_data1*
+: 1483986540:0;rm sample_data_catted
+: 1483986541:0;clear
+: 1483986541:0;s
+: 1483986544:0;ls
+: 1483986549:0;-
+: 1483986550:0;.
+: 1483986814:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483988429:0;q
+: 1483988548:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483988586:0;cd /mnt
+: 1483988593:0;cd dstmp/dataswarm/si/tmp/
+: 1483988594:0;s
+: 1483988595:0;ls
+: 1483988630:0;clear
+: 1483988674:0;s
+: 1483988675:0;cd ..
+: 1483988676:0;cd -
+: 1483988679:0;cd ~/
+: 1483988681:0;ls
+: 1483988686:0;cd www
+: 1483988687:0;clear
+: 1483988687:0;s
+: 1483988779:0;clear
+: 1483988780:0;s
+: 1483988781:0;ls
+: 1483988783:0;cd ..
+: 1483988785:0;ls
+: 1483988786:0;cd -
+: 1483988788:0;clear
+: 1483988788:0;s
+: 1483988797:0;d FFTBadSegmentManager.php FFTBadSegmentManager.ph
+: 1483988803:0;vim FFTBadSegmentManager.php
+: 1483988822:0;clear
+: 1483988822:0;s
+: 1483988826:0;hg shelve -h
+: 1483988836:0;hg shelve FFTBadSegmentManager.php ../../../logging
+: 1483988843:0;hg unshelve --continue
+: 1483988848:0;hg resolve
+: 1483988853:0;hg resolve --all
+: 1483988860:0;hg status
+: 1483988881:0;vim ~/www/flib/logging/logger/configs/ACDCRecallLoggerConfig.php
+: 1483988904:0;clear
+: 1483988906:0;hg status
+: 1483988921:0;hg resolve --mark flib/logging/logger/configs
+: 1483988932:0;hg resolve --mark flib/logging/logger/configs/ACDCRecallLoggerConfig.php
+: 1483988943:0;hg resolve --mark ~/www/flib/logging/logger/configs/ACDCRecallLoggerConfig.php
+: 1483988948:0;hg unshelve --continue
+: 1483988977:0;clear
+: 1483988979:0;hg status
+: 1483988982:0;hg ..
+: 1483988984:0;-
+: 1483988986:0;hg status
+: 1483989008:0;hg shelve fft_bad_segments/FFTBadSegmentManager.php
+: 1483989013:0;hg unshelve --continue
+: 1483989019:0;hg unshelve --abort
+: 1483989026:0;hg rm fft_bad_segments/FFTBadSegmentManager.php
+: 1483989040:0;hg forget fft_bad_segments/FFTBadSegmentManager.php
+: 1483989043:0;hg status
+: 1483989048:0;hg rm fft_bad_segments/FFTBadSegmentManager.php
+: 1483989054:0;rm fft_bad_segments
+: 1483989056:0;hg status
+: 1483989059:0;clear
+: 1483989062:0;hg unshelve --abort
+: 1483989065:0;clear
+: 1483989065:0;s
+: 1483989069:0;q
+: 1483989112:0;ls fft_ent_share
+: 1483989116:0;ls fft_ent_share*
+: 1483989669:0;vim fft
+: 1483989675:0;clear
+: 1483989688:0;ls | grep fft
+: 1483989979:0;ls
+: 1483989983:0;cd ~/
+: 1483989983:0;ls
+: 1483989994:0;mkdir sample_data
+: 1483989998:0;mkdir sample_data_files
+: 1483990003:0;mv sample_data sample_data_files
+: 1483990006:0;cd sample_data_files
+: 1483990007:0;ls
+: 1483990008:0;pwd
+: 1483990061:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483990068:0;ls
+: 1483990081:0;cd /mnt/dstmp
+: 1483990081:0;ls
+: 1483990084:0;cd dataswarm
+: 1483990084:0;ls
+: 1483990085:0;cd si
+: 1483990087:0;cd tmp
+: 1483990207:0;ls
+: 1483990224:0;rm fft
+: 1483990252:0;man rm
+: 1483990280:0;rm -i fft_ent_share_callback_bad_segments.tsv.*.0*
+: 1483990290:0;rm -i fft_ent_share_callback_bad_segments.tsv.*
+: 1483990294:0;ls
+: 1483990333:0;ls | grep "[0-9]{4,}"
+: 1483990352:0;ls | grep "[0-9]{5,}^"
+: 1483990361:0;ls | grep "[0-9]{5,}$"
+: 1483990374:0;ls | grep "[0-9]{5,}$" | rm
+: 1483990387:0;rm `ls | grep "[0-9]{5,}$"`
+: 1483990418:0;rm `ls | grep "0[0-9]{5,}$"`
+: 1483990461:0;rm fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-289.*
+: 1483990470:0;rm fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-289*
+: 1483990491:0;rm fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-2899*
+: 1483990562:0;file=(fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-289*)
+: 1483990574:0;for((I=0;I<${#files[*]};I+=1000)); do rm -f ${files[@]:I:1000}; done
+: 1483990581:0;bash
+: 1483992957:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483992960:0;cd ...
+: 1483992961:0;cd 
+: 1483992963:0;cd www
+: 1483992968:0;cd ~/dataswarm
+: 1483992971:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483992980:0;cd ~/sample_data_files
+: 1483992981:0;clear
+: 1483992981:0;ls
+: 1483992987:0;rm *.*
+: 1483992988:0;ls
+: 1483992992:0;cd -
+: 1483992995:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483992999:0;-
+: 1483993000:0;ls
+: 1483993199:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483993202:0;cd -
+: 1483993204:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483993211:0;clear
+: 1483993211:0;ls
+: 1483993216:0;-
+: 1483993217:0;clear
+: 1483993218:0;ls
+: 1483993223:0;cd ~/dataswarm
+: 1483993224:0;s
+: 1483993365:0;arc lint
+: 1483993406:0;arc unit
+: 1483993442:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback
+: 1483993445:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback*
+: 1483993472:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments_.tsv.2016-12-28*
+: 1483993482:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.*
+: 1483993604:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483993635:0;`cd ~/www; pwd`
+: 1483993643:0;echo "`cd ~/www; pwd`"
+: 1483993666:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483993669:0;ls
+: 1483993673:0;rm *.*
+: 1483993674:0;clear
+: 1483993674:0;ls
+: 1483993677:0;cd ..
+: 1483993688:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.*
+: 1483993728:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483993768:0;cd www
+: 1483993769:0;hh
+: 1483993774:0;arc lint
+: 1483993797:0;clear
+: 1483993801:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483993925:0;s
+: 1483993927:0;d
+: 1483994010:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483994059:0;clear
+: 1483994060:0;ls
+: 1483994069:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1483994085:0;hh
+: 1483994111:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483994292:0;arc lint
+: 1483994324:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1483994360:0;cd ~/dataswarm
+: 1483994360:0;s
+: 1483994362:0;d
+: 1483994564:0;clear
+: 1483994565:0;d
+: 1483994606:0;hg sl
+: 1483994614:0;s
+: 1483994618:0;vim jeprof.2088058.0.m0.heap
+: 1483994624:0;clear
+: 1483994624:0;s
+: 1483994633:0;mv jeprof.2088058.0.m0.heap ~/prof/
+: 1483994637:0;mkdir ~/prof
+: 1483994639:0;mv jeprof.2088058.0.m0.heap ~/prof/
+: 1483994640:0;clear
+: 1483994641:0;s
+: 1483994666:0;hg commit -m "Adding tasks for cutting up data files and sending them to acdc via php calls"
+: 1483994669:0;arc lint
+: 1483994705:0;hg commit --amend
+: 1483994714:0;arc lint
+: 1483994721:0;arc diff --create
+: 1483995064:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483995076:0;clear
+: 1483995077:0;hh
+: 1483995104:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483995181:0;s
+: 1483995183:0;d
+: 1483995214:0;clear && d
+: 1483995229:0;arc lint
+: 1483995515:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483995541:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483995593:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1483995948:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483996122:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | head -n 1
+: 1483996129:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | head -n 1 | wc -l
+: 1483996141:0;wc -l `ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | head -n 1`
+: 1483996168:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483996224:0;hh
+: 1483996423:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483997506:0;clear
+: 1483997509:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483997694:0;wc -l `ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | head -n 1`
+: 1483997712:0;top
+: 1483997732:0;top | grep hhvm
+: 1483997924:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1483997931:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483998388:0;rm /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.*
+: 1483998406:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1483998423:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483998474:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1483998541:0;arc lint
+: 1483998559:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1483998614:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483998923:0;clear
+: 1483998927:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1483998942:0;hh
+: 1483999124:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1483999190:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1483999293:0;wc -l `ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | head -n 1`
+: 1483999454:0;s
+: 1483999461:0;d
+: 1483999973:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484000146:0;d
+: 1484000188:0;s
+: 1484000189:0;d
+: 1484000223:0;du -hs /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.00
+: 1484000743:0;arc lint
+: 1484000838:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484000939:0;clear
+: 1484000939:0;s
+: 1484000943:0;rm jeprof.2*
+: 1484000944:0;clear
+: 1484000944:0;s
+: 1484000955:0;arc lint
+: 1484000977:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484003004:0;r
+: 1484003006:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484004332:0;r
+: 1484004333:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484004718:0;q
+: 1484004758:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484005906:0;arc lint
+: 1484005919:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484007810:0;d
+: 1484007848:0;s
+: 1484007849:0;d
+: 1484008050:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484008102:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484008111:0;time ./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484008118:0;arc lint
+: 1484008142:0;clear
+: 1484008144:0;arc lint
+: 1484008290:0;rc lint
+: 1484008293:0;arc lint
+: 1484008375:0;wc -l `ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | head -n 1`
+: 1484008382:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1484008392:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484008764:0;s
+: 1484008768:0;rm ../../../jeprof.3994786.0.m0.heap
+: 1484008769:0;clear
+: 1484008769:0;s
+: 1484008771:0;d
+: 1484008788:0;c;ear
+: 1484008789:0;s
+: 1484008790:0;clear
+: 1484008791:0;s
+: 1484008797:0;d
+: 1484008821:0;arc lint
+: 1484008830:0;q
+: 1484008845:0;ai
+: 1484008854:0;arc \
+
+: 1484008856:0;clear
+: 1484008857:0;ls
+: 1484008860:0;arc status
+: 1484008866:0;s
+: 1484008868:0;d
+: 1484008889:0;:mode
+: 1484008900:0;ls
+: 1484008903:0;s
+: 1484008905:0;d
+: 1484008910:0;cd __tests__
+: 1484008911:0;.
+: 1484008913:0;vim SV_SI_FFT_SEGMENTATION_CLUSTER_CONFIGIntegrationTest.php
+: 1484008920:0;cd ..
+: 1484008920:0;clear
+: 1484008921:0;ls
+: 1484008928:0;hg sl
+: 1484008936:0;arc clean
+: 1484008948:0;hg pull
+: 1484008998:0;hg sl
+: 1484009028:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | sed "s/.*\.([0-9]*)$/\1/"
+: 1484009037:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | sed "s/.*\.\([0-9]*\)$/\1/"
+: 1484009059:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | sed "s/.*\.\([0-9]*\)$/\1/" | head
+: 1484009070:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | sed "s/.*\.\([0-9]*\)$/\1/" | head -n 100
+: 1484009075:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | sed "s/.*\.\([0-9]*\)$/\1/" | head -n 200
+: 1484009080:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | sed "s/.*\.\([0-9]*\)$/\1/" | head -n 300
+: 1484009085:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | sed "s/.*\.\([0-9]*\)$/\1/" | head -n 1000
+: 1484009103:0;cd /mnt/dstmp
+: 1484009103:0;ls
+: 1484009108:0;cd dataswarm/si/tmp
+: 1484009109:0;ls
+: 1484009112:0;clear
+: 1484009114:0;ls
+: 1484009212:0;rm `ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | grep ".*.[0-9]{2}$"`
+: 1484009231:0;rm `ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | /bin/grep ".*.[0-9]{2}$"`
+: 1484009248:0;rm "`ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | /bin/grep ".*.[0-9]{2}$"`"
+: 1484009261:0;echo "`ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | /bin/grep ".*.[0-9]{2}$"`"
+: 1484009266:0;echo "`ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | /bin/grep ".*.[0-9]{4}$"`"
+: 1484009271:0;echo "`ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | /bin/grep ".*.[0-9]{3}$"`"
+: 1484009277:0;echo "`ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | /bin/grep ".*.[0-9][0-9]$"`"
+: 1484009309:0;wc -l `ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.9535`
+: 1484009384:0;ls fft_ent* | grep -v "[0-9][0-9][0-9][0-9]$"
+: 1484009398:0;ls fft_ent* | grep "\.[0-9][0-9]$"
+: 1484009420:0;rm `ls fft_ent* | /bin/grep "\.[0-9][0-9]$"`
+: 1484009424:0;ls fft_ent* | grep -v "[0-9][0-9][0-9][0-9]$"
+: 1484009443:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484009453:0;hg sl
+: 1484009461:0;arc cleanup
+: 1484009474:0;hg bookmark -d acdc_nullableint_fix
+: 1484009478:0;hg sl
+: 1484009499:0;hg rebase -s acdc_to_configerator -d remote/master
+: 1484009528:0;hg s
+: 1484009531:0;s
+: 1484009533:0;d
+: 1484009596:0;hg commit -m "Batch per file in a glob rather than by chunks of a file"
+: 1484009626:0;q
+: 1484009719:0;hg sl
+: 1484009727:0;hg rebase -s acdc_to_configerator -d remote/master
+: 1484010202:0;wc -l `ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.*`
+: 1484010222:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1484010229:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.9* | wc -l
+: 1484010237:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.95* | wc -l
+: 1484010240:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.96* | wc -l
+: 1484010243:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.97* | wc -l
+: 1484010249:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.99* | wc -l
+: 1484010484:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484010530:0;hg sl
+: 1484010550:0;hg diff -r .^
+: 1484010617:0;top
+: 1484010837:0;clear
+: 1484010842:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484010855:0;q
+: 1484011057:0;clear
+: 1484011057:0;s
+: 1484011060:0;hg sl
+: 1484011094:0;hg rebase -s 3d8f5c -d remote/master
+: 1484011152:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484011158:0;hg sl
+: 1484011180:0;rm "`ls fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.*`"
+: 1484011200:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.* | wc -l
+: 1484011254:0;rm /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.*
+: 1484011352:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484011403:0;hg diff -r .^
+: 1484011409:0;hg sl
+: 1484011425:0;hg bookmark file_batching_to_acdc
+: 1484011428:0;hg sl
+: 1484011471:0;arc lint && arc unit
+: 1484011555:0;arc diff
+: 1484011594:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484011997:0;clear
+: 1484011998:0;s
+: 1484011999:0;hg sl
+: 1484012008:0;hg update acdc_to_configerator
+: 1484012013:0;hg sl
+: 1484012023:0;hg diff -r .^
+: 1484012036:0;q
+: 1484012043:0;clear
+: 1484012044:0;hg sl
+: 1484012047:0;hg diff -r .^
+: 1484012055:0;hg status -r .^
+: 1484012059:0;hg diff -r .^ | head
+: 1484012069:0;cd ~/www/flib/intern/si/fft_bad_segments
+: 1484012070:0;clear
+: 1484012070:0;s
+: 1484012074:0;hg diff -r .^ | head
+: 1484012078:0;hg diff -r .^
+: 1484012092:0;ls
+: 1484012094:0;vim FFTBadSegmentManager.php
+: 1484012187:0;hh
+: 1484012190:0;arc lint
+: 1484012353:0;hh
+: 1484012560:0;hphpd -h localhost
+: 1484012603:0;clear
+: 1484012603:0;hh
+: 1484012606:0;watch hh
+: 1484012616:0;clear
+: 1484012617:0;ls
+: 1484012644:0;watch hh
+: 1484012668:0;clear
+: 1484012669:0;s
+: 1484014030:0;wc -l `ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.*` | grep -n '9869'
+: 1484014051:0;wc -l `ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28.*`
+: 1484014067:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484014074:0;clear
+: 1484014074:0;q
+: 1484014168:0;cd ~/dataswarm
+: 1484014172:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 -x
+: 1484014416:0;./tester 'si.fft_labels.content.segment_data.pipeline' 2016-01-02 -x
+: 1484014438:0;./tester 'si/fft_labels/content/segment_data.py' 2016-01-02 -x
+: 1484014467:0;q
+: 1484014605:0;s
+: 1484014611:0;hg shelve
+: 1484014638:0;hg sl
+: 1484014729:0;hg rebase -s acdc_to_configerator -d file_batching_to_acdc
+: 1484014757:0;clear
+: 1484014757:0;hg sl
+: 1484014757:0;ls
+: 1484014760:0;q
+: 1484014800:0;ls
+: 1484014803:0;cd ../fft_bad_segments
+: 1484014806:0;clear
+: 1484014806:0;s
+: 1484014809:0;hg sl
+: 1484014906:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][send_segments_to_acdc]' 2016-12-28 --local-run -x
+: 1484015361:0;cd /var
+: 1484015362:0;ls
+: 1484015363:0;cd ww
+: 1484015365:0;cd www
+: 1484015366:0;ls
+: 1484015371:0;cd
+: 1484015372:0;clear
+: 1484015372:0;ls
+: 1484015381:0;rm bad_dummy.pu bad_dummy.py badsegman.php broken_deps.py
+: 1484015382:0;s
+: 1484015383:0;ls
+: 1484015390:0;cat test_file
+: 1484015395:0;rm test_file
+: 1484015396:0;clear
+: 1484015396:0;ls
+: 1484015401:0;cat test2.php
+: 1484015408:0;cat test.php
+: 1484015411:0;clear
+: 1484015411:0;ls
+: 1484015414:0;ls prof
+: 1484015415:0;rm prof
+: 1484015418:0;ls site
+: 1484015419:0;ls sitevars
+: 1484015422:0;rm sitevars
+: 1484015431:0;rm sitevars/ -rf
+: 1484015433:0;clear
+: 1484015433:0;ls
+: 1484015436:0;ks sample_data_files
+: 1484015438:0;ls sample_data_files
+: 1484015443:0;vim findStopped.sh
+: 1484015447:0;rm findStopped.sh
+: 1484015448:0;clear
+: 1484015448:0;s
+: 1484015449:0;ls
+: 1484015456:0;q
+: 1484015920:0;ls
+: 1484015959:0;hg unshelve
+: 1484017100:0;ls
+: 1484017108:0;cd www
+: 1484017114:0;cd flib/intern/si/fft_bad_segments
+: 1484017115:0;clear
+: 1484017115:0;s
+: 1484017122:0;ls
+: 1484017125:0;vim FFTBadSegmentManager.php
+: 1484017176:0;rm ~/.local/share/nvim/swap/%data%users%jopra%www-hg%flib%intern%si%clustering%fft_segmentation_cluster%FFTSegmentationClusterScheduler.php.swo
+: 1484017195:0;rm ~/.local/share/nvim/swap/%data%users%jopra%www-hg%flib%intern%si%fft_bad_segments%FFTBadSegmentManager.php.swp
+: 1484017208:0;rm ~/.local/share/nvim/swap/%home%jopra%.ghc%ghci_history.swp
+: 1484017225:0;rm ~/.local/share/nvim/swap/%tmp%edit.2fmy1ch4thogo40c%new-commit.swp
+: 1484017278:0;vim FFTBadSegmentManager.php
+: 1484017284:0;ls
+: 1484017286:0;hg sl
+: 1484017287:0;hg s
+: 1484017289:0;hg status
+: 1484017305:0;d
+: 1484017336:0;clear
+: 1484082932:0;ls
+: 1484082942:0;clear
+: 1484082943:0;s
+: 1484083037:0;d
+: 1484083045:0;clear
+: 1484083046:0;s
+: 1484083407:0;hphpd -h localhost
+: 1484083926:0;hh
+: 1484084040:0;hphpd -h localhost
+: 1484084085:0;mv ~/test_bad_seg_man.php .
+: 1484084089:0;h
+: 1484085376:0;cd ~/www
+: 1484085377:0;~/www/scripts/thrift/update_flib_files.php cf:si/fft_bad_segments/fft_bad_segments.thrift
+: 1484085396:0;hh
+: 1484085521:0;s
+: 1484085716:0;hg add .
+: 1484085723:0;hh
+: 1484086052:0;s
+: 1484086057:0;hg status
+: 1484086125:0;hg diff -c tip
+: 1484086152:0;hg sl
+: 1484086182:0;arc rebuild
+: 1484086602:0;hh
+: 1484086614:0;hg log
+: 1484086662:0;hg log | grep -B1 -A3 "Joshua Pratt"
+: 1484086742:0;cd flib
+: 1484086746:0;cd thrift
+: 1484086746:0;ls
+: 1484086749:0;cd core
+: 1484086750:0;ls
+: 1484086770:0;..
+: 1484086774:0;cd lib
+: 1484086774:0;ls
+: 1484086776:0;cd ..
+: 1484086778:0;ls *
+: 1484086824:0;cd maps
+: 1484086828:0;cd ..
+: 1484086829:0;cd intern
+: 1484086831:0;cd thrift
+: 1484086833:0;cd maps
+: 1484086833:0;clear
+: 1484086833:0;ls
+: 1484086836:0;vim Thrift
+: 1484086841:0;vim ThriftCorePackageMap.php
+: 1484087052:0;hh
+: 1484087086:0;clear
+: 1484087087:0;hh
+: 1484087431:0;clear hh
+: 1484087433:0;hh
+: 1484087718:0;h
+: 1484088001:0;clear
+: 1484088002:0;ls
+: 1484088003:0;s
+: 1484088008:0;hg shelve
+: 1484088020:0;hg status
+: 1484088029:0;hg diff
+: 1484088037:0;hg sl
+: 1484088051:0;hg status
+: 1484088053:0;s
+: 1484088054:0;d
+: 1484088061:0;hg sl
+: 1484088064:0;hg log
+: 1484088074:0;hg commit --amend
+: 1484088081:0;hg sl
+: 1484088087:0;arc diffs
+: 1484088216:0;hg diff -c tip
+: 1484088361:0;q
+: 1484088368:0;hg status
+: 1484088375:0;hg sl
+: 1484088383:0;q
+: 1484088408:0;hg rebase -s acdc_to_configerator -d remote/master
+: 1484088429:0;hg sl
+: 1484088436:0;ls
+: 1484088437:0;cd ..
+: 1484088441:0;clear
+: 1484088442:0;hg sl
+: 1484088469:0;hg pull
+: 1484088518:0;arc cleanup
+: 1484088572:0;hg sl
+: 1484088582:0;hg rebase -s acdc_to_configerator -d remote/master
+: 1484088644:0;hg sl
+: 1484088653:0;hg unshelve
+: 1484088736:0;vim -S ~/BadManager
+: 1484091433:0;i devservers
+: 1484091881:0;cd ~/local/si_sigma
+: 1484091882:0;clear
+: 1484091882:0;ls
+: 1484091883:0;s
+: 1484091884:0;clear
+: 1484091884:0;s
+: 1484091886:0;hg sl
+: 1484091889:0;git sl
+: 1484091896:0;git pull
+: 1484091909:0;git status
+: 1484091917:0;cd Contexts
+: 1484091926:0;cd Acdc/CsccGenericSegmentIdCluster
+: 1484091928:0;vim Policies.hs
+: 1484091936:0;clear
+: 1484091936:0;s
+: 1484091946:0;git status
+: 1484091950:0;git add Policies.hs
+: 1484091953:0;clear
+: 1484091954:0;s
+: 1484091959:0;git status | head
+: 1484091968:0;git pull
+: 1484091974:0;git merge --continue
+: 1484091976:0;git merge
+: 1484091984:0;git commit
+: 1484091995:0;git merge -m "Merge"
+: 1484091998:0;clear
+: 1484091998:0;s
+: 1484092000:0;git status
+: 1484092003:0;git sl
+: 1484092073:0;git diff HEAD^
+: 1484092083:0;git log
+: 1484092093:0;git reset
+: 1484092097:0;git status
+: 1484092107:0;git reset --hard HEAD~1
+: 1484092110:0;hg status
+: 1484092114:0;git status
+: 1484092119:0;clear
+: 1484092121:0;git status
+: 1484092126:0;clear
+: 1484092126:0;git sl
+: 1484092133:0;d
+: 1484092140:0;git diff HEAD^
+: 1484092168:0;arc cleanup
+: 1484092181:0;git sl
+: 1484092185:0;clear
+: 1484092187:0;git status
+: 1484092191:0;git pull
+: 1484092196:0;clear
+: 1484092198:0;vim Policies.hs
+: 1484092210:0;clear
+: 1484092210:0;s
+: 1484092214:0;git status
+: 1484092217:0;git add Policies.hs
+: 1484092219:0;clear
+: 1484092220:0;s
+: 1484092222:0;clear
+: 1484092228:0;git commit
+: 1484092232:0;clear
+: 1484092232:0;s
+: 1484092235:0;git sl
+: 1484092249:0;git reset origin/master
+: 1484092251:0;gitstatus
+: 1484092253:0;s
+: 1484092255:0;clear
+: 1484092256:0;git sl
+: 1484092258:0;clear
+: 1484092259:0;s
+: 1484092261:0;ls
+: 1484092411:0;vim *
+: 1484094584:0;vim * ~/local/si_sigma/Lib/Acdc/BiasedClusters.hs
+: 1484095188:0;s
+: 1484095188:0;d
+: 1484095191:0;cd ....
+: 1484095193:0;hc
+: 1484096383:0;arc lint
+: 1484096561:0;git commit -m "Created whitelist for segmentIdClusters in Acdc"
+: 1484096567:0;a ../../../Lib
+: 1484096567:0;s
+: 1484096569:0;git commit -m "Created whitelist for segmentIdClusters in Acdc"
+: 1484096573:0;clear
+: 1484096574:0;s
+: 1484096577:0;arc diff --create
+: 1484098258:0;hh
+: 1484098367:0;git commit --amend
+: 1484098371:0;s
+: 1484098374:0;a ../../../
+: 1484098375:0;s
+: 1484098381:0;D
+: 1484098387:0;git diff HEAD^
+: 1484098392:0;git commit --amend
+: 1484098397:0;clear
+: 1484098397:0;s
+: 1484098411:0;arc diff --update D4401827
+: 1484098546:0;hh
+: 1484098557:0;hg forget test_bad_seg_man.php
+: 1484098566:0;hg s
+: 1484098569:0;hg status
+: 1484098827:0;q
+: 1484099563:0;hh
+: 1484099640:0;h
+: 1484101719:0;ls
+: 1484101721:0;s
+: 1484101748:0;clear
+: 1484101748:0;s
+: 1484101805:0;hh
+: 1484101807:0;s
+: 1484101826:0;ls
+: 1484101837:0;cd ~/
+: 1484101838:0;ls
+: 1484101839:0;cd configerator
+: 1484101839:0;ls
+: 1484101845:0;s
+: 1484101922:0;git pull
+: 1484101925:0;hg pull
+: 1484102065:0;s
+: 1484102070:0;hg diff -c tip
+: 1484102079:0;clear
+: 1484102104:0;grep -r "135372847034051" .
+: 1484102124:0;ls
+: 1484102129:0;cd raw_configs
+: 1484102130:0;ls
+: 1484102134:0;clear
+: 1484102135:0;ls
+: 1484102136:0;cd ..
+: 1484102138:0;cd materialized_configs
+: 1484102138:0;ls
+: 1484102145:0;cd si
+: 1484102146:0;clear
+: 1484102146:0;ls
+: 1484102159:0;cd ..
+: 1484102160:0;clear
+: 1484102160:0;ls
+: 1484102162:0;cd ..
+: 1484102162:0;clear
+: 1484102163:0;ls
+: 1484102165:0;cd source
+: 1484102165:0;ls
+: 1484102168:0;cd si
+: 1484102169:0;cd fft_bad_segments
+: 1484102170:0;ls
+: 1484102174:0;cd fft_bad_segments.thrift
+: 1484102177:0;cat fft_bad_segments.thrift
+: 1484102181:0;cd ...
+: 1484102182:0;cd ..
+: 1484102183:0;clear
+: 1484102184:0;ls
+: 1484104268:0;clear
+: 1484104269:0;ls
+: 1484104270:0;s
+: 1484109184:0;cd arcanist
+: 1484109184:0;ls
+: 1484109190:0;cd arcanist
+: 1484109190:0;ls
+: 1484109191:0;cd ..
+: 1484109192:0;.
+: 1484109199:0;cd workflow
+: 1484109199:0;ls
+: 1484109201:0;cd ...
+: 1484109202:0;ls
+: 1484109203:0;cd materialized_configs
+: 1484109204:0;ls
+: 1484109207:0;cd si
+: 1484109207:0;ls
+: 1484109394:0;ls nfx_segmentation_cluster
+: 1484109399:0;cat nfx_segmentation_cluster/segmentation_features.materialized_JSON
+: 1484109415:0;..
+: 1484109421:0;cd raw_configs
+: 1484109421:0;ls
+: 1484109426:0;clear
+: 1484109426:0;ls
+: 1484109441:0;cd data
+: 1484109445:0;cd dataswarm
+: 1484109445:0;ls
+: 1484109448:0;cd pipelines
+: 1484109448:0;ls
+: 1484109450:0;cd di
+: 1484109451:0;ls
+: 1484109453:0;cd example
+: 1484109453:0;ls
+: 1484109455:0;cd ...
+: 1484109456:0;..
+: 1484109475:0;cd ..
+: 1484109475:0;ls
+: 1484109478:0;cd source
+: 1484109479:0;ls
+: 1484109481:0;cd si
+: 1484109482:0;ls
+: 1484109485:0;cd fft_bad_segments
+: 1484109486:0;ls
+: 1484109691:0;cd ..
+: 1484109692:0;ls
+: 1484109694:0;cd ..
+: 1484109694:0;ls
+: 1484109696:0;cd ..
+: 1484109696:0;ls
+: 1484119738:0;clear
+: 1484119739:0;q
+: 1484119791:0;hh
+: 1484123152:0;s
+: 1484123163:0;arc status
+: 1484123167:0;arc help
+: 1484123353:0;hh
+: 1484123357:0;arc lint
+: 1484123448:0;hh
+: 1484123451:0;arc lint
+: 1484123507:0;s
+: 1484123673:0;hh
+: 1484123937:0;arc lint
+: 1484123949:0;:mode
+: 1484159456:0;s
+: 1484159459:0;arc ;omt
+: 1484159461:0;arc lint
+: 1484159924:0;hh
+: 1484160114:0;clear
+: 1484160115:0;hh
+: 1484160274:0;arc lint
+: 1484160405:0;ls
+: 1484160407:0;cd ..
+: 1484160407:0;s
+: 1484160444:0;mv fft_bad_segments ../../support/admin/objects/cluster
+: 1484160453:0;cd ../../support/admin/objects
+: 1484160454:0;clear
+: 1484160454:0;ls
+: 1484160456:0;cd cluster
+: 1484160456:0;ls
+: 1484160487:0;mv fft_bad_segments GenericCluster
+: 1484160489:0;cd GenericCluster
+: 1484160490:0;s
+: 1484160493:0;clear
+: 1484160494:0;ls
+: 1484160495:0;s
+: 1484160500:0;ls
+: 1484160502:0;cd ..
+: 1484160502:0;ls
+: 1484160505:0;cd GenericCluster
+: 1484160505:0;ls
+: 1484160511:0;cd ..
+: 1484160512:0;ls
+: 1484160522:0;clear
+: 1484160541:0;mv GenericCluster fft_bad_segments
+: 1484160542:0;ls
+: 1484160551:0;mv fft_bad_segments GenericClusterUtils
+: 1484160553:0;cd GenericCluster
+: 1484160556:0;cd GenericClusterUtils
+: 1484160557:0;clear
+: 1484160557:0;ls
+: 1484160563:0;mv fft_bad_segments/* .
+: 1484160564:0;ls
+: 1484160569:0;rm fft_bad_segments
+: 1484160570:0;ls
+: 1484160601:0;clear
+: 1484160601:0;ls
+: 1484160602:0;s
+: 1484160623:0;hg forget ../../../../../intern/si/fft_bad_segments
+: 1484160628:0;hg status
+: 1484160641:0;hg add FFTBadSegmentManager.php
+: 1484160646:0;clear
+: 1484160646:0;ls
+: 1484160648:0;s
+: 1484160662:0;mv test_bad_seg_man.php ~/
+: 1484160664:0;s
+: 1484160668:0;hg commit --amend
+: 1484160677:0;hg sl
+: 1484160680:0;hg commit --amend
+: 1484160722:0;arc lint
+: 1484160728:0;cd ../../../
+: 1484160735:0;pwd
+: 1484160736:0;cd cluster
+: 1484160737:0;ls
+: 1484160740:0;cd GenericClusterUtils
+: 1484160741:0;clear
+: 1484160741:0;ls
+: 1484160743:0;h
+: 1484160778:0;clear
+: 1484160779:0;ls
+: 1484160785:0;-
+: 1484160791:0;-2
+: 1484160794:0;cd ...
+: 1484160795:0;ls
+: 1484160806:0;cd cluster/GenericClusterUtils
+: 1484160806:0;.
+: 1484160807:0;ls
+: 1484162834:0;clear
+: 1484162835:0;arc lint
+: 1484163122:0;s
+: 1484163125:0;hh
+: 1484163127:0;clear
+: 1484163127:0;s
+: 1484163128:0;d
+: 1484163510:0;hg commit --amend
+: 1484163516:0;git commit --amend
+: 1484163559:0;run-help git
+: 1484163563:0;git commit -m "Removing Anomaly from
+: 1484163573:0;git commit -m "Removing working Anomaly from blacklist"
+: 1484163575:0;a 
+: 1484163577:0;a .
+: 1484163577:0;s
+: 1484163582:0;a ../../../Lib/
+: 1484163583:0;s
+: 1484163587:0;git commit -m "Removing working Anomaly from blacklist"
+: 1484163589:0;clear
+: 1484163589:0;s
+: 1484163593:0;arc diff
+: 1484163934:0;ls
+: 1484163934:0;s
+: 1484163940:0;hg sl
+: 1484163976:0;arc diff --trace
+: 1484163996:0;s
+: 1484164110:0;clear
+: 1484164111:0;s
+: 1484164113:0;arc pull
+: 1484164121:0;clear
+: 1484164122:0;s
+: 1484164131:0;hg status
+: 1484164142:0;arc diff --update D4384926
+: 1484164205:0;clear
+: 1484164206:0;ls
+: 1484164207:0;s
+: 1484164211:0;hg uncommit
+: 1484164216:0;s
+: 1484164224:0;hg sl
+: 1484164542:0;arls
+: 1484164544:0;arc lint
+: 1484168362:0;q
+: 1484168767:0;vim -S ~/BadManager
+: 1484168784:0;cd
+: 1484168793:0;vim -S Policies
+: 1484168808:0;q
+: 1484168827:0;ls
+: 1484168855:0;q
+: 1484168901:0;clear
+: 1484168902:0;ls
+: 1484168943:0;pwd
+: 1484169011:0;mv FFTBadSegmentManager.php ~/www/flib/intern/si/fft_bad_segment/
+: 1484169028:0;mkdir ~/www/flib/intern/si/fft_bad_segments/
+: 1484169031:0;mv FFTBadSegmentManager.php ~/www/flib/intern/si/fft_bad_segments/
+: 1484169045:0;cd ~/www/flib/intern/si/fft_bad_segments/FFTBadSegmentManager.php
+: 1484169046:0;ls
+: 1484169048:0;vim FFTBadSegmentManager.php
+: 1484169056:0;ls
+: 1484169074:0;mv ~/test_bad_seg_man.php .
+: 1484169074:0;ls
+: 1484169077:0;h
+: 1484169550:0;whp
+: 1484169551:0;who
+: 1484169572:0;who -h
+: 1484169575:0;who --help
+: 1484169577:0;who -a
+: 1484169590:0;who -a | wc -l
+: 1484169601:0;q
+: 1484169603:0;who -a | wc -l
+: 1484169606:0;clear
+: 1484169609:0;who --help
+: 1484169615:0;who --lookup
+: 1484169620:0;who -d
+: 1484169625:0;who -l
+: 1484169628:0;who -r
+: 1484169632:0;who -T
+: 1484169638:0;who -u
+: 1484169655:0;who --message
+: 1484169658:0;write
+: 1484169669:0;write jopra
+: 1484169695:0;clear
+: 1484169697:0;cd ~/dataswarm
+: 1484169697:0;s
+: 1484169699:0;hg sl
+: 1484169716:0;s
+: 1484169722:0;hg diff -c tip
+: 1484169731:0;cd tasks/si/fft_labels/content
+: 1484169732:0;clear
+: 1484169734:0;vim segment_data.py
+: 1484169750:0;ls
+: 1484169754:0;clean
+: 1484169754:0;ls
+: 1484169760:0;cd content
+: 1484169760:0;ls
+: 1484169770:0;clean
+: 1484169774:0;vim segment_data.py workflow_share_data.py
+: 1484171866:0;s
+: 1484171870:0;a ../../../
+: 1484171871:0;s
+: 1484171874:0;git commit -m "Removing working Anomaly from blacklist"
+: 1484172127:0;arc diff --update D4405052
+: 1484172551:0;arc rebase
+: 1484172556:0;hg rebase
+: 1484172560:0;git rebase
+: 1484172562:0;s
+: 1484172566:0;arc land
+: 1484172652:0;git pull
+: 1484172660:0;clear
+: 1484172660:0;s
+: 1484172666:0;arc land
+: 1484172674:0;git sl
+: 1484172682:0;clear
+: 1484172685:0;git log
+: 1484172696:0;git reset --hard HEAD~1
+: 1484172698:0;clear
+: 1484172699:0;git status
+: 1484172712:0;clear
+: 1484172714:0;git pull
+: 1484172720:0;s
+: 1484172725:0;clear
+: 1484172867:0;git pull
+: 1484172869:0;clear
+: 1484172869:0;s
+: 1484172878:0;git reset --hard HEAD~1
+: 1484172892:0;clear
+: 1484172894:0;git log
+: 1484172904:0;git reset
+: 1484172906:0;git status
+: 1484172910:0;git log
+: 1484172920:0;clear
+: 1484172921:0;s
+: 1484172933:0;git squash
+: 1484172968:0;git rebase --interactive HEAD~2
+: 1484173000:0;git rebase --interactive HEAD~2 --continue
+: 1484173003:0;clear
+: 1484173005:0;git rebase --abort
+: 1484173009:0;git rebase --interactive HEAD~2
+: 1484173029:0;git status
+: 1484173031:0;git s
+: 1484173032:0;s
+: 1484173125:0;git rebase origin/master
+: 1484173128:0;git status
+: 1484173129:0;s
+: 1484173134:0;arc land
+: 1484174545:0;mv test_bad_seg_man.php ~/
+: 1484174546:0;ls
+: 1484174561:0;pwd
+: 1484174574:0;pwd > ~/fft_bad_segs_path
+: 1484174674:0;rm ~/fft_bad_segs_path
+: 1484245063:0;ls
+: 1484245064:0;clear
+: 1484245066:0;arc lint
+: 1484245965:0;clear
+: 1484245966:0;ls
+: 1484245972:0;clear
+: 1484245974:0;s
+: 1484245976:0;d
+: 1484245996:0;ls
+: 1484247286:0;clear && arc lint
+: 1484248840:0;arc lint
+: 1484249086:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-11
+: 1484249102:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-11*
+: 1484249323:0;git status
+: 1484249326:0;hg status
+: 1484249330:0;hg shelve
+: 1484249332:0;hg  sl
+: 1484249395:0;man split
+: 1484249454:0;s
+: 1484249457:0;d
+: 1484249529:0;s
+: 1484249530:0;d
+: 1484249537:0;hg sl
+: 1484249542:0;hg commit --amend
+: 1484249604:0;hg diff
+: 1484249607:0;hg status
+: 1484249622:0;d
+: 1484249634:0;arc lint
+: 1484249668:0;hg commit -m "Add an argument for suffix length to make sure that split does not run out of file names"
+: 1484249673:0;arc diff --create
+: 1484249817:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484249820:0;cd ....
+: 1484249822:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484249880:0;hg commit --amend
+: 1484249889:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484249893:0;q
+: 1484250004:0;clear
+: 1484250005:0;ls
+: 1484250008:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][split_file_into_parts]' 2016-12-28 --local-run -x
+: 1484250019:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2017-12-28*
+: 1484250036:0;ls /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-12-28*
+: 1484250044:0;clear
+: 1484250045:0;ls
+: 1484250059:0;hg status
+: 1484250095:0;hg forget ../../../support/admin/objects/cluster/GenericClusterUtils/FFTBadSegmentManager.php
+: 1484250098:0;s
+: 1484253732:0;h
+: 1484253773:0;hh
+: 1484253940:0;clear
+: 1484254246:0;h
+: 1484254249:0;hh
+: 1484254377:0;clear
+: 1484254407:0;ls
+: 1484254426:0;hh
+: 1484254428:0;arc lint
+: 1484254524:0;hh
+: 1484254609:0;clear
+: 1484254610:0;hh
+: 1484254612:0;arc lint
+: 1484254975:0;w
+: 1484254977:0;q
+: 1484254999:0;s
+: 1484255001:0;clear
+: 1484255003:0;s
+: 1484255005:0;hg status
+: 1484255008:0;hg unshelve
+: 1484255055:0;hg shelve
+: 1484255059:0;hg diff -c tip
+: 1484255064:0;arc diff --create
+: 1484255127:0;hg unshelve
+: 1484255133:0;clear
+: 1484255133:0;s
+: 1484255138:0;q
+: 1484255731:0;arc lint
+: 1484256287:0;hh
+: 1484256289:0;clear
+: 1484256290:0;arc lint
+: 1484256562:0;ls ~/test_segs.tsv
+: 1484256565:0;cat ~/test_segs.tsv
+: 1484256570:0;cat ~/test_segs.tsv | cut -f1
+: 1484256623:0;cat ~/test_segs.tsv | cut -f2
+: 1484256625:0;clear
+: 1484256670:0;hh
+: 1484256824:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-01-11
+: 1484257059:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2016-01-10
+: 1484257072:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-11
+: 1484257131:0;cd 
+: 1484257131:0;ls
+: 1484257132:0;pwd
+: 1484257144:0;q
+: 1484257402:0;wc -l /mnt/dstmp/dataswarm/si/tmp/fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-11
+: 1484257559:0;vim ~/test_segs.tsv
+: 1484261516:0;s
+: 1484264199:0;ls ~/
+: 1484264208:0;ls
+: 1484264210:0;ls ~
+: 1484264225:0;mv ~/BadManager2 ~/BadManager
+: 1484264237:0;vim -s ~/BadManager
+: 1484264247:0;vim -S ~/BadManager
+: 1484264259:0;h
+: 1484265428:0;cd ~/www
+: 1484265429:0;ls
+: 1484265495:0;echo -e "1366623220028819\n1349881045051521\n" | php scripts/site_integrity/get_container_ids.php -k -v
+: 1484265791:0;echo -e "1366623220028819\n1349881045051521\n" | php scripts/site_integrity/get_cluster_ids.php -k -v
+: 1484265811:0;echo -e "1366623220028819\n1349881045051521\n" | php scripts/site_integrity/get_cluster_ids.php -v
+: 1484265890:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484266386:0;echo -e "1366623220028819\n1349881045051521\n" | php scripts/site_integrity/get_cluster_ids.php -v
+: 1484266388:0;clear
+: 1484266390:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484267481:0;echo -e "1366623220028819\n1349881045051521\n" | php scripts/site_integrity/get_cluster_ids.php -v
+: 1484267550:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -v
+: 1484267571:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484267599:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -xl
+: 1484267608:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484267613:0;arc lint
+: 1484267660:0;hh
+: 1484267663:0;arc lint
+: 1484267783:0;cd ww
+: 1484267788:0;cd ~/www
+: 1484267789:0;pwd
+: 1484267790:0;-
+: 1484268191:0;arc lint; s
+: 1484268199:0;s
+: 1484268202:0;pwd
+: 1484268211:0;s
+: 1484268238:0;a flib/intern/si/fft_bad_segments/FFTBadSegmentManager.php
+: 1484268245:0;hg add flib/intern/si/fft_bad_segments/FFTBadSegmentManager.php
+: 1484268252:0;hg add flib/si/utils/
+: 1484268259:0;hg add scripts/site
+: 1484268263:0;hg add scripts/site*
+: 1484268268:0;clear
+: 1484268269:0;s
+: 1484268275:0;d
+: 1484268356:0;cd /mnt/dstmp/dataswarm/si/tmp
+: 1484268384:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.* | head
+: 1484268392:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28 | head
+: 1484268401:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484268482:0;s
+: 1484268494:0;mv flib/intern/si/fft_bad_segments/test_bad_seg_man.php ~/
+: 1484268496:0;clear
+: 1484268498:0;hg status
+: 1484268558:0;hg sl
+: 1484268578:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484269064:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28 
+: 1484269150:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484269226:0;wc -l fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484269235:0;watch (wc -l fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28)
+: 1484269243:0;watch "wc -l fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28"
+: 1484269252:0;arc lint
+: 1484269254:0;arc unit
+: 1484269262:0;arc lint; arc unit
+: 1484269374:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484269421:0;echo -e "1366623220028819\n1349881045051521\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484269633:0;arc lint
+: 1484269655:0;clear
+: 1484269670:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484269763:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484269805:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484269902:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484269914:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.*
+: 1484269951:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-10 --local-run -x
+: 1484270052:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484270203:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28 fft_ent_share_callback_ossh_bad_clusters.tsv.2017-01-06 fft_ent_share_callback_ossh_bad_clusters.tsv.2017-01-10 
+: 1484270327:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484270472:0;i
+: 1484270477:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.*
+: 1484270581:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484270678:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.*
+: 1484270744:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484270781:0;ls
+: 1484270797:0;ls fft_ent_share*bad_clusters*
+: 1484270809:0;wc -l fft_ent_share*bad_clusters*
+: 1484270817:0;watch "wc -l fft_ent_share*bad_clusters*"
+: 1484271062:0;clear
+: 1484271205:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484271480:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484271726:0;clear
+: 1484271731:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484272018:0;cd ~/
+: 1484272018:0;pwd
+: 1484272020:0;-
+: 1484272067:0;tail ~/error_log -f
+: 1484272072:0;tail -f ~/error_log
+: 1484272079:0;touch ~/error_log
+: 1484272081:0;tail -f ~/error_log
+: 1484272086:0;clear
+: 1484272091:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484272107:0;tail -f ~/error_log
+: 1484272647:0;clear
+: 1484272649:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484274315:0;hh
+: 1484276234:0;cat ~/error_log
+: 1484276236:0;clear
+: 1484276236:0;ls
+: 1484276241:0;tail -f ~/error_log
+: 1484276515:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484277509:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484277537:0;q
+: 1484277584:0;clear
+: 1484277680:0;cat /home/jopra/error_log
+: 1484277922:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484277978:0;tail -f ~/error_log
+: 1484278086:0;ls ~/
+: 1484278162:0;chmod 777 ~/error_log
+: 1484278372:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484278593:0;clear
+: 1484278594:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484278617:0;rm ~/error_log
+: 1484278624:0;touch ~/error_log
+: 1484278628:0;tail -f ~/error_log
+: 1484278752:0;clear
+: 1484278754:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484278775:0;echo "" > ~/error_log
+: 1484278785:0;echo "TESTING" > ~/error_log
+: 1484278789:0;echo "" > ~/error_log
+: 1484278794:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484278863:0;q
+: 1484279092:0;clear
+: 1484279100:0;cat ~/error_log
+: 1484290097:0;watch "cat ~/error_log"
+: 1484290105:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484290143:0;echo "" > ~/error_log
+: 1484290148:0;watch "cat ~/error_log"
+: 1484290197:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484290334:0;clear
+: 1484290335:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484290452:0;pwd
+: 1484290481:0;clear
+: 1484290482:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484290637:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -xl
+: 1484290639:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2016-12-28 --local-run -x
+: 1484290702:0;q
+: 1484290760:0;cd /mnt/dstmp/dataswarm/si/tmp
+: 1484290780:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28 fft_ent_share_callback_ossh_bad_clusters.tsv.2017-01-06 fft_ent_share_callback_ossh_bad_clusters.tsv.2017-01-10 
+: 1484290797:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484290806:0;watch "wc -l fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28"
+: 1484290961:0;wc -l fft_ent_share_callback_ossh_bad_clusters.tsv.2016-12-28
+: 1484291023:0;wc -l fft_ent_share*
+: 1484291062:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484291101:0;clear
+: 1484291103:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-06 --local-run -x
+: 1484291361:0;watch "wc -l fft_ent_share_callback_ossh_bad_clusters*"
+: 1484293096:0;wc -l /tmp/dataswarm/jopra/si.fft_labels.content.segment_data.pipeline-5Bent_share_callback-5D-5Bget_responses_from_acdc-5D/2017-01-06-00-00/*
+: 1484293113:0;q
+: 1484293341:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-12 --local-run -x
+: 1484293545:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-11 --local-run -x
+: 1484331024:0;clear
+: 1484331027:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-11 --local-run -x
+: 1484331094:0;clear
+: 1484331096:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-11 --local-run -x
+: 1484331701:0;cd /mnt/dstmp/dataswarm/si/tmp
+: 1484331774:0;wc -l fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-12
+: 1484332003:0;cut fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-12 -f2 | uniq | sort
+: 1484332007:0;cut fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-12 -f2 | uniq | sort | wc -l
+: 1484332456:0;clear
+: 1484332457:0;cut fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-12 -f2 | uniq | sort | wc -l
+: 1484332460:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-11 --local-run -x
+: 1484337030:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484337470:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -v
+: 1484337487:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484337596:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-11 --local-run -x
+: 1484339860:0;pwd
+: 1484339880:0;clear
+: 1484339882:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-11 --local-run -x
+: 1484340053:0;echo "" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340062:0;time echo "" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340078:0;t echo "Testing" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340312:0;t echo "Testing\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340333:0;t echo "Testing\tTesting\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340649:0;t echo "Testing\tTesting" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340675:0;t echo "Testing\tTesting\nTesting2\tTesting2\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340761:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484340810:0;echo -e "1366623220028819\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340827:0;echo -e "1366623220028819\tsegment_id_cluster" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340851:0;echo -e "1366623220028819 segment_id_cluster" | php scripts/site_integrity/get_cluster_ids.php
+: 1484340866:0;clear
+: 1484341071:0;echo -e "1366623220028819 segment_id_cluster" | php scripts/site_integrity/get_cluster_ids.php
+: 1484341095:0;t echo "Testing\tTesting\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484341107:0;t echo "12\tTesting\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484341797:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-12 --local-run -x
+: 1484343616:0;t echo "12\tTesting\n" | php scripts/site_integrity/get_cluster_ids.php
+: 1484343634:0;echo -e "1366623220028819\tsegment_id_cluster" | php scripts/site_integrity/get_cluster_ids.php
+: 1484343804:0;wpd
+: 1484343805:0;pwd
+: 1484343808:0;cd ..
+: 1484343810:0;ls
+: 1484343817:0;cd local/www-hg/
+: 1484343837:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-12 --local-run -x
+: 1484344935:0;clear
+: 1484344936:0;s
+: 1484344946:0;hg shelve
+: 1484344965:0;hg sl
+: 1484344979:0;hg rebase -s acdc_to_configerator -d remote/master
+: 1484344987:0;hg unshelve
+: 1484345001:0;clear 
+: 1484345003:0;hg status
+: 1484345055:0;hg commit -m "Added thrift code, manager and script for looking up and adding segments to Configerator in batches"
+: 1484345064:0;arc lint
+: 1484345087:0;arc unit
+: 1484345139:0;arc diff --update D4384926
+: 1484345224:0;clear
+: 1484345225:0;ls
+: 1484345225:0;s
+: 1484345227:0;d
+: 1484345253:0;hg status
+: 1484345291:0;hg commit -m "Adding tasks for sending Clusters from ACDC to Configerator."
+: 1484345294:0;arc lint
+: 1484345322:0;s
+: 1484345325:0;arc lint
+: 1484345352:0;s
+: 1484345353:0;d
+: 1484345367:0;hg commit --amend
+: 1484345375:0;arc lint
+: 1484345385:0;arc diff --create
+: 1484345884:0;./tester 'si.fft_labels.content.segment_data.pipeline[ent_share_callback][get_responses_from_acdc]' 2017-01-12 --local-run -x
+: 1484345888:0;echo -e "1366623220028819\tsegment_id_cluster" | php scripts/site_integrity/get_cluster_ids.php
+: 1484346000:0;s
+: 1484346006:0;hg commit --amend
+: 1484346021:0;arc diff --update D4417293
+: 1484346135:0;s
+: 1484346136:0;d
+: 1484346145:0;hg commit --amend
+: 1484346170:0;arc diff --update D4384926
+: 1484346194:0;arc unit
+: 1484346208:0;s
+: 1484346212:0;arc diff --update D4384926
+: 1484346581:0;s
+: 1484346582:0;clear
+: 1484346582:0;s
+: 1484346583:0;d
+: 1484346604:0;hg commit --amend
+: 1484346635:0;arc diff --update D4417293
+: 1484346831:0;q
+: 1484346836:0;clear
+: 1484346836:0;ls
+: 1484347528:0;q
+: 1484347531:0;lear
+: 1484347531:0;ls
+: 1484347532:0;clear
+: 1484347533:0;ls
+: 1484349358:0;clear
+: 1484349358:0;s
+: 1484603498:0;ls
+: 1484603501:0;cd /mnt
+: 1484603503:0;cd dstmp
+: 1484603506:0;cd dataswarm/si
+: 1484603537:0;ls
+: 1484603539:0;cd tmp
+: 1484603573:0;cat fft_ent_share_callback_ossh_bad_clusters.tsv.2017-01-11
+: 1484603608:0;cat fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-15
+: 1484603611:0;clear
+: 1484603620:0;cat fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-15 | cut -f 2
+: 1484603629:0;cat fft_ent_share_callback_ossh_bad_segments.tsv.2017-01-15 | cut -f 2 | sort | uniq | wc -l
+: 1484621573:0;hg status
+: 1484621579:0;hg sl
+: 1484621587:0;arc cleanup
+: 1484621594:0;cd
+: 1484621594:0;.
+: 1484621597:0;cd dataswarm
+: 1484621597:0;s
+: 1484621601:0;d
+: 1484676540:0;clear
+: 1484676543:0;s
+: 1484676548:0;d
+: 1484676559:0;hg add .
+: 1484676560:0;s
+: 1484676562:0;d
+: 1484677086:0;hg status
+: 1484677170:0;hg uncommit
+: 1484677177:0;hg status
+: 1484677218:0;hg commit --interactive
+: 1484677415:0;hg status
+: 1484677425:0;hg shelve
+: 1484677444:0;arc diff
+: 1484677555:0;arc feature
+: 1484677563:0;hg unshelve
+: 1484677588:0;hg sl
+: 1484677616:0;hg status
+: 1484677629:0;hg shelve
+: 1484677658:0;arc --help
+: 1484677682:0;arc feature get_cluster_ids
+: 1484678378:0;s
+: 1484678391:0;hg sl
+: 1484678396:0;hg unshelve
+: 1484678589:0;jg sl
+: 1484678590:0;hg sl
+: 1484678599:0;clear
+: 1484678599:0;s
+: 1484678608:0;hg unshelve
+: 1484678694:0;hg resolve
+: 1484678698:0;hg resolve --all
+: 1484678720:0;cd flib/logging/logger
+: 1484678722:0;cd configs
+: 1484678723:0;ls
+: 1484678725:0;clear
+: 1484678726:0;s
+: 1484678730:0;hg status
+: 1484678738:0;vim ACDCRecallLoggerConfig.php
+: 1484678807:0;clear
+: 1484678809:0;hg status
+: 1484678853:0;hg resolve --mark flib/logging/logger/configs/ACDCRecallLoggerConfig.php
+: 1484678873:0;hg resolve --mark ACDCRecallLoggerConfig.php
+: 1484678874:0;s
+: 1484678876:0;clear
+: 1484678879:0;hg status
+: 1484678911:0;d ACDCRecallLoggerConfig.php
+: 1484678928:0;vim ACDCRecallLoggerConfig.php
+: 1484678990:0;s
+: 1484678991:0;clear
+: 1484678997:0;hg diff ACDCRecallLoggerConfig.php
+: 1484679001:0;s
+: 1484679025:0;hg revert ACDCRecallLoggerConfig.php
+: 1484679030:0;clear
+: 1484679031:0;hg status
+: 1484679041:0;hg revert ACDCRecallLoggerConfig.php
+: 1484679062:0;hg diff ACDCRecallLoggerConfig.php
+: 1484679072:0;cd ...
+: 1484679080:0;cd ../intern/si/clustering/fft_segmentation_cluster
+: 1484679081:0;ls
+: 1484679086:0;vim FFTSegmentationClusterScheduler.php
+: 1484679129:0;cd ~/www
+: 1484679132:0;hg status
+: 1484679140:0;hg unshelve --abort
+: 1484679329:0;hg status
+: 1484679346:0;clear
+: 1484679370:0;ls
+: 1484679373:0;hg status
+: 1484679393:0;q
+: 1484679403:0;s
+: 1484679464:0;arc lint
+: 1484679546:0;s
+: 1484679855:0;hphpd -h localhost
+: 1484680106:0;echo -e "1366623220028819\tsegment_id_cluster" | php scripts/site_integrity/get_cluster_ids.php
+: 1484680111:0;cd ...
+: 1484680113:0;..
+: 1484680115:0;echo -e "1366623220028819\tsegment_id_cluster" | php scripts/site_integrity/get_cluster_ids.php
+: 1484680139:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484680162:0;hg status
+: 1484680167:0;arc lint
+: 1484680205:0;arc diff
+: 1484680259:0;hg commit -m "Adding script for getting Cluster's segment ids from their cluster id"
+: 1484680277:0;arc diff
+: 1484680570:0;s
+: 1484680572:0;d
+: 1484682064:0;clear
+: 1484682064:0;s
+: 1484682069:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484682158:0;clear
+: 1484682160:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484682218:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" > ~/test_seg_script
+: 1484682251:0;php scripts/site_integrity/get_cluster_ids.php -kvf ~/test_seg_script
+: 1484682271:0;echo "HI" | php scripts/site_integrity/get_cluster_ids.php -kvf ~/test_seg_script
+: 1484682283:0;d
+: 1484682304:0;php scripts/site_integrity/get_cluster_ids.php -kvf ~/test_seg_scri
+: 1484682411:0;s
+: 1484682413:0;clear
+: 1484682414:0;ls
+: 1484682415:0;s
+: 1484682422:0;arc lint
+: 1484682456:0;s
+: 1484682464:0;hg commit --amend
+: 1484682533:0;clear
+: 1484682534:0;s
+: 1484682568:0;arc diff
+: 1484682579:0;arc diff --update D4424012
+: 1484683078:0;hg prefetch -r .
+: 1484683113:0;clear
+: 1484683114:0;ls
+: 1484683114:0;s
+: 1484683117:0;clear
+: 1484683125:0;hg sl
+: 1484683131:0;hg update acdc_to_configerator
+: 1484683159:0;s
+: 1484683172:0;hg diff -r .
+: 1484683217:0;hg diff -r .^
+: 1484683290:0;s
+: 1484683295:0;hg commit --amend
+: 1484683414:0;clear
+: 1484683416:0;hg status
+: 1484683429:0;arc diff --update D4423669
+: 1484683523:0;clear
+: 1484683523:0;s
+: 1484683530:0;clear
+: 1484686207:0;hg status
+: 1484686208:0;clear
+: 1484686210:0;hg shelve
+: 1484686215:0;hg unshelve
+: 1484686220:0;hg sl
+: 1484686225:0;hg add .
+: 1484686231:0;hg commit "TEMP"
+: 1484686236:0;hg commit  -m "TEMP"
+: 1484686239:0;hg sl
+: 1484686246:0;hg update remote/master
+: 1484686247:0;clear
+: 1484686249:0;hg sl
+: 1484686254:0;q
+: 1484686259:0;cd ~/dataswarm
+: 1484686264:0;clear
+: 1484686264:0;ls
+: 1484686281:0;vim tasks/di/morse/default_fbobj_config.py
+: 1484686415:0;s
+: 1484686418:0;arc lint
+: 1484686425:0;arc unit
+: 1484686471:0;clear
+: 1484686474:0;arc pull
+: 1484686495:0;s
+: 1484686496:0;d
+: 1484686521:0;hg commit -m "Added Generic clusters to morse"
+: 1484686527:0;arc pull
+: 1484686543:0;hg resolve --mark
+: 1484686557:0;hg rebase --continue
+: 1484686563:0;clear
+: 1484686564:0;s
+: 1484686571:0;vim tasks/di/morse/default_fbobj_config.py
+: 1484686584:0;:q
+: 1484686588:0;hg commit --amend
+: 1484686603:0;hg diff -r .^
+: 1484686607:0;clear
+: 1484686609:0;hg sl
+: 1484686633:0;hg rebase -s t14139596 -d remote/master
+: 1484686642:0;hg rebase -s e6c059 -d remote/master
+: 1484686645:0;s
+: 1484686656:0;vim tasks/si/fft_labels/content/segment_data.py
+: 1484686662:0;clear
+: 1484686663:0;ls
+: 1484686663:0;s
+: 1484686667:0;hg status
+: 1484686672:0;hg rebase --abort
+: 1484686676:0;arc cleanup
+: 1484686694:0;hg sl
+: 1484686701:0;hg clean
+: 1484686706:0;clear
+: 1484686706:0;hg sl
+: 1484686716:0;hg rebase -s aa1e0a -d remote/master
+: 1484686719:0;hg sl
+: 1484686746:0;hg update 59c7d3
+: 1484686750:0;hg status
+: 1484686752:0;clear
+: 1484686753:0;hg sl
+: 1484686757:0;hg diff -r .^
+: 1484686761:0;arc lint
+: 1484686767:0;arc diff --create
+: 1484687337:0;vim tasks/di/morse/default_fbobj_config.py
+: 1484687436:0;s
+: 1484687440:0;hg commit --amend
+: 1484687446:0;s
+: 1484687452:0;arc diff --update
+: 1484687458:0;arc diff --update D4424805
+: 1484687542:0;clear
+: 1484687542:0;s
+: 1484687610:0;hg sl
+: 1484687617:0;hg update ent_share_callback_segmentation
+: 1484687619:0;clear
+: 1484687620:0;s
+: 1484687621:0;hg sl
+: 1484687633:0;hg uncommit
+: 1484687635:0;hg sl
+: 1484687637:0;s
+: 1484687639:0;d
+: 1484687641:0;clear
+: 1484687641:0;s
+: 1484687689:0;clear
+: 1484687689:0;s
+: 1484687691:0;d
+: 1484687693:0;clear
+: 1484687693:0;ls
+: 1484687697:0;q
+: 1484687744:0;hg sl
+: 1484687752:0;s
+: 1484687764:0;clear
+: 1484687765:0;s
+: 1484687774:0;hg sl
+: 1484687781:0;s
+: 1484687787:0;hg uncommit
+: 1484687790:0;clear
+: 1484687791:0;s
+: 1484687876:0;cd ~/www
+: 1484687877:0;ls
+: 1484687883:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" > ~/test_seg_script
+: 1484687900:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484687911:0;hg s
+: 1484687915:0;s
+: 1484687920:0;hg sl
+: 1484687930:0;hg update get_cluster_ids
+: 1484687951:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484687970:0;hg update 28f5d4e
+: 1484687991:0;hg bookmark cluster_script
+: 1484687998:0;clear && hg sl
+: 1484688013:0;echo -e "1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484688044:0;echo -e "boo1366623220028819\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484688098:0;echo -e "\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484688286:0;echo -e "\tsegment_id_cluster\n1349881045051521\tsegment_id_cluster\n" | php scripts/site_integrity/get_cluster_ids.php -kv > ~/output
+: 1484688309:0;cat ~/output
+: 1484689930:0;d
+: 1484693688:0;clear
+: 1484693689:0;s
+: 1484693693:0;hg sl
+: 1484693698:0;hg commit  -m "TEMP"
+: 1484693700:0;hg sl
+: 1484693713:0;arc cleanup
+: 1484693721:0;hg sl
+: 1484693732:0;hg rebase -s ent_share_callback_segmentation -d remote/master
+: 1484693735:0;hg sl
+: 1484693737:0;clear
+: 1484694448:0;s
+: 1484694450:0;d
+: 1484694457:0;clear
+: 1484694457:0;s
+: 1484694468:0;hg revert
+: 1484694471:0;hg revert --all
+: 1484694472:0;clear
+: 1484694472:0;s
+: 1484694490:0;hg sl
+: 1484694514:0;arc feature multiple_segmentations
+: 1484694518:0;hg sl
+: 1484696369:0;q
+: 1484700588:0;./tester 'si.fft_labels.content.segment_data.pipeline' 2017-01-12 --local-run -x
+: 1484700685:0;./tester tasks/si/fft_labels/content/segment_data.py 2017-01-16
+: 1484701477:0;hg status
+: 1484701480:0;d
+: 1484701503:0;hg commit -m "TEMP - Add new segmentations for fft clusters"
+: 1484701505:0;clear
+: 1484701507:0;hg status
+: 1484701508:0;hg sl
+: 1484701515:0;hg update ent_share_callback_segmentation
+: 1484701521:0;hg status
+: 1484701522:0;s
+: 1484701524:0;hg uncommit
+: 1484701531:0;clear
+: 1484701531:0;s
+: 1484701869:0;./tester tasks/si/fft_labels/content/segment_data.py 2017-01-16
+: 1484701907:0;clear
+: 1484701908:0;ls
+: 1484708548:0;s
+: 1484708558:0;hg commit -m "TEMP"
+: 1484708561:0;hg sl
+: 1484708564:0;hg update multiple_segmentations
+: 1484708566:0;hg sl
+: 1484708777:0;ls
+: 1484708779:0;cd ..
+: 1484708780:0;ls
+: 1484708852:0;clear
+: 1484708852:0;ls
+: 1484708871:0;q
+: 1484709011:0;cd dataswarm
+: 1484709012:0;clear
+: 1484709012:0;ls
+: 1484709014:0;./tester tasks/si/fft_labels/content/segment_data.py 2017-01-16
+: 1484709037:0;clear
+: 1484709037:0;s
+: 1484709112:0;hive
+: 1484709121:0;hive --namespace si
+: 1484709241:0;clear
+: 1484709242:0;s
+: 1484709246:0;d
+: 1484709259:0;hg sl
+: 1484709263:0;hg uncommit
+: 1484709264:0;s
+: 1484709266:0;d
+: 1484709269:0;clear
+: 1484709269:0;s
+: 1484709272:0;hg commit -m "TEMP"
+: 1484709275:0;hg sl
+: 1484709281:0;hg update ent_share_callback_segmentation
+: 1484709282:0;s
+: 1484709283:0;clear
+: 1484709284:0;s
+: 1484709290:0;clear
+: 1484709290:0;s
+: 1484709294:0;hg uncommit
+: 1484709295:0;s
+: 1484713841:0;q
+: 1484764053:0;cd ~/www
+: 1484764072:0;echo -e "440990862691603" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484764148:0;echo -e "440990862691603\tTESTING\n" | php scripts/site_integrity/get_cluster_ids.php -kv
+: 1484766558:0;cat | php ~/www/scripts/site_integrity/get_cluster_ids.php
+: 1484766585:0;cat | php ~/www/scripts/site_integrity/get_cluster_ids.php > ~/output
+: 1484766602:0;cat ~/output
+: 1484766605:0;cat | php ~/www/scripts/site_integrity/get_cluster_ids.php > ~/output
+: 1484766620:0;cat > ~/input
+: 1484766635:0;cat ~/input | php ~/www/scripts/site_integrity/get_cluster_ids.php > ~/output
+: 1484766645:0;cat ~/output
+: 1484766674:0;vim ~/www/scripts/site_integrity/get_cluster_ids.php
+: 1484766736:0;cat ~/input | php ~/www/scripts/site_integrity/get_cluster_ids.php > ~/output
+: 1484766757:0;cat ~/input | php ~/www/scripts/site_integrity/get_cluster_ids.php -kv > ~/output
+: 1484766811:0;cat ~/output
+: 1484766828:0;cat ~/input | php ~/www/scripts/site_integrity/get_cluster_ids.php > ~/output
+: 1484766853:0;cat ~/output
+: 1484766973:0;s
+: 1484766981:0;hg sl
+: 1484766991:0;hg commit -m "TEMP"
+: 1484767000:0;hg update multiple_segmentations
+: 1484769567:0;vrc
+: 1484769572:0;zrc
+: 1484769575:0;vim
+: 1484769582:0;clear
+: 1484769582:0;s
+: 1484769585:0;q
+: 1484769729:0;vrc
+: 1484769756:0;clear
+: 1484769756:0;s
+: 1484769760:0;cd ~/.config
+: 1484769761:0;s
+: 1484769764:0;d nvim
+: 1484769799:0;clear
+: 1484769799:0;s
+: 1484769802:0;git add nvim/
+: 1484769804:0;s
+: 1484769830:0;m "Removed a.vim and maps in favour of nmap so that typing and shortcuts don't interfere"
+: 1484769831:0;s
+: 1484769832:0;d
+: 1484769840:0;clear
+: 1484769843:0;vim .gitignore
+: 1484769856:0;clear
+: 1484769856:0;s
+: 1484769862:0;vim .gitignore
+: 1484769866:0;clear
+: 1484769866:0;s
+: 1484769867:0;q
+: 1484769903:0;p
+: 1484769915:0;git pull
+: 1484769920:0;s
+: 1484769927:0;git stash zsh_history
+: 1484769935:0;git stash && git pull
+: 1484875231:0;s
+: 1484875234:0;vim zsh_history
+: 1484875244:0;clear
+: 1484875244:0;s
+: 1484875248:0;a zsh_history
