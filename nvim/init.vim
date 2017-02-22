@@ -18,6 +18,7 @@ Plug 'neovimhaskell/haskell-vim'        " Haskell Syntax
 Plug 'itchyny/vim-haskell-indent'       " Haskell Indent
 Plug 'mxw/vim-xhp'                      " Xhp indent and syntax
 Plug 'hhvm/vim-hack'                    " Hack type checking
+Plug 'roxma/vim-window-resize-easy'     " Resize windows
 call plug#end()
 
 " Colour Scheme
@@ -38,7 +39,7 @@ set list listchars=tab:>.,trail:.,extends:#,nbsp:.
 
 " Input settings
 let mapleader=' '
-set mouse=nicr
+set mouse=ncr
 set ttimeoutlen=50 " fast key codes
 set clipboard+=unnamedplus
 set backspace=indent,eol,start
