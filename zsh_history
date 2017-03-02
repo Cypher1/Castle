@@ -24763,3 +24763,4712 @@ mup init
 : 1482296286:0;clear
 : 1482296287:0;s
 : 1482296294:0;git add zsh_history && git commit -m "More history" && git push
+: 1482296345:0;git stash drop
+: 1482296346:0;clear
+: 1482296346:0;s
+: 1482296350:0;clear
+: 1482296350:0;s
+: 1482296352:0;q
+: 1482527884:0;s
+: 1482527965:0;clear
+: 1482527966:0;cd ..
+: 1482527971:0;vim revolver.hs
+: 1482529158:0;when-changed *.hs -c "clear && runhaskell *.hs < input.txt"
+: 1482529168:0;when-changed *.hs -c "clear && runhaskell *.hs"
+: 1482530530:0;when-changed *.hs -c "clear && runhaskell inter.hs"
+: 1482530879:0;ls
+: 1482530889:0;when-changed inter.hs -c "clear && runhaskell inter.hs"
+: 1482531199:0;which u
+: 1482531210:0;du -h *
+: 1482531216:0;du -hs *
+: 1482531237:0;du -hs .*
+: 1482531257:0;q
+: 1482778530:0;clear
+: 1482778531:0;s
+: 1482778537:0;mv inter.hs Documents
+: 1482778540:0;mv revolver.hs Documents
+: 1482778547:0;mv sumNeg.hs Documents
+: 1482778547:0;.
+: 1482778549:0;cd Documents
+: 1482778551:0;clear
+: 1482778551:0;ls
+: 1482778560:0;mv *.hs Misc
+: 1482778561:0;ls
+: 1482778563:0;cd Misc
+: 1482778564:0;.
+: 1482778565:0;s
+: 1482778567:0;clear
+: 1482778567:0;s
+: 1482778595:0;mkdir real_world_haskell
+: 1482778604:0;mv revolver.hs real_world_haskell
+: 1482778609:0;mv sumNeg.hs real_world_haskell
+: 1482778610:0;.
+: 1482778610:0;s
+: 1482778619:0;mv rectSeries.hs real_world_haskell
+: 1482778620:0;.
+: 1482778621:0;clear
+: 1482778621:0;s
+: 1482778623:0;clean
+: 1482778624:0;.
+: 1482778637:0;mv inter.hs real_world_haskell
+: 1482778638:0;.
+: 1482778638:0;s
+: 1482778642:0;vim piDig.hs
+: 1482778650:0;mv piDig.hs real_world_haskell
+: 1482778651:0;.
+: 1482778655:0;cat reverse
+: 1482778658:0;clear
+: 1482778660:0;rm reverse
+: 1482778661:0;clear
+: 1482778661:0;s
+: 1482778665:0;cat reverse.hs
+: 1482778670:0;mv reverse.hs real_world_haskell
+: 1482778671:0;.
+: 1482778672:0;s
+: 1482778678:0;clear
+: 1482778679:0;ls
+: 1482778680:0;s
+: 1482778683:0;cd real_world_haskell
+: 1482778683:0;.
+: 1482778684:0;s
+: 1482778691:0;a .
+: 1482778702:0;m "Adding real world haskell code
+: 1482778703:0;m "Adding real world haskell code"
+: 1482778704:0;.
+: 1482778743:0;vim points.hs
+: 1482778762:0;when-changed points.hs -c "clear && runhaskell points.hs"
+: 1482788614:0;clear
+: 1482788615:0;s
+: 1482788620:0;cd ..
+: 1482788626:0;mk poj
+: 1482788633:0;vim 3367_Stack.hs
+: 1482792200:0;when-changed 3367_Stack.hs -c "runhaskell 3367_Stack.hs"
+: 1482793146:0;q
+: 1482795354:0;when-changed 3367_Stack.hs -c "runhaskell 3367_Stack.hs"
+: 1482798088:0;clear
+: 1482798100:0;ps -ef | grep "runhask"
+: 1482798103:0;clear
+: 1482798104:0;ls
+: 1482798108:0;vim 3367_Stack.hs
+: 1482798115:0;runhaskell 3367_Stack.hs
+: 1482798402:0;ps -ef | grep "runhask"
+: 1482798434:0;ghc 3367_Stack.hs
+: 1482798452:0;./3367_Stack
+: 1482799101:0;reboot
+: 1482800156:0;s
+: 1482800157:0;d
+: 1482800161:0;rm 3367_Stack
+: 1482800163:0;vim 3367_Stack.hs
+: 1482800168:0;ls
+: 1482800168:0;s
+: 1482800170:0;clean
+: 1482800171:0;.
+: 1482800172:0;s
+: 1482800173:0;q
+: 1482800953:0;runhaskell 3367_Stack.hs
+: 1482801684:0;ghc 3367_Stack.hs
+: 1482801688:0;time ./3367_Stack
+: 1482801817:0;ghc 3367_Stack.hs
+: 1482801820:0;./3367_Stack
+: 1482801822:0;time ./3367_Stack
+: 1482802036:0;ls
+: 1482802041:0;mv in.jpg input.txt
+: 1482802082:0;ghc 3367_Stack.hs
+: 1482802086:0;./3367_Stack
+: 1482802164:0;ghc 3367_Stack.hs
+: 1482802168:0;./3367_Stack
+: 1482802181:0;cat input.txt
+: 1482802191:0;clear
+: 1482802194:0;head input.txt
+: 1482802198:0;vim input.txt
+: 1482802211:0;ghc 3367_Stack.hs
+: 1482802216:0;./3367_Stack input.txt
+: 1482895339:0;z Jarvis
+: 1482895339:0;s
+: 1482895346:0;b navbar
+: 1482895348:0;s
+: 1482895351:0;cd site
+: 1482895352:0;meteor
+: 1482895390:0;ls
+: 1482895394:0;cd client
+: 1482895394:0;ls
+: 1482895398:0;..
+: 1482895400:0;cd imports
+: 1482895401:0;ls
+: 1482895402:0;cd startup
+: 1482895403:0;.
+: 1482895404:0;vim router.js
+: 1482895466:0;git pull
+: 1482895489:0;git branch --set-upstream-to=origin/navbar navbar
+: 1482895490:0;clear
+: 1482895492:0;git pull
+: 1482895494:0;clear
+: 1482895494:0;s
+: 1482895545:0;clear
+: 1482895640:0;ls
+: 1482895642:0;ghc 3367_Stack.hs
+: 1482895649:0;./3367_Stack input.txt
+: 1482895654:0;./3367_Stack < input.txt
+: 1482895669:0;clear
+: 1482895673:0;wc -l input.txt
+: 1482895689:0;time ./3367_Stack < input.txt > output.txt
+: 1482895699:0;q
+: 1482895986:0;cd ..
+: 1482895987:0;clear
+: 1482895987:0;s
+: 1482895990:0;cd ui
+: 1482895991:0;ls
+: 1482895992:0;vim style.scss
+: 1482899549:0;clear
+: 1482899549:0;s
+: 1482899551:0;d
+: 1482899561:0;a style.scss templates/navbar.html
+: 1482899561:0;s
+: 1482899573:0;m "Attempt to fix the mobile style"
+: 1482899574:0;p
+: 1482899578:0;clear
+: 1482903864:0;b post
+: 1482903866:0;git pull
+: 1482903937:0;meteor lint
+: 1482903948:0;npm lint
+: 1482903964:0;clear
+: 1482903965:0;....
+: 1482903968:0;cd site
+: 1482903969:0;npm lint
+: 1482903978:0;eslint .
+: 1482903982:0;clear
+: 1482903983:0;ls
+: 1482903985:0;vim p
+: 1482903988:0;vim package.json
+: 1482904001:0;npm lint
+: 1482904011:0;npm run eslint
+: 1482904016:0;npm run lint
+: 1482904034:0;vim imports/ui/body.js
+: 1482904040:0;clear
+: 1482904042:0;npm run lint
+: 1482904485:0;s
+: 1482904486:0;d
+: 1482904498:0;git stash
+: 1482904504:0;b submit
+: 1482904506:0;s
+: 1482904508:0;p
+: 1482904514:0;pull
+: 1482904518:0;git pull
+: 1482904675:0;ghc 3367_Stack.hs
+: 1482904682:0;time ./3367_Stack < input.txt > output.txt
+: 1482904718:0;ghc 3367_Stack.hs
+: 1482904720:0;time ./3367_Stack < input.txt > output.txt
+: 1482904950:0;ghc 3367_Stack.hs
+: 1482904952:0;time ./3367_Stack < input.txt > output.txt
+: 1482904973:0;ghc 3367_Stack.hs
+: 1482904978:0;time ./3367_Stack < input.txt > output.txt
+: 1482905092:0;ghc 3367_Stack.hs
+: 1482905094:0;time ./3367_Stack < input.txt > output.txt
+: 1482905104:0;cat output.txt
+: 1482905115:0;time ./3367_Stack < input.txt > output.txt
+: 1482905117:0;ghc 3367_Stack.hs
+: 1482905120:0;time ./3367_Stack < input.txt > output.txt
+: 1482905125:0;cat output.txt
+: 1482905127:0;clear
+: 1482905129:0;time ./3367_Stack < input.txt > output.txt
+: 1482905217:0;clear
+: 1482905220:0;ghc 3367_Stack.hs
+: 1482905224:0;time ./3367_Stack < input.txt > output.txt
+: 1482905256:0;ghc 3367_Stack.hs
+: 1482905258:0;time ./3367_Stack < input.txt > output.txt
+: 1482905322:0;ghc 3367_Stack.hs
+: 1482905325:0;time ./3367_Stack < input.txt > output.txt
+: 1482905415:0;ghc 3367_Stack.hs
+: 1482905417:0;time ./3367_Stack < input.txt > output.txt
+: 1482905508:0;ghc 3367_Stack.hs
+: 1482905510:0;time ./3367_Stack < input.txt > output.txt
+: 1482905620:0;g
+: 1482905625:0;ghc 3367_Stack.hs
+: 1482905628:0;time ./3367_Stack < input.txt > output.txt
+: 1482905756:0;q
+: 1482988795:0;zsh_upgrade
+: 1482988805:0;q
+: 1482988807:0;clear
+: 1483145412:0;s
+: 1483145415:0;d
+: 1483145417:0;clear
+: 1483145419:0;git status
+: 1483145421:0;git diff origin/m
+: 1483145423:0;git diff origin/master 
+: 1483145577:0;meteor lint
+: 1483145674:0;git rebase origin/master 
+: 1483145677:0;s
+: 1483145683:0;vim imports/ui/templates/templates.js
+: 1483145692:0;clear
+: 1483145692:0;s
+: 1483145696:0;a imports/ui/templates/templates.js
+: 1483145697:0;clear
+: 1483145697:0;s
+: 1483145703:0;git rebase --continue 
+: 1483145704:0;clear
+: 1483145704:0;s
+: 1483145729:0;vim imports/ui/mainLayout.html
+: 1483145762:0;vim imports/ui/pages/index.html
+: 1483145769:0;vim imports/ui/pages/post.html
+: 1483145775:0;vim imports/ui/mainLayout.html
+: 1483145886:0;clear
+: 1483145886:0;s
+: 1483145890:0;a imports/ui/style.scss
+: 1483145892:0;d imports/ui/mainLayout.html
+: 1483145900:0;a imports/ui/mainLayout.html
+: 1483145900:0;s
+: 1483145901:0;clear
+: 1483145901:0;s
+: 1483145996:0;m "Merged and added a little spacing between the content and navbar"
+: 1483145997:0;p
+: 1483146002:0;git pull
+: 1483146012:0;clear
+: 1483146012:0;s
+: 1483146020:0;git push
+: 1483146039:0;clear
+: 1483146039:0;s
+: 1483146363:0;b travis_testing
+: 1483146364:0;s
+: 1483146371:0;vim .travis.yml
+: 1483146383:0;s
+: 1483146683:0;b index
+: 1483146684:0;s
+: 1483146689:0;git stash
+: 1483146690:0;clear
+: 1483146690:0;s
+: 1483146695:0;git add .travis.yml
+: 1483146697:0;git stash
+: 1483146698:0;clear
+: 1483146698:0;s
+: 1483146700:0;git pull
+: 1483146862:0;git rebase origin/master 
+: 1483146864:0;clear
+: 1483146864:0;s
+: 1483146997:0;cd templates
+: 1483147000:0;cd imports/ui
+: 1483147001:0;cd templates
+: 1483147002:0;ls
+: 1483147003:0;clear
+: 1483147003:0;ls
+: 1483147005:0;vim filter.html
+: 1483147014:0;cd ..
+: 1483147014:0;ls
+: 1483147016:0;vim style.scss
+: 1483147141:0;clear
+: 1483147142:0;s
+: 1483147143:0;a style.scss
+: 1483147175:0;m "Added a little spacing to the bottom of chips so they don't get merged in mobile / non-fullscreen windows"
+: 1483147177:0;git push
+: 1483147180:0;git pull
+: 1483147186:0;git push
+: 1483147193:0;clear
+: 1483147193:0;s
+: 1483147493:0;b travis_testing
+: 1483147495:0;s
+: 1483147498:0;git pull
+: 1483147500:0;s
+: 1483147520:0;git branch --set-upstream-to=origin/travis_testing travis_testing 
+: 1483149570:0;cd 
+: 1483149571:0;ls
+: 1483149573:0;cd Documents
+: 1483149573:0;ls
+: 1483149577:0;cd Misc
+: 1483149577:0;ls
+: 1483149578:0;s
+: 1483149580:0;d
+: 1483149583:0;D
+: 1483149588:0;a real_world_haskell
+: 1483149606:0;m "Problems from real world haskell examples"
+: 1483149611:0;cd poj
+: 1483149612:0;.
+: 1483149612:0;s
+: 1483149613:0;d
+: 1483149615:0;a .
+: 1483149624:0;m "added Poj"
+: 1483149626:0;p
+: 1483149644:0;.
+: 1483149645:0;..
+: 1483149657:0;cd Projects
+: 1483149657:0;.
+: 1483149660:0;cd HaskPG
+: 1483149660:0;.
+: 1483149660:0;s
+: 1483150106:0;d
+: 1483150138:0;vim Mechanics/*
+: 1483150148:0;v Mechanics/*
+: 1483150193:0;s
+: 1483150194:0;clear
+: 1483150195:0;d
+: 1483150206:0;vim Mechanics/Gen.hs
+: 1483150243:0;clear
+: 1483150243:0;s
+: 1483150246:0;cd Mechanics
+: 1483150246:0;s
+: 1483150250:0;d Testload.js
+: 1483150254:0;clear
+: 1483150257:0;d Testload.hs
+: 1483150263:0;s
+: 1483150268:0;a Testload.hs WorldMap.hs Gen.hs
+: 1483150269:0;D
+: 1483150347:0;s
+: 1483150352:0;D
+: 1483150398:0;m "More random generator work"
+: 1483150399:0;clear
+: 1483150399:0;s
+: 1483150399:0;p
+: 1483150405:0;ls
+: 1483150408:0;..
+: 1483150416:0;ghc main.hs
+: 1483150421:0;./main
+: 1483150439:0;clear
+: 1483150439:0;s
+: 1483150444:0;vim Mechanics/GameLoop.hs
+: 1483150466:0;./main
+: 1483150487:0;q
+: 1483150856:0;clear
+: 1483150856:0;s
+: 1483150859:0;a Mechanics/GameLoop.hs
+: 1483150859:0;s
+: 1483150863:0;clear
+: 1483150866:0;ls
+: 1483150870:0;vim main.hs
+: 1483150876:0;clear
+: 1483150877:0;s
+: 1483150887:0;v **/*.hs
+: 1483152289:0;clear
+: 1483152289:0;s
+: 1483152297:0;hlint *
+: 1483152335:0;clear
+: 1483152337:0;s
+: 1483152339:0;a Mechanics
+: 1483152340:0;s
+: 1483152343:0;m "Linting"
+: 1483152347:0;ghc main.hs
+: 1483152349:0;./main
+: 1483152380:0;clear
+: 1483152380:0;s
+: 1483152388:0;vim Mechanics/GameLoop.hs
+: 1483152427:0;ghc main.hs
+: 1483152431:0;./main
+: 1483152444:0;clear
+: 1483152444:0;s
+: 1483152448:0;a Mechanics/GameLoop.hs
+: 1483152451:0;git commit --amend
+: 1483152455:0;clear
+: 1483152455:0;s
+: 1483152461:0;p
+: 1483152669:0;clear
+: 1483152670:0;s
+: 1483153676:0;git checkout master 
+: 1483153678:0;clear
+: 1483153679:0;git pull
+: 1483160960:0;clear
+: 1483160960:0;ls
+: 1483160961:0;s
+: 1483160962:0;clear
+: 1483160964:0;q
+: 1483161076:0;s
+: 1483161103:0;vim README.md
+: 1483161105:0;.
+: 1483161129:0;vim ~/Drive/Project_List.md
+: 1483161369:0;s
+: 1483161370:0;..
+: 1483161376:0;cd Drive
+: 1483161377:0;.
+: 1483161378:0;cd Me
+: 1483161379:0;.
+: 1483161385:0;mv ../Van_Rental_SFO.pdf Paper\ work
+: 1483161385:0;.
+: 1483161390:0;cd Programming_Problems
+: 1483161391:0;ls
+: 1483161394:0;..
+: 1483161399:0;mv Programming_Problems ~/Documents
+: 1483161400:0;.
+: 1483161406:0;ls Jarvis
+: 1483161411:0;ls Hask
+: 1483161412:0;ls Haskann
+: 1483161439:0;cat shit_gf_says.md
+: 1483161455:0;.
+: 1483161461:0;cd Reading
+: 1483161461:0;ls
+: 1483161468:0;..
+: 1483161468:0;.
+: 1483161480:0;cd ~/Documents/Processing3
+: 1483161480:0;.
+: 1483161487:0;clear
+: 1483161487:0;ls
+: 1483161495:0;clear
+: 1483161495:0;ls
+: 1483161499:0;cd Nyan_saver
+: 1483161500:0;ls
+: 1483161504:0;jp Nyan_saver.
+: 1483161567:0;vim Nyan_saver.pde
+: 1483161608:0;clear
+: 1483161608:0;s
+: 1483161609:0;cd ..
+: 1483161610:0;ls
+: 1483161615:0;cd ~/Drive
+: 1483161616:0;ls
+: 1483161619:0;cd Pictures
+: 1483161620:0;ls
+: 1483161622:0;cd Me/P
+: 1483161630:0;cd Me/Pictures
+: 1483161631:0;ls
+: 1483161632:0;cd Cypher\ Games\ Images
+: 1483161633:0;ls
+: 1483161635:0;open .
+: 1483163328:0;clear
+: 1483163328:0;cd
+: 1483163330:0;cd Documents
+: 1483163331:0;ls
+: 1483163333:0;cd Misc
+: 1483163366:0;ls
+: 1483163367:0;clear
+: 1483163368:0;ls
+: 1483163781:0;cd real_world_haskell
+: 1483163781:0;s
+: 1483163789:0;vim readInt.hs
+: 1483165780:0;clear
+: 1483165780:0;s
+: 1483165782:0;a readInt.hs
+: 1483165783:0;s
+: 1483165794:0;m "Terrible read program"
+: 1483165795:0;clear
+: 1483165795:0;s
+: 1483333484:0;q
+: 1483333489:0;z Jar
+: 1483333490:0;.
+: 1483333531:0;s
+: 1483333532:0;.
+: 1483333538:0;ls node_modules
+: 1483333560:0;.
+: 1483333562:0;cd site
+: 1483333563:0;.
+: 1483333596:0;npm eslint
+: 1483333602:0;npm lint
+: 1483333621:0;meteor lint
+: 1483333635:0;clear
+: 1483333636:0;ls
+: 1483333676:0;npm run lint
+: 1483333691:0;cd imports/ui
+: 1483333695:0;vim body.js
+: 1483333699:0;.
+: 1483333700:0;s
+: 1483333814:0;ls
+: 1483333815:0;.
+: 1483333816:0;s
+: 1483333816:0;.
+: 1483333844:0;clear
+: 1483333845:0;ls
+: 1483333888:0;cd templates
+: 1483333888:0;ls
+: 1483333898:0;vim submitForm.html
+: 1483333933:0;meteor
+: 1483333939:0;ls
+: 1483333942:0;vim submitForm..js
+: 1483333945:0;vim submitForm.js
+: 1483333971:0;b chips
+: 1483333975:0;vim submit*
+: 1483334112:0;vim submitForm.js
+: 1483334118:0;cd ...
+: 1483334120:0;cd ..
+: 1483334120:0;..
+: 1483334123:0;ls
+: 1483334124:0;cd ..
+: 1483334125:0;ls
+: 1483334128:0;cd Projects/Old
+: 1483334128:0;ls
+: 1483334130:0;cd ..
+: 1483334130:0;.
+: 1483334136:0;q
+: 1483342022:0;s
+: 1483342023:0;.
+: 1483342027:0;..
+: 1483342035:0;cd Misc
+: 1483342036:0;ls
+: 1483342036:0;.
+: 1483342038:0;..
+: 1483342038:0;.
+: 1483342041:0;cat RNKWGB.htm
+: 1483342047:0;.
+: 1483342052:0;vim github-recovery-codes.txt
+: 1483342056:0;.
+: 1483342060:0;cd Programming_Problems
+: 1483342061:0;.
+: 1483342070:0;..
+: 1483342071:0;.
+: 1483342072:0;..
+: 1483342072:0;.
+: 1483342078:0;cd Drive
+: 1483342079:0;ls
+: 1483342083:0;cd Uni
+: 1483342084:0;.
+: 1483342088:0;vim classes.md
+: 1483342108:0;.
+: 1483342109:0;..
+: 1483342113:0;cd Me
+: 1483342113:0;.
+: 1483342116:0;q
+: 1483343104:0;..
+: 1483343110:0;python
+: 1483343131:0;clear
+: 1483343143:0;vim wildburger.hs
+: 1483347495:0;q
+: 1483390117:0;cabal install unique-0.4.5
+: 1483390129:0;cabal install unique
+: 1483390134:0;cabal update
+: 1483390142:0;vim wildburger.hs
+: 1483394098:0;uname 
+: 1483394101:0;uname -a
+: 1483394153:0;q
+: 1483395832:0;when-changed wildburger.hs -c "runhaskell wildburger.hs"
+: 1483395844:0;when-changed *.hs -c "runhaskell wildburger.hs"
+: 1483395856:0;when-changed *.hs -c "clear && runhaskell wildburger.hs"
+: 1483403290:0;cclear
+: 1483403293:0;q
+: 1483403318:0;ls
+: 1483403322:0;ghc wildburger
+: 1483403330:0;time ./wildburger
+: 1483403351:0;clear
+: 1483403351:0;q
+: 1483403361:0;clear
+: 1483403361:0;s
+: 1483403364:0;clean
+: 1483403364:0;ls
+: 1483403367:0;rm wildburger
+: 1483403367:0;ls
+: 1483403394:0;mv *.hs ~/Documents/Misc
+: 1483403395:0;.
+: 1483403397:0;cd
+: 1483403397:0;q
+: 1483404456:0;z Jar
+: 1483404484:0;cd site
+: 1483404484:0;.
+: 1483404487:0;meteor list
+: 1483507478:0;ghci
+: 1483510783:0;vim
+: 1483772120:0;meteor update 
+: 1483772174:0;meteor update --all-packages
+: 1483772220:0;meteor update coffeescript
+: 1483772249:0;clear
+: 1483772250:0;s
+: 1483772264:0;mv myfoldl.hs ~/Documents/Misc/
+: 1483772293:0;cd ~/Documents/Misc
+: 1483772295:0;vim myfoldl.hs
+: 1483772302:0;d
+: 1483772304:0;clear
+: 1483772304:0;s
+: 1483772313:0;d imports
+: 1483772346:0;a imports/ui/templates/submitForm.html
+: 1483772359:0;git checkout imports/ui/templates/submitForm.js
+: 1483772360:0;clear
+: 1483772361:0;s
+: 1483772424:0;grep -R "picker" *
+: 1483772469:0;vim package.json
+: 1483772490:0;cp node_modules/materialize-css/js/date_picker/picker.js www/lib
+: 1483772495:0;clear
+: 1483772495:0;s
+: 1483772513:0;cat package.json
+: 1483772523:0;clear
+: 1483772523:0;s
+: 1483772530:0;cat .meteor/packages| grep mat
+: 1483772709:0;npm install hammerjs --save
+: 1483772714:0;npm install pickadate --save
+: 1483772788:0;vim package.json
+: 1483772812:0;npm postinstall
+: 1483772838:0;npm run lint
+: 1483772844:0;npm run postinstall
+: 1483772856:0;vim p
+: 1483772859:0;vim package.json
+: 1483772864:0;npm run postinstall
+: 1483772867:0;s
+: 1483772871:0;meteor
+: 1483772910:0;npm run postinstall
+: 1483772916:0;s
+: 1483772924:0;vim package.json
+: 1483772936:0;meteor
+: 1483772952:0;clear
+: 1483772952:0;s
+: 1483772990:0;meteor add iamkevingreen:meteor-pickadate
+: 1483845132:0;meteor remove materialize:materialize
+: 1483845159:0;meteor add poetic:materialize-scss
+: 1483845246:0;ls
+: 1483845249:0;cd ..
+: 1483845250:0;ls
+: 1483845253:0;cd Projects
+: 1483845253:0;ls
+: 1483845269:0;cd ..
+: 1483845270:0;ls
+: 1483845281:0;git clone https://github.com/Cypher1/KanFam_Ethics KanFam_test
+: 1483845289:0;s
+: 1483845290:0;git clone https://github.com/Cypher1/KanFam_Ethics KanFam_test
+: 1483845582:0;npm install materialize-css -D
+: 1483845593:0;npm install hammerjs --save
+: 1483845609:0;npm install pickadate --save
+: 1483846292:0;git clone https://github.com/Cypher1/KanFam_Ethics KanFam_test
+: 1483846439:0;git clone v
+: 1483846443:0;git clone git@github.com:Cypher1/KanFam_Ethics.git
+: 1483868695:0;clear
+: 1483868696:0;s
+: 1483868697:0;cd KanFam_Ethics
+: 1483868698:0;ls
+: 1483868701:0;cd ui
+: 1483868705:0;cd imports/89
+: 1483868713:0;cd imports/ui
+: 1483868714:0;ls
+: 1483868717:0;cd templates
+: 1483868717:0;ls
+: 1483868739:0;vim task_list.
+: 1483868742:0;vim task_list.js
+: 1483869906:0;meteor
+: 1483870157:0;npm run eslint
+: 1483870160:0;npm run lint
+: 1483870578:0;clear
+: 1483870578:0;s
+: 1483870587:0;d package.json
+: 1483870612:0;git stash package.json
+: 1483870616:0;git checkout package.json
+: 1483870617:0;clear
+: 1483870618:0;s
+: 1483870620:0;d .meteor
+: 1483870634:0;a .meteor 
+: 1483870635:0;s
+: 1483870649:0;d imports/ui/templates/submitForm.html
+: 1483870664:0;clear
+: 1483870664:0;s
+: 1483870668:0;d imports/ui/body.
+: 1483870670:0;d imports/ui/body.*
+: 1483870674:0;a imports/ui/body.js
+: 1483870675:0;clear
+: 1483870675:0;s
+: 1483870686:0;d imports/ui/templates
+: 1483870693:0;clear
+: 1483870693:0;s
+: 1483870701:0;q
+: 1483904272:0;meteor remove poetic:materialize-scss
+: 1483904296:0;meteor add 
+: 1483904395:0;meteor add materialize:materialize
+: 1483909388:0;s
+: 1483909410:0;clear
+: 1483909410:0;s
+: 1483909419:0;cd .meteor
+: 1483909420:0;s
+: 1483909421:0;clear
+: 1483909421:0;s
+: 1483909503:0;cd ..
+: 1483909505:0;ls
+: 1483909527:0;cd ...
+: 1483909536:0;mk Chips
+: 1483909540:0;meteor new
+: 1483909544:0;meteor create
+: 1483909548:0;cd ..
+: 1483909561:0;meteor create Chips
+: 1483909582:0;cd Chips
+: 1483909593:0;clear
+: 1483909593:0;ls
+: 1483909596:0;cd .meteor
+: 1483909597:0;ls
+: 1483909599:0;vim packages
+: 1483909618:0;meteor add poetic:materialize-scss
+: 1483909631:0;cd
+: 1483909632:0;clear
+: 1483909632:0;ls
+: 1483909639:0;q
+: 1483909793:0;clear
+: 1483909793:0;s
+: 1483909799:0;meteor
+: 1483909811:0;meteor --port 30001
+: 1483909873:0;cd Documents/Projects
+: 1483909874:0;s
+: 1483909876:0;cd Chips
+: 1483909877:0;meteor npm install --save babel-runtime
+: 1483909890:0;cd client
+: 1483909890:0;ls
+: 1483909893:0;vim main.html
+: 1483910347:0;clear
+: 1483910347:0;s
+: 1483910350:0;vim main.css
+: 1483910355:0;cd ..
+: 1483910355:0;ls
+: 1483910358:0;cd node_modules
+: 1483910358:0;ls
+: 1483910360:0;cd ..
+: 1483910360:0;clear
+: 1483910361:0;s
+: 1483910362:0;cd server
+: 1483910363:0;ls
+: 1483910363:0;s
+: 1483910365:0;vim main.js
+: 1483910368:0;clear
+: 1483910368:0;s
+: 1483910370:0;cd ..
+: 1483910374:0;git init
+: 1483910375:0;s
+: 1483910377:0;a .
+: 1483910379:0;clear
+: 1483910379:0;s
+: 1483910405:0;m "Created a test project to test poetic:materialize-css"
+: 1483910493:0;git push --set-upstream git@github.com:Cypher1/Chips_test.git
+: 1483910505:0;git remote add origin git@github.com:Cypher1/Chips_test.git
+: 1483910507:0;git push
+: 1483910517:0;git push --set-upstream origin master 
+: 1483912633:0;q
+: 1483930966:0;meteor remove materialize:materialize
+: 1483931180:0;meteor add poetic:materialize-scss
+: 1483931287:0;cd ..
+: 1483931288:0;cd Mosaic
+: 1483931289:0;cd ..
+: 1483931294:0;ls
+: 1483931295:0;clear
+: 1483931296:0;s
+: 1483931301:0;cd ../Misc
+: 1483931301:0;s
+: 1483931306:0;vim Hamil.hs
+: 1483944259:0;q
+: 1484191020:0;s
+: 1484191023:0;clear
+: 1484191024:0;s
+: 1484191025:0;d
+: 1484191029:0;d HEAD 
+: 1484191031:0;clear
+: 1484191031:0;ls
+: 1484191034:0;vim Hamil.hs
+: 1484191042:0;mv Hamil.hs define.hs
+: 1484191045:0;clear
+: 1484191045:0;s
+: 1484191057:0;d EvalTree.hs
+: 1484191059:0;clear
+: 1484191060:0;s
+: 1484194245:0;clear
+: 1484194246:0;ls
+: 1484194251:0;vi Hamil.hs
+: 1484371520:0;s
+: 1484371521:0;d
+: 1484371524:0;clear
+: 1484371524:0;ls
+: 1484371526:0;s
+: 1484371528:0;d EvalTree.hs
+: 1484371532:0;cat EvalTree.hs
+: 1484371571:0;clear
+: 1484371572:0;s
+: 1484371575:0;rm Hamil.hs
+: 1484371578:0;cat define.hs
+: 1484371587:0;vim define.hs
+: 1484371803:0;s
+: 1484371812:0;mv define.hs readDefine.hs
+: 1484371814:0;a readDefine.hs
+: 1484371815:0;s
+: 1484371822:0;cat myfoldl.hs
+: 1484371824:0;a myfoldl.hs
+: 1484371825:0;s
+: 1484371827:0;d EvalTree.hs
+: 1484371830:0;cat E
+: 1484371832:0;cat EvalTree.hs
+: 1484371855:0;runhaskell EvalTree.hs
+: 1484371864:0;clear
+: 1484371865:0;s
+: 1484371869:0;cat wildburger.hs
+: 1484371875:0;runhaskell wildburger.hs
+: 1484371889:0;ls
+: 1484371894:0;mkdir WildBurger
+: 1484371899:0;mv wildburger.hs wildBurger
+: 1484371903:0;mv EvalTree.hs WildBurger
+: 1484371904:0;s
+: 1484371906:0;a WildBurger
+: 1484371906:0;s
+: 1484371926:0;m "Added some experiments in Haskell"
+: 1484371927:0;clear
+: 1484371927:0;s
+: 1484371928:0;p
+: 1484374461:0;s
+: 1484426532:0;clear
+: 1484426536:0;meteor
+: 1484426587:0;ls
+: 1484426590:0;cd ..
+: 1484426591:0;ls
+: 1484426592:0;cd ..
+: 1484426593:0;ls
+: 1484426594:0;cd api
+: 1484426594:0;ls
+: 1484426596:0;vim apis.js
+: 1484426613:0;vim post.js
+: 1484426658:0;clear
+: 1484426660:0;meteor
+: 1484426664:0;q
+: 1484426756:0;clear
+: 1484426756:0;s
+: 1484426764:0;a ../../.meteor
+: 1484426765:0;clear
+: 1484426765:0;s
+: 1484426769:0;d apis.js
+: 1484426772:0;a apis.js
+: 1484426772:0;s
+: 1484426773:0;clear
+: 1484426774:0;s
+: 1484426780:0;git branch
+: 1484426788:0;git stash
+: 1484426789:0;s
+: 1484426811:0;git stash apply 
+: 1484426812:0;s
+: 1484426819:0;cd ...
+: 1484426820:0;s
+: 1484426821:0;a .
+: 1484426823:0;git stash
+: 1484426824:0;s
+: 1484426828:0;b post
+: 1484426829:0;clear
+: 1484426829:0;s
+: 1484426831:0;git pull
+: 1484426833:0;s
+: 1484426839:0;\
+git stash apply
+: 1484426840:0;s
+: 1484426844:0;cd imports/ui
+: 1484426846:0;cd templates
+: 1484426846:0;clear
+: 1484426847:0;s
+: 1484426849:0;vim submitForm.*
+: 1484426856:0;clear
+: 1484426856:0;s
+: 1484426861:0;a submitForm.*
+: 1484426862:0;s
+: 1484426864:0;clear
+: 1484426868:0;meteor
+: 1484426930:0;s
+: 1484426936:0;git fetch master
+: 1484426943:0;git fetch origin/master
+: 1484426945:0;clear
+: 1484426945:0;s
+: 1484426952:0;git fetch origin master:master 
+: 1484426954:0;s
+: 1484426959:0;git rebase origin/master 
+: 1484426961:0;s
+: 1484426966:0;cd ../pages/
+: 1484426968:0;vim post.html
+: 1484426980:0;clear
+: 1484426980:0;s
+: 1484426982:0;a post.html
+: 1484426983:0;s
+: 1484426985:0;cd ../templates
+: 1484426986:0;clear
+: 1484426986:0;s
+: 1484426989:0;vim postHeader.html
+: 1484426998:0;clear
+: 1484426998:0;s
+: 1484427001:0;a postHeader.html
+: 1484427001:0;s
+: 1484427003:0;vim templates.js
+: 1484427010:0;clear
+: 1484427010:0;s
+: 1484427012:0;a templates.js
+: 1484427013:0;clear
+: 1484427013:0;s
+: 1484427019:0;clear
+: 1484427020:0;s
+: 1484427029:0;git rebase --continue 
+: 1484427031:0;clear
+: 1484427031:0;s
+: 1484427034:0;vim postHeader.html
+: 1484427050:0;clear
+: 1484427051:0;s
+: 1484427052:0;a postHeader.html
+: 1484427053:0;clear
+: 1484427053:0;s
+: 1484427056:0;vim postHeader.html
+: 1484427106:0;clear
+: 1484427106:0;s
+: 1484427108:0;a postHeader.html
+: 1484427108:0;s
+: 1484427109:0;clear
+: 1484427109:0;s
+: 1484427111:0;git rebase --continue 
+: 1484427112:0;s
+: 1484427124:0;git rebase --continue 
+: 1484427132:0;git rebase --skip 
+: 1484427133:0;clear
+: 1484427133:0;s
+: 1484427136:0;vim postHeader.html
+: 1484427230:0;clear
+: 1484427230:0;s
+: 1484427231:0;a postHeader.html
+: 1484427232:0;clear
+: 1484427232:0;s
+: 1484427237:0;git rebase --continue 
+: 1484427241:0;git rebase --skip
+: 1484427242:0;clear
+: 1484427242:0;s
+: 1484427246:0;d ../style.scss
+: 1484427253:0;vim ../style.scss
+: 1484427269:0;clear
+: 1484427270:0;s
+: 1484427274:0;a ../style.scss
+: 1484427275:0;clear
+: 1484427275:0;s
+: 1484427279:0;vim postHeader.html
+: 1484427294:0;clear
+: 1484427294:0;s
+: 1484427297:0;a postHeader.html
+: 1484427300:0;git rebase --continue 
+: 1484427312:0;git rebase --skip
+: 1484427314:0;clear
+: 1484427314:0;s
+: 1484427317:0;vim templates.js
+: 1484427322:0;clear
+: 1484427322:0;s
+: 1484427332:0;git rebase --abort 
+: 1484427333:0;clear
+: 1484427333:0;s
+: 1484427339:0;git merge origin/master 
+: 1484427341:0;s
+: 1484427348:0;git add ../../../
+: 1484427349:0;s
+: 1484427351:0;git stash
+: 1484427353:0;git merge origin/master 
+: 1484427355:0;s
+: 1484427370:0;vim ../pages/post.html 
+: 1484427380:0;clear
+: 1484427380:0;s
+: 1484427384:0;a ../pages/post.html
+: 1484427385:0;clear
+: 1484427385:0;s
+: 1484427388:0;vim ../style.scss
+: 1484427397:0;clear
+: 1484427397:0;s
+: 1484427399:0;a ../style.scss
+: 1484427400:0;clear
+: 1484427400:0;s
+: 1484427404:0;vim postComment.html
+: 1484427416:0;clear
+: 1484427416:0;s
+: 1484427419:0;a postComment.html
+: 1484427419:0;clear
+: 1484427420:0;s
+: 1484427423:0;vim postHeader.html
+: 1484427434:0;clear
+: 1484427434:0;s
+: 1484427436:0;a postHeader.html
+: 1484427439:0;vim postNewComment.html
+: 1484427446:0;clear
+: 1484427446:0;s
+: 1484427448:0;a postNewComment.html
+: 1484427449:0;clear
+: 1484427449:0;s
+: 1484427450:0;vim templates.js
+: 1484427455:0;clear
+: 1484427456:0;s
+: 1484427457:0;a templates.js
+: 1484427458:0;clear
+: 1484427458:0;s
+: 1484427464:0;vim ../style.scss
+: 1484427470:0;a
+: 1484427472:0;clear
+: 1484427472:0;s
+: 1484427477:0;a ../style.scss
+: 1484427477:0;clear
+: 1484427477:0;s
+: 1484427483:0;git merge --con
+: 1484427485:0;git merge --continue
+: 1484427486:0;clear
+: 1484427486:0;s
+: 1484427490:0;git merge --continue
+: 1484427498:0;git merge
+: 1484427506:0;git commit -m "Merged"
+: 1484427507:0;clear
+: 1484427507:0;s
+: 1484427531:0;clear
+: 1484427532:0;ls
+: 1484427541:0;vim templates.js
+: 1484427550:0;vim postComment.html
+: 1484427571:0;clear
+: 1484427571:0;ls
+: 1484427580:0;git mv postHeader.html post.html
+: 1484427582:0;vim templates.js
+: 1484427587:0;clear
+: 1484427587:0;s
+: 1484427590:0;a templates.js
+: 1484427591:0;clear
+: 1484427591:0;s
+: 1484427594:0;vim post.html
+: 1484427604:0;s
+: 1484427606:0;a postH
+: 1484427609:0;a post.html
+: 1484427610:0;clear
+: 1484427610:0;s
+: 1484427611:0;cd ..
+: 1484427612:0;ls
+: 1484427615:0;vim pages/index.html pages/pages.js pages/post.html pages/submit.html 
+: 1484427686:0;clear
+: 1484427686:0;s
+: 1484427693:0;vim pages/pages.js
+: 1484427698:0;clear
+: 1484427698:0;s
+: 1484427701:0;git status
+: 1484427704:0;git stash
+: 1484427705:0;clear
+: 1484427705:0;s
+: 1484427718:0;cd templates
+: 1484427719:0;ls
+: 1484427729:0;vim templates.js
+: 1484427731:0;clear
+: 1484427732:0;s
+: 1484427745:0;vim templates.js
+: 1484427775:0;cd ..
+: 1484427775:0;ls
+: 1484427778:0;vim body.
+: 1484427783:0;vim body.js
+: 1484427808:0;cd templates
+: 1484427809:0;ls
+: 1484427818:0;vim templates.js postHeader.html
+: 1484427832:0;clear
+: 1484427832:0;s
+: 1484427835:0;meteor
+: 1484427926:0;git checkout master
+: 1484427931:0;git branch -d post
+: 1484427934:0;git branch -D post
+: 1484427938:0;b post
+: 1484427940:0;s
+: 1484427942:0;cd ..
+: 1484427942:0;ls
+: 1484427946:0;cd api
+: 1484427948:0;cd ..
+: 1484427949:0;cd api
+: 1484427954:0;vim apis.js post.js
+: 1484427996:0;meteor
+: 1484428001:0;clear
+: 1484428001:0;s
+: 1484428051:0;vim ../pages/index.html ../pages/post.html
+: 1484428074:0;clear
+: 1484428075:0;s
+: 1484428292:0;q
+: 1484428294:0;s
+: 1484428297:0;git stash
+: 1484428300:0;git merge index 
+: 1484428301:0;s
+: 1484428305:0;cd ../pages
+: 1484428306:0;s
+: 1484428308:0;d post 
+: 1484428314:0;vim post.html
+: 1484428326:0;clear
+: 1484428326:0;s
+: 1484428327:0;a post.html
+: 1484428328:0;s
+: 1484428328:0;clear
+: 1484428329:0;s
+: 1484428332:0;cd ../
+: 1484428333:0;vim style.scss
+: 1484428363:0;clear
+: 1484428363:0;s
+: 1484428364:0;a style.scss
+: 1484428365:0;clear
+: 1484428365:0;s
+: 1484428367:0;cd templates
+: 1484428368:0;clear
+: 1484428368:0;s
+: 1484428371:0;vim postComment.html
+: 1484428380:0;clear
+: 1484428381:0;s
+: 1484428383:0;a postComment.html
+: 1484428383:0;clear
+: 1484428384:0;s
+: 1484428389:0;vim postHeader.html
+: 1484428398:0;q
+: 1484428437:0;s
+: 1484428466:0;clear
+: 1484428466:0;s
+: 1484428469:0;a templates.js
+: 1484428470:0;clear
+: 1484428470:0;s
+: 1484428473:0;a post*
+: 1484428476:0;cd ../../api
+: 1484428476:0;clear
+: 1484428477:0;s
+: 1484428482:0;d
+: 1484428488:0;cd ../
+: 1484428489:0;cd ui
+: 1484428491:0;cd templates
+: 1484428493:0;vim postNewComment.html
+: 1484428502:0;clear
+: 1484428502:0;s
+: 1484428504:0;a postNewComment.html
+: 1484428505:0;clear
+: 1484428505:0;s
+: 1484428526:0;clear
+: 1484428526:0;s
+: 1484428528:0;cd ../../
+: 1484428533:0;s
+: 1484428538:0;git commit -m "Merged"
+: 1484428539:0;clear
+: 1484428539:0;s
+: 1484428541:0;q
+: 1484428546:0;clear
+: 1484428547:0;s
+: 1484428550:0;cd ../../
+: 1484428551:0;s
+: 1484428564:0;cd ui
+: 1484428565:0;cd pages
+: 1484428566:0;ls
+: 1484428572:0;cd ..
+: 1484428572:0;ls
+: 1484428576:0;vim body.js
+: 1484428582:0;cd pages
+: 1484428583:0;ls
+: 1484428584:0;vim p
+: 1484428597:0;vim pages.js index.js post.js submit.js
+: 1484428824:0;clear
+: 1484428824:0;ls
+: 1484428829:0;ls ../../api
+: 1484428834:0;cd ../../
+: 1484428834:0;ls
+: 1484428837:0;cd api
+: 1484428838:0;ls
+: 1484428840:0;vim apis.js post.js
+: 1484428860:0;mv post.js posts.js
+: 1484428861:0;clear
+: 1484428862:0;s
+: 1484428866:0;clear
+: 1484428870:0;meteor
+: 1484428871:0;s
+: 1484428876:0;cd ../ui/pages
+: 1484428876:0;s
+: 1484428878:0;vim index.
+: 1484428881:0;vim index.js
+: 1484429073:0;clear
+: 1484429073:0;s
+: 1484429080:0;a ../../api/apis.js
+: 1484429081:0;clear
+: 1484429081:0;s
+: 1484429084:0;d index 
+: 1484429086:0;clear
+: 1484429087:0;s
+: 1484429090:0;d index.html
+: 1484429096:0;a index.html
+: 1484429098:0;vim index.html
+: 1484429104:0;clears
+: 1484429105:0;s
+: 1484429106:0;clear
+: 1484429109:0;a index.html
+: 1484429109:0;clear
+: 1484429110:0;s
+: 1484429114:0;d pages.js
+: 1484429117:0;a pages.js
+: 1484429117:0;clear
+: 1484429117:0;s
+: 1484429122:0;a index.js post.js submit.js
+: 1484429123:0;clear
+: 1484429123:0;s
+: 1484429127:0;d ../../api/posts.js
+: 1484429129:0;clear
+: 1484429129:0;s
+: 1484429132:0;a ../../
+: 1484429133:0;s
+: 1484429133:0;clear
+: 1484429133:0;s
+: 1484429157:0;git commit -m "Added base api and moved files so that posts can be displayed"
+: 1484429158:0;clear
+: 1484429159:0;s
+: 1484429201:0;vim index.html
+: 1484429376:0;clear
+: 1484429376:0;s
+: 1484466176:0;d
+: 1484466178:0;clear
+: 1484466179:0;s
+: 1484466193:0;meteor
+: 1484466221:0;vim post.html
+: 1484471684:0;meteor mongo
+: 1484472488:0;q
+: 1484472804:0;clear
+: 1484472804:0;s
+: 1484472811:0;d index*
+: 1484472821:0;cd ../templates
+: 1484472823:0;clear
+: 1484472823:0;s
+: 1484473032:0;clear
+: 1484473033:0;ls
+: 1484473033:0;s
+: 1484473035:0;clear
+: 1484473035:0;s
+: 1484473140:0;.
+: 1484473184:0;meteor
+: 1484473187:0;clear
+: 1484473187:0;ls
+: 1484473189:0;s
+: 1484473269:0;cd ../pages
+: 1484473272:0;vim index.js
+: 1484473324:0;vim index.html
+: 1484473394:0;vim ../../api/posts.js
+: 1484473539:0;vim index.js
+: 1484473751:0;meteor
+: 1484473756:0;meteor mongo
+: 1484473819:0;q
+: 1484509101:0;s
+: 1484509105:0;rm ../../api/libs.js
+: 1484509106:0;clear
+: 1484509106:0;s
+: 1484509117:0;cd ../../api
+: 1484509118:0;ls
+: 1484509119:0;vim posts.js
+: 1484509183:0;meteor mongo
+: 1484509827:0;grep -R "Meteor.call" .
+: 1484509832:0;cd ...
+: 1484509833:0;grep -R "Meteor.call" .
+: 1484509851:0;grep -R "Meteor.call(\"posts.insert\"" .
+: 1484509857:0;grep -R "Meteor.call\(\"posts.insert\"" .
+: 1484509878:0;cd ui
+: 1484509880:0;cd imports
+: 1484509886:0;grep -R "Meteor.call\(" .
+: 1484511125:0;s
+: 1484511129:0;d
+: 1484511494:0;d api
+: 1484511521:0;vim api/posts.js
+: 1484511550:0;clear
+: 1484511550:0;s
+: 1484511553:0;d api
+: 1484511564:0;a api
+: 1484511565:0;clear
+: 1484511565:0;s
+: 1484511568:0;cd ui
+: 1484511569:0;clear
+: 1484511570:0;s
+: 1484511574:0;d pages
+: 1484511585:0;a pages
+: 1484511586:0;clear
+: 1484511586:0;s
+: 1484511588:0;d templates
+: 1484511907:0;meteor add momentjs:moment
+: 1484512015:0;q
+: 1484512081:0;clear
+: 1484512081:0;s
+: 1484512083:0;cd ..
+: 1484512084:0;cd ui
+: 1484512085:0;clear
+: 1484512086:0;ls
+: 1484512086:0;s
+: 1484512089:0;clear
+: 1484512090:0;ls
+: 1484512091:0;clear
+: 1484512091:0;s
+: 1484512122:0;vim ../ui/body.js
+: 1484512471:0;clear
+: 1484512471:0;s
+: 1484512483:0;vim ../api/posts.js
+: 1484512564:0;clear
+: 1484512564:0;s
+: 1484512568:0;d body.
+: 1484512570:0;clear
+: 1484512570:0;s
+: 1484512573:0;d body.js
+: 1484512577:0;a body.js
+: 1484512578:0;clear
+: 1484512578:0;s
+: 1484512582:0;d ../api/posts.js
+: 1484512590:0;a ../api/posts.js
+: 1484512591:0;clear
+: 1484512591:0;s
+: 1484512597:0;cd ../../
+: 1484512601:0;d .meteor
+: 1484512605:0;a .meteor
+: 1484512606:0;clear
+: 1484512606:0;s
+: 1484512618:0;clear
+: 1484512618:0;ls
+: 1484512620:0;cd imports/ui
+: 1484512621:0;clear
+: 1484512621:0;s
+: 1484512623:0;cd templates
+: 1484512624:0;clear
+: 1484512624:0;s
+: 1484512630:0;d postHeader.
+: 1484512632:0;d postHeader.html
+: 1484512647:0;a postHeader.html
+: 1484512648:0;clear
+: 1484512648:0;s
+: 1484512656:0;d submitForm.html
+: 1484512708:0;clear
+: 1484512708:0;s
+: 1484512711:0;a submitForm.html
+: 1484512711:0;s
+: 1484512712:0;clear
+: 1484512713:0;s
+: 1484512728:0;d submitForm.html
+: 1484512733:0;d submitForm.js
+: 1484512742:0;vim submitForm.js
+: 1484512755:0;clear
+: 1484512755:0;s
+: 1484512757:0;a submitForm.js
+: 1484512758:0;clear
+: 1484512758:0;s
+: 1484512762:0;d postHeader.js
+: 1484512772:0;cat postHeader.js
+: 1484512880:0;clear
+: 1484512881:0;s
+: 1484512882:0;a postHeader.js
+: 1484512883:0;clear
+: 1484512884:0;s
+: 1484512920:0;m "Posting via the submit page works with a dummy username"
+: 1484512921:0;s
+: 1484512921:0;clear
+: 1484512922:0;s
+: 1484512922:0;p
+: 1484512929:0;clear
+: 1484512929:0;s
+: 1484513025:0;cd ..
+: 1484513027:0;vim body.js
+: 1484513653:0;meteor mongo
+: 1484513661:0;q
+: 1484513804:0;clear
+: 1484513804:0;s
+: 1484513805:0;d
+: 1484513809:0;a body.js
+: 1484513810:0;clear
+: 1484513810:0;s
+: 1484513825:0;m "Reactive times"
+: 1484513826:0;p
+: 1484513829:0;clear
+: 1484513829:0;ls
+: 1484513838:0;cd templates
+: 1484513838:0;ls
+: 1484513845:0;vim postHeader.html
+: 1484514448:0;clear
+: 1484514448:0;s
+: 1484514457:0;a tag.html
+: 1484514458:0;clear
+: 1484514458:0;s
+: 1484514460:0;a templates.js
+: 1484514460:0;clear
+: 1484514461:0;s
+: 1484514466:0;d postHeader.html
+: 1484514470:0;a postHeader.html
+: 1484514470:0;clear
+: 1484514471:0;s
+: 1484514473:0;vim filter.html
+: 1484515274:0;vim ../../api/posts.js
+: 1484515293:0;vim filter.js
+: 1484515303:0;clear
+: 1484515303:0;s
+: 1484515306:0;vim filter.js
+: 1484515311:0;vim filter.html
+: 1484515364:0;vim filter.js templates.js
+: 1484515489:0;clear
+: 1484515489:0;s
+: 1484515493:0;vim tag.html
+: 1484515505:0;clear
+: 1484515505:0;s
+: 1484515507:0;vim filter.js
+: 1484517434:0;clear
+: 1484517434:0;s
+: 1484517434:0;d
+: 1484517443:0;a filter.*
+: 1484517443:0;s
+: 1484517447:0;d tag.html
+: 1484517458:0;d templates.js
+: 1484517463:0;a templates.js tag.html
+: 1484517464:0;clear
+: 1484517464:0;s
+: 1484517492:0;m "Use a data structure for filter tags for processing"
+: 1484517492:0;s
+: 1484517493:0;p
+: 1484517498:0;clear
+: 1484517498:0;s
+: 1484522978:0;q
+: 1484526075:0;cd ...
+: 1484526078:0;cd ..
+: 1484526080:0;cd Mosaic
+: 1484526081:0;cd ..
+: 1484526083:0;cd Mi
+: 1484526086:0;cd ../Misc
+: 1484526087:0;clear
+: 1484526087:0;s
+: 1484526093:0;mk Jason
+: 1484526100:0;vim json.hs
+: 1484526747:0;mv json.hs JsonBase.hs
+: 1484526753:0;ls
+: 1484526759:0;mv json_test.hs JsonTest.hs
+: 1484526763:0;clear
+: 1484526767:0;vim JsonBase.hs
+: 1484535183:0;ghci
+: 1484536916:0;q
+: 1484537025:0;ghci
+: 1484537070:0;q
+: 1484554176:0;git status
+: 1484554182:0;git checkout master
+: 1484554310:0;git fetch
+: 1484554341:0;clear
+: 1484554341:0;s
+: 1484554349:0;git pull origin master 
+: 1484554369:0;clear
+: 1484554370:0;s
+: 1484554388:0;b filter_change
+: 1484554389:0;s
+: 1484554390:0;git pulll
+: 1484554392:0;git pull
+: 1484554868:0;git pull origin filter_change
+: 1484554882:0;git pull filter_change
+: 1484554913:0;git pull plain_accounts
+: 1484554918:0;git pull origin plain_accounts
+: 1484554931:0;b master
+: 1484554937:0;b plain_accounts
+: 1484555325:0;clear
+: 1484555325:0;s
+: 1484555332:0;vim postHeader.html
+: 1484555348:0;clear
+: 1484555349:0;ls
+: 1484555361:0;vim postComment.html
+: 1484555452:0;vim postNewComment.html
+: 1484555455:0;.
+: 1484555456:0;ls
+: 1484555489:0;clear
+: 1484555497:0;git checkout post 
+: 1484555498:0;clear
+: 1484555498:0;s
+: 1484555511:0;vim postHeader.js postHeader.html
+: 1484555670:0;meteor add practicalmeteor:mocha
+: 1484598490:0;when-changed *.hs -c "clear && runhaskell JsonTest.hs"
+: 1484598789:0;runhaskell JsonTest.hs
+: 1484598792:0;when-changed *.hs -c "clear && runhaskell JsonTest.hs"
+: 1484719919:0;meteor
+: 1484719923:0;clear
+: 1484719924:0;s
+: 1484719940:0;git checkout plain_accounts 
+: 1484719943:0;git stash
+: 1484719946:0;git checkout plain_accounts 
+: 1484719954:0;clear
+: 1484719954:0;ls
+: 1484720380:0;b material_accounts
+: 1484720382:0;clear
+: 1484720383:0;ls
+: 1484720415:0;s
+: 1484720422:0;b material_accounts
+: 1484720426:0;git pull
+: 1484720542:0;git branch --set-upstream-to=origin/material_accounts material_accounts
+: 1484720545:0;git pull
+: 1484720548:0;s
+: 1484720553:0;vim ../../startup/accounts-config.js
+: 1484720571:0;vim navbar.html
+: 1484720579:0;clear
+: 1484720580:0;s
+: 1484720588:0;clear
+: 1484720588:0;s
+: 1484720590:0;a ../../
+: 1484720591:0;s
+: 1484720592:0;clear
+: 1484720593:0;s
+: 1484720669:0;clear
+: 1484720669:0;s
+: 1484720672:0;git status
+: 1484720681:0;git commit -m "Merged"
+: 1484720682:0;clear
+: 1484720682:0;s
+: 1484720684:0;git push
+: 1484724189:0;git pull origin 
+: 1484724195:0;git checkout origin
+: 1484724202:0;git checkout origin/master 
+: 1484724204:0;clear
+: 1484724205:0;s
+: 1484724214:0;git pull origin/master
+: 1484724218:0;git pull
+: 1484724224:0;git pull origin master
+: 1484885996:0;clear
+: 1484885996:0;s
+: 1484886004:0;vim JsonBase.hs
+: 1484888610:0;clear
+: 1484888610:0;s
+: 1484888622:0;vim submitForm.js
+: 1484888796:0;cd .../a
+: 1484888798:0;cd ..
+: 1484888800:0;cd api
+: 1484888801:0;clear
+: 1484888801:0;ls
+: 1484888803:0;vim posts.js
+: 1484889144:0;clear
+: 1484889144:0;s
+: 1484889151:0;d
+: 1484889155:0;git status
+: 1484889159:0;git stash
+: 1484889160:0;clear
+: 1484889160:0;s
+: 1484889163:0;git checkout origin/master 
+: 1484889164:0;s
+: 1484889166:0;git pull
+: 1484889169:0;clear
+: 1484889169:0;s
+: 1484889177:0;git checkout post 
+: 1484889188:0;git status
+: 1484889190:0;git diff origin/master 
+: 1484889211:0;git merge origin/master 
+: 1484889213:0;clear
+: 1484889213:0;s
+: 1484889218:0;git stash apply 
+: 1484889224:0;s
+: 1484889225:0;clear
+: 1484889225:0;s
+: 1484889268:0;clear
+: 1484889269:0;s
+: 1484889270:0;a posts.js
+: 1484889271:0;s
+: 1484889272:0;D
+: 1484889280:0;git commit -m "Added username"
+: 1484889282:0;git push
+: 1484889375:0;git checkout master
+: 1484889377:0;clear
+: 1484889377:0;s
+: 1484889378:0;git pull
+: 1484889381:0;clear
+: 1484889381:0;s
+: 1484889384:0;cd ...
+: 1484889385:0;cd ui
+: 1484889387:0;cd imports/ui
+: 1484889388:0;ls
+: 1484889392:0;vim templates/navbar.html
+: 1484889442:0;clear
+: 1484889442:0;s
+: 1484889444:0;a templates/navbar.html
+: 1484889445:0;clear
+: 1484889445:0;s
+: 1484889455:0;m "Linked up post button"
+: 1484889456:0;clear
+: 1484889457:0;s
+: 1484889458:0;git push
+: 1484890933:0;b chromatic
+: 1484890934:0;meteor add mdg:chromatic
+: 1484891059:0;cd ..
+: 1484891060:0;s
+: 1484891125:0;cd ..
+: 1484891127:0;cd imports/startup
+: 1484891128:0;clear
+: 1484891128:0;s
+: 1484891155:0;git checkout master
+: 1484891156:0;s
+: 1484891157:0;clear
+: 1484891157:0;s
+: 1484891159:0;git stash
+: 1484891160:0;clear
+: 1484891161:0;s
+: 1484891173:0;git branch -d chips chromatic post navbar plain_accounts 
+: 1484891175:0;clear
+: 1484891175:0;s
+: 1484891194:0;git branch -d alternate_test_deploy material_accounts filter_change subscription_page test_deploy travis_testing logo index 
+: 1484891197:0;clear
+: 1484891197:0;s
+: 1484891204:0;git branch -d filter_change 
+: 1484891210:0;git branch -D filter_change 
+: 1484891211:0;clear
+: 1484891211:0;s
+: 1484891224:0;git branch -D submit travis_testing 
+: 1484891234:0;git branch -D clear
+: 1484891236:0;clear
+: 1484891238:0;ls
+: 1484891246:0;b search_basics
+: 1484891249:0;.
+: 1484891378:0;cd ...
+: 1484891384:0;ls .meteor/packages
+: 1484891388:0;cat .meteor/packages
+: 1484891394:0;cat .meteor/packages | grep kad
+: 1484892480:0;s
+: 1484892481:0;clear
+: 1484892481:0;s
+: 1484892487:0;ghc JsonTest.hs
+: 1484892782:0;clear
+: 1484892784:0;ghc JsonTest.hs
+: 1484892787:0;ls
+: 1484892789:0;./JsonTest
+: 1484892805:0;rm JsonTest
+: 1484892805:0;clear
+: 1484892806:0;s
+: 1484892809:0;runhaskell JsonTest.hs
+: 1484892840:0;clear && runhaskell JsonTest.hs
+: 1484893098:0;time clear && runhaskell JsonTest.hs
+: 1484893104:0;clear && t runhaskell JsonTest.hs
+: 1484893112:0;ghc JsonTest.hs
+: 1484893117:0;time ./JsonTest
+: 1484893124:0;s
+: 1485037627:0;ghc JsonTest.hs
+: 1485037653:0;./JsonTest
+: 1485050157:0;clear
+: 1485050161:0;clear && t runhaskell JsonTest.hs
+: 1485050339:0;watch -n 100  "clear && t runhaskell JsonTest.hs"
+: 1485050349:0;watch 100 -c "clear && t runhaskell JsonTest.hs"
+: 1485050371:0;watch *.hs -c "clear && t runhaskell JsonTest.hs"
+: 1485050456:0;watch "clear && t runhaskell JsonTest.hs"
+: 1485050463:0;watch "clear && time runhaskell JsonTest.hs"
+: 1485050478:0;when-changed *.hs -c "clear && runhaskell JsonTest.hs"
+: 1485051920:0;ping lobalproject.meteorapp.com
+: 1485052252:0;ping lobal.io
+: 1485052587:0;npm run lint
+: 1485052657:0;vim imports/ui/templates/postHeader.js
+: 1485052662:0;clear
+: 1485052663:0;s
+: 1485052664:0;clear
+: 1485052665:0;ls
+: 1485052665:0;s
+: 1485052667:0;.
+: 1485053292:0;git pull
+: 1485135602:0;s
+: 1485135602:0;b
+: 1485135604:0;clear
+: 1485135604:0;s
+: 1485135618:0;b mocha_circle
+: 1485135620:0;.
+: 1485135620:0;s
+: 1485135628:0;meteor add practicalmeteor:mocha
+: 1485135735:0;meteor test
+: 1485135763:0;meteor test --driver package=practicalmeteor:mocha
+: 1485135776:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485135892:0;vim package.json
+: 1485135944:0;clear
+: 1485135944:0;s
+: 1485135949:0;npm run test
+: 1485135993:0;git pull
+: 1485136000:0;git merge origin/master 
+: 1485136005:0;git stash
+: 1485136009:0;git merge origin/master 
+: 1485136014:0;git stash apply 
+: 1485136024:0;vim .meteor/packages
+: 1485136043:0;clear
+: 1485136043:0;s
+: 1485136048:0;a .meteor/packages
+: 1485136049:0;clear
+: 1485136050:0;s
+: 1485136061:0;clear
+: 1485136062:0;s
+: 1485136138:0;clear
+: 1485136140:0;cd ap
+: 1485136141:0;cd api
+: 1485136146:0;cd imports/
+: 1485136147:0;ls
+: 1485136147:0;clear
+: 1485136148:0;ls
+: 1485136152:0;cat startup/*
+: 1485136206:0;cd api
+: 1485136206:0;clear
+: 1485136206:0;s
+: 1485136214:0;v posts.js
+: 1485136274:0;vim posts.js posts.tests.js
+: 1485141689:0;q
+: 1485141695:0;s
+: 1485141696:0;clear
+: 1485141696:0;q
+: 1485141813:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485142156:0;clear
+: 1485142156:0;s
+: 1485142163:0;npm run test
+: 1485142307:0;meteor add practicalmeteor:mocha
+: 1485142340:0;q
+: 1485142346:0;clear
+: 1485142346:0;s
+: 1485142349:0;a .meteor
+: 1485142350:0;s
+: 1485142351:0;clear
+: 1485142351:0;s
+: 1485142353:0;d imports
+: 1485142357:0;npm run test
+: 1485142383:0;clear
+: 1485142384:0;s
+: 1485142390:0;cd ../ui/templates
+: 1485142393:0;vim templates.js
+: 1485142403:0;imports/ui
+: 1485142406:0;...
+: 1485142407:0;clear
+: 1485142409:0;npm run test
+: 1485142645:0;npm run test --silent
+: 1485142791:0;clear
+: 1485142791:0;s
+: 1485142796:0;vim navButton.js
+: 1485142841:0;clear
+: 1485142841:0;s
+: 1485142849:0;vim navButton.js
+: 1485142858:0;clear
+: 1485142858:0;s
+: 1485142861:0;npm run test --silent
+: 1485143091:0;clear
+: 1485143092:0;npm run test --silent
+: 1485143277:0;clear && npm run test --silent
+: 1485143402:0;clear
+: 1485143408:0;clear && npm run test --silent
+: 1485143937:0;cd ...
+: 1485143939:0;..
+: 1485143941:0;cd site
+: 1485143944:0;vim package.json
+: 1485143957:0;iclear
+: 1485143958:0;clear
+: 1485143962:0;clear && npm run test --silent
+: 1485143987:0;npm install --save-dev eslint eslint-plugin-import eslint-import-resolver-meteor
+: 1485143996:0;clear
+: 1485143999:0;clear && npm run test --silent
+: 1485144016:0;vim package.json
+: 1485144048:0;npm uninstall --save-dev eslint eslint-plugin-import eslint-import-resolver-meteor
+: 1485144059:0;clear
+: 1485144059:0;s
+: 1485144065:0;vim package.json
+: 1485144073:0;clear
+: 1485144074:0;s
+: 1485144077:0;clear && npm run test --silent
+: 1485144081:0;clear
+: 1485144118:0;npm install eslint@2.0.0-rc.0
+: 1485144138:0;npm install eslint-plugin-import@^2.0.1 eslint-module-utils@1.0.0
+: 1485144153:0;npm install eslint-plugin-import@^2.0.1 eslint-module-utils@1.0.0 eslint@2.x
+: 1485144169:0;npm install eslint-plugin-import@^2.0.1 eslint-module-utils@1.0.0 eslint@2.x eslint-config-airbnb@13.0.0.
+: 1485144172:0;npm install eslint-plugin-import@^2.0.1 eslint-module-utils@1.0.0 eslint@2.x eslint-config-airbnb@13.0.0
+: 1485144193:0;npm install eslint-plugin-import@^2.0.1 eslint-module-utils@1.0.0 eslint@3.9.1 eslint-config-airbnb@13.0.0
+: 1485144200:0;clear
+: 1485144200:0;s
+: 1485144207:0;clear && npm run test --silent
+: 1485144224:0;vim imports/api/posts.js
+: 1485144251:0;clear && npm run test --silent
+: 1485144839:0;clear
+: 1485144840:0;s
+: 1485144847:0;cd imports/api
+: 1485144850:0;vim posts.
+: 1485144854:0;vim posts.js
+: 1485144871:0;clear && npm run test --silent
+: 1485144889:0;clear
+: 1485144890:0;s
+: 1485144896:0;clear && npm run test --silent
+: 1485144909:0;clear
+: 1485144910:0;s
+: 1485144912:0;a posts.js
+: 1485144913:0;clear
+: 1485144913:0;s
+: 1485144916:0;a ../ui
+: 1485144917:0;clear
+: 1485144917:0;s
+: 1485144931:0;npm run test
+: 1485144937:0;vim package.json
+: 1485144965:0;npm run test
+: 1485145023:0;vim posts.tests.js
+: 1485152655:0;meteor add mike:mocha
+: 1485152747:0;cat ../../.meteor/packages| grep mocha
+: 1485152757:0;meteor remove pracicalmeteor:mocha
+: 1485152766:0;meteor remove practicalmeteor:mocha
+: 1485152791:0;vim posts.tests.js
+: 1485153381:0;meteor add practicalmeteor:mocha
+: 1485153412:0;meteor remove mike:mocha
+: 1485153428:0;npm run test
+: 1485156069:0;vim posts.tests.js
+: 1485159747:0;npm run test
+: 1485159795:0;clear
+: 1485159795:0;s
+: 1485159800:0;cd ..
+: 1485159801:0;..
+: 1485159802:0;s
+: 1485159804:0;d .meteor
+: 1485159812:0;vim .meteor/packages
+: 1485159821:0;clear
+: 1485159822:0;s
+: 1485159826:0;d imports/api/posts.
+: 1485159828:0;d imports/api/posts.js
+: 1485159837:0;vim imports/api/posts.js
+: 1485159845:0;clear
+: 1485159846:0;s
+: 1485159849:0;clear
+: 1485159850:0;s
+: 1485159852:0;d package.json
+: 1485159861:0;vim package.json
+: 1485159884:0;d
+: 1485159889:0;vim package.json
+: 1485159894:0;clear
+: 1485159894:0;s
+: 1485159897:0;d package.json
+: 1485159911:0;vim package.json
+: 1485159914:0;d
+: 1485159977:0;s
+: 1485159979:0;a package.json
+: 1485159984:0;a imports/api/posts.tests.js
+: 1485159985:0;clear
+: 1485159985:0;s
+: 1485159990:0;clear
+: 1485159990:0;q
+: 1485159991:0;clear
+: 1485159992:0;s
+: 1485159992:0;D
+: 1485160022:0;meteor
+: 1485160060:0;meteor npm install --save moment
+: 1485160072:0;cd imports
+: 1485160073:0;clear
+: 1485160074:0;ls
+: 1485160075:0;cd startup
+: 1485160076:0;ls
+: 1485160078:0;vim accounts-config.js
+: 1485160144:0;s
+: 1485160145:0;clear
+: 1485160145:0;d
+: 1485160214:0;cd ..
+: 1485160215:0;ls
+: 1485160217:0;cd ui
+: 1485160218:0;vim body.
+: 1485160221:0;vim body.js
+: 1485160228:0;cd ..
+: 1485160229:0;..
+: 1485160231:0;cd client
+: 1485160231:0;ls
+: 1485160233:0;vim main.js
+: 1485160251:0;clear
+: 1485160252:0;s
+: 1485160270:0;vim main.js
+: 1485160278:0;clear
+: 1485160278:0;s
+: 1485160281:0;ls *
+: 1485160284:0;vim main.html
+: 1485160288:0;clear
+: 1485160289:0;cd ..
+: 1485160290:0;ls
+: 1485160291:0;cd imports
+: 1485160292:0;ls
+: 1485160294:0;cd api
+: 1485160294:0;ls
+: 1485160296:0;vim *
+: 1485160321:0;cd ..
+: 1485160322:0;clear
+: 1485160322:0;s
+: 1485160326:0;cd ui
+: 1485160326:0;clear
+: 1485160327:0;s
+: 1485160332:0;v *
+: 1485160357:0;clear
+: 1485160358:0;s
+: 1485160364:0;cd templates
+: 1485160365:0;clear
+: 1485160365:0;s
+: 1485160368:0;v *.js
+: 1485160400:0;clear
+: 1485160400:0;s
+: 1485160403:0;cd ..
+: 1485160404:0;cd pages
+: 1485160405:0;clear
+: 1485160405:0;s
+: 1485160408:0;clear
+: 1485160409:0;ls
+: 1485160412:0;v *.js
+: 1485160433:0;clear
+: 1485160433:0;s
+: 1485160437:0;cd ...
+: 1485160438:0;clear
+: 1485160438:0;s
+: 1485160439:0;..
+: 1485160440:0;clear
+: 1485160440:0;s
+: 1485160463:0;cat .meteor/packages | grep Acc
+: 1485160466:0;cat .meteor/packages
+: 1485160483:0;clear
+: 1485160483:0;s
+: 1485160532:0;vim imports/startup/accounts-config.js
+: 1485160685:0;clear
+: 1485160685:0;s
+: 1485160686:0;d
+: 1485160691:0;D
+: 1485160861:0;vim imports/startup/accounts-config.js
+: 1485160947:0;clear
+: 1485160947:0;s
+: 1485160953:0;npm run eslint
+: 1485160957:0;npm run lint
+: 1485160993:0;vim imports/api/posts.tests.js
+: 1485161013:0;clear
+: 1485161014:0;s
+: 1485161020:0;clear
+: 1485161020:0;s
+: 1485161022:0;d
+: 1485161035:0;vim imports/startup/router.js
+: 1485161045:0;clear
+: 1485161045:0;s
+: 1485161054:0;vim imports/ui/mainLayout.html
+: 1485161056:0;clear
+: 1485161057:0;s
+: 1485161083:0;v imports/ui/templates/*.js
+: 1485161199:0;vim imports/ui/body.js
+: 1485161331:0;:q
+: 1485161332:0;clear
+: 1485161332:0;s
+: 1485161335:0;vim imports/startup/accounts-config.js
+: 1485161360:0;clear
+: 1485161360:0;s
+: 1485161366:0;vim .meteor/packages
+: 1485161374:0;D .meteor/packages
+: 1485161389:0;d package.json
+: 1485161394:0;D package.json
+: 1485161408:0;cd imports/api
+: 1485161408:0;ls
+: 1485161413:0;mv posts.tests.js ~/
+: 1485161421:0;mv ~/posts.tests.js .
+: 1485161422:0;clear
+: 1485161422:0;s
+: 1485161476:0;cd ../ui
+: 1485161478:0;vim body.
+: 1485161480:0;vim body.js
+: 1485161488:0;cd ...
+: 1485161492:0;vim client/main.js
+: 1485161520:0;cat .meteor/packages
+: 1485161524:0;cat .meteor/packages | grep ald
+: 1485161534:0;meteor remove aldeed:template-extension
+: 1485161577:0;meteor add aldeed:template-extension
+: 1485161674:0;vim package.json
+: 1485161682:0;meteor test
+: 1485161692:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485161752:0;meteor run --settings settings.json
+: 1485161817:0;clear
+: 1485161817:0;s
+: 1485161830:0;git stash
+: 1485161851:0;s
+: 1485161855:0;git stash apply 
+: 1485161857:0;clear
+: 1485161857:0;s
+: 1485161861:0;d
+: 1485161883:0;git commit -m "TEMP"
+: 1485161884:0;s
+: 1485161885:0;a .
+: 1485161887:0;git commit -m "TEMP"
+: 1485161888:0;clear
+: 1485161889:0;s
+: 1485161891:0;git checkout master
+: 1485161921:0;git diff origin/master mocha_circle 
+: 1485162027:0;vim package.json
+: 1485162032:0;b mocha_circle
+: 1485162036:0;vim package.json
+: 1485162056:0;meteor
+: 1485162092:0;clear
+: 1485162093:0;s
+: 1485162103:0;d origin/master
+: 1485162132:0;v imports/startup/accounts-config.js
+: 1485162173:0;clear
+: 1485162173:0;s
+: 1485162176:0;a imports/startup
+: 1485162176:0;s
+: 1485162177:0;clear
+: 1485162178:0;s
+: 1485162186:0;git commit --amend 
+: 1485162188:0;clear
+: 1485162189:0;s
+: 1485162192:0;d origin/master
+: 1485162228:0;cat * | grep stub
+: 1485162234:0;grep -R "stub" /
+: 1485162237:0;grep -R "stub" .
+: 1485162244:0;cd imports
+: 1485162245:0;grep -R "stub" .
+: 1485162270:0;meteor remove hwillson:stub-collections
+: 1485162333:0;meteor add hwillson:stub-collections
+: 1485162361:0;clear
+: 1485162361:0;s
+: 1485162371:0;d
+: 1485162377:0;vim ../.meteor/p
+: 1485162379:0;vim ../.meteor/packages
+: 1485162390:0;s
+: 1485162390:0;d
+: 1485162395:0;vim ../.meteor/packages
+: 1485162400:0;clear
+: 1485162400:0;s
+: 1485162403:0;cd api
+: 1485162403:0;ls
+: 1485162410:0;vim posts.js
+: 1485162419:0;clear
+: 1485162422:0;npm run lint
+: 1485162463:0;vim posts.tests.js
+: 1485162662:0;cd ...
+: 1485162670:0;vim client/main.js server/main.js
+: 1485162978:0;vim package.json
+: 1485162995:0;clear
+: 1485163004:0;meteor
+: 1485163029:0;s
+: 1485163037:0;git stash
+: 1485163041:0;git checkout master
+: 1485163046:0;git branch circle
+: 1485163050:0;b circle
+: 1485163056:0;git rebase mocha_circle 
+: 1485163058:0;s
+: 1485163067:0;vim package.json
+: 1485163070:0;clear
+: 1485163070:0;s
+: 1485163087:0;b master
+: 1485163091:0;git branch -D circle 
+: 1485163093:0;b circle
+: 1485163104:0;git rebase mocha_circle --interactive 
+: 1485163123:0;b master
+: 1485163130:0;git pull
+: 1485163133:0;clear
+: 1485163134:0;s
+: 1485163146:0;b
+: 1485163147:0;s
+: 1485163149:0;clear
+: 1485163150:0;ls
+: 1485163152:0;git branch
+: 1485163158:0;git branch -D circle 
+: 1485163162:0;git branch
+: 1485163234:0;git checkout mocha_circle 
+: 1485163285:0;git diff HEAD^
+: 1485163298:0;vim .meteor/packages
+: 1485163308:0;clear
+: 1485163308:0;s
+: 1485163320:0;vim .meteor/packages
+: 1485163347:0;clear
+: 1485163347:0;s
+: 1485163355:0;b master
+: 1485163359:0;git branch
+: 1485163362:0;b circle
+: 1485163365:0;clear
+: 1485163365:0;s
+: 1485163371:0;vim npm-debug.log
+: 1485163376:0;rm npm-debug.log
+: 1485163376:0;.
+: 1485163391:0;git diff mocha_circle 
+: 1485163410:0;b mocha_circle
+: 1485163418:0;cp .meteor/packages ~/
+: 1485163425:0;cp .meteor/versions ~/
+: 1485163429:0;b circle
+: 1485163437:0;cp ~/packages .meteor
+: 1485163447:0;cp ~/versions .meteor
+: 1485163449:0;clear
+: 1485163449:0;s
+: 1485163450:0;d
+: 1485163489:0;b mocha_circle
+: 1485163492:0;clear
+: 1485163492:0;s
+: 1485163494:0;git stash
+: 1485163496:0;b mocha_circle
+: 1485163497:0;s
+: 1485163498:0;d
+: 1485163504:0;d origin/master
+: 1485163517:0;cp imports/api ~/
+: 1485163521:0;b circle
+: 1485163524:0;git stash apply 
+: 1485163527:0;s
+: 1485163540:0;cp ~/api .
+: 1485163543:0;ls
+: 1485163547:0;mv api imports
+: 1485163557:0;mv api/* imports/api
+: 1485163559:0;s
+: 1485163561:0;ls api
+: 1485163562:0;rm api
+: 1485163563:0;clear
+: 1485163564:0;s
+: 1485163577:0;cd imports
+: 1485163577:0;ls
+: 1485163579:0;cd api
+: 1485163580:0;s
+: 1485163581:0;d
+: 1485163592:0;rm posts.tests.js
+: 1485163596:0;meteor
+: 1485163618:0;clear
+: 1485163618:0;s
+: 1485163620:0;vim apis.js
+: 1485163626:0;ls
+: 1485163627:0;vim feedback.js
+: 1485163631:0;clear
+: 1485163632:0;s
+: 1485163641:0;vim apis.js
+: 1485163649:0;clear
+: 1485163650:0;s
+: 1485163655:0;a ../../.meteor
+: 1485163657:0;a apis.js
+: 1485163658:0;clear
+: 1485163658:0;s
+: 1485163660:0;d posts.js
+: 1485163678:0;vim posts.js
+: 1485163681:0;d posts.js
+: 1485163727:0;:q
+: 1485163729:0;q
+: 1485163733:0;git stash
+: 1485163733:0;clear
+: 1485163734:0;s
+: 1485163736:0;b mocha_circle
+: 1485163737:0;clear
+: 1485163737:0;s
+: 1485163741:0;vim posts.js
+: 1485163777:0;clear
+: 1485163777:0;s
+: 1485163785:0;vim apis.js
+: 1485163787:0;cd ..
+: 1485163788:0;cd startup
+: 1485163789:0;ls
+: 1485163790:0;vim accounts-config.js
+: 1485163819:0;clear
+: 1485163819:0;s
+: 1485163840:0;vim accounts-config.js
+: 1485163847:0;b circle
+: 1485163851:0;git stash apply 
+: 1485163853:0;clear
+: 1485163853:0;s
+: 1485163862:0;clear
+: 1485163863:0;d
+: 1485163897:0;clear
+: 1485163915:0;..
+: 1485163921:0;grep -R "find" .
+: 1485163937:0;cd ui/pages/index.js
+: 1485163939:0;vim ui/pages/index.js
+: 1485163967:0;cd ui/pages/
+: 1485163970:0;vim index.js
+: 1485164063:0;clear
+: 1485164063:0;s
+: 1485164066:0;git stash
+: 1485164070:0;b mocha_circle
+: 1485164076:0;vim ../../api/posts.js
+: 1485164086:0;clear
+: 1485164086:0;s
+: 1485164087:0;d
+: 1485164095:0;...
+: 1485164100:0;grep -R "export" .
+: 1485164150:0;..
+: 1485164152:0;vim package.json
+: 1485164211:0;clear
+: 1485164211:0;s
+: 1485164212:0;d
+: 1485164213:0;D
+: 1485164218:0;git diff origin/master mocha_circle 
+: 1485164230:0;vim .meteor/versions
+: 1485164299:0;clear
+: 1485164299:0;s
+: 1485164300:0;d
+: 1485164312:0;git diff origin/master mocha_circle 
+: 1485164323:0;cd ...
+: 1485164326:0;cd Jarvis
+: 1485164327:0;cd site
+: 1485164331:0;cd ..
+: 1485164338:0;cp site ../JSite
+: 1485164361:0;ls ../JSite
+: 1485164363:0;ls ../JSite/*
+: 1485164371:0;mkdir ../JSite
+: 1485164375:0;cp site ../JSite
+: 1485164385:0;cp -r site ../JSite
+: 1485164391:0;sudo cp -r site ../JSite
+: 1485164435:0;s
+: 1485164436:0;d
+: 1485164439:0;git stash
+: 1485164440:0;clear
+: 1485164440:0;s
+: 1485164451:0;git branch -D circle 
+: 1485164454:0;b master
+: 1485164460:0;b circle
+: 1485164465:0;clear
+: 1485164466:0;s
+: 1485164467:0;d
+: 1485164469:0;cd site
+: 1485164470:0;clear
+: 1485164470:0;s
+: 1485164475:0;ls ../../JSite
+: 1485164477:0;ls ../../JSite/site
+: 1485164508:0;rm ../../JSite/site/node_modules
+: 1485164515:0;sudo rm ../../JSite/site/node_modules
+: 1485164519:0;sudo rm -r ../../JSite/site/node_modules
+: 1485164522:0;clear
+: 1485164530:0;rm ../../JSite/site/public
+: 1485164552:0;sudo rm ../../JSite/site/public
+: 1485164559:0;sudo rm -r ../../JSite/site/public
+: 1485164560:0;clear
+: 1485164560:0;s
+: 1485164563:0;ls ../../JSite/site
+: 1485164566:0;ls ../../JSite/site/client
+: 1485164573:0;cat ../../JSite/site/client/main.html
+: 1485164576:0;cat ../../JSite/site/client/main.js
+: 1485164581:0;rm ../../JSite/site/client
+: 1485164591:0;chown ../../JSite
+: 1485164598:0;cd ...
+: 1485164600:0;cd JSite
+: 1485164601:0;s
+: 1485164602:0;ls -la
+: 1485164606:0;cd site
+: 1485164608:0;ls -la
+: 1485164612:0;chown *
+: 1485164622:0;chown Cypher:staff *
+: 1485164624:0;sudo chown Cypher:staff *
+: 1485164626:0;clear
+: 1485164627:0;ls -la
+: 1485164629:0;cd ..
+: 1485164633:0;cd ../Jarvis
+: 1485164634:0;cd site
+: 1485164635:0;clear
+: 1485164635:0;s
+: 1485164639:0;ls ../../JSite/site/client
+: 1485164648:0;cat ../../JSite/site/client/*
+: 1485164654:0;rm ../../JSite/site/client/*
+: 1485164660:0;cat ../../JSite/site/client/*
+: 1485164661:0;rm ../../JSite/site/client/*
+: 1485164668:0;cat ../../JSite/site/client/*
+: 1485164670:0;clear
+: 1485164670:0;s
+: 1485164674:0;vim client/main.js server/main.js
+: 1485164678:0;clear
+: 1485164678:0;s
+: 1485164699:0;rm ../../JSite/site/client
+: 1485164707:0;clear
+: 1485164707:0;ls
+: 1485164726:0;diff ../../JSite/site/server/main.js server/main.js
+: 1485164733:0;rm ../../JSite/site/server/main.js
+: 1485164740:0;rm ../../JSite/site/server
+: 1485164742:0;clear
+: 1485164753:0;diff ../../JSite/site/settings.json settings.json
+: 1485164762:0;rm ../../JSite/site/settings.json
+: 1485164774:0;diff ../../JSite/site/package.json package.json
+: 1485164787:0;diff ../../JSite/site/imports imports
+: 1485164795:0;diff ../../JSite/site/imports/api imports/api
+: 1485164797:0;clear
+: 1485164797:0;s
+: 1485164819:0;cp ../../JSite/site/imports/api/posts.js imports/api/posts.js
+: 1485164827:0;s
+: 1485164830:0;a imports/api/posts.js
+: 1485164831:0;clear
+: 1485164831:0;s
+: 1485164844:0;cp ../../JSite/site/imports/api/posts.tests.js imports/api/posts.tests.js
+: 1485164852:0;a imports/api
+: 1485164853:0;clear
+: 1485164854:0;s
+: 1485164866:0;m "Did some work on posts and added basic tests"
+: 1485164867:0;clear
+: 1485164868:0;s
+: 1485164881:0;diff ../../JSite/site/imports/api imports/api
+: 1485164891:0;cd imports/api
+: 1485164893:0;vim apis.js
+: 1485164904:0;clear
+: 1485164904:0;s
+: 1485164906:0;a apis.js
+: 1485164918:0;m "Removing redundant .js"
+: 1485164919:0;clear
+: 1485164919:0;s
+: 1485164922:0;diff ../../JSite/site/imports/api imports/api
+: 1485164927:0;diff ../../JSite/site/imports imports
+: 1485164933:0;cd ..
+: 1485164933:0;..
+: 1485164935:0;diff ../../JSite/site/imports imports
+: 1485164940:0;diff ../../JSite/site/imports/api imports/api
+: 1485164949:0;rm ../../JSite/site/imports/api
+: 1485164957:0;sudo rm ../../JSite/site/imports/api
+: 1485164963:0;sudo rm -r ../../JSite/site/imports/api
+: 1485164965:0;clear
+: 1485164967:0;diff ../../JSite/site/imports/api imports/api
+: 1485164971:0;diff ../../JSite/site/imports imports
+: 1485164980:0;diff ../../JSite/site/imports/startup imports/startup
+: 1485165004:0;meteor test
+: 1485165011:0;npm run test
+: 1485165029:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485165083:0;meteor add practicalmeteor:chai
+: 1485165126:0;meteor add hwillson:stub-collections
+: 1485165180:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485165188:0;s
+: 1485165189:0;d
+: 1485165193:0;clear
+: 1485165194:0;s
+: 1485165208:0;diff ../../JSite/site/.meteor .meteor
+: 1485165228:0;clear
+: 1485165228:0;ls
+: 1485165232:0;vim imports/api/posts.tests.js
+: 1485165289:0;clear
+: 1485165290:0;s
+: 1485165295:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485165478:0;meteor
+: 1485165554:0;clear
+: 1485165554:0;s
+: 1485165563:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485165610:0;vim imports/api/posts.tests.js
+: 1485165632:0;clear
+: 1485165632:0;s
+: 1485165635:0;cd .meteor
+: 1485165637:0;vim packages
+: 1485165641:0;clear
+: 1485165667:0;d
+: 1485165678:0;cd ..
+: 1485165679:0;cd imports
+: 1485165682:0;vim api/posts.js
+: 1485165687:0;vim api/posts.
+: 1485165690:0;cd api
+: 1485165690:0;ls
+: 1485165693:0;vim posts.tests.js
+: 1485165813:0;meteor update
+: 1485166061:0;s
+: 1485166071:0;meteor update --all-packages
+: 1485166117:0;meteor update
+: 1485166141:0;meteor update coffeescript
+: 1485166175:0;meteor
+: 1485166279:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485166345:0;cd ../../.meteor
+: 1485166346:0;clear
+: 1485166347:0;ls
+: 1485166350:0;ls packages
+: 1485166355:0;ls local
+: 1485166360:0;cd local
+: 1485166361:0;clear
+: 1485166362:0;ls
+: 1485166367:0;cd dev_bundle
+: 1485166368:0;ls
+: 1485166371:0;cd ...
+: 1485166373:0;..
+: 1485166374:0;clear
+: 1485166376:0;meteor -h
+: 1485166450:0;cd imports/api
+: 1485166455:0;vim posts.tests.js
+: 1485166577:0;cd ...
+: 1485166582:0;mv ~/.meteor ~/.meteor.bak
+: 1485166613:0;cd .meteor
+: 1485166613:0;ls
+: 1485166618:0;cat packages
+: 1485166620:0;cd ..
+: 1485166621:0;ls
+: 1485166643:0;curl https://install.meteor.com | sh
+: 1485166700:0;meteor
+: 1485166781:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485166854:0;vim posts.tests.js
+: 1485166862:0;cd imports/api
+: 1485166865:0;vim posts.tests.js
+: 1485166952:0;meteor add practicalmeteor:chai
+: 1485166968:0;meteor remove practicalmeteor:chai
+: 1485167014:0;meteor add practicalmeteor:chai
+: 1485167066:0;reboot
+: 1485659780:0;vim
+: 1485659820:0;ls
+: 1485659824:0;vim
+: 1485659829:0;ls
+: 1485659830:0;vim
+: 1485659835:0;ls
+: 1485659838:0;vim
+: 1485659860:0;q
+: 1485660497:0;clear
+: 1485660497:0;s
+: 1485660528:0;clear
+: 1485660529:0;s
+: 1485660532:0;vim posts.tests.js
+: 1485662392:0;clear
+: 1485662395:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485669338:0;meteor update practicalmeteor:chai
+: 1485669828:0;meteor npm install mocha
+: 1485669837:0;s
+: 1485669838:0;clear
+: 1485669838:0;s
+: 1485669843:0;cd ...
+: 1485669844:0;.
+: 1485669844:0;s
+: 1485669845:0;clear
+: 1485669846:0;s
+: 1485669846:0;d
+: 1485669867:0;mocha
+: 1485670094:0;meteor test --driver-package=practicalmeteor:mocha
+: 1485670572:0;vim posts.tests.js
+: 1485670577:0;cd imports/api
+: 1485670579:0;vim posts.tests.js
+: 1485671675:0;meteor add dispatch:mocha-browser
+: 1485671684:0;vim posts.tests.js
+: 1485671730:0;s
+: 1485671732:0;clear
+: 1485671814:0;meteor test --driver-package=dispatch:mocha-browser
+: 1485672238:0;SERVER_TEST_REPORTER="dot" 
+: 1485672240:0;meteor test --driver-package=dispatch:mocha-browser
+: 1485672321:0;q
+: 1485672336:0;cd ..
+: 1485672342:0;ls
+: 1485672343:0;clear
+: 1485672343:0;ls
+: 1485672347:0;rm npm-debug.log
+: 1485672347:0;.
+: 1485672353:0;cd imports
+: 1485672353:0;ls
+: 1485672357:0;cd startup
+: 1485672358:0;ls
+: 1485672359:0;cd ...
+: 1485672361:0;cd client
+: 1485672362:0;ls
+: 1485672367:0;main.test.js
+: 1485672388:0;clear
+: 1485672388:0;s
+: 1485672411:0;clear
+: 1485672411:0;s
+: 1485672414:0;a main.test.js
+: 1485672417:0;a ../public/mocha.css
+: 1485672418:0;clear
+: 1485672418:0;s
+: 1485672424:0;cd ..
+: 1485672425:0;clear
+: 1485672425:0;s
+: 1485672428:0;a .meteor
+: 1485672429:0;clear
+: 1485672429:0;s
+: 1485672433:0;a imports/api/posts.tests.js
+: 1485672434:0;clear
+: 1485672434:0;s
+: 1485672461:0;SERVER_TEST_REPORTER="dot" meteor test --driver-package dispatch:mocha-browser
+: 1485672511:0;meteor test --driver-package dispatch:mocha-browser
+: 1485672579:0;s
+: 1485672593:0;m "Added basic testing using dispatch/mocha-browser"
+: 1485672595:0;clear
+: 1485672595:0;s
+: 1485672596:0;p
+: 1485672608:0;git push --set-upstream origin circle_post_tests
+: 1485672614:0;git push --set-upstream origin circle
+: 1485672696:0;cd ..
+: 1485672697:0;clear
+: 1485672697:0;s
+: 1485672702:0;vim circle.yml
+: 1485672837:0;clear
+: 1485672837:0;s
+: 1485672838:0;a circle.yml
+: 1485672845:0;m "Added settings"
+: 1485672852:0;cat circle.yml
+: 1485672860:0;meteor add dispatch:mocha
+: 1485672864:0;ls
+: 1485672866:0;cd site
+: 1485672868:0;meteor add dispatch:mocha
+: 1485672895:0;s
+: 1485672898:0;git add .meteor
+: 1485672899:0;clear
+: 1485672899:0;s
+: 1485672902:0;git commit --amend 
+: 1485672929:0;clear
+: 1485672930:0;p
+: 1485672938:0;vim client
+: 1485672943:0;vim ../circle.yml
+: 1485672955:0;clear
+: 1485672956:0;s
+: 1485672960:0;a ../circle.yml
+: 1485673005:0;s
+: 1485673093:0;vim ../circle.yml
+: 1485673119:0;clear
+: 1485673119:0;s
+: 1485673122:0;a ../circle.yml
+: 1485673123:0;s
+: 1485673139:0;m "Added meteor as a pretest installation"
+: 1485673140:0;clear
+: 1485673140:0;p
+: 1485673174:0;vim ../circle.yml
+: 1485673490:0;clear
+: 1485673490:0;s
+: 1485673492:0;a ../circle.yml
+: 1485673616:0;d
+: 1485673618:0;D
+: 1485673624:0;a ../circle.yml
+: 1485673626:0;s
+: 1485673647:0;vim ../circle.yml
+: 1485673664:0;m "Turned off 'watch' and added node requirement"
+: 1485673664:0;p
+: 1485673720:0;vim ../circle.yml
+: 1485673727:0;clear
+: 1485673727:0;s
+: 1485673728:0;a ../circle.yml
+: 1485673733:0;m "Fixed indentation"
+: 1485673735:0;p
+: 1485673862:0;node
+: 1485673866:0;node --version
+: 1485673868:0;vim ../circle.yml
+: 1485673883:0;clear
+: 1485673883:0;s
+: 1485673884:0;a ../circle.yml
+: 1485674014:0;meteor add tozd:meteor-test-runner
+: 1485674050:0;clear
+: 1485674069:0;s
+: 1485674070:0;d
+: 1485674071:0;D
+: 1485674073:0;p
+: 1485674076:0;d
+: 1485674077:0;D
+: 1485674081:0;clear
+: 1485674083:0;s
+: 1485674086:0;git status
+: 1485674096:0;m "Corrected node version"
+: 1485674097:0;p
+: 1485674145:0;meteor add dispatch:mocha-phantomjs
+: 1485674180:0;s
+: 1485674184:0;vim .meteor/packages
+: 1485674190:0;clear
+: 1485674193:0;vim .meteor/versions
+: 1485674201:0;clear
+: 1485674201:0;s
+: 1485674203:0;d
+: 1485674206:0;a .meteor
+: 1485674221:0;vim ../circle.yml
+: 1485674232:0;s
+: 1485674235:0;a ../circle.yml
+: 1485674242:0;s
+: 1485674253:0;m "Switched to phantomjs mocha"
+: 1485674254:0;clear
+: 1485674254:0;s
+: 1485674255:0;p
+: 1485674281:0;meteor test --once --driver-package dispatch:mocha-phantomjs
+: 1485674288:0;meteor test --once --driver-package dispatch:mocha-phantomjs
+: 1485674688:0;vim ../circle.yml
+: 1485674921:0;d
+: 1485674927:0;stash
+: 1485674929:0;git stash
+: 1485674929:0;clear
+: 1485674930:0;s
+: 1485674932:0;git status
+: 1485674934:0;git log
+: 1485674939:0;git log | head
+: 1485674948:0;git revert
+: 1485674959:0;git revert --m
+: 1485674963:0;git revert --m 1
+: 1485674977:0;git reset HEAD
+: 1485674978:0;s
+: 1485674982:0;git log
+: 1485674987:0;git reset HEAD^
+: 1485674988:0;s
+: 1485674990:0;d
+: 1485674997:0;git stash
+: 1485674998:0;s
+: 1485675000:0;git log
+: 1485675005:0;git push
+: 1485675013:0;git status
+: 1485675019:0;git diff origin/circle 
+: 1485675032:0;git push --force
+: 1485675037:0;clear
+: 1485675105:0;meteor test --once --driver-package dispatch:mocha-browser
+: 1485676324:0;ls .meteor/packages| grep "meteor"
+: 1485676328:0;ls .meteor/packages| grep "mocha"
+: 1485676343:0;cat .meteor/packages | grep mocha
+: 1485676605:0;clear
+: 1485676606:0;s
+: 1485676606:0;q
+: 1485676608:0;clear
+: 1485676609:0;s
+: 1485676609:0;q
+: 1485676672:0;s
+: 1485676674:0;.
+: 1485676674:0;d
+: 1485676677:0;clear
+: 1485676678:0;s
+: 1485676684:0;b mocha_circle
+: 1485676685:0;s
+: 1485676691:0;git diff circle 
+: 1485676729:0;clear
+: 1485676729:0;s
+: 1485676735:0;cd public
+: 1485676736:0;.
+: 1485676736:0;s
+: 1485676747:0;b master
+: 1485676752:0;clear
+: 1485676785:0;git branch -D mocha_circle origin/betterFeedback origin/makeEslintHappy 
+: 1485676787:0;arc lint
+: 1485676789:0;clear
+: 1485676794:0;npm run lint
+: 1485676819:0;git pull
+: 1485676832:0;clear
+: 1485676836:0;npm run lint --silent
+: 1485676879:0;cd ../imports/api
+: 1485676881:0;vim posts.js
+: 1485676937:0;meteor
+: 1485677032:0;clear && npm run lint --silent
+: 1485677452:0;cd ..
+: 1485677466:0;when-changed * 'clear && npm run lint --silent'
+: 1485677485:0;when-changed ** 'clear && npm run lint --silent'
+: 1485677500:0;when-changed imports/api/posts.js 'clear && npm run lint --silent'
+: 1485677573:0;when-changed imports/api/posts.js "clear && npm run lint --silent"
+: 1485677992:0;clear
+: 1485677992:0;s
+: 1485678000:0;vim posts.js
+: 1485678100:0;when-changed imports/api/posts.js "clear && npm run lint --silent"
+: 1485678110:0;clear
+: 1485678114:0;clear && npm run test --silent
+: 1485678132:0;.
+: 1485678139:0;cd ../io
+: 1485678141:0;cd ../ui
+: 1485678145:0;cd pages
+: 1485678147:0;vim index.js
+: 1485678163:0;vim package.json
+: 1485678170:0;clear && npm run test --silent
+: 1485678189:0;vim ../templates/navButton.js
+: 1485678203:0;clear && npm run test --silent
+: 1485678227:0;clear
+: 1485678227:0;s
+: 1485678236:0;vim ../templates/navButton.js
+: 1485678264:0;clear
+: 1485678265:0;s
+: 1485678287:0;vim ../templates/pwdFormBtn.js
+: 1485678349:0;clear && npm run test --silent
+: 1485678451:0;clear
+: 1485678451:0;s
+: 1485678456:0;cd ../templates
+: 1485678460:0;vim submitForm.js
+: 1485678482:0;clear && npm run test --silent
+: 1485678570:0;clear
+: 1485678570:0;s
+: 1485678573:0;a .
+: 1485678574:0;s
+: 1485678577:0;a ../../
+: 1485678578:0;s
+: 1485678579:0;clear
+: 1485678580:0;s
+: 1485678581:0;.
+: 1485678587:0;clear
+: 1485678594:0;cd ..
+: 1485678600:0;cd ../api
+: 1485678605:0;cd ../startup
+: 1485678607:0;vim accounts-config.js
+: 1485678766:0;clear
+: 1485678767:0;s
+: 1485678768:0;d
+: 1485678774:0;clear && npm run test --silent
+: 1485678803:0;meteor add danimal:accounts-templates
+: 1485678829:0;vim accounts-config.js
+: 1485678860:0;clear && npm run test --silent
+: 1485678968:0;meteor remove danimal:accounts-templates
+: 1485679101:0;clear && npm run test --silent
+: 1485679142:0;clear
+: 1485679142:0;s
+: 1485679143:0;vim router.js
+: 1485679170:0;clear
+: 1485679170:0;s
+: 1485679172:0;a .
+: 1485679173:0;clear
+: 1485679173:0;s
+: 1485679176:0;clear && npm run test --silent
+: 1485679221:0;cd ../ui/
+: 1485679222:0;vim body.
+: 1485679226:0;vim body.js
+: 1485679342:0;clear && npm run test --silent
+: 1485679400:0;clear
+: 1485679400:0;s
+: 1485679406:0;cd ../startup
+: 1485679408:0;vim accounts-config.js
+: 1485679462:0;meteor add danimal:accounts-templates
+: 1485679565:0;ls
+: 1485679568:0;cd packages
+: 1485679572:0;mk packages
+: 1485679573:0;https://github.com/dan335/meteor-accounts-templates
+: 1485679577:0;github.com/dan335/meteor-accounts-templates
+: 1485679582:0;zrc
+: 1485679596:0;github.com/dan335/meteor-accounts-templates.git
+: 1485679602:0;git clone github.com/dan335/meteor-accounts-templates.git
+: 1485679604:0;git clone github.com/dan335/meteor-accounts-templates
+: 1485679610:0;git clone https://github.com/dan335/meteor-accounts-templates
+: 1485679613:0;clear
+: 1485679614:0;s
+: 1485679637:0;meteor npm install --save danimal:accounts-templates
+: 1485679651:0;clear
+: 1485679651:0;s
+: 1485679652:0;ls
+: 1485679653:0;clear
+: 1485679654:0;ls
+: 1485679655:0;cd meteor-accounts-templates
+: 1485679656:0;ls
+: 1485679657:0;cd ..
+: 1485679659:0;rm npm-debug.log
+: 1485679660:0;clear
+: 1485679660:0;ls
+: 1485679697:0;s
+: 1485679899:0;clear
+: 1485679908:0;cat .meteor/packages | grep AccountsTemplates
+: 1485679913:0;cat .meteor/packages | grep template
+: 1485679919:0;cd ...
+: 1485679922:0;cat .meteor/packages | grep template
+: 1485679929:0;cd site
+: 1485679931:0;cat .meteor/packages | grep template
+: 1485679937:0;s
+: 1485679939:0;d
+: 1485679947:0;meteor remove danimal:accounts-templates
+: 1485679963:0;clear
+: 1485679964:0;s
+: 1485679993:0;ls packages
+: 1485679996:0;rm packages
+: 1485680006:0;clear
+: 1485680009:0;rm -rf package
+: 1485680010:0;s
+: 1485680014:0;rm -rf packages
+: 1485680015:0;clear
+: 1485680015:0;s
+: 1485680019:0;a imports/ui/body.js
+: 1485680020:0;clear
+: 1485680020:0;s
+: 1485680026:0;clear
+: 1485680132:0;clear && npm run test --silent
+: 1485680285:0;cd ..
+: 1485680287:0;..
+: 1485680292:0;grep -R "import" .
+: 1485680294:0;clear
+: 1485680295:0;cd imports
+: 1485680298:0;grep -R "import" .
+: 1485680311:0;clear
+: 1485680312:0;s
+: 1485680315:0;vim startup/accounts-config.js
+: 1485680321:0;clear
+: 1485680380:0;s
+: 1485680383:0;vim startup/accounts-config.js
+: 1485680410:0;vim .meteor
+: 1485680600:0;vim startup/router.js
+: 1485680612:0;vim startup/router.js startup/accounts-config.js
+: 1485680637:0;clear
+: 1485680638:0;s
+: 1485680643:0;clear
+: 1485680643:0;s
+: 1485680648:0;clear && npm run test --silent
+: 1485680697:0;clear
+: 1485680697:0;s
+: 1485680698:0;a startup
+: 1485680699:0;.
+: 1485680700:0;s
+: 1485680702:0;clear && npm run test --silent
+: 1485680737:0;vim ui/body.js
+: 1485680744:0;clear
+: 1485680745:0;s
+: 1485680745:0;b
+: 1485680747:0;clear
+: 1485680756:0;s
+: 1485680757:0;d
+: 1485680761:0;clear && npm run test --silent
+: 1485680803:0;meteor add underscore
+: 1485680827:0;vim imports/ui/templates/pwdFormBtn.js
+: 1485681031:0;d
+: 1485681068:0;clear
+: 1485681072:0;clear && npm run test --silent
+: 1485681097:0;s
+: 1485681102:0;d ../.meteor/packages
+: 1485681112:0;cat ../.meteor/packages
+: 1485681118:0;cat ../.meteor/packages | grep user
+: 1485681131:0;vim startup/router.js startup/accounts-config.js
+: 1485681144:0;cat .meteor/packages | grep user
+: 1485681212:0;clear && npm run test --silent
+: 1485681299:0;grep -R "find"
+: 1485681303:0;grep -R "find" .
+: 1485681306:0;cd imports
+: 1485681307:0;grep -R "find" .
+: 1485681317:0;clear
+: 1485681317:0;s
+: 1485681320:0;cd api
+: 1485681321:0;clear
+: 1485681321:0;s
+: 1485681327:0;vim feedback.js posts.js
+: 1485681353:0;grep -R "find" .
+: 1485681354:0;clear
+: 1485681358:0;clear && npm run test --silent
+: 1485681384:0;grep -R "find" .
+: 1485681388:0;clear
+: 1485681388:0;s
+: 1485681390:0;a .
+: 1485681391:0;s
+: 1485681392:0;cd ..
+: 1485681393:0;s
+: 1485681395:0;a .
+: 1485681396:0;clear
+: 1485681396:0;s
+: 1485681416:0;cd ui/pages
+: 1485681420:0;vim index.js
+: 1485681435:0;clear
+: 1485681435:0;s
+: 1485681657:0;clear && npm run test --silent
+: 1485681685:0;meteor test --once --driver-package dispatch:mocha-browser --port 3001
+: 1485681725:0;meteor test --once --driver-package dispatch:mocha-browser --port 3002
+: 1485681734:0;clear
+: 1485681734:0;s
+: 1485681739:0;cd ../../../
+: 1485681745:0;vim .meteor/packages
+: 1485681752:0;clear
+: 1485681752:0;s
+: 1485681772:0;cat .meteor/packages | grep mocha
+: 1485681776:0;cd ..
+: 1485681777:0;cat .meteor/packages | grep mocha
+: 1485681781:0;clear
+: 1485681781:0;s
+: 1485681783:0;d
+: 1485681788:0;a .meteor/packages
+: 1485681789:0;clear
+: 1485681789:0;s
+: 1485681796:0;git status
+: 1485681799:0;git stash
+: 1485681800:0;clear
+: 1485681801:0;ls
+: 1485681809:0;b cleanup_1
+: 1485681811:0;s
+: 1485681815:0;git stash apply 
+: 1485681817:0;s
+: 1485681843:0;m "Clean up import issues and missing packages"
+: 1485681845:0;a .
+: 1485681846:0;s
+: 1485681848:0;m "Clean up import issues and missing packages"
+: 1485681850:0;p
+: 1485681870:0;git push --set-upstream origin cleanup_1
+: 1485681907:0;clear
+: 1485681908:0;s
+: 1485681912:0;clear
+: 1485681912:0;s
+: 1485681912:0;q
+: 1485681914:0;clear
+: 1485681914:0;s
+: 1485681915:0;q
+: 1485681916:0;clear
+: 1485681917:0;s
+: 1485681917:0;q
+: 1485724751:0;s
+: 1485724754:0;meteor
+: 1485724764:0;s
+: 1485724775:0;b search_basics
+: 1485724776:0;clear
+: 1485724776:0;s
+: 1485725167:0;b ab_filtering
+: 1485725172:0;.
+: 1485725179:0;clear
+: 1485725179:0;ls
+: 1485725181:0;cd imports
+: 1485725181:0;ls
+: 1485725201:0;vim api/apis.js api/ab_filters.js api/feedback.js
+: 1485852606:0;s
+: 1485852610:0;git stash
+: 1485852612:0;s
+: 1485852615:0;git unstash
+: 1485852622:0;git stash apply
+: 1485852624:0;clear
+: 1485852624:0;s
+: 1485852629:0;git add api/ab_filters.js
+: 1485852629:0;.
+: 1485852630:0;s
+: 1485852633:0;a api/apis.js
+: 1485852634:0;clear
+: 1485852634:0;s
+: 1485852637:0;git stash
+: 1485852640:0;b circle
+: 1485852654:0;npm run test
+: 1485852672:0;meteor test --once --driver-package dispatch:mocha-browser --port 3002
+: 1485852762:0;git pull
+: 1485852788:0;git log
+: 1485852799:0;clear
+: 1485852799:0;s
+: 1485852804:0;meteor test --once --driver-package dispatch:mocha-browser --port 3002
+: 1485852851:0;vim api/posts.tests.js
+: 1485853047:0;meteor test --once --driver-package dispatch:mocha-browser --port 3002
+: 1485853277:0;meteor test --driver-package dispatch:mocha-browser --port 3002
+: 1485853356:0;clear
+: 1485853356:0;s
+: 1485853357:0;d
+: 1485853363:0;vim api/posts.tests.js
+: 1485853377:0;d
+: 1485853380:0;a api
+: 1485853382:0;s
+: 1485853398:0;npm run lint
+: 1485853401:0;npm run lint --silent
+: 1485853428:0;vim api/posts.tests.js
+: 1485853438:0;clear
+: 1485853438:0;s
+: 1485853442:0;a api
+: 1485853457:0;when-changed imports/api/* "clear && npm run lint --silent"
+: 1485853464:0;when-changed api/* "clear && npm run lint --silent"
+: 1485853471:0;vim api/posts.tests.js
+: 1485853510:0;clear && npm run lint --silent
+: 1485853612:0;clear
+: 1485853612:0;s
+: 1485853613:0;d
+: 1485853622:0;vim api/posts.tests.js
+: 1485853647:0;clear
+: 1485853648:0;s
+: 1485853657:0;git log
+: 1485853665:0;m "Changed import method"
+: 1485853666:0;p
+: 1485937667:0;b master
+: 1485937670:0;P
+: 1485937727:0;s
+: 1485937730:0;git pull
+: 1485937755:0;clear && npm run lint --silent
+: 1486324409:0;meteor
+: 1486326484:0;git pull comment
+: 1486326485:0;git pull comments
+: 1486326490:0;git pull origin/comments
+: 1486326496:0;git fetch
+: 1486326503:0;git checkout comments
+: 1486326589:0;s
+: 1486326591:0;d
+: 1486326596:0;cd api
+: 1486326597:0;s
+: 1486326599:0;vim posts.js
+: 1486326640:0;vim ../ui/pages/index.js
+: 1486326876:0;clear
+: 1486326876:0;s
+: 1486326887:0;vim ../api/comments.js apis.js
+: 1486327162:0;meteor mongo
+: 1486327250:0;q
+: 1486327287:0;meteor mongo
+: 1486327300:0;q
+: 1486327417:0;clear
+: 1486327417:0;s
+: 1486327418:0;d
+: 1486327434:0;git stash
+: 1486327438:0;git checkout master
+: 1486327442:0;git stash apply
+: 1486327443:0;s
+: 1486327445:0;vim apis.js
+: 1486327453:0;clear
+: 1486327453:0;s
+: 1486327454:0;d
+: 1486327460:0;clear
+: 1486327461:0;a apis.js
+: 1486327466:0;D apis.js
+: 1486327468:0;clear
+: 1486327468:0;s
+: 1486327467:0;d ../../.meteor/versions
+: 1486327482:0;git checkout ../../.meteor/versions
+: 1486327483:0;s
+: 1486327486:0;d posts.js
+: 1486327494:0;vim posts.js
+: 1486327504:0;clear
+: 1486327505:0;s
+: 1486327514:0;d ../../.meteor/versions
+: 1486327528:0;clear
+: 1486327528:0;s
+: 1486327533:0;d ../ui/pages/index.
+: 1486327535:0;d ../ui/pages/index.js
+: 1486327543:0;vim ../ui/pages/index.js
+: 1486327562:0;git diff
+: 1486327565:0;git status
+: 1486327576:0;d ../ui/pages/index.js
+: 1486327583:0;clear
+: 1486327583:0;s
+: 1486327591:0;git stash
+: 1486327592:0;d
+: 1486327594:0;clear
+: 1486327594:0;s
+: 1486327611:0;clear
+: 1486327611:0;s
+: 1486327616:0;vim posts.js
+: 1486327636:0;clear
+: 1486327636:0;s
+: 1486327637:0;d
+: 1486327646:0;a posts.js ../ui
+: 1486327647:0;s
+: 1486327658:0;m "Fixed a bug with new es6 style"
+: 1486327662:0;npm run lint --silent
+: 1486327666:0;q
+: 1486327853:0;vim ../../package.json
+: 1486327899:0;vim posts.js
+: 1486327911:0;npm run lint --silent
+: 1486327943:0;clear
+: 1486327944:0;npm run lint --silent
+: 1486328048:0;clear
+: 1486328048:0;q
+: 1486328054:0;npm run lint --silent
+: 1486328084:0;clear
+: 1486328085:0;npm run lint --silent
+: 1486328310:0;cd ...
+: 1486328312:0;ls
+: 1486328313:0;ls node_modules
+: 1486328322:0;ls node_modules/eslint/package.json
+: 1486328324:0;cat node_modules/eslint/package.json
+: 1486328336:0;npm update
+: 1486328364:0;npm run lint --silent
+: 1486328378:0;clear
+: 1486328378:0;s
+: 1486328379:0;d
+: 1486328382:0;clear
+: 1486328382:0;s
+: 1486328386:0;vim package.json
+: 1486328400:0;clear
+: 1486328401:0;d
+: 1486328549:0;meteor npm install --save bcrypt
+: 1486328563:0;npm run lint --silent
+: 1486328657:0;npm i eslint-plugin-disable
+: 1486328671:0;npm run lint --silent
+: 1486328709:0;vim .eslintrc
+: 1486328763:0;npm run lint --silent
+: 1486328804:0;clear
+: 1486328804:0;s
+: 1486328805:0;d
+: 1486328809:0;cd ../../
+: 1486328810:0;s
+: 1486328813:0;d .eslintrc
+: 1486328820:0;git checkout .eslintrc
+: 1486328822:0;clear
+: 1486328822:0;s
+: 1486328824:0;d
+: 1486328826:0;d package.json
+: 1486328829:0;clear
+: 1486328829:0;s
+: 1486328831:0;a package.json
+: 1486328831:0;clear
+: 1486328831:0;s
+: 1486328832:0;d
+: 1486328898:0;npm install eslint-plugin-meteor --save-dev
+: 1486328908:0;d
+: 1486328910:0;s
+: 1486328919:0;d
+: 1486328923:0;npm run lint --silent
+: 1486328931:0;zrc
+: 1486328934:0;clear
+: 1486328935:0;s
+: 1486328939:0;vim imports/api/posts.js
+: 1486328945:0;clear
+: 1486328946:0;s
+: 1486328951:0;npm run lint --silent
+: 1486328969:0;clear
+: 1486328969:0;s
+: 1486328970:0;d
+: 1486328975:0;git log
+: 1486328978:0;s
+: 1486328980:0;d
+: 1486328988:0;git diff -r HEAD.^
+: 1486328992:0;git diff HEAD.^
+: 1486328995:0;git diff HEAD
+: 1486328999:0;git stash
+: 1486329000:0;clear
+: 1486329000:0;s
+: 1486329004:0;D
+: 1486329007:0;git diff HEAD
+: 1486329009:0;git diff HEAD^
+: 1486329013:0;git push
+: 1486329017:0;clear
+: 1486329018:0;s
+: 1486329023:0;b comments
+: 1486329294:0;s
+: 1486329295:0;d
+: 1486329299:0;a .meteor/versions
+: 1486329300:0;clear
+: 1486329300:0;s
+: 1486329302:0;d
+: 1486329311:0;cd imports/ui/templates
+: 1486329311:0;ls
+: 1486329316:0;vim postHeader.html
+: 1486329343:0;git pull origin master 
+: 1486329345:0;s
+: 1486329351:0;git stash
+: 1486329353:0;git pull origin master 
+: 1486329358:0;clear
+: 1486329358:0;s
+: 1486329366:0;git stash apply
+: 1486329372:0;s
+: 1486329374:0;git status
+: 1486329382:0;vim ../../../.meteor/versions
+: 1486329385:0;git stash
+: 1486329386:0;clear
+: 1486329386:0;s
+: 1486329390:0;git status
+: 1486329421:0;vim postHeader.html
+: 1486329455:0;vim postHeader.js
+: 1486329458:0;clear
+: 1486329458:0;ls
+: 1486329464:0;vim postHeader.js
+: 1486329467:0;vim postHeader.html
+: 1486329703:0;clea
+: 1486329704:0;clear
+: 1486329705:0;s
+: 1486329714:0;d
+: 1486329724:0;d postHeader.
+: 1486329725:0;d postHeader.html
+: 1486329744:0;clear
+: 1486329744:0;s
+: 1486329754:0;a postHeader.html
+: 1486329773:0;m "Addded link to posts from the comments button so that users can see comments"
+: 1486329774:0;p
+: 1486329778:0;clear
+: 1486329778:0;s
+: 1486329778:0;d
+: 1486329820:0;vim postComment.html
+: 1486329862:0;clear
+: 1486329862:0;s
+: 1486329866:0;vim postHeader.html
+: 1486329892:0;vim ../pages/post.html ../pages/post.js
+: 1486330191:0;clear
+: 1486330192:0;s
+: 1486330198:0;meteor
+: 1486330284:0;meteor mongo
+: 1486330367:0;vim ../../api/posts.
+: 1486330370:0;vim ../../api/posts.js
+: 1486330379:0;clear
+: 1486330380:0;s
+: 1486330458:0;vim ../pages/post.js
+: 1486330493:0;clear
+: 1486330493:0;s
+: 1486330498:0;a ../pages/post.html
+: 1486330503:0;a ../pages/post.js
+: 1486330504:0;clear
+: 1486330504:0;s
+: 1486330511:0;d ../../api/posts.js
+: 1486330518:0;a ../../api
+: 1486330518:0;clear
+: 1486330519:0;s
+: 1486330521:0;d
+: 1486330526:0;a ../../
+: 1486330527:0;clear
+: 1486330528:0;s
+: 1486330531:0;a ../../../
+: 1486330532:0;clear
+: 1486330532:0;s
+: 1486330543:0;cd ...
+: 1486330544:0;..
+: 1486330545:0;clear
+: 1486330545:0;s
+: 1486330559:0;D
+: 1486330579:0;npm run lint --silent
+: 1486330582:0;q
+: 1486330593:0;vim ../pages/post.js
+: 1486330603:0;vim imports/ui/pages/post.js
+: 1486330624:0;cd imports/ui/templates
+: 1486330625:0;clear
+: 1486330625:0;s
+: 1486330629:0;npm run lint --silent
+: 1486330642:0;vim ../pages/post.js
+: 1486330650:0;clear
+: 1486330651:0;s
+: 1486330670:0;npm run lint --silent
+: 1486330680:0;vim postNewComment.js
+: 1486330700:0;npm run lint --silent
+: 1486330712:0;vim postComment.js
+: 1486330746:0;npm run lint --silent
+: 1486330768:0;clear
+: 1486330768:0;s
+: 1486330771:0;npm run lint --silent
+: 1486330781:0;cd ../pages
+: 1486330783:0;vim post.js
+: 1486330806:0;npm run lint --silent
+: 1486330868:0;clear
+: 1486330868:0;s
+: 1486330872:0;a post.js ../templates
+: 1486330873:0;clear
+: 1486330873:0;s
+: 1486330884:0;vim ../../api
+: 1486330899:0;vim ../../api/posts.tests.js
+: 1486330926:0;clear
+: 1486330929:0;npm run lint --silent
+: 1486330942:0;cd ...
+: 1486330943:0;cd api
+: 1486330947:0;vim comments.
+: 1486330950:0;vim comments.js
+: 1486331001:0;clear
+: 1486331001:0;s
+: 1486331003:0;d comments 
+: 1486331005:0;clear
+: 1486331005:0;s
+: 1486331006:0;d
+: 1486331014:0;vim comments.js
+: 1486331055:0;clear
+: 1486331058:0;npm run lint --silent
+: 1486331080:0;vim comments.js
+: 1486331088:0;clear
+: 1486331090:0;npm run lint --silent
+: 1486331107:0;s
+: 1486331109:0;a .
+: 1486331110:0;s
+: 1486331117:0;D
+: 1486331135:0;vim posts.tests.js
+: 1486331142:0;a .
+: 1486331150:0;git log
+: 1486331155:0;clear
+: 1486331156:0;D
+: 1486331172:0;s
+: 1486331197:0;m "Fixed the post page so that pages show their content for users to comment on, fixed a bug and some linting"
+: 1486331198:0;p
+: 1486331211:0;git pull
+: 1486331214:0;d
+: 1486331226:0;vim ../pages/post.js
+: 1486331229:0;cd ..
+: 1486331233:0;cd ui/pages
+: 1486331237:0;vim post.js
+: 1486331239:0;d
+: 1486331243:0;vim post.html
+: 1486331287:0;clear
+: 1486331287:0;s
+: 1486331288:0;d
+: 1486331292:0;a post.html
+: 1486331293:0;clear
+: 1486331293:0;s
+: 1486331299:0;m "Merge issue"
+: 1486331302:0;git pull
+: 1486331305:0;git push
+: 1486331782:0;b master
+: 1486331783:0;s
+: 1486331788:0;vim ../../api/posts.js
+: 1486331794:0;clear
+: 1486331794:0;s
+: 1486331798:0;a .
+: 1486331798:0;s
+: 1486331801:0;cd ...
+: 1486331801:0;s
+: 1486331803:0;a .
+: 1486331804:0;d
+: 1486331805:0;D
+: 1486331811:0;m "Typo in format string"
+: 1486331813:0;p
+: 1486331817:0;b comments
+: 1486331920:0;cd ../imports
+: 1486331921:0;cd ui
+: 1486331922:0;ls
+: 1486331934:0;vim templates/postNewComment.js
+: 1486331954:0;clear
+: 1486331954:0;s
+: 1486331955:0;a .
+: 1486331963:0;m "Reset form after comment"
+: 1486331965:0;p
+: 1486332118:0;b home_redesign
+: 1486332178:0;vim pages/index.html
+: 1486332294:0;meteor mongo
+: 1486332303:0;q
+: 1486332351:0;clear
+: 1486332351:0;s
+: 1486332352:0;d
+: 1486332366:0;clear
+: 1486332366:0;s
+: 1486332375:0;git stash -h
+: 1486332379:0;git stash
+: 1486332381:0;b
+: 1486332394:0;b post
+: 1486332398:0;git pull
+: 1486332412:0;vim pages/submit.js
+: 1486332417:0;clear
+: 1486332418:0;ls
+: 1486332428:0;vim pages/submit.js pages/submit.html
+: 1486332440:0;cd ../ui/templates/
+: 1486332442:0;vim submitForm.js
+: 1486332569:0;s
+: 1486332578:0;vim post.js
+: 1486332585:0;vim ../pages/post.js
+: 1486332596:0;cd ..
+: 1486332605:0;vim pages/post.html =
+: 1486332613:0;b comments
+: 1486332616:0;vim pages/post.html
+: 1486332619:0;vim pages/post.js
+: 1486332626:0;cd templates
+: 1486332627:0;ls
+: 1486332634:0;vim submitForm.js
+: 1486332708:0;clear
+: 1486332708:0;s
+: 1486332709:0;d
+: 1486332716:0;a submitForm.js
+: 1486332722:0;s
+: 1486332723:0;git stash
+: 1486332725:0;b post
+: 1486332729:0;git stash apply 
+: 1486332730:0;clear
+: 1486332731:0;s
+: 1486332732:0;vim submitForm.js
+: 1486332741:0;clear
+: 1486332742:0;s
+: 1486332749:0;clear
+: 1486332749:0;s
+: 1486332754:0;d
+: 1486332757:0;a submitForm.js
+: 1486332759:0;git status
+: 1486332793:0;s
+: 1486332796:0;p
+: 1486332803:0;clear
+: 1486332803:0;s
+: 1486332805:0;b comments
+: 1486332806:0;clear
+: 1486332806:0;s
+: 1486332811:0;d
+: 1486332821:0;clear
+: 1486332823:0;git status
+: 1486332839:0;m "Redirect after submit post"
+: 1486332840:0;p
+: 1486332846:0;clear
+: 1486332847:0;b comments
+: 1486332900:0;b post
+: 1486332907:0;vim ../../api/posts.js
+: 1486332918:0;git pull origin master 
+: 1486332923:0;s
+: 1486332926:0;vim submitForm.js
+: 1486332931:0;clear
+: 1486332932:0;s
+: 1486332937:0;a submitForm.js
+: 1486332938:0;clear
+: 1486332938:0;s
+: 1486332945:0;cd ../api/ui
+: 1486332946:0;clear
+: 1486332946:0;s
+: 1486332948:0;cd ..
+: 1486332948:0;..
+: 1486332950:0;cd api/ui
+: 1486332951:0;s
+: 1486332954:0;cd api
+: 1486332955:0;clear
+: 1486332955:0;s
+: 1486332957:0;vim posts.
+: 1486332960:0;vim posts.ks
+: 1486332962:0;vim posts.js
+: 1486332974:0;clear
+: 1486332974:0;s
+: 1486332976:0;d
+: 1486332978:0;a posts.js
+: 1486332979:0;clear
+: 1486332979:0;s
+: 1486332982:0;m "Merge"
+: 1486332985:0;p
+: 1486356877:0;b
+: 1486356882:0;clear
+: 1486357699:0;b home_redesign
+: 1486357772:0;cd ..
+: 1486357773:0;cd ui
+: 1486357774:0;.
+: 1486357780:0;cd templates
+: 1486357781:0;ls
+: 1486357782:0;clear
+: 1486357782:0;s
+: 1486357785:0;cd ..
+: 1486357786:0;cd pages
+: 1486357786:0;ls
+: 1486357788:0;vim index.html
+: 1486357805:0;clear
+: 1486357806:0;s
+: 1486357811:0;cd ../templates
+: 1486357819:0;vim ../pages/post.html
+: 1486357829:0;clear
+: 1486357829:0;s
+: 1486357834:0;clear
+: 1486357835:0;d
+: 1486357850:0;vim ../pages/index.html
+: 1486357936:0;clear
+: 1486357936:0;s
+: 1486357937:0;d
+: 1486357969:0;clear
+: 1486357969:0;s
+: 1486357985:0;git branch -D cleanup_1 
+: 1486357987:0;clear
+: 1486357987:0;s
+: 1486357988:0;d
+: 1486357997:0;clear
+: 1486358000:0;b ab_filtering
+: 1486358002:0;d
+: 1486358005:0;git stash
+: 1486358005:0;.
+: 1486358008:0;b ab_filtering
+: 1486358010:0;clear
+: 1486358010:0;s
+: 1486358022:0;git diff origin/master 
+: 1486358031:0;git pull origin master 
+: 1486358034:0;clear
+: 1486358034:0;s
+: 1486358038:0;git diff origin/master 
+: 1486358040:0;clear
+: 1486358040:0;s
+: 1486358050:0;git branch -D ab_filtering 
+: 1486358061:0;b master
+: 1486358066:0;git diff ab_filtering 
+: 1486358071:0;git branch -D ab_filtering 
+: 1486358072:0;clear
+: 1486358074:0;b 
+: 1486358078:0;b search_basics
+: 1486358081:0;git diff origin/master 
+: 1486358101:0;git merge origin/master 
+: 1486358103:0;clear
+: 1486358105:0;git diff origin/master 
+: 1486358107:0;clear
+: 1486358107:0;s
+: 1486358116:0;git checkout master
+: 1486358119:0;git diff origin/master 
+: 1486358124:0;b search_basics
+: 1486358125:0;clear
+: 1486358126:0;git log
+: 1486358145:0;.
+: 1486358151:0;git pull origin master 
+: 1486358156:0;git merge origin/master 
+: 1486358158:0;clear
+: 1486358160:0;git sl
+: 1486358236:0;git config --global color.ui always
+: 1486358243:0;gem install git-smart
+: 1486358272:0;git smart-log
+: 1486358302:0;clear
+: 1486358556:0;cd ..
+: 1486358558:0;cd pages
+: 1486358558:0;ls
+: 1486358560:0;vim index.html
+: 1486358642:0;vim index.js
+: 1486359653:0;clear
+: 1486359654:0;s
+: 1486359657:0;cd ../templates
+: 1486359658:0;ls
+: 1486359663:0;vim navBar.html
+: 1486359669:0;clear
+: 1486359670:0;s
+: 1486359674:0;vim ../mainLayout.html
+: 1486359678:0;clear
+: 1486359679:0;s
+: 1486359681:0;a navBar.html
+: 1486359684:0;a templates.js
+: 1486359689:0;a ../mainLayout.html
+: 1486359690:0;clear
+: 1486359690:0;s
+: 1486359694:0;d ../pages/index.
+: 1486359696:0;d ../pages/index.js
+: 1486359701:0;a searchBar.html
+: 1486359702:0;clear
+: 1486359702:0;s
+: 1486359707:0;vim templates.js
+: 1486359716:0;clear
+: 1486359716:0;s
+: 1486359734:0;grep -R get .
+: 1486359740:0;cd ..
+: 1486359741:0;..
+: 1486359743:0;grep -R get .
+: 1486359753:0;vim ui/pages/index.js
+: 1486622420:0;meteor run
+: 1486622551:0;git fetch
+: 1486622559:0;git merge master
+: 1486622563:0;git pull origin master 
+: 1486622565:0;s
+: 1486622568:0;d
+: 1486622578:0;git stash
+: 1486622605:0;b home_redesign$'\033'\[m
+: 1486622609:0;b home_redesign
+: 1486622612:0;git pull
+: 1486622614:0;s
+: 1486622632:0;git stash apply
+: 1486622635:0;s
+: 1486622637:0;git add ui
+: 1486622641:0;git stash
+: 1486622642:0;clear
+: 1486622642:0;s
+: 1486622646:0;clear
+: 1486622646:0;ls
+: 1486623263:0;d
+: 1486623648:0;zrc
+: 1486623733:0;git branch | grep -o "[^ ]*$"
+: 1486623745:0;git branch | grep -o "[^ ]*$" | cat
+: 1486623748:0;git branch | grep -o "[^ ]*$" | ccat
+: 1486623752:0;git branch | grep -o "[^ ]*$" | /bin/cat
+: 1486623759:0;git branch | grep -o "[^ ]*$" | cat
+: 1486623789:0;git branch | grep -o "[^ ]*$"
+: 1486623792:0;git branch | grep -o "[^ ]*$" | cat
+: 1486623816:0;git branch | grep -o "[^ ]*$" | sed "s/\$....//" | cat
+: 1486623824:0;git branch | grep -o "[^ ]*$" | sed "s/$....//" | cat
+: 1486623835:0;git branch | grep -o "[^ ]*$" | sed "s/\$....//" | cat
+: 1486623841:0;git branch | grep -o "[^ ]*$" | sed "s/\$//" | cat
+: 1486623846:0;git branch | grep -o "[^ ]*$" | sed "s/[//" | cat
+: 1486623849:0;git branch | grep -o "[^ ]*$" | sed "s/\[//" | cat
+: 1486623864:0;git branch | grep -o "[^ ]*$" | sed "s/\[.......//" | cat
+: 1486623867:0;git branch | grep -o "[^ ]*$" | sed "s/\[.........//" | cat
+: 1486623887:0;git branch | grep -o "[^ ]*$" | sed "s/\[.*m//" | cat
+: 1486623895:0;git branch | grep -o "[^ ]*$" | sed "s/\[[^m]*m//" | cat
+: 1486623899:0;git branch | grep -o "[^ ]*$" | sed "s/\[[^m]*m[K//" | cat
+: 1486623903:0;git branch | grep -o "[^ ]*$" | sed "s/\[[^m]*m\[K//" | cat
+: 1486623913:0;git branch | grep -o "[^ ]*$" | sed "s///" | cat
+: 1486623926:0;git branch | grep -o "[^ ]*$" | sed "s/[.*K//" | cat
+: 1486623930:0;git branch | grep -o "[^ ]*$" | sed "s/\[.*K//" | cat
+: 1486623937:0;git branch | grep -o "[^ ]*$" | sed "s/\[[^K]*K//" | cat
+: 1486623973:0;git branch | /bin/grep -o "[^ ]*$"
+: 1486623978:0;git branch | /usr/bin/grep -o "[^ ]*$"
+: 1486623986:0;git branch | /usr/bin/grep "[^ ]*$"
+: 1486623990:0;git branch | /usr/bin/grep -o "[^ ]*$"
+: 1486624000:0;git branch | grep -o "[^ ]*$"
+: 1486624053:0;git branch | grep -o "[^ ]*$" |  tr -d '[:cntrl:]'
+: 1486624074:0;git branch | grep -o "[^ ]*$" | tr -d '[:'
+: 1486624089:0;git branch | grep -o "[^ ]*$" | sed "s/[.//"
+: 1486624092:0;git branch | grep -o "[^ ]*$" | sed "s/\[.//"
+: 1486624099:0;git branch | grep -o "[^ ]*$" | sed "s/\[...//"
+: 1486624101:0;git branch | grep -o "[^ ]*$" | sed "s/\[.....//"
+: 1486624107:0;git branch | grep -o "[^ ]*$" | sed "s/\[....//"
+: 1486624112:0;git branch | grep -o "[^ ]*$" | sed "s/\[//"
+: 1486624123:0;git branch | grep -o "[^ ]*$" | cat | sed "s/\[//"
+: 1486624127:0;git branch | grep -o "[^ ]*$" | /bin/cat | sed "s/\[//"
+: 1486624136:0;git branch | grep -o "[^ ]*$" | /bin/cat
+: 1486624141:0;git branch | grep -o "[^ ]*$" | /bin/ccat
+: 1486624144:0;git branch | grep -o "[^ ]*$" | cat
+: 1486624148:0;git branch | grep -o "[^ ]*$"
+: 1486624188:0;git branch | grep -o "[^ ]*$"  | sed -e "s/\x1b\[.\{1,5\}m//g"
+: 1486624205:0;git branch
+: 1486624217:0;git branch | grep -o "[^ ]*$"
+: 1486624224:0;git branch | /usr/bin/grep -o "[^ ]*$"
+: 1486624228:0;man grep
+: 1486624244:0;git branch | /usr/bin/grep -color=never -o "[^ ]*$"
+: 1486624249:0;git branch | /usr/bin/grep --color=never -o "[^ ]*$"
+: 1486624260:0;man grep
+: 1486624319:0;man git branch
+: 1486624335:0;git branch
+: 1486624342:0;git branch --no-color 
+: 1486624360:0;exec zsh
+: 1486624362:0;b
+: 1486624409:0;q
+: 1486624411:0;clear
+: 1486624412:0;b
+: 1486624418:0;.
+: 1486624426:0;b search_basics
+: 1486624453:0;git pull
+: 1486624465:0;git smart-pull
+: 1486625769:0;dig http://lobal.io/
+: 1486625775:0;dig lobal.io
+: 1486625784:0;dig meteorapp.com
+: 1486626031:0;dig www.lobaldemo.meteorapp.com
+: 1486626159:0;dig lobal.io
+: 1486627296:0;q
+: 1486714356:0;clear
+: 1486714356:0;s
+: 1486714360:0;b master
+: 1486714365:0;hg fetch
+: 1486714369:0;git fetch
+: 1486714371:0;.
+: 1486714372:0;s
+: 1486714373:0;d
+: 1486714376:0;git pull
+: 1486714379:0;clear
+: 1486858805:0;meteor mongo
+: 1486858812:0;meteor run
+: 1486858814:0;meteor mongo
+: 1486859673:0;b pagination
+: 1486859678:0;git pull pagination
+: 1486859683:0;git pull origin pagination
+: 1486859687:0;clear
+: 1486859688:0;s
+: 1486860588:0;meteor debug
+: 1486860595:0;meteor debug --port 3001
+: 1486860612:0;meteor debug --port 3003
+: 1486860633:0;meteor debug
+: 1486860635:0;clear
+: 1486860635:0;s
+: 1486860636:0;d
+: 1486860640:0;clear
+: 1486860641:0;ls
+: 1486864668:0;vim ui/pages/index.js
+: 1486865465:0;s
+: 1486865465:0;d
+: 1486865470:0;clear
+: 1486865472:0;git stash
+: 1486865475:0;git stash drop 
+: 1486865476:0;.
+: 1486865478:0;s
+: 1486865479:0;.
+: 1486865481:0;clear
+: 1486865482:0;ls
+: 1486865484:0;clear
+: 1486865510:0;b
+: 1486865515:0;b master
+: 1486865517:0;clear
+: 1486865526:0;b circle
+: 1486865530:0;b comments
+: 1486865535:0;b master
+: 1486865536:0;clear
+: 1486865553:0;git branch -d comments home_redesign pagination post circle 
+: 1486865566:0;clear
+: 1486865568:0;b search_basics
+: 1486865570:0;s
+: 1486865571:0;clear
+: 1486865573:0;g master 
+: 1486865586:0;d master 
+: 1486865597:0;git pull origin master 
+: 1486865600:0;clear
+: 1486865601:0;s
+: 1486865603:0;d master 
+: 1486865623:0;b master
+: 1486865626:0;git pull origin m
+: 1486865629:0;git pull origin master 
+: 1486865634:0;b search_basics
+: 1486865637:0;d master 
+: 1486865640:0;clear
+: 1486865641:0;s
+: 1486866596:0;meteor run
+: 1486894362:0;cd
+: 1486894368:0;vim 94.cpp
+: 1486927377:0;vim joe.hs
+: 1486928455:0;ghci
+: 1486928489:0;q
+: 1486930740:0;ls
+: 1486930744:0;./joe
+: 1486930767:0;ps -ef | grep joe
+: 1486930772:0;pkill joe
+: 1486930787:0;ghc -O2 joe.hs
+: 1486930791:0;./joe
+: 1486930986:0;ghci
+: 1486931167:0;q
+: 1487219981:0;s
+: 1487219986:0;b master
+: 1487219991:0;b updates
+: 1487219997:0;meteor update
+: 1487221478:0;clear
+: 1487221478:0;s
+: 1487221479:0;d
+: 1487221493:0;meteor
+: 1487221565:0;s
+: 1487221569:0;a ../.meteor
+: 1487221569:0;s
+: 1487221573:0;m "Updates"
+: 1487221575:0;git push
+: 1487221585:0;git smart-push
+: 1487221587:0;git smart-pull
+: 1487221590:0;p
+: 1487221597:0;git push --set-upstream origin updates 
+: 1487221616:0;b search_basics
+: 1487221617:0;clear
+: 1487221618:0;s
+: 1487221628:0;git pull origin update
+: 1487221634:0;git pull origin updates
+: 1487221636:0;s
+: 1487221644:0;git diff origin/master
+: 1487221652:0;meteor
+: 1487221654:0;d
+: 1487221656:0;clear
+: 1487221656:0;s
+: 1487221662:0;git sl
+: 1487221665:0;git og
+: 1487221667:0;git log
+: 1487221677:0;clear
+: 1487221678:0;ls
+: 1487221698:0;git stash apply 
+: 1487221699:0;s
+: 1487221704:0;cd ui/pages
+: 1487221707:0;d
+: 1487221714:0;vim ui/pages/index.js
+: 1487221718:0;clear
+: 1487221718:0;d
+: 1487221720:0;s
+: 1487221723:0;vim index.js
+: 1487221797:0;clear
+: 1487221797:0;s
+: 1487221799:0;a index.js
+: 1487221800:0;clear
+: 1487221800:0;s
+: 1487221802:0;cd ../templates
+: 1487221803:0;clear
+: 1487221803:0;s
+: 1487221805:0;vim templates.js
+: 1487221829:0;clear
+: 1487221829:0;s
+: 1487221830:0;ls
+: 1487221837:0;mv navbar.html navBar.html
+: 1487221844:0;mv navbar.js navBar.js
+: 1487221845:0;clear
+: 1487221845:0;s
+: 1487221852:0;vim navBar.html
+: 1487221855:0;clear
+: 1487221855:0;s
+: 1487221857:0;a navBar.html
+: 1487221857:0;clear
+: 1487221858:0;s
+: 1487221862:0;a navBar.html
+: 1487221863:0;s
+: 1487221865:0;clear
+: 1487221867:0;vim templates.js
+: 1487221869:0;s
+: 1487221872:0;a templates.js
+: 1487221873:0;clear
+: 1487221874:0;s
+: 1487221878:0;d navBar.html
+: 1487221896:0;vim navbar.html
+: 1487221905:0;diff navbar.html narBar.html
+: 1487221913:0;diff navbar.html navBar.html
+: 1487221924:0;git navbar.html navBar.html
+: 1487221928:0;git mv navbar.html navBar.html
+: 1487221930:0;s
+: 1487221942:0;clear
+: 1487221959:0;s
+: 1487221960:0;d
+: 1487221975:0;cd ..
+: 1487221976:0;ls
+: 1487221981:0;vim body.html mainLayout.html
+: 1487221992:0;vim templates/templates.js
+: 1487222016:0;vim templates/navBar.js
+: 1487222021:0;clear
+: 1487222022:0;s
+: 1487222034:0;vim templates/navBar.js
+: 1487222047:0;clear
+: 1487222048:0;s
+: 1487222058:0;a templates/navbar.js
+: 1487222065:0;git mv templates/navBar.js
+: 1487222074:0;git mv templates/navbar.js templates/navBar.js
+: 1487222075:0;s
+: 1487222076:0;clear
+: 1487222076:0;s
+: 1487222434:0;grep -R onCreated .
+: 1487222442:0;vim templates/navBar.js
+: 1487222476:0;clear
+: 1487222476:0;s
+: 1487222481:0;a templates/navBar.js
+: 1487222482:0;clear
+: 1487222482:0;s
+: 1487222513:0;clear
+: 1487222514:0;git sl
+: 1487222516:0;git log
+: 1487222518:0;clear
+: 1487222519:0;d
+: 1487222522:0;D
+: 1487222530:0;clear
+: 1487222536:0;grep -R navbar .
+: 1487222552:0;grep -R get .
+: 1487222560:0;d
+: 1487222562:0;D
+: 1487222580:0;clear
+: 1487222580:0;s
+: 1487222582:0;cd templates
+: 1487222582:0;ls
+: 1487222586:0;vim searchBar.js
+: 1487222607:0;D | grep get
+: 1487222614:0;D | grep get -f
+: 1487222622:0;D | grep "get|+++"
+: 1487222625:0;D | grep "get|\+\+\+"
+: 1487222632:0;vim ../pages/index.js
+: 1487223731:0;clear
+: 1487223731:0;s
+: 1487223735:0;git add .
+: 1487223736:0;clear
+: 1487223736:0;s
+: 1487223739:0;a ../pages
+: 1487223740:0;clear
+: 1487223740:0;s
+: 1487223748:0;b multiple_authors
+: 1487223752:0;git stash
+: 1487223754:0;b multiple_authors
+: 1487223761:0;cd ../
+: 1487223764:0;cd ../api
+: 1487223764:0;ls
+: 1487223769:0;vim posts.tests.js
+: 1487223830:0;clear
+: 1487223830:0;s
+: 1487223831:0;d
+: 1487223834:0;git add .
+: 1487223834:0;s
+: 1487223843:0;meteor test --driver-package dispatch:mocha-browser --port 3002
+: 1487223906:0;vim posts.tests.js
+: 1487223920:0;vim posts.js
+: 1487223982:0;git pull
+: 1487223991:0;git pull origin multiple_authors 
+: 1487223997:0;git stash
+: 1487223999:0;git stash drop
+: 1487224003:0;git pull origin multiple_authors 
+: 1487224008:0;clear
+: 1487224009:0;s
+: 1487224014:0;clear
+: 1487224018:0;vim posts.js
+: 1487224140:0;vim posts.tests.js
+: 1487224213:0;clear
+: 1487224213:0;s
+: 1487224214:0;d
+: 1487224219:0;a posts.tests.js
+: 1487224220:0;s
+: 1487224220:0;d
+: 1487224230:0;m "Update unit tests"
+: 1487224232:0;git push
+: 1487224238:0;git push --set-upstream origin multiple_authors 
+: 1487224243:0;clear
+: 1487224247:0;b search_basics
+: 1487224253:0;meteor
+: 1487224518:0;cd ..
+: 1487224526:0;git stash -l
+: 1487224528:0;git stash list
+: 1487224561:0;git stash apply stash@{2}
+: 1487224562:0;s
+: 1487224564:0;d
+: 1487224570:0;cd imports/ui
+: 1487224570:0;clear
+: 1487224571:0;s
+: 1487224575:0;vim pages/index.js
+: 1487224615:0;clear
+: 1487224615:0;s
+: 1487224618:0;a pages/index.js
+: 1487224621:0;vim templates/templates.js
+: 1487224627:0;clear
+: 1487224627:0;s
+: 1487224631:0;a templates/templates.js
+: 1487224632:0;clear
+: 1487224632:0;s
+: 1487224633:0;ls
+: 1487224635:0;cd templates
+: 1487224636:0;ls
+: 1487224644:0;git mv navbar.js navBar.js
+: 1487224651:0;vim navBar*
+: 1487224662:0;clear
+: 1487224662:0;s
+: 1487224668:0;git add navBar.js
+: 1487224670:0;s
+: 1487224671:0;clear
+: 1487224671:0;s
+: 1487224672:0;clear
+: 1487225521:0;d
+: 1487225522:0;s
+: 1487225549:0;git commit -m "Start of work on search template and filters"
+: 1487225551:0;git push
+: 1487225556:0;git push --set-upstream origin search_basics 
+: 1487303953:0;./joe
+: 1487303974:0;ghc -O2 joe.hs
+: 1487303979:0;./joe
+: 1487303989:0;ghc -O2 joe.hs
+: 1487303991:0;./joe
+: 1487304021:0;ghc -O2 joe.hs
+: 1487304029:0;./joe
+: 1487305384:0;runhaskell joe.hs
+: 1487308728:0;./joe
+: 1487308731:0;runhaskell joe.hs
+: 1487308990:0;ghci
+: 1487309370:0;q
+: 1487309731:0;cd
+: 1487309732:0;ls
+: 1487309743:0;which clean
+: 1487309746:0;clean
+: 1487309747:0;ls
+: 1487309752:0;rm a.out
+: 1487309753:0;.
+: 1487309755:0;rm joe
+: 1487309756:0;.
+: 1487309771:0;mv 94.cpp Documents/Programming_Problems/
+: 1487309791:0;mv joe.hs Documents/Programming_Problems/joes_circle.hs
+: 1487309797:0;cd Documents/Projects
+: 1487309798:0;.
+: 1487309807:0;ls JSite
+: 1487309809:0;ls JSite/site
+: 1487309813:0;ls JSite/site/imports
+: 1487309817:0;ls JSite/site/imports/startup
+: 1487309827:0;cd JSite
+: 1487309827:0;s
+: 1487309829:0;cd site
+: 1487309829:0;s
+: 1487309830:0;clear
+: 1487309834:0;meteor
+: 1487309839:0;ls
+: 1487309841:0;cd imports
+: 1487309842:0;ls
+: 1487309845:0;cd ....
+: 1487309846:0;clear
+: 1487309847:0;ls
+: 1487309854:0;mv JSite Old
+: 1487309854:0;.
+: 1487309861:0;ls Extractor
+: 1487309864:0;.
+: 1487309869:0;mv Extractor Old
+: 1487309869:0;.
+: 1487309873:0;ls Robocup
+: 1487309874:0;.
+: 1487309877:0;ls Mosaic
+: 1487309878:0;.
+: 1487309883:0;ls Advent
+: 1487309895:0;mv Advent ../Programming_Problems
+: 1487309897:0;clear
+: 1487309897:0;s
+: 1487309905:0;rm Chips
+: 1487309910:0;rm -rf Chips
+: 1487309911:0;.
+: 1487309917:0;cd ..
+: 1487309918:0;ls
+: 1487309920:0;ls Artificial-brain
+: 1487309938:0;mv Artificial-brain Projects/
+: 1487309938:0;.
+: 1487309946:0;rm KanFam_Ethics
+: 1487309950:0;rm -rf KanFam_Ethics
+: 1487309951:0;.
+: 1487309955:0;ls RNKWGB.htm
+: 1487309957:0;cat RNKWGB.htm
+: 1487309959:0;clear
+: 1487309963:0;chrome RNKWGB.htm
+: 1487309967:0;.
+: 1487309981:0;open pxpp.zip
+: 1487311253:0;s
+: 1487311254:0;d
+: 1487311282:0;vim ../pages/index.js searchBar.js
+: 1487311378:0;clear
+: 1487311385:0;git diff -r HEAD.^
+: 1487311388:0;git diff HEAD.^
+: 1487311392:0;git diff HEAD^
+: 1487311417:0;cd ..
+: 1487311427:0;vim pages/index.js templates/searchBar.html
+: 1487311700:0;grep -R console
+: 1487311703:0;grep -R console .
+: 1487311710:0;cd ..
+: 1487311712:0;grep -R console .
+: 1487311720:0;vim ui/pages/index.js
+: 1487311822:0;vim ui/pages/index.js ui/templates/searchBar.js
+: 1487312443:0;clear
+: 1487312443:0;s
+: 1487312444:0;d
+: 1487312445:0;s
+: 1487312448:0;d
+: 1487312462:0;a ui
+: 1487312463:0;clear
+: 1487312463:0;s
+: 1487312499:0;git commit -m "Basic title substring search"
+: 1487312501:0;git push
+: 1487312614:0;clear
+: 1487312615:0;s
+: 1487312618:0;git merge origin/master 
+: 1487312634:0;git pull origin master 
+: 1487312636:0;s
+: 1487312641:0;vim ui/templates/templates.js
+: 1487312661:0;clear
+: 1487312661:0;s
+: 1487312666:0;a ui/templates/templates.js
+: 1487312667:0;clear
+: 1487312667:0;s
+: 1487312671:0;ls
+: 1487312676:0;cd ui/templates
+: 1487312677:0;clear
+: 1487312677:0;s
+: 1487312678:0;ls
+: 1487312683:0;s
+: 1487312687:0;git merge --con
+: 1487312689:0;git merge --continue
+: 1487312701:0;s
+: 1487312703:0;git status
+: 1487312708:0;git commit
+: 1487312711:0;clear
+: 1487312712:0;s
+: 1487312718:0;git push
+: 1487312906:0;grep -R "searchBar" .
+: 1487312933:0;vim templates.js
+: 1487312946:0;vim searchBar.js
+: 1487312953:0;vim searchBar.html
+: 1487312956:0;clear
+: 1487312956:0;s
+: 1487312968:0;vim searchBar.*
+: 1487312999:0;ls
+: 1487313007:0;vim navBar.js
+: 1487313020:0;clear
+: 1487313021:0;s
+: 1487313038:0;d
+: 1487313065:0;git commit -m "Bug for navBar name fix"
+: 1487313071:0;a navBar.js
+: 1487313072:0;git commit -m "Bug for navBar name fix"
+: 1487313073:0;p
+: 1487313090:0;vim navBar.js
+: 1487313134:0;vim ../pages/index.js
+: 1487313521:0;clear
+: 1487313521:0;s
+: 1487313523:0;a 
+: 1487313523:0;s
+: 1487313526:0;a ../pages
+: 1487313526:0;clear
+: 1487313527:0;s
+: 1487313550:0;m "Fix security issue where search could be a non-string"
+: 1487313551:0;p
+: 1487314058:0;b master
+: 1487314058:0;.
+: 1487314062:0;b -d multiple_authors
+: 1487314072:0;git branch -d multiple_authors 
+: 1487314073:0;.
+: 1487314084:0;git branch -d updates 
+: 1487314089:0;git fetch
+: 1487314091:0;git branch -d updates 
+: 1487314093:0;b
+: 1487314102:0;git pull
+: 1487314106:0;clear
+: 1487314112:0;d pagination 
+: 1487314120:0;git branch -d pagination 
+: 1487314122:0;clear
+: 1487314125:0;s
+: 1487314356:0;b filter
+: 1487314360:0;git pull
+: 1487314369:0;cd ..
+: 1487314393:0;vim ../ui/pages/index.js
+: 1487314517:0;git merge origin/search_basics 
+: 1487314519:0;s
+: 1487314525:0;vim pages/index.js
+: 1487314679:0;meteor
+: 1487315070:0;b search_basics
+: 1487315075:0;git stash
+: 1487315077:0;b search_basics
+: 1487315078:0;clear
+: 1487315078:0;s
+: 1487315084:0;d
+: 1487315092:0;git merge --abort 
+: 1487315093:0;clear
+: 1487315093:0;s
+: 1487315096:0;b search_basics
+: 1487315100:0;vim pages/index.js
+: 1487315229:0;arc lint
+: 1487315234:0;npm run lint --silent
+: 1487315313:0;vrc
+: 1487315336:0;clear
+: 1487315339:0;eslint --init
+: 1487315361:0;cd ...
+: 1487315363:0;ls
+: 1487315369:0;s
+: 1487315372:0;rm imports/ui/.eslintrc.js
+: 1487315374:0;clear
+: 1487315374:0;s
+: 1487315378:0;eslint
+: 1487315383:0;eslint ../../
+: 1487315396:0;clear
+: 1487315399:0;ls
+: 1487315404:0;eslint .
+: 1487315485:0;vim .eslintrc
+: 1487315503:0;s
+: 1487315505:0;eslint .
+: 1487315509:0;s
+: 1487315516:0;git reset .eslintrc
+: 1487315518:0;s
+: 1487315519:0;clear
+: 1487315519:0;d
+: 1487315525:0;git revert .eslintrc
+: 1487315528:0;git add .eslintrc
+: 1487315532:0;git revert .eslintrc
+: 1487315533:0;clear
+: 1487315533:0;s
+: 1487315535:0;d
+: 1487315538:0;d .eslintrc
+: 1487315541:0;d
+: 1487315543:0;s
+: 1487315548:0;git stash .eslintrc
+: 1487315550:0;clear
+: 1487315550:0;s
+: 1487315553:0;d .eslintrc
+: 1487315559:0;ls .eslintrc
+: 1487315563:0;git diff
+: 1487315592:0;git revert .eslintrc
+: 1487315598:0;git status .eslintrc
+: 1487315604:0;git reset .eslintrc
+: 1487315606:0;s
+: 1487315607:0;clear
+: 1487315608:0;s
+: 1487315608:0;d
+: 1487315619:0;git revert .eslintrc
+: 1487315620:0;s
+: 1487315624:0;git diff .eslintrc
+: 1487315635:0;git checkout .eslintrc
+: 1487315636:0;clear
+: 1487315636:0;s
+: 1487315637:0;d
+: 1487315647:0;git checkout p
+: 1487315649:0;git checkout package.json
+: 1487315650:0;clear
+: 1487315651:0;s
+: 1487315656:0;eslint .
+: 1487315781:0;meteor npm update eslint -g
+: 1487315794:0;d
+: 1487315807:0;npm update eslint -g
+: 1487315824:0;clear
+: 1487315825:0;s
+: 1487315828:0;eslint .
+: 1487315843:0;npm uninstall -g eslintint
+: 1487315846:0;npm uninstall -g eslint
+: 1487315860:0;clear
+: 1487315860:0;s
+: 1487315862:0;eslint .
+: 1487315865:0;clear
+: 1487315871:0;npm run lint --silent
+: 1487315931:0;vrc
+: 1487316041:0;clear
+: 1487316042:0;s
+: 1487316048:0;vim imports/ui/pages/index.js
+: 1487316165:0;vrc
+: 1487316314:0;npm bin
+: 1487316323:0;`npm bin`/eslint
+: 1487316325:0;clear
+: 1487316329:0;`npm bin`/eslint .
+: 1487316340:0;vrc
+: 1487316348:0;clear
+: 1487316349:0;s
+: 1487316352:0;vim imports/ui/pages/index.js
+: 1487316368:0;vrc
+: 1487316450:0;clear
+: 1487316450:0;s
+: 1487316452:0;vim imports/ui/pages/index.js
+: 1487316464:0;vrc
+: 1487316497:0;vim imports/ui/pages/index.js
+: 1487316559:0;zrc
+: 1487316563:0;vrc
+: 1487316582:0;clear
+: 1487316582:0;s
+: 1487316586:0;vim imports/ui/pages/index.js
+: 1487317184:0;clear
+: 1487317184:0;s
+: 1487317186:0;d
+: 1487317191:0;a imports/ui/pages/index.js
+: 1487317192:0;clear
+: 1487317192:0;s
+: 1487317198:0;m "Lint"
+: 1487317199:0;clear
+: 1487317200:0;s
+: 1487317201:0;p
+: 1487317207:0;clear
+: 1487317207:0;s
+: 1487317212:0;b master
+: 1487317219:0;git status
+: 1487317230:0;b linting
+: 1487317232:0;clear
+: 1487317232:0;s
+: 1487317239:0;npm run lint --silent
+: 1487317247:0;npm run lint --silent | grep /Users
+: 1487317264:0;cd imports/ui
+: 1487317268:0;vim body.js
+: 1487317573:0;clear
+: 1487317573:0;s
+: 1487317575:0;a body.js
+: 1487317577:0;clear
+: 1487317577:0;s
+: 1487317582:0;npm run lint --silent | grep /Users
+: 1487317595:0;cd ../startup
+: 1487317599:0;vim accounts-config.js router.js
+: 1487317640:0;ls ../../.meteor/packages | grep Accounts
+: 1487317642:0;ls ../../.meteor/packages | grep Account
+: 1487317644:0;ls ../../.meteor/packages | grep Acc
+: 1487317647:0;ls ../../.meteor/packages
+: 1487317653:0;cat ../../.meteor/packages | grep Acc
+: 1487317656:0;cat ../../.meteor/packages
+: 1487317661:0;clear
+: 1487317665:0;v accounts-config.js router.js
+: 1487317757:0;clear
+: 1487317757:0;s
+: 1487317758:0;d
+: 1487317763:0;a ../../.meteor/packages
+: 1487317764:0;clear
+: 1487317764:0;s
+: 1487317778:0;npm run lint --silent | grep /Users
+: 1487317791:0;../api
+: 1487317799:0;v comments.* posts.*
+: 1487318380:0;npm run lint --silent
+: 1487318393:0;meteor test --driver-package dispatch:mocha-browser --port 3002
+: 1487318412:0;cd ../ui/templates
+: 1487318415:0;vim postHeader.js
+: 1487318495:0;clear
+: 1487318496:0;s
+: 1487318556:0;clear
+: 1487318556:0;s
+: 1487318558:0;d
+: 1487318569:0;clear
+: 1487318571:0;npm run lint --silent | grep /Users
+: 1487318585:0;vim postComment.js
+: 1487318873:0;clear
+: 1487318873:0;s
+: 1487318881:0;d postComment.js
+: 1487318887:0;a postComment.js
+: 1487318891:0;d postHeader.js
+: 1487318902:0;a postHeader.js
+: 1487318903:0;clear
+: 1487318903:0;s
+: 1487318907:0;cd ../../api
+: 1487318908:0;clear
+: 1487318909:0;s
+: 1487318916:0;vim comments.js posts.js
+: 1487318935:0;npm run lint --silent
+: 1487319007:0;clear
+: 1487319007:0;s
+: 1487319020:0;npm run lint comments.js --silent
+: 1487319031:0;npm run lint posts.js --silent
+: 1487319047:0;clear
+: 1487319047:0;s
+: 1487319100:0;clear
+: 1487319100:0;q
+: 1487319102:0;clear
+: 1487319102:0;s
+: 1487319104:0;d
+: 1487319124:0;a .
+: 1487319125:0;clear
+: 1487319126:0;s
+: 1487319134:0;m "Working on linting"
+: 1487319135:0;s
+: 1487319136:0;p
+: 1487319144:0;p --set-upstream origin linting
+: 1487319148:0;clear
+: 1487319149:0;s
+: 1487319400:0;d
+: 1487319401:0;clear
+: 1487319402:0;s
+: 1487319411:0;git diff HEAD^
+: 1487319704:0;clear
+: 1487319705:0;s
+: 1487319705:0;q
+: 1487573017:0;cd ...
+: 1487573017:0;ls
+: 1487573019:0;clear
+: 1487573019:0;s
+: 1487573023:0;b master
+: 1487573027:0;b -D filter
+: 1487573028:0;clear
+: 1487573032:0;git branch -d filter 
+: 1487573037:0;git branch -d linting 
+: 1487573046:0;git branch -d search_basics 
+: 1487573047:0;clear
+: 1487573047:0;s
+: 1487573049:0;git status
+: 1487573057:0;git branch search_merge_fix
+: 1487573062:0;git checkout search_
+: 1487573064:0;git checkout search_merge_fix 
+: 1487573065:0;.
+: 1487573065:0;s
+: 1487573067:0;git pull
+: 1487573071:0;clear
+: 1487573071:0;s
+: 1487573073:0;git fetch
+: 1487573077:0;git pull origin m
+: 1487573080:0;git pull origin master 
+: 1487573083:0;clear
+: 1487573083:0;s
+: 1487573084:0;d
+: 1487573089:0;meteor
+: 1487573092:0;ls
+: 1487573092:0;clear
+: 1487573093:0;ls
+: 1487573095:0;cd imports/ui
+: 1487573096:0;clear
+: 1487573096:0;s
+: 1487573100:0;cd pages
+: 1487573102:0;vim index.js
+: 1487573181:0;clear
+: 1487573181:0;s
+: 1487573182:0;d
+: 1487573189:0;a ../../../package.json
+: 1487573190:0;clear
+: 1487573190:0;s
+: 1487573191:0;d
+: 1487573211:0;vim index.js
+: 1487576268:0;clear
+: 1487576268:0;s
+: 1487576269:0;d
+: 1487576271:0;clear
+: 1487576279:0;vim ../templates/filter.html
+: 1487576305:0;clear
+: 1487576305:0;s
+: 1487576306:0;d
+: 1487576321:0;clear
+: 1487576322:0;d
+: 1487576325:0;s
+: 1487576330:0;d ../templates/filter.js
+: 1487576341:0;a .
+: 1487576342:0;s
+: 1487576344:0;a ../.
+: 1487576345:0;s
+: 1487576374:0;m "Clean up of filters and search such that different parts of search function independantly."
+: 1487576377:0;git push
+: 1487576384:0;git push --set-upstream origin search_merge_fix
+: 1487576397:0;grep -R "this\.dict"
+: 1487576399:0;grep -R "this\.dict" .
+: 1487576401:0;cd ..
+: 1487576402:0;grep -R "this\.dict" .
+: 1487576426:0;sed "s/this\.dict/dict/"
+: 1487576429:0;sed "s/this\.dict/dict/" *
+: 1487576431:0;clear
+: 1487576431:0;s
+: 1487576432:0;d
+: 1487576434:0;grep -R "this\.dict" .
+: 1487576447:0;sed "s/this\.dict/dict/" pages/index.hs
+: 1487576449:0;sed "s/this\.dict/dict/" pages/index.js
+: 1487576458:0;vim pages/index.
+: 1487576461:0;vim pages/index.js
+: 1487576488:0;clear
+: 1487576489:0;s
+: 1487576492:0;grep -R "this\.dict" .
+: 1487576499:0;vim templates/postComment.js
+: 1487576576:0;clear
+: 1487576576:0;s
+: 1487576577:0;d
+: 1487576596:0;grep -R "this\.dict" .
+: 1487576603:0;vim templates/postHeader.js
+: 1487576624:0;c;ear
+: 1487576625:0;clear
+: 1487576625:0;s
+: 1487576626:0;d
+: 1487576643:0;vim templates/postHeader.js
+: 1487576674:0;clear
+: 1487576675:0;s
+: 1487576675:0;d
+: 1487576689:0;git commit --amend
+: 1487576693:0;git pus
+: 1487576694:0;git push
+: 1487576699:0;git pull
+: 1487576705:0;git push
+: 1487576711:0;clear
+: 1487576712:0;s
+: 1487576713:0;a .
+: 1487576716:0;git push
+: 1487576719:0;clear
+: 1487576719:0;s
+: 1487576720:0;d
+: 1487576722:0;s
+: 1487576724:0;d
+: 1487576726:0;D
+: 1487576728:0;git commit --amend
+: 1487576733:0;git push
+: 1487576737:0;git pull
+: 1487576742:0;cear
+: 1487576742:0;s
+: 1487576744:0;git push
+: 1487576750:0;clear
+: 1487576750:0;s
+: 1487576754:0;d
+: 1487576755:0;D
+: 1487576758:0;clear
+: 1487576759:0;log
+: 1487576760:0;git log
+: 1487576774:0;git squash
+: 1487576780:0;clear
+: 1487576780:0;s
+: 1487576951:0;vim templates/postHeader.js
+: 1487576959:0;s
+: 1487576960:0;d
+: 1487576963:0;vim templates/postHeader.js
+: 1487576981:0;git commit --amend
+: 1487577015:0;git commit -m "Mitigate global upvote issue"
+: 1487577018:0;s
+: 1487577019:0;a templates/templates.js
+: 1487577022:0;git commit --amend
+: 1487577026:0;git push
+: 1487577030:0;git pull
+: 1487577035:0;git push
+: 1487577040:0;clear
+: 1487577040:0;s
+: 1487577041:0;d
+: 1487577044:0;git add .
+: 1487577044:0;s
+: 1487577047:0;git commit --amend
+: 1487577051:0;git push
+: 1487577059:0;git push --help
+: 1487577062:0;git pull
+: 1487577068:0;d
+: 1487577070:0;git push
+: 1487577075:0;clear
+: 1487577075:0;s
+: 1487628729:0;b master
+: 1487628734:0;p
+: 1487628738:0;git pull
+: 1487628741:0;clear
+: 1487628962:0;vim templates/navBar.html
+: 1487629001:0;cd ...
+: 1487630382:0;cd ..
+: 1487630383:0;..
+: 1487630384:0;find . -print0 | xargs -0 wc -l
+: 1487630396:0;find . -print0 | wc -l
+: 1487630406:0;find .
+: 1487630412:0;find . -print0
+: 1487630420:0;wc -l `find . -print0`
+: 1487630441:0;man xargs
+: 1487630453:0;find . -print0 | xargs -0
+: 1487630457:0;find . -print0 | xargs -0 | wc -l
+: 1487630465:0;find . -print0 | xargs -0 wc -l
+: 1487630478:0;find . -print0 | xargs -0 wc -l | cut -f1
+: 1487630486:0;find . -print0 | xargs -0 wc -l | cut -f1 -d'\t'
+: 1487630506:0;find . -print0 | xargs -0 wc -l | cut -f2
+: 1487630509:0;clear
+: 1487630514:0;cd Jarvis/site/
+: 1487630515:0;cd imports
+: 1487630518:0;find . -print0 | xargs -0 wc -l | cut -f2
+: 1487630526:0;find . -print0 | xargs -0 wc -l | grep "total"
+: 1487630532:0;cd ..
+: 1487630533:0;..
+: 1487630535:0;find . -print0 | xargs -0 wc -l | grep "total"
+: 1487630581:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep "total"
+: 1487630636:0;find . -print0 | xargs -0 wc -l &> /dev/null
+: 1487630649:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep "total"
+: 1487630653:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep "tot"
+: 1487630665:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep "\./"
+: 1487630683:0;cd site
+: 1487630684:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep "\./"
+: 1487630794:0;find . -print0 | xargs -0 wc -l &> /dev/null
+: 1487630798:0;find . -print0 | xargs -0 wc -l
+: 1487630808:0;find . -print0 | xargs -0 wc -l | grep total
+: 1487630818:0;find . -print0 | xargs -0 wc -l | grep total > out
+: 1487630821:0;cat out
+: 1487630840:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep "total"
+: 1487630856:0;find . -print0 | xargs -0 wc -l grep "total"
+: 1487630864:0;find . -print0 | xargs -0 (wc -l | grep "total")
+: 1487630870:0;find . -print0 | xargs -0 'wc -l | grep "total"'
+: 1487630880:0;find . -print0 | xargs -0 wc -l | grep "total"
+: 1487630896:0;find . -print0 | xargs -0 wc -l | grep "total" > out
+: 1487630900:0;cat out
+: 1487630930:0;cat out | grep -O "[0-9] "
+: 1487630936:0;cat out | grep -O "[0-9]* "
+: 1487630946:0;cat out | grep -o "[0-9]* "
+: 1487630952:0;cat out | grep -o "^[0-9]* "
+: 1487631001:0;cat out | grep -o "^[0-9]* " | grep -v " *"
+: 1487631006:0;cat out | grep -o "^[0-9]* " | grep -v "^ *$"
+: 1487631012:0;cat out | grep -o "^[0-9]* " | grep -v "^$"
+: 1487631027:0;cat out | grep -o "^[0-9]* " | grep  "^$"
+: 1487631031:0;cat out | grep -o "^[0-9]* " | grep  "^ *$"
+: 1487631035:0;cat out | grep -o "^[0-9]* " | grep  "^\s*$"
+: 1487631037:0;cat out | grep -o "^[0-9]* " | grep  "^\s$"
+: 1487631040:0;cat out | grep -o "^[0-9]* " | grep  "\s"
+: 1487631048:0;cat out | /bin/grep -o "^[0-9]* " | grep  "\s"
+: 1487631054:0;cat out | grep -o "^[0-9]* " | grep  "\s"
+: 1487631057:0;bash
+: 1487631272:0;cat out | grep -o "^[0-9]* "
+: 1487631272:0;cat out | grep -o "^[0-9]* " | grep -v " *"
+: 1487631272:0;cat out | grep -o "^[0-9]* " | grep -v "^ *$"
+: 1487631272:0;cat out | grep -o "^[0-9]* " | sed "s/ //"
+: 1487631272:0;cat out | grep -o "^[0-9]* " | grep -v "^ *$"
+: 1487631272:0;cat out | grep -o "^[0-9]* " | grep -v "^ *$" | sum
+: 1487631272:0;sum -h
+: 1487631272:0;man sum
+: 1487631272:0;which bc
+: 1487631272:0;man bc
+: 1487631272:0;cat out | grep -o "^[0-9]* " | grep -v "^ *$" | paste -sd+ - | bc
+: 1487631272:0;find . -parint0 | xargs -0 wc -l &> /dev/null | grep -o "^[0-9]* " | grep -v "^ *$" | paste -sd+ - | bc
+: 1487631272:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep -o "^[0-9]* " | grep -v "^ *$" | paste -sd+ - | bc
+: 1487631272:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep -o "^[0-9]* " | paste -sd+ - | bc
+: 1487631272:0;find . -print0 | xargs -0 wc -l | grep -o "^[0-9]* " | paste -sd+ - | bc
+: 1487631272:0;find . -print0 | xargs -0 wc -l | grep -o "^[0-9]* " ; | paste -sd+ - | bc
+: 1487631272:0;find . -print0 | xargs -0 wc -l | grep -o "^[0-9]* " ; paste -sd+ - | bc
+: 1487631272:0;clear
+: 1487631272:0;q
+: 1487631272:0;q
+: 1487631272:0;exit
+: 1487631272:0;q
+: 1487631275:0;clear
+: 1487631275:0;s
+: 1487631406:0;rm out
+: 1487631411:0;find . -print0 | xargs -0 wc -l &> /dev/null | grep "total"
+: 1487631420:0;find . -print0 | xargs -0 wc -l | grep "total"
+: 1487631426:0;find . -print0 | xargs -0 wc -l | grep "total" | | paste -sd+ - | bc
+: 1487631431:0;find . -print0 | xargs -0 wc -l | grep "total" | paste -sd+ - | bc
+: 1487631447:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o "[0-9]* " paste -sd+ - | bc
+: 1487631453:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o "[0-9]* " | paste -sd+ - | bc
+: 1487631465:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o "[0-9]* " ; paste -sd+ - | bc
+: 1487631480:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " | paste -sd+ - | bc
+: 1487631487:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " ; paste -sd+ - | bc
+: 1487631500:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " -v "^ *$" ; paste -sd+ - | bc
+: 1487631515:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " -v "^ *$"
+: 1487631528:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " | grep -v "^ *$"
+: 1487631551:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " | grep -v "^ *$" | paste -sd+ - | bc
+: 1487631644:0;man paste
+: 1487631663:0;echo 'find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " | grep -v "^ *$" | paste -sd+ - | bc' | pbcopy
+: 1487631699:0;cd ...
+: 1487631702:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " | grep -v "^ *$" | paste -sd+ - | bc
+: 1487631790:0;man wc
+: 1487631865:0;find . -print0 | xargs -0 wc -l | paste -sd+ - | bc
+: 1487631894:0;find . -type f -print0 | xargs -0 cat | wc -l
+: 1487631934:0;find . -print0 | xargs -0 wc -l | grep "total" | grep -o --color=never "[0-9]* " | grep -v "^ *$" | paste -sd+ - | bc
+: 1487632334:0;q
+: 1487632336:0;cd Jarvis
+: 1487632337:0;cd site
+: 1487632338:0;clear
+: 1487632347:0;vim imports/startup/router.js
+: 1487632425:0;vim imports/ui/pages/index.js
+: 1487634191:0;clear
+: 1487634191:0;s
+: 1487634198:0;cd imports/ui/templates/
+: 1487634202:0;vim filter.js filter.html
+: 1487634399:0;git diff ../ui/templates/filter.js
+: 1487634474:0;clear
+: 1487634593:0;grep -R "dict\.get"
+: 1487634596:0;grep -R "dict\.get" .
+: 1487634597:0;cd ...
+: 1487634598:0;grep -R "dict\.get" .
+: 1487634603:0;cd imports
+: 1487634604:0;grep -R "dict\.get" .
+: 1487634619:0;clear
+: 1487634619:0;s
+: 1487634620:0;d
+: 1487634713:0;q
+: 1487634715:0;clear
+: 1487634715:0;s
+: 1487634721:0;vim searchBar.js
+: 1487634877:0;meteor
+: 1487635180:0;clear
+: 1487635180:0;s
+: 1487635181:0;d
+: 1487635214:0;vim filter.html
+: 1487635257:0;clear
+: 1487635258:0;s
+: 1487635259:0;d
+: 1487635271:0;vim filter.html
+: 1487635284:0;clear
+: 1487635284:0;s
+: 1487635284:0;d
+: 1487635334:0;git commit -m "Use the URL for state so that users can link to searches as well as individual posts"
+: 1487635336:0;a .
+: 1487635336:0;s
+: 1487635338:0;a ../.
+: 1487635339:0;s
+: 1487635346:0;git commit --amend -m "Use the URL for state so that users can link to searches as well as individual posts"
+: 1487635349:0;s
+: 1487635362:0;git pull
+: 1487635365:0;s
+: 1487635366:0;d
+: 1487635370:0;vim ../pages/index.js
+: 1487635385:0;clear
+: 1487635386:0;s
+: 1487635387:0;d
+: 1487635392:0;vim ../pages/index.js
+: 1487635406:0;clear
+: 1487635407:0;d
+: 1487635418:0;a .
+: 1487635418:0;s
+: 1487635421:0;a ../pages
+: 1487635421:0;s
+: 1487635422:0;clear
+: 1487635425:0;m "Merge"
+: 1487635426:0;s
+: 1487635427:0;d
+: 1487635430:0;git log
+: 1487636109:0;git diff HEAD^
+: 1487636151:0;node
+: 1487636174:0;git diff HEAD^
+: 1487636213:0;clear
+: 1487636215:0;git push
+: 1487636387:0;git log
+: 1487636392:0;git log | head
+: 1487636404:0;git log | head -n 15
+: 1487636419:0;git revert 23e9c77205dd392da1f0678c318d37f6c29739d4
+: 1487636424:0;git revert -m 23e9c77205dd392da1f0678c318d37f6c29739d4
+: 1487636430:0;git revert 23e9c77205dd392da1f0678c318d37f6c29739d4 -m
+: 1487636443:0;git revert 23e9c77205dd392da1f0678c318d37f6c29739d4 -m "Reverting due to accidental push to master"
+: 1487636491:0;git revert 23e9c77205dd392da1f0678c318d37f6c29739d4
+: 1487636516:0;clear
+: 1487639094:0;vrc
+: 1487640355:0;vr
+: 1487640358:0;vrc
+: 1487640378:0;vim filter.html
+: 1487640400:0;clear
+: 1487640400:0;s
+: 1487640401:0;vrc
+: 1487743372:0;s
+: 1487743380:0;ls test*
+: 1487743384:0;cd ../../api
+: 1487743385:0;ls test*
+: 1487743388:0;rm test.*
+: 1487743389:0;ls
+: 1487743391:0;clear
+: 1487743392:0;ls
+: 1487743393:0;.
+: 1487743398:0;git fetch
+: 1487743409:0;b feedback
+: 1487743411:0;clear
+: 1487743450:0;cd ../
+: 1487743450:0;ls
+: 1487743451:0;cd ui
+: 1487743451:0;.
+: 1487743452:0;ls
+: 1487743453:0;cd pages
+: 1487743454:0;ls
+: 1487743457:0;vim feedback.html
+: 1487744040:0;s
+: 1487744040:0;d
+: 1487744050:0;git checkout feedback.html
+: 1487744051:0;clear
+: 1487744051:0;s
+: 1487744190:0;vim feedback.html
+: 1487744358:0;vrc
+: 1487744378:0;git checkout feedback.html
+: 1487744380:0;clear
+: 1487744380:0;s
+: 1487744382:0;vim feedback.html
+: 1487744400:0;s
+: 1487744401:0;d
+: 1487744405:0;git checkout feedback.html
+: 1487744407:0;clear
+: 1487744407:0;s
+: 1487744410:0;vrc
+: 1487933518:0;q
+: 1487936540:0;cd ~/Drive
+: 1487936544:0;ls
+: 1487936599:0;cd ../Documents
+: 1487936600:0;ls
+: 1487936602:0;.
+: 1487936613:0;cp VID_20160608_203424.mp4 ned.mp4
+: 1487936616:0;ls
+: 1487936632:0;brew install ffmpeg
+: 1487936893:0;ffmpeg -i ned.mp4 -vf deshake ned_out.mp4
+: 1487936996:0;u
+: 1487937003:0;du ned.mp4
+: 1487937013:0;du -hs ned.mp4
+: 1487953673:0;open ned_out.mp4
+: 1487953716:0;out ned.mp4
+: 1487953722:0;open ned.mp4
+: 1487954288:0;q
+: 1487954291:0;ls
+: 1487954295:0;rm VID_20160608_203424.mp4
+: 1487954297:0;ls
+: 1487954303:0;q
+: 1488180639:0;clear
+: 1488180639:0;s
+: 1488180882:0;ghci
+: 1488180956:0;clear
+: 1488180956:0;q
+: 1488228457:0;cat ~/Downloads/myUNSW\ Active.html | pbcopy
+: 1488285439:0;cd /Volumes/Seagate\ Expansion\ Drive
+: 1488285442:0;ls
+: 1488285445:0;cd Videos
+: 1488285445:0;.
+: 1488285454:0;cd Movies
+: 1488285478:0;clear
+: 1488285691:0;open Coherence.2013.720p.BluRay.x264.YIFY.mp4
+: 1488285814:0;Battlestar.Galactica.Razor.2007.EXTENDED.720p.BluRay.H264.AAC-RARBG.mp4
+: 1488285834:0;'Battlestar.Galactica.Razor.2007.EXTENDED.720p.BluRay.H264.AAC-RARBG.mp4'
+: 1488285839:0;open 'Battlestar.Galactica.Razor.2007.EXTENDED.720p.BluRay.H264.AAC-RARBG.mp4'
+: 1488407810:0;prolog
+: 1488407823:0;brew install -prolog
+: 1488408938:0;clear
+: 1488408943:0;brew install swi-prolog
+: 1488410820:0;prolog
+: 1488410829:0;find prolog
+: 1488411076:0;zrc
+: 1488411092:0;exec zsh
+: 1488411094:0;clear
+: 1488411105:0;cd /opt/bin
+: 1488411106:0;ls
+: 1488411107:0;cd /opt/
+: 1488411108:0;ls
+: 1488411110:0;cd X11
+: 1488411110:0;ls
+: 1488411112:0;cd bin
+: 1488411112:0;ls
+: 1488411117:0;cd ..
+: 1488411118:0;..
+: 1488411120:0;zrc
+: 1488411125:0;clear
+: 1488411126:0;cd
+: 1488411156:0;swipl
+: 1488411158:0;zrc
+: 1488411183:0;clear
+: 1488411185:0;exec zsh
+: 1488411191:0;prolog
+: 1488411517:0;cd ~/Drive/Uni/Tutoring/COMP3411_AI
+: 1488411518:0;ls
+: 1488411522:0;vim climbing.pl\ solution.html
+: 1488411556:0;prolog
+: 1488411636:0;prolog -s climbing.pl
+: 1488411948:0;clear
+: 1488411949:0;ls
+: 1488411958:0;mv family.pl\ solution.html family.pl
+: 1488411962:0;ls
+: 1488411967:0;mv lists.pl\ solution.html lists.pl
+: 1488411970:0;vim *.pl
+: 1488411992:0;clear
+: 1488411992:0;ls
+: 1488411996:0;vim
+: 1488412003:0;prolog -s climbing.pl
+: 1488412120:0;zrc
+: 1488412220:0;clear
+: 1488412221:0;s
+: 1488412222:0;vim lists.pl
+: 1488412267:0;vrc
+: 1488412295:0;vim lists.pl
+: 1488412407:0;prolog -s climbing.pl
+: 1488412413:0;clear
+: 1488412414:0;q
+: 1488412415:0;clear
+: 1488412415:0;q
+: 1488412420:0;ls
+: 1488412422:0;vim climbing.pl
+: 1488412446:0;zrc
+: 1488412452:0;vrc
+: 1488412504:0;vim lists.pl
+: 1488412593:0;vim
+: 1488412603:0;clear
+: 1488412603:0;s
+: 1488412605:0;vim lists.pl
+: 1488412638:0;cd ~/.config/nvim
+: 1488412639:0;ls
+: 1488412645:0;grep -R "perl" .
+: 1488412655:0;grep -R "filetype=perl" .
+: 1488412663:0;grep -R ".pl" .
+: 1488412666:0;grep -R "\.pl" .
+: 1488412680:0;grep -R "filetype" .
+: 1488412684:0;grep -R "filetype" . | grep pl
+: 1488412695:0;vrc
+: 1488412714:0;cd -
+: 1488412716:0;vim lists.pl
+: 1488412753:0;vim
+: 1488412769:0;vim lists.pl
+: 1488412775:0;zrc
+: 1488412781:0;vim lists.pl
+: 1488412848:0;clear
+: 1488412848:0;ls
+: 1488412854:0;vim climbing.pl family.pl lists.pl
+: 1488495317:0;dig  lectures.unsw.edu
+: 1488495336:0;q
+: 1488496816:0;cd ~/Downloads
+: 1488496817:0;.
+: 1488496828:0;rm \ \(1\)*
+: 1488496831:0;rm *\ \(1\)*
+: 1488496832:0;.
+: 1488496848:0;rm Illustrator_Installer.dmg
+: 1488496854:0;rm Your\ registration\ with\ the\ Australian\ Organ\ Donor\ Register
+: 1488496855:0;.
+: 1488496866:0;open document\ \(2\).pdf
+: 1488496874:0;rm document\ \(2\).pdf
+: 1488496878:0;open document\ \(3\).pdf
+: 1488496932:0;q
+: 1488496939:0;clear
+: 1488496940:0;.
+: 1488496946:0;rm document\ \(3\).pdf
+: 1488496948:0;open document.pdf
+: 1488496952:0;rm document.pdf
+: 1488496952:0;.
+: 1488496966:0;vim myUNSW\ Active.html
+: 1488496974:0;chrom
+: 1488496975:0;chrome
+: 1488496980:0;vim myUNSW\ Active.html
+: 1488496996:0;vrc
+: 1488497219:0;cd ~/.config/nvim
+: 1488497225:0;grep -R "LocationList"
+: 1488497228:0;grep -R "LocationList" .
+: 1488497230:0;clear
+: 1488497230:0;s
+: 1488497231:0;d
+: 1488497278:0;a zshrc
+: 1488497279:0;clear
+: 1488497282:0;a ../zshrc
+: 1488497283:0;s
+: 1488497288:0;d ../gitconfig
+: 1488497291:0;a ../gitconfig
+: 1488497292:0;clear
+: 1488497292:0;s
+: 1488497297:0;d ../gtk-2.0
+: 1488497305:0;vim ../.gitignore
+: 1488497313:0;clear
+: 1488497313:0;s
+: 1488497317:0;a ../.gitignore
+: 1488497318:0;clear
+: 1488497318:0;s
+: 1488497320:0;d init.vim
+: 1488497338:0;a init.vim
+: 1488497339:0;.
+: 1488497339:0;s
+: 1488497357:0;m "Cleaned up some keybindings, added prolog alias"
+: 1488497358:0;s
+: 1488497359:0;d
+: 1488497373:0;a ../zsh_history
