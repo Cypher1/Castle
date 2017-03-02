@@ -7,10 +7,8 @@ Plug 'tpope/vim-fugitive'               " Git in Vim
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'rbgrouleff/bclose.vim'            " Close properly
 Plug 'tmhedberg/matchit'                " % Match based jumping
-Plug 'chrisbra/csv.vim'                 " Tables
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
-Plug 'vim-scripts/a.vim'                " Move between .c and .h
 Plug 'rhysd/vim-clang-format'           " Formatting for Code
 Plug 'jlfwong/vim-arcanist'             " Arc integration
 Plug 'eagletmt/neco-ghc'                " Haskell Completion
@@ -18,6 +16,7 @@ Plug 'bitc/vim-hdevtools'               " Haskell Types
 Plug 'neovimhaskell/haskell-vim'        " Haskell Syntax
 Plug 'itchyny/vim-haskell-indent'       " Haskell Indent
 Plug 'mxw/vim-xhp'                      " Xhp indent and syntax
+Plug 'adimit/prolog.vim'                " Prolog
 call plug#end()
 
 " Colour Scheme
@@ -72,17 +71,17 @@ nnoremap Q q
 set nostartofline
 
 " Key mappings
-map <leader>r :mode<CR>
+nmap <leader>r :mode<CR>
 nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 au FileType c,cpp,javascript,java nnoremap <leader>i :ClangFormat<CR>
 if exists(':tnoremap')
     tnoremap <Esc> <C-\><C-n>
 endif
-map <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
+nmap <leader>s :so ~/.config/nvim/init.vim<CR>:PlugClean<CR>:PlugInstall<CR>
 " Haskell
 let g:haskell_indent_disable=0
-map <leader>t :HdevtoolsType<CR>
-map <leader>T :HdevtoolsClear<CR>
+nmap <leader>t :HdevtoolsType<CR>
+nmap <leader>T :HdevtoolsClear<CR>
 " Deoplete
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 
@@ -90,7 +89,7 @@ inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
 cmap w!! w !sudo tee % >/dev/null
 
 " Indent
-set tabstop=4 softtabstop=4 shiftwidth=4
+set tabstop=2 softtabstop=2 shiftwidth=2
 set smarttab shiftround expandtab autoindent copyindent
 
 " Git
@@ -100,20 +99,20 @@ nnoremap <leader>b :Gblame<CR>
 nnoremap <leader>v :Gmove
 
 " Control files
-map <leader>\ :vsp<space>
-map <leader>- :sp<space>
-map <leader>e :e<space>
-map <leader>n :bn<CR>
-map <leader>m :bp<CR>
-map <leader>q :Bclose<CR>
-map <leader>w :w<CR>
+nmap <leader>\ :vsp<space>
+nmap <leader>- :sp<space>
+nmap <leader>e :e<space>
+nmap <leader>n :bn<CR>
+nmap <leader>m :bp<CR>
+nmap <leader>q :Bclose<CR>
+nmap <leader>w :w<CR>
 
 " Splits
 set splitbelow splitright
-map <silent> <leader>h :wincmd h<CR>
-map <silent> <leader>j :wincmd j<CR>
-map <silent> <leader>k :wincmd k<CR>
-map <silent> <leader>l :wincmd l<CR>
+nmap <silent> <leader>h :wincmd h<CR>
+nmap <silent> <leader>j :wincmd j<CR>
+nmap <silent> <leader>k :wincmd k<CR>
+nmap <silent> <leader>l :wincmd l<CR>
 
 " NeoMake
 let g:neomake_rust_enabled_makers = ['cargo']
@@ -126,6 +125,13 @@ let g:neomake_cpp_clang_maker = {
 let g:neomake_python_enabled_makers = ['pylint', 'flake']
 let g:neomake_markdown_enabled_makers = ['mdl']
 let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
+let g:neomake_javascript_enabled_makers = ['eslint']
+  let g:neomake_javascript_eslint_maker = {
+    \ 'exe': split(system('npm bin'), '\n')[0].'/eslint',
+    \ 'args': ['-f', 'compact'],
+    \ 'errorformat': '%E%f: line %l\, col %c\, Error - %m,' .
+    \ '%W%f: line %l\, col %c\, Warning - %m'
+    \ }
 au BufWritePre * :silent! Neomake " Includes auto tidy for html etc
 
 function! LocationNext()
@@ -137,9 +143,6 @@ function! LocationNext()
 endfunction
 
 nnoremap <leader>e :call LocationNext()<CR>
-nnoremap Q <nop>
-nnoremap qq <nop>
-nnoremap v <nop>
 nnoremap ¬ :lopen<CR>
 "<A-L>
 nnoremap ˙ :lclose<CR>
@@ -153,10 +156,9 @@ au BufNewFile,BufRead *.tem set filetype=cpp
 " Html Options
 au FileType html,css,javascript setl sw=2 sts=2 et
 au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
-au BufWritePre,BufRead *.html :normal gg=G
 :iabbrev </ </<C-X><C-O>
 
-" Program Options
+" Run as Program
 function! Chrome()
     !clear; exec chrome % &>/dev/null &
 endfunction
@@ -170,15 +172,15 @@ function! Term(...)
     execute 'sp | term '.join(a:000, ' ')
 endfunction
 
-command! -nargs=* Chrome call Chrome(<f-args>)
-command! -nargs=* Vterm call Vterm(<f-args>)
-command! -nargs=* Term call Term(<f-args>)
-
 function! Repl(filetype, call)
     " echo "Setting up " a:filetype " -> " a:call
     execute 'au FileType '.a:filetype.' map <buffer><silent> <leader>p :Vterm '.a:call.'<CR>'
     execute 'au FileType '.a:filetype.' map <buffer><silent> <leader>P :Term '.a:call.'<CR>'
 endfunction
+
+command! -nargs=* Chrome call Chrome(<f-args>)
+command! -nargs=* Vterm call Vterm(<f-args>)
+command! -nargs=* Term call Term(<f-args>)
 
 call Repl("sh", "bash %")
 call Repl("zsh", "zsh %")
@@ -187,6 +189,8 @@ call Repl("javascript", "node %")
 call Repl("haskell", "runhaskell -Wall -fno-warn-unused-binds %")
 call Repl("cpp", "g++ % -Wall -Werror -std=c++14; ./a.out")
 call Repl("arduino", "processing-java --sketch=`pwd` --present")
+call Repl("prolog", "swipl -s %")
+let g:filetype_pl="prolog"
 
 " No more arrow keys
 map <Up>    <NOP>

@@ -58,6 +58,7 @@ alias -s js='nvim'
 alias server="python -m SimpleHTTPServer"
 alias jp='processing-java --sketch=`pwd` --present'
 alias robo="open ~/VMs/Ubuntu\ 64-bit\ 14.04.1.vmwarevm"
+alias prolog="swipl -s"
 
 function mk { mkdir $1; cd $1; }
 function clean {
@@ -112,7 +113,7 @@ function gitbranchcheck { # FUNCTION TO CHECKOUT OR CREATE A BRANCH
     git checkout $1 || (git branch $1; git checkout $1);
 }
 function _gitbranchcheck { # AUTO COMPLETE BRANCHES
-    reply=($(git branch | grep -o '[^ ]*$'))
+    reply=($(git branch --no-color | grep -o '[^ ]*$'))
 }
 compctl -K _gitbranchcheck gitbranchcheck
 alias -s git='git clone'

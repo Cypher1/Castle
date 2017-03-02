@@ -10,3 +10,4 @@ cabal/packages/hackage.haskell.org/*.tar
 *~
 local.vim
 spell
+gtk-2.0
