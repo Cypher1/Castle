@@ -7,14 +7,12 @@ Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'rbgrouleff/bclose.vim'            " Close properly
-Plug 'eagletmt/neco-ghc'                " Haskell Completion
+Plug 'tpope/vim-eunuch'                 " Unix built in
+Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
+Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'bitc/vim-hdevtools'               " Haskell Types
-Plug 'neovimhaskell/haskell-vim'        " Haskell Syntax
-Plug 'itchyny/vim-haskell-indent'       " Haskell Indent
-Plug 'rhysd/vim-clang-format'           " Formatting for Code
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'alvan/vim-closetag'               " Lazy html
-Plug 'adimit/prolog.vim'                " Prolog
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
 call plug#end()
 
@@ -32,6 +30,7 @@ match OverLength /\%81v.\+/
 set cursorline ruler relativenumber number laststatus=4
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
+let g:airline#extensions#tabline#fnamemod = ':t'
 set list listchars=tab:>.,trail:.,extends:#,nbsp:.
 " }}}
 " Input settings {{{
@@ -45,6 +44,9 @@ let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib
 set sessionoptions-=options
 let g:session_command_aliases = 1
 set foldmethod=manual foldlevel=0
+set noerrorbells novisualbell t_vb=
+set smartcase gdefault magic
+nnoremap <silent> <C-l> :nohlsearch<CR><C-l>
 " File Writes {{{
 set backup writebackup backupdir=/tmp/ hidden
 cmap w!! w !sudo tee % >/dev/null
@@ -142,6 +144,7 @@ augroup vim
   au Filetype markdown,html nmap <buffer> <leader>p :call Chrome()<CR>
   au FileType html iabbrev </ </<C-X><C-O>
   au Filetype markdown match OverLength //
+  au CursorMoved * if mode() !~# "[vV\<C-v>]" | set nornu nu | endif
 augroup END
 " }}}
 " Repls {{{
