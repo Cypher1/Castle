@@ -33762,3 +33762,2115 @@ git stash apply
 : 1488501428:0;clear
 : 1488501428:0;s
 : 1488501446:0;git add ../zsh_history&& git commit -m "Fixed zsh_history and Augroup issues in vim" && git push
+: 1488501455:0;clear
+: 1488501455:0;s
+: 1488501457:0;git pul
+: 1488501458:0;git pull
+: 1488501464:0;clear
+: 1488501464:0;s
+: 1488501466:0;vim init.vim
+: 1488502441:0;cd ~/
+: 1488502441:0;ls
+: 1488502442:0;cd Documents
+: 1488502443:0;.
+: 1488502446:0;cd Projects
+: 1488502446:0;.
+: 1488502450:0;cd HaskPG
+: 1488502451:0;ls
+: 1488502456:0;ghci main.hs
+: 1488502464:0;ghc main.hs -Wall
+: 1488502465:0;ls
+: 1488502468:0;rm main
+: 1488502471:0;ghc main.hs -Wall
+: 1488502473:0;ls
+: 1488502474:0;./main
+: 1488502478:0;clear
+: 1488502478:0;ls
+: 1488502519:0;ghc main.hs -Wall -o a.out
+: 1488502521:0;ls
+: 1488502538:0;q
+: 1488502630:0;cd ~/Documents/Projects
+: 1488502630:0;ls
+: 1488502634:0;cd HaskPG
+: 1488502638:0;vim main.hs
+: 1488502647:0;zrc
+: 1488502666:0;vim main.hs
+: 1488502686:0;ls
+: 1488502688:0;./a.out
+: 1488502690:0;clear
+: 1488502690:0;s
+: 1488502691:0;rm a.out
+: 1488502694:0;rm main
+: 1488502695:0;clear
+: 1488502695:0;s
+: 1488502699:0;zrc
+: 1488502788:0;vrc
+: 1488502827:0;ls
+: 1488502837:0;ghci main.hs
+: 1488502841:0;ghc main.hs
+: 1488502843:0;ls
+: 1488502848:0;`main`
+: 1488502851:0;`./main`
+: 1488502857:0;./main
+: 1488502861:0;./`main`
+: 1488502864:0;./`echo main`
+: 1488502866:0;clear
+: 1488502884:0;./`echo main.hs | sed "s/\..*//`
+: 1488502889:0;echo main.hs | sed "s/\..*//
+: 1488502892:0;echo main.hs | sed "s/\..*//"
+: 1488502903:0;echo main.hs | sed "s/\.[^\.]*//"
+: 1488502948:0;sed "s/\.[^\.]*//"  <<< "main.hs"
+: 1488502962:0;`sed "s/\.[^\.]*//" <<< "main.hs"`
+: 1488502966:0;./`sed "s/\.[^\.]*//" <<< "main.hs"`
+: 1488503023:0;q
+: 1488504087:0;vim main.hs
+: 1488504098:0;zrc
+: 1488504101:0;vrc
+: 1488504169:0;vim main.hs
+: 1488504176:0;zrc
+: 1488504185:0;vrc
+: 1488504687:0;q
+: 1488504749:0;vrc
+: 1488505173:0;cd ~/.config; grep -R ToggleLocationList .
+: 1488505281:0;vrc
+: 1488505446:0;vim
+: 1488505459:0;vrc
+: 1488505493:0;cd -
+: 1488505494:0;clear
+: 1488505496:0;vim main.hs
+: 1488505516:0;vrc
+: 1488505523:0;vim main.hs
+: 1488505527:0;zrc
+: 1488505535:0;vrc
+: 1488505548:0;vim main.hs
+: 1488505553:0;vrc
+: 1488505563:0;vim main.hs
+: 1488505567:0;vrc
+: 1488505615:0;vim main.hs
+: 1488505624:0;rm ~/out
+: 1488505626:0;vrc
+: 1488505709:0;vim main.hs
+: 1488505724:0;vrc
+: 1488505789:0;vim main.hs
+: 1488506042:0;vrc
+: 1488506123:0;vim main.hs
+: 1488506136:0;vrc
+: 1488506159:0;clear
+: 1488506159:0;s
+: 1488506162:0;vim main.hs
+: 1488506179:0;zrc
+: 1488506182:0;vrc
+: 1488506192:0;vim main.hs
+: 1488506198:0;vrc
+: 1488506212:0;vim main.hs
+: 1488506219:0;vrc
+: 1488506236:0;vim main.hs
+: 1488506251:0;vrc
+: 1488506280:0;vim main.hs
+: 1488506289:0;zrc
+: 1488506292:0;vrc
+: 1488506303:0;vim main.hs
+: 1488506307:0;vrc
+: 1488506720:0;vim -u NONE
+: 1488506736:0;vrc
+: 1488506772:0;cd ~/.config
+: 1488506773:0;ls
+: 1488506774:0;clear
+: 1488506774:0;s
+: 1488506775:0;d
+: 1488506783:0;git rm nvim/plugged/vim-fugitive
+: 1488506784:0;clear
+: 1488506784:0;s
+: 1488506787:0;d nvim/init.vim
+: 1488506812:0;.
+: 1488506812:0;s
+: 1488506813:0;d
+: 1488506818:0;grep -R "LocationList" .
+: 1488506826:0;grep -R "LocationList" *
+: 1488506927:0;vrc
+: 1488506950:0;cd nvim/plugged
+: 1488506951:0;ls
+: 1488506953:0;cd neomake
+: 1488506954:0;ls
+: 1488506955:0;clear
+: 1488506955:0;s
+: 1488506958:0;grep -R "LocationList" *
+: 1488506963:0;grep -R "map" *
+: 1488506971:0;clear
+: 1488506999:0;vrc
+: 1488507069:0;cd ...
+: 1488507075:0;grep -R "map ll" .
+: 1488507078:0;grep -R "map ll" *
+: 1488507087:0;clear
+: 1488507087:0;s
+: 1488511709:0;open ~/Documents/Lectures/ML_wk1.m4v
+: 1488511718:0;clear
+: 1488511719:0;s
+: 1488511723:0;cd ~/Documents/Lectures
+: 1488511724:0;.
+: 1488511738:0;mv l01_IntroML_170301.pdf ML_wk1_Intro.pdf
+: 1488511740:0;ls
+: 1488511747:0;vim ML_wk1.md
+: 1488514576:0;vrc
+: 1488514706:0;vim ML_wk1.md
+: 1488514902:0;vim ML_wk1
+: 1488514906:0;vim ML_wk1.md
+: 1488515080:0;cd ~/
+: 1488515082:0;rm Creative\ Cloud\ Files
+: 1488515082:0;ls
+: 1488515150:0;cd /Library
+: 1488515154:0;cd ..
+: 1488515155:0;clear
+: 1488515156:0;ls
+: 1488515159:0;cd Us
+: 1488515161:0;cd Users
+: 1488515161:0;ls
+: 1488515164:0;cd Shared
+: 1488515164:0;ls
+: 1488515168:0;cd ../Cypher
+: 1488515168:0;ls
+: 1488515171:0;cd Library
+: 1488515171:0;.
+: 1488515202:0;cd Goo
+: 1488515203:0;cd Google
+: 1488515204:0;.
+: 1488515208:0;cd /Library/Google
+: 1488515208:0;.
+: 1488515211:0;cd Chrome
+: 1488515212:0;.
+: 1488515215:0;ls -la
+: 1488515217:0;cd ..
+: 1488515217:0;.
+: 1488515222:0;vim Google\ Chrome\ Brand.plist
+: 1488515224:0;.
+: 1488515225:0;cd ..
+: 1488515226:0;.
+: 1488515231:0;vim ~/test
+: 1488515249:0;cd
+: 1488515250:0;.
+: 1488515252:0;rm test
+: 1488515253:0;.
+: 1488515460:0;cd /
+: 1488515468:0;find -name febilkbfcbhebfnokafefeacimjdckgl
+: 1488515471:0;find --name febilkbfcbhebfnokafefeacimjdckgl
+: 1488515473:0;man find
+: 1488515502:0;find -name 'febilkbfcbhebfnokafefeacimjdckgl'
+: 1488515505:0;find . -name 'febilkbfcbhebfnokafefeacimjdckgl'
+: 1488515563:0;cd /Users/Cypher/Library/Application Support/Google/Chrome/Default/Extensions/
+: 1488515567:0;cd '/Users/Cypher/Library/Application Support/Google/Chrome/Default/Extensions/'
+: 1488515568:0;.
+: 1488515571:0;ls *
+: 1488515575:0;cd febilkbfcbhebfnokafefeacimjdckgl
+: 1488515576:0;.
+: 1488515577:0;cd 0.5.6_0
+: 1488515578:0;.
+: 1488515586:0;vim theme
+: 1488515919:0;ls
+: 1488515924:0;vim _metadata
+: 1488515928:0;rm _metadata
+: 1488515929:0;.
+: 1488515940:0;ls
+: 1488515944:0;vim manifest.json
+: 1488515993:0;vim theme/Clearness
+: 1488515995:0;vim theme/Clearness.css
+: 1488757915:0;vim ML_wk1.md weights.hs
+: 1488757928:0;rm test.py
+: 1488757929:0;.
+: 1488757929:0;vrc
+: 1488758036:0;vim weights
+: 1488758039:0;vim weights.hs
+: 1488758046:0;vrc
+: 1488758075:0;vim weights.hs
+: 1488758094:0;vrc
+: 1488758111:0;vim weights.hs
+: 1488758155:0;vrc
+: 1488758205:0;vim weights.hs
+: 1488758214:0;vrc
+: 1488758310:0;/usr/bin/vim
+: 1488758359:0;brew update neovim
+: 1488758367:0;brew upgreade neovim
+: 1488758376:0;brew upgrade neovim
+: 1488758397:0;q
+: 1488758697:0;vim weights.hs
+: 1488758704:0;vrc
+: 1488758718:0;vim weights.hs
+: 1488758724:0;vrc
+: 1488758732:0;vim weights.hs
+: 1488758746:0;vrc
+: 1488758883:0;vim -u NORC
+: 1488758889:0;vrc
+: 1488758899:0;vim -u NORC
+: 1488758902:0;vim
+: 1488758912:0;vim local.vim
+: 1488758921:0;vrc
+: 1488758965:0;vim local.vim
+: 1488758970:0;vrc
+: 1488759180:0;clear
+: 1488759180:0;s
+: 1488759185:0;vim weights.hs
+: 1488760184:0;vim
+: 1488760208:0;cd ~/.local/share/nvim/view
+: 1488760209:0;ls
+: 1488760211:0;clear
+: 1488760211:0;ls
+: 1488760213:0;clear
+: 1488760214:0;ls | wc -l
+: 1488760217:0;rm *
+: 1488760219:0;clear
+: 1488760220:0;ls
+: 1488760222:0;vim
+: 1488760224:0;vrc
+: 1488760240:0;ls
+: 1488760242:0;rm *
+: 1488760244:0;clear
+: 1488760245:0;vrc
+: 1488760258:0;ls
+: 1488760259:0;rm *
+: 1488760262:0;cd 
+: 1488760263:0;clear
+: 1488760263:0;s
+: 1488760267:0;cd Documents
+: 1488760267:0;.
+: 1488760270:0;cd Lectures
+: 1488760271:0;ls
+: 1488760275:0;vim weights.hs
+: 1488760323:0;vrc
+: 1488760338:0;vim weights.hs
+: 1488760346:0;cd ~/.config
+: 1488760347:0;cd nvim
+: 1488760348:0;s
+: 1488760348:0;clear
+: 1488760349:0;s
+: 1488760354:0;d spell
+: 1488760357:0;a spell
+: 1488760359:0;s
+: 1488760368:0;m "Added some words"
+: 1488760369:0;clear
+: 1488760369:0;s
+: 1488760371:0;d init.vim
+: 1488760393:0;a init.vim
+: 1488760434:0;m "Cleaned up, used proper folds in vimrc, remove mkview and loadview (caused issues with stale keybindings)"
+: 1488760435:0;p
+: 1488760443:0;clear
+: 1488760444:0;s
+: 1488760451:0;cat out
+: 1488760454:0;rm out
+: 1488760455:0;.
+: 1488760455:0;s
+: 1488760462:0;git log out
+: 1488760464:0;clear
+: 1488760468:0;git diff out
+: 1488760474:0;git diff
+: 1488760496:0;git log --follow 
+: 1488760502:0;git log --follow out
+: 1488760504:0;git log --follow origin/master 
+: 1488760507:0;git log --follow origin
+: 1488760510:0;clear
+: 1488760510:0;s
+: 1488760514:0;d out
+: 1488760516:0;D out
+: 1488760517:0;clear
+: 1488760519:0;q
+: 1488760526:0;s
+: 1488760528:0;cd
+: 1488760531:0;cd D/l/
+: 1488760533:0;cd Documents/Lectures
+: 1488760535:0;.
+: 1488760539:0;clean
+: 1488760540:0;.
+: 1488760543:0;vim weights.hs
+: 1488762632:0;vrc
+: 1488762655:0;vim weights.hs
+: 1488762676:0;vrc
+: 1488764984:0;clear
+: 1488764984:0;s
+: 1488764986:0;vim weights
+: 1488764990:0;vrc
+: 1488764999:0;vim weights.hs
+: 1488765036:0;vrc
+: 1488765050:0;vim weights.hs
+: 1488765147:0;vim ML_wk1.md
+: 1488765194:0;vrc
+: 1488766160:0;ping 8.8.8.8
+: 1488766165:0;clear
+: 1488766170:0;ping 10.0.0.138
+: 1488766222:0;q
+: 1488848582:0;open /Volumes
+: 1488848585:0;q
+: 1488853864:0;which wrc
+: 1488853867:0;which vrc
+: 1488853877:0;vrc weights.hs
+: 1488854235:0;cd ~/.config
+: 1488854237:0;d
+: 1488854251:0;watch d
+: 1488854254:0;which d
+: 1488854258:0;watch git diff
+: 1488854264:0;clear
+: 1488854267:0;watch "git diff"
+: 1488854301:0;watch "echo 'q' | git diff"
+: 1488854348:0;d
+: 1488854457:0;vrc weights.hs
+: 1488854473:0;vrc
+: 1488854479:0;cd ~/.config
+: 1488854480:0;d
+: 1488854488:0;s
+: 1488854493:0;d nvim/spell
+: 1488854499:0;a nvim/spell
+: 1488854500:0;s
+: 1488854503:0;clear
+: 1488854503:0;s
+: 1488854508:0;m "Added some words"
+: 1488854509:0;clear
+: 1488854509:0;s
+: 1488854513:0;rm nvim/autoload
+: 1488854515:0;s
+: 1488854525:0;git checkout nvim/autoload/plug.vim
+: 1488854527:0;clear
+: 1488854527:0;s
+: 1488854532:0;rm nvim/out
+: 1488854533:0;clear
+: 1488854533:0;s
+: 1488854536:0;git rm nvim/out
+: 1488854537:0;clear
+: 1488854537:0;s
+: 1488854544:0;d nvim/init.vim
+: 1488854577:0;man git diff
+: 1488854587:0;man git-diff
+: 1488854618:0;d --raw
+: 1488854620:0;clear
+: 1488854621:0;man git-diff
+: 1488854668:0;git diff --minimal nvim/init.vim
+: 1488854675:0;git diff --minimal nvim/init.vim | cat
+: 1488854680:0;git diff --minimal nvim/init.vim | /bin/cat
+: 1488854690:0;watch "git diff --minimal nvim/init.vim | /bin/cat"
+: 1488854724:0;cd ~/.config
+: 1488854726:0;a nvim/init.vim
+: 1488854758:0;watch "git diff -D --minimal nvim/init.vim | /bin/cat"
+: 1488854761:0;D
+: 1488854763:0;which D
+: 1488854769:0;watch "git diff -staged --minimal nvim/init.vim | /bin/cat"
+: 1488854774:0;watch "git diff --staged --minimal nvim/init.vim | /bin/cat"
+: 1488854792:0;m "Silenced the bell, cleaned up plugins to be more minimal and changed tabline naming"
+: 1488854793:0;p
+: 1488854796:0;q
+: 1488854804:0;clear
+: 1488854805:0;s
+: 1488854805:0;q
+: 1488854887:0;ls
+: 1488854889:0;clean
+: 1488854890:0;ls
+: 1488854892:0;cd ~/.
+: 1488854893:0;ls
+: 1488854896:0;ls packages
+: 1488854900:0;cat packages
+: 1488854905:0;rm packages versions
+: 1488854905:0;.
+: 1488854909:0;ls ap
+: 1488854910:0;ls api
+: 1488854914:0;clear
+: 1488854914:0;ls
+: 1488854916:0;rm api
+: 1488854917:0;.
+: 1488854917:0;ls
+: 1488854921:0;ls Downloads
+: 1488854927:0;clear
+: 1488854927:0;q
+: 1488857444:0;vrc
+: 1488859324:0;vim ML_wk1.md
+: 1488859537:0;cd ~/Documents/Projects/Jarvis
+: 1488859541:0;vim site/
+: 1488859591:0;vrc
+: 1488859616:0;clear
+: 1488859616:0;s
+: 1488859620:0;d
+: 1488859633:0;cat site/imports/api/a.out
+: 1488859639:0;rm site/imports/api/a.out
+: 1488859639:0;.
+: 1488859640:0;s
+: 1488859644:0;vim
+: 1488859656:0;vrc
+: 1488859668:0;vim
+: 1488859716:0;vrc
+: 1488859738:0;vim
+: 1488859755:0;s
+: 1488859758:0;git checkout
+: 1488859759:0;clear
+: 1488859759:0;s
+: 1488859761:0;d
+: 1488859763:0;git stash
+: 1488859764:0;clear
+: 1488859764:0;s
+: 1488859772:0;vim **/posts.js
+: 1488859781:0;a
+: 1488859783:0;clear
+: 1488859783:0;s
+: 1488859784:0;d
+: 1488859794:0;git stash
+: 1488859796:0;.
+: 1488859797:0;b master
+: 1488859799:0;pull
+: 1488859800:0;p
+: 1488859807:0;q
+: 1488859811:0;P
+: 1488859821:0;clear
+: 1488859821:0;s
+: 1488859824:0;vim *
+: 1488859836:0;v *
+: 1488859842:0;q
+: 1488859868:0;vrc
+: 1488860791:0;clear
+: 1488860791:0;s
+: 1488860794:0;vim
+: 1488860846:0;../
+: 1488860850:0;cd HaskPG
+: 1488860851:0;vim
+: 1488860864:0;vrc
+: 1488860888:0;vim
+: 1488860898:0;vrc
+: 1488860938:0;vim
+: 1488861548:0;vrc
+: 1488861686:0;vim main.hs
+: 1488861804:0;clear
+: 1488861804:0;s
+: 1488882069:0;dig youtube.com
+: 1488882241:0;tracert 8.8.8.8
+: 1488882251:0;traceroute 8.8.8.8
+: 1488882376:0;q
+: 1488945061:0;cd
+: 1488945062:0;cd Documents
+: 1488945062:0;.
+: 1488945065:0;cd Programming_Problems
+: 1488945066:0;ls
+: 1488945073:0;vim rlcompress.hs
+: 1488946685:0;vrc
+: 1488946692:0;vim rlcompress.hs
+: 1488946697:0;vim rlcompress
+: 1488946702:0;vrc
+: 1488946743:0;vim rlcompress.hs
+: 1488946789:0;vrc
+: 1488947041:0;clear
+: 1488947041:0;s
+: 1488947043:0;vim rlcompress.hs
+: 1488956417:0;q
+: 1488961540:0;cd ~/Documents/Lectures
+: 1488961543:0;vim ML_wk1.md
+: 1488961909:0;ghci
+: 1488962451:0;vim
+: 1488971667:0;ghci
+: 1488971884:0;s
+: 1488972269:0;v ML_wk1.md
+: 1488972657:0;exit
+: 1488973252:0;cd ../Programming_Problems
+: 1488973253:0;.
+: 1488973257:0;vim rlcompress.hs
+: 1489025848:0;q
+: 1489029474:0;./a.out input.txt
+: 1489029478:0;./a.out input.txt output.txt
+: 1489029479:0;ls
+: 1489029481:0;cat output.txt
+: 1489029495:0;cp rlcompress.cpp rldecode.cpp
+: 1489029501:0;mv rlcompress.cpp rlencode.cpp
+: 1489029504:0;rm a.out
+: 1489029505:0;clear
+: 1489029505:0;ls
+: 1489029507:0;clean
+: 1489029507:0;ls
+: 1489029514:0;mkdir ~/Documents/Compression
+: 1489029519:0;mv rl* ../Compression
+: 1489029521:0;cd ../Compression
+: 1489029522:0;ls
+: 1489029522:0;clear
+: 1489029523:0;ls
+: 1489029526:0;rm rlcompress
+: 1489029527:0;.
+: 1489029534:0;vim rlencode.cpp
+: 1489029584:0;mv ../Programming_Problems/input.txt  .
+: 1489029585:0;ls
+: 1489029590:0;./a.out input.txt a.out
+: 1489029593:0;cat a.out
+: 1489029598:0;mv a.out output
+: 1489029599:0;cleara
+: 1489029600:0;ls
+: 1489029601:0;clear
+: 1489029601:0;ls
+: 1489029604:0;vim rldecode.cpp
+: 1489029632:0;ls
+: 1489029638:0;q
+: 1489029642:0;clear
+: 1489029642:0;s
+: 1489029644:0;cd ../Compression
+: 1489029645:0;.
+: 1489029648:0;vim rldecode.cpp
+: 1489029658:0;ls
+: 1489029673:0;g++ rlencode.cpp -o rlencode
+: 1489029679:0;g++ rldecode.cpp -o rldecode
+: 1489029680:0;ls
+: 1489029682:0;rm a.out
+: 1489029683:0;clear
+: 1489029684:0;ls
+: 1489029685:0;rm output
+: 1489029685:0;ls
+: 1489029696:0;./rlencode input.txt output.txt
+: 1489029706:0;./rlencode output.txt decoded.txt
+: 1489029706:0;ls
+: 1489029708:0;cat decoded.txt
+: 1489029723:0;./rldecode output.txt decoded.txt
+: 1489029725:0;cat decoded.txt
+: 1489029730:0;diff decoded.txt input.txt
+: 1489029732:0;clear
+: 1489029732:0;ls
+: 1489029739:0;./rlencode input.txt
+: 1489029749:0;./rldecode output.txt
+: 1489029753:0;cat input.txt
+: 1489029754:0;clear
+: 1489029755:0;ls
+: 1489029777:0;vim rldecode.cpp rlencode.cpp
+: 1489036960:0;vim test.pl
+: 1489037164:0;prolog -v
+: 1489037166:0;prolog -V
+: 1489037168:0;prolog
+: 1489037177:0;swipl
+: 1489053488:0;clear
+: 1489053489:0;s
+: 1489053540:0;q
+: 1489097931:0;make
+: 1489097939:0;man g++
+: 1489097941:0;g++ -h
+: 1489097945:0;g++ --help
+: 1489098021:0;clear
+: 1489098023:0;make
+: 1489098024:0;ls
+: 1489098037:0;rm rldecode rlencode *.o a.out
+: 1489098038:0;ls
+: 1489098039:0;.
+: 1489098039:0;ls
+: 1489098044:0;clean
+: 1489098046:0;ls
+: 1489098047:0;make
+: 1489098049:0;ls
+: 1489098080:0;make
+: 1489098082:0;ls
+: 1489098092:0;make all
+: 1489098094:0;clear
+: 1489098094:0;ls
+: 1489098099:0;make rldecode
+: 1489098101:0;ls
+: 1489098139:0;clean
+: 1489098139:0;ls
+: 1489098144:0;rm rldecode rlencode
+: 1489098145:0;.
+: 1489098147:0;make
+: 1489098148:0;ls
+: 1489098171:0;make
+: 1489098181:0;clear
+: 1489098194:0;make
+: 1489098201:0;clear
+: 1489098201:0;s
+: 1489098207:0;cat test.pl
+: 1489098210:0;rm test.pl
+: 1489098210:0;.
+: 1489098211:0;s
+: 1489098213:0;rm decoded.txt
+: 1489098218:0;rm output.txt
+: 1489098219:0;clear
+: 1489098219:0;ls
+: 1489098225:0;rm rldecode rlencode
+: 1489098226:0;.
+: 1489098232:0;make
+: 1489098238:0;./rlencode input.txt output.txt
+: 1489098240:0;cat output.txt
+: 1489098246:0;./rldecode output.txt decoded.txt
+: 1489098249:0;cat decoded.txt
+: 1489098251:0;diff decoded.txt input.txt
+: 1489098263:0;rm input.txt output.txt decoded.txt
+: 1489098264:0;clear
+: 1489098265:0;ls
+: 1489098373:0;cat > input.txt
+: 1489098379:0;q
+: 1489098383:0;ls
+: 1489098392:0;wc -l input.txt
+: 1489098398:0;head input.txt
+: 1489098405:0;tail input.txt
+: 1489098408:0;vim input.txt
+: 1489098415:0;clear
+: 1489098417:0;wc -l input.txt
+: 1489098418:0;.
+: 1489098431:0;./rlencode input.txt output.txt
+: 1489098438:0;wc -l output.txt
+: 1489098443:0;du -hs input.txt
+: 1489098446:0;du -hs output.txt
+: 1489098450:0;vim output.txt
+: 1489098477:0;clear
+: 1489098478:0;s
+: 1489098489:0;./rldecode output.txt decoded.txt
+: 1489098492:0;diff decoded.txt input.txt
+: 1489098496:0;rm output.txt decoded.txt
+: 1489098497:0;clear
+: 1489098497:0;s
+: 1489098560:0;base64 /dev/urandom | head -c 200000000 > input.txt
+: 1489098577:0;vim input.txt
+: 1489098620:0;clear
+: 1489098621:0;ls
+: 1489098623:0;head input.txt
+: 1489098626:0;rm input.txt
+: 1489098639:0;tr -dc A-Za-z </dev/urandom | head -c 1024 > a.txt
+: 1489098648:0;tr -dc A-Za-z0-9 </dev/urandom | head -c 1024 > a.txt
+: 1489098654:0;tr -dc 'A-Za-z0-9' </dev/urandom | head -c 1024 > a.txt
+: 1489098675:0;ls
+: 1489098677:0;clear
+: 1489098678:0;vim a.txt
+: 1489098681:0;rm a.txt
+: 1489098681:0;.
+: 1489098690:0;tc -dc A-Z
+: 1489098696:0;cat | tr -dc A-Z
+: 1489098710:0;clear
+: 1489098741:0;base64 /dev/urandom| tr -dc a-z | head -c 10000000 > input.txt
+: 1489098744:0;ls
+: 1489098750:0;cat input.txt| head
+: 1489098753:0;clear
+: 1489098756:0;./rlencode input.txt output.txt
+: 1489098761:0;./rldecode output.txt decoded.txt
+: 1489098765:0;diff input.txt decoded.txt
+: 1489098769:0;du -hs input.txt
+: 1489098773:0;du -hs output.txt
+: 1489098782:0;vim output.txt
+: 1489098821:0;base64 /dev/urandom| tr -dc a-f | head -c 10000000 > input.txt
+: 1489098830:0;./rlencode input.txt output.txt
+: 1489098833:0;./rldecode output.txt decoded.txt
+: 1489098836:0;diff input.txt decoded.txt
+: 1489098840:0;du -hs output.txt
+: 1489098842:0;du -hs input.txt
+: 1489098854:0;du -hs output.txt
+: 1489098857:0;du -hs decoded.txt
+: 1489098874:0;base64 /dev/urandom| tr -dc a-c | head -c 10000000 > input.txt
+: 1489098892:0;./rlencode input.txt output.txt
+: 1489098895:0;./rldecode output.txt decoded.txt
+: 1489098899:0;du -hs input.txt
+: 1489098903:0;du -hs output.txt
+: 1489098910:0;vim rlcompress.h
+: 1489098918:0;make
+: 1489098922:0;./rlencode input.txt output.txt
+: 1489098926:0;du -hs output.txt
+: 1489098931:0;du -hs input.txt
+: 1489098936:0;vim rlcompress.h
+: 1489098949:0;./rlencode input.txt output.txt
+: 1489098955:0;du -hs output.txt
+: 1489098962:0;du -hs input.txt
+: 1489098964:0;clear
+: 1489098981:0;base64 /dev/urandom| tr -dc a-c | head -c 100000000 > input.txt
+: 1489099128:0;./rlencode input.txt output.txt
+: 1489099132:0;time ./rlencode input.txt output.txt
+: 1489099153:0;time ./rldecode output.txt decoded.txt
+: 1489099166:0;du -hs input.txt
+: 1489099169:0;du -hs output.txt
+: 1489099179:0;vim rlcompress.h
+: 1489099185:0;clear
+: 1489099188:0;./rlencode input.txt output.txt
+: 1489099195:0;time ./rlencode input.txt output.txt
+: 1489099206:0;time ./rldecode output.txt decoded.txt
+: 1489099216:0;du -hs output.txt
+: 1489099221:0;du -hs input.txt
+: 1489099229:0;make
+: 1489099233:0;time ./rlencode input.txt output.txt
+: 1489099246:0;time ./rldecode output.txt decoded.txt
+: 1489099291:0;grep output.txt "\[[0-9]*\]"
+: 1489099298:0;grep "\[[0-9]*\]" output.txt
+: 1489099309:0;grep -o "\[[0-9]*\]" output.txt
+: 1489099322:0;grep -o "\[[0-9]*\]" output.txt | sort | uniq -c
+: 1489099436:0;grep -o "\[[0-9]*\]" output.txt > matches
+: 1489099459:0;sort matches > s_matches
+: 1489099663:0;wc -l matches
+: 1489099669:0;wc -l s_matches
+: 1489099671:0;clear
+: 1489099680:0;uniq -c s_matches
+: 1489099687:0;uniq -c s_matches > u_matches
+: 1489099793:0;s
+: 1489099800:0;vim u_matches
+: 1489099806:0;/bin/cat u_matches
+: 1489099811:0;/bin/cat u_matches | echo
+: 1489099815:0;/bin/cat u_matches | cat
+: 1489099821:0;/bin/cat u_matches
+: 1489099839:0;cat u_matches
+: 1489099871:0;cat u_matches | grep -v "[......"
+: 1489099873:0;cat u_matches | grep -v "\[......"
+: 1489099877:0;cat u_matches | grep -v "\[....."
+: 1489099878:0;cat u_matches | grep -v "\[...."
+: 1489099886:0;cat u_matches | grep -v "\[."
+: 1489099887:0;cat u_matches | grep -v "\["
+: 1489099904:0;cat u_matches | grep -v "\[[0-9]"
+: 1489099917:0;/bin/cat u_matches | grep -v "\["
+: 1489099922:0;/bin/cat u_matches | grep -v "\[[0-9]"
+: 1489099931:0;grep -v "\[[0-9]" u_matches
+: 1489099968:0;grep -v "K" u_matches
+: 1489099974:0;grep -o -v "K" u_matches
+: 1489099987:0;sed "s/K//" u_matches
+: 1489099995:0;sed "s/[//" u_matches
+: 1489099998:0;sed "s/\[//" u_matches
+: 1489100014:0;sed "s/\[1;31m//" u_matches
+: 1489100040:0;sed "s/\[1;31m[//" u_matches
+: 1489100043:0;sed "s/\[1;31m\[//" u_matches
+: 1489100047:0;sed "s/\[1;31m\[.//" u_matches
+: 1489100051:0;sed "s/\[1;31m//" u_matches
+: 1489100054:0;sed "s/\[1;31//" u_matches
+: 1489100057:0;sed "s/\[1;//" u_matches
+: 1489100060:0;sed "s/\[1//" u_matches
+: 1489100068:0;sed "s/\[//" u_matches
+: 1489100075:0;sed "s/1;31m//" u_matches
+: 1489100249:0;sed "s/1;31m//" u_matches | sed "s/\([0-9]*) [([0-9]*)\]/\2 \1/"
+: 1489100256:0;sed "s/1;31m//" u_matches | sed "s/\([0-9]*) \[([0-9]*)\]/\2 \1/"
+: 1489100265:0;sed "s/1;31m//" u_matches | sed "s/([0-9]*) \[([0-9]*)\]/\2 \1/"
+: 1489100281:0;sed "s/1;31m//" u_matches | sed "s/(\d*) \[(\d*)\]/\2 \1/"
+: 1489100322:0;sed "s/1;31m//" u_matches | sed "s/([0-9]*) \[([0-9]*)\]/\2 \1/"
+: 1489100326:0;sed "s/1;31m//" u_matches | sed "s/([0-9]*) \[([0-9]*)\]/\0 \1/"
+: 1489100328:0;sed "s/1;31m//" u_matches | sed "s/([0-9]*) \[([0-9]*)\]/\0/"
+: 1489100340:0;sed "s/1;31m//" u_matches | sed "s/(\d*) \[(\d*)\]/\0/"
+: 1489100344:0;sed "s/1;31m//" u_matches | sed "s/(\d*) \[(\d*)\]//"
+: 1489100348:0;sed "s/1;31m//" u_matches | sed "s/(\d*)//"
+: 1489100354:0;sed "s/1;31m//" u_matches | sed "s/\(\d*\)//"
+: 1489100360:0;sed "s/1;31m//" u_matches | sed "s/\d*//"
+: 1489100363:0;sed "s/1;31m//" u_matches | sed "s/[0-9]*//"
+: 1489100370:0;sed "s/1;31m//" u_matches | sed "s/[[0-9]*]//"
+: 1489100374:0;sed "s/1;31m//" u_matches | sed "s/\[[0-9]*\]//"
+: 1489100383:0;sed "s/1;31m//" u_matches | sed "s/\[([0-9]*)\]/\1/"
+: 1489100389:0;sed "s/1;31m//" u_matches | sed "s/\[\([0-9]*\)\]/\1/"
+: 1489100401:0;sed "s/1;31m//" u_matches | sed "s/\[\([0-9]*\)\]/{\1}/"
+: 1489100410:0;sed "s/1;31m//" u_matches | sed "s/[0-9]* \[\([0-9]*\)\]/{\1}/"
+: 1489100418:0;sed "s/1;31m//" u_matches | sed "s/\([0-9]*\) \[\([0-9]*\)\]/{\1}/"
+: 1489100423:0;sed "s/1;31m//" u_matches | sed "s/\([0-9]*\) \[\([0-9]*\)\]/{\1} [[\2]]/"
+: 1489100446:0;sed "s/1;31m//" u_matches | sed "s/\[\([0-9]*\)\]/{\1} [[\2]]/"
+: 1489100449:0;sed "s/1;31m//" u_matches | sed "s/\[\([0-9]*\)\]/{\1} [[]]/"
+: 1489100455:0;sed "s/1;31m//" u_matches | sed "s/.* \[\([0-9]*\)\]/{\1} [[]]/"
+: 1489100468:0;sed "s/1;31m//" u_matches | sed "s/.* \[([0-9]*)\]/{\1} [[]]/"
+: 1489100475:0;sed "s/1;31m//" u_matches | sed "s/.* \[\([0-9]*\)\]/{\1} [[]]/"
+: 1489100479:0;sed "s/1;31m//" u_matches | sed "s/.*\[\([0-9]*\)\]/{\1} [[]]/"
+: 1489100487:0;sed "s/1;31m//" u_matches | sed "s/(.*)\[\([0-9]*\)\]/{\1} [[\2]]/"
+: 1489100492:0;sed "s/1;31m//" u_matches | sed "s/\(.*\)\[\([0-9]*\)\]/{\1} [[\2]]/"
+: 1489100502:0;sed "s/1;31m//" u_matches | sed "s/\(.*\)\[\([0-9]*\)\]/{\2} [[\1]]/"
+: 1489100512:0;sed "s/1;31m//" u_matches | sed "s/ *\(.*\) *\[\([0-9]*\)\]/{\2} [[\1]]/"
+: 1489100530:0;sed "s/1;31m//" u_matches | sed "s/ *\(.*\)\s*\[\([0-9]*\)\]/{\2} [[\1]]/"
+: 1489100537:0;sed "s/1;31m//" u_matches | sed "s/\s*\(.*\)\s*\[\([0-9]*\)\]/{\2} [[\1]]/"
+: 1489100542:0;sed "s/1;31m//" u_matches | sed "s/\s*\(.*\)\s*\[\(\d*\)\]/{\2} [[\1]]/"
+: 1489100548:0;sed "s/1;31m//" u_matches | sed "s/\s*\(.*\)\s*\[\([0-9]*\)\]/{\2} [[\1]]/"
+: 1489100552:0;sed "s/1;31m//" u_matches | sed "s/\s*\(.*\)\s*\[\([0-9]*\)\]/{\2} [\1]/"
+: 1489100559:0;sed "s/1;31m//" u_matches | sed "s/\s*\(.*\)\s*\[\([0-9]*\)\]/\2 [\1]/"
+: 1489100570:0;sed "s/1;31m//" u_matches | sed "s/ *\(.*\) *\[\([0-9]*\)\]/\2 [\1]/"
+: 1489100585:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\) *\[\([0-9]*\)\]/\2 [\1]/"
+: 1489100593:0;sed "s/1;31m//" u_matches | sed "s/.*\([0-9]*\).*\[\([0-9]*\)\]/\2 [\1]/"
+: 1489100600:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\) *\[\([0-9]*\)\]/\2 [\1]/"
+: 1489100607:0;sed "s/1;31m//" u_matches | sed "s/\([0-9]*\) *\[\([0-9]*\)\]/\2 [\1]/"
+: 1489100615:0;sed "s/1;31m//" u_matches | sed "s/.*\([0-9]*\).*\[\([0-9]*\)\]/\2 [\1]/"
+: 1489100640:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\).*\[\([0-9]*\)\]/\2 [\1]/"
+: 1489100648:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\).*\[\([0-9]*\)\]/\2 \1/"
+: 1489100652:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\).*\[\([0-9]*\)\]/\2\t\1/"
+: 1489100661:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\).*\[\([0-9]*\)\]/\2 - \1/"
+: 1489100682:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\).*\[\([0-9]*\)\]/\2 - \1/" | sort -n
+: 1489100724:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\).*\[\([0-9]*\)\]/\2 \1/" | sort -n | sed "s/[0-9] //"
+: 1489100730:0;sed "s/1;31m//" u_matches | sed "s/ *\([0-9]*\).*\[\([0-9]*\)\]/\2 \1/" | sort -n | sed "s/[0-9] //" > counts
+: 1489100733:0;rm u_matches s_matches
+: 1489100734:0;.
+: 1489100737:0;rm rldecode rlencode
+: 1489100737:0;.
+: 1489100738:0;ls
+: 1489100738:0;.
+: 1489100744:0;rm output.txt decoded.txt
+: 1489100745:0;.
+: 1489100763:0;mv rlcompress.hs ../
+: 1489100764:0;ls
+: 1489100764:0;.
+: 1489100767:0;rm input.txt
+: 1489100767:0;.
+: 1489100770:0;rm counts
+: 1489100770:0;.
+: 1489100777:0;rm matches
+: 1489100778:0;.
+: 1489100809:0;ssh z5017666@williams.cse.unsw.edu.au
+: 1489100941:0;scp * z5017666@cse.unsw.edu.au:./RLE
+: 1489100996:0;q
+: 1489101006:0;title "RLE"
+: 1489101009:0;q
+: 1489101021:0;title "RLE"
+: 1489101023:0;gh
+: 1489101025:0;fg
+: 1489101028:0;q
+: 1489101075:0;clear
+: 1489101075:0;s
+: 1489101081:0;ls -la
+: 1489101083:0;clear
+: 1489101098:0;scp Makefile z5017666@cse.unsw.edu.au:./RLE
+: 1489101101:0;scp Makefile z5017666@cse.unsw.edu.au:./RLE/
+: 1489101107:0;clear
+: 1489101125:0;scp * z5017666@williams.cse.unsw.edu.au:~/RLE/
+: 1489101160:0;ssh z5017666@williams.cse.unsw.edu.au
+: 1489101182:0;q
+: 1489101195:0;scp rlcompress.h z5017666@cse.unsw.edu.au
+: 1489101199:0;scp rlcompress.h z5017666@cse.unsw.edu.au:~/RLE/
+: 1489101205:0;scp * z5017666@williams.cse.unsw.edu.au:~/RLE/
+: 1489101208:0;scp * z5017666@williams.cse.unsw.edu.au
+: 1489101214:0;scp * z5017666@williams.cse.unsw.edu.au:~/
+: 1489101219:0;clear
+: 1489101220:0;ls
+: 1489101222:0;man scp
+: 1489101237:0;scp * z5017666@cse.unsw.edu.au
+: 1489101252:0;scp rlcompress.h z5017666@cse.unsw.edu.au
+: 1489101258:0;scp rlencode.cpp z5017666@cse.unsw.edu.au
+: 1489101261:0;scp rldecode.cpp z5017666@cse.unsw.edu.au
+: 1489101261:0;ls
+: 1489101268:0;scp Makefile z5017666@cse.unsw.edu.au
+: 1489101273:0;rm z5017666@cse.unsw.edu.au
+: 1489101274:0;clear
+: 1489101274:0;s
+: 1489101276:0;ssh z5017666@williams.cse.unsw.edu.au
+: 1489101290:0;clear
+: 1489101290:0;s
+: 1489101301:0;scp Makefile z5017666@cse.unsw.edu.au
+: 1489101302:0;ls
+: 1489101305:0;rm z5017666@cse.unsw.edu.au
+: 1489101306:0;.
+: 1489101314:0;scp Makefile z5017666@cse.unsw.edu.au:~/RLE/
+: 1489101329:0;clear
+: 1489101330:0;s
+: 1489101335:0;zip *
+: 1489101336:0;ls
+: 1489101347:0;open Makefile.zip
+: 1489101377:0;scp Archive.zip z5017666@cse.unsw.edu.au
+: 1489101386:0;ssh z5017666@cse.unsw.edu.au
+: 1489101397:0;ls
+: 1489101406:0;rm z5017666@cse.unsw.edu.au
+: 1489101406:0;clear
+: 1489101407:0;ls
+: 1489101417:0;scp Archive.zip z5017666@cse.unsw.edu.au:~/RLE
+: 1489101443:0;scp Archive.zip z5017666@cse.unsw.edu.au:~/RLE/Archive.zip
+: 1489101559:0;cat Archive.zip > netcat wagner.cse.unsw.edu.au -p 1231
+: 1489101563:0;cat Archive.zip > netcat wagner.cse.unsw.edu.au:1231
+: 1489101570:0;cat Archive.zip | netcat wagner.cse.unsw.edu.au:1231
+: 1489101578:0;brew install netcat
+: 1489101598:0;cat Archive.zip | netcat wagner.cse.unsw.edu.au:1231
+: 1489101609:0;cat Archive.zip | netcat wagner.cse.unsw.edu.au 1231
+: 1489101622:0;cat Archive.zip | netcat wagner.cse.unsw.edu.au -p 1231 
+: 1489101634:0;cat Archive.zip | netcat -p 1231 wagner.cse.unsw.edu.au
+: 1489101639:0;man netcat
+: 1489101647:0;cat Archive.zip | netcat wagner.cse.unsw.edu.au 1231
+: 1489101708:0;clear
+: 1489101708:0;ls
+: 1489101711:0;rm Archive.zip
+: 1489101712:0;q
+: 1489101734:0;ssh z5017666@cse.unsw.edu.au
+: 1489102017:0;clear
+: 1489102017:0;s
+: 1489102019:0;rm netcat
+: 1489102020:0;clear
+: 1489102020:0;s
+: 1489102022:0;q
+: 1489102105:0;ls
+: 1489102112:0;vim *.h *.cpp
+: 1489104068:0;make
+: 1489104192:0;clear
+: 1489104193:0;make
+: 1489104209:0;clear
+: 1489104492:0;make
+: 1489104496:0;./rlencode input.txt output.txt
+: 1489104497:0;ls
+: 1489104503:0;mv input input.txt
+: 1489104504:0;clear
+: 1489104505:0;./rlencode input.txt output.txt
+: 1489104509:0;./rldecode output.txt decoded.txt
+: 1489104512:0;diff input.txt decoded.txt
+: 1489104530:0;cat output.txt
+: 1489104663:0;make
+: 1489104666:0;./rldecode output.txt decoded.txt
+: 1489104668:0;cat decoded.txt
+: 1489104683:0;diff input.txt decoded.txt
+: 1489104730:0;make; ./rldecode output.txt decoded.txt
+: 1489104733:0;diff input.txt decoded.txt
+: 1489104767:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489105143:0;vim input.txt
+: 1489105149:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489105156:0;./rlencode input.txt output.txt
+: 1489105157:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489105379:0;./rlencode input.txt output.txt
+: 1489105380:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489105905:0;./rlencode input.txt output.txt
+: 1489105908:0;./rldecode output.txt decoded.txt
+: 1489105913:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489105922:0;cat decoded.txt
+: 1489105925:0;cat output.txt
+: 1489105929:0;cat input.txt
+: 1489105940:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489106008:0;cat output.txt
+: 1489106012:0;cat decoded.txt
+: 1489106089:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489106339:0;cat decoded.txt
+: 1489106341:0;cat output.txt
+: 1489106520:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489106922:0;cat decoded.txt
+: 1489106924:0;cat input.txt
+: 1489106926:0;cat output.txt
+: 1489106952:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489107926:0;cat output.txt| ./rldecode
+: 1489107959:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489107964:0;./rldecode output.txt decoded.txt
+: 1489107967:0;./rldecode output.txt
+: 1489107981:0;basse64 /dev/urandom | head -c 10000000 > file.txt
+: 1489107983:0;base64 /dev/urandom | head -c 10000000 > file.txt
+: 1489108001:0;./rlencode file.txt output.txt
+: 1489108005:0;time ./rlencode file.txt output.txt
+: 1489108012:0;time ./rldecode output.txt decoded.txt
+: 1489108020:0;diff file.txt decoded.txt
+: 1489108028:0;base64 /dev/urandom | head -c 1000000000 > file.txt
+: 1489108089:0;du -hs file.txt
+: 1489108097:0;clear
+: 1489108104:0;time ./rlencode file.txt output.txt
+: 1489108580:0;make
+: 1489108794:0;sudo makeOA
+: 1489108796:0;clear
+: 1489108804:0;make
+: 1489108857:0;clear
+: 1489108858:0;s
+: 1489108860:0;rm a.out
+: 1489108860:0;clear
+: 1489108860:0;s
+: 1489108866:0;ls
+: 1489108873:0;time ./rlencode file.txt output.txt
+: 1489108903:0;base64 /dev/urandom | head -c 200000000 > file.txt
+: 1489108918:0;time ./rlencode file.txt output.txt
+: 1489108941:0;time ./rldecode output.txt decoded.txt
+: 1489108961:0;diff input.txt decoded.txt
+: 1489108968:0;clear
+: 1489108983:0;vim input.txt
+: 1489108990:0;diff file.txt decoded.txt
+: 1489108992:0;clear
+: 1489108993:0;ls
+: 1489108995:0;du -hs file.txt
+: 1489109001:0;du -hs output.txt
+: 1489109006:0;du -hs decoded.txt
+: 1489109009:0;clear
+: 1489109040:0;grep "\[[0-9]*\]" output.txt
+: 1489109044:0;grep -o "\[[0-9]*\]" output.txt
+: 1489109055:0;grep -o "\[[0-9]*\]" output.txt | sort | uniq -c
+: 1489109135:0;valgrind massif --pages-as-heap=yes ./rlencode file.txt output.txt
+: 1489109148:0;clear
+: 1489109149:0;ls
+: 1489109167:0;scp *.* z5017666@cse.unsw.edu.au:~/RLE/
+: 1489109190:0;scp ./*.* z5017666@cse.unsw.edu.au:~/RLE/
+: 1489109202:0;scp ./*.* z5017666@cse.unsw.edu.au:/home/z5017666/RLE/
+: 1489109211:0;open .
+: 1489109228:0;scp Archive.zip z5017666@cse.unsw.edu.au:~/RLE/Archive.zip
+: 1489109234:0;scp Archive.zip z5017666@cse.unsw.edu.au:
+: 1489109236:0;scp Archive.zip z5017666@cse.unsw.edu.au
+: 1489109237:0;ls
+: 1489109240:0;rm z5017666@cse.unsw.edu.au
+: 1489109241:0;clear
+: 1489109243:0;scp Archive.zip z5017666@cse.unsw.edu.au
+: 1489109245:0;ls
+: 1489109246:0;rm z5017666@cse.unsw.edu.au
+: 1489109247:0;clear
+: 1489109249:0;man scp
+: 1489109268:0;scp Archive.zip z5017666@cse.unsw.edu.au:~/Archive.zip
+: 1489109276:0;ssh z5017666@cse.unsw.edu.au
+: 1489109338:0;cat Archive.zip | netcat wagner.cse.unsw.edu.au 1231
+: 1489109386:0;du -hs Archive.zip
+: 1489109391:0;cat Archive.zip | netcat wagner.cse.unsw.edu.au 1231
+: 1489109832:0;q
+: 1489109835:0;cse
+: 1489109926:0;q
+: 1489109937:0;which cse_cp
+: 1489109948:0;cse_cp
+: 1489109961:0;clear
+: 1489109962:0;ls
+: 1489109964:0;rm Archive.zip
+: 1489109965:0;clean
+: 1489109970:0;rm rlencode rldecode
+: 1489109971:0;clear
+: 1489109971:0;s
+: 1489109990:0;scp *.h z5017666@cse.unsw.edu.au:./RLE
+: 1489110001:0;scp rlcompress.h z5017666@cse.unsw.edu.au:./RLE
+: 1489110012:0;scp rlcompress.h z5017666@cse.unsw.edu.au
+: 1489110012:0;ls
+: 1489110014:0;rm z5017666@cse.unsw.edu.au
+: 1489110014:0;clear
+: 1489110018:0;which cse_cp
+: 1489110025:0;man scp
+: 1489110029:0;scp --help
+: 1489110032:0;clear
+: 1489110040:0;man rsync
+: 1489110053:0;rm file.txt
+: 1489110067:0;rsync * z5017666@cse.unsw.edu.au:~/RLE/
+: 1489110129:0;rsync -avz * z5017666@cse.unsw.edu.au:~/RLE/
+: 1489110163:0;rsync -avz * z5017666@cse.unsw.edu.au:~/RLE/ --progress
+: 1489110216:0;cat rlcompress.h | netcat wagner.cse.unsw.edu.au 1231
+: 1489110243:0;du -hs
+: 1489110245:0;du -hs *
+: 1489110256:0;rm decoded.txt
+: 1489110257:0;clear
+: 1489110257:0;s
+: 1489110260:0;du -hs *
+: 1489110261:0;u
+: 1489110268:0;rm output.txt
+: 1489110269:0;clear
+: 1489110270:0;s
+: 1489110273:0;rsync -avz * z5017666@cse.unsw.edu.au:~/RLE/ --progress
+: 1489110275:0;clear
+: 1489110275:0;s
+: 1489110281:0;u
+: 1489110285:0;q
+: 1489110293:0;clear
+: 1489110293:0;s
+: 1489110294:0;q
+: 1489110314:0;rsync -avz * z5017666@cse.unsw.edu.au:~/RLE/ --progress
+: 1489110369:0;rsync -avz * z5017666@wagner.unsw.edu.au:~/RLE/ --progress
+: 1489110375:0;rsync -avz * z5017666@wagner.cse.unsw.edu.au:~/RLE/ --progress
+: 1489110394:0;clear
+: 1489110399:0;scp * z5017666@cse.unsw.edu.au
+: 1489110402:0;ls
+: 1489110406:0;scp * z5017666@cse.unsw.edu.au:./RLE
+: 1489110434:0;rsync -avzH -e ssh z5017666@cse.unsw.edu.au:./RLE/
+: 1489110441:0;clear
+: 1489110441:0;s
+: 1489110442:0;q
+: 1489110707:0;ping 8.8.8.8
+: 1489125464:0;rsync -avz * z5017666@wagner.cse.unsw.edu.au:~/RLE/ --progress
+: 1489125482:0;scp * z5017666@cse.unsw.edu.au:./RLE/
+: 1489125539:0;scp * z5017666@cse.unsw.edu.au:RLE/
+: 1489125550:0;clear
+: 1489125550:0;ls
+: 1489125555:0;scp rlcompress.h z5017666@cse.unsw.edu.au
+: 1489125559:0;scp rlcompress.h z5017666@cse.unsw.edu.au:RLE
+: 1489125565:0;ls
+: 1489125568:0;rm z5017666@cse.unsw.edu.au
+: 1489125571:0;clear
+: 1489125571:0;ls
+: 1489125574:0;which scp
+: 1489125679:0;ssh z5017666@cse.unsw.edu.au
+: 1489125820:0;mkdir /mnt/CSE
+: 1489125828:0;mkdir /Volumes/CSE
+: 1489125831:0;sudo mkdir /Volumes/CSE
+: 1489125868:0;mount -t smbfs -o user=adunsw/z5017666 //cse-samba.cse.unsw.edu.au/z5017666 /Volumes/CSE
+: 1489125870:0;sudo mount -t smbfs -o user=adunsw/z5017666 //cse-samba.cse.unsw.edu.au/z5017666 /Volumes/CSE
+: 1489125879:0;sudo mount -t smbfs user=adunsw/z5017666 //cse-samba.cse.unsw.edu.au/z5017666 /Volumes/CSE
+: 1489125891:0;sudo mount -t smbfs //cse-samba.cse.unsw.edu.au/z5017666 /Volumes/CSE
+: 1489125938:0;scp Archive.zip z5017666@cse.unsw.edu.au:~/Archive.zip
+: 1489125948:0;ssh z5017666@cse.unsw.edu.au
+: 1489126103:0;scp rlcompress.h z5017666@cse.unsw.edu.au:RLE
+: 1489126108:0;clear
+: 1489126110:0;scp rlcompress.h z5017666@cse.unsw.edu.au:RLE/
+: 1489126114:0;q
+: 1489126500:0;cat rlcompress.h
+: 1489126503:0;ssh z5017666@cse.unsw.edu.au
+: 1489126619:0;rm Archive.zip
+: 1489126647:0;tar czf - ./* | ssh z5017666@cse.unsw.edu.au tar xzf - -C ~/RLE/
+: 1489126686:0;tar czf - ./* | ssh z5017666@cse.unsw.edu.au "tar xzf - -C ~/RLE/"
+: 1489126693:0;tar czf - ./* | ssh z5017666@cse.unsw.edu.au "tar xzf -C ~/RLE/"
+: 1489126701:0;tar czf - ./* | ssh z5017666@cse.unsw.edu.au
+: 1489126713:0;clear
+: 1489126722:0;open .
+: 1489126735:0;ssh
+: 1489126736:0;cse
+: 1489126819:0;cat Archive.zip | netcat weill.cse.unsw.edu.au 1231
+: 1489126838:0;ls
+: 1489126843:0;wc -l Archive.zip
+: 1489126845:0;clear
+: 1489126856:0;cat Archive.zip | netcat weill.cse.unsw.edu.au -p 1231
+: 1489126861:0;cat Archive.zip | netcat weill.cse.unsw.edu.au -p 1231 1231
+: 1489126875:0;cat Archive.zip | netcat weill.cse.unsw.edu.au 1231
+: 1489126885:0;netcat weill.cse.unsw.edu.au 1231
+: 1489126889:0;Hello
+: 1489126917:0;netcat weill.cse.unsw.edu.au 1231
+: 1489126929:0;netcat weill.cse.unsw.edu.au 1233
+: 1489126937:0;echo "TEsting" | netcat weill.cse.unsw.edu.au 1233
+: 1489126938:0;s
+: 1489126940:0;ls
+: 1489126942:0;clear
+: 1489126954:0;echo "TEsting" | netcat weill.cse.unsw.edu.au 1233
+: 1489126973:0;telnet weill.cse.unsw.edu.au 1233
+: 1489126982:0;man netcat
+: 1489127038:0;echo "TEsting" | netcat weill.cse.unsw.edu.au 1233
+: 1489127044:0;netcat weill.cse.unsw.edu.au 1233
+: 1489127058:0;ssh z5017666@wagner.cse.unsw.edu.au
+: 1489127123:0;cat Archive.zip| netcat wagner.cse.unsw.edu.au 1233
+: 1489127186:0;cat Archive.zip| netcat 129.94.242.19 1233
+: 1489127189:0;cat Archive.zip| netcat 129.94.242.19
+: 1489127231:0;scp Archive.zip z5017666@cse.unsw.edu.au:~/RLE/Archive.zip
+: 1489127552:0;cat Archive.zip | pbcopy
+: 1489127782:0;scp -r * z5017666@cse.unsw.edu.au:./RLE
+: 1489127785:0;rm Archive.zip
+: 1489127786:0;clear
+: 1489127786:0;s
+: 1489127789:0;mv input.txt ../
+: 1489127796:0;scp -r * z5017666@cse.unsw.edu.au:./RLE/
+: 1489127801:0;clear
+: 1489127801:0;q
+: 1489128124:0;scp -r * z5017666@cse.unsw.edu.au:./RLE/
+: 1489128261:0;mv ../input.txt .
+: 1489128262:0;clear
+: 1489128263:0;ls
+: 1489128266:0;scp -r * z5017666@cse.unsw.edu.au:./RLE/
+: 1489128291:0;q
+: 1489129646:0;ls
+: 1489129648:0;rm a.out
+: 1489129657:0;./rlencode input.txt output.txt
+: 1489129660:0;cat output.txt
+: 1489129668:0;./rldecode output.txt decoded.txt
+: 1489129670:0;cat decoded.txt
+: 1489129675:0;diff decoded.txt input.txt
+: 1489129681:0;vim decoded.txt input.txt
+: 1489129689:0;clear
+: 1489129689:0;s
+: 1489129691:0;q
+: 1489129754:0;make
+: 1489129760:0;./rldecode output.txt decoded.txt
+: 1489129762:0;cat decoded.txt
+: 1489129797:0;make
+: 1489129799:0;./rldecode output.txt decoded.txt
+: 1489129811:0;make
+: 1489129813:0;./rldecode output.txt decoded.txt
+: 1489129829:0;make
+: 1489129830:0;./rldecode output.txt decoded.txt
+: 1489129861:0;make
+: 1489129862:0;./rldecode output.txt decoded.txt
+: 1489129882:0;clear
+: 1489129884:0;rm decoded.txt
+: 1489129885:0;rm output.txt
+: 1489129925:0;make
+: 1489129928:0;./rlencode input.txt output.txt
+: 1489129932:0;./rldecode output.txt decoded.txt
+: 1489129936:0;cat decoded.txt
+: 1489129942:0;diff input.txt decoded.txt
+: 1489130090:0;make
+: 1489130093:0;./rlencode input.txt output.txt
+: 1489130103:0;./rldecode output.txt decoded.txt
+: 1489130125:0;make
+: 1489130128:0;./rldecode output.txt decoded.txt
+: 1489130144:0;make
+: 1489130146:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489130150:0;clear
+: 1489130150:0;s
+: 1489130152:0;./rldecode output.txt decoded.txt
+: 1489130271:0;rm a.out
+: 1489130274:0;make; ./rldecode output.txt decoded.txt; diff input.txt decoded.txt
+: 1489130279:0;clear
+: 1489130285:0;./rlencode input.txt output.txt
+: 1489130292:0;./rldecode output.txt decoded.txt
+: 1489130346:0;make
+: 1489130352:0;./rlencode input.txt output.txt
+: 1489130354:0;./rldecode output.txt decoded.txt
+: 1489130391:0;make
+: 1489130393:0;./rldecode output.txt decoded.txt
+: 1489130413:0;make
+: 1489130415:0;./rldecode output.txt decoded.txt
+: 1489130442:0;make
+: 1489130443:0;./rldecode output.txt decoded.txt
+: 1489130513:0;make
+: 1489130516:0;./rldecode output.txt decoded.txt
+: 1489130519:0;clear
+: 1489130520:0;ls
+: 1489130522:0;rm a.out
+: 1489130523:0;clear
+: 1489130523:0;ls
+: 1489130577:0;make
+: 1489130580:0;./rlencode input.txt output.txt
+: 1489130621:0;make
+: 1489130622:0;./rlencode input.txt output.txt
+: 1489130655:0;make
+: 1489130656:0;./rlencode input.txt output.txt
+: 1489130679:0;./rldecode output.txt decoded.txt
+: 1489130701:0;make
+: 1489130703:0;./rlencode input.txt output.txt
+: 1489130721:0;make
+: 1489130723:0;./rlencode input.txt output.txt
+: 1489130745:0;make
+: 1489130749:0;./rldecode output.txt decoded.txt
+: 1489130844:0;make
+: 1489130846:0;./rldecode output.txt decoded.txt
+: 1489130894:0;make
+: 1489130900:0;make; ./rldecode output.txt decoded.txt
+: 1489131098:0;cat decoded.txt
+: 1489131104:0;diff input.txt decoded.txt
+: 1489131114:0;vim input.txt
+: 1489131150:0;./rlencode input.txt
+: 1489131155:0;./rlencode input.txt output.txt
+: 1489131162:0;./rldecode output.txt decoded.txt
+: 1489131173:0;cat decoded.txt
+: 1489131178:0;rm decoded.txt
+: 1489131179:0;clear
+: 1489131276:0;make; ./rldecode output.txt decoded.txt
+: 1489131299:0;clear
+: 1489131301:0;make; ./rldecode output.txt decoded.txt
+: 1489131309:0;./rlencode input.txt output.txt
+: 1489131405:0;make; ./rldecode output.txt decoded.txt
+: 1489131417:0;make
+: 1489131429:0;./rlencode input.txt output.txt
+: 1489131436:0;./rldecode output.txt decoded.txt
+: 1489131468:0;make
+: 1489131471:0;./rlencode input.txt output.txt
+: 1489131474:0;./rldecode output.txt decoded.txt
+: 1489131569:0;make
+: 1489131571:0;./rlencode input.txt output.txt
+: 1489131592:0;clear
+: 1489131595:0;./rldecode output.txt decoded.txt
+: 1489131599:0;clear
+: 1489131602:0;./rlencode input.txt output.txt
+: 1489131907:0;make
+: 1489131910:0;./rlencode input.txt output.txt
+: 1489131921:0;./rldecode output.txt decoded.txt
+: 1489131954:0;make
+: 1489131959:0;./rlencode input.txt output.txt
+: 1489132068:0;make
+: 1489132071:0;./rlencode input.txt output.txt
+: 1489132076:0;./rldecode output.txt decoded.txt
+: 1489132097:0;make
+: 1489132099:0;./rlencode input.txt output.txt
+: 1489132105:0;./rldecode output.txt decoded.txt
+: 1489132110:0;ls
+: 1489132112:0;cat decoded.txt
+: 1489132116:0;diff input.txt decoded.txt
+: 1489132118:0;rm a.out
+: 1489132119:0;clear
+: 1489132119:0;s
+: 1489132188:0;make
+: 1489132194:0;./rlencode input.txt output.txt
+: 1489132197:0;./rldecode output.txt decoded.txt
+: 1489132199:0;diff input.txt decoded.txt
+: 1489132247:0;make
+: 1489132257:0;make; ./rldecode output.txt decoded.txt
+: 1489132260:0;./rlencode input.txt output.txt
+: 1489132262:0;./rldecode output.txt decoded.txt
+: 1489132264:0;diff input.txt decoded.txt
+: 1489132270:0;./rldecode output.txt decoded.txt
+: 1489132272:0;diff input.txt decoded.txt
+: 1489132277:0;./rlencode input.txt output.txt
+: 1489132280:0;./rldecode output.txt decoded.txt
+: 1489132281:0;diff input.txt decoded.txt
+: 1489132284:0;cat input.txt
+: 1489132286:0;cat decoded.txt
+: 1489132288:0;clear
+: 1489132306:0;s
+: 1489132308:0;rm a.out
+: 1489132309:0;clear
+: 1489132309:0;s
+: 1489132436:0;make
+: 1489132439:0;./rlencode input.txt output.txt
+: 1489132442:0;./rldecode output.txt decoded.txt
+: 1489132444:0;diff input.txt decoded.txt
+: 1489132478:0;make
+: 1489132481:0;./rlencode input.txt output.txt
+: 1489132484:0;./rldecode output.txt decoded.txt
+: 1489132485:0;diff input.txt decoded.txt
+: 1489132500:0;make
+: 1489132504:0;./rlencode input.txt output.txt
+: 1489132506:0;./rldecode output.txt decoded.txt
+: 1489132513:0;diff input.txt decoded.txt
+: 1489132628:0;make
+: 1489132631:0;./rlencode input.txt output.txt
+: 1489132634:0;./rldecode output.txt decoded.txt
+: 1489132635:0;diff input.txt decoded.txt
+: 1489132650:0;make
+: 1489132673:0;make; ./rldecode output.txt decoded.txt
+: 1489132698:0;make
+: 1489132735:0;./rlencode input.txt output.txt
+: 1489132738:0;./rldecode output.txt decoded.txt
+: 1489132746:0;cat output.txt
+: 1489132751:0;clear
+: 1489133049:0;make
+: 1489133053:0;./rlencode input.txt output.txt
+: 1489133056:0;./rldecode output.txt decoded.txt
+: 1489133058:0;diff input.txt decoded.txt
+: 1489133071:0;make
+: 1489133073:0;./rlencode input.txt output.txt
+: 1489133075:0;./rldecode output.txt decoded.txt
+: 1489133077:0;diff input.txt decoded.txt
+: 1489133084:0;make
+: 1489133134:0;./rlencode input.txt output.txt
+: 1489133135:0;./rldecode output.txt decoded.txt
+: 1489133137:0;diff input.txt decoded.txt
+: 1489133142:0;make
+: 1489133203:0;./rlencode input.txt output.txt
+: 1489133206:0;./rldecode output.txt decoded.txt
+: 1489133207:0;diff input.txt decoded.txt
+: 1489133237:0;clear
+: 1489133238:0;ls
+: 1489133239:0;rm a.out
+: 1489133240:0;clear
+: 1489133241:0;s
+: 1489133245:0;rm *.gch
+: 1489133246:0;.
+: 1489133251:0;base64 /dev/urandom | head -c 200000000 > file.txt
+: 1489133277:0;./rlencode file.txt output.txt
+: 1489133281:0;clear
+: 1489133281:0;make
+: 1489133284:0;./rlencode file.txt output.txt
+: 1489133296:0;time ./rlencode file.txt output.txt
+: 1489133325:0;du -hs file.txt
+: 1489133328:0;du -hs output.txt
+: 1489133342:0;./rldecode output.txt decoded.txt
+: 1489133349:0;time ./rldecode output.txt decoded.txt
+: 1489133370:0;diff file.txt decoded.txt
+: 1489133389:0;base64 /dev/urandom| tr -dc a-c | head -c 10000000 > input.txt
+: 1489133406:0;rm file.txt
+: 1489133415:0;./rlencode input.txt output.txt
+: 1489133419:0;./rldecode output.txt decoded.txt
+: 1489133422:0;diff input.txt decoded.txt
+: 1489133427:0;du -hs *.txxt
+: 1489133428:0;du -hs *.txt
+: 1489133446:0;rm input.txt
+: 1489133492:0;base64 /dev/urandom| tr -dc a-b | head -c 10000000 > input.txt
+: 1489133526:0;./rlencode input.txt output.txt
+: 1489133530:0;./rldecode output.txt decoded.txt
+: 1489133533:0;du -hs *.txt
+: 1489133540:0;diff input.txt decoded.txt
+: 1489133546:0;clear
+: 1489133546:0;ls
+: 1489133671:0;vim input.txt
+: 1489133724:0;cat input.txt
+: 1489133732:0;cat input.txt | sed "s/\n//"
+: 1489133742:0;cat input.txt | tr -d '\n'
+: 1489133746:0;cat input.txt | tr -d '\n' > input2.txt
+: 1489133752:0;mv input2.txt input.txt
+: 1489133757:0;./rlencode input.txt output.txt
+: 1489133761:0;cat output.txt
+: 1489133764:0;./rldecode output.txt decoded.txt
+: 1489133766:0;cler
+: 1489133767:0;clear
+: 1489133767:0;s
+: 1489133770:0;diff input.txt decoded.txt
+: 1489133775:0;cat decoded.txt
+: 1489133781:0;cat input.txt
+: 1489133973:0;vim Makefile
+: 1489134030:0;make test
+: 1489134185:0;vim input.txt
+: 1489134190:0;make test
+: 1489134296:0;make
+: 1489134314:0;make test
+: 1489134372:0;make
+: 1489134373:0;make test
+: 1489134447:0;make
+: 1489134449:0;make test
+: 1489134472:0;watch "make test"
+: 1489134742:0;vim Makefile
+: 1489134753:0;watch "make test"
+: 1489190709:0;vim Makefile
+: 1489190726:0;watch "make test"
+: 1489191938:0;make test
+: 1489192484:0;ls
+: 1489192486:0;rm a.out
+: 1489192487:0;clear
+: 1489192487:0;ls
+: 1489192491:0;watch "make test"
+: 1489274767:0;clear
+: 1489274768:0;ls
+: 1489274769:0;cat input.txt
+: 1489274773:0;clear
+: 1489274786:0;cp input.txt input2.txt
+: 1489274790:0;rm input2.txt
+: 1489274798:0;cat input.txt input.txt > input2.txt
+: 1489274802:0;mv input2.txt input.txt
+: 1489274836:0;cat input.txt input.txt > input2.txt; mv input2.txt input.txt
+: 1489274868:0;cat output.txt
+: 1489274875:0;clear
+: 1489274897:0;cp input.txt compression_easy.txt
+: 1489274900:0;rm input.txt
+: 1489274902:0;vim input.txt
+: 1489275082:0;clear
+: 1489275085:0;s
+: 1489275087:0;rm a.out
+: 1489275087:0;.
+: 1489275100:0;scp -r * z5017666@cse.unsw.edu.au:./RLE/
+: 1489275130:0;vim rlencode.cpp rldecode.cpp rlcompress.h
+: 1489275465:0;q
+: 1489275469:0;vim test.cpp
+: 1489275699:0;ls
+: 1489275700:0;rm a.out
+: 1489275701:0;.
+: 1489275712:0;q
+: 1489275761:0;vrc
+: 1489276862:0;watch "make test"
+: 1489276877:0;make test
+: 1489277791:0;watch "make test"
+: 1489277979:0;q
+: 1489278404:0;cat input.txt| ./rlencode | ./rldecode > output.txt
+: 1489278407:0;diff input.txt output.txt
+: 1489278413:0;rm output.txt
+: 1489278415:0;cat input.txt| ./rlencode | ./rldecode > output.txt
+: 1489278416:0;diff input.txt output.txt
+: 1489278522:0;make test
+: 1489278602:0;./rlencode input.txt output.txt
+: 1489278605:0;./rldecode output.txt decoded.txt
+: 1489278606:0;diff input.txt output.txt
+: 1489278613:0;./rlencode input.txt output.txt
+: 1489278617:0;./rldecode output.txt decoded.txt
+: 1489278620:0;diff input.txt output.txt
+: 1489278655:0;diff input.txt decoded.txt
+: 1489278657:0;clear
+: 1489278657:0;ls
+: 1489278659:0;rm a.out
+: 1489278660:0;clear
+: 1489278660:0;ls
+: 1489278668:0;mv input.txt simple.txt
+: 1489278674:0;cp compression_easy.txt input.txt
+: 1489278676:0;make test
+: 1489278747:0;echo "TEsting" | ./rlencode
+: 1489278764:0;echo "TEsting\!\!\!\!" | ./rlencode
+: 1489279010:0;make test
+: 1489279082:0;clear
+: 1489279082:0;make
+: 1489279105:0;make test
+: 1489279493:0;clear
+: 1489279494:0;make test
+: 1489279545:0;clea
+: 1489279546:0;clear
+: 1489279548:0;make test
+: 1489280175:0;vrc
+: 1489280246:0;q
+: 1489280304:0;make
+: 1489280315:0;make test
+: 1489280489:0;cat input.txt| ./rlencode | ./rldecode > output.txt
+: 1489280499:0;cat input.txt| ./rlencode | ./rldecode > decoded.txt
+: 1489280593:0;diff input.txt decoded.txt
+: 1489280640:0;make
+: 1489280666:0;make test
+: 1489280679:0;./rlencode | ./rldecode
+: 1489280697:0;./rlencode
+: 1489280715:0;clear
+: 1489280715:0;s
+: 1489280754:0;make test
+: 1489280764:0;./rlencode
+: 1489280778:0;make test
+: 1489283088:0;scp -r * z5017666@cse.unsw.edu.au:./RLE/
+: 1489283100:0;scp -r *.cpp z5017666@cse.unsw.edu.au:./ass1
+: 1489283106:0;scp -r *.cpp z5017666@cse.unsw.edu.au:./RLE
+: 1489283113:0;scp -r *.h z5017666@cse.unsw.edu.au:./RLE
+: 1489283116:0;cse
+: 1489283272:0;clear
+: 1489283273:0;q
+: 1489285176:0;./rlencode input.txt output.txt
+: 1489285228:0;rm output.txt
+: 1489285236:0;pwd | pbcopy
+: 1489285440:0;cd ..
+: 1489285447:0;cp Compression Compression_C
+: 1489285450:0;cd Compression_C
+: 1489285457:0;cd ../Compression_C
+: 1489285458:0;.
+: 1489285507:0;vim test.cpp test2.cpp
+: 1489285831:0;ls
+: 1489285832:0;rm a.out
+: 1489285833:0;clear
+: 1489285834:0;ls
+: 1489285842:0;scp -r *.h z5017666@cse.unsw.edu.au:./RLE
+: 1489285850:0;scp -r *.cpp z5017666@cse.unsw.edu.au:./RLE
+: 1489285853:0;q
+: 1489285899:0;cd ..
+: 1489285902:0;rm Compression_C
+: 1489285904:0;cd Compression
+: 1489285904:0;ls
+: 1489285905:0;vim Makefile
+: 1489285941:0;scp Makefile z5017666@cse.unsw.edu.au:~/RLE/
+: 1489285944:0;cse
+: 1489286074:0;clear
+: 1489286074:0;s
+: 1489286077:0;exit
+: 1489286778:0;cd ..
+: 1489286784:0;cd Compression
+: 1489286785:0;ls
+: 1489286788:0;du -hs *
+: 1489286797:0;mv *.txt ../
+: 1489286798:0;ls
+: 1489286801:0;cd ..
+: 1489286819:0;mv Compression ~/Drive/Uni/2017
+: 1489286826:0;cd ~/Drive/Uni/2017
+: 1489286826:0;.
+: 1489286844:0;ls ../2016
+: 1489286865:0;mkdir 9319_WebData
+: 1489286870:0;mv Compression 9319_WebData
+: 1489286876:0;cd 9319_WebData
+: 1489286876:0;ls
+: 1489286880:0;mv Compression RLE
+: 1489286880:0;.
+: 1489286885:0;du -hs
+: 1489286887:0;du -hs *
+: 1489286890:0;du -hs */*
+: 1489287142:0;vim Makefile
+: 1489287145:0;cd RLE
+: 1489287147:0;vim Makefile
+: 1489287899:0;cd
+: 1489287902:0;cd .nvim
+: 1489287903:0;ls
+: 1489287907:0;cd .config/nvim
+: 1489287907:0;ls
+: 1489287909:0;cd plugged
+: 1489287909:0;ls
+: 1489287920:0;vrc
+: 1489287966:0;ls
+: 1489287973:0;cd nvim-rappel
+: 1489287974:0;clear
+: 1489287975:0;s
+: 1489287982:0;ls ../
+: 1489287986:0;ls ../matchit
+: 1489287994:0;cp ../matchit/README .
+: 1489287997:0;cp ../matchit/plugin .
+: 1489288001:0;cp ../matchit/doc .
+: 1489288002:0;ls
+: 1489288003:0;clear
+: 1489288004:0;s
+: 1489288006:0;vim README
+: 1489288012:0;ls
+: 1489288014:0;ls doc
+: 1489288016:0;cd doc
+: 1489288016:0;ls
+: 1489288027:0;mv matchit.txt rappel.txt
+: 1489288028:0;ls
+: 1489288029:0;vim tags
+: 1489288059:0;rm tags
+: 1489288060:0;clear
+: 1489288060:0;s
+: 1489288061:0;cd ..
+: 1489288062:0;clear
+: 1489288062:0;s
+: 1489288068:0;cd plugin
+: 1489288068:0;ls
+: 1489288075:0;mv matchit.vim rappel.vim
+: 1489288076:0;vim rappel.vim
+: 1489288476:0;cse
+: 1489289013:0;vim rappel.vim
+: 1489290116:0;q
+: 1489290167:0;vim rappel.vim
+: 1489290170:0;q
+: 1489290265:0;vim rappel.vim
+: 1489290303:0;q
+: 1489290344:0;vim rappel.vim
+: 1489290354:0;q
+: 1489290401:0;vim rappel.vim
+: 1489290461:0;q
+: 1489290580:0;vim rappel.vim
+: 1489290616:0;q
+: 1489291007:0;vim rappel.vim
+: 1489292179:0;vrc
+: 1489292195:0;clear
+: 1489292196:0;vim rappel.vim
+: 1489292359:0;vim ~/Documents/Projects/Jarvis
+: 1489292378:0;vim rappel.vim
+: 1489293002:0;vim rappel.vim ~/Documents/Projects/Jarvis/site/imports/ui/body.html
+: 1489293028:0;vim rappel.vim
+: 1489293423:0;clear
+: 1489293423:0;s
+: 1489293426:0;vim rappel.vim
+: 1489293773:0;vim rappel.vim ~/Documents/Projects/HaskPG/main.hs
+: 1489293904:0;clear
+: 1489293904:0;s
+: 1489293907:0;vim 
+: 1489293914:0;z Hask
+: 1489293917:0;vim main.hs
+: 1489293929:0;clear
+: 1489293930:0;s
+: 1489293930:0;d
+: 1489293965:0;vim rappel.vim
+: 1489294075:0;clear
+: 1489294075:0;s
+: 1489294083:0;vim ~/Drive/Project_List.md
+: 1489294300:0;ruby
+: 1489294316:0;vim test.rb
+: 1489294373:0;vim test.pl
+: 1489294641:0;vim
+: 1489294643:0;q
+: 1489294647:0;clear
+: 1489294647:0;s
+: 1489294650:0;rm test.*
+: 1489294650:0;.
+: 1489294651:0;s
+: 1489294652:0;clear
+: 1489294687:0;lisp
+: 1489294693:0;brew install lisp
+: 1489294697:0;vim test.lsp
+: 1489294865:0;echo "\!echo 'hi\!\!'" > out.vim
+: 1489294867:0;cat out.vim
+: 1489294874:0;vim -u out.vim
+: 1489294881:0;vim out.vim
+: 1489294890:0;vim -u out.vim
+: 1489294899:0;clear
+: 1489294900:0;s
+: 1489294902:0;vim out.vim
+: 1489294920:0;vim -u out.vim
+: 1489294929:0;vim out.vim
+: 1489294988:0;vim test.rs
+: 1489295040:0;clear
+: 1489295040:0;ls
+: 1489295043:0;rm test main
+: 1489295044:0;clear
+: 1489295044:0;s
+: 1489295046:0;clean
+: 1489295048:0;clear
+: 1489295048:0;ls
+: 1489295051:0;vim test.rs
+: 1489295057:0;ls
+: 1489295065:0;vim test.rs
+: 1489295108:0;ls
+: 1489295110:0;rm test
+: 1489295112:0;vim test.rs
+: 1489295118:0;clear
+: 1489295118:0;s
+: 1489295120:0;rm test
+: 1489295120:0;clear
+: 1489295120:0;s
+: 1489295123:0;vim out.vim
+: 1489295135:0;q
+: 1489295138:0;vim out.vim
+: 1489295166:0;clear
+: 1489295169:0;vim -u out.vim
+: 1489295178:0;vim out.vim
+: 1489295207:0;clear
+: 1489295207:0;s
+: 1489295209:0;rm out.vim
+: 1489295209:0;.
+: 1489295272:0;vim test.swift
+: 1489295279:0;swift test.swift
+: 1489295290:0;man swift
+: 1489295313:0;swift test.swift -o test
+: 1489295315:0;./test
+: 1489295316:0;ls
+: 1489295321:0;man sw
+: 1489295322:0;man swift
+: 1489295335:0;swift test.swift --emit-assembly
+: 1489295339:0;man swift
+: 1489295347:0;swiftc test.swift
+: 1489295348:0;ls
+: 1489295350:0;./test
+: 1489295456:0;q
+: 1489295458:0;clear
+: 1489295459:0;s
+: 1489295462:0;vim test.swift
+: 1489295477:0;vrc
+: 1489295543:0;vim test.swift
+: 1489295592:0;clear
+: 1489295592:0;s
+: 1489295594:0;clear
+: 1489295595:0;s
+: 1489295604:0;vim test.rs test.swift test.lsp
+: 1489295610:0;q
+: 1489295619:0;vim test.rs test.swift test.lsp
+: 1489295645:0;brew install lisp
+: 1489295700:0;brew install clisp
+: 1489295718:0;cd -
+: 1489295722:0;z rappel
+: 1489295725:0;vim README
+: 1489295728:0;vim rappel.vim
+: 1489295732:0;s
+: 1489295735:0;vim plugin/rappel.vim
+: 1489295865:0;which clisp
+: 1489295870:0;clisp test.lsp
+: 1489295886:0;clisp ~/Documents/Projects/HaskPG/test.lsp
+: 1489295946:0;clear
+: 1489295946:0;s
+: 1489295947:0;d
+: 1489295949:0;a plugin
+: 1489295950:0;s
+: 1489295951:0;clear
+: 1489295951:0;s
+: 1489295954:0;d README
+: 1489295958:0;cd doc
+: 1489295959:0;ls
+: 1489295964:0;vim rappel.txt
+: 1489295969:0;rm rappel.txt
+: 1489295970:0;cd ..
+: 1489295971:0;rm doc
+: 1489295972:0;clear
+: 1489295972:0;s
+: 1489295976:0;q
+: 1489295978:0;clear
+: 1489295978:0;s
+: 1489295980:0;cd ..
+: 1489295981:0;clear
+: 1489295981:0;s
+: 1489295983:0;vim README
+: 1489296253:0;clear
+: 1489296253:0;s
+: 1489296262:0;mkdir ~/REPLS
+: 1489296267:0;mv test* ~/REPLS
+: 1489296270:0;cd ~/REPLS
+: 1489296271:0;clear
+: 1489296271:0;s
+: 1489296608:0;marked ~/Drive/Project_List.md
+: 1489296616:0;marked ~/Drive/Project_List.md > out.html
+: 1489296619:0;browser out.html
+: 1489296622:0;chrome out.html
+: 1489296686:0;clear
+: 1489296694:0;vrc
+: 1489296713:0;vim ~/Drive/Project_List.md
+: 1489296727:0;vrc
+: 1489296737:0;vim ~/Drive/Project_List.md
+: 1489296802:0;vrc
+: 1489296886:0;vim ~/Drive/Project_List.md
+: 1489296926:0;clear
+: 1489296926:0;s
+: 1489296929:0;rm out.html
+: 1489296935:0;cd ~/Drive
+: 1489296936:0;ls
+: 1489296938:0;vim Project_List.md
+: 1489296975:0;q
+: 1489305189:0;vrc
+: 1489305259:0;vim Project_List.md
+: 1489305265:0;vrc
+: 1489305443:0;vim Project_List.md
+: 1489305464:0;vrc
+: 1489305552:0;vim Project_List.md
+: 1489305635:0;clear
+: 1489305635:0;s
+: 1489305638:0;vim Project_List.md
+: 1489305876:0;vrc
+: 1489306068:0;vim Project_List.md
+: 1489306078:0;vrc
+: 1489306089:0;vim Project_List.md
+: 1489306161:0;clear
+: 1489306161:0;s
+: 1489306164:0;rm Project_List.md.html
+: 1489306165:0;clear
+: 1489306165:0;s
+: 1489306279:0;vim Project_List.md
+: 1489306411:0;vim
+: 1489306413:0;q
+: 1489364599:0;cd ~/Documents
+: 1489364599:0;ls
+: 1489364600:0;cd Lectures
+: 1489364601:0;ls
+: 1489364611:0;z Uni
+: 1489364612:0;cd 2017
+: 1489364612:0;.
+: 1489364621:0;mkdir 9417_ML
+: 1489364623:0;cd 9417_ML
+: 1489364627:0;mkdir wk1
+: 1489364647:0;mv * ~/Drive/Uni/2017/9417_ML/wk1
+: 1489364648:0;ls
+: 1489364650:0;cd ..
+: 1489364651:0;rm Lectures
+: 1489364652:0;q
+: 1489364655:0;ls
+: 1489364656:0;clear
+: 1489364658:0;mk wk2
+: 1489364666:0;ls ../wk1
+: 1489364680:0;rm ../wk1/ML_wk1.m4v
+: 1489364683:0;clear
+: 1489364689:0;vim ML_wk2.md
+: 1489364896:0;q
+: 1489364906:0;vim
+: 1489364913:0;vim ML_wk2.md
+: 1489367358:0;echo "print(\"Hello World\")" >> test.py
+: 1489367372:0;python -m test.py
+: 1489367382:0;python test.py
+: 1489367390:0;python -c "import test"
+: 1489367394:0;python
+: 1489367410:0;clear
+: 1489367411:0;vim test.py
+: 1489367422:0;clear
+: 1489367426:0;python -c "import test"
+: 1489367435:0;python
+: 1489367454:0;clear
+: 1489367454:0;s
+: 1489367586:0;python -i test.py
+: 1489367600:0;vim test.js
+: 1489367629:0;node test.js
+: 1489367632:0;node -i test.js
+: 1489367633:0;node
+: 1489367646:0;node -h
+: 1489367653:0;node -e test.js
+: 1489367667:0;node -i test.js
+: 1489367670:0;node -i
+: 1489367681:0;node test.js -i
+: 1489367700:0;node -r test.js
+: 1489367706:0;node -r test
+: 1489367738:0;cat test.js | node -i
+: 1489367754:0;cat test.js | grep -v "\0" | node -i
+: 1489367761:0;cat test.js | node -i
+: 1489367824:0;node
+: 1489367851:0;clear
+: 1489367854:0;cat test.js
+: 1489367873:0;node
+: 1489367887:0;node -i -c ".load test.js"
+: 1489367892:0;node ".load test.js"
+: 1489367896:0;node ".load ./test.js"
+: 1489367897:0;clear
+: 1489367898:0;ls
+: 1489367902:0;node -c ".load test.js"
+: 1489367910:0;echo ".load test.js" | node
+: 1489367927:0;echo ".load test.js" | node -i
+: 1489367953:0;echo ".load test.js" && cat | node -i
+: 1489367978:0;echo ".load test.js\n hello();" && cat | node -i
+: 1489367984:0;echo ".load test.js\n hello();" | node -i
+: 1489368081:0;echo ".load test.js\n"; cat; | node -i
+: 1489368083:0;echo ".load test.js\n"; cat | node -i
+: 1489368094:0;echo ".load test.js"; cat | node -i
+: 1489368102:0;clear
+: 1489368140:0;node -c ".load test.js"
+: 1489368144:0;node -c "test.js"
+: 1489368149:0;node
+: 1489368191:0;clear
+: 1489368200:0;node -l "test.js"
+: 1489368204:0;node test.js
+: 1489368206:0;node test.js -c
+: 1489368207:0;node test.js -i
+: 1489368217:0;echo "hello();" |node test.js
+: 1489368222:0;echo "hello();" |node
+: 1489368229:0;echo ".load test.js; hello();" |node
+: 1489368238:0;echo ".load test.js\nhello();" |node
+: 1489368249:0;echo ".load test.js"; cat | node -i
+: 1489368267:0;echo ".load test.js" | node -i
+: 1489368367:0;perl
+: 1489368395:0;clear
+: 1489368483:0;rustc
+: 1489368495:0;swiftc
+: 1489368498:0;swiftc -i
+: 1489368502:0;clear
+: 1489368535:0;ghci Uni/2017/9417_ML/wk1/weights.hs
+: 1489369020:0;vim test.js
+: 1489370356:0;clear
+: 1489370356:0;s
+: 1489370359:0;vim test.js
+: 1489373572:0;clear
+: 1489373572:0;s
+: 1489373575:0;vim test.py
+: 1489373590:0;cd Uni
+: 1489373590:0;ls
+: 1489373592:0;cd 2017
+: 1489373592:0;.
+: 1489373594:0;cd 9417_ML
+: 1489373595:0;ls
+: 1489373599:0;wk1
+: 1489373602:0;vim weights.hs
+: 1489374029:0;vim ML_wk1.md
+: 1489375190:0;vim
+: 1489375215:0;q
+: 1489375265:0;vim ML_wk1.md
+: 1489378657:0;clear
+: 1489378657:0;s
+: 1489378658:0;q
+: 1489378706:0;clear
+: 1489378707:0;s
+: 1489378709:0;vim README
+: 1489379203:0;cd ..
+: 1489379203:0;ls
+: 1489379205:0;cd wk1
+: 1489379205:0;ls
+: 1489379208:0;vim weights.hs
+: 1489379239:0;vim test.cpp
+: 1489379420:0;vim weights.hs
+: 1489379482:0;vim test.pl
+: 1489379707:0;vim test.pl weights.hs
+: 1489379859:0;vim
+: 1489379903:0;vim test.txt
+: 1489380008:0;clear
+: 1489380008:0;s
+: 1489380028:0;vim test.txt
+: 1489380130:0;clear
+: 1489380131:0;vrc
+: 1489380153:0;vim test.txt
+: 1489380159:0;clear
+: 1489380159:0;s
+: 1489380163:0;clear
+: 1489380164:0;s
+: 1489380166:0;d plugin
+: 1489380168:0;a plugin
+: 1489380169:0;clear
+: 1489380169:0;s
+: 1489380171:0;d README.md
+: 1489380176:0;cat autoload
+: 1489380177:0;cat autoload*
+: 1489380179:0;cat autoload/*
+: 1489380182:0;a autoload
+: 1489380183:0;clear
+: 1489380183:0;s
+: 1489380185:0;vim README.md
+: 1489380421:0;vim *.md
+: 1489380446:0;vrc
+: 1489380456:0;vim *.md
+: 1489380677:0;q
+: 1489380702:0;clear
+: 1489380702:0;s
+: 1489380703:0;d
+: 1489380706:0;clear
+: 1489380707:0;a plugin
+: 1489380709:0;a autoload
+: 1489380709:0;clear
+: 1489380709:0;s
+: 1489380715:0;wc -l */(
+: 1489380716:0;wc -l */*
+: 1489380723:0;vim plugin/rappel.vim
+: 1489380784:0;vim *.md
+: 1489380791:0;clear
+: 1489380791:0;s
+: 1489380833:0;clear
+: 1489380833:0;s
+: 1489380834:0;a README.md
+: 1489380836:0;clear
+: 1489380836:0;s
+: 1489380837:0;d
+: 1489380842:0;a autoload/rappel.vim plugin/rappel.vim
+: 1489380843:0;clear
+: 1489380843:0;s
+: 1489380857:0;vim README.md
+: 1489381115:0;g++ -c -g -O0 --coverage test.cpp
+: 1489381116:0;ls
+: 1489381117:0;./a.out
+: 1489381118:0;ls
+: 1489381122:0;vim test.gcno
+: 1489381225:0;gcovr -r . --html -o coverage.html --html-details
+: 1489381368:0;vim *.md
+: 1489381418:0;q
+: 1489381462:0;ls
+: 1489381469:0;rm a.out weights *.md.html
+: 1489381470:0;clear
+: 1489381470:0;ls
+: 1489381474:0;rm test.gcno
+: 1489381480:0;rm test.*
+: 1489381481:0;clean
+: 1489381482:0;.
+: 1489381483:0;cd ..
+: 1489381484:0;clear
+: 1489381484:0;ls
+: 1489381486:0;cd wk2
+: 1489381487:0;ls
+: 1489381487:0;q
+: 1489381492:0;clear
+: 1489381492:0;s
+: 1489381493:0;a README.md
+: 1489381494:0;s
+: 1489381495:0;clear
+: 1489381495:0;s
+: 1489381529:0;m "First commit: Set up some REPLs, run commands and a default to open files on linux"
+: 1489381530:0;p
+: 1489381565:0;git remote
+: 1489381567:0;git remote -v
+: 1489381587:0;git remote add origin git@github.com:Cypher1/nvim-rappel.git
+: 1489381594:0;git remote remove origin 
+: 1489381595:0;git remote add origin git@github.com:Cypher1/nvim-rappel.git
+: 1489381596:0;p
+: 1489381604:0;git push --set-upstream origin master
+: 1489381609:0;p
+: 1489381634:0;vim README.md
+: 1489381679:0;q
+: 1489381705:0;s
+: 1489381706:0;d
+: 1489381710:0;a README.md
+: 1489381713:0;a autoload
+: 1489381730:0;m "Remove some debugging echos and add descriptions to the functions"
+: 1489381732:0;vim
+: 1489381737:0;q
+: 1489381751:0;p
+: 1489381831:0;vim plugin/rappel.vim
+: 1489381851:0;a
+: 1489381852:0;s
+: 1489381853:0;a .
+: 1489381856:0;m "Typo"
+: 1489381857:0;p
+: 1489392796:0;cd ../
+: 1489392797:0;ls
+: 1489392798:0;cd ../
+: 1489392798:0;ls
+: 1489392800:0;cd 9319_WebData
+: 1489392800:0;.
+: 1489392812:0;mk BWT
+: 1489392818:0;vim bwt.hs
+: 1489407198:0;clear
+: 1489407199:0;vim bwt.hs
+: 1489407242:0;vim bwt.hs ~/Documents/rlcompress.hs
+: 1489408290:0;mv ~/Documents/rlcompress.hs .
+: 1489408291:0;s
+: 1489408293:0;clear
+: 1489408294:0;s
+: 1489409590:0;ping 8.8.8.8
+: 1489409644:0;vim ~/Previous
+: 1489409906:0;ping google.com
+: 1489410268:0;.
+: 1489410272:0;q
+: 1489410273:0;.
+: 1489442768:0;vim ~/Previous
+: 1489442897:0;clear
+: 1489442897:0;s
+: 1489442903:0;vim bwt.hs
+: 1489443890:0;echp "BNN|AAA" | ./bwt
+: 1489471840:0;mosh
+: 1489471845:0;brew install mosh
+: 1489471849:0;cse
+: 1489471940:0;q
+: 1489472089:0;cse
+: 1489472252:0;q
+: 1489472725:0;pip3 install jupyter
+: 1489472780:0;pip install --upgrade pip
+: 1489473262:0;pip3 install --upgrade pip3
+: 1489473265:0;pip3 install --upgrade pip
+: 1489473272:0;clear
+: 1489473276:0;pip3 install jupyter
+: 1489473279:0;clear
+: 1489473288:0;jupyter-notebook
+: 1489473298:0;cd ..
+: 1489473299:0;..
+: 1489473299:0;ls
+: 1489473303:0;cd 9417_ML
+: 1489473303:0;.
+: 1489473307:0;mk wk3
+: 1489473355:0;cd ~/Drive
+: 1489473356:0;ls
+: 1489473359:0;rm test.*
+: 1489473360:0;clear
+: 1489473361:0;s
+: 1489473364:0;vim Project_List.md
+: 1489473370:0;clear
+: 1489473370:0;s
+: 1489473371:0;q
+: 1489473373:0;clear
+: 1489473373:0;ls
+: 1489473379:0;jupyter-notebook
+: 1489473385:0;ls
+: 1489473388:0;cd -
+: 1489473391:0;cd -2
+: 1489473398:0;z ML
+: 1489473398:0;.
+: 1489473400:0;ls
+: 1489473401:0;wk3
+: 1489473402:0;.
+: 1489473409:0;mv tmp.ipynb.txt wk3.ipynb
+: 1489473418:0;q
+: 1489473745:0;pip3 install sklearn
+: 1489473788:0;pip3 install scipy
+: 1489479183:0;cd ~/Do
+: 1489479184:0;cd ~/Documents
+: 1489479185:0;.
+: 1489479190:0;vim bindWithFail.hs
+: 1489536950:0;q
+: 1489545133:0;echp "BNN|AAA" | ./bwt
+: 1489545166:0;q
+: 1489545391:0;echo "BNN|AAA" | ./bwt
+: 1489545400:0;echo -n "BNN|AAA" | ./bwt
+: 1489545655:0;q
+: 1489547795:0;clear
+: 1489547795:0;s
+: 1489547796:0;cd ..
+: 1489547797:0;s
+: 1489547800:0;clear
+: 1489547800:0;s
+: 1489547801:0;d
+: 1489547813:0;vrc
+: 1489547826:0;d
+: 1489547855:0;clear
+: 1489547855:0;s
+: 1489547856:0;cd ..
+: 1489547857:0;clear
+: 1489547857:0;s
+: 1489547861:0;d init.vim
+: 1489547867:0;a init.vim
+: 1489547869:0;s
+: 1489547886:0;git add plugged/nvim-rappel
+: 1489547889:0;git add plugged/nvim-rappel -f
+: 1489547891:0;clear
+: 1489547891:0;s
+: 1489547903:0;m "Move REPL code to a new plugin"
+: 1489547904:0;clear
+: 1489547904:0;s
+: 1489547907:0;a plugged
+: 1489547908:0;s
+: 1489547918:0;m "Got the original vim-airline"
+: 1489547919:0;clear
+: 1489547920:0;s
+: 1489547922:0;d spell
+: 1489547925:0;a spell
+: 1489547926:0;s
+: 1489547931:0;m "Added some words"
+: 1489547932:0;clear
+: 1489547933:0;s
+: 1489547936:0;d ../zsh_history
+: 1489547955:0;git add ../zsh_history&& git commit -m "More zsh_history" && git push
