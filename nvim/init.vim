@@ -1,12 +1,12 @@
 " Plugin {{{
 call plug#begin('~/.config/nvim/plugged') " Plugins go here
 Plug 'altercation/vim-colors-solarized' " Colours!
-Plug 'bling/vim-airline'                " Airline gui
+Plug 'vim-airline/vim-airline'          " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
+Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'mhinz/vim-signify'                " Sign column diffs
-Plug 'rbgrouleff/bclose.vim'            " Close properly
 Plug 'tpope/vim-eunuch'                 " Unix built in
 Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
 Plug 'sheerun/vim-polyglot'             " Lots of languages
@@ -14,6 +14,7 @@ Plug 'bitc/vim-hdevtools'               " Haskell Types
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'alvan/vim-closetag'               " Lazy html
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
+Plug 'cypher1/nvim-rappel'              " Repls
 call plug#end()
 
 " }}}
@@ -23,11 +24,11 @@ set background=dark
 colorscheme solarized
 highlight Comment ctermfg=DarkMagenta
 highlight SignColumn ctermbg=black
-highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-match OverLength /\%81v.\+/
+" highlight OverLength ctermbg=red ctermfg=white guibg=#592929
+" match OverLength /\%81v.\+/
 " }}}
 " Status Information {{{
-set cursorline ruler relativenumber number laststatus=4
+set cursorline ruler relativenumber number laststatus=2
 let g:airline_powerline_fonts=1
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#fnamemod = ':t'
@@ -42,37 +43,42 @@ set backspace=indent,eol,start
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib/llvm-3.7/lib/libclang.dylib"
 set sessionoptions-=options
-let g:session_command_aliases = 1
 set foldmethod=manual foldlevel=0
 set noerrorbells novisualbell t_vb=
 set smartcase gdefault magic
-nnoremap <silent> <C-l> :nohlsearch<CR><C-l>
-" File Writes {{{
+set inccommand=split
+nnoremap <silent> : :nohlsearch<CR>:
 set backup writebackup backupdir=/tmp/ hidden
-cmap w!! w !sudo tee % >/dev/null
-" }}}
 " No more arrow keys {{{
 map <Up>    <NOP>
 map <Down>  <NOP>
 map <Left>  <<
 map <Right> >>
 " }}}
+tnoremap <C-e> <C-\><C-n>
 " }}}
-" Splits {{{
+" Buffers/Tabs/Splits {{{
 set splitbelow splitright
+nmap \ :vsp<space>
+nmap - :sp<space>
 nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>j :wincmd j<CR>
 nmap <silent> <leader>k :wincmd k<CR>
 nmap <silent> <leader>l :wincmd l<CR>
-" }}}
-" Control buffers/tabs {{{
-nmap <leader>\ :vsp<space>
-nmap <leader>- :sp<space>
 nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
-nmap <leader>q :Bclose<CR>
-nmap <leader>e :e<space>
+nmap <leader>q :bp <BAR> bd #<CR>
 nmap <leader>w :w<CR>
+" }}}
+" Control P {{{
+" Setup some default ignores
+let g:ctrlp_custom_ignore = {
+  \ 'dir':  '\v[\/](\.(git|hg|svn)|node_modules|\_site)$',
+  \ 'file': '\v(\.(exe|so|dll|class|png|jpg|jpeg|)$)|^[^\.]*$',
+\}
+let g:ctrlp_working_path_mode = 'r' "Use git root
+let g:ctrlp_max_files = 0
+nmap <leader>b :CtrlPMixed<cr>
 " }}}
 " Tab (Indent and Completion) {{{
 set tabstop=2 softtabstop=2 shiftwidth=2
@@ -109,60 +115,30 @@ let g:neomake_javascript_enabled_makers = ['eslint']
     \ '%W%f: line %l\, col %c\, Warning - %m'
     \ }
 " }}}
-" Run as Program {{{
-function! Chrome()
-    !clear; exec chrome % &>/dev/null &
-endfunction
-function! Vterm(...)
-    execute 'vsp | term '.join(a:000, ' ')
-endfunction
-function! Term(...)
-    execute 'sp | term '.join(a:000, ' ')
-endfunction
-
-nmap <leader>p <NOP>
-tnoremap <C-e> <C-\><C-n>
-function! Repl(call)
-  execute 'nmap <buffer><silent> <leader>p : call Vterm("'.a:call.'")<CR>'
-  execute 'nmap <buffer><silent> <leader>P : call Term("'.a:call.'")<CR>'
-endfunction
-function! ReplComp(comp, run)
-  call Repl('echo \"Compiling...\"; '.a:comp.'; echo \"Running...\"; '.a:run)
-endfunction
-command! -nargs=* Chrome call Chrome(<f-args>)
-command! -nargs=* Vterm call Vterm(<f-args>)
-command! -nargs=* Term call Term(<f-args>)
-" }}}
 " Autocommands {{{
 augroup vim
   autocmd!
   au BufWritePost $MYVIMRC source $MYVIMRC|set fdm=marker
   au BufWritePre * :silent! Neomake " Includes auto tidy for html etc
-  set viewoptions-=options
-  au FileType c,cpp,javascript,java nnoremap <leader>i :ClangFormat<CR>
   au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
-  au Filetype markdown,html nmap <buffer> <leader>p :call Chrome()<CR>
   au FileType html iabbrev </ </<C-X><C-O>
   au Filetype markdown match OverLength //
-  au CursorMoved * if mode() !~# "[vV\<C-v>]" | set nornu nu | endif
+  au BufEnter,BufRead *.swift set filetype=swift
 augroup END
 " }}}
-" Repls {{{
-augroup Repls
-  autocmd!
-  au Filetype sh         call Repl("bash %")
-  au Filetype zsh        call Repl("zsh %")
-  au Filetype python     call Repl("python %")
-  au Filetype javascript call Repl("node %")
-  au Filetype haskell    call ReplComp("ghc % -Wall", "./`sed 's/\.[^\.]*$//' <<< '%'`")
-  au Filetype cpp        call ReplComp("g++ % -Wall -std=c++14", "./a.out")
-  au Filetype arduino    call Repl("processing-java --sketch=`pwd` --present")
-  au Filetype prolog     call Repl("swipl -s %")
-augroup END
+" My Repls {{{
 let g:filetype_pl="prolog"
+let g:rappel#run_key    = '<leader>p'
+let g:rappel#repl_key    = '<leader>P'
+let g:rappel#launch="chrome %"
+
+let g:rappel#custom_repls={
+\ 'arduino': {
+\   'run': 'processing-java --sketch=`pwd` --present'
+\ },
+\}
 " }}}
 " Haskell {{{
-let g:haskell_indent_disable=0
 nmap <leader>t :HdevtoolsType<CR>
 nmap <leader>T :HdevtoolsClear<CR>
 " }}}
