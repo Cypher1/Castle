@@ -134,6 +134,7 @@ let g:rappel#launch="chrome %"
 
 let g:rappel#custom_repls={
 \ 'arduino': {
+\   'launch': 'processing-java --sketch=`pwd` --present',
 \   'run': 'processing-java --sketch=`pwd` --present'
 \ },
 \}
