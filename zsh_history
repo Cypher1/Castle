@@ -35874,3 +35874,367 @@ git stash apply
 : 1489547933:0;s
 : 1489547936:0;d ../zsh_history
 : 1489547955:0;git add ../zsh_history&& git commit -m "More zsh_history" && git push
+: 1489547962:0;clear
+: 1489547963:0;s
+: 1489547964:0;d
+: 1489547968:0;s
+: 1489547973:0;git status
+: 1489547974:0;.
+: 1489547976:0;cd ..
+: 1489547979:0;s
+: 1489547980:0;..
+: 1489547986:0;ls P
+: 1489547989:0;ls REPLS
+: 1489547995:0;vrc
+: 1489549120:0;vim REPLS/test.lsp
+: 1489549125:0;cd REPLS
+: 1489549126:0;vim *
+: 1489549163:0;clear
+: 1489549163:0;s
+: 1489549165:0;q
+: 1489556879:0;vrc
+: 1489556956:0;q
+: 1489562001:0;clear
+: 1489562001:0;s
+: 1489562004:0;q
+: 1489562028:0;vim btw.hs
+: 1489562032:0;vim *.hs
+: 1489562146:0;q
+: 1489562465:0;clear
+: 1489562465:0;s
+: 1489562487:0;vim
+: 1489562529:0;vrc
+: 1489562534:0;ls
+: 1489562536:0;ls ~
+: 1489562543:0;ls ~/vimwiki/*
+: 1489562544:0;ls ~/vimwiki/
+: 1489562547:0;rm -rf ~/vimwiki/
+: 1489562548:0;clear
+: 1489562548:0;s
+: 1489562549:0;vim
+: 1489562555:0;clear
+: 1489562558:0;cd ~/.config/nvim
+: 1489562558:0;s
+: 1489562559:0;d
+: 1489562560:0;clear
+: 1489562561:0;s
+: 1489562562:0;cd
+: 1489562563:0;.
+: 1489562571:0;cd Documents
+: 1489562572:0;.
+: 1489562578:0;mkdir BindWithFail
+: 1489562588:0;mkdir BindWithFailTest
+: 1489562589:0;ls
+: 1489562594:0;mv bindWithFail* BindWithFailTest
+: 1489562595:0;.
+: 1489562604:0;mv BindWithFailTest Programming_Problems
+: 1489562605:0;.
+: 1489562607:0;cat input.txt
+: 1489562609:0;clear
+: 1489562610:0;s
+: 1489562618:0;mv input.txt input_compression_practice.txt
+: 1489562620:0;rm output.txt
+: 1489562623:0;cat simple.txt
+: 1489562624:0;clear
+: 1489562626:0;rm simple.txt
+: 1489562627:0;clear
+: 1489562627:0;s
+: 1489562636:0;mv ned* ../Movies
+: 1489562636:0;.
+: 1489562642:0;mv ML_wk3.m4v ../Movies
+: 1489562643:0;.
+: 1489562648:0;rm decoded.txt
+: 1489562650:0;.
+: 1489562658:0;cat RNKWGB.htm
+: 1489562660:0;rn RNKWGB.htm
+: 1489562660:0;.
+: 1489562663:0;rm RNKWGB.htm
+: 1489562664:0;.
+: 1489562675:0;cat compression_easy.txt
+: 1489562678:0;clear
+: 1489562678:0;s
+: 1489562684:0;diff compression_easy.txt input_compression_practice.txt
+: 1489562689:0;rm input_compression_practice.txt
+: 1489562689:0;.
+: 1489562694:0;zip compression_easy.txt
+: 1489562695:0;clear
+: 1489562696:0;s
+: 1489562703:0;zip -xfc compression_easy.txt
+: 1489562710:0;zip -xfc compression_easy.txt compression_easy.zip
+: 1489562721:0;zip -zfc compression_easy.zip compression_easy.txt
+: 1489562725:0;zip -fc compression_easy.zip compression_easy.txt
+: 1489562728:0;zip compression_easy.zip compression_easy.txt
+: 1489562732:0;clear
+: 1489562732:0;s
+: 1489562738:0;du -hs compression_easy.*
+: 1489562742:0;vim compression_easy.zip
+: 1489562799:0;clear
+: 1489562801:0;cat compression_easy.zip
+: 1489562809:0;clear
+: 1489562813:0;wc -c compression_easy.*
+: 1489562841:0;wc -c compression_easy.* | sed "s/^ *//"
+: 1489562845:0;wc -c compression_easy.* | sed "s/^ *//" | cut -f1
+: 1489562848:0;wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' '
+: 1489562862:0;wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head 2
+: 1489562864:0;wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2
+: 1489562871:0;wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2 | tac
+: 1489562874:0;brew install tac
+: 1489562893:0;clear
+: 1489562893:0;q
+: 1489562895:0;wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2
+: 1489562900:0;wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2 | echo
+: 1489562905:0;echo `wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2`
+: 1489562922:0;echo `wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/(\d)* (\d)*//"
+: 1489562935:0;echo `wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/([0-9]*) ([0-9]*)//"
+: 1489562938:0;echo `wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/([0-9]*) ([0-9]*)/\1 \2/"
+: 1489562945:0;echo `wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/\([0-9]*\) \([0-9]*\)/\1 \2/"
+: 1489562949:0;echo `wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/\([0-9]*\) \([0-9]*\)/\2 \1/"
+: 1489562951:0;echo `wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/\([0-9]*\) \([0-9]*\)/\2/\1/"
+: 1489562958:0;echo `wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/\([0-9]*\) \([0-9]*\)/\2\/\1/"
+: 1489562979:0;python -c "print $(echo "`wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/\([0-9]*\) \([0-9]*\)/\2\/\1/")"
+: 1489562988:0;python -c 'print $(echo "`wc -c compression_easy.* | sed "s/^ *//" | cut -f1 -d' ' | head -2` | sed "s/\([0-9]*\) \([0-9]*\)/\2\/\1/")'
+: 1489563004:0;echo `wc -c compression_easy.* | sed 's/^ *//' | cut -f1 -d' ' | head -2` | sed 's/\([0-9]*\) \([0-9]*\)/\2\/\1/'
+: 1489563020:0;python -c "print $(echo `wc -c compression_easy.* | sed 's/^ *//' | cut -f1 -d' ' | head -2` | sed 's/\([0-9]*\) \([0-9]*\)/\2\/\1/')"
+: 1489563027:0;python -c "print $(echo `wc -c compression_easy.* | sed 's/^ *//' | cut -f1 -d' ' | head -2` | sed 's/\([0-9]*\) \([0-9]*\)/\2.0\/\1.0/')"
+: 1489563042:0;python -c "print 100*$(echo `wc -c compression_easy.* | sed 's/^ *//' | cut -f1 -d' ' | head -2` | sed 's/\([0-9]*\) \([0-9]*\)/\2.0\/\1.0/')"
+: 1489563071:0;python -c "print (int(10000*$(echo `wc -c compression_easy.* | sed 's/^ *//' | cut -f1 -d' ' | head -2` | sed 's/\([0-9]*\) \([0-9]*\)/\2.0\/\1.0/'))/100.0)"
+: 1489563083:0;python -c "print (round(10000*$(echo `wc -c compression_easy.* | sed 's/^ *//' | cut -f1 -d' ' | head -2` | sed 's/\([0-9]*\) \([0-9]*\)/\2.0\/\1.0/'))/100.0)"
+: 1489563096:0;python -c "print (round(10000*$(echo `wc -c compression_easy.* | sed 's/^ *//' | cut -f1 -d' ' | head -2` | sed 's/\([0-9]*\) \([0-9]*\)/\2.0\/\1.0/'))/100.0)+\"%\""
+: 1489563104:0;python -c "print str((round(10000*$(echo `wc -c compression_easy.* | sed 's/^ *//' | cut -f1 -d' ' | head -2` | sed 's/\([0-9]*\) \([0-9]*\)/\2.0\/\1.0/'))/100.0))+\"%\""
+: 1489563108:0;clear
+: 1489563109:0;ls
+: 1489563137:0;~/Drive/Uni/2017/9319_WebData/RLE/rlencode compression_easy.txt
+: 1489563139:0;clear
+: 1489563143:0;~/Drive/Uni/2017/9319_WebData/RLE/rlencode compression_easy.txt out.txt
+: 1489563148:0;~/Drive/Uni/2017/9319_WebData/RLE/rlencode compression_easy.txt out.rle
+: 1489563152:0;ls
+: 1489563156:0;cat out.rle
+: 1489563159:0;clear
+: 1489563160:0;ls
+: 1489563162:0;rm out.txt
+: 1489563165:0;wc -c out.rle
+: 1489563170:0;zip compression_easy.zip compression_easy.txt
+: 1489563179:0;wc -c compression_easy.zip
+: 1489563188:0;ls
+: 1489563191:0;rm compression_easy.zip
+: 1489563194:0;zip compression_easy.zip compression_easy.txt
+: 1489563197:0;clear
+: 1489563199:0;wc -c compression_easy.zip
+: 1489563204:0;wc -c out.rle
+: 1489563229:0;~/Drive/Uni/2017/9319_WebData/RLE/rldecode out.txt inf.txt
+: 1489563231:0;ls
+: 1489563236:0;diff inf.txt compression_easy.txt
+: 1489563238:0;clear
+: 1489563239:0;ls
+: 1489563245:0;diff inf.txt compression_easy.txt
+: 1489563250:0;clear
+: 1489563250:0;ls
+: 1489563268:0;~/Drive/Uni/2017/9319_WebData/RLE/rlencode compression_easy.txt out.rle
+: 1489563285:0;~/Drive/Uni/2017/9319_WebData/RLE/rldecode out.rle inf.txt
+: 1489563291:0;diff compression_easy.txt inf.txt
+: 1489563297:0;wc -c inf.txt
+: 1489563302:0;wc -c compression_easy.txt
+: 1489563305:0;wc -c compression_easy.zip
+: 1489563308:0;wc -c out.rle
+: 1489563341:0;~/Drive/Uni/2017/9319_WebData/RLE/rlencode compression_easy.zip out.rle
+: 1489563343:0;wc -c
+: 1489563347:0;wc -c out.rle
+: 1489563373:0;q
+: 1489563756:0;vim
+: 1489564991:0;cd ~/Drive/Uni/2017
+: 1489564992:0;;s
+: 1489564998:0;clear
+: 1489564999:0;cd 9417_ML
+: 1489564999:0;.
+: 1489565001:0;cd wk3
+: 1489565002:0;.
+: 1489565007:0;jupyter-notebook wk3.ipynb
+: 1489565058:0;jupyter-console wk3.ipynb
+: 1489565085:0;q
+: 1489566756:0;ls
+: 1489566759:0;vim tutorial.md
+: 1489568723:0;q
+: 1489570497:0;clear
+: 1489570497:0;s
+: 1489570499:0;cd ..
+: 1489570502:0;ls *
+: 1489570508:0;cd wk2
+: 1489570509:0;.
+: 1489570514:0;rm ML_wk2.md.html
+: 1489570515:0;..
+: 1489571172:0;vim 9417_ML/wk3/tutorial.md
+: 1489571243:0;clear
+: 1489571243:0;s
+: 1489571253:0;title "Regression"
+: 1489571255:0;notitle
+: 1489571268:0;title "Regression"
+: 1489571279:0;zrc
+: 1489571288:0;man title
+: 1489571291:0;which title
+: 1489571299:0;man title
+: 1489571302:0;title -h
+: 1489571305:0;title --help
+: 1489572370:0;clear
+: 1489572370:0;s
+: 1489572376:0;cd /Users/Cypher/Library/Application Support/Google/Chrome/Default/Extensions/
+: 1489572381:0;cd '/Users/Cypher/Library/Application Support/Google/Chrome/Default/Extensions/'
+: 1489572382:0;.
+: 1489572384:0;ls *
+: 1489572388:0;ls */*
+: 1489572402:0;ls */*/icon*
+: 1489572419:0;ls */*/icon16.png
+: 1489572422:0;ls */*/icon16.*
+: 1489572427:0;ls */*/icon*.*
+: 1489572435:0;ls */*
+: 1489572445:0;ls */*/manifest.json
+: 1489572450:0;cat */*/manifest.json
+: 1489572457:0;cat */*/manifest.json | grep Name
+: 1489572461:0;cat */*/manifest.json | grep name
+: 1489572482:0;cat */*/manifest.json | grep "name|\/"
+: 1489572492:0;cat */*/manifest.json | grep "name|manifest"
+: 1489572497:0;cat */*/manifest.json | grep "name|manifest.json"
+: 1489572527:0;cat */*/manifest.json | grep "name"
+: 1489572538:0;cat */*/manifest.json | grep "name" -B5
+: 1489572544:0;cat */*/manifest.json | grep "name" -B10
+: 1489572566:0;man cat
+: 1489572595:0;.
+: 1489572600:0;ls *
+: 1489572602:0;clear
+: 1489572620:0;cat `ls .`
+: 1489572628:0;cat "$(ls .)"
+: 1489572634:0;cat "$(ls .)/manifest.json"
+: 1489572672:0;cat */manifest.json | diff (ls .)
+: 1489572681:0;cat */manifest.json
+: 1489572685:0;cat */*/manifest.json
+: 1489572691:0;cat `ls */*/manifest.json`
+: 1489572712:0;cat */*/manifest.json | diff < ls .
+: 1489572716:0;cat */*/manifest.json | diff < (ls .)
+: 1489572720:0;cat */*/manifest.json | diff <<<(ls .)
+: 1489572725:0;cat */*/manifest.json | diff (ls .)
+: 1489572739:0;ls . > /tmp/files
+: 1489572758:0;cat */*/manifest.json | grep "name" > /tmp/names
+: 1489572768:0;cat /tmp/files /tmp/names
+: 1489572775:0;cat -y /tmp/files /tmp/names
+: 1489572780:0;/bin/cat -y /tmp/files /tmp/names
+: 1489713210:0;s
+: 1489713211:0;cd
+: 1489713211:0;.
+: 1489716135:0;vim REPLS/test.rs
+: 1489716162:0;q
+: 1489732099:0;ghci
+: 1489733194:0;pkill ghci
+: 1489733196:0;ps -ef
+: 1489733200:0;ps -ef | grep ghci
+: 1489733203:0;clear
+: 1489733203:0;fg
+: 1489733208:0;pkill ghci
+: 1489733213:0;ps -ef | grep ghci
+: 1489733223:0;ps -ef | haskell
+: 1489733226:0;ps -ef | ghc
+: 1489733229:0;ps -ef | grep ghc
+: 1489733243:0;pkill 1829
+: 1489733246:0;pkill 1782
+: 1489733260:0;pkill 1829
+: 1489733279:0;pgrep ghc
+: 1489733285:0;kill -9 1829
+: 1489733287:0;q
+: 1489733293:0;ghc
+: 1489733300:0;ghc --interactive
+: 1489733310:0;ghci
+: 1489733378:0;q
+: 1489733613:0;ghci
+: 1489734043:0;q
+: 1489734047:0;cd
+: 1489734048:0;.
+: 1489734051:0;rm test
+: 1489734051:0;.
+: 1489734072:0;mv Previous Drive/Me/Paper\ work/Previous_Tenant
+: 1489734073:0;.
+: 1489734096:0;ls Documents Downloads
+: 1489734107:0;cd Downloads
+: 1489734130:0;mv SwiftLanguage.pdf ~/
+: 1489734136:0;mk Paperwork
+: 1489734144:0;mv ../CYK* .
+: 1489734144:0;.
+: 1489734146:0;cd ..
+: 1489734146:0;.
+: 1489734151:0;mv Youth\ Allowance_M2* Paperwork
+: 1489734152:0;.
+: 1489734158:0;mv Low\ Income\ Health\ Care\ Card_M220769560 Paperwork
+: 1489734158:0;.
+: 1489734161:0;rm i-9.pdf
+: 1489734161:0;.
+: 1489734166:0;open 94Vihh102002h1914610201822181107102.pdf
+: 1489734174:0;mv 94Vihh102002h1914610201822181107102.pdf Paperwork
+: 1489734174:0;.
+: 1489734202:0;open Update\ Your\ Details\ Letter
+: 1489734211:0;rm Update\ Your\ Details\ Letter
+: 1489734211:0;.
+: 1489734218:0;rm Welcome\ to\ Centrelink\ letters\ online_M209016510
+: 1489734218:0;.
+: 1489734246:0;rm myUNSW\ Active*
+: 1489734246:0;.
+: 1489734257:0;mv Paperwork Paperwork_pdfs ~/Drive/Me/Paper\ work
+: 1489734285:0;mv Paperwork ~/Drive/Me/Paper\ work/Pdfs
+: 1489734292:0;mv Paperwork ~/Drive/Me/Paper\ work/
+: 1489734295:0;ls
+: 1489734303:0;cd ~/Drive/Me/Paper\ work
+: 1489734304:0;ls
+: 1489734308:0;cd ..
+: 1489734308:0;.
+: 1489734313:0;rm Causality.md
+: 1489734313:0;.
+: 1489734316:0;rm Cues.gdsheet
+: 1489734317:0;.
+: 1489734327:0;vim shit_gf_says.md
+: 1489734568:0;q
+: 1489734654:0;vim test.hs
+: 1489735155:0;cd
+: 1489735173:0;vim MarioMe.md
+: 1489735499:0;q
+: 1489796142:0;ls
+: 1489796144:0;cd Test
+: 1489796145:0;.
+: 1489796146:0;vim test.pde
+: 1489796328:0;.
+: 1489809894:0;Âƒ€cd ..
+: 1489809894:0;ls
+: 1489809897:0;clear
+: 1489809898:0;ls
+: 1489809899:0;cd ..
+: 1489809913:0;mv Test Documents/Projects/Josh_the_game
+: 1489809914:0;.
+: 1489809927:0;mv MarioMe.md ~/Drive/Me
+: 1489809927:0;.
+: 1489809932:0;cd Drive
+: 1489809933:0;.
+: 1489809939:0;cd Uni/2017/_BMM
+: 1489809940:0;ls
+: 1489809951:0;vim Psychologism\ and\ Behaviorism\ -\ Ned\ Block.md
+: 1489810455:0;cd ~/.
+: 1489810458:0;cd .config
+: 1489810459:0;ls
+: 1489810460:0;d
+: 1489810480:0;vrc
+: 1489810528:0;clear
+: 1489810528:0;s
+: 1489810530:0;d nvim
+: 1489810550:0;a nvim/init.vim
+: 1489810551:0;clear
+: 1489810551:0;s
+: 1489810555:0;d nvim/spell
+: 1489810567:0;vim nvim/spell/en.utf-8.add
+: 1489810590:0;clear
+: 1489810590:0;s
+: 1489810591:0;d
+: 1489810596:0;a nvim/spell
+: 1489810599:0;clear
+: 1489810599:0;s
+: 1489810602:0;d
+: 1489810604:0;D
+: 1489810630:0;m "Added some words and added a launch (fire and forget) option for arduino/processing sketches"
+: 1489810632:0;clear
+: 1489810632:0;s
+: 1489810633:0;d
+: 1489810647:0;git add ../zsh_history&& git commit -m "More zsh_history" && git push
+: 1489810668:0;git add zsh_history&& git commit -m "More zsh_history" && git push
