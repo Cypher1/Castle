@@ -23,7 +23,14 @@ syntax enable
 set background=dark
 colorscheme solarized
 highlight Comment ctermfg=DarkMagenta
-highlight SignColumn ctermbg=black
+highlight SignColumn ctermbg=8
+highlight LineNr ctermbg=8
+highlight LineNr ctermbg=8
+highlight Folded ctermbg=8
+highlight SignifySignAdd ctermbg=8
+highlight SignifySignModify ctermbg=8
+highlight SignifySignDelete ctermbg=8
+highlight SignifySignChangeDelete ctermbg=8
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 " match OverLength /\%81v.\+/
 " }}}
@@ -44,11 +51,12 @@ let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib/llvm-3.7/lib/libclang.dylib"
 set sessionoptions-=options
 set foldmethod=manual foldlevel=0
-set noerrorbells novisualbell t_vb=
+set visualbell noerrorbells novisualbell t_vb=
 set smartcase gdefault magic
 set inccommand=split
 nnoremap <silent> : :nohlsearch<CR>:
 set backup writebackup backupdir=/tmp/ hidden
+set undofile undodir=~/.config/nvim/undo-dir
 " No more arrow keys {{{
 map <Up>    <NOP>
 map <Down>  <NOP>
@@ -129,7 +137,8 @@ augroup END
 " My Repls {{{
 let g:filetype_pl="prolog"
 let g:rappel#run_key    = '<leader>p'
-let g:rappel#repl_key    = '<leader>P'
+let g:rappel#repl_key   = '<leader>P'
+let g:rappel#launch_key = '<Esc>p'
 let g:rappel#launch="chrome %"
 
 let g:rappel#custom_repls={
