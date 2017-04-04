@@ -138,7 +138,7 @@ augroup END
 let g:filetype_pl="prolog"
 let g:rappel#run_key    = '<leader>p'
 let g:rappel#repl_key   = '<leader>P'
-let g:rappel#launch_key = '<Esc>p'
+let g:rappel#launch_key = 'π'
 let g:rappel#launch="chrome %"
 
 let g:rappel#custom_repls={

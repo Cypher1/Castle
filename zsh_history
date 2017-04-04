@@ -36238,3 +36238,787 @@ git stash apply
 : 1489810633:0;d
 : 1489810647:0;git add ../zsh_history&& git commit -m "More zsh_history" && git push
 : 1489810668:0;git add zsh_history&& git commit -m "More zsh_history" && git push
+: 1489810705:0;s
+: 1489810710:0;git push
+: 1489810719:0;clear
+: 1489810720:0;s
+: 1489810720:0;d
+: 1489810722:0;cd ..
+: 1489810723:0;.
+: 1489810724:0;clear
+: 1489810730:0;mv SwiftLanguage.pdf ~/Drive
+: 1489810731:0;clear
+: 1489810731:0;s
+: 1489810735:0;ls REPLS
+: 1489810740:0;ls REPLS/*
+: 1489810745:0;cat REPLS/*
+: 1489810751:0;cat REPLS/*.*
+: 1489810753:0;clear
+: 1489810755:0;cat REPLS/*.*
+: 1489810759:0;rm REPLS
+: 1489810761:0;.
+: 1489810767:0;ls Desktop
+: 1489810771:0;ls Applications
+: 1489810788:0;q
+: 1489811031:0;cd /Applications
+: 1489811032:0;ls
+: 1489811035:0;rm HyperSwitch.app
+: 1489811044:0;cd ~/Applications
+: 1489811045:0;clear
+: 1489811053:0;ps -ef | grep "Hy"
+: 1489811064:0;pkill HyperDock\ Helper HyperSwitch
+: 1489811067:0;ps -ef
+: 1489811070:0;ps -ef | grep "Hy"
+: 1489811072:0;clear
+: 1489821304:0;reboot
+: 1489821398:0;vim Psychologism\ and\ Behaviorism\ -\ Ned\ Block.md
+: 1489821404:0;q
+: 1489821406:0;ls
+: 1489821408:0;cd
+: 1489821409:0;cd /
+: 1489821424:0;find . -name 'Hyper Dock'
+: 1489822184:0;clear
+: 1489822184:0;s
+: 1489822186:0;cd
+: 1489822188:0;clear
+: 1489822188:0;s
+: 1489822193:0;rm Creative\ Cloud\ Files
+: 1489822194:0;ls
+: 1489822220:0;cd Applications
+: 1489822220:0;ls
+: 1489822270:0;cd /Applications
+: 1489822286:0;ls
+: 1489822294:0;rm Adobe\ Creative\ Cloud Adobe\ Illustrator\ CC\ 2017
+: 1489822302:0;sudo rm Adobe\ *
+: 1489822306:0;clear
+: 1489822311:0;sudo rm -rf Adobe\ *
+: 1489822449:0;clear
+: 1489822449:0;ls
+: 1489822479:0;clear
+: 1489822479:0;ls
+: 1489822483:0;rm Xcode.appdownload
+: 1489822487:0;y
+: 1489822489:0;clear
+: 1489822489:0;s
+: 1489822651:0;q
+: 1489822660:0;clear
+: 1489822660:0;s
+: 1489822665:0;rm MusicManager.app
+: 1489822667:0;clear
+: 1489822667:0;s
+: 1489822679:0;q
+: 1489824420:0;units
+: 1489824485:0;q
+: 1489826504:0;vim ~/Drive/the_worst_poetry_ever.md
+: 1489826555:0;.
+: 1489826557:0;cd
+: 1489826558:0;.
+: 1489826559:0;cd Drive
+: 1489826559:0;.
+: 1489826565:0;mv the_worst_poetry_ever.md Me
+: 1489826565:0;.
+: 1489826573:0;clear
+: 1489826574:0;s
+: 1489826576:0;vim ML_wk2.md.html
+: 1489826581:0;rm ML_wk2.md.html
+: 1489826581:0;.
+: 1489826584:0;q
+: 1489965351:0;vrc
+: 1489965412:0;tmux
+: 1489965415:0;brew install tmux
+: 1489965523:0;tmux
+: 1489965527:0;q
+: 1489965529:0;vim
+: 1489965710:0;q
+: 1489965785:0;ls
+: 1489965811:0;'ls /Volumes'
+: 1489965820:0;ls /Volumes
+: 1489965921:0;echo \"Compiling...\"; ghc % -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< '%'`
+: 1489966070:0;s
+: 1489966071:0;vrc
+: 1489966082:0;cd ~/.config/nvim/plugged/nvim-rappel
+: 1489966082:0;ls
+: 1489966085:0;vim plugin
+: 1489966101:0;..
+: 1489966105:0;cd nvim-rappel/autoload
+: 1489966105:0;ls
+: 1489966106:0;vim rappel.vim
+: 1489966217:0;ls %
+: 1489966346:0;ls @%
+: 1489966358:0;ls
+: 1489966361:0;ls %
+: 1489966729:0;ls {file}
+: 1489967023:0;q
+: 1489967043:0;vim rappel.vim
+: 1489967059:0;q
+: 1489967111:0;ls
+: 1489967117:0;s
+: 1489967118:0;d
+: 1489967135:0;vim ~/Documents/Projects/HaskPG/main.hs
+: 1489967157:0;echo \"Compiling...\"; ghc /Users/Cypher/Documents/Projects/HaskPG/main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< '/Users/Cypher/Documents/Projects/HaskPG/main.hs'`
+: 1489967180:0;echo \"Compiling...\"; ghc main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< 'main.hs'`
+: 1489967200:0;z Hask
+: 1489967210:0;echo \"Compiling...\"; ghc main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< 'main.hs'`
+: 1489967224:0;q
+: 1489967233:0;clear
+: 1489967233:0;s
+: 1489967234:0;d
+: 1489967239:0;s
+: 1489967240:0;a rappel.vim
+: 1489967256:0;m "Replaced execute with a call to a function that expands % to the local filepath"
+: 1489967257:0;p
+: 1489967480:0;git remote add origin git@github.com:Cypher1/nvim-rappel.git
+: 1489967486:0;git remote re
+: 1489967489:0;git remote remove origin 
+: 1489967492:0;git remote add origin git@github.com:Cypher1/nvim-rappel.git
+: 1489967493:0;clear
+: 1489967494:0;s
+: 1489967495:0;po
+: 1489967496:0;p
+: 1489967501:0;s
+: 1489967501:0;d
+: 1489967506:0;clear
+: 1489967506:0;s
+: 1489967511:0;cd nvim-rappel
+: 1489967511:0;s
+: 1489967512:0;p
+: 1489967516:0;git push --set-upstream origin master
+: 1489967522:0;clear
+: 1489967522:0;s
+: 1489967524:0;cd ..
+: 1489967525:0;s
+: 1489967526:0;d
+: 1489967528:0;a nvim-rappel
+: 1489967530:0;s
+: 1489967531:0;cd ..
+: 1489967534:0;d init.vim
+: 1489967537:0;vrc
+: 1489967682:0;ls
+: 1489967683:0;q
+: 1489967713:0;vrc
+: 1489967721:0;'ls %'
+: 1489967797:0;z Hask
+: 1489967801:0;vim main.hs
+: 1489967864:0;q
+: 1489967906:0;'ls'
+: 1489968036:0;q
+: 1489968048:0;ls
+: 1489968058:0;echo \"Compiling...\"; ghc main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< 'main.hs'`
+: 1489968070:0;cd Documents
+: 1489968072:0;z Hask
+: 1489968079:0;ls
+: 1489968085:0;echo \"Compiling...\"; ghc main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< 'main.hs'`
+: 1489968163:0;vim ~/.config/nvim/plugged/nvim-rappel
+: 1489968186:0;vim main.hs
+: 1489968192:0;cd ..
+: 1489968217:0;echo \"Compiling...\"; ghc % -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< '%'`
+: 1489968238:0;vim ~/.config/nvim/plugged/nvim-rappel
+: 1489968261:0;vim main.hs
+: 1489968280:0;echo \"Compiling...\"; ghc /Users/Cypher/Documents/Projects/HaskPG/main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< '/Users/Cypher/Documents/Projects/HaskPG/main.hs'`
+: 1489968397:0;cd $(dirname /Users/Cypher/Documents/Projects/HaskPG/main.hs);  echo \"Compiling...\"; ghc /Users/Cypher/Documents/Projects/HaskPG/main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< '/Users/Cypher/Documents/Projects/HaskPG/main.hs'`
+: 1489968415:0;ls
+: 1489968419:0;ls ..
+: 1489968422:0;clear
+: 1489968422:0;ls
+: 1489968462:0;cd $(dirname /Users/Cypher/Documents/Projects/HaskPG/main.hs);  echo \"Compiling...\"; ghc /Users/Cypher/Documents/Projects/HaskPG/main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< '/Users/Cypher/Documents/Projects/HaskPG/main.hs'`
+: 1489968478:0;vim ~/.config/nvim/plugged/nvim-rappel
+: 1489968589:0;clear
+: 1489968597:0;vim main.hs
+: 1489968617:0;cd $(dirname /Users/Cypher/Documents/Projects/HaskPG/main.hs);  echo \"Compiling...\"; ghc main.hs -Wall; echo \"Running...\"; ./`sed 's/.[^.]*$//' <<< 'main.hs'`
+: 1489968626:0;z rappel
+: 1489968627:0;s
+: 1489968627:0;d
+: 1489968634:0;a README.md
+: 1489968635:0;s
+: 1489968637:0;a autoload
+: 1489968638:0;s
+: 1489968652:0;m "Improved expansions to allow full path and relative path"
+: 1489968653:0;p
+: 1489968663:0;vrc
+: 1489968766:0;s
+: 1489968768:0;clear
+: 1489968768:0;s
+: 1489968772:0;cd ..
+: 1489968772:0;s
+: 1489968774:0;d
+: 1489968786:0;cd ..
+: 1489968786:0;..
+: 1489968787:0;s
+: 1489968791:0;d
+: 1489968793:0;d nvim
+: 1489968804:0;git checkout nvim/init.vim
+: 1489968804:0;s
+: 1489968807:0;git add nvim/plugged
+: 1489968808:0;s
+: 1489968809:0;clear
+: 1489968810:0;s
+: 1489968811:0;d
+: 1489968815:0;q
+: 1489968819:0;clear
+: 1489968819:0;s
+: 1489968881:0;vim
+: 1489968984:0;cd ~/.config/nvim/plugged/nvim-rappel
+: 1489968991:0;git remote remove origin 
+: 1489969065:0;git remote add origin https://github.com/Cypher1/nvim-rappel
+: 1489969068:0;vim
+: 1489969089:0;cd ...
+: 1489969091:0;vim
+: 1489969105:0;z H
+: 1489969109:0;vim main.hs
+: 1489969126:0;q
+: 1489969287:0;Z RAPPEL
+: 1489969295:0;z rappel
+: 1489969300:0;z repl
+: 1489969302:0;z config
+: 1489969307:0;cd nvim/plugged/nvim-rappel
+: 1489969324:0;vim LICENSE
+: 1489969358:0;clear
+: 1489969358:0;s
+: 1489969386:0;a LICENSE
+: 1489969397:0;m "Added MIT License"
+: 1489974144:0;p
+: 1489974176:0;git remote add remote git@github.com:Cypher1/nvim-rappel.git
+: 1489974182:0;git push remote 
+: 1489974229:0;vim README.md
+: 1489974233:0;clear
+: 1489974234:0;s
+: 1489974234:0;q
+: 1489978514:0;cd
+: 1489978515:0;vim test.hs
+: 1489978770:0;ls
+: 1489978772:0;rm test*
+: 1489978772:0;.
+: 1489978773:0;q
+: 1489980411:0;cse;cd  ~cs9319/papers
+: 1489981883:0;q
+: 1489981903:0;z 2017
+: 1489981903:0;.
+: 1489981912:0;cd 9319_WebData
+: 1489981913:0;.
+: 1489981917:0;vim Wk4_tut
+: 1489981925:0;clear
+: 1489981934:0;mv Wk4_tut wk4_tut.md
+: 1489981936:0;vim wk4_tut.md
+: 1489982280:0;q
+: 1489983136:0;python -c "print ord('a')"
+: 1489983145:0;python -c "print ord('o')"
+: 1489983165:0;python -c "print ord('s')"
+: 1489983168:0;python -c "print ord('t')"
+: 1489983172:0;python -c "print ord('u')"
+: 1489983177:0;python -c "print ord('y')"
+: 1489983216:0;python -c "print ord('e')"
+: 1489983220:0;python -c "print ord('j')"
+: 1489983221:0;python -c "print ord('m')"
+: 1489983224:0;python -c "print ord('n')"
+: 1489983262:0;python -c "print binary(ord('n'))"
+: 1489983269:0;python -c "print int(ord('n'), 2)"
+: 1489983285:0;python -c "print bin(ord('n'))"
+: 1489983318:0;python -c "print bin(ord('j'))"
+: 1489983324:0;python -c "print bin(ord('e'))"
+: 1489983339:0;python -c "print bin(ord('y'))"
+: 1489983360:0;python -c "print bin(ord('u'))"
+: 1489983365:0;python -c "print bin(ord('t'))"
+: 1489983406:0;python -c "print bin(ord('o'))"
+: 1489983411:0;python -c "print bin(ord('s'))"
+: 1489983580:0;echo "0001110011101111011110011111101000011110101111110011110010101110101001110110111101110\
+" | wc -c
+: 1489983710:0;echo "10011100100111000001000110001100101\
+" | wc -c
+: 1489984167:0;echo "11010101100101110101011101011101110110111111100111110100110111111011011111001\
+" | wc -c
+: 1489986631:0;ls
+: 1489986634:0;rm a.out
+: 1489986646:0;q
+: 1489995960:0;python -c "print char(int("01100001", 2))"
+: 1489995964:0;python -c "print chr(int("01100001", 2))"
+: 1489995983:0;python -c "print chr(int(\"01100001\", 2))"
+: 1489995986:0;q
+: 1490052660:0;python
+: 1490052783:0;q
+: 1490055722:0;vrc
+: 1490055757:0;q
+: 1490055766:0;vrc
+: 1490055797:0;clear
+: 1490055797:0;s
+: 1490055801:0;vim arithmetic_coding.py wk4_tut.md
+: 1490068472:0;q
+: 1490068509:0;vim wk4_tut.md
+: 1490071055:0;ls
+: 1490071066:0;./BWT
+: 1490071071:0;ls
+: 1490071078:0;ghc bwt.hs
+: 1490071082:0;ls
+: 1490071087:0;./bwt thisisthe
+: 1490071090:0;clear
+: 1490071090:0;s
+: 1490071092:0;vim btw.hs
+: 1490071098:0;vim bwt.hs
+: 1490071126:0;ghc bwt.hs -o bwt
+: 1490071131:0;vim bwt.hs
+: 1490071146:0;ghc bwt.hs -o debwt
+: 1490071148:0;clear
+: 1490071149:0;ls
+: 1490071154:0;clear
+: 1490071155:0;rm new
+: 1490071156:0;clear
+: 1490071157:0;s
+: 1490071161:0;mv bwt ..
+: 1490071173:0;mv bwt ../enbwt
+: 1490071180:0;mv debwt ../
+: 1490071181:0;cd ..
+: 1490071182:0;ls
+: 1490071184:0;cd RLE
+: 1490071184:0;ls
+: 1490071193:0;mv rlencode ../
+: 1490071196:0;mv rldecode ../
+: 1490071197:0;cd ..
+: 1490071198:0;clear
+: 1490071198:0;s
+: 1490071203:0;./enbwt
+: 1490071223:0;echo "thisisthe" | ./enbwt
+: 1490071227:0;echo -n "thisisthe" | ./enbwt
+: 1490071234:0;echo -n "thisisthe" | ./enbwt | ./rlencode
+: 1490071243:0;echo -n "thisisthe" | ./enbwt | ./rlencode | ./rldecode
+: 1490071247:0;echo -n "thisisthe" | ./enbwt | ./rlencode | ./rldecode | ./debwt
+: 1490071273:0;echo -n "thisisthe" | ./enbwt
+: 1490071300:0;echo -n "thisisthe" | ./enbwt | sed "s/[\",\n]//"
+: 1490071306:0;echo -n "thisisthe" | ./enbwt | sed "s/[\",\n]//g"
+: 1490071313:0;echo -n "thisisthe" | ./enbwt | sed "s/[\",\n]//g" | ./rlencode
+: 1490071317:0;echo -n "thisisthe" | ./enbwt | sed "s/[\",\n]//g" | ./rlencode | ./rldecode
+: 1490071323:0;echo -n "thisisthe" | ./enbwt | sed "s/[\",\n]//g" | ./rlencode | ./rldecode | ./debwt
+: 1490071339:0;echo -n "thisisthe" | ./enbwt | sed "s/[\",\n]//g" | ./rlencode | ./rldecode | sed "s/\n//" | ./debwt
+: 1490071347:0;echo -n "thisisthe" | ./enbwt | sed "s/[\",\n]//g" | ./rlencode | ./rldecode | ./debwt
+: 1490071357:0;echo "thisisthe" | ./enbwt | sed "s/\"//g" | ./rlencode | ./rldecode | ./debwt
+: 1490071364:0;echo "thisisthe" | ./enbwt | sed "s/\"//g" | ./rlencode
+: 1490071368:0;echo "thisisthe" | ./enbwt | sed "s/\"//g"
+: 1490071372:0;echo "thisisthe" | ./enbwt
+: 1490071375:0;echo "thisisthe" | ./enbwt | sed "s/\"//g"
+: 1490071439:0;vim lzw.md
+: 1490072213:0;clear
+: 1490072213:0;s
+: 1490072217:0;vim wk4_tut.md
+: 1490072227:0;q
+: 1490076429:0;clear
+: 1490076430:0;s
+: 1490076432:0;mkdir Regeâƒ©ƒ¨
+: 1490076441:0;mv Regeâƒ©ƒ¨ Regex
+: 1490076442:0;/
+: 1490076444:0;cd -
+: 1490076446:0;.
+: 1490076449:0;cd Regex
+: 1490076454:0;vim fundamental.md
+: 1490076599:0;q
+: 1490076868:0;vim fundamental.md
+: 1490085627:0;s
+: 1490085709:0;cd ../../9417_ML
+: 1490085710:0;.
+: 1490085716:0;mkdir wk4
+: 1490085719:0;cd wk4
+: 1490085719:0;.
+: 1490085733:0;vim models_regression.md
+: 1490085810:0;q
+: 1490149313:0;reboot
+: 1490149402:0;..
+: 1490149409:0;clear
+: 1490149409:0;s
+: 1490149412:0;cd ../9319_WebData
+: 1490149413:0;.
+: 1490149423:0;mkdir Suffix_Array_On
+: 1490149426:0;cd Suffix_Array_On
+: 1490149426:0;.
+: 1490149435:0;vim Suffix_Array.md
+: 1490149440:0;cd ../RLE
+: 1490149440:0;ls
+: 1490149446:0;vim rlencode.cpp
+: 1490156634:0;ls
+: 1490156638:0;rm a.out
+: 1490156639:0;make
+: 1490156672:0;echo "aAAbbbBBBBcccccCCCCCCdDDeeeEEEE" > simple.txt
+: 1490156682:0;./rlencode simple.txt
+: 1490156696:0;./rlencode simple.txt simple.rle
+: 1490156704:0;./rldecode simple.rle
+: 1490156748:0;make
+: 1490156751:0;./rldecode simple.rle
+: 1490156768:0;./rldecode simple.rle output.txt
+: 1490156773:0;diff simple.txt output.txt
+: 1490156779:0;rm output.txt simple.txt simple.rle
+: 1490156780:0;clear
+: 1490156780:0;s
+: 1490156790:0;./rlencode rlencode.cpp
+: 1490156806:0;./rlencode rlencode.cpp rlencode.rle
+: 1490156810:0;cat rlencode.rle
+: 1490156812:0;clear
+: 1490156812:0;s
+: 1490156822:0;wc -c rlencode.cpp rlencode.rle
+: 1490156828:0;clear
+: 1490156829:0;ls
+: 1490156842:0;./rldecode rlencode.rle
+: 1490156847:0;./rldecode rlencode.rle rlencode2.cpp
+: 1490156854:0;diff rlencode.cpp rlencode2.cpp
+: 1490156861:0;rm rlencode2.cpp
+: 1490156861:0;clear
+: 1490156862:0;s
+: 1490156866:0;rm rlencode.rle
+: 1490156868:0;clear
+: 1490156868:0;s
+: 1490156878:0;scp * z5017666@cse.unsw.edu.au:RLE/
+: 1490156883:0;cse
+: 1490157092:0;q
+: 1490157099:0;clear
+: 1490157099:0;pwd
+: 1490157101:0;clear
+: 1490157102:0;q
+: 1490157110:0;clear
+: 1490157111:0;s
+: 1490157112:0;q
+: 1490158363:0;:mode
+: 1490158365:0;clear
+: 1490158371:0;vim Psychologism\ and\ Behaviorism\ -\ Ned\ Block.md
+: 1490158390:0;ls
+: 1490158392:0;vim models_regression.md
+: 1490158451:0;q
+: 1490158464:0;cd ...
+: 1490158467:0;cd 9417_ML
+: 1490158467:0;ls
+: 1490158470:0;cd wk3
+: 1490158470:0;ls
+: 1490158474:0;vim lecture.md
+: 1490158617:0;title "ML - Lecture 3"
+: 1490158622:0;notitle
+: 1490158625:0;which title
+: 1490158628:0;clear
+: 1490158630:0;fg
+: 1490159817:0;clean
+: 1490159818:0;s
+: 1490159820:0;rm test
+: 1490159822:0;fg
+: 1490160500:0;q
+: 1490161262:0;ping 8.8.8.8
+: 1490161264:0;fg
+: 1490161334:0;ping 192.0.0.168
+: 1490161343:0;traceroute 8.8.8.8
+: 1490161355:0;traceroute google.com
+: 1490161383:0;ping 10.248.208.1
+: 1490161459:0;traceroute google.com
+: 1490161478:0;clear
+: 1490161478:0;s
+: 1490161479:0;q
+: 1490163475:0;npm install -g devtools-terminal
+: 1490163485:0;q
+: 1490163505:0;devtools-terminal
+: 1490163534:0;sudo devtools-terminal --install
+: 1490163544:0;npm install -g devtools-terminal
+: 1490163548:0;sudo devtools-terminal --install
+: 1490163588:0;npm install webpack-dev-server@1.8.0 --save-dev
+: 1490163605:0;clear
+: 1490163606:0;s
+: 1490163611:0;npm install webpack-dev-server@1.8.0
+: 1490163618:0;ls
+: 1490163619:0;rm node_modules
+: 1490163623:0;npm install -g webpack-dev-server@1.8.0
+: 1490163644:0;npm install -g webpack-dev-server@1.8.0 webpack
+: 1490163691:0;npm install -g webpack@^1.3.0
+: 1490163749:0;sudo devtools-terminal --install
+: 1490163762:0;sudo find . -type f -name '*.js' -exec sed -i "s/process.EventEmitter/require('events')/g" \
+{} +
+: 1490163771:0;clear
+: 1490163771:0;s
+: 1490163790:0;cd /usr/local/bin/devtools-terminal 
+: 1490163795:0;cd /usr/local/bin/__pycache__
+: 1490163797:0;cd ..
+: 1490163797:0;ls
+: 1490163806:0;which devtools-terminal
+: 1490163811:0;vim devtools-terminal
+: 1490163914:0;cd /usr/lib/node_modules/devtools-terminal/node_modules/socket.io/
+: 1490163940:0;which node
+: 1490163955:0;find -name 'node_modules'
+: 1490163971:0;find . -name 'node_modules'
+: 1490163974:0;cd /
+: 1490163975:0;find . -name 'node_modules'
+: 1490163995:0;find . -name 'node_modules' | grep 'devtools'
+: 1490164156:0;q
+: 1490167287:0;clear
+: 1490167287:0;s
+: 1490167294:0;vim
+: 1490167341:0;clear
+: 1490167341:0;s
+: 1490167345:0;cd
+: 1490167346:0;clear
+: 1490167346:0;s
+: 1490167357:0;cd Drive/Uni/2017/
+: 1490167373:0;ls
+: 1490167375:0;cd 9417_ML
+: 1490167375:0;.
+: 1490167378:0;4
+: 1490167381:0;wk4
+: 1490167381:0;.
+: 1490167402:0;vim models_regression.md
+: 1490168073:0;rm /tmp/Psychologism\ and\ Behaviorism\ -\ Ned\ Block.md~ /tmp/Suffix_Array.md~ /tmp/lecture.md~ /tmp/models_regression.md~ 
+: 1490168075:0;clear
+: 1490168075:0;s
+: 1490168077:0;vim models_regression.md
+: 1490168083:0;vrc
+: 1490168092:0;vim models_regression.md
+: 1490168118:0;rm ~/.local/share/nvim/swap/*
+: 1490168122:0;vim models_regression.md
+: 1490168126:0;vrc
+: 1490168489:0;vim models_regression.md
+: 1490168533:0;ls
+: 1490168534:0;vim models_regression.md
+: 1490168538:0;vrc
+: 1490169044:0;clear
+: 1490169044:0;s
+: 1490169046:0;vim models_regression.md
+: 1490169134:0;ls
+: 1490169135:0;s
+: 1490169141:0;cd ~/.config
+: 1490169141:0;ls
+: 1490169142:0;clear
+: 1490169143:0;s
+: 1490169147:0;d
+: 1490169153:0;a nvim/init.vim
+: 1490169154:0;clear
+: 1490169154:0;s
+: 1490169161:0;git stash
+: 1490169235:0;clear
+: 1490169235:0;s
+: 1490169241:0;d nvim
+: 1490169254:0;clear
+: 1490169255:0;s
+: 1490169259:0;d nvim/spell
+: 1490169263:0;a nvim/spell
+: 1490169268:0;m "Added words"
+: 1490169269:0;clear
+: 1490169269:0;s
+: 1490169272:0;d nvim/init.vim
+: 1490169275:0;clear
+: 1490169275:0;s
+: 1490169277:0;q
+: 1490169285:0;cd ~/.config
+: 1490169286:0;p
+: 1490169293:0;q
+: 1490169331:0;cd //
+: 1490169334:0;cd -
+: 1490169334:0;;s
+: 1490169336:0;clear
+: 1490169336:0;ls
+: 1490169339:0;cd ../wk3
+: 1490169340:0;;s
+: 1490169342:0;q
+: 1490169367:0;clear
+: 1490169367:0;s
+: 1490169369:0;vim lecture.md
+: 1490169847:0;ps -ef | grep "Adobe"
+: 1490169854:0;pkill -9 Adobe
+: 1490169857:0;sudo pkill -9 Adobe
+: 1490169862:0;ps -ef | grep "Adobe"
+: 1490169865:0;sudo pkill -9 Adobe
+: 1490169867:0;ps -ef | grep "Adobe"
+: 1490169870:0;clear
+: 1490169870:0;s
+: 1490169871:0;fg
+: 1490169963:0;jupyter-console wk3.ipynb
+: 1490169996:0;jupyter-notebook wk3.ipynb
+: 1490170019:0;clear
+: 1490170019:0;s
+: 1490170026:0;fg
+: 1490170035:0;clear
+: 1490170035:0;s
+: 1490170037:0;cd ../wk4
+: 1490170038:0;.
+: 1490170041:0;vim tutorial.md
+: 1490171444:0;q
+: 1490221869:0;clear
+: 1490221870:0;s
+: 1490221873:0;vim models_regression.md
+: 1490221878:0;cd ../wk3
+: 1490221879:0;.
+: 1490221881:0;vim lecture.md
+: 1490223150:0;chrome ~/Downloads/wk4.mp4
+: 1490223154:0;cd ~/Downloads
+: 1490223155:0;ls
+: 1490223160:0;chrome wk4.m4v
+: 1490223178:0;q
+: 1490223219:0;../wk4
+: 1490223221:0;vim lecture.md
+: 1490338593:0;vrc
+: 1490338627:0;clear
+: 1490338628:0;s
+: 1490338631:0;fg
+: 1490338648:0;vim lecture.md
+: 1490342533:0;q
+: 1490593938:0;ls
+: 1490593939:0;clear
+: 1490593941:0;echo $HOST
+: 1490593945:0;echo $USER
+: 1490595782:0;q
+: 1490657314:0;ls
+: 1490657316:0;cd
+: 1490657318:0;ls
+: 1490657320:0;clear
+: 1490657320:0;ls
+: 1490657326:0;ls -la .
+: 1490657558:0;ls
+: 1490657560:0;cd Documents
+: 1490657560:0;ls
+: 1490657566:0;rm unetbootin-mac-625.dmg
+: 1490657566:0;ls
+: 1490657569:0;cd ..
+: 1490657570:0;clear
+: 1490657571:0;s
+: 1490657587:0;exit
+: 1490658929:0;clear
+: 1490658929:0;s
+: 1490658930:0;ls
+: 1490659638:0;exit
+: 1490669326:0;ls
+: 1490669330:0;cd Documents
+: 1490669331:0;ls
+: 1490669340:0;find . -name '
+: 1490669351:0;find . -name 'sampleSize.js'
+: 1490669363:0;clear
+: 1490669363:0;ls
+: 1490669366:0;cd Projects
+: 1490669366:0;.
+: 1490669368:0;cd J
+: 1490669371:0;cd Jarvis
+: 1490669372:0;ls
+: 1490669377:0;find . -name 'sampleSize.js'
+: 1490669380:0;cd ..
+: 1490669381:0;find . -name 'sampleSize.js'
+: 1490669385:0;cd Old
+: 1490669385:0;ls
+: 1490669386:0;clear
+: 1490669386:0;s
+: 1490669389:0;ls JSite
+: 1490669392:0;ls JSite/site
+: 1490669395:0;ls JSite/site/imports
+: 1490669399:0;rm JSite
+: 1490669406:0;rm -rf JSite
+: 1490675890:0;sudo rm -rf JSite
+: 1490675950:0;nvim
+: 1490675955:0;q
+: 1490683412:0;exit
+: 1451613509:0;cd
+: 1451613510:0;ckear
+: 1451613513:0;clear
+: 1451613520:0;ls
+: 1451613524:0;ls Creative\ Cloud\ Files
+: 1451613526:0;rm Creative\ Cloud\ Files
+: 1451613527:0;clear
+: 1451613528:0;ls
+: 1451613529:0;cd Applications
+: 1451613530:0;ls
+: 1451613536:0;rm /Applications
+: 1451613540:0;cd /Applications
+: 1451613541:0;clear
+: 1451613542:0;ls
+: 1451613568:0;cd Utilities
+: 1451613570:0;clear
+: 1451613570:0;ls
+: 1451613574:0;rm Adobe*
+: 1451613582:0;sudo rm Adobe*
+: 1451613593:0;sudo rm -rf Adobe*
+: 1451613596:0;clear
+: 1451613596:0;ls
+: 1451613682:0;clear
+: 1451613682:0;ls
+: 1451613685:0;cd ..
+: 1451613688:0;ls Launchpad.app
+: 1451613689:0;ls
+: 1451613699:0;clear
+: 1451613702:0;ls iTunes.app
+: 1451613709:0;ls iTunes.app/Contents/Info.plist
+: 1451613712:0;cat iTunes.app/Contents/Info.plist
+: 1451613715:0;clear
+: 1451613715:0;ls
+: 1451613717:0;cd I
+: 1451613721:0;iTunes.app
+: 1451613722:0;.
+: 1451613724:0;cd Contents
+: 1451613725:0;ls
+: 1451613727:0;cd bin
+: 1451613728:0;cd MacOS
+: 1451613733:0;cd ../Resources
+: 1451613734:0;clear
+: 1451613734:0;ls
+: 1451613739:0;cd ..
+: 1451613739:0;clear
+: 1451613740:0;ls
+: 1451613747:0;cd MacOS
+: 1451613748:0;ls
+: 1451613751:0;vim iTunes
+: 1451613755:0;clear
+: 1451613755:0;s
+: 1451613759:0;vim iTunesHelper.app
+: 1451613773:0;cd
+: 1451613774:0;.
+: 1451613975:0;ping 8.8.8.8
+: 1491294397:0;q
+: 1491307988:0;clear
+: 1491307989:0;ls
+: 1491308073:0;cp ~/.ssh /Volumes/MINT/ssh
+: 1491308084:0;ls /Volumes/MINT/ssh
+: 1491308087:0;ls /Volumes/MINT/ssh/*
+: 1491309018:0;cat ~/.ssh/id_rsa.pub
+: 1491309109:0;cat ~/.ssh/id_rsa
+: 1491346307:0;clear
+: 1491346870:0;cd Library
+: 1491346871:0;ls
+: 1491346877:0;cd Preference
+: 1491346880:0;cd PreferencePanes
+: 1491346881:0;clear
+: 1491346881:0;ls
+: 1491346883:0;rm HyperDock.prefpane
+: 1491346885:0;clear
+: 1491346886:0;ls
+: 1491346891:0;exit
+: 1491346920:0;cd
+: 1491346921:0;,
+: 1491346922:0;.
+: 1491347172:0;cd VMs
+: 1491347172:0;.
+: 1491347174:0;ls
+: 1491347175:0;cd ..
+: 1491347176:0;rm VMs
+: 1491347176:0;.
+: 1491347181:0;.config
+: 1491347181:0;ls
+: 1491347182:0;s
+: 1491347209:0;git status; git pull
+: 1491347215:0;clear
+: 1491347215:0;s
+: 1491347229:0;git add .; git stash; git pull
+: 1491347255:0;clear
+: 1491347255:0;s
+: 1491347257:0;d
+: 1491347261:0;vim nvim/init.vim
+: 1491347272:0;clear
+: 1491347272:0;s
+: 1491347275:0;d nvim/init.vim
+: 1491347277:0;a nvim/init.vim
+: 1491347278:0;clear
+: 1491347278:0;s
+: 1491347281:0;d nvim/spell
+: 1491347287:0;vim nvim/spell/en.utf-8.add
+: 1491347294:0;clear
+: 1491347294:0;s
+: 1491347298:0;git add nvim/spell
+: 1491347299:0;clear
+: 1491347299:0;s
+: 1491347305:0;rm nvim/undo-dir
+: 1491347306:0;clear
+: 1491347306:0;s
+: 1491347311:0;git rm nvim/undo-dir
+: 1491347313:0;clear
+: 1491347313:0;s
+: 1491347318:0;git rm -rf nvim/undo-dir
+: 1491347319:0;clear
+: 1491347319:0;s
+: 1491347324:0;vim .gitignore
+: 1491347330:0;clear
+: 1491347330:0;s
+: 1491347332:0;a .gitignore
+: 1491347332:0;clear
+: 1491347333:0;s
+: 1491347342:0;git add zsh_history&& git commit -m "More zsh_history" && git push
