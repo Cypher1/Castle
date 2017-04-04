@@ -2,8 +2,6 @@ DEFAULT_USER="jopra"
 HOME="`cd;pwd`"
 export ZSH="$HOME/.oh-my-zsh"
 
-DEV_SERVER="jopra.sb.facebook.com"
-
 ZSH_THEME="bullet-train"
 BULLETTRAIN_STATUS_EXIT_SHOW=true
 BULLETTRAIN_PROMPT_ADD_NEWLINE=false
@@ -57,7 +55,6 @@ alias -s html='nvim'
 alias -s js='nvim'
 alias server="python -m SimpleHTTPServer"
 alias jp='processing-java --sketch=`pwd` --present'
-alias robo="open ~/VMs/Ubuntu\ 64-bit\ 14.04.1.vmwarevm"
 alias prolog="swipl -s"
 
 function mk { mkdir $1; cd $1; }
@@ -131,11 +128,9 @@ export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 # SSH via zshrc
 alias mosh="mosh -6"
-alias dev="mosh $DEV_SERVER"
 alias cse="ssh z5017666@cse.unsw.edu.au"
 alias cse_cp="scp * z5017666@cse.unsw.edu.au:./"
-alias mimir="ssh app@mimir.systems"
 
 # OVERRIDES
-export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin"
+export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
