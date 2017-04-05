@@ -81,6 +81,7 @@ pip install ${PYTHON_PACKS[@]}
 #cabal install ${HASKELL_PACKS[@]}
 
 echo "Install NPM Packages"
+npm update
 npm install ${NPM_PACKS[@]} --save
 
 echo "Install Vim Packages"
