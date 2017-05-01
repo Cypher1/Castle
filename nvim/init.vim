@@ -1,20 +1,28 @@
 " Plugin {{{
 call plug#begin('~/.config/nvim/plugged') " Plugins go here
+" Style
 Plug 'altercation/vim-colors-solarized' " Colours!
 Plug 'vim-airline/vim-airline'          " Airline gui
 Plug 'vim-airline/vim-airline-themes'   " Airline themes
+" Tweaks
+Plug 'tpope/vim-eunuch'                 " Unix built in
+Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
+Plug 'tmhedberg/matchit'                " % Match based jumping
+Plug 'roxma/vim-window-resize-easy'     " Resize windows
+Plug 'vim-scripts/AnsiEsc.vim'          " Allow coloured txt in vim
+Plug 'google/vim-searchindex'           " Search indexing
+" Tools
 Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
+Plug 'sjl/gundo.vim'                    " UNDO!
+Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'mhinz/vim-signify'                " Sign column diffs
-Plug 'tpope/vim-eunuch'                 " Unix built in
-Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
+" Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
+Plug 'lambdatoast/elm.vim'              " ELM
+Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'bitc/vim-hdevtools'               " Haskell Types
-Plug 'tmhedberg/matchit'                " % Match based jumping
-Plug 'alvan/vim-closetag'               " Lazy html
-Plug 'roxma/vim-window-resize-easy'     " Resize windows
-Plug 'cypher1/nvim-rappel'              " Repls
 call plug#end()
 
 " }}}
@@ -52,7 +60,7 @@ let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib
 set sessionoptions-=options
 set foldmethod=manual foldlevel=0
 set visualbell noerrorbells novisualbell t_vb=
-set smartcase gdefault magic
+set ignorecase smartcase gdefault magic
 set inccommand=split
 nnoremap <silent> : :nohlsearch<CR>:
 set backup writebackup backupdir=/tmp/ hidden
@@ -64,6 +72,10 @@ map <Left>  <<
 map <Right> >>
 " }}}
 tnoremap <C-e> <C-\><C-n>
+" Use F10 to display highlighting rules around the cursor
+map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
+\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
+\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 " }}}
 " Buffers/Tabs/Splits {{{
 set splitbelow splitright
@@ -139,7 +151,7 @@ let g:filetype_pl="prolog"
 let g:rappel#run_key    = '<leader>p'
 let g:rappel#repl_key   = '<leader>P'
 let g:rappel#launch_key = 'π'
-let g:rappel#launch="chrome %"
+let g:rappel#launch="chrome \"%\""
 
 let g:rappel#custom_repls={
 \ 'arduino': {
