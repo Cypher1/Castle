@@ -9,8 +9,6 @@ Plug 'tpope/vim-eunuch'                 " Unix built in
 Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
-Plug 'vim-scripts/AnsiEsc.vim'          " Allow coloured txt in vim
-Plug 'google/vim-searchindex'           " Search indexing
 " Tools
 Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 Plug 'sjl/gundo.vim'                    " UNDO!
@@ -22,7 +20,6 @@ Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'lambdatoast/elm.vim'              " ELM
 Plug 'chrisbra/csv.vim'                 " CSV
-Plug 'bitc/vim-hdevtools'               " Haskell Types
 call plug#end()
 
 " }}}
@@ -53,16 +50,15 @@ set list listchars=tab:>.,trail:.,extends:#,nbsp:.
 let mapleader=' '
 set mouse=ncr
 set ttimeoutlen=50 " fast key codes
-set clipboard+=unnamedplus
 set backspace=indent,eol,start
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib/llvm-3.7/lib/libclang.dylib"
 set sessionoptions-=options
 set foldmethod=manual foldlevel=0
 set visualbell noerrorbells novisualbell t_vb=
-set ignorecase smartcase gdefault magic
-set inccommand=split
+set ignorecase smartcase gdefault magic inccommand=split
 nnoremap <silent> : :nohlsearch<CR>:
+tnoremap <C-e> <C-\><C-n>:
 set backup writebackup backupdir=/tmp/ hidden
 set undofile undodir=~/.config/nvim/undo-dir
 " No more arrow keys {{{
@@ -71,7 +67,6 @@ map <Down>  <NOP>
 map <Left>  <<
 map <Right> >>
 " }}}
-tnoremap <C-e> <C-\><C-n>
 " Use F10 to display highlighting rules around the cursor
 map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
 \ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
@@ -79,8 +74,8 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 " }}}
 " Buffers/Tabs/Splits {{{
 set splitbelow splitright
-nmap \ :vsp<space>
-nmap - :sp<space>
+nmap <leader>v :vsp<space>
+nmap <leader>s :sp<space>
 nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>j :wincmd j<CR>
 nmap <silent> <leader>k :wincmd k<CR>
@@ -160,8 +155,3 @@ let g:rappel#custom_repls={
 \ },
 \}
 " }}}
-" Haskell {{{
-nmap <leader>t :HdevtoolsType<CR>
-nmap <leader>T :HdevtoolsClear<CR>
-" }}}
-silent! source local.vim
