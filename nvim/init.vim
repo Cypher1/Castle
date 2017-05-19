@@ -9,6 +9,7 @@ Plug 'tpope/vim-eunuch'                 " Unix built in
 Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
+Plug 'ConradIrwin/vim-bracketed-paste'  " Fix paste
 " Tools
 Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 Plug 'sjl/gundo.vim'                    " UNDO!
@@ -20,6 +21,7 @@ Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'lambdatoast/elm.vim'              " ELM
 Plug 'chrisbra/csv.vim'                 " CSV
+Plug 'lepture/vim-jinja'                " Jinja
 call plug#end()
 
 " }}}
@@ -51,6 +53,7 @@ let mapleader=' '
 set mouse=ncr
 set ttimeoutlen=50 " fast key codes
 set backspace=indent,eol,start
+set clipboard+=unnamedplus
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib/llvm-3.7/lib/libclang.dylib"
 set sessionoptions-=options
@@ -58,7 +61,8 @@ set foldmethod=manual foldlevel=0
 set visualbell noerrorbells novisualbell t_vb=
 set ignorecase smartcase gdefault magic inccommand=split
 nnoremap <silent> : :nohlsearch<CR>:
-tnoremap <C-e> <C-\><C-n>:
+tnoremap : <C-\><C-n>:
+tnoremap :: :
 set backup writebackup backupdir=/tmp/ hidden
 set undofile undodir=~/.config/nvim/undo-dir
 " No more arrow keys {{{
@@ -83,7 +87,7 @@ nmap <silent> <leader>l :wincmd l<CR>
 nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
-nmap <leader>w :w<CR>
+nmap <leader>w :w<CR>:silent! Neomake<CR>
 " }}}
 " Control P {{{
 " Setup some default ignores
@@ -134,11 +138,11 @@ let g:neomake_javascript_enabled_makers = ['eslint']
 augroup vim
   autocmd!
   au BufWritePost $MYVIMRC source $MYVIMRC|set fdm=marker
-  au BufWritePre * :silent! Neomake " Includes auto tidy for html etc
   au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
   au FileType html iabbrev </ </<C-X><C-O>
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
+  au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
 augroup END
 " }}}
 " My Repls {{{
