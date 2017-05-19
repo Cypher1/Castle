@@ -1,5 +1,5 @@
 [TYPECHECK]
-ignored-modules = numpy, tensorflow
+ignored-modules = numpy, tensorflow, flask_sqlalchemy
 docstring-min-length=10
 
 # Good variable names which should always be accepted, separated by a comma
