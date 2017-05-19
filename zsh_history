@@ -9851,16 +9851,12 @@
 : 1473509075:0;./imgcat Screen\ Shot\ 2016-09-09\ at\ 5.52.33\ PM.png
 : 1473509078:0;r
 : 1473509112:0;mv imgcat /usr/local/bin/
-: 1473509116:0;imcat
-: 1473509119:0;imgcat Screen\ Shot\ 2016-09-09\ at\ 5.52.33\ PM.png
 : 1473509123:0;r
 : 1473509145:0;ls
-: 1473509149:0;imgcat kanban-board-e60650d1-1.jpg
 : 1473509153:0;r
 : 1473509156:0;man imgcat
 : 1473509157:0;r
 : 1473509162:0;v `which imgcat`
-: 1473509207:0;imgcat -p kanban-board-e60650d1-1.jpg
 : 1473509213:0;r
 : 1473509215:0;cd ..
 : 1473509215:0;ls
@@ -9874,15 +9870,12 @@
 : 1473509232:0;ls
 : 1473509234:0;cd data
 : 1473509234:0;ls
-: 1473509238:0;imgcat cat.gif
 : 1473509276:0;open music.mp3
 : 1473509391:0;curl "https://raw.githubusercontent.com/gnachman/iTerm2/master/tests/imgls" > imgls
 : 1473509401:0;mv imgls /usr/local/bin
-: 1473509406:0;imgls
 : 1473509413:0;chmod `which imgls`
 : 1473509423:0;chmod +x `which imgls`
 : 1473509432:0;chmod +x "`which imgls`"
-: 1473509437:0;imgls
 : 1473509439:0;which imgls
 : 1473509453:0;chmod +x /usr/local/bin/imgls
 : 1473509456:0;imgls
@@ -37022,3 +37015,5085 @@ git stash apply
 : 1491347332:0;clear
 : 1491347333:0;s
 : 1491347342:0;git add zsh_history&& git commit -m "More zsh_history" && git push
+: 1491347351:0;clear
+: 1491347351:0;s
+: 1491347358:0;./arrive.sh
+: 1491355082:0;npm update
+: 1491355088:0;vim arrive.sh
+: 1491355098:0;clear
+: 1491355098:0;s
+: 1491355101:0;clear
+: 1491355101:0;ls
+: 1491355106:0;vim arrive.sh
+: 1491355252:0;./arrive.sh > arrive_log &2> arrive_error_log
+: 1491355266:0;#
+: 1491355269:0;clear
+: 1491355270:0;jobs
+: 1491355277:0;pkill 1
+: 1491355280:0;jobs
+: 1491355290:0;jobs -h
+: 1491355293:0;jobs --help
+: 1491355298:0;manjobs
+: 1491355299:0;man jobs
+: 1491355314:0;clear
+: 1491355316:0;jobs kill
+: 1491355328:0;psgrep arrive
+: 1491355335:0;pgrep arrive
+: 1491355339:0;ps -ef | grep arrive
+: 1491355346:0;pkill -9 6105
+: 1491355353:0;pkill -9 7684
+: 1491355361:0;q
+: 1491355366:0;pkill -9 9668'
+: 1491355367:0;pkill -9 9668
+: 1491355369:0;clear
+: 1491355371:0;bg
+: 1491355374:0;pkill -9 9668
+: 1491355377:0;pkill -9 7684
+: 1491355381:0;pkill -9 6105
+: 1491355382:0;clear
+: 1491355382:0;ls
+: 1491355384:0;fg
+: 1491355386:0;clear
+: 1491355386:0;ls
+: 1491355388:0;clear
+: 1491355388:0;ls
+: 1491355393:0;exit
+: 1491355395:0;clear
+: 1491355396:0;s
+: 1491355404:0;cat arrive_log
+: 1491355413:0;/bin/cat arrive_error_log
+: 1491355417:0;rm arrive_error_log
+: 1491355424:0;/bin/cat arrive_log
+: 1491355432:0;rm arrive_log
+: 1491355433:0;clear
+: 1491355433:0;s
+: 1491355445:0;./arrive.sh 2&> /dev/null
+: 1491355462:0;clear
+: 1491355462:0;ls
+: 1491355468:0;s
+: 1491355469:0;d
+: 1491355478:0;git add arrive.sh
+: 1491355485:0;m "Added an npm update to arrive"
+: 1491355486:0;clear
+: 1491355486:0;s
+: 1491355487:0;p
+: 1491355503:0;ckear
+: 1491355504:0;s
+: 1491355510:0;cd
+: 1491355513:0;ls
+: 1491355516:0;cd Documents/Projects/
+: 1491355517:0;ls
+: 1491355527:0;mkdir Generative_Grammar
+: 1491355529:0;cd Generative_Grammar
+: 1491355554:0;vim inf_st.hs
+: 1491361951:0;vim inf_st.hs ~/Drive/Uni/2017/9319_WebData/wk6_lecture.md
+: 1491365030:0;z Webdata
+: 1491365031:0;.
+: 1491365039:0;vim wk6_lecture.md BWT
+: 1491369235:0;cd ..
+: 1491369236:0;.
+: 1491369241:0;cd 4015_BNW
+: 1491369242:0;.
+: 1491369253:0;vim blog_post_comment.md
+: 1491374737:0;mv blog_post_comment.md blogpost.md
+: 1491374738:0;ls
+: 1491374742:0;vim blog_post.md
+: 1491374749:0;rm blog_post.md
+: 1491374755:0;mv blogpost.md blog_post.md
+: 1491374759:0;rm blog_post_AlternateEarths.md
+: 1491374760:0;clear
+: 1491374760:0;ls
+: 1491374761:0;clear
+: 1491374761:0;s
+: 1491374890:0;q
+: 1491380735:0;ping 8.8.8.8.8
+: 1491380736:0;ping 8.8.8.8
+: 1491380746:0;clear
+: 1491380749:0;ping 10.0.0.138
+: 1491380816:0;clear
+: 1491380827:0;ssh 10.0.0.138
+: 1491380932:0;q
+: 1491381274:0;ping 8.8.8.8
+: 1491381279:0;ssh 10.0.0.138
+: 1491381281:0;clear
+: 1491381301:0;cd ../9417_ML
+: 1491381306:0;vim most_important.md
+: 1491385563:0;clear
+: 1491385579:0;q
+: 1491385590:0;vim wk6/lecture.md
+: 1491385620:0;cd ~.,con
+: 1491385624:0;z .config
+: 1491385625:0;.
+: 1491385626:0;s
+: 1491385637:0;clear
+: 1491385637:0;s
+: 1491385638:0;d
+: 1491385643:0;git add nvim/spell
+: 1491385644:0;clear
+: 1491385644:0;s
+: 1491385656:0;git checkout HEAD^
+: 1491385660:0;clear
+: 1491385660:0;s
+: 1491385662:0;vim nvim/init.vim
+: 1491385693:0;git status
+: 1491385715:0;clear
+: 1491385715:0;s
+: 1491385720:0;git checkout nvim/init.vim
+: 1491385721:0;s
+: 1491385734:0;q
+: 1491385836:0;clear
+: 1491385836:0;s
+: 1491385841:0;cd wk6
+: 1491385841:0;.
+: 1491385843:0;vim lecture.md
+: 1491385882:0;ls
+: 1491385884:0;q
+: 1491387485:0;vim
+: 1491387510:0;q
+: 1491389185:0;vim lecture.md
+: 1491470336:0;vrc
+: 1491470343:0;vim lecture.md
+: 1491470348:0;q
+: 1491530688:0;ls
+: 1491530691:0;cd /Applications
+: 1491530691:0;ls
+: 1491530694:0;clear
+: 1491530695:0;ls
+: 1491530700:0;cd ~/Library
+: 1491530700:0;ls
+: 1491530705:0;cd 
+: 1491530705:0;.
+: 1491530707:0;cd Applications
+: 1491530708:0;.
+: 1491530713:0;du -hs *
+: 1491530727:0;exit
+: 1491531214:0;.
+: 1491531220:0;cd /Applications
+: 1491531221:0;.
+: 1491531223:0;rm Siri.app
+: 1491531231:0;sudo rm -rf Siri.app
+: 1491531236:0;clear
+: 1491531237:0;ls
+: 1491531248:0;sudo su
+: 1491531272:0;clear
+: 1491531273:0;ls
+: 1491531274:0;exit
+: 1491531521:0;ls
+: 1491531522:0;cd
+: 1491531522:0;.
+: 1491531524:0;z ML
+: 1491531524:0;.
+: 1491531526:0;cd ass1
+: 1491531526:0;.
+: 1491531530:0;vim answers.txt
+: 1491532060:0;clear
+: 1491532060:0;s
+: 1491532062:0;exit
+: 1491532087:0;q
+: 1491532105:0;cd ~/Drive
+: 1491532105:0;ls
+: 1491532108:0;cd Me
+: 1491532108:0;ls
+: 1491532114:0;q
+: 1491532116:0;exit
+: 1491532126:0;z ml
+: 1491532126:0;.
+: 1491532130:0;ass1
+: 1491532130:0;.
+: 1491532140:0;vim answers.txt q1_p1.csv
+: 1491532294:0;ps -ef | trash
+: 1491532296:0;ps -ef | grep trash
+: 1491532304:0;ps -ef | grep -i "trash"
+: 1491532306:0;clear
+: 1491532306:0;ls
+: 1491532310:0;z Trash
+: 1491532319:0;clear
+: 1491532319:0;ls
+: 1491532431:0;q
+: 1491532454:0;rm -R 
+: 1491532457:0;rm -R
+: 1491532461:0;clear
+: 1491532461:0;s
+: 1491532462:0;q
+: 1491532509:0;cd /Users/Cypher/
+: 1491532510:0;.
+: 1491532512:0;cd .Trash
+: 1491532513:0;ls
+: 1491532515:0;ls -la
+: 1491532518:0;cd ..
+: 1491532520:0;rm .Trash
+: 1491532521:0;clear
+: 1491532522:0;s
+: 1491532522:0;q
+: 1491532577:0;ls
+: 1491532579:0;cd /Applications
+: 1491532579:0;.
+: 1491532621:0;c
+: 1491532622:0;cd
+: 1491532624:0;cd Drive
+: 1491532625:0;sl
+: 1491532625:0;ls
+: 1491532628:0;open .
+: 1491532652:0;clear
+: 1491532653:0;q
+: 1491534203:0;ls
+: 1491534206:0;z ML/ass
+: 1491534207:0;.
+: 1491534225:0;cat q1_p1.out q1_p2.out > q1.out2
+: 1491534232:0;diff q1.out q1.out2
+: 1491534240:0;vim q1.out
+: 1491534253:0;clear
+: 1491534254:0;ls
+: 1491534256:0;diff q1.out q1.out2
+: 1491534284:0;vim q1.out
+: 1491534290:0;rm q1.out
+: 1491534292:0;clear
+: 1491534293:0;vim q1.out2
+: 1491534380:0;rm q1.out2
+: 1491534381:0;.
+: 1491534387:0;cat q1_p1.out q1_p2.out > q1.out
+: 1491534394:0;cat q1.out
+: 1491534407:0;cat q1.csv
+: 1491536097:0;clear
+: 1491536098:0;ls
+: 1491536102:0;rm q1.out
+: 1491536103:0;.
+: 1491536107:0;rm q1.csv
+: 1491536107:0;.
+: 1491536113:0;cat q1_p1.out
+: 1491536124:0;cat q1_p2.out
+: 1491536136:0;clear
+: 1491536145:0;cat q1_p1.out q1_p2.out > q1.out
+: 1491536153:0;cat q1_p1.csv q1_p2.csv > q1.csv
+: 1491536154:0;.
+: 1491536167:0;mk q1
+: 1491536174:0;mv ../q1* .
+: 1491536175:0;.
+: 1491536180:0;mv q1.csv ..
+: 1491536183:0;mv q1.out ..
+: 1491536183:0;.
+: 1491536184:0;cd ..
+: 1491536185:0;ls
+: 1491536185:0;.
+: 1491536186:0;ls
+: 1491536187:0;.
+: 1491536202:0;mkdir q2
+: 1491536204:0;mkdir q3
+: 1491536205:0;mkdir q4
+: 1491536224:0;cat q1.csv
+: 1491536252:0;open q1.csv
+: 1491536276:0;clear
+: 1491536277:0;q
+: 1491536303:0;vrc
+: 1491536330:0;.
+: 1491536334:0;vim answers.txt q1.csv
+: 1491536456:0;q
+: 1491536480:0;open ass1.pdf
+: 1491536509:0;clear
+: 1491536510:0;ls
+: 1491536514:0;vim answers.txt
+: 1491537542:0;q
+: 1491559820:0;ping 8.8.8.8
+: 1491559839:0;ping 10.0.0.138
+: 1491559847:0;ping google.com
+: 1491559933:0;whois google.com
+: 1491559978:0;clear
+: 1491559979:0;ping google.com
+: 1491559986:0;ping 8.8.8.8
+: 1491559997:0;.
+: 1491560005:0;ssh z5017666@wagner.cse.unsw.edu.au
+: 1491560049:0;ping google.com
+: 1491560071:0;ping 120.19.255.30
+: 1491560122:0;telnet 120.19.255.30:
+: 1491560130:0;telnet 120.19.255.30
+: 1491560141:0;clear
+: 1491560151:0;cd
+: 1491560154:0;wget 120.19.255.30
+: 1491608494:0;clear
+: 1491608494:0;ls
+: 1491608497:0;ping 8.8.8.8
+: 1491611088:0;clea
+: 1491611089:0;s
+: 1491611090:0;.
+: 1491611090:0;s
+: 1491611091:0;.
+: 1491611824:0;vim answers.txt
+: 1491612314:0;q
+: 1491614850:0;vim answers.txt
+: 1491625547:0;q
+: 1491625548:0;clear
+: 1491625548:0;s
+: 1491625553:0;q
+: 1491627087:0;ls
+: 1491627095:0;mv q1.csv q1
+: 1491627096:0;.
+: 1491627101:0;mv calc1.csv.gdsheet q1
+: 1491627101:0;.
+: 1491627108:0;mv q1_p2.arff q1
+: 1491627109:0;ls
+: 1491627110:0;.
+: 1491627115:0;mv q1.csv.gdsheet q1
+: 1491627116:0;.
+: 1491627123:0;fg
+: 1491631635:0;clear
+: 1491631636:0;s
+: 1491631637:0;.
+: 1491631831:0;ls
+: 1491631832:0;.
+: 1491633483:0;vim answers.txt
+: 1491636425:0;.
+: 1491636425:0;ls
+: 1491636439:0;cat q4/working.txt| grep -v "^$"
+: 1491636447:0;cat q4/working.txt | wc -l
+: 1491636457:0;cat q4/working.txt | grep -v "^$" | wc -l
+: 1491636469:0;cat q4/working.txt | grep -v "^$" > q4/working2.txt
+: 1491636475:0;vim q4/working2.txt
+: 1491636532:0;cat q4/working2.txt|grep "(Attributes|Instances|Error|)"
+: 1491636535:0;cat q4/working2.txt|grep "(Attributes|Instances|Error)"
+: 1491636546:0;head q4/working
+: 1491636548:0;head q4/working2.txt
+: 1491636553:0;cat q4/working2.txt|grep "(Attributes|Instances|Error|Scheme)"
+: 1491636565:0;cat q4/working2.txt|grep "(Attributes|Instances|Error|Scheme)" > q4/stats.txt
+: 1491636566:0;.
+: 1491636573:0;vim answers.txt q4/stats.txt
+: 1491639061:0;cat q4/stats.txt
+: 1491639067:0;/bin/cat q4/stats.txt
+: 1491639075:0;clear
+: 1491639077:0;q
+: 1491643558:0;make give
+: 1491643567:0;make csegive
+: 1491643576:0;brew install make
+: 1491643626:0;g++
+: 1491643632:0;brew install g++ gcc
+: 1491643651:0;vim answers.txt
+: 1491643868:0;brew cask uninstall --force swi-prolog
+: 1491643880:0;brew install gpp
+: 1491643909:0;g++
+: 1491643938:0;clear
+: 1491643938:0;s
+: 1491643945:0;cd ../../
+: 1491643945:0;ls
+: 1491643948:0;cd 9319_WebData
+: 1491643949:0;ls
+: 1491643950:0;cd RLE
+: 1491643951:0;s
+: 1491643952:0;make
+: 1491643955:0;vrc
+: 1491643960:0;cat Makefile
+: 1491643987:0;gcc -Wall -Werror -O3 rlencode.cpp -o rlencode
+: 1491644049:0;brew install --with-clang llvm
+: 1491644060:0;brew install --with-clang llvm --force
+: 1491644116:0;clear
+: 1491644116:0;ls
+: 1491649895:0;q
+: 1491651622:0;make
+: 1491651625:0;make clean
+: 1491651629:0;rm rlencode
+: 1491651631:0;make 
+: 1491651643:0;vim rlcompress.h
+: 1491651685:0;vim test.cpp
+: 1491651729:0;.
+: 1491651731:0;rm test.cpp
+: 1491651731:0;.
+: 1491651733:0;make
+: 1491651743:0;vim rlcompress.h
+: 1491651755:0;make
+: 1491651762:0;vim rlcompress.h
+: 1491651770:0;make
+: 1491651772:0;vim rlcompress.h
+: 1491651842:0;.
+: 1491651844:0;rm a.out
+: 1491651845:0;make
+: 1491651854:0;./rlencode
+: 1491651862:0;./rlencode | ./rldecode
+: 1491651881:0;clear
+: 1491651882:0;ls
+: 1491651885:0;vim rlcompress.h
+: 1491651908:0;./rlencode
+: 1491651913:0;./rlencode | ./rldecode
+: 1491651926:0;clear
+: 1491651927:0;.
+: 1491651933:0;echo "H" | ./rlencode | ./rldecode
+: 1491651942:0;echo "^[" | ./rlencode | ./rldecode
+: 1491651947:0;echo "\^[" | ./rlencode | ./rldecode
+: 1491651955:0;echo "\n" | ./rlencode | ./rldecode
+: 1491651959:0;echo "\0" | ./rlencode | ./rldecode
+: 1491651964:0;echo "\0Hello World" | ./rlencode | ./rldecode
+: 1491651968:0;echo "\Hello World" | ./rlencode | ./rldecode
+: 1491651989:0;echo "Hello World$(USER)" | ./rlencode | ./rldecode
+: 1491651997:0;echo "Hello World$USER" | ./rlencode | ./rldecode
+: 1491652002:0;echo "Hello $USER" | ./rlencode | ./rldecode
+: 1491652014:0;clear
+: 1491652014:0;s
+: 1491652019:0;exit
+: 1491652048:0;cse
+: 1491652168:0;clear
+: 1491652168:0;s
+: 1491654351:0;cp ../../9417_ML/ass1/answers.txt input.txt
+: 1491654357:0;./rlencode input.txt
+: 1491654368:0;wc -c input.txt
+: 1491654376:0;./rlencode input.txt output.rle
+: 1491654379:0;wc -c output.rle
+: 1491654411:0;cat output.rle
+: 1491654415:0;clear
+: 1491654416:0;.
+: 1491654446:0;./rldecode output.rle decoded.txt
+: 1491654449:0;diff input.txt decoded.txt
+: 1491654452:0;rm decoded.txt
+: 1491654453:0;rm input.txt
+: 1491654457:0;.
+: 1491654464:0;rm rlcompress.h.gch
+: 1491654465:0;.
+: 1491654509:0;wc -c output.rle
+: 1491654528:0;./rlencode output.rle output.rle.rle
+: 1491654534:0;wc -c output.rle.rle
+: 1491654541:0;rm output.rle.rle
+: 1491654542:0;.
+: 1491693962:0;cd ../../9417_ML
+: 1491693962:0;.
+: 1491693967:0;vim wk6/lecture.md
+: 1491697078:0;q
+: 1491698304:0;.
+: 1491698306:0;tetris
+: 1491698361:0;.
+: 1491698398:0;ls
+: 1491698419:0;q
+: 1491698425:0;cd
+: 1491698426:0;.
+: 1491698428:0;cd Documents
+: 1491698428:0;.
+: 1491698431:0;cd Projects
+: 1491698431:0;.
+: 1491698522:0;mkdir HaskPG
+: 1491698524:0;cd HaskPG
+: 1491698524:0;.
+: 1491698525:0;s
+: 1491698529:0;vim input.hs
+: 1491699850:0;.
+: 1491699854:0;clean
+: 1491699855:0;.
+: 1491699860:0;mkdir Inputs
+: 1491699864:0;mv input.hs Inputs
+: 1491699865:0;.
+: 1491699867:0;cd Inputs
+: 1491699867:0;.
+: 1491699869:0;vim input.hs
+: 1491699874:0;vim input.
+: 1491699878:0;vim input.hs
+: 1491700267:0;ls
+: 1491700273:0;cat | ./input| cat
+: 1491700289:0;clear
+: 1491700290:0;ls
+: 1491700294:0;ghc input.hs
+: 1491700295:0;.
+: 1491700297:0;./input
+: 1491700306:0;cat | ./input| cat
+: 1491700322:0;clear
+: 1491700414:0;ghc input.hs
+: 1491700416:0;./input
+: 1491700430:0;ghc input.hs
+: 1491700432:0;clear
+: 1491700434:0;./input
+: 1491700441:0;.
+: 1491725617:0;q
+: 1491726800:0;ls
+: 1491726801:0;.
+: 1491726809:0;rm q4/q4.out_backup
+: 1491726826:0;cat q4.out | grep -v "|   |"
+: 1491726830:0;cat q4.out | grep -v "\|   \|"
+: 1491726847:0;cat q4.out | grep -v "\|   \|" | grep -v "K[0-9]*"
+: 1491726856:0;cat q4.out | grep -v "K[0-9]*"
+: 1491726869:0;cat q4.out | grep -v "K[0-9]*" | grep -v "mean"
+: 1491726877:0;cat q4.out | grep -v "K[0-9]*" | grep -v "mean" | grep "==="
+: 1491726882:0;cat q4.out | grep -v "K[0-9]*" | grep -v "mean" | grep -v "==="
+: 1491726890:0;cat q4.out | grep -v "K[0-9]*" | grep -v "mean|weight|sum" | grep -v "==="
+: 1491726899:0;cat q4.out
+: 1491726907:0;cat q4.out | grep -v "|"
+: 1491726909:0;cat q4.out | grep -v "\|"
+: 1491726924:0;cat q4.out | grep -v "\|" | grep -v "          "
+: 1491726935:0;cat q4.out | grep -v "\|" | grep -v "          " | grep -v "K[0-9]*"
+: 1491726942:0;cat q4.out | grep -v "\|" | grep -v "          " | grep -v "K[0-9]*" | grep -v "^$"
+: 1491726952:0;cat q4.out | grep -v "\|" | grep -v "          " | grep -v "K[0-9]*" | grep -v "^$" | grep "Relation"
+: 1491726956:0;cat q4.out | grep -v "\|" | grep -v "          " | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation"
+: 1491726964:0;cat q4.out | grep -v "\|" | grep -v "          " | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "==="
+: 1491726972:0;cat q4.out | grep -v "\|" | grep -v "          " | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "===" | grep -v "classified as"
+: 1491727008:0;cat q4.out | grep -v "\|" | grep -v "          " | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "===" | grep -v "classified as" | grep -v "[0-9]*E-"
+: 1491727019:0;cat q4.out | grep -v "\|" | grep -v "          " | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "===" | grep -v "classified as" | grep -v "[0-9]{9}"
+: 1491727066:0;cat q4.out | grep -v "          " | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "===" | grep -v "classified as" | grep -v "[0-9]{9}"
+: 1491727088:0;cat q4.out | grep "Correct"
+: 1491727115:0;cat q4.out | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "===" | grep -v "classified as" | grep -v "[0-9]{9}"
+: 1491727131:0;cat q4.out | grep -v "\|" | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "===" | grep -v "classified as" | grep -v "[0-9]{9}"
+: 1491727199:0;cat q4.out | grep -v "\|" | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "===" | grep -v "classified as" | grep -v "[0-9]{9}" | grep -v "^  "
+: 1491727216:0;cat q4.out | grep -v "\|" | grep -v "K[0-9]*" | grep -v "^$" | grep -v "Relation" | grep -v "===" | grep -v "classified as" | grep -v "[0-9]{9}" | grep -v "^  " > q4/q4.out_cleanedup
+: 1491727222:0;vim q4/q4.out_cleanedup
+: 1491727890:0;.
+: 1491727891:0;ls
+: 1491731343:0;vim answers.txt
+: 1491740110:0;.
+: 1491740112:0;clear
+: 1491740113:0;ls
+: 1491740116:0;mv houses_mod.arff q3
+: 1491740117:0;.
+: 1491740128:0;cse_cp
+: 1491740177:0;cse
+: 1491740228:0;make givecse
+: 1491740229:0;make
+: 1491740237:0;vim makefile
+: 1491740252:0;make givecse
+: 1491740254:0;clear
+: 1491740255:0;make
+: 1491740336:0;cat makefile
+: 1491740393:0;q
+: 1491740397:0;clear
+: 1491740399:0;q
+: 1491742213:0;cd ../../9319_WebData
+: 1491742214:0;.
+: 1491742228:0;cd BWT_Search
+: 1491742229:0;.
+: 1491742245:0;vim *.cpp makefile
+: 1491786886:0;ls
+: 1491786891:0;make
+: 1491786893:0;ls
+: 1491786894:0;rm a.out
+: 1491786897:0;rm bwtsearch
+: 1491786897:0;.
+: 1491786903:0;make
+: 1491786925:0;./bwtsearch test.txt out.index
+: 1491786928:0;touch out.index
+: 1491786929:0;./bwtsearch test.txt out.index
+: 1491786969:0;rm out.index
+: 1491786970:0;.
+: 1491787069:0;make
+: 1491787081:0;./bwtsearch test.txt out.index
+: 1491787082:0;ls
+: 1491787086:0;cat out.index
+: 1491787088:0;.
+: 1491787090:0;ls
+: 1491787126:0;make
+: 1491787129:0;./bwtsearch test.txt out.index
+: 1491787159:0;clear
+: 1491787159:0;ls
+: 1491787161:0;rm bwtsearch
+: 1491787162:0;.
+: 1491787164:0;make
+: 1491787168:0;./bwtsearch test.txt out.index
+: 1491787169:0;.
+: 1491787282:0;q
+: 1491787339:0;make
+: 1491787342:0;./bwtsearch test.txt out.index
+: 1491787343:0;ls
+: 1491787348:0;rm out.index
+: 1491787349:0;.
+: 1491787368:0;make; ./bwtsearch test.txt out.index
+: 1491787409:0;rm out.index
+: 1491787409:0;.
+: 1491787411:0;ls
+: 1491787412:0;rm a.out
+: 1491787413:0;.
+: 1491787414:0;rm bwtsearch
+: 1491787414:0;.
+: 1491787421:0;make; ./bwtsearch test.txt out.index
+: 1491787424:0;ls
+: 1491787428:0;cat out.index
+: 1491787479:0;make; ./bwtsearch test.txt out.index; cat out.index
+: 1491787515:0;rm out.index
+: 1491787516:0;make; ./bwtsearch test.txt out.index; cat out.index
+: 1491787535:0;rm out.index
+: 1491787537:0;make; ./bwtsearch test.txt out.index; cat out.index
+: 1491787542:0;ls
+: 1491787567:0;rm out.index; make; ./bwtsearch test.txt out.index; cat out.index
+: 1491787741:0;ls
+: 1491787797:0;rm out.index; make; ./bwtsearch test.txt out.index; cat out.index
+: 1491787819:0;clear
+: 1491787820:0;ls
+: 1491787824:0;rm out.index; make; ./bwtsearch test.txt out.index; cat out.index
+: 1491787826:0;.
+: 1491787844:0;make; ./bwtsearch test.txt out.index; cat out.index
+: 1491787846:0;rm out.index; make; ./bwtsearch test.txt out.index; cat out.index
+: 1491787868:0;.
+: 1491787875:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491787905:0;clear
+: 1491787906:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491787914:0;clear
+: 1491787915:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491787935:0;.
+: 1491787956:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491788249:0;clear
+: 1491788250:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491788429:0;make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491788435:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491789072:0;make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491789109:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491789125:0;make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491789161:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491789175:0;make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491789463:0;make
+: 1491789514:0;rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index
+: 1491789523:0;echo "rm out.index; make; ./bwtsearch test.txt out.index ; cat out.index" > run.sh
+: 1491789524:0;.
+: 1491789528:0;chmod +x run.sh
+: 1491789530:0;./run.sh
+: 1491814303:0;clear
+: 1491814305:0;./run.sh
+: 1491814330:0;clear
+: 1491814331:0;./run.sh
+: 1491814348:0;clear
+: 1491814363:0;cat run
+: 1491814365:0;cat run.sh
+: 1491814415:0;make test
+: 1491814438:0;make
+: 1491814442:0;make test
+: 1491814911:0;q
+: 1491814963:0;make test
+: 1491872161:0;cd ../../9417_ML
+: 1491872161:0;.
+: 1491872170:0;vim sample_exam.md
+: 1491895175:0;q
+: 1491962111:0;.
+: 1491962112:0;q
+: 1491962801:0;make test
+: 1491963385:0;make
+: 1491963468:0;clear
+: 1491963469:0;make
+: 1491965680:0;../9319_WebData
+: 1491965681:0;.
+: 1491965689:0;vim staff.xml staff.json
+: 1491966180:0;ls
+: 1491966186:0;cat makefile
+: 1491966187:0;cat run.sh
+: 1491966195:0;rm run.sh
+: 1491966195:0;.
+: 1491966198:0;rm a.out
+: 1491966199:0;clear
+: 1491966200:0;ls
+: 1491966204:0;rm TERM_SESSION_ID=w0t0p0:AE4D591B-368A-4BCF-9882-F8F42E72DD8D
+: 1491966205:0;.
+: 1491966206:0;make
+: 1491966318:0;clear
+: 1491966319:0;make
+: 1491966321:0;make test
+: 1491966536:0;make
+: 1491966539:0;clear
+: 1491966539:0;ls
+: 1491966541:0;make
+: 1491966543:0;make test
+: 1491966746:0;clear
+: 1491966747:0;./make
+: 1491966749:0;make test
+: 1491966817:0;clear
+: 1491966818:0;make test
+: 1491968631:0;q
+: 1491968707:0;cse
+: 1491968783:0;q
+: 1491968822:0;make test
+: 1491969338:0;make
+: 1491969370:0;make test
+: 1491969578:0;make
+: 1491969581:0;make test
+: 1491969609:0;vim makefile
+: 1491969622:0;make test
+: 1491970093:0;vim makefile
+: 1491970109:0;make test
+: 1491970112:0;make test_with_index
+: 1491970143:0;cat out.index
+: 1491970152:0;cat out.idx
+: 1491970156:0;wc -c out.idx
+: 1491970211:0;clear
+: 1491970366:0;make test_with_index
+: 1491970374:0;rm out.index out.idx
+: 1491970375:0;.
+: 1491970376:0;make test_with_index
+: 1491970386:0;clear
+: 1491970388:0;.
+: 1491970391:0;rm a.out
+: 1491970391:0;.
+: 1491970396:0;rm TERM_SESSION_ID=w0t0p0:AE4D591B-368A-4BCF-9882-F8F42E72DD8D
+: 1491970397:0;.
+: 1491970542:0;make test
+: 1491972445:0;clear
+: 1491972446:0;make
+: 1491972449:0;make test
+: 1491972500:0;sudo make testOA
+: 1491973778:0;make test
+: 1491973871:0;cse
+: 1491974116:0;exit
+: 1491974122:0;.
+: 1491974123:0;q
+: 1491974286:0;make test
+: 1492054920:0;cat test.txt
+: 1492054925:0;/bin/cat test.txt
+: 1492054934:0;/bin/cat test.txt | sed "s/\n//"
+: 1492054940:0;/bin/cat test.txt | wc -c
+: 1492054958:0;/bin/cat test.txt | sed "s/\n//" | wc -c
+: 1492054961:0;/bin/cat test.txt | sed "s/\r//" | wc -c
+: 1492054971:0;/bin/cat test.txt | sed "s/\r//"
+: 1492054978:0;/bin/cat test.txt | sed "s/\r//" > test2.txt
+: 1492054982:0;diff test.txt test2.txt
+: 1492054989:0;mv test2.txt test.txt
+: 1492054990:0;.
+: 1492054993:0;make test
+: 1492055821:0;clear
+: 1492055828:0;make test
+: 1492056375:0;cat "agsan4[[[3[2]]]]yngn0353ttDdr nnttrdineB xstooiooiiiIcCiimmgpetrseuaanuasdper" > test.txt
+: 1492056381:0;echo -n "agsan4[[[3[2]]]]yngn0353ttDdr nnttrdineB xstooiooiiiIcCiimmgpetrseuaanuasdper" > test.txt
+: 1492056381:0;.
+: 1492056397:0;make test
+: 1492056517:0;cat test.txt
+: 1492056564:0;make test
+: 1492057502:0;exit
+: 1492057509:0;wc -c test.txt
+: 1492057512:0;cat test.txt
+: 1492057517:0;/bin/cat test.txt
+: 1492057560:0;make test
+: 1492057784:0;wc -c test.txt
+: 1492057828:0;echo -n "agsan4[[[3[2]]]]yngn0353ttDdr  nnttrdineB   xstooiooiiiIcCiimmgpetrseuaanuasdper
+: 1492057833:0;echo -n "agsan4[[[3[2]]]]yngn0353ttDdr  nnttrdineB   xstooiooiiiIcCiimmgpetrseuaanuasdper" > test.txt
+: 1492057834:0;wc -c test.txt
+: 1492057838:0;make test
+: 1492068320:0;sudo ;OA
+: 1492068325:0;make test
+: 1492068451:0;make test_with_index
+: 1492068674:0;sudo make test_with_indexOA
+: 1492068676:0;clear
+: 1492068678:0;make test_with_index
+: 1492068894:0;sudo make test_with_indexOA
+: 1492068897:0;make test_with_index
+: 1492069785:0;sudo make test_with_indexOA
+: 1492069788:0;make test_with_index
+: 1492070011:0;cd ../BWT
+: 1492070011:0;.
+: 1492070014:0;make
+: 1492070025:0;ghc bwt.hs
+: 1492070027:0;ls
+: 1492070033:0;./bwt "Hello World"
+: 1492070047:0;echo "Hello World" | ./bwt
+: 1492070050:0;echo "Hello World|" | ./bwt
+: 1492070057:0;echo -n "Hello World|" | ./bwt
+: 1492070062:0;echo -n "Hello World" | ./bwt
+: 1492070065:0;echo -n "Hello World|" | ./bwt
+: 1492070068:0;echo "Hello World|" | ./bwt
+: 1492070077:0;vim bwt.hs
+: 1492070123:0;clear
+: 1492070123:0;ls
+: 1492070129:0;vim bwt.hs
+: 1492070137:0;clear
+: 1492070137:0;s
+: 1492070141:0;vim bwt.hs
+: 1492070155:0;clear
+: 1492070166:0;echo "Hello World" | ./bwt
+: 1492070173:0;echo -n "Hello World" | ./bwt
+: 1492070182:0;echo -n "Hello World" | ./bwt > ../helloworld.bwt
+: 1492070201:0;./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492070223:0;make test
+: 1492070229:0;./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492070285:0;rm ../helloworld.idx
+: 1492070287:0;./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492070368:0;echo -n "Hello World" | ./bwt | sed "s/\r//" > ../helloworld.bwt
+: 1492070372:0;rm ../helloworld.idx
+: 1492070373:0;echo -n "Hello World" | ./bwt | sed "s/\r//" > ../helloworld.bwt
+: 1492070380:0;make test
+: 1492070384:0;echo -n "Hello World" | ./bwt | sed "s/\r//" > ../helloworld.bwt
+: 1492070386:0;ls
+: 1492070394:0;./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492070407:0;echo -n "Hello World" | ./bwt | sed "s/\r//"
+: 1492070418:0;echo -n "Hello World" | ./bwt | sed "s/\r//" > ../helloworld.bwt
+: 1492070421:0;cat ../helloworld.bwt
+: 1492070427:0;rm ../helloworld.bwt
+: 1492070431:0;echo -n "Hello World" | ./bwt | sed "s/\r//" > ../helloworld.bwt
+: 1492070433:0;rm ../helloworld.idx
+: 1492070436:0;./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492070484:0;echo -n "Hello World" | ./bwt | sed "s/\n//" > ../helloworld.bwt
+: 1492070485:0;cat ../helloworld.bwt
+: 1492070493:0;echo -n "Hello World" | ./bwt > ../helloworld.bwt
+: 1492070502:0;vim bwt.hs
+: 1492070512:0;ghc bwt.hs -o debwt
+: 1492070520:0;echo -n "Hello World" | ./bwt > ../helloworld.bwt
+: 1492070522:0;cat ../helloworld.bwt
+: 1492070526:0;cat ../helloworld.bwt | ./debwt
+: 1492070542:0;echo -n "Hello World" | ./bwt | sed "s/\r//" > ../helloworld.bwt
+: 1492070544:0;cat ../helloworld.bwt | ./debwt
+: 1492070587:0;clear
+: 1492070587:0;ls
+: 1492070643:0;./bwt | ./debwt
+: 1492070650:0;clear
+: 1492070650:0;s
+: 1492070652:0;vim bwt.hs
+: 1492070769:0;.
+: 1492070769:0;q
+: 1492070897:0;./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492071535:0;q
+: 1492071815:0;ls
+: 1492071817:0;cd ../
+: 1492071817:0;ls
+: 1492071820:0;cd BWT_Search
+: 1492071820:0;.
+: 1492071837:0;echo -n "Hello World" | ./a.out > ../helloworld.bwt
+: 1492071844:0;rm ../helloworld.idx
+: 1492071846:0;./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492299720:0;cd ..
+: 1492299721:0;cd ml
+: 1492299722:0;.
+: 1492299724:0;cd ML
+: 1492299725:0;cd 9417_ML
+: 1492299726:0;.
+: 1492299729:0;mkdir wk7
+: 1492299734:0;mk wk7
+: 1492299736:0;.
+: 1492299736:0;ls
+: 1492299739:0;vim lecture.md
+: 1492299764:0;make; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492299790:0;make; rm ../helloworld.idx; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492300779:0;echo "Hello World" | ../BWT/bwt
+: 1492300782:0;echo "Hello World" -n | ../BWT/bwt
+: 1492300792:0;echo -n "Hello World" | ../BWT/bwt
+: 1492300806:0;vim ../BWT_Search/bwt.cpp
+: 1492300813:0;vim bwt.cpp
+: 1492300817:0;.
+: 1492300829:0;echo -n "Hello World" | ./bwt
+: 1492300831:0;make
+: 1492300833:0;ls
+: 1492300837:0;vim makefile
+: 1492300845:0;make
+: 1492300849:0;echo -n "Hello World" | ./bwt
+: 1492300855:0;echo -n "Hello World" | ./bwt > ../helloworld.bwt
+: 1492300856:0;.
+: 1492300861:0;make; rm ../helloworld.idx; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492301026:0;cat ../helloworld.bwt
+: 1492301083:0;make; rm ../helloworld.idx; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492301146:0;wc -c ../helloworld.bwt
+: 1492301207:0;make; rm ../helloworld.idx; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492301324:0;echo -n "mississippi" | ./bwt
+: 1492301357:0;echo -n "mississippi#" | ./bwt
+: 1492301381:0;echo -n "mississippi#" | ./bwt > ../miss.bwt
+: 1492301394:0;make; rm ../helloworld.idx; ./bwtsearch ../miss.bwt ../miss.idx
+: 1492301439:0;make; rm ../*.idx; ./bwtsearch ../miss.bwt ../miss.idx
+: 1492301530:0;wc -c ../miss.bwt
+: 1492301535:0;make; rm ../*.idx; ./bwtsearch ../miss.bwt ../miss.idx
+: 1492301677:0;echo -n "mississippi#" | ./bwt
+: 1492301698:0;clear
+: 1492301699:0;make; rm ../*.idx; ./bwtsearch ../miss.bwt ../miss.idx
+: 1492301746:0;echo -n "mississippi\1" | ./bwt
+: 1492301756:0;echo -n "mississippi#" | ./bwt
+: 1492301887:0;ipssm#pissiii
+: 1492301890:0;make; rm ../*.idx; ./bwtsearch ../miss.bwt ../miss.idx
+: 1492301928:0;echo -n "Hello World" | ./bwt > ../helloworld.bwt
+: 1492301946:0;sudo make; rm ../*.idx; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492301950:0;make; rm ../*.idx; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492302159:0;echo -n "[0]Hello World[1]Oh dear" | ./bwt > ../helloworld.bwt
+: 1492302177:0;make; rm ../*.idx; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492302382:0;q
+: 1492302470:0;make; rm ../*.idx; ./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1492303452:0;make; rm *.idx; ./bwtsearch test.txt out.idx
+: 1492303837:0;make test
+: 1492303846:0;make test_all
+: 1492304203:0;make; rm *.idx; ./bwtsearch test.txt out.idx
+: 1492304209:0;make; rm *.idx; ./bwtsearch test.txt out.idx "in"
+: 1492304212:0;make; rm *.idx; ./bwtsearch test.txt out.idx "in "
+: 1492304219:0;make; rm *.idx; ./bwtsearch test.txt out.idx " in" "ata"
+: 1492304233:0;make; rm *.idx; ./bwtsearch test.txt out.idx " in"
+: 1492304288:0;make; rm *.idx; ./bwtsearch test.txt out.idx " in" "ata"
+: 1492304293:0;make; rm *.idx; ./bwtsearch test.txt out.idx "ata"
+: 1492506395:0;make; rm *.idx; ./bwtsearch test.txt out.idx " in"
+: 1492506399:0;make; rm *.idx; ./bwtsearch test.txt out.idx " in" "ata"
+: 1492507137:0;z HaskPG
+: 1492507138:0;.
+: 1492507138:0;s
+: 1492507139:0;d
+: 1492507143:0;cat Inputs/*
+: 1492507146:0;clear
+: 1492507149:0;ls Inputs/*
+: 1492507152:0;cd Inputs
+: 1492507152:0;.
+: 1492507154:0;./input
+: 1492507166:0;vim input.hs
+: 1492507388:0;ls
+: 1492507391:0;ghc input.hs
+: 1492507394:0;./input
+: 1492507406:0;clear
+: 1492507407:0;.
+: 1492507412:0;q
+: 1492508689:0;z
+: 1492508690:0;.
+: 1492508692:0;cd ...
+: 1492508693:0;.
+: 1492508777:0;mk Typlogic
+: 1492508791:0;vim predicate.hs
+: 1492508838:0;z HaskPG
+: 1492508840:0;vim Inputs
+: 1492509042:0;.
+: 1492509044:0;cd ..
+: 1492509045:0;.
+: 1492509047:0;cd Generative_Grammar
+: 1492509048:0;.
+: 1492509050:0;vim inf_st.hs
+: 1492573170:0;.
+: 1492573172:0;q
+: 1492573184:0;1
+: 1492573185:0;q
+: 1492682117:0;cd ~/Downloads
+: 1492682117:0;.
+: 1492682128:0;mv calculator.hs.txt calculator.hs
+: 1492682128:0;.
+: 1492682178:0;cabal install http://ghcjs.luite.com/master.tar.gz
+: 1492682423:0;vrc
+: 1492682678:0;vim pswd.hs
+: 1492682705:0;ghc pswd
+: 1492682706:0;ls
+: 1492682714:0;./pswd /etc/passwd
+: 1492682746:0;cat /etc/passwd
+: 1492682979:0;ghc pswd
+: 1492682983:0;./pswd /etc/passwd
+: 1492683141:0;ghc
+: 1492683144:0;ghc pswd
+: 1492683147:0;./pswd /etc/passwd
+: 1492687461:0;ghc
+: 1492687465:0;ghc pswd
+: 1492909591:0;ssh -Y login.cse.unsw.edu.au
+: 1492912215:0;ssh -Y z5017666@login.cse.unsw.edu.au
+: 1492915426:0;q
+: 1492915440:0;scp z5017666@cse.unsw.edu.au:./out failed_to_mark
+: 1492915443:0;q
+: 1492915450:0;clear
+: 1492915577:0;ls
+: 1492915579:0;cat failed_to_mark
+: 1492915582:0;q
+: 1492927000:0;ghc pswd
+: 1492928187:0;q
+: 1492931402:0;emacs
+: 1492931512:0;fg
+: 1492931588:0;clear
+: 1492931588:0;ls
+: 1492931600:0;emacs
+: 1492932368:0;fg
+: 1492933367:0;kill
+: 1492933368:0;jobs
+: 1492933371:0;kill 1
+: 1492933378:0;jobs -h
+: 1492933383:0;jobs --help
+: 1492933386:0;man jobs
+: 1492933390:0;clear
+: 1492933392:0;fg
+: 1492933668:0;clear
+: 1492933669:0;ls
+: 1492933670:0;emacs
+: 1492933718:0;.
+: 1492935018:0;z BCM
+: 1492935022:0;z BMM
+: 1492935030:0;z CBM
+: 1492935033:0;z Drive
+: 1492935035:0;z Uni
+: 1492935036:0;.
+: 1492935038:0;2017
+: 1492935041:0;2301_CBM
+: 1492935042:0;.
+: 1492935046:0;z CBM
+: 1492935047:0;cd
+: 1492935051:0;z CBM
+: 1492935051:0;.
+: 1492935095:0;vim "Slezak v Botha on the Biological Basis of Language Capacities.md"
+: 1492935147:0;q
+: 1492935194:0;chrome .
+: 1492935199:0;vrc
+: 1492936392:0;q
+: 1492937174:0;rename Slezak\ v\ Botha\ on\ the\ Biological\ Basis\ of\ Language\ Capacities.md "s/ /_/"
+: 1492937185:0;rename "s/ /_/" Slezak\ v\ Botha\ on\ the\ Biological\ Basis\ of\ Language\ Capacities.md
+: 1492937185:0;.
+: 1492937196:0;rename "s/ /_/g" Slezak_v\ Botha\ on\ the\ Biological\ Basis\ of\ Language\ Capacities.md
+: 1492937199:0;vim Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities.md
+: 1492939553:0;vrc
+: 1492939636:0;q
+: 1492940227:0;vim Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities.md
+: 1492940499:0;vrc
+: 1492940504:0;q
+: 1493017379:0;vrc
+: 1493017432:0;q
+: 1493017884:0;.
+: 1493017888:0;vim Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities.md
+: 1493021103:0;clear
+: 1493021104:0;ls
+: 1493021108:0;cat Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities.md | pbcopy
+: 1493028276:0;vim Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities.md
+: 1493028288:0;pbpaste Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities2.md
+: 1493028294:0;pbpaste > Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities2.md
+: 1493028295:0;.
+: 1493028298:0;vim Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities2.md
+: 1493028551:0;.
+: 1493028556:0;mv Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities2.md Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities.md
+: 1493028557:0;.
+: 1493028587:0;vim Slezak_v_Botha_on_the_Biological_Basis_of_Language_Capacities.md
+: 1493028836:0;q
+: 1493091496:0;cse
+: 1493091502:0;which cse
+: 1493091507:0;cse -Y
+: 1493092152:0;cse
+: 1493092153:0;cse -Y
+: 1493114812:0;vim ~/.ssh/config
+: 1493114873:0;q
+: 1493115290:0;ping cse.unsw.edu.au
+: 1493115296:0;ping google.com
+: 1493115300:0;ping unsw.edu.au
+: 1493115309:0;ping wagner.cse.unsw.edu.au
+: 1493115315:0;ping weil.cse.unsw.edu.au
+: 1493115322:0;ping weill.cse.unsw.edu.au
+: 1493115325:0;clear
+: 1493115330:0;ping adams.cse.unsw.edu.au
+: 1493115333:0;.
+: 1493115335:0;clear
+: 1493115349:0;ping webapps.cse.unsw.edu.au
+: 1493115599:0;cse
+: 1493115602:0;cse -Y
+: 1493115651:0;q
+: 1493115705:0;cse -Y
+: 1493115709:0;q
+: 1493115790:0;clear
+: 1493115798:0;reboot
+: 1493115928:0;ls
+: 1493115928:0;.
+: 1493115931:0;cse -Y
+: 1493118091:0;/Users/Cypher/Downloads/solution.pl; exit;
+: 1493118100:0;vim ~/Downloads/solution.pl
+: 1493119661:0;brew install swi-prolog
+: 1493119668:0;swipl
+: 1493119679:0;prolog
+: 1493119698:0;brew uninstall swi-prolog
+: 1493119703:0;brew install swi-prolog
+: 1493119718:0;prolog
+: 1493119720:0;q
+: 1493120529:0;ping 8.8.8.8
+: 1493120535:0;ping cse.unsw.edu.au
+: 1493177206:0;.
+: 1493177209:0;vim sol
+: 1493177214:0;.
+: 1493177218:0;q
+: 1493177221:0;cse -Y
+: 1493177225:0;q
+: 1493178642:0;z BWT
+: 1493178643:0;.
+: 1493178646:0;../BWT_Search
+: 1493178647:0;.
+: 1493178658:0;vim lecture_notes.md
+: 1493178817:0;cse
+: 1493179702:0;exit
+: 1493179856:0;vim bwtsearch.cpp
+: 1493180751:0;q
+: 1493184706:0;prolog
+: 1493184714:0;swi
+: 1493184715:0;swipl
+: 1493184808:0;cd
+: 1493184809:0;cd Documents
+: 1493184809:0;.
+: 1493184811:0;vim test.pl
+: 1493184881:0;.
+: 1493184881:0;ls
+: 1493184883:0;q
+: 1493185634:0;z /Users/Cypher/Downloads
+: 1493185635:0;.
+: 1493185638:0;vim solution.pl
+: 1493190857:0;exit
+: 1493202098:0;q
+: 1493342810:0;cse
+: 1493342813:0;cse -Y
+: 1493345569:0;q
+: 1493345645:0;x
+: 1493345645:0;q
+: 1493345912:0;fg
+: 1493348083:0;make
+: 1493348087:0;./bwtsearch ../helloworld.bwt ../helloworld.idx
+: 1493348096:0;./bwtsearch ../helloworld.bwt ../helloworld.idx "ello"
+: 1493348401:0;make
+: 1493348406:0;./bwtsearch ../helloworld.bwt ../helloworld.idx "ello"
+: 1493348407:0;./bwtsearch ../helloworld.bwt ../helloworld.idx "ell"
+: 1493348411:0;./bwtsearch ../helloworld.bwt ../helloworld.idx "hel"
+: 1493348415:0;./bwtsearch ../helloworld.bwt ../helloworld.idx "hell"
+: 1493348418:0;ls
+: 1493348420:0;clear
+: 1493348420:0;ls
+: 1493348430:0;cat out1.txt
+: 1493348431:0;clear
+: 1493348432:0;rm out1.txt
+: 1493348433:0;.
+: 1493348436:0;cat ref1.txt
+: 1493348449:0;cat test.txt
+: 1493348473:0;./bwtsearch test.txt ../test.idx ""
+: 1493348476:0;./bwtsearch test.txt ../test.idx " "
+: 1493348479:0;./bwtsearch test.txt ../test.idx "y"
+: 1493348523:0;echo -n "[3]Computers in industry[25]Data compression[33]Integration[40]Big data indexing" > input.txt
+: 1493348528:0;./bwt input.txt
+: 1493348536:0;cat input.txt | ./bwt
+: 1493348543:0;cat input.txt | ./bwt > input.bwt
+: 1493348544:0;.
+: 1493348548:0;rm out.idx
+: 1493348548:0;.
+: 1493348560:0;./bwtsearch input.bwt input.idx "Data"
+: 1493348595:0;make
+: 1493348622:0;./bwtsearch input.bwt input.idx "Data"
+: 1493348674:0;make
+: 1493348676:0;./bwtsearch input.bwt input.idx "Data"
+: 1493348693:0;make
+: 1493348694:0;./bwtsearch input.bwt input.idx "Data"
+: 1493348700:0;rm input.idx
+: 1493348701:0;./bwtsearch input.bwt input.idx "Data"
+: 1493348731:0;./bwtsearch input.bwt input.idx "in "
+: 1493348737:0;./bwtsearch input.bwt input.idx " in"
+: 1493348755:0;make
+: 1493348757:0;./bwtsearch input.bwt input.idx " in"
+: 1493348782:0;make; ./bwtsearch input.bwt input.idx " in"
+: 1493349462:0;make; ./bwtsearch input.bwt input.idx "in"
+: 1493350209:0;q
+: 1493350212:0;clear
+: 1493350212:0;s
+: 1493350214:0;vim bwtsearch.cpp
+: 1493350316:0;make; ./bwtsearch input.bwt input.idx "in"
+: 1493350320:0;make; ./bwtsearch input.bwt input.idx "in" "data"
+: 1493350447:0;make test
+: 1493350452:0;make test_all
+: 1493350472:0;clear
+: 1493350472:0;ls
+: 1493350477:0;rm dummy.idx
+: 1493350482:0;vim makefile
+: 1493350499:0;ls
+: 1493350500:0;.
+: 1493350502:0;make test_all
+: 1493350504:0;make test
+: 1493350506:0;vim makefile
+: 1493350523:0;clear
+: 1493350526:0;make test_all
+: 1493350550:0;vim makefile
+: 1493350579:0;make test_all
+: 1493350588:0;cat out1.txt
+: 1493350591:0;cat ref1.txt
+: 1493350594:0;vim ref*
+: 1493352196:0;ls
+: 1493352202:0;vim
+: 1493352206:0;ls
+: 1493356523:0;.
+: 1493356523:0;s
+: 1493356525:0;clear
+: 1493356526:0;make test_all
+: 1493356538:0;clear
+: 1493356541:0;make test
+: 1493356576:0;vim makefile
+: 1493356604:0;make test
+: 1493356942:0;vim makefile
+: 1493357017:0;clear
+: 1493357018:0;make test
+: 1493357024:0;make test_with_index
+: 1493357029:0;make test
+: 1493357033:0;make test_all
+: 1493357037:0;vim makefile
+: 1493357069:0;clear
+: 1493357071:0;make test0
+: 1493357135:0;rm input.idx
+: 1493357136:0;make test0
+: 1493357152:0;vim makefile
+: 1493357162:0;clear
+: 1493357162:0;s
+: 1493357163:0;make
+: 1493357165:0;make test0
+: 1493357177:0;cat input.txt
+: 1493357182:0;vim makefile
+: 1493357194:0;clear
+: 1493357196:0;make test0
+: 1493357223:0;make test
+: 1493357240:0;diff out3.txt ref3.txt
+: 1493357245:0;cat out3.txt
+: 1493357249:0;cat ref3.txt
+: 1493357252:0;clear
+: 1493357270:0;wc -c input.idx input.bwt
+: 1493357310:0;make test0
+: 1493357717:0;make test
+: 1493357729:0;make test0
+: 1493358204:0;make test
+: 1493358360:0;clear
+: 1493358362:0;make t
+: 1493358364:0;make test
+: 1493358372:0;./bwtsearch input.bwt input.idx " in"
+: 1493358375:0;./bwtsearch input.bwt input.idx " in" "ata"
+: 1493358377:0;ls
+: 1493358380:0;cat input.idx
+: 1493358401:0;make test
+: 1493358408:0;wc -c input.idx
+: 1493358414:0;make test
+: 1493358417:0;wc -c input.idx
+: 1493358421:0;rm input.idx
+: 1493358424:0;make test
+: 1493358430:0;rm dummy.idx
+: 1493358433:0;make test
+: 1493358446:0;clear
+: 1493358446:0;ls
+: 1493358449:0;vim makefile
+: 1493358465:0;rm *.idx
+: 1493358466:0;clear
+: 1493358468:0;make test
+: 1493358550:0;cat input.idx
+: 1493358553:0;vim input.idx
+: 1493377094:0;clear
+: 1493377094:0;s
+: 1493377100:0;rm TERM_SESSION_ID=w0t0p0:AE4D591B-368A-4BCF-9882-F8F42E72DD8D
+: 1493377101:0;.
+: 1493377105:0;rm a.out
+: 1493377106:0;.
+: 1493377108:0;make test
+: 1493377114:0;make test0
+: 1493377117:0;make test
+: 1493377206:0;wc -c input.idx
+: 1493378069:0;make test
+: 1493378127:0;wc -c input.bwt
+: 1493378151:0;make test
+: 1493378658:0;rm input.idx
+: 1493378660:0;make test
+: 1493378669:0;make test0_with_index
+: 1493378715:0;./bwtsearch input.bwt input.idx " in"
+: 1493378722:0;cat input.bwt
+: 1493378739:0;cat input.txt | ./bwt
+: 1493378747:0;cat input.txt | ./bwt > input.bwt
+: 1493378749:0;./bwtsearch input.bwt input.idx " in"
+: 1493378753:0;./bwtsearch input.bwt input.idx "in"
+: 1493378836:0;make
+: 1493378840:0;./bwtsearch input.bwt input.idx "in"
+: 1493378846:0;rm *.idx
+: 1493378847:0;./bwtsearch input.bwt input.idx "in"
+: 1493378876:0;rm *.idx
+: 1493378877:0;./bwtsearch input.bwt input.idx "in"
+: 1493378916:0;rm *.idx
+: 1493378917:0;./bwtsearch input.bwt input.idx "in"
+: 1493378932:0;rm *.idx
+: 1493378935:0;make
+: 1493378938:0;make test0_with_index
+: 1493378951:0;make
+: 1493378954:0;make test0_with_index
+: 1493378958:0;make test
+: 1493379021:0;./bwtsearch input.bwt input.idx "in"
+: 1493379030:0;make
+: 1493379032:0;./bwtsearch input.bwt input.idx "in"
+: 1493379050:0;wc -c input.bwt
+: 1493379062:0;cp input.idx input_1.idx
+: 1493379066:0;clear
+: 1493379067:0;make
+: 1493379071:0;./bwtsearch input.bwt input.idx "in"
+: 1493379074:0;rm input.idx
+: 1493379078:0;./bwtsearch input.bwt input.idx "in"
+: 1493379086:0;cat input_1.idx
+: 1493379092:0;wc -c input_1.idx
+: 1493379096:0;wc -c input.idx
+: 1493379106:0;./bwtsearch input.bwt input.idx "in"
+: 1493379138:0;make
+: 1493379140:0;./bwtsearch input.bwt input.idx "in"
+: 1493379148:0;rm input.idx
+: 1493379150:0;./bwtsearch input.bwt input.idx "in"
+: 1493379178:0;make
+: 1493379180:0;./bwtsearch input.bwt input.idx "in"
+: 1493379191:0;make
+: 1493379193:0;./bwtsearch input.bwt input.idx "in"
+: 1493379203:0;make
+: 1493379204:0;./bwtsearch input.bwt input.idx "in"
+: 1493379230:0;make
+: 1493379232:0;./bwtsearch input.bwt input.idx "in"
+: 1493379296:0;make
+: 1493379300:0;./bwtsearch input.bwt input.idx "in"
+: 1493379335:0;make
+: 1493379337:0;./bwtsearch input.bwt input.idx "in"
+: 1493379352:0;make
+: 1493379353:0;./bwtsearch input.bwt input.idx "in"
+: 1493379451:0;make
+: 1493379454:0;./bwtsearch input.bwt input.idx "in"
+: 1493379481:0;cat input.bwt
+: 1493379495:0;./bwtsearch input.bwt input.idx "data"
+: 1493379535:0;make; ./bwtsearch input.bwt input.idx "data"
+: 1493379550:0;vim input.idx
+: 1493379695:0;clear
+: 1493379695:0;s
+: 1493379773:0;make test
+: 1493379874:0;sudo make testOA
+: 1493379876:0;clear
+: 1493379878:0;make test
+: 1493380137:0;rm *.idx
+: 1493380139:0;make clean
+: 1493380140:0;make
+: 1493380142:0;make test
+: 1493380156:0;make
+: 1493380159:0;make test
+: 1493380196:0;./bwtsearch input.bwt input.idx "data"
+: 1493380206:0;make
+: 1493380208:0;./bwtsearch input.bwt input.idx "data"
+: 1493380217:0;make
+: 1493380219:0;./bwtsearch input.bwt input.idx "data"
+: 1493380224:0;make
+: 1493380226:0;./bwtsearch input.bwt input.idx "data"
+: 1493380290:0;make
+: 1493380292:0;./bwtsearch input.bwt input.idx "data"
+: 1493380335:0;make
+: 1493380337:0;./bwtsearch input.bwt input.idx "data"
+: 1493380374:0;make
+: 1493380569:0;make test0
+: 1493380574:0;./bwtsearch input.bwt input.idx "data"
+: 1493380905:0;make test0
+: 1493381101:0;make
+: 1493381103:0;./bwtsearch input.bwt input.idx "data"
+: 1493381137:0;make
+: 1493381139:0;./bwtsearch input.bwt input.idx "data"
+: 1493381149:0;make
+: 1493381161:0;./bwtsearch input.bwt input.idx "data"
+: 1493381186:0;cat | wc -c
+: 1493381189:0;q
+: 1493381198:0;clear
+: 1493381200:0;cat | wc -c
+: 1493381206:0;pbpaste | wc -c
+: 1493381212:0;q
+: 1493381213:0;[3]Computers in industry[25]Data compression[33]Integration[40]Big data indexing:mode
+: 1493381226:0;ls
+: 1493381231:0;wc -c input.bwt
+: 1493381257:0;make
+: 1493381260:0;./bwtsearch input.bwt input.idx "data"
+: 1493381268:0;rm *.idx
+: 1493381269:0;make
+: 1493381272:0;make test0
+: 1493381313:0;make
+: 1493381315:0;make test
+: 1493381318:0;make test0
+: 1493381327:0;cat test.bwt
+: 1493381329:0;cat input.bwt
+: 1493381370:0;make test0
+: 1493381669:0;./bwtsearch input.bwt input.idx "data"
+: 1493381676:0;./bwtsearch input.bwt input.idx "a"
+: 1493381679:0;./bwtsearch input.bwt input.idx "i"
+: 1493381689:0;make
+: 1493381692:0;make test0
+: 1493381705:0;./bwtsearch input.bwt input.idx "i"
+: 1493381710:0;rm input.idx
+: 1493381712:0;./bwtsearch input.bwt input.idx "i"
+: 1493381745:0;make test0
+: 1493381939:0;make
+: 1493381941:0;make test0
+: 1493382085:0;./bwtsearch input.bwt input.idx "i"
+: 1493382099:0;make test0
+: 1493382103:0;./bwtsearch input.bwt input.idx "i"
+: 1493382122:0;make test0
+: 1493382133:0;./bwtsearch input.bwt input.idx "i"
+: 1493382169:0;wc -c input.bwt input.idx
+: 1493382258:0;make test0
+: 1493382262:0;./bwtsearch input.bwt input.idx "i"
+: 1493382409:0;make test0
+: 1493382414:0;make test_all
+: 1493382416:0;make test
+: 1493382435:0;git init
+: 1493382436:0;s
+: 1493382440:0;git add *.cpp
+: 1493382441:0;clear
+: 1493382442:0;s
+: 1493382446:0;git add *.txt
+: 1493382451:0;clear
+: 1493382451:0;s
+: 1493382454:0;rm a.out
+: 1493382455:0;clear
+: 1493382455:0;s
+: 1493382457:0;vim makefile
+: 1493382463:0;git add makefile
+: 1493382464:0;clear
+: 1493382464:0;s
+: 1493382469:0;rm bwtsearch bwt
+: 1493382471:0;clear
+: 1493382471:0;s
+: 1493382476:0;rm input.bwt
+: 1493382482:0;rm input.idx
+: 1493382483:0;clear
+: 1493382483:0;s
+: 1493382485:0;a lecture_notes.md
+: 1493382486:0;clear
+: 1493382486:0;s
+: 1493382490:0;m "Initial commit"
+: 1493382491:0;clear
+: 1493382492:0;s
+: 1493382493:0;.
+: 1493382496:0;vim makefile
+: 1493382590:0;make input_bwt
+: 1493382592:0;ls
+: 1493382595:0;vim input.bwt
+: 1493382598:0;clear
+: 1493382598:0;s
+: 1493382604:0;vim .gitignore
+: 1493382613:0;vim .git
+: 1493382617:0;vim .gitignore
+: 1493382628:0;a .gitignore
+: 1493382632:0;a makefile
+: 1493382633:0;s
+: 1493382644:0;m "Added bwt files to makefile and ignore"
+: 1493382645:0;clear
+: 1493382645:0;s
+: 1493382648:0;make test0
+: 1493382652:0;vim makefile
+: 1493382679:0;make test0
+: 1493382682:0;vim makefile
+: 1493382696:0;make test0_with_index
+: 1493382700:0;make test0
+: 1493382705:0;./bwtsearch input.bwt input.idx "in"
+: 1493382711:0;cat input.idx
+: 1493382715:0;clear
+: 1493382810:0;make test0
+: 1493382835:0;mv input.txt input_main.txt
+: 1493382838:0;vim input.txt
+: 1493382916:0;clear
+: 1493382917:0;make test0
+: 1493382922:0;make input_bwt
+: 1493382927:0;make test0
+: 1493382932:0;./bwtsearch input.bwt input.idx "miss"
+: 1493382953:0;make
+: 1493382955:0;./bwtsearch input.bwt input.idx "miss"
+: 1493382969:0;make
+: 1493382971:0;./bwtsearch input.bwt input.idx "miss"
+: 1493382991:0;make
+: 1493382993:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383018:0;make
+: 1493383020:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383075:0;make
+: 1493383076:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383128:0;make
+: 1493383130:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383167:0;make
+: 1493383194:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383222:0;make
+: 1493383225:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383246:0;rm input.idx
+: 1493383250:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383265:0;make
+: 1493383267:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383331:0;rm input.idx
+: 1493383338:0;mv input_main.txt input.txt
+: 1493383339:0;clear
+: 1493383339:0;s
+: 1493383343:0;rm a.out
+: 1493383345:0;make test0
+: 1493383528:0;cat input.txt | ./bwt > input.bwt
+: 1493383530:0;make test0
+: 1493383781:0;mv input.txt input_main.txt
+: 1493383792:0;echo "mississippi$" > input.txt
+: 1493383794:0;rm input.idx
+: 1493383798:0;rm input.bwt
+: 1493383800:0;make input_bwt
+: 1493383806:0;make
+: 1493383810:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383825:0;make
+: 1493383827:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383839:0;rm input.idx
+: 1493383841:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383854:0;rm input.txt
+: 1493383858:0;echo -n "mississippi$" > input.txt
+: 1493383862:0;make input_bwt
+: 1493383865:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383868:0;rm input.idx
+: 1493383870:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383893:0;make input_bwt
+: 1493383896:0;make clean
+: 1493383898:0;make
+: 1493383901:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383961:0;make
+: 1493383963:0;./bwtsearch input.bwt input.idx "miss"
+: 1493383969:0;rm *.idx
+: 1493383973:0;./bwtsearch input.bwt input.idx "miss"
+: 1493384018:0;cat input.bwt
+: 1493384046:0;make
+: 1493384051:0;rm *.idx
+: 1493384053:0;./bwtsearch input.bwt input.idx "miss"
+: 1493384104:0;make
+: 1493384107:0;./bwtsearch input.bwt input.idx "miss"
+: 1493384163:0;make
+: 1493384166:0;./bwtsearch input.bwt input.idx "miss"
+: 1493384176:0;make
+: 1493384178:0;./bwtsearch input.bwt input.idx "miss"
+: 1493384237:0;make
+: 1493384240:0;./bwtsearch input.bwt input.idx "s"
+: 1493384244:0;./bwtsearch input.bwt input.idx "mi"
+: 1493384246:0;./bwtsearch input.bwt input.idx "i"
+: 1493384349:0;make
+: 1493384352:0;rm *.idx
+: 1493384354:0;./bwtsearch input.bwt input.idx "i"
+: 1493384432:0;make; rm *.idx; ./bwtsearch input.bwt input.idx "miss"
+: 1493384481:0;cat input.txt | ./bwt > input.bwt
+: 1493384485:0;./bwtsearch input.bwt input.idx "miss"
+: 1493384502:0;rm input.idx
+: 1493384506:0;make; rm *.idx; ./bwtsearch input.bwt input.idx "miss"
+: 1493384516:0;./bwtsearch input.bwt input.idx "miss"
+: 1493384549:0;make; rm *.idx; ./bwtsearch input.bwt input.idx "miss"
+: 1493384730:0;make
+: 1493384733:0;make; rm *.idx; ./bwtsearch input.bwt input.idx "miss"
+: 1493384745:0;cat inputb
+: 1493384748:0;cat input.bwt
+: 1493384801:0;make; rm *.idx; ./bwtsearch input.bwt input.idx "miss"
+: 1493384957:0;make
+: 1493384964:0;make; rm *.idx; ./bwtsearch input.bwt input.idx "miss"
+: 1493385178:0;./bwtsearch input.bwt input.idx "miss"
+: 1493385198:0;make; rm *.idx; ./bwtsearch input.bwt input.idx "miss"
+: 1493385217:0;clear
+: 1493385220:0;make
+: 1493385221:0;./bwtsearch input.bwt input.idx "miss"
+: 1493385253:0;make
+: 1493385254:0;./bwtsearch input.bwt input.idx "miss"
+: 1493385269:0;make
+: 1493385271:0;./bwtsearch input.bwt input.idx "miss"
+: 1493385294:0;make
+: 1493385296:0;./bwtsearch input.bwt input.idx "miss"
+: 1493385300:0;rm input.idx
+: 1493385301:0;./bwtsearch input.bwt input.idx "miss"
+: 1493385311:0;cat input.txt | ./bwt > input.bwt
+: 1493385312:0;./bwtsearch input.bwt input.idx "miss"
+: 1493385334:0;cat input.txt | ./bwt > input.bwt
+: 1493385336:0;make
+: 1493385339:0;./bwtsearch input.bwt input.idx "miss"
+: 1493385347:0;mv input_main.txt input
+: 1493385352:0;mv input input.txt
+: 1493385354:0;ls
+: 1493385362:0;clear
+: 1493385363:0;ls
+: 1493385368:0;rm input\ \(2\).txt
+: 1493385369:0;ls
+: 1493385373:0;cat input.txt
+: 1493385385:0;echo -n "[3]Computers in industry[25]Data compression[33]Integration[40]Big data indexing" > input.txt
+: 1493385387:0;make
+: 1493385392:0;make test0
+: 1493385441:0;clear
+: 1493385441:0;s
+: 1493385443:0;rm a.out
+: 1493385444:0;clear
+: 1493385444:0;s
+: 1493385447:0;vim .git
+: 1493385451:0;vim .gitignore
+: 1493385456:0;clear
+: 1493385457:0;s
+: 1493385460:0;a .gitignore
+: 1493385461:0;clear
+: 1493385461:0;s
+: 1493385464:0;make test0
+: 1493385469:0;make test
+: 1493385487:0;clear
+: 1493385487:0;s
+: 1493385500:0;vim .gitignore
+: 1493385508:0;clear
+: 1493385508:0;s
+: 1493385514:0;git rm out1.txt out2.txt out3.txt 
+: 1493385519:0;git rm -f out1.txt out2.txt out3.txt 
+: 1493385520:0;clear
+: 1493385520:0;s
+: 1493385524:0;git add .gitignore
+: 1493385525:0;clear
+: 1493385525:0;s
+: 1493385527:0;d
+: 1493385530:0;a bwtsearch.cpp
+: 1493385531:0;clear
+: 1493385531:0;s
+: 1493385541:0;m "WORKING! NO SKIP"
+: 1493385542:0;clear
+: 1493385542:0;s
+: 1493448572:0;git log
+: 1493448576:0;clear
+: 1493448576:0;s
+: 1493448583:0;vim makefile
+: 1493448595:0;rm a.out
+: 1493448596:0;.
+: 1493448598:0;make test
+: 1493448600:0;ls
+: 1493448611:0;rm a.out
+: 1493448612:0;clear
+: 1493448612:0;s
+: 1493448614:0;make test
+: 1493448705:0;vim makefile
+: 1493448730:0;clear
+: 1493448731:0;make test
+: 1493449320:0;make test &2> out
+: 1493449332:0;make test 2&> out
+: 1493449337:0;vim out
+: 1493449370:0;rm out
+: 1493449372:0;make test 2&> out
+: 1493449377:0;vim out
+: 1493449487:0;make test 2&> out
+: 1493449490:0;vim out
+: 1493449574:0;make test 2&> out
+: 1493450047:0;sudo make test 2&> out
+: 1493450052:0;make test 2&> out
+: 1493450059:0;cat out
+: 1493450064:0;make test
+: 1493450093:0;make test 2&> out
+: 1493450097:0;head out
+: 1493450119:0;make test
+: 1493450676:0;ake
+: 1493450677:0;make
+: 1493450775:0;make test
+: 1493450911:0;make
+: 1493450914:0;make test
+: 1493451531:0;cat input.bwt
+: 1493451539:0;cat input.bwt | grep -o "i"
+: 1493451541:0;cat input.bwt | grep -o "i" | wc -l
+: 1493451562:0;make test
+: 1493451579:0;cat input.bwt | grep -o "."
+: 1493451586:0;cat input.bwt | grep -o "." | head 74
+: 1493451591:0;cat input.bwt | grep -o "." | head -l 74
+: 1493451595:0;cat input.bwt | grep -o "." | head -n 74
+: 1493451601:0;cat input.bwt | grep -o "." | head -n 74 | grep "i" | wc -l
+: 1493451607:0;make test
+: 1493451615:0;cat input.bwt | grep -o "." | head -n 74 | grep "a" | wc -l
+: 1493451737:0;make test
+: 1493451748:0;cat input.bwt | grep -o "." | head -n 74 | grep " " | wc -l
+: 1493451755:0;cat input.bwt | grep -o "." | head -n 42 | grep " " | wc -l
+: 1493451840:0;make test
+: 1493452045:0;cat input.bwt
+: 1493452068:0;make test
+: 1493452078:0;cat input.bwt
+: 1493452245:0;make test
+: 1493454459:0;cat input.bwt
+: 1493454499:0;make test
+: 1493454744:0;cat input.bwt | grep -o "." | head -n 50 | grep "o" | wc -l
+: 1493454754:0;cat input.bwt | grep -o "." | head -n 51 | grep "o" | wc -l
+: 1493454757:0;cat input.bwt | grep -o "." | head -n 52 | grep "o" | wc -l
+: 1493454761:0;cat input.bwt | grep -o "." | head -n 49 | grep "o" | wc -l
+: 1493454785:0;make test
+: 1493454972:0;./bwtsearch input.bwt input.idx "miss"
+: 1493454976:0;./bwtsearch input.bwt input.idx "in"
+: 1493454982:0;make test
+: 1493455437:0;./bwtsearch input.bwt input.idx "in"
+: 1493455449:0;./bwtsearch input.bwt input.idx "Bi"
+: 1493455496:0;make test
+: 1493455847:0;./bwtsearch input.bwt input.idx "Bi"
+: 1493455850:0;./bwtsearch input.bwt input.idx "in"
+: 1493455861:0;./bwtsearch input.bwt input.idx "in" "ata"
+: 1493455873:0;s
+: 1493455877:0;rm out
+: 1493455878:0;clear
+: 1493455879:0;s
+: 1493455882:0;d master 
+: 1493455884:0;d makefile
+: 1493455888:0;a makefile
+: 1493455891:0;a bwtsearch.hpp
+: 1493455892:0;s
+: 1493455899:0;rm bwtsearch.hpp.gch
+: 1493455901:0;clear
+: 1493455901:0;s
+: 1493455905:0;vim .gitignore
+: 1493455914:0;a .gitignore
+: 1493455915:0;clear
+: 1493455915:0;s
+: 1493455917:0;a bwtsearch.cpp
+: 1493455925:0;m "Working, partial skipping"
+: 1493455926:0;clear
+: 1493455926:0;s
+: 1493455934:0;make test
+: 1493455938:0;make test0
+: 1493455945:0;make test0_with_index
+: 1493455990:0;make test
+: 1493456265:0;./bwtsearch input.bwt input.idx "in" "ata"
+: 1493456357:0;make test
+: 1493456387:0;make
+: 1493456390:0;make test
+: 1493457074:0;./bwtsearch input.bwt input.idx "in"
+: 1493457113:0;vim makefile
+: 1493457124:0;make
+: 1493457127:0;gdb
+: 1493457146:0;gdb ./bwtsearch input.bwt input.idx "in"
+: 1493457156:0;gdb './bwtsearch input.bwt input.idx "in"'
+: 1493457177:0;vim makefile
+: 1493457182:0;make clean
+: 1493457185:0;make
+: 1493457187:0;ls
+: 1493457196:0;rm bwtsearch.hpp.gch
+: 1493457210:0;rm bwt bwtsearch
+: 1493457211:0;ls
+: 1493457214:0;rm bwt.dSYM
+: 1493457215:0;.
+: 1493457217:0;rm a.out
+: 1493457218:0;.
+: 1493457220:0;make
+: 1493457231:0;gdb ./bwtsearch
+: 1493457249:0;clear
+: 1493457254:0;gdb ./bwtsearch input.bwt input.idx "in"
+: 1493457283:0;gdb --args ./bwtsearch input.bwt input.idx "in"
+: 1493457553:0;clear
+: 1493457560:0;vim ma
+: 1493457575:0;make test
+: 1493457581:0;./bwtsearch input.bwt input.idx "in"
+: 1493457610:0;make test
+: 1493458139:0;./bwtsearch input.bwt input.idx "in"
+: 1493458149:0;make test
+: 1493458153:0;./bwtsearch input.bwt input.idx "in"
+: 1493458161:0;make
+: 1493458163:0;./bwtsearch input.bwt input.idx "in"
+: 1493458192:0;make
+: 1493458195:0;./bwtsearch input.bwt input.idx "in"
+: 1493458213:0;make
+: 1493458217:0;./bwtsearch input.bwt input.idx "in"
+: 1493458231:0;make
+: 1493458234:0;./bwtsearch input.bwt input.idx "in"
+: 1493458249:0;make
+: 1493458251:0;./bwtsearch input.bwt input.idx "in"
+: 1493458286:0;make
+: 1493458288:0;./bwtsearch input.bwt input.idx "in"
+: 1493458315:0;make
+: 1493458317:0;./bwtsearch input.bwt input.idx "in"
+: 1493458509:0;make
+: 1493458511:0;./bwtsearch input.bwt input.idx "in"
+: 1493458553:0;wc -c input.bwt input.idx
+: 1493458618:0;make
+: 1493458619:0;./bwtsearch input.bwt input.idx "in"
+: 1493458639:0;make
+: 1493458643:0;./bwtsearch input.bwt input.idx "in"
+: 1493458685:0;make
+: 1493458687:0;./bwtsearch input.bwt input.idx "in"
+: 1493458784:0;make
+: 1493458786:0;./bwtsearch input.bwt input.idx "in"
+: 1493458804:0;make
+: 1493458807:0;./bwtsearch input.bwt input.idx "in"
+: 1493458837:0;make
+: 1493458839:0;./bwtsearch input.bwt input.idx "in"
+: 1493458868:0;make
+: 1493458870:0;./bwtsearch input.bwt input.idx "in"
+: 1493458884:0;make
+: 1493458886:0;./bwtsearch input.bwt input.idx "in"
+: 1493458958:0;make; ./bwtsearch input.bwt input.idx "in"
+: 1493459061:0;rm *.idx
+: 1493459063:0;./bwtsearch input.bwt input.idx "in"
+: 1493459077:0;make; ./bwtsearch input.bwt input.idx "in"
+: 1493459118:0;ake
+: 1493459119:0;make
+: 1493459143:0;clear
+: 1493459144:0;make
+: 1493459146:0;./bwtsearch input.bwt input.idx "in"
+: 1493459236:0;make
+: 1493459240:0;make test
+: 1493459249:0;rm *.idx
+: 1493459255:0;./bwtsearch input.bwt input.idx "data"
+: 1493459267:0;make input_bwt
+: 1493459271:0;./bwtsearch input.bwt input.idx "data"
+: 1493459277:0;rm *.idx
+: 1493459283:0;./bwtsearch input.bwt input.idx
+: 1493459286:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459301:0;make test
+: 1493459306:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459379:0;make test
+: 1493459384:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459410:0;make test
+: 1493459417:0;wc -c input.bwt
+: 1493459429:0;vim makefile
+: 1493459442:0;make test
+: 1493459496:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459569:0;make test
+: 1493459573:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459610:0;make test
+: 1493459615:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459618:0;rm *.idx
+: 1493459620:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459657:0;rm *.idx
+: 1493459659:0;make
+: 1493459661:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459690:0;make
+: 1493459693:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459736:0;make
+: 1493459739:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459800:0;make
+: 1493459802:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459815:0;make
+: 1493459817:0;./bwtsearch input.bwt input.idx  "in"
+: 1493459826:0;clear
+: 1493459826:0;s
+: 1493459826:0;d
+: 1493459832:0;d bwtsearch.hpp
+: 1493459851:0;d make
+: 1493459852:0;d makefile
+: 1493459865:0;d bwtsearch.cpp
+: 1493460082:0;make
+: 1493460085:0;./bwtsearch input.bwt input.idx  "in"
+: 1493460105:0;./bwtsearch input.bwt input.idx  "data"
+: 1493460119:0;cat input.bwt
+: 1493460160:0;clear
+: 1493460160:0;s
+: 1493460162:0;d bwtsearch.cpp
+: 1493460181:0;clear
+: 1493460181:0;s
+: 1493460182:0;make
+: 1493460184:0;./bwtsearch input.bwt input.idx  "data"
+: 1493460189:0;./bwtsearch input.bwt input.idx "in"
+: 1493460196:0;d bwtsearch.hpp
+: 1493460212:0;git stash
+: 1493460223:0;make
+: 1493460227:0;make test
+: 1493460229:0;./bwtsearch input.bwt input.idx "in"
+: 1493460238:0;make test
+: 1493460321:0;make
+: 1493460344:0;make test
+: 1493460350:0;./bwtsearch input.bwt input.idx "in"
+: 1493460354:0;./bwtsearch input.bwt input.idx "data"
+: 1493460357:0;./bwtsearch input.bwt input.idx "a"
+: 1493460479:0;make test
+: 1493460487:0;rm *.idx
+: 1493460488:0;./bwtsearch input.bwt input.idx "a"
+: 1493460509:0;mv input.txt input_main.txt
+: 1493460514:0;echo -n "mississippi$" > input.txt
+: 1493460516:0;make
+: 1493460521:0;./bwtsearch input.bwt input.idx "a"
+: 1493460523:0;./bwtsearch input.bwt input.idx "miss"
+: 1493460563:0;make
+: 1493460567:0;rm *.idx
+: 1493460569:0;make test
+: 1493460608:0;cat input.bwt
+: 1493460639:0;make test
+: 1493460645:0;./bwtsearch input.bwt input.idx "miss"
+: 1493460647:0;./bwtsearch input.bwt input.idx "mis"
+: 1493460670:0;make test
+: 1493460686:0;mv input_main.txt input.txt
+: 1493460688:0;make
+: 1493460691:0;./bwtsearch input.bwt input.idx "mis"
+: 1493460694:0;make test
+: 1493460704:0;mv input.txt input_main.txt
+: 1493460707:0;echo -n "mississippi$" > input.txt
+: 1493460711:0;make
+: 1493460712:0;make test
+: 1493460734:0;./bwtsearch input.bwt input.idx "mis"
+: 1493460786:0;make test
+: 1493460876:0;./bwtsearch input.bwt input.idx "mis"
+: 1493460924:0;make
+: 1493460928:0;./bwtsearch input.bwt input.idx "mis"
+: 1493461003:0;make
+: 1493461005:0;make test
+: 1493461087:0;./bwtsearch input.bwt input.idx "mis"
+: 1493461162:0;make test
+: 1493461184:0;./bwtsearch input.bwt input.idx "mis"
+: 1493461193:0;rm *.idx
+: 1493461194:0;./bwtsearch input.bwt input.idx "mis"
+: 1493507717:0;make
+: 1493507719:0;./bwtsearch input.bwt input.idx "mis"
+: 1493507728:0;rm *.idx
+: 1493507729:0;./bwtsearch input.bwt input.idx "mis"
+: 1493507800:0;rm *.idx
+: 1493507800:0;make
+: 1493507802:0;./bwtsearch input.bwt input.idx "mis"
+: 1493507886:0;make
+: 1493507888:0;./bwtsearch input.bwt input.idx "mis"
+: 1493507906:0;cat input.txt
+: 1493507942:0;rm *.idx
+: 1493507943:0;./bwtsearch input.bwt input.idx "mis"
+: 1493507964:0;make
+: 1493507966:0;rm *.idx
+: 1493507967:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508127:0;make
+: 1493508129:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508142:0;rm *.idx
+: 1493508143:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508177:0;cat input.bwt
+: 1493508187:0;make
+: 1493508191:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508193:0;rm *.idx
+: 1493508194:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508241:0;rm *.idx
+: 1493508243:0;make
+: 1493508244:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508333:0;rm *.idx; make;
+: 1493508335:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508360:0;make
+: 1493508363:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508402:0;mv input.txt input_second.txt
+: 1493508405:0;mv input_main.txt input.txt
+: 1493508406:0;make
+: 1493508413:0;make test
+: 1493508617:0;mv input.txt input_main.txt
+: 1493508623:0;mv input.txt input_second.txt
+: 1493508629:0;mv input_second.txt input.t
+: 1493508635:0;mv input.t input.txt
+: 1493508636:0;clear
+: 1493508636:0;ls
+: 1493508638:0;make
+: 1493508641:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508650:0;rm *.idx
+: 1493508654:0;vim makefile
+: 1493508698:0;make
+: 1493508705:0;./bwtsearch input.bwt input.idx "mis"
+: 1493508718:0;make
+: 1493508726:0;vim makefile
+: 1493508752:0;make test1
+: 1493508872:0;d bwtsearch.cpp
+: 1493508888:0;make test1
+: 1493508984:0;cat input.bwt
+: 1493509024:0;make test1
+: 1493509047:0;vim input.txt
+: 1493509054:0;make test1
+: 1493509057:0;make
+: 1493509061:0;make test1
+: 1493509069:0;mv input.txt input_second.txt
+: 1493509073:0;mv input_main.txt input.txt
+: 1493509076:0;make test0
+: 1493509082:0;make test
+: 1493509107:0;rm *.idx
+: 1493509109:0;make test
+: 1493509118:0;rm input.bwt
+: 1493509120:0;rm *.idx
+: 1493509123:0;rm *.bwt
+: 1493509124:0;clear
+: 1493509124:0;ls
+: 1493509130:0;rm bwt bwtsearch a.out
+: 1493509131:0;clear
+: 1493509131:0;s
+: 1493509136:0;rm *.dSYM
+: 1493509137:0;.
+: 1493509138:0;s
+: 1493509140:0;clear
+: 1493509141:0;s
+: 1493509142:0;make
+: 1493509146:0;make test
+: 1493509153:0;./bwtsearch input.bwt input.idx "mis"
+: 1493509159:0;./bwtsearch input.bwt input.idx "in" "ata"
+: 1493509178:0;rm bwt bwtsearch a.out
+: 1493509181:0;ls
+: 1493509183:0;clear
+: 1493509184:0;s
+: 1493509185:0;make
+: 1493509188:0;make test
+: 1493509199:0;rm *.idx
+: 1493509201:0;make
+: 1493509205:0;make test
+: 1493509280:0;./bwtsearch input.bwt input.idx "in"
+: 1493509290:0;./bwtsearch input.bwt input.idx "in" | sort | uniq
+: 1493509295:0;cat ref1.txt
+: 1493509301:0;cat out1.txt
+: 1493509325:0;make
+: 1493509328:0;./bwtsearch input.bwt input.idx "in" | sort | uniq
+: 1493509333:0;./bwtsearch input.bwt input.idx "in"
+: 1493509339:0;cat out1.txt
+: 1493509351:0;make
+: 1493509353:0;./bwtsearch input.bwt input.idx "in"
+: 1493509390:0;make
+: 1493509393:0;make test
+: 1493509397:0;cat out1
+: 1493509398:0;cat out1.txt
+: 1493509404:0;./bwtsearch input.bwt input.idx "in"
+: 1493509422:0;./bwtsearch input.bwt input.idx "in" "ata"
+: 1493509428:0;./bwtsearch input.bwt input.idx "In"
+: 1493509446:0;rm *.idx
+: 1493509448:0;make
+: 1493509450:0;./bwtsearch input.bwt input.idx "In"
+: 1493509498:0;make
+: 1493509499:0;./bwtsearch input.bwt input.idx "In"
+: 1493509515:0;make
+: 1493509518:0;./bwtsearch input.bwt input.idx "In"
+: 1493509598:0;cat input.txt
+: 1493509630:0;cat input.bwt | grep -o "." | head -n 9 | grep "3" | wc -l
+: 1493509644:0;cat input.bwt | grep -o "." | head -n 9 | grep "3"
+: 1493509657:0;cat input.bwt | /bin/grep -o "." | head -n 9 | /bin/grep "3"
+: 1493509664:0;cat input.bwt | /usr/bin/grep -o "." | head -n 9 | /usr/bin/grep "3"
+: 1493509704:0;make
+: 1493509706:0;./bwtsearch input.bwt input.idx "In"
+: 1493509784:0;make
+: 1493509786:0;./bwtsearch input.bwt input.idx "In"
+: 1493509831:0;make
+: 1493509898:0;q
+: 1493509905:0;make
+: 1493509907:0;./bwtsearch input.bwt input.idx "In"
+: 1493509915:0;make test
+: 1493509943:0;ma
+: 1493509946:0;make test
+: 1493509997:0;rm *.idx
+: 1493510001:0;make test
+: 1493510006:0;vim makefile
+: 1493510118:0;clear
+: 1493510121:0;make clean; make
+: 1493510125:0;make clean; make test
+: 1493510139:0;./bwtsearch input.bwt input.idx "In"
+: 1493510144:0;./bwtsearch input.bwt input.idx "in"
+: 1493510163:0;cat input.bwt
+: 1493510167:0;vim makefile
+: 1493510187:0;make
+: 1493510189:0;make clean; make test
+: 1493510199:0;make input_bwt
+: 1493510201:0;make test
+: 1493510206:0;rm *.idx
+: 1493510208:0;rm *.bwt
+: 1493510210:0;make input_bwt
+: 1493510212:0;make test
+: 1493510268:0;make clean; make test
+: 1493510283:0;wc -c input*
+: 1493510322:0;make clean; make test
+: 1493510325:0;wc -c input*
+: 1493510409:0;mv input.txt input_main.txt
+: 1493510410:0;clear
+: 1493510412:0;vim input.txt
+: 1493510551:0;make clean; make test
+: 1493510555:0;clear
+: 1493510557:0;./bwtsearch input.bwt input.idx "in"
+: 1493510565:0;./bwtsearch input.bwt input.idx "RAM"
+: 1493510570:0;./bwtsearch input.bwt input.idx "in" "RAM"
+: 1493510575:0;./bwtsearch input.bwt input.idx "that works"
+: 1493510588:0;./bwtsearch input.bwt input.idx "\!\?"
+: 1493510591:0;./bwtsearch input.bwt input.idx "\!"
+: 1493510594:0;./bwtsearch input.bwt input.idx "\!?"
+: 1493510600:0;clear
+: 1493510605:0;./bwtsearch input.bwt input.idx "est"
+: 1493510724:0;make clean; make test
+: 1493510728:0;./bwtsearch input.bwt input.idx "est"
+: 1493510741:0;clear
+: 1493510741:0;s
+: 1493510754:0;git add input_*
+: 1493510755:0;s
+: 1493510765:0;m "Added test files"
+: 1493510766:0;clear
+: 1493510767:0;s
+: 1493510771:0;d bwtsearch.hpp
+: 1493510780:0;a *.hpp
+: 1493510792:0;clear
+: 1493510792:0;s
+: 1493510795:0;d bwtsearch.cpp
+: 1493510837:0;clear
+: 1493510837:0;s
+: 1493510840:0;d bwtsearch.cpp
+: 1493510851:0;s
+: 1493510852:0;make clean; make test
+: 1493510856:0;clear
+: 1493510856:0;s
+: 1493510858:0;a bwtsearch.cpp
+: 1493510882:0;m "Implemented working skip, index files used even for small files"
+: 1493510885:0;clear
+: 1493510885:0;s
+: 1493510888:0;a makefile
+: 1493510906:0;m "Improved make file (clean before test unless index is trusted)"
+: 1493510907:0;clear
+: 1493510907:0;s
+: 1493510908:0;d
+: 1493510912:0;clear
+: 1493510913:0;s
+: 1493510948:0;make clean; make test
+: 1493510953:0;s
+: 1493510957:0;git stash input.txt
+: 1493510961:0;git checkout input.txt
+: 1493510963:0;clear
+: 1493510963:0;make clean; make test
+: 1493510969:0;s
+: 1493511014:0;make clean; make test
+: 1493511165:0;s
+: 1493511166:0;d
+: 1493511168:0;clear
+: 1493511168:0;s
+: 1493511169:0;d
+: 1493511193:0;a .
+: 1493511193:0;s
+: 1493511224:0;m "Cleaned up, forward decoding, small files handling, optimisation and profiling to do"
+: 1493511225:0;clear
+: 1493511225:0;s
+: 1493511389:0;clear
+: 1493511390:0;make clean; make test
+: 1493511428:0;./bwtsearch input.bwt input.idx "est"
+: 1493511431:0;./bwtsearch input.bwt input.idx "in"
+: 1493511453:0;make clean; make test
+: 1493518208:0;./bwtsearch input.bwt input.idx "in"
+: 1493518268:0;make clean; make test
+: 1493518286:0;./bwtsearch input.bwt input.idx "in"
+: 1493518296:0;./bwtsearch input.bwt input.idx "i"
+: 1493518300:0;make clean; make test
+: 1493518302:0;make clean
+: 1493518304:0;./bwtsearch input.bwt input.idx "i"
+: 1493518305:0;make
+: 1493518306:0;./bwtsearch input.bwt input.idx "i"
+: 1493518355:0;make clean; make test
+: 1493518361:0;./bwtsearch input.bwt input.idx "in"
+: 1493518451:0;make clean; make test
+: 1493519169:0;sudo mOC
+: 1493519171:0;make clean; make test
+: 1493519247:0;q
+: 1493519404:0;cat input.bwt | pbcopy
+: 1493519407:0;l
+: 1493519409:0;sclear
+: 1493519410:0;clear
+: 1493519412:0;make input_bwt
+: 1493519414:0;cat input.bwt | pbcopy
+: 1493519682:0;make clean; make test
+: 1493521123:0;./bwtsearch input.bwt input.idx "C"
+: 1493521128:0;./bwtsearch input.bwt input.idx "Co"
+: 1493521132:0;./bwtsearch input.bwt input.idx "Computers"
+: 1493521191:0;make clean; make test
+: 1493521195:0;./bwtsearch input.bwt input.idx "Computers"
+: 1493521198:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493521200:0;./bwtsearch input.bwt input.idx "Comp"
+: 1493521203:0;cat input.txt
+: 1493521214:0;cat input.bwt
+: 1493521217:0;make
+: 1493521219:0;./bwtsearch input.bwt input.idx "Comp"
+: 1493521224:0;cat input.bwt
+: 1493521258:0;./bwtsearch input.bwt input.idx "Comp"
+: 1493521285:0;make
+: 1493521289:0;make clean; make test
+: 1493521292:0;./bwtsearch input.bwt input.idx "Comp"
+: 1493521311:0;make clean; make test
+: 1493521313:0;./bwtsearch input.bwt input.idx "Comp"
+: 1493521339:0;make clean; make test
+: 1493521341:0;./bwtsearch input.bwt input.idx "Comp"
+: 1493521351:0;make clean; make test
+: 1493521353:0;./bwtsearch input.bwt input.idx "Comp"
+: 1493521395:0;./bwtsearch input.bwt input.idx "uter"
+: 1493521401:0;./bwtsearch input.bwt input.idx "]C"
+: 1493521410:0;make clean; make test
+: 1493522026:0;make test0
+: 1493522028:0;clear
+: 1493522029:0;make test0
+: 1493522033:0;make clean; make test
+: 1493522076:0;./bwtsearch input.bwt input.idx "in"
+: 1493522084:0;./bwtsearch input.bwt input.idx " in"
+: 1493522088:0;./bwtsearch input.bwt input.idx "in "
+: 1493522130:0;make clean; make test
+: 1493522134:0;./bwtsearch input.bwt input.idx "in "
+: 1493522142:0;make clean; make test
+: 1493522144:0;./bwtsearch input.bwt input.idx "in "
+: 1493522162:0;mv input_second.txt input.txt
+: 1493522167:0;make clean
+: 1493522173:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522179:0;cat input.bwt
+: 1493522181:0;make
+: 1493522184:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522187:0;rm input.idx
+: 1493522189:0;make
+: 1493522190:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522266:0;make
+: 1493522268:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522307:0;vim input.
+: 1493522338:0;clear
+: 1493522338:0;s
+: 1493522344:0;git checkout input_s
+: 1493522349:0;git checkout input_second.txt
+: 1493522349:0;.
+: 1493522350:0;s
+: 1493522351:0;clear
+: 1493522351:0;s
+: 1493522351:0;d
+: 1493522356:0;clear
+: 1493522359:0;make
+: 1493522360:0;make clean
+: 1493522361:0;make
+: 1493522363:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522387:0;make
+: 1493522400:0;echo input.bwt
+: 1493522403:0;cat input.bwt
+: 1493522410:0;vim input.txt
+: 1493522422:0;echo "[0]mississippi$" > input.txt
+: 1493522427:0;echo "[0]mississippi$" > input_second.txt
+: 1493522428:0;clear
+: 1493522428:0;s
+: 1493522429:0;d
+: 1493522431:0;clear
+: 1493522431:0;s
+: 1493522435:0;make
+: 1493522447:0;cat input.bwt
+: 1493522452:0;echo -n "[0]mississippi$" > input_second.txt
+: 1493522453:0;make
+: 1493522454:0;s
+: 1493522457:0;a input_second.txt
+: 1493522460:0;clear
+: 1493522460:0;s
+: 1493522464:0;m "Fixed input2"
+: 1493522465:0;clear
+: 1493522465:0;s
+: 1493522469:0;make
+: 1493522482:0;cat input.txt
+: 1493522490:0;cat input_second.txt
+: 1493522496:0;cp input_second.txt input.txt
+: 1493522498:0;make
+: 1493522502:0;clear
+: 1493522580:0;make
+: 1493522583:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522591:0;make clean;
+: 1493522592:0;make
+: 1493522594:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522724:0;make
+: 1493522726:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522753:0;make
+: 1493522756:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522766:0;make
+: 1493522769:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522777:0;make
+: 1493522779:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522793:0;make
+: 1493522795:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522861:0;make
+: 1493522864:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522970:0;make
+: 1493522972:0;./bwtsearch input.bwt input.idx "mis"
+: 1493522985:0;make
+: 1493522986:0;./bwtsearch input.bwt input.idx "mis"
+: 1493523011:0;make
+: 1493523014:0;./bwtsearch input.bwt input.idx "mis"
+: 1493523054:0;make; ./bwtsearch input.bwt input.idx "mis"
+: 1493524087:0;make
+: 1493524097:0;./bwtsearch input.bwt input.idx "mis"
+: 1493524128:0;make
+: 1493524151:0;./bwtsearch input.bwt input.idx "mis"
+: 1493524160:0;make
+: 1493524163:0;./bwtsearch input.bwt input.idx "mis"
+: 1493524174:0;cp input_main.txt input.txt
+: 1493524175:0;make clean
+: 1493524176:0;make
+: 1493524178:0;make test
+: 1493524184:0;./bwtsearch input.bwt input.idx "in"
+: 1493524188:0;rm *.idx
+: 1493524191:0;rm *.bwt
+: 1493524192:0;make clean
+: 1493524193:0;make
+: 1493524195:0;./bwtsearch input.bwt input.idx "in"
+: 1493524202:0;cat out1.txt
+: 1493524205:0;make test
+: 1493524213:0;cat ref1.txt
+: 1493524297:0;make test
+: 1493524331:0;clear
+: 1493524331:0;s
+: 1493524333:0;d
+: 1493524342:0;a .
+: 1493524353:0;m "Working with slow forward decode"
+: 1493524354:0;clear
+: 1493524355:0;s
+: 1493524431:0;make test
+: 1493524437:0;make clean; make test
+: 1493524947:0;make
+: 1493524949:0;make clean
+: 1493524950:0;make
+: 1493524977:0;make clean
+: 1493524979:0;make clean; make test
+: 1493525130:0;wc -c input*
+: 1493525135:0;make clean; make test
+: 1493525138:0;wc -c input*
+: 1493525539:0;s
+: 1493525540:0;clear
+: 1493525540:0;s
+: 1493525540:0;d
+: 1493525547:0;make clean; make test
+: 1493525551:0;clear
+: 1493525551:0;s
+: 1493525554:0;a .
+: 1493525559:0;m "Cleaning up"
+: 1493525560:0;clear
+: 1493525560:0;s
+: 1493525571:0;d
+: 1493525580:0;clear
+: 1493525580:0;s
+: 1493525587:0;m "Clangformat"
+: 1493525588:0;a .
+: 1493525590:0;m "Clangformat"
+: 1493525591:0;.
+: 1493525622:0;cat bwtsearch.cpp bwtsearch.hpp | grep "(.*).*{"
+: 1493525630:0;cat bwtsearch.cpp bwtsearch.hpp | grep "(.*).*{" | grep -v "while"
+: 1493525638:0;cat bwtsearch.cpp bwtsearch.hpp | grep "(.*).*{" | grep -v "while|for|if"
+: 1493525642:0;cat bwtsearch.cpp bwtsearch.hpp | grep "(.*).*{" | grep -v "while|for|if|else"
+: 1493525663:0;clear
+: 1493525663:0;s
+: 1493525680:0;make clean; make test
+: 1493525787:0;./bwtsearch input.bwt input.idx "Computers"
+: 1493525800:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493525948:0;make clean; make test
+: 1493525979:0;s
+: 1493525981:0;d
+: 1493526004:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493526027:0;make clean; make test
+: 1493526033:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493526044:0;make clean; make test
+: 1493526059:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493526095:0;make clean; make test
+: 1493526468:0;make test
+: 1493526740:0;make clean; make test
+: 1493527173:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493527184:0;make clean; make test
+: 1493527189:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493527317:0;make clean; make test
+: 1493527643:0;cat input.bwt
+: 1493527711:0;make clean; make test
+: 1493528406:0;make test
+: 1493528503:0;make clean; make test
+: 1493528504:0;s
+: 1493528505:0;d
+: 1493528548:0;clear
+: 1493528548:0;s
+: 1493528597:0;make clean; make test
+: 1493528600:0;d
+: 1493528617:0;clear
+: 1493528617:0;d
+: 1493528630:0;a .
+: 1493528641:0;m "Avoid reading the index if its just been written"
+: 1493528655:0;s
+: 1493528656:0;d
+: 1493528665:0;clear
+: 1493528870:0;make clean; make test
+: 1493528885:0;d
+: 1493528902:0;git log
+: 1493528907:0;clear
+: 1493528908:0;s
+: 1493528909:0;a .
+: 1493528920:0;m "Moved the Occ matrix out of RAM"
+: 1493528922:0;clear
+: 1493528922:0;s
+: 1493528973:0;git add remote 
+: 1493528983:0;git remote add origin git@github.com:Cypher1/bwt_search.git
+: 1493528984:0;git push
+: 1493528987:0;git push --set-upstream origin master
+: 1493528993:0;p
+: 1493529154:0;make clean; make test
+: 1493529183:0;d
+: 1493529187:0;make clean; make test
+: 1493529199:0;ssh z5017666@wagner.cse.unsw.edu.au
+: 1493529238:0;scp * z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493529284:0;rm *.gch
+: 1493529286:0;scp * z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493529363:0;cse -Y
+: 1493529366:0;scp * z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493537882:0;cse
+: 1493537973:0;clear
+: 1493537973:0;s
+: 1493537974:0;d
+: 1493537993:0;s
+: 1493537995:0;clear
+: 1493537997:0;d
+: 1493538006:0;a *.cpp
+: 1493538008:0;a .hpp
+: 1493538009:0;a bwtsearch.hpp
+: 1493538010:0;s
+: 1493538014:0;D
+: 1493538044:0;m "Clean up and removal of unused libraries"
+: 1493538045:0;clear
+: 1493538046:0;s
+: 1493538047:0;p
+: 1493538252:0;make clean; make test
+: 1493538755:0;d
+: 1493538767:0;clear
+: 1493538768:0;d
+: 1493538799:0;clear
+: 1493538799:0;q
+: 1493538806:0;d
+: 1493538822:0;.
+: 1493538822:0;d
+: 1493538825:0;clear
+: 1493538826:0;make clean; make test
+: 1493538837:0;d
+: 1493538840:0;make clean; make test
+: 1493538842:0;clear
+: 1493538842:0;s
+: 1493538844:0;a .
+: 1493538853:0;m "Occ on disk rather than file"
+: 1493538854:0;p
+: 1493538959:0;make clean; make test
+: 1493539326:0;m
+: 1493539328:0;make clean; make test
+: 1493539857:0;g++ bwtsearch.cpp bwtsearch.hpp
+: 1493539860:0;ls
+: 1493539873:0;./a.out input.bwt input.idx "Computers"
+: 1493539892:0;rm a.out
+: 1493539892:0;.
+: 1493539895:0;make
+: 1493539898:0;make clean
+: 1493539898:0;make
+: 1493539904:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493540319:0;make
+: 1493540321:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493540322:0;ls
+: 1493540325:0;rm *.idx
+: 1493540327:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493540414:0;make
+: 1493540416:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493540447:0;make
+: 1493540454:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493540464:0;./bwtsearch input.bwt input.idx "in"
+: 1493540528:0;make
+: 1493540531:0;./bwtsearch input.bwt input.idx "in"
+: 1493540667:0;d
+: 1493540701:0;clear
+: 1493540701:0;s
+: 1493540702:0;d
+: 1493540704:0;./bwtsearch input.bwt input.idx "in"
+: 1493540709:0;make clean; make test
+: 1493540712:0;./bwtsearch input.bwt input.idx "in"
+: 1493540715:0;d
+: 1493540748:0;clear
+: 1493540749:0;s
+: 1493540752:0;a bwtsearch*
+: 1493540753:0;s
+: 1493540754:0;clear
+: 1493540754:0;s
+: 1493540761:0;m "Cleanup"
+: 1493540762:0;clear
+: 1493540762:0;s
+: 1493540764:0;p
+: 1493540868:0;d
+: 1493540870:0;clear
+: 1493540871:0;s
+: 1493540874:0;d
+: 1493540906:0;clear
+: 1493540906:0;s
+: 1493540909:0;d
+: 1493540929:0;make clean; make test
+: 1493541002:0;d
+: 1493541004:0;clear
+: 1493541004:0;s
+: 1493541009:0;clear
+: 1493541065:0;d
+: 1493541073:0;make clean; make test
+: 1493541105:0;./bwtsearch input.bwt input.idx "in"
+: 1493541225:0;git stash
+: 1493541226:0;clear
+: 1493541226:0;s
+: 1493541234:0;make clean; make test
+: 1493541238:0;wc -c input*
+: 1493541342:0;make clean; make test
+: 1493541395:0;make
+: 1493541397:0;make test
+: 1493541453:0;make clean; make test
+: 1493541522:0;ls
+: 1493541568:0;make clean; make test
+: 1493541572:0;clear
+: 1493541572:0;s
+: 1493541574:0;vim makefile
+: 1493541583:0;make clean; make test
+: 1493541591:0;vim makefile
+: 1493541603:0;make clean; make test
+: 1493541610:0;vim makefile
+: 1493541626:0;make
+: 1493541628:0;make clean; make test
+: 1493541633:0;vim makefile
+: 1493541653:0;make clean; make test
+: 1493541663:0;vim input.txt
+: 1493541829:0;clear
+: 1493541831:0;make clean; make test
+: 1493541837:0;./bwtsearch input.bwt input.idx "in"
+: 1493541842:0;vim input.txt
+: 1493541864:0;make clean; make test
+: 1493541866:0;./bwtsearch input.bwt input.idx "in"
+: 1493541883:0;ls
+: 1493541888:0;rm input.idx
+: 1493541891:0;time ./bwtsearch input.bwt input.idx "in"
+: 1493541910:0;vim input.txt
+: 1493541926:0;cp input_main.txt input.txt
+: 1493541929:0;vim input.txt
+: 1493542044:0;ls
+: 1493542049:0;clear
+: 1493542051:0;time cat input.txt | ./bwt > input.bwt
+: 1493542054:0;q
+: 1493542451:0;vim ~/Drive/Uni/classes.md
+: 1493542547:0;q
+: 1493542554:0;vim input.txt
+: 1493542590:0;du -hs input.txt
+: 1493542646:0;cat input.txt | ./bwt > input.bwt
+: 1493543321:0;vim input.txt
+: 1493543426:0;make clean; make test
+: 1493543435:0;head input.txt
+: 1493543440:0;head -n 10000 input.txt
+: 1493543444:0;head -n 10000 input.txt > out
+: 1493543447:0;mv out input.txt
+: 1493543448:0;clear
+: 1493543448:0;s
+: 1493543450:0;make clean; make test
+: 1493543917:0;clear
+: 1493543924:0;make clean; make test
+: 1493543935:0;echo -n "[0]mississippi$" | ./bwt
+: 1493543957:0;echo -n "mississippi$" | ./bwt
+: 1493543971:0;make clean; make test
+: 1493543974:0;echo -n "mississippi$" | ./bwt
+: 1493544002:0;make
+: 1493544007:0;echo -n "mississippi$" | ./bwt
+: 1493544083:0;make
+: 1493544088:0;echo -n "mississippi$" | ./bwt
+: 1493544096:0;make
+: 1493544104:0;echo -n "mississippi$" | ./bwt
+: 1493544116:0;echo -n "[0]mississippi$" | ./bwt
+: 1493544173:0;make bwt
+: 1493544179:0;echo -n "[0]mississippi$" | ./bwt
+: 1493544190:0;make bwt
+: 1493544192:0;echo -n "[0]mississippi$" | ./bwt
+: 1493544193:0;make
+: 1493544316:0;du -hs input.txt
+: 1493544322:0;wc -c input.txt
+: 1493544569:0;du -hs input.*
+: 1493545103:0;make
+: 1493545112:0;echo -n "[0]mississippi$" | ./bwt
+: 1493545175:0;make
+: 1493545179:0;echo -n "[0]mississippi$" | ./bwt
+: 1493545185:0;make
+: 1493545191:0;du -hs input.*
+: 1493545215:0;make
+: 1493545317:0;du -hs input.*
+: 1493545319:0;clear
+: 1493545319:0;s
+: 1493545377:0;make test0
+: 1493545418:0;q
+: 1493545437:0;clear
+: 1493545438:0;s
+: 1493545440:0;make test
+: 1493545836:0;./bwtsearch input.bwt input.idx "Computer"
+: 1493545851:0;time ./bwtsearch input.bwt input.idx "Computer"
+: 1493555109:0;ls
+: 1493555121:0;du -hs input.*
+: 1493555232:0;scp * z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493555282:0;valgrind massif --pages-as-heap=yes ./bwtsearch input.bwt input.idx "Computers"
+: 1493555346:0;cse
+: 1493555442:0;./bwtsearch input.bwt input.idx "[3]"
+: 1493555523:0;./bwtsearch input.bwt input.idx "["
+: 1493555611:0;./bwtsearch input.bwt input.idx "[" | sort | uniq
+: 1493555748:0;valgrind --tool=massif ./bwtsearch input.bwt input.idx "in " "ata" --pages-as-heap=yes
+: 1493555776:0;clear
+: 1493555781:0;valgrind --tool=massif ./bwtsearch input.bwt input.idx "in " "ata" --pages-as-heap=yes
+: 1493555787:0;valgrind --tool=massif ./bwtsearch input.bwt input.idx "in " "ata"
+: 1493555794:0;./bwtsearch input.bwt input.idx "["
+: 1493555807:0;mv input.txt big.txt
+: 1493555811:0;cp input_main.txt input.txt
+: 1493555813:0;make
+: 1493555818:0;valgrind --tool=massif ./bwtsearch input.bwt input.idx "in " "ata"
+: 1493555883:0;echo 'valgrind --tool=massif ./bwtsearch input.bwt input.idx "in " "ata"'
+: 1493555890:0;echo 'valgrind --tool=massif ./bwtsearch input.bwt input.idx "in " "ata"' | pbcopy
+: 1493555920:0;scp makefile z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493555924:0;clear
+: 1493555924:0;s
+: 1493555929:0;a bwt.cpp
+: 1493555931:0;a makefile
+: 1493555933:0;clear
+: 1493555933:0;s
+: 1493555937:0;d bwtsearch.cpp
+: 1493555945:0;a bwtsearch.cpp
+: 1493555966:0;m "Skip making index files for small files, updated makefile to run valgrind"
+: 1493555967:0;p
+: 1493555973:0;clear
+: 1493555973:0;s
+: 1493556027:0;valgrind --tool=lackey ./bwtsearch input.bwt input.idx "in " "ata"
+: 1493556033:0;valgrind ./bwtsearch input.bwt input.idx "in " "ata"
+: 1493556045:0;valgrind ./bwtsearch
+: 1493556048:0;valgrind
+: 1493556053:0;valgrind bwtsearch
+: 1493556056:0;valgrind ./bwtsearch
+: 1493556065:0;clear
+: 1493556068:0;s
+: 1493556074:0;vim .gitignore
+: 1493556085:0;clear
+: 1493556085:0;s
+: 1493556087:0;a .gitignore
+: 1493556088:0;clear
+: 1493556088:0;s
+: 1493556092:0;m "Ignore the big one"
+: 1493556093:0;clear
+: 1493556094:0;s
+: 1493556096:0;p
+: 1493556121:0;valgrind --tool=none ./bwtsearch input.bwt input.idx "in " "ata"
+: 1493556171:0;brew update valgrind
+: 1493556179:0;brew upgrade valgrind
+: 1493556193:0;cse
+: 1493556500:0;exit
+: 1493556571:0;cp big.txt input.txt
+: 1493556572:0;make
+: 1493556615:0;clear
+: 1493556634:0;make
+: 1493556953:0;scp * z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493557189:0;exit
+: 1493558532:0;q
+: 1493558934:0;clear
+: 1493558934:0;s
+: 1493558953:0;mv bwtsearch.h bwtsearch.h pp
+: 1493558955:0;mv bwtsearch.h bwtsearch.hpp
+: 1493558964:0;git mv bwtsearch.hpp bwtsearch.h
+: 1493558965:0;clear
+: 1493558965:0;s
+: 1493558969:0;a bwtsearch.h
+: 1493558970:0;clear
+: 1493558970:0;s
+: 1493558972:0;a makefile
+: 1493558973:0;clear
+: 1493558973:0;s
+: 1493558975:0;a bwtsearch.cpp
+: 1493558976:0;clear
+: 1493558977:0;s
+: 1493558977:0;d
+: 1493558979:0;clear
+: 1493558979:0;s
+: 1493558984:0;git checkout input.txt
+: 1493558985:0;clear
+: 1493558986:0;s
+: 1493558997:0;m "Cleaup and prep for sub"
+: 1493558998:0;p
+: 1493559021:0;clear
+: 1493559024:0;scp * z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493559026:0;ls
+: 1493559030:0;rm *.gch
+: 1493559043:0;cse
+: 1493559050:0;clear
+: 1493559056:0;ls
+: 1493559060:0;make clean
+: 1493559061:0;ls
+: 1493559067:0;scp * z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493559100:0;vim makefile
+: 1493559108:0;a makefile
+: 1493559112:0;m "Fix give"
+: 1493559112:0;p
+: 1493559119:0;scp * z5017666@cse.unsw.edu.au:BWT_SEARCH/
+: 1493559156:0;exit
+: 1493559234:0;cse -Y
+: 1493603234:0;cse
+: 1493603236:0;cse -Y
+: 1493603378:0;vim ~/.ssh/config
+: 1493603792:0;vrc
+: 1493606697:0;cse -Y
+: 1493606701:0;clear
+: 1493606702:0;cse
+: 1493606759:0;q
+: 1493606778:0;ping 8.8.8.8
+: 1493606781:0;clear
+: 1493606783:0;ping google.com
+: 1493606801:0;q
+: 1493607136:0;clear
+: 1493607137:0;s
+: 1493607140:0;vim ~/.ssh/config
+: 1493607428:0;vim bwtsearch.cpp
+: 1493607755:0;clear
+: 1493607755:0;s
+: 1493607757:0;vrc
+: 1493607796:0;clear
+: 1493607796:0;s
+: 1493607799:0;cd ~/.config
+: 1493607799:0;s
+: 1493607801:0;clear
+: 1493607801:0;s
+: 1493607805:0;a nvim/plugged
+: 1493607806:0;s
+: 1493607809:0;a nvim/spell
+: 1493607810:0;s
+: 1493607811:0;clear
+: 1493607811:0;s
+: 1493607814:0;m "Updates"
+: 1493607815:0;clear
+: 1493607815:0;s
+: 1493607818:0;d nvim/init.vim
+: 1493607829:0;a nvim/init.vim
+: 1493607856:0;m "Reordered plugins, fixed chrome launch bug, added tool for debugging highlights"
+: 1493607857:0;p
+: 1493607869:0;clear
+: 1493607869:0;s
+: 1493607876:0;q
+: 1493607882:0;cse
+: 1493609347:0;cse -Y
+: 1493611897:0;cse
+: 1493611899:0;cse -Y
+: 1493612801:0;q
+: 1493614730:0;cd
+: 1493614731:0;s
+: 1493614733:0;cd Documents
+: 1493614733:0;.
+: 1493614740:0;vim a1.hs
+: 1493622559:0;cse -Y
+: 1493623200:0;clear
+: 1493623200:0;s
+: 1493623201:0;q
+: 1493624362:0;cse -Y
+: 1493626512:0;vim test.pl
+: 1493626635:0;prolog -v
+: 1493626637:0;prolog -V
+: 1493626641:0;prolog --version
+: 1493626643:0;prolog
+: 1493626649:0;swipl --version
+: 1493626705:0;q
+: 1493626707:0;exit
+: 1493690915:0;ls
+: 1493690916:0;cd
+: 1493690916:0;.
+: 1493690919:0;cd Documents
+: 1493690919:0;.
+: 1493690934:0;mv Slezak\ vs.pdf ~/Drive/Uni/2017/2301_CBM
+: 1493690941:0;cat haskell-records.md
+: 1493690943:0;clear
+: 1493690944:0;ls
+: 1493690950:0;vim ai.hs
+: 1493690953:0;clear
+: 1493690954:0;ls
+: 1493690959:0;rm a1.hi a1.o
+: 1493690960:0;clear
+: 1493690961:0;ls
+: 1493690963:0;vim a1.hs
+: 1493709977:0;ls
+: 1493709982:0;vim prolog.hs
+: 1493730045:0;cabal install pretty-show
+: 1493730084:0;cabal update
+: 1493730256:0;q
+: 1493855737:0;z BNW
+: 1493855743:0;vim letter_to_the_editor.md
+: 1493890391:0;q
+: 1493947105:0;cse
+: 1493947440:0;ls
+: 1493947441:0;.
+: 1493947444:0;open Screen\ Shot\ 2017-03-08\ at\ 11.44.48\ am.png
+: 1493947450:0;rm Screen\ Shot\ 2017-03-08\ at\ 11.44.48\ am.png
+: 1493947451:0;.
+: 1493947455:0;cat simple.hs
+: 1493947456:0;clear
+: 1493947457:0;ls
+: 1493947467:0;mkdir prolog_hs
+: 1493947475:0;mv prolog* prolog_hs
+: 1493947476:0;.
+: 1493947483:0;mv a1.hs prolog_hs
+: 1493947486:0;mv simple.hs pro
+: 1493947493:0;mv pro prolog_hs/simple.hs
+: 1493947494:0;.
+: 1493947495:0;cat test.pl
+: 1493947497:0;rm test.pl
+: 1493947497:0;.
+: 1493947512:0;z Web
+: 1493947512:0;.
+: 1493947522:0;ls -la *
+: 1493947527:0;ls -la * | grep -x
+: 1493947530:0;ls -la * | grep "-x"
+: 1493947538:0;ls -la * | grep "\-\x"
+: 1493947543:0;ls -la * | grep "\-x"
+: 1493947556:0;ls -la * | grep "\-x" | grep "\."
+: 1493947565:0;ls -la * | grep "\-x" | grep " \."
+: 1493947574:0;ls -la * | grep "\-x" | grep -v " \."
+: 1493947581:0;ls
+: 1493947606:0;ls -la | grep "\-x" | grep -v " \."
+: 1493947620:0;ls -la | grep "^d" | grep "\-x" | grep -v " \."
+: 1493947624:0;ls -la | grep -v "^d" | grep "\-x" | grep -v " \."
+: 1493947631:0;rm `ls -la | grep -v "^d" | grep "\-x" | grep -v " \."`
+: 1493947638:0;ls -la | grep -v "^d" | grep "\-x" | grep -v " \."
+: 1493947648:0;ls -la | grep -v "^d" | grep "\-x" | grep -v " \." | grep "[^ ]*"
+: 1493947651:0;ls -la | grep -v "^d" | grep "\-x" | grep -v " \." | grep "[^ ]*$"
+: 1493947654:0;ls -la | grep -v "^d" | grep "\-x" | grep -v " \." | grep -o "[^ ]*$"
+: 1493947659:0;rm `ls -la | grep -v "^d" | grep "\-x" | grep -v " \." | grep -o "[^ ]*$"`
+: 1493947665:0;rm `ls -la | grep -v "^d" | grep "\-x" | grep -v " \." | /bin/grep -o "[^ ]*$"`
+: 1493947671:0;ls -la | grep -v "^d" | grep "\-x" | grep -v " \." | /bin/grep -o "[^ ]*$"
+: 1493947675:0;ls -la | grep -v "^d" | grep "\-x" | grep -v " \." | /usr/bin/grep -o "[^ ]*$"
+: 1493947680:0;rm `ls -la | grep -v "^d" | grep "\-x" | grep -v " \." | /usr/bin/grep -o "[^ ]*$"`
+: 1493947681:0;.
+: 1493947684:0;ls
+: 1493947685:0;.
+: 1493947691:0;mkdir A1
+: 1493947696:0;mv RLE A1
+: 1493947697:0;ls
+: 1493947698:0;.
+: 1493947708:0;mv BWT_Search BWT_Search_A2
+: 1493947709:0;.
+: 1493947715:0;mv A1 RLE_A1
+: 1493947715:0;.
+: 1493947723:0;mkdir examples
+: 1493947729:0;mv *.bwt examples
+: 1493947732:0;mv *.json examples
+: 1493947733:0;.
+: 1493947737:0;mv *.py examples
+: 1493947738:0;.
+: 1493947741:0;mv *.idx examples
+: 1493947742:0;.
+: 1493947750:0;mv Regex examples
+: 1493947750:0;.
+: 1493947755:0;mv Suffix_Array_On examples
+: 1493947755:0;.
+: 1493947760:0;mv BWT examples
+: 1493947760:0;.
+: 1493947768:0;clear
+: 1493947769:0;exit
+: 1493947771:0;clear
+: 1493947771:0;s
+: 1493952967:0;mkdir ConceptSearch_A3
+: 1493952969:0;.
+: 1493952980:0;ConceptSearch_A3
+: 1493952980:0;.
+: 1493952994:0;cp ../BWT_Search_A2/*.cpp .
+: 1493952997:0;cp ../BWT_Search_A2/*.h .
+: 1493953002:0;cp ../BWT_Search_A2/makefile .
+: 1493953003:0;.
+: 1493953010:0;ls ../BWT_Search_A2/*
+: 1493953019:0;clear
+: 1493953020:0;vim makefile
+: 1493953699:0;z ML
+: 1493953699:0;.
+: 1493953706:0;mkdir 20Qs
+: 1493953710:0;vrc
+: 1493953717:0;zrc
+: 1494066376:0;cd 20Qs
+: 1494066376:0;.
+: 1494066378:0;ls
+: 1494285623:0;cd ~/Drive
+: 1494285623:0;ls
+: 1494285625:0;cd Me
+: 1494285626:0;ls
+: 1494285626:0;.
+: 1494285632:0;clear
+: 1494285633:0;ls
+: 1494285659:0;cd
+: 1494285659:0;.
+: 1494285661:0;cd Documents
+: 1494285661:0;.
+: 1494285671:0;cd Comp
+: 1494285673:0;z Comp
+: 1494285674:0;.
+: 1494285674:0;s
+: 1494285679:0;z Web
+: 1494285680:0;.
+: 1494285681:0;s
+: 1494285681:0;.
+: 1494285685:0;cd ConceptSearch_A3
+: 1494285685:0;.
+: 1494285689:0;vim makefile
+: 1494294348:0;.
+: 1494294350:0;vim bwt
+: 1494294455:0;vim makefile
+: 1494294527:0;rm a.out
+: 1494294528:0;.
+: 1494294531:0;rm a3search.h.gch
+: 1494294532:0;.
+: 1494294539:0;vim a3search.cpp a3search.h
+: 1494296552:0;clear
+: 1494296552:0;s
+: 1494296558:0;rm a3search.h.gch
+: 1494296559:0;.
+: 1494296560:0;vim *
+: 1494298369:0;make
+: 1494298371:0;make test
+: 1494298387:0;./a3search test dummy.idx
+: 1494298390:0;./a3search test dummy.idx "apple"
+: 1494298392:0;clear
+: 1494298393:0;exit
+: 1494300594:0;git@github.com:jardon-u/wordnet-blast.git
+: 1494300613:0;cmake CMakeLists.txt
+: 1494300618:0;ls
+: 1494300621:0;cd wordnet-blast
+: 1494300623:0;cmake CMakeLists.txt
+: 1494300640:0;brew install boost
+: 1494300743:0;cmake CMakeLists.txt
+: 1494300748:0;make
+: 1494300781:0;./bin/wntest 
+: 1494300858:0;brew install wordnet
+: 1494300995:0;ls /usr/local/Cellar/wordnet/3.1
+: 1494301044:0;./bin/wntest /usr/local/Cellar/wordnet/3.1 check/list.txt
+: 1494301053:0;./bin/wntest /usr/local/Cellar/wordnet/3.1/ check/list.txt
+: 1494301075:0;./bin/wntest /usr/local/Cellar/wordnet/3.1/dict/ check/list.txt
+: 1494301099:0;./bin/wntest /usr/local/Cellar/wordnet/3.1/dict/ check/biglist.txt
+: 1494301579:0;cd ..
+: 1494301581:0;.
+: 1494301593:0;vim makefile
+: 1494301608:0;clear
+: 1494301611:0;q
+: 1494302131:0;ls
+: 1494302136:0;cse
+: 1494302163:0;scp * z5017666@cse.unsw.edu.au:A3Search/
+: 1494302173:0;q
+: 1494302741:0;scp -r * z5017666@cse.unsw.edu.au:A3Search/
+: 1494307173:0;cd test
+: 1494307206:0;cse
+: 1494307224:0;ls
+: 1494307291:0;q
+: 1494308154:0;watch "make test"
+: 1494308180:0;mv test test1
+: 1494308183:0;watch "make test"
+: 1494308195:0;vim makefile
+: 1494308216:0;watch "make test"
+: 1494310430:0;./a3search test dummy.idx "apple"
+: 1494310443:0;./a3search test1 dummy.idx "apple"
+: 1494310448:0;clear
+: 1494310448:0;ls
+: 1494310454:0;mkdir dummy.idx
+: 1494310456:0;./a3search test1 dummy.idx "apple"
+: 1494310460:0;cat dummy.idx
+: 1494310462:0;ls dummy.idx
+: 1494310465:0;ls -la dummy.idx
+: 1494310481:0;./a3search test1 dummy.idx "apple"
+: 1494310483:0;ls dummy.idx
+: 1494310487:0;cd dummy.idx
+: 1494310487:0;ls
+: 1494310488:0;cd ..
+: 1494310489:0;.
+: 1494310518:0;make test
+: 1494310528:0;ls dummy.idx
+: 1494310544:0;cat dummy.idx/apple
+: 1494310548:0;hxx dummy.idx/apple
+: 1494310614:0;hdd
+: 1494310631:0;hexdump dummy.idx/a
+: 1494310635:0;hexdump dummy.idx/apple
+: 1494310685:0;./a3search test1 dummy.idx "apple"
+: 1494310687:0;clear
+: 1494310690:0;hexdump dummy.idx/apple
+: 1494310698:0;rm dummy.idx/*
+: 1494310700:0;.
+: 1494310701:0;ls
+: 1494310704:0;./a3search test1 dummy.idx "apple"
+: 1494310709:0;vim dummy.idx/apple
+: 1494310751:0;rm dummy.idx/*
+: 1494310753:0;make
+: 1494310773:0;./a3search test1 dummy.idx "apple"
+: 1494310851:0;make
+: 1494310854:0;./a3search test1 dummy.idx "apple"
+: 1494310858:0;make test
+: 1494310869:0;rm dummy.idx/*
+: 1494310872:0;make test
+: 1494310913:0;make clean
+: 1494310914:0;make
+: 1494310916:0;make test
+: 1494310924:0;rm dummy.idx/*
+: 1494310927:0;make test
+: 1494311018:0;cat test1/file6.txt | grep "apple"
+: 1494311021:0;cat test1/file6.txt | grep -i "apple"
+: 1494311029:0;cat test1/file6.txt | grep -io "apple"
+: 1494311033:0;cat test1/file6.txt | grep -io "apple" | lower
+: 1494311047:0;cat test1/file6.txt | grep -io "apple" | wc -l
+: 1494311052:0;cat test1/file5.txt | grep -io "apple" | wc -l
+: 1494316038:0;cat test1/file3.txt | grep -io "apple" | wc -l
+: 1494316044:0;cat test1/file1.txt | grep -io "apple" | wc -l
+: 1494316180:0;make test
+: 1494316193:0;cat test1/file1.txt | xdd
+: 1494316202:0;cat test1/file1.txt | xxd
+: 1494316218:0;cat dummy.idx/apple | xxd
+: 1494316263:0;make test
+: 1494316270:0;bash
+: 1494318100:0;xxd
+: 1494318100:0;clear
+: 1494318100:0;exit
+: 1494316283:0;sh
+: 1494318100:0;xxd
+: 1494318100:0;exit
+: 1494316291:0;clear
+: 1494316292:0;ls
+: 1494316293:0;vim makefile
+: 1494316325:0;which xxd
+: 1494316336:0;which cat
+: 1494316341:0;which /bin/cat
+: 1494316361:0;make test
+: 1494316404:0;ls
+: 1494316409:0;mkdir dummy.idx
+: 1494316412:0;make test
+: 1494316837:0;cat test1/file6.txt | grep -io "apple" | wc -l
+: 1494316844:0;cat test1/file5.txt | grep -io "apple" | wc -l
+: 1494316941:0;make test
+: 1494318086:0;ls
+: 1494318096:0;:e ~/.config/nvim/init.vim
+: 1494318100:0;q
+: 1494318106:0;:e ~/.config/nvim/init.vim
+: 1494318138:0;q
+: 1494318145:0;:vsp
+: 1494318146:0;q
+: 1494318153:0;:vsp
+: 1494318218:0;ls
+: 1494318220:0;:vsp
+: 1494318221:0;exit
+: 1494318225:0;:vsp
+: 1494318259:0;q
+: 1494318262:0;clear
+: 1494318262:0;s
+: 1494318266:0;vim a3search.cpp a3search.h
+: 1494318346:0;q
+: 1494318352:0;vim
+: 1494318368:0;vrc
+: 1494318382:0;clear
+: 1494318382:0;s
+: 1494318386:0;vrc
+: 1494318462:0;zrc
+: 1494318467:0;vrc
+: 1494318510:0;vim
+: 1494319153:0;zsh
+: 1494319156:0;cd ~/.config/nvim
+: 1494319156:0;s
+: 1494319157:0;d
+: 1494319159:0;d init.vim
+: 1494319177:0;a init.vim
+: 1494319177:0;s
+: 1494319178:0;clear
+: 1494319178:0;s
+: 1494319200:0;m "Removed some plugins and made file more concise"
+: 1494319201:0;s
+: 1494319202:0;a spell
+: 1494319207:0;m "More words"
+: 1494319208:0;clear
+: 1494319209:0;s
+: 1494319211:0;p
+: 1494319236:0;vim ~/.ssh/config
+: 1494319241:0;.
+: 1494319242:0;cd
+: 1494319243:0;exit
+: 1494319244:0;.
+: 1494319245:0;s
+: 1494319246:0;rm a.out
+: 1494319247:0;.
+: 1494319248:0;make test
+: 1494319257:0;vim a3search.cpp
+: 1494319367:0;ls
+: 1494319383:0;make test
+: 1494319392:0;ls
+: 1494319567:0;watch "make test"
+: 1494319736:0;vim ~/.config/nvim
+: 1494319764:0;/bin/vim ~/.config/nvim/init.vim
+: 1494319767:0;/usr/bin/vim ~/.config/nvim/init.vim
+: 1494319787:0;clear
+: 1494319788:0;ls
+: 1494319789:0;vim
+: 1494319798:0;vrc
+: 1494319809:0;jobs
+: 1494319811:0;clear
+: 1494319817:0;/usr/bin/vim ~/.config/nvim/init.vim
+: 1494319966:0;exit
+: 1494319969:0;kill 1
+: 1494319974:0;sudo kill 1
+: 1494319979:0;ps -ef | grep vim
+: 1494319986:0;pkill nvim
+: 1494319990:0;ps -ef | grep vim
+: 1494319992:0;pkill nvim
+: 1494319997:0;ps -ef | grep vim
+: 1494319999:0;fg
+: 1494320002:0;clear
+: 1494320002:0;s
+: 1494320004:0;vim
+: 1494320014:0;vim a3search.cpp
+: 1494320018:0;ls
+: 1494320025:0;clear
+: 1494320026:0;make test
+: 1494320031:0;watch "make test"
+: 1494321216:0;du -hs test1
+: 1494321222:0;du -hs dummy.idx
+: 1494321231:0;du -hs test1/*
+: 1494321234:0;du -hs dummy.idx/*
+: 1494325821:0;du -hs dummy.idx
+: 1494325824:0;du -hs test1
+: 1494325883:0;du -hs dummy.idx/* | grep -v "are|for|from|go|in|of|some|to|their"
+: 1494325889:0;du -hs dummy.idx/* | grep -v "are|for|from|go|in|of|some|to|their" | wc -l
+: 1494326056:0;make test
+: 1494326479:0;cat dummy.idx/apple | xxd
+: 1494326481:0;cat dummy.idx/apple
+: 1494326484:0;cat dummy.idx/apple | xxd
+: 1494326567:0;make test
+: 1494327005:0;vim a3search.cpp a3search.h
+: 1494327010:0;ls
+: 1494327011:0;make test
+: 1494386231:0;z ML
+: 1494386231:0;.
+: 1494386235:0;cd 20Qs
+: 1494386235:0;.
+: 1494386324:0;vim test.py
+: 1494386657:0;vrc
+: 1494386661:0;python3
+: 1494386671:0;pylint test.py
+: 1494386675:0;pylint3 test.py
+: 1494386683:0;pip3 install pylint3
+: 1494386685:0;pip3 install pylint
+: 1494386987:0;which pylint
+: 1494387006:0;clear
+: 1494387006:0;s
+: 1494387008:0;vim test.py
+: 1494387386:0;python3 test.py
+: 1494388000:0;clear
+: 1494388279:0;python3 test.py
+: 1494388508:0;clear
+: 1494388831:0;python3 test.py
+: 1494389197:0;iq
+: 1494389198:0;q
+: 1494389210:0;python3 test.py
+: 1494389277:0;clear; python3 test.py
+: 1494389559:0;make test
+: 1494389561:0;python3 test.py
+: 1494390636:0;cd ..
+: 1494390638:0;git@github.com:rouge8/20questions.git
+: 1494390660:0;python webinterface.py
+: 1494390662:0;ls
+: 1494390665:0;cd 20questions
+: 1494390665:0;.
+: 1494390669:0;python webinterface.py'
+: 1494390670:0;python webinterface.py
+: 1494390974:0;pip3 install flask
+: 1494390983:0;ls
+: 1494391008:0;vim schema.sql
+: 1494392263:0;ls
+: 1494392270:0;cd ../20Q
+: 1494392271:0;cd ../20Qs
+: 1494392271:0;.
+: 1494392274:0;cd zoo_dataset
+: 1494392274:0;ls
+: 1494392276:0;vim zoo.data.txt
+: 1494415433:0;clear
+: 1494415434:0;ls
+: 1494415441:0;clear
+: 1494415442:0;ls
+: 1494415578:0;git@github.com:Cypher1/20Qs
+: 1494415586:0;git@github.com:Cypher1/20Qs.git
+: 1494415593:0;ls
+: 1494415604:0;mv 20Qs/.git .
+: 1494415605:0;ls
+: 1494415610:0;mv 20Qs/.gitignore .
+: 1494415610:0;.
+: 1494415611:0;s
+: 1494415614:0;rm 20Qs
+: 1494415615:0;.
+: 1494415616:0;s
+: 1494415626:0;git branch test
+: 1494415629:0;git add *.py
+: 1494415630:0;clear
+: 1494415630:0;s
+: 1494415649:0;git commit -m "Added some trail code for Q&A"
+: 1494415650:0;p
+: 1494415675:0;git branch test
+: 1494415681:0;git checkout test
+: 1494415683:0;clear
+: 1494415683:0;s
+: 1494415704:0;git pull
+: 1494415712:0;git pull origin master 
+: 1494415728:0;git status
+: 1494415728:0;clear
+: 1494415729:0;s
+: 1494415733:0;git checkout master
+: 1494415742:0;mkdir datasets
+: 1494415743:0;ls
+: 1494415751:0;mv zoo_dataset datasets zoo
+: 1494415754:0;mv zoo_dataset datasets.zoo
+: 1494415755:0;ls
+: 1494415768:0;mv datasets.zoo datasets/zoo
+: 1494415769:0;.
+: 1494415769:0;s
+: 1494415771:0;a datasets
+: 1494415771:0;s
+: 1494415780:0;m "Added zoo dataset"
+: 1494415781:0;clear
+: 1494415781:0;s
+: 1494415782:0;p
+: 1494415788:0;clear
+: 1494415788:0;s
+: 1494415791:0;rm *.py
+: 1494415800:0;m "Removed test code from master"
+: 1494415811:0;git rm DataSet.py QaSet.py test.py
+: 1494415812:0;clear
+: 1494415813:0;s
+: 1494415815:0;m "Removed test code from master"
+: 1494415816:0;p
+: 1494415854:0;clear
+: 1494415900:0;ls
+: 1494415908:0;q
+: 1494415925:0;mkdir app
+: 1494415928:0;cd app
+: 1494415931:0;mkdir static
+: 1494415935:0;mkdir static/css
+: 1494415937:0;mkdir static/img
+: 1494415939:0;mkdir static/js
+: 1494415943:0;mkdir templates
+: 1494415950:0;touch routes.py
+: 1494415952:0;clear
+: 1494415952:0;s
+: 1494415958:0;touch README.md
+: 1494415959:0;clear
+: 1494415960:0;s
+: 1494415961:0;ls
+: 1494415967:0;cd ..
+: 1494415967:0;ls
+: 1494415975:0;s
+: 1494415976:0;a app
+: 1494415977:0;s
+: 1494415984:0;mv app/README.md .
+: 1494415985:0;clear
+: 1494415986:0;s
+: 1494415991:0;clear
+: 1494415991:0;s
+: 1494415993:0;a README.md
+: 1494415993:0;clear
+: 1494415994:0;s
+: 1494415998:0;git rm app/README.md
+: 1494415999:0;clear
+: 1494415999:0;s
+: 1494416025:0;cd app/templates
+: 1494416387:0;s
+: 1494416388:0;clear
+: 1494416388:0;s
+: 1494416390:0;cd ...
+: 1494416391:0;clear
+: 1494416391:0;s
+: 1494416395:0;cd app
+: 1494416395:0;.
+: 1494416397:0;s
+: 1494416400:0;./routes.py
+: 1494416403:0;clear
+: 1494416407:0;routes.py
+: 1494416410:0;clear
+: 1494416445:0;s
+: 1494416451:0;vim app/routes.py
+: 1494416472:0;cd app
+: 1494416473:0;.
+: 1494416476:0;routes.py
+: 1494416483:0;clear
+: 1494416506:0;vim app/routes.py
+: 1494416528:0;vim ~/.zshrc
+: 1494416549:0;vim ~/.zshrcclear
+: 1494416552:0;clear
+: 1494416552:0;s
+: 1494416555:0;exec zsh
+: 1494416556:0;clear
+: 1494416556:0;s
+: 1494416559:0;cd app
+: 1494416559:0;.
+: 1494416562:0;routes.py
+: 1494416582:0;q
+: 1494416670:0;clear
+: 1494416670:0;s
+: 1494416675:0;vim routes.py
+: 1494417229:0;q
+: 1494417565:0;clear
+: 1494417566:0;ls
+: 1494417572:0;webinterface.py
+: 1494417577:0;exech zsh
+: 1494417579:0;exec zsh
+: 1494417581:0;webinterface.py
+: 1494417588:0;clear
+: 1494417589:0;ls
+: 1494417591:0;python webinterface.py
+: 1494418130:0;ls
+: 1494418132:0;git status
+: 1494424992:0;s
+: 1494425003:0;m "Added site base"
+: 1494425004:0;p
+: 1494425035:0;s
+: 1494425044:0;p
+: 1494467884:0;clear
+: 1494467884:0;s
+: 1494469131:0;pip3 install Flask-Session
+: 1494469139:0;clear
+: 1494469140:0;ls
+: 1494469143:0;cd ..
+: 1494469144:0;.
+: 1494469305:0;vim README.md
+: 1494469342:0;clear
+: 1494469342:0;s
+: 1494469343:0;a README.md
+: 1494469344:0;s
+: 1494469352:0;m "Added stub readme"
+: 1494469353:0;p
+: 1494469360:0;clear
+: 1494469361:0;ls
+: 1494469362:0;cd app
+: 1494469362:0;.
+: 1494469392:0;vim routes.py
+: 1494469405:0;q
+: 1494469884:0;vim routes.py
+: 1494471586:0;rm ~/.local/share/nvim/swap/*
+: 1494471589:0;clear
+: 1494471589:0;ls
+: 1494471591:0;vim routes.py
+: 1494471616:0;vim ../README.md
+: 1494471622:0;cd ..
+: 1494471624:0;vim README.md
+: 1494471642:0;cd app
+: 1494471643:0;clear
+: 1494471643:0;s
+: 1494471645:0;vim routes.py
+: 1494471649:0;clear
+: 1494471649:0;s
+: 1494471651:0;vim ../README.md
+: 1494471672:0;vim -NORUC
+: 1494471674:0;vim -NORC
+: 1494471689:0;vim -u NORC
+: 1494471692:0;vim -u NORC ../README.md
+: 1494471701:0;vrc
+: 1494471719:0;clear
+: 1494471719:0;s
+: 1494471722:0;vim -u NORC ../README.md
+: 1494471731:0;clears
+: 1494471733:0;vim -u NORC ../README.md
+: 1494471741:0;vim ../README.md
+: 1494471760:0;vrc
+: 1494471899:0;clear
+: 1494471899:0;s
+: 1494471902:0;vim ../README.md
+: 1494471912:0;clear
+: 1494471913:0;s
+: 1494471914:0;vim routes.py
+: 1494472010:0;vrc
+: 1494472019:0;clear
+: 1494472019:0;s
+: 1494472020:0;vim routes.py
+: 1494472050:0;brew update
+: 1494472111:0;q
+: 1494477671:0;ls
+: 1494477676:0;cd ~/.config/nvim
+: 1494477676:0;.
+: 1494477678:0;ls plugged
+: 1494477678:0;s
+: 1494477687:0;cd plugged
+: 1494477687:0;.
+: 1494477690:0;vim vim-polyglot
+: 1494477713:0;cd vim-polyglot
+: 1494477713:0;.
+: 1494477717:0;cd indent
+: 1494477740:0;cd ..
+: 1494477741:0;clear
+: 1494477741:0;ls
+: 1494477744:0;ls * | grep css
+: 1494477755:0;vim syntax/css.vim
+: 1494477780:0;vim indent/json.vim indent/css.vim
+: 1494478561:0;clear
+: 1494478561:0;s
+: 1494478565:0;vim routes.py static/css/main.css
+: 1494478579:0;vim indent/css.vim
+: 1494478605:0;vim routes.py static/css/main.css
+: 1494478926:0;z ML
+: 1494478927:0;.
+: 1494478932:0;mkdir wk10
+: 1494478933:0;cd wk10
+: 1494478934:0;.
+: 1494478936:0;vim lecture.md
+: 1494479026:0;d
+: 1494479028:0;clear
+: 1494479028:0;s
+: 1494479562:0;clear
+: 1494479562:0;ls
+: 1494479565:0;grep css
+: 1494479567:0;grep css *
+: 1494479576:0;vim build
+: 1494479598:0;clear
+: 1494479598:0;s
+: 1494479600:0;git checkout
+: 1494479601:0;clear
+: 1494479601:0;s
+: 1494479604:0;git stash
+: 1494479606:0;git stash drop
+: 1494479608:0;git add .
+: 1494479610:0;git stash
+: 1494479612:0;git stash drop
+: 1494479613:0;clear
+: 1494479614:0;s
+: 1494479614:0;q
+: 1494480009:0;python3 routes.py
+: 1494480066:0;pip3 install Flask-WTF
+: 1494480084:0;python3 routes.py
+: 1494480578:0;clear
+: 1494480579:0;python3 routes.py
+: 1494482216:0;clear
+: 1494482216:0;s
+: 1494482221:0;python3 routes.py
+: 1494483319:0;q
+: 1494484867:0;python3 routes.py
+: 1494487194:0;clear
+: 1494487195:0;python3 routes.py
+: 1494491867:0;s
+: 1494491871:0;git rm static
+: 1494491874:0;git rm static/*
+: 1494491875:0;.
+: 1494491875:0;s
+: 1494491883:0;git rm static/css/main.css
+: 1494491884:0;clear
+: 1494491884:0;s
+: 1494491890:0;a templates
+: 1494491891:0;clear
+: 1494491891:0;s
+: 1494491894:0;d routes.py
+: 1494491900:0;a routes.py
+: 1494491901:0;clear
+: 1494491901:0;s
+: 1494491904:0;d ../README.md
+: 1494491907:0;a ../README.md
+: 1494491907:0;clear
+: 1494491908:0;s
+: 1494491937:0;m "Created a basic site using Flask-Materialize
+: 1494491938:0;m "Created a basic site using Flask-Materialize"
+: 1494491940:0;p
+: 1494492052:0;clear
+: 1494492052:0;s
+: 1494492054:0;q
+: 1494492340:0;while python3 routes.py
+: 1494492342:0;clear
+: 1494492345:0;watch python3 routes.py
+: 1494492393:0;watch "python3 routes.py"
+: 1494501836:0;watch "python3 debug.py"
+: 1494501938:0;python3 debug.py
+: 1494501947:0;ps -ef | grep python
+: 1494501958:0;q
+: 1494511748:0;clear
+: 1494511748:0;s
+: 1494511752:0;a __init__.py
+: 1494511753:0;a debug.py
+: 1494511755:0;a server.py
+: 1494511757:0;a templates/layout.html
+: 1494511758:0;a routes.py
+: 1494511759:0;clear
+: 1494511759:0;s
+: 1494511775:0;m "Setup for easy modification and separation of concerns"
+: 1494511777:0;cd ..
+: 1494511787:0;cp 20Qs ~/Documents/Base_Flask
+: 1494511789:0;clear
+: 1494511792:0;cd 20Q
+: 1494511793:0;cd 20Qs
+: 1494511794:0;.
+: 1494511796:0;cd app
+: 1494511796:0;.
+: 1494512548:0;vim routes.py server.py
+: 1494546705:0;q
+: 1494547098:0;pip install Flask-Cache
+: 1494547115:0;q
+: 1494547694:0;watch "python3 debug.py"
+: 1494548028:0;git status
+: 1494548030:0;clear
+: 1494548030:0;d
+: 1494548034:0;a README.md
+: 1494548037:0;a ../README.md
+: 1494548038:0;clear
+: 1494548038:0;s
+: 1494548042:0;d server.py
+: 1494548049:0;a server.py
+: 1494548050:0;clear
+: 1494548052:0;a templates/layout.html
+: 1494548053:0;clear
+: 1494548053:0;s
+: 1494548055:0;d routes.py
+: 1494548058:0;a routes.py
+: 1494548084:0;m "Cleaned up imports and template variable names, added basic caching"
+: 1494548086:0;p
+: 1494548091:0;clear
+: 1494548092:0;s
+: 1494548095:0;q
+: 1494549080:0;clear
+: 1494549080:0;s
+: 1494549086:0;watch "python3 debug.py"
+: 1494549576:0;s
+: 1494549577:0;d
+: 1494549589:0;a .
+: 1494549590:0;clear
+: 1494549590:0;s
+: 1494549599:0;m "Added ability to flash messages"
+: 1494549600:0;p
+: 1494549607:0;clear
+: 1494549607:0;s
+: 1494550751:0;d
+: 1494550756:0;a templates/layout.html
+: 1494550757:0;clear
+: 1494550757:0;s
+: 1494550760:0;q
+: 1494552418:0;s
+: 1494552419:0;d
+: 1494552429:0;a templates/layout.html
+: 1494552436:0;m "Found out about marcos"
+: 1494552437:0;p
+: 1494552443:0;clear
+: 1494552444:0;s
+: 1494552447:0;d
+: 1494552449:0;q
+: 1494564780:0;git diff
+: 1494564782:0;s
+: 1494564788:0;clear
+: 1494564789:0;s
+: 1494564851:0;q
+: 1494565048:0;watch "python3 debug.py"
+: 1494565803:0;q
+: 1494570908:0;clear
+: 1494570908:0;s
+: 1494570914:0;d templates
+: 1494570924:0;a templates
+: 1494570925:0;clear
+: 1494570925:0;s
+: 1494570942:0;m "Improved templates, added base template for questions and a new game"
+: 1494570943:0;clear
+: 1494570944:0;s
+: 1494570945:0;d debug.py
+: 1494570952:0;a debug.py
+: 1494570955:0;d routes.py
+: 1494570960:0;a routes.py
+: 1494570960:0;clear
+: 1494570961:0;s
+: 1494570962:0;d s
+: 1494570964:0;d server.py
+: 1494570967:0;a server.py
+: 1494570975:0;m "Added new_game route and question route"
+: 1494570976:0;clear
+: 1494570976:0;p
+: 1494570984:0;python3 debug.py
+: 1494653164:0;watch python3 debug.py
+: 1494653189:0;watch "python3 debug.py"
+: 1494658051:0;s
+: 1494658057:0;d qa_bot.py
+: 1494658058:0;clear
+: 1494658059:0;s
+: 1494658060:0;d templates
+: 1494658074:0;vim templates/home.html
+: 1494658102:0;clear
+: 1494658103:0;s
+: 1494658108:0;vim routes.py __pycache__vim
+: 1494658112:0;.
+: 1494658112:0;s
+: 1494658113:0;clear
+: 1494658115:0;vim templates/home.html
+: 1494658127:0;vim server.py
+: 1494658144:0;git rm templates/home.html
+: 1494658145:0;clear
+: 1494658145:0;s
+: 1494658150:0;d server.py
+: 1494658152:0;a server.py
+: 1494658153:0;clear
+: 1494658153:0;s
+: 1494658156:0;d routes.py
+: 1494658173:0;a routes.py
+: 1494658174:0;clear
+: 1494658174:0;s
+: 1494658176:0;d debug.py
+: 1494658178:0;a debug.py
+: 1494658179:0;clear
+: 1494658179:0;s
+: 1494658182:0;d templates/config.html
+: 1494658185:0;vim templates/config.html
+: 1494658208:0;watch "python3 debug.py"
+: 1494658295:0;s
+: 1494658297:0;d routes.py
+: 1494658303:0;a routes.py
+: 1494658304:0;clear
+: 1494658304:0;s
+: 1494658307:0;d templates/layout.html
+: 1494658314:0;d templates/question.html
+: 1494658319:0;a templates/question.html
+: 1494658320:0;clear
+: 1494658320:0;s
+: 1494658323:0;d templates/layout.html
+: 1494658327:0;a templates/layout.html
+: 1494658328:0;clear
+: 1494658329:0;s
+: 1494658332:0;a templates/config.html
+: 1494658333:0;clear
+: 1494658333:0;s
+: 1494658334:0;d qa_bot.py
+: 1494658336:0;clear
+: 1494658336:0;s
+: 1494658339:0;a qa_bot.py
+: 1494658340:0;clear
+: 1494658340:0;s
+: 1494658354:0;m "Imrpoved css, added a basic QA UI and guesses panel"
+: 1494658355:0;p
+: 1494659605:0;lear
+: 1494659605:0;s
+: 1494659610:0;d templates/layout.html
+: 1494659622:0;cat templates/footer.html
+: 1494659640:0;d templates/layout.html
+: 1494659646:0;git checkout templates/layout.html
+: 1494659653:0;vim templates/layout.html
+: 1494659977:0;clear
+: 1494659977:0;s
+: 1494659981:0;a templates
+: 1494659984:0;D
+: 1494660007:0;clear
+: 1494660007:0;s
+: 1494660025:0;m "Broke templates into parts for easier modification"
+: 1494660028:0;p
+: 1494660186:0;s
+: 1494660187:0;clear
+: 1494660187:0;d
+: 1494660189:0;s
+: 1494660192:0;q
+: 1494660208:0;clear
+: 1494660209:0;s
+: 1494660209:0;q
+: 1494660214:0;clear
+: 1494660214:0;s
+: 1494660216:0;q
+: 1494660691:0;make test
+: 1494660720:0;./a3search
+: 1494660730:0;./a3search test1 
+: 1494660734:0;./a3search test1 dummy.idx
+: 1494660761:0;make test
+: 1494720911:0;ls dummy.idx
+: 1494720914:0;ls dummy.idx/words
+: 1494720917:0;cat dummy.idx/words
+: 1494720938:0;cat dummy.idx/words | sort
+: 1494720942:0;clear
+: 1494720943:0;ls
+: 1494721002:0;make test
+: 1494721064:0;ls dummy.idx
+: 1494721070:0;clear
+: 1494721070:0;s
+: 1494721079:0;clear
+: 1494721080:0;ls
+: 1494721085:0;ls -la dummy.idx 
+: 1494721119:0;make test
+: 1494721537:0;ls test1
+: 1494721544:0;rm test1/.hidden
+: 1494721546:0;ls test1
+: 1494721548:0;clear
+: 1494721552:0;make test
+: 1494721940:0;yes
+: 1494721963:0;y | sed "s/y/poop/"
+: 1494721967:0;yes | sed "s/y/poop/"
+: 1494721971:0;yes | sed "s/y/poop/" > out
+: 1494721975:0;vim out
+: 1494722024:0;ls
+: 1494722029:0;mv out test1/poop
+: 1494722036:0;make test
+: 1494722083:0;ls test1 | wc -l
+: 1494751294:0;./a3search test1 dummy.idx
+: 1494802979:0;make test
+: 1494812362:0;exit
+: 1494812376:0;cd Drive
+: 1494812377:0;z Drive
+: 1494812378:0;.
+: 1494812385:0;cd Uni
+: 1494812386:0;.
+: 1494812389:0;vim classes.md
+: 1494818260:0;clear
+: 1494818261:0;ls
+: 1494818323:0;clear
+: 1494818323:0;ls
+: 1494818383:0;z Web
+: 1494818384:0;.
+: 1494818389:0;z A3
+: 1494818389:0;.
+: 1494818393:0;vim a3search.cpp a3search.h
+: 1494820436:0;q
+: 1494821621:0;vim a3search.cpp a3search.h
+: 1494823474:0;cat dummy.idx/words
+: 1494823489:0;make test
+: 1494823773:0;cat dummy.idx/words | head -n 8 | tail -n 1
+: 1494823776:0;cat dummy.idx/words | head -n 9 | tail -n 1
+: 1494823782:0;cat dummy.idx/words
+: 1494823902:0;vim a3search.cpp a3search.h
+: 1494824058:0;rm dummy.idx
+: 1494824059:0;.
+: 1494824063:0;vim a3search.cpp
+: 1494824212:0;make test
+: 1494824979:0;./a3search test1 dummy.idx "investors"
+: 1494824984:0;rm dummy.idx
+: 1494824986:0;./a3search test1 dummy.idx "investors"
+: 1494824998:0;rm dummy.idx
+: 1494825002:0;./a3search test1 dummy.idx "deluge"
+: 1494825043:0;make test
+: 1494825204:0;cat dummy.idx/
+: 1494825205:0;cat dummy.idx/words
+: 1494825211:0;./a3search test1 dummy.idx "go"
+: 1494825226:0;make test
+: 1494825267:0;ls test1/
+: 1494825279:0;ls -latest1/
+: 1494825282:0;ls -la test1/
+: 1494825708:0;make test
+: 1494825792:0;./a3search test1 dummy.idx "go"
+: 1494825797:0;./a3search test1 dummy.idx "apple"
+: 1494825868:0;make test
+: 1494825875:0;./a3search test1 dummy.idx "go"
+: 1494825884:0;./a3search test1 dummy.idx "Apple" "investors"
+: 1494825890:0;cat test1/file1.txt
+: 1494825898:0;./a3search test1 dummy.idx "Apple" "sales""
+: 1494825900:0;./a3search test1 dummy.idx "Apple" "sales"
+: 1494825905:0;cat test1/file6.txt
+: 1494825913:0;cat test1/file5.txt
+: 1494825923:0;./a3search test1 dummy.idx "shares"
+: 1494825927:0;cat test1/*
+: 1494825934:0;./a3search test1 dummy.idx "watch"
+: 1494825941:0;./a3search test1 dummy.idx "iPhone"
+: 1494825944:0;./a3search test1 dummy.idx "iphone"
+: 1494826181:0;make test
+: 1494826426:0;./a3search test1 dummy.idx -c 0.5 "iphone"
+: 1494826433:0;./a3search test1 dummy.idx "iphone" -c 0.5
+: 1494826468:0;make test
+: 1494826470:0;./a3search test1 dummy.idx "iphone" -c 0.5
+: 1494826480:0;./a3search test1 dummy.idx "iPhone" -c 0.5
+: 1494827319:0;./a3search test1 dummy.idx "iPhone" "apple" -c 0.5
+: 1494827327:0;./a3search test1 dummy.idx "apple" -c 0.5
+: 1494827355:0;cat test1/file5.txt test1/file3.txt test1/file6.txt test1/file1.txt
+: 1494827377:0;cat test1/file5.txt test1/file3.txt test1/file6.txt test1/file1.txt | grep "invest"
+: 1494827383:0;cat test1/file5.txt test1/file3.txt test1/file6.txt test1/file1.txt | grep "go"
+: 1494827389:0;cat test1/file5.txt test1/file3.txt test1/file6.txt test1/file1.txt | grep -i "go"
+: 1494827393:0;cat test1/file5.txt test1/file3.txt test1/file6.txt test1/file1.txt | grep -i "invest"
+: 1494827402:0;./a3search test1 dummy.idx "apple" "invest" -c 0.5
+: 1494827411:0;./a3search test1 dummy.idx "apple"
+: 1494827414:0;./a3search test1 dummy.idx "invest"
+: 1494827784:0;make test
+: 1494827842:0;time ./a3search test1 dummy.idx "apple"
+: 1494827846:0;time ./a3search test1 dummy.idx "apple" "invest"
+: 1494827850:0;rm dummy.idx
+: 1494827852:0;time ./a3search test1 dummy.idx "apple"
+: 1494827855:0;rm dummy.idx
+: 1494827857:0;time ./a3search test1 dummy.idx "apple" "invest"
+: 1494831306:0;make test
+: 1494831402:0;cp test1/file1.txt test1/file8.txt
+: 1494831404:0;make test
+: 1494831780:0;ls dummy.idx
+: 1494831786:0;cat dummy.idx/words
+: 1494831793:0;cat dummy.idx/counts
+: 1494831798:0;xxd dummy.idx/counts
+: 1494891820:0;cd ~/.Doc
+: 1494891824:0;cd ~/Documents
+: 1494891824:0;.
+: 1494891828:0;cd SearchData
+: 1494891828:0;.
+: 1494891832:0;vim Key-phrases-DFE-794640.csv
+: 1494894454:0;q
+: 1494895076:0;make test
+: 1494895082:0;cat dummy.idx/words
+: 1494895088:0;make test
+: 1494895095:0;make test; cat dummy.idx/words
+: 1494895107:0;make test; cat dummy.idx/words; wc -l dummy.idx/words
+: 1494895360:0;grep "declin" test1/*
+: 1494895495:0;make test; cat dummy.idx/words; wc -l dummy.idx/words
+: 1494895534:0;./a3search test1 dummy.idx "invest"
+: 1494895543:0;make test; cat dummy.idx/words; wc -l dummy.idx/words
+: 1494895547:0;./a3search test1 dummy.idx "invest"
+: 1494895550:0;./a3search test1 dummy.idx "investor"
+: 1494895554:0;make test; cat dummy.idx/words; wc -l dummy.idx/words
+: 1494895556:0;./a3search test1 dummy.idx "investor"
+: 1494895560:0;./a3search test1 dummy.idx "invest"
+: 1494895580:0;vim test1/words.txt
+: 1494895707:0;make test
+: 1494895729:0;./a3search test2 dummy2.idx
+: 1494895734:0;./a3search test2 dummy2.idx "diary
+: 1494895735:0;./a3search test2 dummy2.idx "diary"
+: 1494895740:0;cat dummy2.idx/words
+: 1494895888:0;make test
+: 1494895896:0;./a3search test2 dummy2.idx "construction"
+: 1494895902:0;./a3search test2 dummy2.idx "constructed"
+: 1494895905:0;./a3search test2 dummy2.idx "constructing"
+: 1494895985:0;make test
+: 1494896003:0;./a3search test2 dummy2.idx "constructing"
+: 1494896012:0;./a3search test2 dummy2.idx "we"
+: 1494896055:0;make test
+: 1494896058:0;./a3search test2 dummy2.idx "we"
+: 1494896061:0;./a3search test2 dummy2.idx "weed"
+: 1494896069:0;make test
+: 1494896072:0;./a3search test2 dummy2.idx "weed"
+: 1494896077:0;make test
+: 1494896080:0;./a3search test2 dummy2.idx "weed"
+: 1494896096:0;rm dummy*
+: 1494896098:0;./a3search test2 dummy2.idx "weed"
+: 1494896104:0;cat dummy2.idx/words
+: 1494896114:0;rm dummy2.idx/
+: 1494896119:0;make
+: 1494896131:0;./a3search test2 dummy2.idx "weed"
+: 1494896134:0;cat dummy2.idx/words
+: 1494896154:0;make
+: 1494896157:0;./a3search test2 dummy2.idx "weed"
+: 1494896185:0;make
+: 1494896188:0;./a3search test2 dummy2.idx "weed"
+: 1494896196:0;make
+: 1494896200:0;./a3search test2 dummy2.idx "weed"
+: 1494896204:0;rm dummy2.idx
+: 1494896205:0;./a3search test2 dummy2.idx "weed"
+: 1494896276:0;make
+: 1494896279:0;rm dummy2.idx
+: 1494896280:0;./a3search test2 dummy2.idx "weed"
+: 1494896330:0;rm dummy2.idx
+: 1494896332:0;./a3search test2 dummy2.idx "weed"
+: 1494896357:0;make
+: 1494896363:0;rm dummy2.idx
+: 1494896364:0;./a3search test2 dummy2.idx "weed"
+: 1494897085:0;make
+: 1494897088:0;./a3search test2 dummy2.idx "weed"
+: 1494897094:0;rm dummy2.idx
+: 1494897095:0;./a3search test2 dummy2.idx "weed"
+: 1494897133:0;make
+: 1494897135:0;./a3search test2 dummy2.idx "weed"
+: 1494897137:0;rm dummy2.idx
+: 1494897138:0;./a3search test2 dummy2.idx "weed"
+: 1494897441:0;make test_stem
+: 1494898721:0;cat dummy2.idx/words
+: 1494898733:0;make test_stem
+: 1494899427:0;z Doc
+: 1494899428:0;ls
+: 1494899430:0;cd SearchData
+: 1494899430:0;.
+: 1494899432:0;cd WestburyLab.Wikipedia.Corpus
+: 1494899432:0;.
+: 1494899439:0;vim split.py
+: 1494899508:0;ls
+: 1494899520:0;mkdir out
+: 1494899529:0;python3 split.py -i WestburyLab.Wikipedia.Corpus.txt out
+: 1494899533:0;python3 split.py -i WestburyLab.Wikipedia.Corpus.txt -i out
+: 1494899537:0;python3 split.py -i WestburyLab.Wikipedia.Corpus.txt -o out
+: 1494899546:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494899976:0;mkdir out
+: 1494899982:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494899995:0;mkdir out
+: 1494899998:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494900024:0;mkdir out
+: 1494900026:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494900029:0;clear
+: 1494900030:0;ls
+: 1494900032:0;ls out
+: 1494900065:0;mkdir out
+: 1494900066:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494900140:0;clear
+: 1494900141:0;ls
+: 1494900145:0;rm out/*
+: 1494900158:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494900199:0;rm out/*
+: 1494900203:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494900225:0;mkdir out
+: 1494900227:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494900283:0;rm out/*
+: 1494900287:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494900398:0;rm out/*
+: 1494900403:0;cd out
+: 1494900406:0;rm *
+: 1494900410:0;ls
+: 1494900411:0;cd ..
+: 1494900412:0;python3 split.py -i "WestburyLab.Wikipedia.Corpus.txt" -o out
+: 1494900899:0;q
+: 1494900905:0;clear
+: 1494900906:0;ls
+: 1494900907:0;rm dummy2.idx
+: 1494900908:0;clear
+: 1494900909:0;s
+: 1494900911:0;clear
+: 1494900912:0;s
+: 1494901485:0;cd ~/Documents/SearchData/out
+: 1494901486:0;ls
+: 1494901495:0;ls a* | wc -l
+: 1494901513:0;ls | grep "^a.*" | wc -l
+: 1494901558:0;mv a* ../sample
+: 1494901609:0;find $directory -type f -name '*' -exec mv ../sample
+: 1494901634:0;find . -type f -name 'a*' -exec mv {} ../sample/
+: 1494901639:0;find . -type f -name 'a*' -exec mv {} ../sample/;
+: 1494901642:0;find . -type f -name 'a*' -exec mv {} ../sample/ \;
+: 1494901704:0;z Documents
+: 1494901706:0;cd SearchData
+: 1494901709:0;ls sample
+: 1494901718:0;ls sample | wc -l
+: 1494901805:0;du -hs *
+: 1494901823:0;find . -type f -name 'b*' -exec mv {} ../sample/ \;
+: 1494901939:0;du -hs *
+: 1494901946:0;q
+: 1494901954:0;z A3
+: 1494901955:0;.
+: 1494901958:0;make test_stem
+: 1494903358:0;wc -l test2/stemming
+: 1494903366:0;wc -l dummy2.idx/words
+: 1494903450:0;make test_stem
+: 1494916647:0;make test
+: 1494916650:0;./test
+: 1494916734:0;make test; ./test
+: 1494916809:0;watch "make test; ./test"
+: 1494917970:0;watch "echo '------------------'; make test; ./test"
+: 1494920075:0;clear
+: 1494920075:0;s
+: 1494920077:0;make
+: 1494920079:0;ls
+: 1494920085:0;cat stop.txt
+: 1494920086:0;clear
+: 1494920087:0;s
+: 1494920101:0;clear
+: 1494920102:0;ls
+: 1494920105:0;rm a3search.h.gch
+: 1494920105:0;.
+: 1494920147:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1494920173:0;clear
+: 1494920180:0;rm ~/Documents/SearchData/sample.idx
+: 1494920185:0;make
+: 1494920189:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1494920196:0;rm ~/Documents/SearchData/sample.idx
+: 1494920199:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1494940533:0;cd ~/D/S/
+: 1494940535:0;cd ~/Documents/SearchData/
+: 1494940536:0;ls
+: 1494940538:5;du -hs
+: 1494940548:1;du -hs *
+: 1494940555:3;rm sample.idx
+: 1494940572:0;du -hs
+: 1494940582:0;rm WestburyLab.Wikipedia.Corpus
+: 1494940583:0;clear
+: 1494940584:0;ls
+: 1494940595:0;cd out
+: 1494940596:0;ls
+: 1494940604:0;clear
+: 1494940662:0;ls
+: 1494940664:0;cd ..
+: 1494940664:0;.
+: 1494940665:0;ls
+: 1494940666:0;clear
+: 1494940666:0;ls
+: 1494940668:0;q
+: 1494940672:0;ls
+: 1494940686:0;clear
+: 1494940743:0;echo "Hello World" | lower
+: 1494940761:0;echo "Hello World" | sed "s/([A-Z])/\1/"
+: 1494940767:0;echo "Hello World" | sed "s/\([A-Z]\)/\1/"
+: 1494940770:0;echo "Hello World" | sed "s/\([A-Z]\)/\i1/"
+: 1494940778:0;echo "Hello World" | sed "s/\([A-Z]\)/\i1/g"
+: 1494940783:0;echo "Hello World" | sed "s/\([A-Z]\)/\1/g"
+: 1494940848:0;cat * | grep -io "[a-z]*"
+: 1494940860:0;grep -io "[a-z]*" *
+: 1494940904:0;cd ../sample
+: 1494940921:0;grep -io "[a-z]*" apple
+: 1494940926:0;grep -io "[a-z]*" appletalk
+: 1494940935:0;grep -io "[a-z]*" appletalk | grep -v "^$"
+: 1494940938:0;grep -io "[a-z]*" appletalk | grep -v "^ *$"
+: 1494940947:0;grep -io "[a-z]*" appletalk | grep -v "^\s*$"
+: 1494940960:0;grep -io "[a-z]*" appletalk | grep -v "^[ \t\n]*$"
+: 1494940962:0;grep -io "[a-z]*" appletalk | grep -v "^[ \t\n\r]*$"
+: 1494940969:0;grep -io "[a-z]*" appletalk | trim
+: 1494940972:0;grep -io "[a-z]*" appletalk | sort
+: 1494940974:0;grep -io "[a-z]*" appletalk | sort | uniq
+: 1494940998:0;grep -io "[a-z]*" * | sort | uniq
+: 1494941004:0;grep -io "[a-z]*" a* | sort | uniq
+: 1494941008:0;grep -io "[a-z]*" aa* | sort | uniq
+: 1494941013:0;grep -io "[a-z]*" | sort | uniq
+: 1494941017:0;ls
+: 1494941037:0;find . -type f -name 'b*' -exec grep -io 
+: 1494941047:0;find . -type f -name 'b*' -exec grep -io "[a-z]*" | sort | uniq \;
+: 1494941057:0;find . -type f -name 'b*' -exec grep -io "[a-z]*" | sort | uniq \;;
+: 1494941061:0;find . -type f -name 'b*' -exec grep -io "[a-z]*" | sort | uniq ;
+: 1494941064:0;find . -type f -name 'b*' -exec grep -io "[a-z]*" | sort | uniq \\;
+: 1494941067:0;find . -type f -name 'b*' -exec grep -io "[a-z]*" | sort | uniq \;
+: 1494941075:0;find . -type f -name 'b*' -exec 'grep -io "[a-z]*" | sort | uniq'
+: 1494941079:0;man find
+: 1494941110:0;find . -type f -name 'b*' -exec 'grep -io "[a-z]*" | sort | uniq ';'
+: 1494941113:0;find . -type f -name 'b*' -exec 'grep -io "[a-z]*" | sort | uniq ``;'
+: 1494941117:0;find . -type f -name 'b*' -exec 'grep -io "[a-z]*" | sort | uniq ``;''
+: 1494941123:0;find . -type f -name 'b*' -exec 'grep -io "[a-z]*" | sort | uniq '';''
+: 1494941128:0;find . -type f -name 'b*' -exec 'grep -io "[a-z]*" | sort | uniq ";"
+: 1494941144:0;find . -type f -name 'b*' -exec 'grep -io "[a-z]*" | sort | uniq `;`
+: 1494941147:0;man find
+: 1494969201:0;ls
+: 1494969205:0;ls | wc -l
+: 1494969269:0;find . -type f -name 'b*' -exec mv {} ../out/ \;
+: 1494969341:0;ls | wc -l
+: 1494969372:0;find . -type f -name 'a[abcdefghijklmnop]' -exec mv {} ../out/ \;
+: 1494969375:0;ls
+: 1494969381:0;ls | wc -l
+: 1494969395:0;find . -type f -name 'aa*' -exec mv {} ../out/ \;
+: 1494969399:0;find . -type f -name 'ab*' -exec mv {} ../out/ \;
+: 1494969406:0;find . -type f -name 'ac*' -exec mv {} ../out/ \;
+: 1494969411:0;ls | wc -l
+: 1494969418:0;find . -type f -name 'ad*' -exec mv {} ../out/ \;
+: 1494969423:0;ls | wc -l
+: 1494970441:0;find . -type f -name 'ae*' -exec mv {} ../out/ \;
+: 1494970446:0;find . -type f -name 'af*' -exec mv {} ../out/ \;
+: 1494970449:0;ls | wc -l
+: 1494970505:0;find . -type f -name 'a*' -exec echo "{}" | grep "a[f-p]" || echo "mv {} ../out/" \;
+: 1494970526:0;echo 'echo "{}" | grep "a[f-p]" || echo "mv {} ../out/"' > run.sh
+: 1494970531:0;cat run.sh
+: 1494970573:0;find . -type f -name 'a*' -exec run.sh "{}"
+: 1494970576:0;find . -type f -name 'a*' -exec run.sh "{}"\;
+: 1494970578:0;find . -type f -name 'a*' -exec run.sh "{}";
+: 1494970581:0;find . -type f -name 'a*' -exec run.sh "{}" \;
+: 1494970584:0;ls
+: 1494970590:0;chmod +x run.sh 
+: 1494970593:0;find . -type f -name 'a*' -exec run.sh "{}" \;
+: 1494970598:0;find . -type f -name 'a*' -exec ./run.sh "{}" \;
+: 1494971378:0;ls
+: 1494971386:0;ls | wc -l
+: 1494971409:0;find . -type f -name 'a*' -exec ./run.sh "{}" \;
+: 1494971561:0;exit
+: 1494971570:0;ls | wc -l
+: 1494971593:0;find . -type f -name 'a*' -exec ./run.sh "{}" \; ls | wc -l
+: 1494971603:0;find . -type f -name 'a*' -exec ./run.sh "{}" \; ;ls | wc -l
+: 1494971711:0;ls
+: 1494971730:0;find . -type f -name 'a*' -exec ./run.sh "{}" \; ;ls | wc -l
+: 1494971762:0;ls
+: 1494971769:0;cp test1/ test3
+: 1494971777:0;gcc -Wall -Werror -O3 stemmer.c
+: 1494971845:0;./a.out test3/file1.txt
+: 1494971859:0;./a.out test3/file2.txt
+: 1494971868:0;./a.out test3/file3.txt
+: 1494971873:0;./a.out test3/file4.txt
+: 1494971890:0;gcc -Wall -Werror -O3 stemmer.c
+: 1494971892:0;./a.out test3/file4.txt
+: 1494971907:0;gcc -Wall -O3 stemmer.c
+: 1494971910:0;./a.out test3/file4.txt
+: 1494971933:0;clear
+: 1494971933:0;ls
+: 1494971937:0;gcc -Wall -O3 stemmer.c
+: 1494971955:0;./a.out ~/Documents/SearchData/sample/against_the_dying_of_the_light
+: 1494972061:0;make
+: 1494972075:0;./test ~/Documents/SearchData/sample/against_the_dying_of_the_light
+: 1494972156:0;make test
+: 1494972159:0;./test ~/Documents/SearchData/sample/against_the_dying_of_the_light
+: 1494983483:0;make test
+: 1494983487:0;make test_stem
+: 1494983490:0;make stem
+: 1494983495:0;make test
+: 1494983586:0;./test ~/Documents/SearchData/sample/against_the_dying_of_the_light
+: 1494983621:0;make test
+: 1494983624:0;./test ~/Documents/SearchData/sample/against_the_dying_of_the_light
+: 1494983653:0;make test
+: 1494983656:0;./test ~/Documents/SearchData/sample/against_the_dying_of_the_light
+: 1494983667:0;make test
+: 1494983669:0;./test ~/Documents/SearchData/sample/against_the_dying_of_the_light
+: 1494983708:0;make test; ./test
+: 1494983779:0;watch "make test; ./test"
+: 1494983937:0;watch "make test; ./test ~/Documents/SearchData/sample/against_the_dying_of_the_light"
+: 1494984683:0;make test; ./test ~/Documents/SearchData/sample/agamidae
+: 1494986426:0;q
+: 1494986432:0;make test; ./test ~/Documents/SearchData/sample/agamidae
+: 1495003039:0;q
+: 1495003046:0;z Web
+: 1495003047:0;.
+: 1495003053:0;vim wk11_lecutre.md
+: 1495003494:0;q
+: 1495003510:0;make test; ./test ~/Documents/SearchData/sample/agamidae
+: 1495003562:0;make test; ./test ~/Documents/SearchData/sample/agastya
+: 1495003604:0;make test; ./test
+: 1495003635:0;clear
+: 1495003638:0;make test; ./test
+: 1495003903:0;sudo make test; ./testOA
+: 1495003906:0;make test; ./test
+: 1495009037:0;sudo make test; ./testOA
+: 1495009040:0;make test; ./test
+: 1495009810:0;sudo make test; ./testOA
+: 1495009813:0;make test; ./test
+: 1495009964:0;./test ~/Documents/SearchData/sample/against_the_dying_of_the_light
+: 1495009981:0;./test ~/Documents/SearchData/sample/against_all_odds
+: 1495010092:0;make test; ./test
+: 1495011342:0;q
+: 1495011460:0;make test; ./test
+: 1495011470:0;sudo make test; ./testOA
+: 1495011473:0;make test; ./test
+: 1495011521:0;make test; ./test | grep -o "(.*)"
+: 1495011524:0;make test; ./test | grep -o "\(.*\)"
+: 1495011557:0;make test; ./test | grep -o "\(.*\)" | sort | uniq
+: 1495011561:0;make test; ./test | grep -o "\(.*\)" | sort | uniq -c
+: 1495011570:0;make test; ./test | grep -o "\(.*\)" | sort | uniq -c | sort -n
+: 1495015457:0;git init
+: 1495015459:0;git add .
+: 1495015465:0;git commit -m "First"
+: 1495015466:0;clear
+: 1495015471:0;make test; ./test | grep -o "\(.*\)" | sort | uniq -c | sort -n
+: 1495015566:0;s
+: 1495015572:0;vim .gitignore
+: 1495015912:0;fg
+: 1495015934:0;clear
+: 1495015934:0;s
+: 1495015937:0;a .gitignore
+: 1495015938:0;clear
+: 1495015938:0;s
+: 1495015944:0;vim .gitignore
+: 1495015954:0;clear
+: 1495015954:0;s
+: 1495015960:0;git add .gitignore
+: 1495015961:0;s
+: 1495015968:0;cat .gitignore
+: 1495015974:0;rm a3search.h.gch
+: 1495015975:0;clear
+: 1495015976:0;s
+: 1495015983:0;git rm a3search.h.gch
+: 1495015984:0;clear
+: 1495015984:0;s
+: 1495015988:0;d makefile
+: 1495015992:0;a makefile
+: 1495015994:0;m "Fixing"
+: 1495015995:0;clear
+: 1495015995:0;s
+: 1495015997:0;d
+: 1495016005:0;vim .gitignore
+: 1495016015:0;git add .gitignore
+: 1495016021:0;m "Fixing"
+: 1495016023:0;clear
+: 1495016023:0;s
+: 1495016028:0;git rm test
+: 1495016032:0;git rm -rf test
+: 1495016033:0;clear
+: 1495016033:0;s
+: 1495016036:0;m "Fixing"
+: 1495016038:0;clear
+: 1495016038:0;s
+: 1495016038:0;d
+: 1495016040:0;clear
+: 1495016042:0;./test ~/Documents/SearchData/sample/against_all_odds
+: 1495016045:0;make test; ./test | grep -o "\(.*\)" | sort | uniq -c | sort -n
+: 1495016508:0;s
+: 1495016510:0;clear
+: 1495016510:0;s
+: 1495016512:0;d
+: 1495016515:0;vim .gitignore
+: 1495016524:0;clear
+: 1495016524:0;s
+: 1495016528:0;git diff a.out
+: 1495016531:0;git rm a.out
+: 1495016536:0;git rm -f a.out
+: 1495016537:0;clear
+: 1495016537:0;s
+: 1495016570:0;m "REmove binary"
+: 1495016571:0;clear
+: 1495016571:0;s
+: 1495016575:0;git rm *.idx
+: 1495016580:0;git rm -r *.idx
+: 1495016581:0;clear
+: 1495016582:0;s
+: 1495016584:0;m "REmove binary"
+: 1495016585:0;clear
+: 1495016586:0;s
+: 1495016596:0;git add .
+: 1495016598:0;clear
+: 1495016598:0;s
+: 1495016602:0;m "Work"
+: 1495016603:0;clear
+: 1495016603:0;s
+: 1495016661:0;make test; ./test | grep -o "\(.*\)" | sort | uniq -c | sort -n
+: 1495016683:0;s
+: 1495016689:0;git add a3stemming.h
+: 1495016690:0;clear
+: 1495016690:0;s
+: 1495016694:0;a *.cpp
+: 1495016696:0;a *.h
+: 1495016700:0;git rm *.gch
+: 1495016701:0;s
+: 1495016708:0;git rm a3stemming.h.gch
+: 1495016709:0;clear
+: 1495016709:0;s
+: 1495016713:0;git rm -f a3stemming.h.gch
+: 1495016714:0;clear
+: 1495016714:0;s
+: 1495016717:0;d makefile
+: 1495016720:0;a makefile
+: 1495016721:0;clear
+: 1495016721:0;s
+: 1495016732:0;m "Splitting (.h)s"
+: 1495016733:0;clear
+: 1495016733:0;s
+: 1495016743:0;make test; ./test | grep -o "\(.*\)" | sort | uniq -c | sort -n
+: 1495016852:0;s
+: 1495016859:0;git rm -f make_it_fail
+: 1495016860:0;clear
+: 1495016860:0;s
+: 1495016862:0;d
+: 1495016865:0;a test.cpp
+: 1495016867:0;m "Cleaning"
+: 1495016868:0;.
+: 1495016902:0;make test; ./test | grep -o "\(.*\)" | sort | uniq -c | sort -n | grep "FAILED"
+: 1495016931:0;make test; ./test | grep "FAILED"
+: 1495016935:0;make test; ./test | grep "FAILED" | count
+: 1495016938:0;make test; ./test | grep "FAILED" | wc -l
+: 1495016941:0;clear
+: 1495016943:0;make test; ./test | grep "FAILED" | wc -l
+: 1495017083:0;watch "make test; ./test | grep "FAILED" | wc -l"
+: 1495074156:0;q
+: 1495076311:0;make
+: 1495076348:0;make
+: 1495076362:0;clear
+: 1495076363:0;make
+: 1495076414:0;clear
+: 1495076415:0;make
+: 1495076475:0;clear
+: 1495076475:0;make
+: 1495076530:0;make
+: 1495077062:0;exec zsh
+: 1495077064:0;clear
+: 1495077064:0;ls
+: 1495077065:0;make
+: 1495077655:0;iclear
+: 1495077655:0;s
+: 1495077656:0;clear
+: 1495077656:0;s
+: 1495077657:0;d
+: 1495077662:0;git checkout
+: 1495077663:0;clear
+: 1495077663:0;s
+: 1495077668:0;git stash
+: 1495077669:0;clear
+: 1495077669:0;s
+: 1495077675:0;rm a3search.c
+: 1495077676:0;clear
+: 1495077676:0;s
+: 1495077682:0;rm a3search_util.c
+: 1495077683:0;clear
+: 1495077683:0;s
+: 1495077686:0;clear
+: 1495077690:0;a a3stemmer.h
+: 1495077693:0;clear
+: 1495077693:0;s
+: 1495077698:0;clear
+: 1495077699:0;s
+: 1495077701:0;clear
+: 1495077705:0;vim a3search.cpp
+: 1495077737:0;rm *.my
+: 1495077738:0;clear
+: 1495077738:0;s
+: 1495077755:0;rm a3stemming.h
+: 1495077756:0;clear
+: 1495077756:0;s
+: 1495078587:0;make
+: 1495079493:0;imports/ui
+: 1495079494:0;make
+: 1495080047:0;imports/ui
+: 1495080049:0;make
+: 1495081349:0;make clean
+: 1495081350:0;make
+: 1495081352:0;ls
+: 1495081358:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495081378:0;./a3search test1 dummy.idx "invest"
+: 1495081398:0;make test
+: 1495081404:0;make test1
+: 1495081442:0;ls dummy.idx
+: 1495081444:0;ls
+: 1495081449:0;rm stemmer test
+: 1495081450:0;clear
+: 1495081450:0;ls
+: 1495081456:0;rm *.gch
+: 1495081456:0;s
+: 1495081458:0;clear
+: 1495081458:0;s
+: 1495081467:0;git branch
+: 1495081468:0;clear
+: 1495081468:0;s
+: 1495081474:0;git branch inverted
+: 1495081479:0;git checkout inverted
+: 1495081480:0;clear
+: 1495081480:0;s
+: 1495081495:0;git rm test.cpp stemmer.h.gch
+: 1495081502:0;git rm *.my
+: 1495081503:0;clear
+: 1495081503:0;s
+: 1495081508:0;git rm a3stemming.h.my
+: 1495081514:0;git rm a3search
+: 1495081515:0;clear
+: 1495081515:0;s
+: 1495081521:0;git rm -f a3search
+: 1495081522:0;clear
+: 1495081522:0;s
+: 1495081527:0;git rm -f *.my
+: 1495081528:0;clear
+: 1495081528:0;s
+: 1495081534:0;git rm -f a3search.h.my
+: 1495081538:0;git rm -f a3stemming.h.my
+: 1495081539:0;clear
+: 1495081539:0;s
+: 1495081548:0;git rm -f stemmer
+: 1495081549:0;clear
+: 1495081549:0;s
+: 1495081553:0;clear
+: 1495081553:0;s
+: 1495081554:0;.
+: 1495081557:0;./a3search test1 dummy.idx "invest"
+: 1495081559:0;make test1
+: 1495081670:0;ls dummy
+: 1495081674:0;ls * | grep dummy
+: 1495081675:0;ls
+: 1495081783:0;make test1
+: 1495081877:0;ils
+: 1495081878:0;ls
+: 1495081906:0;make test1
+: 1495082104:0;d a3search.cpp
+: 1495082138:0;make
+: 1495082141:0;make test1
+: 1495082159:0;ls
+: 1495082161:0;ls dummy.idx
+: 1495082165:0;vim dummy.idx/0
+: 1495082169:0;cd dummy.idx
+: 1495082169:0;ls
+: 1495082171:0;cat 0
+: 1495082174:0;xxd 0
+: 1495082176:0;xdd 1
+: 1495082179:0;xxd 1
+: 1495082180:0;xxd 2
+: 1495082183:0;xxd 3
+: 1495082184:0;xxd 4
+: 1495082185:0;xxd 5
+: 1495082186:0;xxd 6
+: 1495082187:0;xxd 7
+: 1495082188:0;xxd 8
+: 1495082189:0;xxd 9
+: 1495082316:0;xdd counts
+: 1495082321:0;xxd counts
+: 1495082379:0;xxd words
+: 1495082386:0;ls
+: 1495084879:0;make test1
+: 1495084885:0;cd ..
+: 1495084887:0;make test1
+: 1495085376:0;m
+: 1495085378:0;make test1
+: 1495085957:0;cat dummy.idx/words
+: 1495085961:0;xxd dummy.idx/words
+: 1495085963:0;xxd dummy.idx/counts
+: 1495086033:0;make test1
+: 1495086087:0;cat dummy.idx/words
+: 1495086116:0;make test1
+: 1495086602:0;xxd dummy.idx/counts
+: 1495086607:0;rm dummy.idx
+: 1495086611:0;make test1
+: 1495086676:0;rm dummy.idx
+: 1495086679:0;make test1
+: 1495091082:0;grep "apple" test1
+: 1495091084:0;grep "apple" test1/*
+: 1495091087:0;grep -i "apple" test1/*
+: 1495091138:0;make test1
+: 1495091185:0;cat dummy.idx/1
+: 1495091190:0;xxd dummy.idx/1
+: 1495091193:0;xxd dummy.idx/*
+: 1495091199:0;cat dummy.idx/*
+: 1495091204:0;cat dummy.idx/words
+: 1495091207:0;cat dummy.idx/counts
+: 1495091279:0;make test1
+: 1495091295:0;cat dummy.idx/1
+: 1495091298:0;xxd dummy.idx/1
+: 1495091300:0;xxd dummy.idx/2
+: 1495091303:0;xxd dummy.idx/3
+: 1495091315:0;xxd dummy.idx/words
+: 1495091330:0;make test1
+: 1495091349:0;cat dummy.idx/words
+: 1495091371:0;cat dummy.idx/counts
+: 1495091373:0;xxd dummy.idx/counts
+: 1495091466:0;make test1
+: 1495091473:0;xxd dummy.idx/counts
+: 1495091484:0;make test1
+: 1495092107:0;grep -i "apple" test1/*
+: 1495092137:0;make test1
+: 1495093588:0;xxd dummy.idx/words
+: 1495093690:0;make test1
+: 1495093737:0;xxd dummy.idx/words
+: 1495093779:0;make test1
+: 1495093785:0;xxd dummy.idx/words
+: 1495093840:0;make test1
+: 1495093959:0;./a3search test1 dummy.idx "invest"
+: 1495093966:0;./a3search test1 dummy.idx "investor"
+: 1495093968:0;./a3search test1 dummy.idx "investors"
+: 1495093979:0;grep -i "invest" test1/*
+: 1495094004:0;xxd dummy.idx/words
+: 1495094043:0;xxd dummy.idx/counts
+: 1495094115:0;make test1
+: 1495094134:0;./a3search test1 dummy.idx "investors"
+: 1495094137:0;./a3search test1 dummy.idx "invest"
+: 1495094139:0;rm dummy.idx
+: 1495094140:0;./a3search test1 dummy.idx "invest"
+: 1495094153:0;grep -i "invest" test1/*
+: 1495094208:0;grep -i "invest " test1/*
+: 1495094216:0;grep -i "apple " test1/*
+: 1495094224:0;grep -i "apple" test1/*
+: 1495094235:0;grep -i "invest" test1/*
+: 1495094322:0;make test1
+: 1495094330:0;./a3search test1 dummy.idx "invest"
+: 1495094357:0;./a3search test1 dummy.idx "are"
+: 1495094385:0;make test1
+: 1495094388:0;./a3search test1 dummy.idx "are"
+: 1495094393:0;./a3search test1 dummy.idx "invest"
+: 1495094411:0;grep -i "invest" test1/*
+: 1495094434:0;cd test1
+: 1495094434:0;ls
+: 1495094439:0;cat *
+: 1495094443:0;cat * | grep invest
+: 1495094449:0;cat * | grep -i invest
+: 1495094455:0;clear
+: 1495094456:0;cd ..
+: 1495094457:0;clear
+: 1495094457:0;ls
+: 1495094459:0;rm dummy.idx
+: 1495094462:0;make test1
+: 1495094730:0;./a3search test1 dummy.idx "invest"
+: 1495094742:0;./a3search test1 dummy.idx "investors"
+: 1495094748:0;./a3search test1 dummy.idx "apple"
+: 1495094751:0;./a3search test1 dummy.idx "iphone"
+: 1495094759:0;grep -i "iphone" test1/*
+: 1495094795:0;make test1
+: 1495094799:0;./a3search test1 dummy.idx "iphone"
+: 1495094801:0;./a3search test1 dummy.idx "iphones"
+: 1495094822:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495094831:0;grep -i "iphone.*apple" test1/*
+: 1495094839:0;grep -i "apple.*iphone" test1/*
+: 1495094862:0;./a3search test1 dummy.idx "iphone"
+: 1495094868:0;./a3search test1 dummy.idx "apple"
+: 1495094901:0;make test1
+: 1495094909:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495094936:0;make test1
+: 1495094944:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495095053:0;make test1
+: 1495095056:0;./
+: 1495095059:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495095117:0;make test1
+: 1495095124:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495095181:0;make test1
+: 1495095186:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495095248:0;make test1
+: 1495095253:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495095277:0;make test1
+: 1495095377:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495095403:0;make test1
+: 1495095407:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495095412:0;./a3search test1 dummy.idx "invest"
+: 1495095468:0;make test1
+: 1495095472:0;./a3search test1 dummy.idx "invest"
+: 1495095492:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495095499:0;rm ~/Documents/SearchData/sample.idx
+: 1495095502:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495095536:0;rm ~/Documents/SearchData/sample.idx
+: 1495095583:0;make test1
+: 1495095624:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495095695:0;q
+: 1495095794:0;ls
+: 1495095797:0;cd ~/Documents/SearchData/
+: 1495095798:0;ls
+: 1495095799:0;cd sample
+: 1495095800:0;.
+: 1495095802:0;cd ..
+: 1495095803:0;clear
+: 1495095803:0;ls
+: 1495095806:0;cd sample
+: 1495095812:0;../sample.idx
+: 1495095812:0;.
+: 1495095816:0;du -hs
+: 1495095821:0;cd ..
+: 1495095823:0;cd sample
+: 1495095825:0;du -hs
+: 1495095827:0;cd ..
+: 1495095879:0;head 9999
+: 1495095881:0;ls
+: 1495095884:0;cd idx
+: 1495095885:0;cd sample.idx
+: 1495095889:0;head 9999
+: 1495095894:0;head 10000
+: 1495095900:0;ls | sort -n
+: 1495095904:0;head 10159
+: 1495095912:0;cd ../sample
+: 1495095917:0;ls | tail
+: 1495095922:0;head apus
+: 1495096250:0;clear
+: 1495096251:0;s
+: 1495096260:0;ls
+: 1495096261:0;cd ..
+: 1495096263:0;cd sample.idx
+: 1495096264:0;clear
+: 1495096265:0;ls
+: 1495096266:0;clear
+: 1495096269:0;du -hs counts
+: 1495096273:0;du -hs words
+: 1495096278:0;cd ../sample
+: 1495096288:0;du -hs *
+: 1495096292:0;du -hs
+: 1495096296:0;cd ../sample.idx
+: 1495096301:0;du -hs words counts
+: 1495096311:0;du -hs 
+: 1495096348:0;rm ~/Documents/SearchData/sample.idx
+: 1495096350:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495097481:0;ls | wc -l
+: 1495097483:0;ls
+: 1495097490:0;cd ..
+: 1495097492:0;cd sample.idx
+: 1495097493:0;ls
+: 1495097496:0;ls | wc -l
+: 1495097506:0;cd ../
+: 1495097507:0;cd sample
+: 1495097515:0;ls | grep -n ""
+: 1495097524:0;ls | grep -n "" | grep altsexfetishfasion
+: 1495097529:0;ls | grep -n "" | grep alud
+: 1495097533:0;ls | grep -n "" | grep "alud"
+: 1495097537:0;ls | grep -n ""
+: 1495097547:0;ls | grep -n "" | grep "alvy"
+: 1495097559:0;ls | grep -n "" | grep "amad"
+: 1495097874:0;ls | grep -n "" | grep "anggie"
+: 1495097877:0;ls | grep -n "" | grep "angie"
+: 1495102626:0;clear
+: 1495102627:0;s
+: 1495102636:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495102680:0;cat ~/Documents/SearchData/sample/apurímac_region | grep "apple"
+: 1495102682:0;cat ~/Documents/SearchData/sample/apurímac_region | grep "appl"
+: 1495102686:0;clear
+: 1495102687:0;ls
+: 1495102690:0;rm ~/Documents/SearchData/sample.idx
+: 1495102702:0;clear
+: 1495102703:0;s
+: 1495102707:0;rm dummy.idx
+: 1495102707:0;.
+: 1495102710:0;rm a.out
+: 1495102710:0;.
+: 1495102844:0;make test1
+: 1495103241:0;clear
+: 1495103242:0;s
+: 1495103248:0;git rm a3stemming.h
+: 1495103249:0;clear
+: 1495103249:0;s
+: 1495103254:0;git rm -f dummy.idx
+: 1495103258:0;git rm -fr dummy.idx
+: 1495103259:0;clear
+: 1495103259:0;s
+: 1495103263:0;vim .gitignore
+: 1495103272:0;clear
+: 1495103272:0;s
+: 1495103279:0;a .gitignore
+: 1495103285:0;m "Removing"
+: 1495103286:0;clear
+: 1495103286:0;s
+: 1495103289:0;z
+: 1495103290:0;clear
+: 1495103290:0;s
+: 1495103291:0;d
+: 1495103295:0;clear
+: 1495103296:0;d
+: 1495103304:0;clear
+: 1495103304:0;s
+: 1495103310:0;d a3search.cpp
+: 1495103314:0;clear
+: 1495103314:0;s
+: 1495103316:0;make test1
+: 1495103325:0;clear
+: 1495103326:0;make test1
+: 1495103607:0;./a3search test1 dummy.idx "invest"
+: 1495103610:0;rm dummy.idx
+: 1495103611:0;./a3search test1 dummy.idx "invest"
+: 1495103634:0;make test1
+: 1495103665:0;s
+: 1495103669:0;git add a3search.
+: 1495103671:0;git add a3search.*
+: 1495103672:0;clear
+: 1495103672:0;s
+: 1495103684:0;m "WORKING, SLOWLY WITHOUT MEMORY CONSTRAINTS"
+: 1495103685:0;clear
+: 1495103686:0;p
+: 1495103688:0;clear
+: 1495103690:0;s
+: 1495103699:0;ls dummy.idx
+: 1495103707:0;cat wordnet-blast
+: 1495103713:0;cat  dummy.idx/words
+: 1495103727:0;xxd dummy.idx/words
+: 1495103730:0;clear
+: 1495103747:0;d
+: 1495103749:0;clear
+: 1495103749:0;s
+: 1495103753:0;cat test.cpp.broken
+: 1495103757:0;mv test.cpp.broken ..
+: 1495103758:0;clear
+: 1495103758:0;s
+: 1495103759:0;m
+: 1495103760:0;clear
+: 1495103801:0;make test1
+: 1495104378:0;xxd dummy.idx/1
+: 1495104379:0;xxd dummy.idx/2
+: 1495104385:0;xxd dummy.idx/3
+: 1495104560:0;make test1
+: 1495104803:0;grep -i "apple" test1/*
+: 1495104829:0;./a3search test1 dummy.idx "invest"
+: 1495104839:0;grep -i "invest" test1/*
+: 1495105274:0;make test1
+: 1495105353:0;./a3search test1 dummy.idx "invest"
+: 1495105360:0;grep -i "invest" test1/*
+: 1495105377:0;grep -i "iphone" test1/*
+: 1495105384:0;./a3search test1 dummy.idx "iphone"
+: 1495105395:0;./a3search test1 dummy.idx "purple"
+: 1495105451:0;ls test1/
+: 1495105463:0;rm test1/file8.txt
+: 1495105467:0;make test1
+: 1495105472:0;make test
+: 1495105492:0;clear
+: 1495105494:0;make test1
+: 1495105496:0;./a3search test1 dummy.idx "purple"
+: 1495105503:0;make clean
+: 1495105506:0;make test
+: 1495105508:0;make test1
+: 1495105543:0;make test
+: 1495105551:0;./a3search test1 dummy.idx "invest"
+: 1495105561:0;grep -i "invest"
+: 1495105564:0;grep -i "invest" test1/*
+: 1495105587:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495105604:0;grep -i "apple.*iphone" test1/*
+: 1495105623:0;d
+: 1495105631:0;clear
+: 1495105631:0;s
+: 1495105635:0;a makefile
+: 1495105636:0;clear
+: 1495105636:0;s
+: 1495105645:0;git rm -rf test1/file8.txt
+: 1495105646:0;clear
+: 1495105646:0;s
+: 1495105648:0;d
+: 1495105730:0;make test
+: 1495105859:0;vim wk11_lecture.md
+: 1495106064:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495106069:0;grep -i "apple.*iphone" test1/*
+: 1495106134:0;make test
+: 1495106146:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495106157:0;./a3search test1 dummy.idx "iphone"
+: 1495106162:0;./a3search test1 dummy.idx "apple
+: 1495106164:0;./a3search test1 dummy.idx "apple"
+: 1495106170:0;grep -i "apple.*iphone" test1/*
+: 1495106208:0;make test
+: 1495106271:0;./a3search test1 dummy.idx "apple" "iphone"
+: 1495106276:0;grep -i "apple.*iphone" test1/*
+: 1495106291:0;grep -i "iphone" test1/*
+: 1495106296:0;./a3search test1 dummy.idx "iphone"
+: 1495106313:0;make test
+: 1495107160:0;./a3search test1 dummy.idx "apps"
+: 1495107167:0;grep -i "apps" test1/*
+: 1495107172:0;time grep -i "apps" test1/*
+: 1495107176:0;time ./a3search test1 dummy.idx "apps"
+: 1495107189:0;time ./a3search test1 dummy.idx "iphone"
+: 1495107195:0;time grep -i "iphone" test1/*
+: 1495107273:0;make test
+: 1495107293:0;./a3search test1 dummy.idx "iphone"
+: 1495107302:0;grep -i "iphone" test1/*
+: 1495107331:0;make test
+: 1495107977:0;grep -i "apps" test1/
+: 1495107980:0;grep -i "apps" test1/*
+: 1495107988:0;grep -i "sales" test1/*
+: 1495107994:0;grep -i "their" test1/*
+: 1495108001:0;grep -i "to" test1/*
+: 1495108058:0;make test
+: 1495108390:0;./a3search test1 dummy.idx "iphone"
+: 1495108414:0;xxd dummy.idx/words
+: 1495108424:0;./a3search test1 dummy.idx "iphone"
+: 1495108428:0;rm dummy.idx
+: 1495108430:0;./a3search test1 dummy.idx "iphone"
+: 1495108508:0;make test
+: 1495108511:0;./a3search test1 dummy.idx "iphone"
+: 1495108521:0;make test
+: 1495108542:0;rm dummy.idx
+: 1495108545:0;./a3search test1 dummy.idx "iphone"
+: 1495108564:0;make test
+: 1495108570:0;./a3search test1 dummy.idx "iphone"
+: 1495108598:0;make test
+: 1495108737:0;./a3search test1 dummy.idx "iphone"
+: 1495108747:0;make test
+: 1495108784:0;d
+: 1495108827:0;make test
+: 1495108892:0;./a3search test1 dummy.idx "iphone"
+: 1495108928:0;make test
+: 1495108966:0;grep -i "to" test1/*
+: 1495108970:0;grep -i "iphone" test1/*
+: 1495109041:0;make test
+: 1495109610:0;./a3search test1 dummy.idx "iphone"
+: 1495109636:0;make test
+: 1495109728:0;./a3search test1 dummy.idx "iphone"
+: 1495109732:0;grep -i "iphone" test1/*
+: 1495109756:0;grep -i "apps" test1/*
+: 1495109780:0;rm dummy.idx
+: 1495109783:0;./a3search test1 dummy.idx "iphone"
+: 1495109831:0;make test
+: 1495109834:0;./a3search test1 dummy.idx "iphone"
+: 1495109842:0;d
+: 1495109860:0;git stash
+: 1495109969:0;make test
+: 1495109973:0;./a3search test1 dummy.idx "iphone"
+: 1495109985:0;make test
+: 1495109988:0;./a3search test1 dummy.idx "iphone"
+: 1495109999:0;grep -i "iphone" test1/*
+: 1495110009:0;s
+: 1495110010:0;clear
+: 1495110012:0;d
+: 1495110036:0;make test
+: 1495110065:0;./a3search test1 dummy.idx "iphone"
+: 1495110067:0;s
+: 1495110068:0;d
+: 1495110083:0;a makefile
+: 1495110086:0;a a3search.cpp
+: 1495110095:0;m "remove unneeded binary"
+: 1495110096:0;clear
+: 1495110096:0;s
+: 1495110150:0;make test
+: 1495110154:0;./a3search test1 dummy.idx "iphone"
+: 1495110162:0;./a3search test1 dummy.idx "app"
+: 1495110163:0;./a3search test1 dummy.idx "apps"
+: 1495110168:0;grep -i "iphone" test1/*
+: 1495110171:0;grep -i "apps" test1/*
+: 1495110189:0;make test
+: 1495110191:0;./a3search test1 dummy.idx "apps"
+: 1495110207:0;make test
+: 1495110210:0;./a3search test1 dummy.idx "apps"
+: 1495110215:0;./a3search test1 dummy.idx "iphone"
+: 1495110251:0;make test
+: 1495110254:0;./a3search test1 dummy.idx "iphone"
+: 1495110277:0;make test
+: 1495110279:0;./a3search test1 dummy.idx "iphone"
+: 1495110286:0;mv a3search sample
+: 1495110307:0;make test
+: 1495110310:0;./a3search test1 dummy.idx "iphone"
+: 1495110431:0;make test
+: 1495110434:0;./a3search test1 dummy.idx "iphone"
+: 1495110443:0;./sample test1 dummy.idx "iphone"
+: 1495110448:0;rm dummy.idx/*
+: 1495110451:0;./sample test1 dummy.idx "iphone"
+: 1495110455:0;rm dummy.idx
+: 1495110456:0;./sample test1 dummy.idx "iphone"
+: 1495110473:0;cat test1/file1.txt
+: 1495110478:0;cat test1/file4.txt
+: 1495110481:0;cat test1/file6.txt
+: 1495110484:0;cat test1/file8.txt
+: 1495110552:0;make test
+: 1495110555:0;./sample test1 dummy.idx "iphone"
+: 1495110583:0;make test
+: 1495110586:0;./sample test1 dummy.idx "iphone"
+: 1495110598:0;make test
+: 1495110601:0;./sample test1 dummy.idx "iphone"
+: 1495110653:0;make test
+: 1495110655:0;./sample test1 dummy.idx "iphone"
+: 1495110665:0;make test
+: 1495110667:0;./sample test1 dummy.idx "iphone"
+: 1495110670:0;rm dummy.idx
+: 1495110672:0;./sample test1 dummy.idx "iphone"
+: 1495110680:0;./a3search test1 dummy.idx "iphone"
+: 1495110683:0;rm dummy.idx/*
+: 1495110685:0;rm dummy.idx
+: 1495110687:0;./a3search test1 dummy.idx "iphone"
+: 1495110707:0;make test
+: 1495110709:0;./a3search test1 dummy.idx "iphone"
+: 1495110971:0;make test
+: 1495110975:0;./a3search test1 dummy.idx "iphone"
+: 1495111001:0;make test
+: 1495111069:0;cat dummy.idx/1
+: 1495111071:0;cat dummy.idx/3
+: 1495111074:0;xxd dummy.idx/3
+: 1495111100:0;xxd dummy.idx/4
+: 1495111102:0;xxd dummy.idx/5
+: 1495111105:0;xxd dummy.idx/6
+: 1495111106:0;xxd dummy.idx/7
+: 1495111107:0;xxd dummy.idx/8
+: 1495111113:0;clear
+: 1495111132:0;make test
+: 1495111153:0;./a3search test1 dummy.idx "iphone"
+: 1495111170:0;make test
+: 1495111174:0;./a3search test1 dummy.idx "iphone"
+: 1495111179:0;./sample test1 dummy.idx "iphone"
+: 1495111184:0;rm dummy.idx
+: 1495111186:0;./sample test1 dummy.idx "iphone"
+: 1495111192:0;./a3search test1 dummy.idx "iphone"
+: 1495111334:0;make test
+: 1495111337:0;./a3search test1 dummy.idx "iphone"
+: 1495111377:0;make test
+: 1495111379:0;./a3search test1 dummy.idx "iphone"
+: 1495111419:0;make test
+: 1495111482:0;./a3search test1 dummy.idx "iphone"
+: 1495111497:0;make test
+: 1495111499:0;./a3search test1 dummy.idx "iphone"
+: 1495111506:0;make test
+: 1495111508:0;./a3search test1 dummy.idx "iphone"
+: 1495111517:0;make test
+: 1495111520:0;./a3search test1 dummy.idx "iphone"
+: 1495111605:0;make test
+: 1495111608:0;./a3search test1 dummy.idx "iphone"
+: 1495111615:0;make test
+: 1495111618:0;./a3search test1 dummy.idx "iphone"
+: 1495111631:0;rm dummy.idx
+: 1495111632:0;./a3search test1 dummy.idx "iphone"
+: 1495111637:0;./a3search test1 dummy.idx "apps"
+: 1495111644:0;./a3search test1 dummy.idx "apple"
+: 1495111649:0;./a3search test1 dummy.idx "investor"
+: 1495111650:0;./a3search test1 dummy.idx "investors"
+: 1495111661:0;make test
+: 1495111664:0;./a3search test1 dummy.idx "investors"
+: 1495111668:0;./a3search test1 dummy.idx "apps"
+: 1495111671:0;./a3search test1 dummy.idx "iphone"
+: 1495111682:0;make test
+: 1495111685:0;./a3search test1 dummy.idx "iphone"
+: 1495111696:0;m
+: 1495111699:0;make test
+: 1495111702:0;./a3search test1 dummy.idx "iphone"
+: 1495111711:0;make test
+: 1495111714:0;./a3search test1 dummy.idx "iphone"
+: 1495111717:0;rm dummy.idx
+: 1495111718:0;./a3search test1 dummy.idx "iphone"
+: 1495111721:0;make test
+: 1495111723:0;./a3search test1 dummy.idx "iphone"
+: 1495111733:0;make test
+: 1495111738:0;./a3search test1 dummy.idx "iphone"
+: 1495111750:0;make test
+: 1495111753:0;./a3search test1 dummy.idx "iphone"
+: 1495111773:0;clear
+: 1495111773:0;s
+: 1495111774:0;d
+: 1495111777:0;rm sample
+: 1495111778:0;clear
+: 1495111778:0;s
+: 1495111779:0;d
+: 1495111786:0;s
+: 1495111789:0;a a3search.cpp
+: 1495111799:0;m "Use a file stream pool for speed"
+: 1495111799:0;clear
+: 1495111800:0;s
+: 1495111942:0;make test
+: 1495112039:0;./a3search test1 dummy.idx "iphone"
+: 1495112041:0;s
+: 1495112042:0;d
+: 1495112051:0;a .
+: 1495112054:0;m "Cleaned"
+: 1495112055:0;clear
+: 1495112124:0;make test
+: 1495112194:0;./a3search test1 dummy.idx "iphone"
+: 1495112244:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495112608:0;clear
+: 1495112617:0;make test
+: 1495112837:0;./a3search test1 dummy.idx "iphone"
+: 1495112874:0;make test
+: 1495112976:0;cat test1/file1.txt
+: 1495112999:0;make test
+: 1495113209:0;./a3search test1 dummy.idx "iphone"
+: 1495113215:0;rm dummy.idx/*
+: 1495113217:0;rm dummy.idx
+: 1495113221:0;make test
+: 1495113222:0;./a3search test1 dummy.idx "iphone"
+: 1495113224:0;rm dummy.idx
+: 1495113225:0;./a3search test1 dummy.idx "iphone"
+: 1495113313:0;make test
+: 1495113316:0;./a3search test1 dummy.idx "iphone"
+: 1495113363:0;make test
+: 1495113634:0;./a3search test1 dummy.idx "iphone"
+: 1495113697:0;make test
+: 1495113761:0;./a3search test1 dummy.idx "iphone"
+: 1495113765:0;s
+: 1495113766:0;d
+: 1495113777:0;ls dummy.idx
+: 1495113783:0;du -hs dummy.idx/*
+: 1495113820:0;a a3search.cpp
+: 1495113820:0;s
+: 1495113828:0;m "Use a single token file"
+: 1495113829:0;.
+: 1495113874:0;make test
+: 1495113885:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495113889:0;rm ~/Documents/SearchData/sample.idx
+: 1495113901:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495113970:0;rm ~/Documents/SearchData/sample.idx
+: 1495113972:0;make test
+: 1495113992:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495114176:0;clear
+: 1495114176:0;s
+: 1495114178:0;rm ~/Documents/SearchData/sample.idx
+: 1495114189:0;./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "apple"
+: 1495114232:0;z Doc
+: 1495114238:0;cd sample
+: 1495114241:0;cd SearchData
+: 1495114242:0;cd smaller
+: 1495114245:0;du -hs
+: 1495114248:0;cd ..
+: 1495114253:0;cd smaller.idx
+: 1495114254:0;.
+: 1495114256:0;du -hs
+: 1495114266:0;du -hs ../smaller
+: 1495114330:0;./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "apple"
+: 1495114355:0;grep "apple" ~/Documents/SearchData/smaller/al-waleed_bin_talal
+: 1495114366:0;grep -i  ~/Documents/SearchData/smaller/al-waleed_bin_talal "apple"
+: 1495114372:0;grep -i "apple" ~/Documents/SearchData/smaller/al-waleed_bin_talal
+: 1495114390:0;./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "News" "Corporation"
+: 1495114405:0;grep -i "News" ~/Documents/SearchData/smaller/albert_cheng
+: 1495114413:0;./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "News" "Corporation" "Because"
+: 1495114433:0;grep -i "News" ~/Documents/SearchData/smaller/alan_yentob | grep "Corporation" "Because"
+: 1495114438:0;grep -i "News" ~/Documents/SearchData/smaller/alan_yentob | grep "Corporation" | grep "Because"
+: 1495114449:0;grep -i "News" ~/Documents/SearchData/smaller/alan_yentob 
+: 1495114458:0;grep -i "Corporation" ~/Documents/SearchData/smaller/alan_yentob 
+: 1495114464:0;grep -i "Because" ~/Documents/SearchData/smaller/alan_yentob 
+: 1495114469:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "News" "Corporation" "Because"
+: 1495114488:0;du -hs *
+: 1495147924:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "News" "Corporation" "Because"
+: 1495147933:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "wolf" "cry" "bog"
+: 1495147935:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "wolf" "cry" "boy"
+: 1495147946:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "wolf" "cry"
+: 1495147952:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "wolf" "bo"
+: 1495147954:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "wolf" "boy"
+: 1495147957:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "wolf"
+: 1495147995:0;grep -i "wolf" ~/Documents/SearchData/smaller/alaskan_husky
+: 1495148024:0;less ~/Documents/SearchData/smaller/alaskan_husky
+: 1495148046:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "wolf" "male"
+: 1495148055:0;s
+: 1495148056:0;d
+: 1495148070:0;clear
+: 1495148071:0;d
+: 1495148088:0;du -hs *
+: 1495148091:0;rm tokenized
+: 1495148093:0;clear
+: 1495148095:0;du -hs *
+: 1495148097:0;cd ..
+: 1495148098:0;du -hs *
+: 1495148115:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "wolf" "male"
+: 1495148140:0;q
+: 1495148984:0;d
+: 1495148993:0;./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "News" "Corporation" "Because"
+: 1495148996:0;time ./a3search ~/Documents/SearchData/smaller ~/Documents/SearchData/smaller.idx "News" "Corporation" "Because"
+: 1495149026:0;time grep -i "News.*Corporation.*Because" ~/Documents/SearchData/smaller/*
+: 1495149178:0;time grep -i -A100 -B100 "News" ~/Documents/SearchData/smaller/*
+: 1495149199:0;time grep -i -A100 -B100 "News" ~/Documents/SearchData/smaller/* | grep -i -A100 -B100 "Corporation"
+: 1495149212:0;time 'grep -i -A100 -B100 "News" ~/Documents/SearchData/smaller/* | grep -i -A100 -B100 "Corporation"'
+: 1495149226:0;time $(grep -i -A100 -B100 "News" ~/Documents/SearchData/smaller/* | grep -i -A100 -B100 "Corporation")
+: 1495149240:0;time $(grep -i -A100 -B100 "News" ~/Documents/SearchData/smaller/* | grep -i -A100 -B100 "News")
+: 1495149247:0;clear
+: 1495149248:0;.
+: 1495149249:0;s
+: 1495149249:0;.
+: 1495149263:0;clear
+: 1495149264:0;d
+: 1495149463:0;clear
+: 1495149463:0;d
+: 1495149528:0;a .
+: 1495149529:0;s
+: 1495149534:0;m "Updated todos"
+: 1495149535:0;clear
+: 1495149661:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495150029:0;z sample
+: 1495150031:0;ls
+: 1495150036:0;ls | wc -l
+: 1495150043:0;cd ../sample.idx
+: 1495150048:0;ls | wc -l
+: 1495150052:0;du -hs *
+: 1495150065:0;watch "du -hs *"
+: 1495150114:0;cd ../sample
+: 1495150116:0;du -hs
+: 1495150158:0;cd ../sample.idx
+: 1495150161:0;wc -l words
+: 1495150171:0;ls | wc -l
+: 1495150178:0;q
+: 1495150315:0;wc -l words
+: 1495150325:0;ls ../sample | wc -l
+: 1495150372:0;ls ../sample/*ing | wc -l
+: 1495150375:0;ls ../sample/*es | wc -l
+: 1495150377:0;ls ../sample/*ed | wc -l
+: 1495150382:0;ls ../sample/*ion | wc -l
+: 1495150386:0;ls ../sample/*ition | wc -l
+: 1495150389:0;ls ../sample/*ation | wc -l
+: 1495150687:0;ps -ef | grep -i "insync"
+: 1495150693:0;pkill 501
+: 1495150698:0;sudo pkill 501
+: 1495150714:0;sudo pkill 459
+: 1495150718:0;sudo pkill 440
+: 1495150725:0;pkill Insync
+: 1495150730:0;ps -ef | grep -i "insync"
+: 1495150735:0;sudo pkill Insync
+: 1495150737:0;ps -ef | grep -i "insync"
+: 1495150744:0;clear
+: 1495151168:0;s
+: 1495151171:0;du -hs
+: 1495151174:0;du -hs *
+: 1495151323:0;wc -l words
+: 1495151332:0;ls ../sample/ | wc -l
+: 1495151680:0;wc -l words
+: 1495151825:0;watch "du -hs *; wc -l words"
+: 1495151863:0;watch "du -hs *; wc -w words"
+: 1495155222:0;cd -
+: 1495155224:0;cd -2
+: 1495155230:0;z a3
+: 1495155233:0;clear
+: 1495155233:0;s
+: 1495155236:0;make test1
+: 1495155239:0;make test
+: 1495155286:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "apple"
+: 1495155299:0;./a3search test1 dummy.idx "invest"
+: 1495155302:0;./a3search test1 dummy.idx "investors"
+: 1495155310:0;./a3search test1 dummy.idx "iphone"
+: 1495155315:0;grep -i "apple.*iphone" test1/*
+: 1495155319:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495155325:0;clear
+: 1495156009:0;make test
+: 1495156280:0;xxd dummy.idx/tokenized
+: 1495156352:0;make test
+: 1495157050:0;rm dummy.idx
+: 1495157051:0;make test
+: 1495157168:0;wc -c dummy.idx/tokenized
+: 1495157298:0;make test
+: 1495157851:0;xxd dummy.idx/words
+: 1495157904:0;make test
+: 1495157988:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495157995:0;du -hs dummy.idx/*
+: 1495158026:0;make test
+: 1495158029:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495158042:0;cat test1/*
+: 1495158066:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495158070:0;rm ~/Documents/SearchData/sample.idx
+: 1495158079:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495158085:0;watch "du -hs *; wc -w words"
+: 1495158104:0;ls
+: 1495158113:0;cd ../smaller
+: 1495158117:0;watch "du -hs *; wc -w words"
+: 1495158122:0;cd ../smaller.idx
+: 1495158125:0;watch "du -hs *; wc -w words"
+: 1495158132:0;ls
+: 1495158149:0;clear
+: 1495158150:0;ls
+: 1495158151:0;rm ~/Documents/SearchData/sample.idx
+: 1495158155:0;cd ../sample
+: 1495158158:0;cd ../sample.idx
+: 1495158159:0;clear
+: 1495158161:0;cd ../
+: 1495158161:0;ls
+: 1495158171:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495158175:0;clear
+: 1495158175:0;ls
+: 1495158180:0;cd sample.idx
+: 1495158182:0;watch "du -hs *; wc -w words"
+: 1495158189:0;cd ../sample
+: 1495158191:0;du -hs
+: 1495158209:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495158220:0;rm ~/Documents/SearchData/sample.idx
+: 1495158223:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495158226:0;cd ../sample.idx
+: 1495158230:0;watch "du -hs *; wc -w words"
+: 1495158281:0;rm ~/Documents/SearchData/sample.idx
+: 1495158287:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495158289:0;ls
+: 1495158291:0;ls | wc -l
+: 1495158296:0;cd ..
+: 1495158297:0;ls
+: 1495158299:0;cd out
+: 1495158302:0;ls | wc -l
+: 1495158306:0;q
+: 1495158331:0;make test
+: 1495158334:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495158342:0;clear
+: 1495158342:0;clea
+: 1495158354:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "News" "Corporation" "Because"
+: 1495158359:0;cd ../out.idx
+: 1495158362:0;watch "du -hs *; wc -w words"
+: 1495158370:0;cd ../out
+: 1495158372:0;du -hs
+: 1495158454:0;clear
+: 1495158455:0;s
+: 1495158457:0;d
+: 1495158462:0;a a3search.cpp
+: 1495158482:0;m "Used 'zero skipping' to save a tonne of space"
+: 1495158484:0;s
+: 1495158485:0;clear
+: 1495158485:0;s
+: 1495161132:0;z ML
+: 1495161133:0;.
+: 1495161136:0;cd 20Qs
+: 1495161137:0;.
+: 1495161140:0;p
+: 1495161148:0;git pull
+: 1495161155:0;clear
+: 1495161156:0;s
+: 1495161160:0;rm __pycache__
+: 1495161161:0;s
+: 1495161162:0;clear
+: 1495161162:0;s
+: 1495161167:0;cd app
+: 1495161169:0;ls
+: 1495161176:0;cd ..
+: 1495161177:0;cd storageClasses
+: 1495161177:0;.
+: 1495161180:0;vim Entry.py
+: 1495161419:0;rm ~/Documents/SearchData/out.idx
+: 1495161420:0;.
+: 1495161423:0;clear
+: 1495161429:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495161435:0;rm ~/Documents/SearchData/*.idx
+: 1495161437:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495161457:0;q
+: 1495161466:0;clear
+: 1495161467:0;s
+: 1495161468:0;q
+: 1495161686:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495161706:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "News" "Corporation" "Because"
+: 1495161955:0;sudo pip install flask_sqlalchemy
+: 1495161961:0;sudo pip3 install flask_sqlalchemy
+: 1495161970:0;pip3 install flask_sqlalchemy
+: 1495161973:0;pip3 install flask
+: 1495161975:0;clear
+: 1495161992:0;vim ~/.pylintrc
+: 1495162004:0;cd ~/.config
+: 1495162005:0;s
+: 1495162006:0;d
+: 1495162009:0;clear
+: 1495162014:0;s
+: 1495162017:0;d pylintrc
+: 1495162020:0;a pylintrc
+: 1495162026:0;m "Updated pylint for flask"
+: 1495162026:0;clear
+: 1495162027:0;s
+: 1495162029:0;d zshrc
+: 1495162033:0;a zshrc
+: 1495162040:0;m "Run python instead of opening vim"
+: 1495162041:0;clear
+: 1495162041:0;s
+: 1495162045:0;d nvim/spell
+: 1495162049:0;a nvim/spell
+: 1495162052:0;m "More words"
+: 1495162053:0;clear
+: 1495162053:0;s
+: 1495162056:0;d nvim/plugged
+: 1495162062:0;cd nvim/plugged/nvim-rappel
+: 1495162062:0;.
+: 1495162063:0;s
+: 1495162063:0;d
+: 1495162068:0;a autoload/rappel.vim
+: 1495162077:0;m "Move to Python3, It is 2017"
+: 1495162079:0;git push
+: 1495162159:0;git push remote 
+: 1495162234:0;cd ..
+: 1495162235:0;..
+: 1495162236:0;clear
+: 1495162236:0;s
+: 1495162237:0;..
+: 1495162237:0;clear
+: 1495162238:0;s
+: 1495162240:0;d nvim/plugged
+: 1495162243:0;a nvim/plugged
+: 1495162246:0;s
+: 1495162249:0;m "Updated"
+: 1495162250:0;clear
+: 1495162250:0;s
+: 1495162252:0;d nvim/init.vim
+: 1495162270:0;a nvim/init.vim
+: 1495162329:0;m "Change how I run neomake, fiddled with nterm to make switching a little easier, brought back bracketed pasted and clipboard settings as I underestimated their usefulness"
+: 1495162330:0;clear
+: 1495162330:0;s
+: 1495162331:0;p
+: 1495162420:0;vim ~/.pylintrc
+: 1495162432:0;clear
+: 1495162433:0;s
+: 1495162435:0;a pylintrc
+: 1495162440:0;m "Added sql alchemy"
+: 1495162441:0;clear
+: 1495162441:0;s
+: 1495162442:0;p
+: 1495162612:0;z ML
+: 1495162612:0;ls
+: 1495162617:0;cd wk11
+: 1495162620:0;mk wk11
+: 1495162620:0;.
+: 1495162623:0;vim lecture.md
+: 1495162643:0;clear
+: 1495162644:0;s
+: 1495162645:0;d
+: 1495162661:0;git add zsh_history&& git commit -m "More zsh_history" && git push
