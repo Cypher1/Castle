@@ -3,4 +3,7 @@ ignored-modules = numpy, tensorflow, flask_sqlalchemy
 docstring-min-length=10
 
 # Good variable names which should always be accepted, separated by a comma
-good-names=i,j,k,Run,_,x,y,app,db
+good-names=i,j,k,Run,_,x,y,app,db,id
+
+# Turn off a few things
+disable=too-few-public-methods
