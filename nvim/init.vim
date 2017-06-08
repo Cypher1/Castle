@@ -3,7 +3,7 @@ call plug#begin('~/.config/nvim/plugged') " Plugins go here
 " Style
 Plug 'altercation/vim-colors-solarized' " Colours!
 Plug 'vim-airline/vim-airline'          " Airline gui
-Plug 'vim-airline/vim-airline-themes'   " Airline themes
+Plug 'vim-airline/vim-airline-themes'
 " Tweaks
 Plug 'tpope/vim-eunuch'                 " Unix built in
 Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
@@ -17,11 +17,14 @@ Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'aperezdc/vim-template'            " Template files
+Plug 'alvan/vim-closetag'               " Close html tags
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'lambdatoast/elm.vim'              " ELM
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
+Plug 'lervag/vimtex'                    " Latex
 call plug#end()
 
 " }}}
@@ -87,7 +90,7 @@ nmap <silent> <leader>l :wincmd l<CR>
 nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
-nmap <leader>w :w<CR>:silent! Neomake<CR>
+nmap <silent> <leader>w :w<CR>:Neomake<CR>
 " }}}
 " Control P {{{
 " Setup some default ignores
@@ -104,6 +107,7 @@ set tabstop=2 softtabstop=2 shiftwidth=2
 set smarttab shiftround expandtab autoindent copyindent
 set wildmenu wildignorecase wildignore=*.swp,*.bak,*.pyc,*.class,*.o,*.hi,*.gch
 inoremap <expr><TAB>  pumvisible() ? "\<C-n>" : "\<TAB>"
+let g:closetag_filenames = "*.html,*.xhtml,*.phtml"
 nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 " }}}
 " Movement {{{
@@ -123,7 +127,7 @@ let g:neomake_haskell_enabled_makers = ['ghcmod', 'hlint']
 let g:neomake_cpp_enabled_makers = ['clang']
 let g:neomake_cpp_clang_maker = {'exe': 'clang++',
             \ 'args': ["-std=c++14", '-Wall', '-Wextra'] }
-let g:neomake_python_enabled_makers = ['pylint', 'flake']
+let g:neomake_python_enabled_makers = ['pylint']
 let g:neomake_markdown_enabled_makers = ['mdl']
 let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
 let g:neomake_javascript_enabled_makers = ['eslint']
@@ -133,6 +137,7 @@ let g:neomake_javascript_enabled_makers = ['eslint']
     \ 'errorformat': '%E%f: line %l\, col %c\, Error - %m,' .
     \ '%W%f: line %l\, col %c\, Warning - %m'
     \ }
+let g:neomake_open_list = 2
 " }}}
 " Autocommands {{{
 augroup vim
