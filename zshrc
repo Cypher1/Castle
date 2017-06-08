@@ -7,6 +7,7 @@ BULLETTRAIN_STATUS_EXIT_SHOW=true
 BULLETTRAIN_PROMPT_ADD_NEWLINE=false
 BULLETTRAIN_DIR_EXTENDED=1
 BULLETTRAIN_VIRTUALENV_SHOW=true
+BULLETTRAIN_VIRTUALENV_FG=black
 BULLETTRAIN_TIME_SHOW=false
 BULLETTRAIN_EXEC_TIME_SHOW=true
 BULLETTRAIN_GIT_DIRTY_BG=yellow
@@ -17,7 +18,7 @@ BULLETTRAIN_GIT_FG=black
 BULLETTRAIN_PROMPT_CHAR=""
 BULLETTRAIN_GIT_FETCH=true
 
-plugins=(cabal catimg extract gem gitfast jsontools last-working-dir npm pip python sudo z zsh-autosuggestions zsh-completions)
+plugins=(cabal catimg extract gem gitfast jsontools last-working-dir npm pip python sudo z safe-paste zsh-autosuggestions zsh-completions)
 source $ZSH/oh-my-zsh.sh
 export KEYTIMEOUT=1
 
@@ -115,16 +116,21 @@ function _gitbranchcheck { # AUTO COMPLETE BRANCHES
 compctl -K _gitbranchcheck gitbranchcheck
 alias -s git='git clone'
 alias s="git status -sb 2> /dev/null && echo '-------'; ls"
-alias b="gitbranchcheck"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"
-alias g="git log --graph"
 alias d="git diff"
 alias D="git diff --staged"
+alias b="gitbranchcheck"
+alias g="git log --graph"
+alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sed 's/author //' | sed 's/cypher/Joshua Pratt/' | sed 's/kat333/Katherine Perdikis/'; done | sort -f | uniq -ic | sort -n"
 alias gitnuke="confirm 'CONFIRM NUKE' && git fetch origin && git reset --hard origin/master"
 alias P='git fetch && git diff origin/master && confirm "Pull?" && git pull'
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+
+alias ho="heroku open"
+alias hl="heroku logs -t"
+alias hb="heroku run bash"
 
 # SSH via zshrc
 alias mosh="mosh -6"
@@ -133,4 +139,9 @@ alias cse_cp="scp * z5017666@cse.unsw.edu.au:./"
 
 # OVERRIDES
 export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
+export PATH="$PATH:/usr/local/opt/go/libexec/bin"
+export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$(go env GOPATH)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
+eval "$(direnv hook zsh)"
