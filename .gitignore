@@ -3,6 +3,7 @@ nvim/.netrwhist
 nvim/plugged
 nvim/undo-dir/*
 nvim/bundle
+direnv
 cabal/packages/*
 cabal/packages/hackage.haskell.org/*.tar
 *.log
