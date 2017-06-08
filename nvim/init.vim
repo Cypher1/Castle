@@ -21,7 +21,7 @@ Plug 'aperezdc/vim-template'            " Template files
 Plug 'alvan/vim-closetag'               " Close html tags
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
-Plug 'lambdatoast/elm.vim'              " ELM
+Plug 'ElmCast/elm-vim'                  " Elm
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
 Plug 'lervag/vimtex'                    " Latex
