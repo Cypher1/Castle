@@ -42097,3 +42097,5506 @@ git stash apply
 : 1495162644:0;s
 : 1495162645:0;d
 : 1495162661:0;git add zsh_history&& git commit -m "More zsh_history" && git push
+: 1495162731:0;vim ~/.pylintrc
+: 1495162969:0;dh -hs *
+: 1495162972:0;du -hs *
+: 1495162977:0;cd ../out.idx
+: 1495162978:0;du -hs *
+: 1495163082:0;watch "du -hs *; wc -w words"
+: 1495163108:0;grep -io "[a-z]*" | sort | uniq
+: 1495163116:0;grep -io "[a-z]*" * | sort | uniq
+: 1495163123:0;grep -io "[a-z]*" * | sort | uniq | wc -l
+: 1495163173:0;clear
+: 1495163292:0;s
+: 1495163293:0;d
+: 1495163294:0;q
+: 1495163296:0;clear
+: 1495163296:0;s
+: 1495163297:0;d
+: 1495163299:0;a pylintrc
+: 1495163305:0;m "Turn off some errors"
+: 1495163306:0;p
+: 1495164167:0;clear
+: 1495164167:0;s
+: 1495164170:0;rm ~/Documents/SearchData/*.idx
+: 1495164172:0;clear
+: 1495164178:0;make test
+: 1495164184:0;rm dummy.idx
+: 1495164186:0;make test
+: 1495164316:0;m
+: 1495164318:0;make test
+: 1495164798:0;m
+: 1495164800:0;make test
+: 1495165135:0;git push remote 
+: 1495165142:0;clear
+: 1495165142:0;s
+: 1495165145:0;git push
+: 1495165153:0;d
+: 1495165156:0;s
+: 1495165158:0;q
+: 1495165167:0;ls
+: 1495165321:0;cd ..
+: 1495165333:0;git move storageClasses/Entry.py app/db.py
+: 1495165338:0;git mv storageClasses/Entry.py app/db.py
+: 1495165349:0;mv app/db.py storageClasses/Entry.py
+: 1495165350:0;git mv storageClasses/Entry.py app/db.py
+: 1495165352:0;clear
+: 1495165352:0;s
+: 1495165357:0;git rm storageClasses
+: 1495165361:0;git rm -r storageClasses
+: 1495165362:0;clear
+: 1495165362:0;s
+: 1495165370:0;git checkout storageClasses/test.py
+: 1495165375:0;mkdir storageClasses
+: 1495165377:0;git checkout storageClasses/test.py
+: 1495165379:0;clear
+: 1495165379:0;s
+: 1495165386:0;git checkout storageClasses/test.py
+: 1495165388:0;git add storageClasses
+: 1495165390:0;git checkout storageClasses/test.py
+: 1495165393:0;git stash
+: 1495165394:0;clear
+: 1495165395:0;s
+: 1495165399:0;git mv storageClasses/Entry.py app/db.py
+: 1495165406:0;git mv storageClasses/test.py app/test_db.py
+: 1495165407:0;clear
+: 1495165408:0;s
+: 1495165411:0;git rm -r storageClasses
+: 1495165412:0;s
+: 1495165414:0;rm storageClasses
+: 1495165415:0;clear
+: 1495165415:0;s
+: 1495165417:0;cd app
+: 1495165418:0;clear
+: 1495165418:0;s
+: 1495165501:0;clear
+: 1495165513:0;s
+: 1495165514:0;cd ..
+: 1495165514:0;clear
+: 1495165515:0;s
+: 1495165517:0;d
+: 1495165522:0;cd app
+: 1495165523:0;.
+: 1495165523:0;s
+: 1495165530:0;python3 server.py
+: 1495165536:0;python3 debug.py
+: 1495166228:0;clear
+: 1495166228:0;s
+: 1495166239:0;vim db.py
+: 1495172092:0;s
+: 1495172459:0;python3 debug.py
+: 1495172944:0;clear
+: 1495172944:0;q
+: 1495173432:0;clear
+: 1495173432:0;s
+: 1495173433:0;d
+: 1495173438:0;git add db.py
+: 1495173438:0;clear
+: 1495173439:0;s
+: 1495173441:0;d debug.py
+: 1495173445:0;a debug.py
+: 1495173445:0;clear
+: 1495173446:0;s
+: 1495173453:0;vim debug.py server.py
+: 1495173480:0;clear
+: 1495173480:0;s
+: 1495173481:0;a debug.py
+: 1495173484:0;D debug.py
+: 1495173492:0;vim debug.py
+: 1495173497:0;clear
+: 1495173497:0;s
+: 1495173499:0;vim debug.py
+: 1495173502:0;clear
+: 1495173502:0;s
+: 1495173504:0;a debug.py
+: 1495173505:0;D debug.py
+: 1495173507:0;clear
+: 1495173507:0;s
+: 1495173510:0;d routes.py
+: 1495173519:0;d qa_bot.py
+: 1495173522:0;vim routes.py
+: 1495173530:0;clears
+: 1495173531:0;clear
+: 1495173531:0;s
+: 1495173532:0;d routes.py
+: 1495173535:0;vim routes.py
+: 1495173546:0;clear
+: 1495173546:0;s
+: 1495173549:0;d server.py
+: 1495173555:0;a server.py
+: 1495173557:0;clear
+: 1495173557:0;s
+: 1495173564:0;d test_db.py
+: 1495173569:0;a test_db.py
+: 1495173570:0;clear
+: 1495173570:0;s
+: 1495173572:0;d qa_bot.py
+: 1495173574:0;clear
+: 1495173575:0;D
+: 1495173589:0;m "Moved db code into the app"
+: 1495173590:0;clear
+: 1495173591:0;s
+: 1495173593:0;d qa_bot.py
+: 1495173596:0;a qa_bot.py
+: 1495173609:0;m "Started stub for qa bot query code"
+: 1495173610:0;clear
+: 1495173610:0;s
+: 1495173612:0;q
+: 1495173830:0;cse
+: 1495174067:0;scp z5017666@cse.unsw.edu.au:./.ssh/id_rsa.pub ~/unsw_ssh
+: 1495174075:0;cat ~/unsw_ssh| pbcopy
+: 1495174139:0;q
+: 1495174585:0;virtualenv --system-site-packages -p python3 env
+: 1495174598:0;cd ../
+: 1495174602:0;vim .gitignore
+: 1495174656:0;s
+: 1495174660:0;mv env .env
+: 1495174661:0;clear
+: 1495174662:0;s
+: 1495174674:0;mv .env venv
+: 1495174675:0;clear
+: 1495174676:0;s
+: 1495174679:0;clear
+: 1495174679:0;q
+: 1495174712:0;python3 freeze
+: 1495174722:0;source venv/bin/activate
+: 1495174727:0;python3 freeze
+: 1495174732:0;pip3 freeze
+: 1495174747:0;virtualenv -p python3 env
+: 1495174757:0;source venv/bin/activate
+: 1495174766:0;python3 debug.py
+: 1495174787:0;pip3 install flask flask_cache flask_material flask_sqlalchemy
+: 1495174795:0;python3 debug.py
+: 1495174816:0;vim debug.py server.py
+: 1495174840:0;clear
+: 1495174841:0;python3 debug.py
+: 1495174890:0;vim server.py
+: 1495174904:0;clear
+: 1495174906:0;python3 debug.py
+: 1495174938:0;vim qa_bot.py
+: 1495175007:0;cd app
+: 1495175009:0;source venv/bin/activate
+: 1495175014:0;python3 debug.py
+: 1495175213:0;clear
+: 1495175213:0;s
+: 1495175218:0;python3 test_db.py
+: 1495175220:0;clear
+: 1495175222:0;python3 test_db.py
+: 1495175258:0;mv venv env
+: 1495175259:0;clear
+: 1495175261:0;python3 test_db.py
+: 1495175279:0;vim env/lib/python3.5/site-packages/flask_cache/jinja2ext.py
+: 1495175288:0;python3 test_db.py
+: 1495175296:0;source venv/bin/activate
+: 1495175298:0;source env/bin/activate
+: 1495175300:0;clear
+: 1495175300:0;s
+: 1495175310:0;python3 test_db.py
+: 1495175333:0;clear
+: 1495175333:0;s
+: 1495175334:0;d
+: 1495175343:0;clear
+: 1495175344:0;exit
+: 1495175347:0;clear
+: 1495175348:0;q
+: 1495175350:0;clear
+: 1495175350:0;s
+: 1495175351:0;d
+: 1495175366:0;a *.py
+: 1495175371:0;m "Fixing some bugs'
+: 1495175372:0;m "Fixing some bugs"
+: 1495175373:0;clear
+: 1495175374:0;s
+: 1495175379:0;ls venv
+: 1495175382:0;ls
+: 1495175390:0;ls env
+: 1495175396:0;ls env/pip-selfcheck.json
+: 1495175398:0;cat env/pip-selfcheck.json
+: 1495175405:0;cat env/venv
+: 1495175408:0;cd env
+: 1495175408:0;ls
+: 1495175410:0;ls venv
+: 1495175412:0;rm venv
+: 1495175413:0;clear
+: 1495175413:0;s
+: 1495175415:0;cd ..
+: 1495175419:0;python3 d
+: 1495175420:0;python3 debug.py
+: 1495175459:0;clear
+: 1495175459:0;s
+: 1495175461:0;d
+: 1495175463:0;clear
+: 1495175464:0;q
+: 1495175547:0;venv
+: 1495175553:0;virtualenv activate
+: 1495175557:0;ls
+: 1495175558:0;rm activate
+: 1495175559:0;clear
+: 1495175560:0;s
+: 1495175567:0;autoenv
+: 1495175592:0;brew install autoenv
+: 1495175605:0;zrc
+: 1495175661:0;clear
+: 1495175661:0;s
+: 1495175662:0;cd .
+: 1495175666:0;exec zsh
+: 1495175667:0;cd .
+: 1495175718:0;zrc
+: 1495175743:0;exec zsh
+: 1495175745:0;.
+: 1495175746:0;cd .
+: 1495175748:0;cd ..
+: 1495175749:0;cd app
+: 1495175759:0;brew --prefix autoenv
+: 1495175768:0;$(brew --prefix autoenv)/activate.sh
+: 1495175772:0;echo "$(brew --prefix autoenv)/activate.sh"
+: 1495175779:0;source $(brew --prefix autoenv)/activate.sh
+: 1495175781:0;cd .
+: 1495175785:0;cd ../app
+: 1495175786:0;clear
+: 1495175786:0;ls
+: 1495175791:0;zrc
+: 1495175806:0;brew upgrade autoenv
+: 1495175820:0;exec zsh
+: 1495175822:0;cd .
+: 1495175824:0;cd ..
+: 1495175825:0;cd app
+: 1495177110:0;cd ~/Drive/Uni/2017
+: 1495177111:0;ls
+: 1495177112:0;cd ML
+: 1495177114:0;cd ml
+: 1495177117:0;cd 9417_ML
+: 1495177118:0;clear
+: 1495177119:0;ls
+: 1495177125:0;cd 20Qs
+: 1495177126:0;clear
+: 1495177126:0;ls
+: 1495177142:0;heroku login
+: 1495177512:0;cd ..
+: 1495177543:0;`pbpaste`
+: 1495177546:0;clear
+: 1495177547:0;ls
+: 1495177551:0;cd python-getting-started
+: 1495177551:0;ls
+: 1495177573:0;heroku create
+: 1495177600:0;git push heroku
+: 1495177652:0;`pbpaste`
+: 1495177659:0;heroku open
+: 1495177694:0;heroku logs --tail
+: 1495177752:0;clear
+: 1495177752:0;s
+: 1495177808:0;ls
+: 1495177811:0;cd ~/Drive/Uni/2017
+: 1495177812:0;cd 9417_ML
+: 1495177813:0;.
+: 1495177815:0;cd python-getting-started
+: 1495177816:0;.
+: 1495177819:0;cat Procfile
+: 1495177824:0;clear
+: 1495177825:0;ls
+: 1495177828:0;cat app.json
+: 1495177833:0;clear
+: 1495177833:0;ls
+: 1495177857:0;cd ../20Qs
+: 1495177858:0;ls
+: 1495177860:0;cd app
+: 1495177861:0;ls
+: 1495177868:0;pip3 freeze
+: 1495177878:0;source $(brew --prefix autoenv)/activate.sh
+: 1495177888:0;env/bin/activate
+: 1495177892:0;source env/bin/activate.sh
+: 1495177896:0;source venv/bin/activate.sh
+: 1495177908:0;source env/bin/activate
+: 1495177910:0;clear
+: 1495177911:0;ls
+: 1495177913:0;pip3 freeze
+: 1495177920:0;pip3 freeze > requirements.txt
+: 1495177924:0;clear
+: 1495177924:0;s
+: 1495177927:0;git add requirements.txt
+: 1495177928:0;clear
+: 1495177928:0;s
+: 1495177933:0;m "Added requirements.txt"
+: 1495177934:0;clear
+: 1495177936:0;cd ...
+: 1495177954:0;cp 20Qs/app/requirements.txt python-getting-started/requirements.txt
+: 1495177956:0;cd python-getting-started
+: 1495177957:0;ls
+: 1495177958:0;clear
+: 1495177958:0;ls
+: 1495177964:0;cat README.md
+: 1495177967:0;clear
+: 1495177971:0;ls
+: 1495178014:0;z ML
+: 1495178016:0;ls
+: 1495178018:0;cd wk11
+: 1495178019:0;vim lecture.md
+: 1495178107:0;ls
+: 1495178110:0;vim hello
+: 1495178118:0;clear
+: 1495178119:0;ls
+: 1495178120:0;vim runtime.txt
+: 1495178124:0;clear
+: 1495178124:0;s
+: 1495178127:0;ls gettingstarted
+: 1495178129:0;clear
+: 1495178130:0;ls
+: 1495178132:0;vim app.json
+: 1495178276:0;pip3 install psycopg2==2.6.1 Flask-SQLAlchemy===2.1 Flask-Migrate==1.8.0
+: 1495178281:0;source env/bin/activate
+: 1495178282:0;pip3 install psycopg2==2.6.1 Flask-SQLAlchemy===2.1 Flask-Migrate==1.8.0
+: 1495178299:0;pg_config
+: 1495178303:0;brew install postgress
+: 1495178503:0;cd .
+: 1495178508:0;mv env .env
+: 1495178510:0;cd .
+: 1495178512:0;zrc
+: 1495178522:0;clear
+: 1495178524:0;exec zsh
+: 1495178526:0;cd .
+: 1495178529:0;cd ..
+: 1495178531:0;cd app
+: 1495178594:0;brew uninstall autoenv
+: 1495178612:0;brew install direnv
+: 1495178695:0;mv .env env
+: 1495178696:0;clear
+: 1495178697:0;ls
+: 1495178708:0;./env/bin/activate
+: 1495178710:0;source ./env/bin/activate
+: 1495178713:0;exec zsh
+: 1495178723:0;echo "source ./env/bin/activate" > .envrc
+: 1495178726:0;exit
+: 1495178731:0;zrc
+: 1495178741:0;clear
+: 1495178742:0;exec zsh
+: 1495178743:0;clear
+: 1495178744:0;s
+: 1495178747:0;zrc
+: 1495178774:0;clear
+: 1495178775:0;s
+: 1495178776:0;cd
+: 1495178777:0;exec zsh
+: 1495178779:0;clear
+: 1495178781:0;z ML
+: 1495178782:0;cd app
+: 1495178784:0;z app
+: 1495178786:0;cd .
+: 1495178788:0;clear
+: 1495178788:0;s
+: 1495178795:0;cat .envrc
+: 1495178811:0;direnv allow .
+: 1495178817:0;cd .
+: 1495178819:0;clear
+: 1495178820:0;ls
+: 1495178824:0;direnv allow .envrc
+: 1495178852:0;zrc
+: 1495178862:0;clear
+: 1495178864:0;exec zsh
+: 1495178875:0;cd ..
+: 1495178878:0;cd app
+: 1495178879:0;clear
+: 1495178880:0;s
+: 1495178885:0;vim .gitignore
+: 1495178888:0;cd ..
+: 1495178890:0;vim .gitignore
+: 1495178898:0;clear
+: 1495178898:0;s
+: 1495178899:0;a .gitignore
+: 1495178907:0;m "Added .envrc to gitignore"
+: 1495178907:0;clear
+: 1495178908:0;s
+: 1495178909:0;cd app
+: 1495178909:0;.
+: 1495178963:0;exit
+: 1495178980:0;heroku local web
+: 1495178985:0;cd ../../python-getting-started
+: 1495178988:0;heroku local web
+: 1495178998:0;brew install gunicorn
+: 1495179016:0;cd ...
+: 1495179019:0;cd python-getting-started
+: 1495179026:0;pip3 install gunicorn
+: 1495179031:0;clear
+: 1495179031:0;s
+: 1495179034:0;heroku local web
+: 1495179036:0;q
+: 1495179048:0;clear
+: 1495179048:0;s
+: 1495179049:0;d
+: 1495179055:0;git checkout requirements.txt
+: 1495179056:0;clear
+: 1495179056:0;s
+: 1495179057:0;d
+: 1495179062:0;heroku local web
+: 1495179070:0;pip3 install -r requirements.txt
+: 1495179092:0;pg_config
+: 1495179122:0;zrc
+: 1495179134:0;clear
+: 1495179135:0;exec zsh
+: 1495179137:0;ls
+: 1495179139:0;heroku local web
+: 1495179146:0;pip3 install -r requirements.txt
+: 1495179206:0;heroku local web
+: 1495179419:0;z python
+: 1495179421:0;clear
+: 1495179421:0;ls
+: 1495179440:0;echo "source ./env/bin/activate" > .envrc
+: 1495179447:0;direnv allow
+: 1495179451:0;echo "source ./env/bin/activate" > .envrc
+: 1495179461:0;virtualenv env
+: 1495179473:0;clear
+: 1495179473:0;ls
+: 1495179477:0;pip3 install -r requirements.txt
+: 1495179494:0;pip3 install flask
+: 1495179501:0;pip3 install flask_sqlalchemy
+: 1495179509:0;pip3 install flask_material
+: 1495179518:0;clear
+: 1495179519:0;s
+: 1495179522:0;d
+: 1495179548:0;clear
+: 1495179548:0;ls
+: 1495179564:0;cp ../20Qs/app .
+: 1495179569:0;ls
+: 1495179577:0;vim Procfile
+: 1495179586:0;cd gettingstarted
+: 1495179587:0;ls
+: 1495179590:0;vim wsgi.py
+: 1495179694:0;clear
+: 1495179698:0;heroku local web
+: 1495179723:0;clear
+: 1495179724:0;ls
+: 1495179733:0;cd ..
+: 1495179733:0;clear
+: 1495179734:0;ls
+: 1495179736:0;cd app
+: 1495179736:0;ls
+: 1495179740:0;direnv allow
+: 1495179741:0;clear
+: 1495179741:0;ls
+: 1495179745:0;cd ..
+: 1495179748:0;cd app
+: 1495179750:0;rm .envrc
+: 1495179752:0;clear
+: 1495179752:0;s
+: 1495179768:0;vim wsgi.py
+: 1495179787:0;cat ../Procfile
+: 1495179798:0;cat ../gettingstarted/wsgi.py
+: 1495179856:0;vim wsgi.py
+: 1495179878:0;clear
+: 1495179879:0;s
+: 1495179893:0;vim wsgi.py
+: 1495179901:0;clear
+: 1495179904:0;heroku local web
+: 1495179911:0;vim routes.py
+: 1495179925:0;vim -O *.py
+: 1495179966:0;clear
+: 1495179966:0;s
+: 1495179968:0;heroku local web
+: 1495179979:0;pip3 install flask_cache
+: 1495179985:0;heroku local web
+: 1495179992:0;vim wsgi.py
+: 1495180013:0;heroku local web
+: 1495180025:0;clear
+: 1495180032:0;vim Procfile.windows
+: 1495180037:0;vim wsgi.py
+: 1495180045:0;heroku local web
+: 1495180207:0;vim Procfile
+: 1495180215:0;heroku local web
+: 1495180247:0;cd ..
+: 1495180248:0;clear
+: 1495180248:0;ls
+: 1495180252:0;vim Procfile
+: 1495180280:0;clear
+: 1495180280:0;s
+: 1495180285:0;rm wsgi.py
+: 1495180288:0;vim Procfile
+: 1495180297:0;heroku local web
+: 1495180310:0;vim Procfile
+: 1495180324:0;cd app
+: 1495180326:0;vim __init__.py
+: 1495180365:0;heroku local web
+: 1495180378:0;clear
+: 1495180378:0;s
+: 1495180395:0;heroku logs --tail
+: 1495180419:0;vim __init__.py
+: 1495180433:0;clear
+: 1495180433:0;s
+: 1495180436:0;vim __init__.py
+: 1495180441:0;clear
+: 1495180442:0;s
+: 1495180451:0;clear
+: 1495180455:0;vim debug.py
+: 1495180486:0;h
+: 1495180488:0;heroku local web
+: 1495180501:0;heroku logs --tail
+: 1495180517:0;z python
+: 1495180520:0;heroku logs --tail
+: 1495180606:0;q
+: 1495180615:0;clear
+: 1495180616:0;q
+: 1495180686:0;clear
+: 1495180686:0;s
+: 1495180690:0;rm gettingstarted/
+: 1495180691:0;clear
+: 1495180691:0;s
+: 1495180695:0;git rm gettingstarted
+: 1495180700:0;git rm -r gettingstarted
+: 1495180701:0;clear
+: 1495180702:0;s
+: 1495180706:0;d
+: 1495180714:0;a Procfile
+: 1495180716:0;vim Procfile.windows
+: 1495180725:0;rm Procfile.windows
+: 1495180726:0;clear
+: 1495180726:0;s
+: 1495180733:0;git rm Procfile.windows
+: 1495180734:0;clear
+: 1495180734:0;s
+: 1495180738:0;d app.json
+: 1495180743:0;a app.json
+: 1495180744:0;clear
+: 1495180744:0;s
+: 1495180747:0;d .envrc
+: 1495180751:0;vim .gitignore
+: 1495180762:0;clear
+: 1495180762:0;ls
+: 1495180764:0;cd app
+: 1495180764:0;ls
+: 1495180771:0;git rm __pycache__
+: 1495180774:0;cd ..
+: 1495180775:0;clear
+: 1495180775:0;s
+: 1495180778:0;clear
+: 1495180782:0;vim .gitignore
+: 1495180786:0;clear
+: 1495180787:0;s
+: 1495180791:0;git add app
+: 1495180792:0;clear
+: 1495180792:0;s
+: 1495180799:0;add .gitignore
+: 1495180800:0;clear
+: 1495180800:0;s
+: 1495180803:0;a .gitignore
+: 1495180803:0;clear
+: 1495180804:0;s
+: 1495180807:0;q
+: 1495180810:0;clear
+: 1495180810:0;s
+: 1495180816:0;z python
+: 1495180818:0;cd ..
+: 1495180823:0;cd 20Qs
+: 1495180826:0;ls
+: 1495180827:0;rm app
+: 1495180837:0;cp ../python-getting-started/* .
+: 1495180848:0;ls
+: 1495180852:0;ls hello
+: 1495180854:0;rm hello
+: 1495180855:0;clear
+: 1495180855:0;s
+: 1495180861:0;git add Procfile
+: 1495180862:0;clear
+: 1495180862:0;s
+: 1495180867:0;git add app.json
+: 1495180870:0;rm manage.py
+: 1495180875:0;add requirements.txt
+: 1495180878:0;a requirements.txt
+: 1495180879:0;clear
+: 1495180879:0;s
+: 1495180885:0;vim README.md
+: 1495180895:0;mv README.md README.md.example
+: 1495180899:0;git checkout README.md
+: 1495180900:0;clear
+: 1495180901:0;s
+: 1495180906:0;git add app
+: 1495180908:0;clear
+: 1495180908:0;s
+: 1495180914:0;git add runtime.txt
+: 1495180914:0;clear
+: 1495180915:0;s
+: 1495180919:0;q
+: 1495180921:0;ls
+: 1495180924:0;vim .envrc
+: 1495180930:0;echo "source ./env/bin/activate" > .envrc
+: 1495180933:0;direnv allow
+: 1495180935:0;clear
+: 1495180935:0;s
+: 1495180950:0;cd ../20Qs
+: 1495180952:0;clear
+: 1495180952:0;s
+: 1495180957:0;cd ../../20Q
+: 1495180958:0;cd ../../20Qs
+: 1495180959:0;clear
+: 1495180960:0;s
+: 1495180961:0;heroku logs --tail
+: 1495180966:0;heroku create
+: 1495180989:0;heroku local web
+: 1495180999:0;z python
+: 1495181000:0;ls
+: 1495181007:0;cd app
+: 1495181007:0;ls
+: 1495181009:0;mv env ..
+: 1495181018:0;rm env
+: 1495181025:0;rm -rf env
+: 1495181029:0;rm .envrc
+: 1495181031:0;cd ..
+: 1495181032:0;clear
+: 1495181032:0;s
+: 1495181035:0;vim env
+: 1495181042:0;clear
+: 1495181042:0;s
+: 1495181045:0;q
+: 1495181047:0;clear
+: 1495181047:0;s
+: 1495181079:0;z python
+: 1495181089:0;cp .env ../20Qs/.env
+: 1495181093:0;vim .env
+: 1495181096:0;clear
+: 1495181096:0;s
+: 1495181100:0;exit
+: 1495181105:0;clear
+: 1495181105:0;s
+: 1495181107:0;heroku local web
+: 1495181115:0;clear
+: 1495181115:0;s
+: 1495181123:0;clear
+: 1495181123:0;s
+: 1495181129:0;m "Added heroku config"
+: 1495181130:0;clear
+: 1495181131:0;s
+: 1495181132:0;p
+: 1495181135:0;git pull
+: 1495181144:0;q
+: 1495181146:0;clear
+: 1495181146:0;s
+: 1495181153:0;vim app/db.py
+: 1495181255:0;clear
+: 1495181255:0;s
+: 1495181259:0;a app/db.py
+: 1495181259:0;clear
+: 1495181260:0;s
+: 1495181265:0;git merge --continue
+: 1495181269:0;clear
+: 1495181270:0;git status
+: 1495181282:0;git commit -m "Merge and fix a bug in db.py"
+: 1495181284:0;clear
+: 1495181284:0;s
+: 1495181285:0;p
+: 1495181412:0;clear
+: 1495181412:0;s
+: 1495181443:0;git push heroku master
+: 1495181457:0;zrc
+: 1495181469:0;cd .config
+: 1495181470:0;s
+: 1495181471:0;d
+: 1495181485:0;zrc
+: 1495181498:0;exec zsh
+: 1495181500:0;clear
+: 1495181500:0;s
+: 1495181503:0;z app
+: 1495181505:0;clear
+: 1495181505:0;s
+: 1495181511:0;heroku open
+: 1495181516:0;clear
+: 1495181516:0;s
+: 1495181517:0;d
+: 1495181529:0;vim app.json
+: 1495181532:0;cd ..
+: 1495181535:0;vim app.json
+: 1495181561:0;clear
+: 1495181561:0;d
+: 1495181584:0;vim .env
+: 1495181587:0;clear
+: 1495181588:0;ls
+: 1495181591:0;rm hello
+: 1495181592:0;clear
+: 1495181593:0;s
+: 1495181600:0;q
+: 1495181605:0;cd .
+: 1495181608:0;exec zsh
+: 1495181610:0;exit
+: 1495181612:0;cd .
+: 1495181619:0;z 20Qs
+: 1495181620:0;clear
+: 1495181620:0;ls
+: 1495181622:0;heroku open
+: 1495181663:0;heroku logs --tail
+: 1495181716:0;vim .heroku
+: 1495181921:0;clear
+: 1495181929:0;python3 app
+: 1495181937:0;python3 app/__init__.pu
+: 1495181939:0;python3 app/__init__.py
+: 1495181946:0;vim Procfile
+: 1495181953:0;cd app
+: 1495181954:0;ls
+: 1495181960:0;vim __init__.py __main__.py
+: 1495181971:0;clear
+: 1495181972:0;s
+: 1495181973:0;cd ..
+: 1495181980:0;python3 app
+: 1495181987:0;python3 app:app
+: 1495181991:0;vim __init__.py __main__.py
+: 1495181998:0;clear
+: 1495181999:0;cd app
+: 1495181999:0;ls
+: 1495182005:0;mv __main__.py __init__.py
+: 1495182006:0;clear
+: 1495182006:0;s
+: 1495182010:0;cd ..
+: 1495182021:0;vim app/__init__.py app.py
+: 1495182054:0;mv app.py run.py
+: 1495182056:0;vim r
+: 1495182060:0;vim run.py
+: 1495182069:0;vim Procfile
+: 1495182080:0;heroku local web
+: 1495182092:0;clear
+: 1495182093:0;ls
+: 1495182096:0;python3 run
+: 1495182097:0;python3 run.py
+: 1495182106:0;clear
+: 1495182106:0;s
+: 1495182110:0;d Procfile
+: 1495182113:0;a Procfile
+: 1495182116:0;a app/__init__.py
+: 1495182118:0;a run.py
+: 1495182119:0;clear
+: 1495182119:0;s
+: 1495182126:0;m "Trying a new run method"
+: 1495182127:0;p
+: 1495182133:0;clear
+: 1495182135:0;git push heroku master
+: 1495182175:0;heroku logs --tail
+: 1495182194:0;python run.py
+: 1495182207:0;vim runtime.txt
+: 1495182213:0;rm run
+: 1495182216:0;rm runtime.txt
+: 1495182219:0;clear
+: 1495182219:0;s
+: 1495182227:0;git checkout runtime.txt
+: 1495182228:0;clear
+: 1495182229:0;s
+: 1495182245:0;vim run.py
+: 1495182268:0;gunicorn run:app
+: 1495182336:0;vim requirements.txt
+: 1495182343:0;pip3 freeze > requirements.txt
+: 1495182348:0;git add requirements.txt
+: 1495182352:0;m "Updated requirements"
+: 1495182355:0;git push heroku master
+: 1495182415:0;heroku logs --tail
+: 1495182500:0;clear
+: 1495182500:0;s
+: 1495182504:0;vim app/db.py
+: 1495182712:0;clear
+: 1495182713:0;s
+: 1495182716:0;a app/db.py
+: 1495182734:0;m "Trying to fix a db bug on heroku"
+: 1495182737:0;git push heroku master
+: 1495182866:0;heroku local web
+: 1495182972:0;heroku addons:add heroku-postgresql:dev
+: 1495183077:0;heroku addons:add heroku-postgresql
+: 1495183097:0;vim run.py
+: 1495183184:0;heroku pg:promote HEROKU_POSTGRESQL_BLUE_URL
+: 1495183200:0;clear
+: 1495183200:0;s
+: 1495183202:0;d
+: 1495183207:0;a app/server.py
+: 1495183212:0;m "Added database url"
+: 1495183217:0;git push heroku master
+: 1495183300:0;git remote -v
+: 1495183315:0;git remote set-url heroku https://git.heroku.com/questions20.git
+: 1495183319:0;git remote -v
+: 1495183325:0;git push
+: 1495183332:0;git status
+: 1495183335:0;git pull
+: 1495183344:0;clear
+: 1495183344:0;s
+: 1495183345:0;d
+: 1495183348:0;git status
+: 1495183350:0;git push
+: 1495183357:0;clear
+: 1495183357:0;s
+: 1495183363:0;git push heroku master
+: 1495183374:0;heroku open
+: 1495183379:0;q
+: 1495183384:0;clear
+: 1495183385:0;s
+: 1495183392:0;q
+: 1495183415:0;heroku logs --tail
+: 1495183486:0;s
+: 1495183489:0;git add app
+: 1495183496:0;m "Removed test code"
+: 1495183496:0;p
+: 1495183501:0;git push heroku master
+: 1495183807:0;heroku logs --tail
+: 1495196094:0;clear
+: 1495196094:0;d
+: 1495196104:0;s
+: 1495196107:0;a app/db.py
+: 1495196115:0;m "Force table names"
+: 1495196118:0;git push heroku master
+: 1495198882:0;clear
+: 1495198886:0;git status
+: 1495198890:0;d a3search.cpp
+: 1495198905:0;git stash
+: 1495198907:0;make test
+: 1495198915:0;git stash apply
+: 1495198917:0;clear
+: 1495198917:0;s
+: 1495198937:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495198949:0;z A3
+: 1495198962:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "News" "Corporation" "Because"
+: 1495198977:0;cd ../sample.idx
+: 1495198979:0;du -hs
+: 1495198981:0;du -hs *
+: 1495228713:0;./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf"
+: 1495228721:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf"
+: 1495228737:0;cd ../out.idx
+: 1495228739:0;du -hs *
+: 1495228761:0;du *
+: 1495232445:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf" "Map"
+: 1495232455:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf" "Map" "Truck"
+: 1495232495:0;grep -io "Wolf" ~/Documents/SearchData/out/sikkim
+: 1495232499:0;grep -i "Wolf" ~/Documents/SearchData/out/sikkim
+: 1495232503:0;grep -i "Map" ~/Documents/SearchData/out/sikkim
+: 1495232508:0;grep -i "Truck" ~/Documents/SearchData/out/sikkim
+: 1495232557:0;grep -i "Truck" ~/Documents/SearchData/out/return_to_castle_wolfenstein 
+: 1495232567:0;grep -i "Wolf" ~/Documents/SearchData/out/return_to_castle_wolfenstein 
+: 1495232572:0;grep -i "Wolf " ~/Documents/SearchData/out/return_to_castle_wolfenstein 
+: 1495232577:0;grep -i "Map " ~/Documents/SearchData/out/return_to_castle_wolfenstein 
+: 1495232579:0;clear
+: 1495232579:0;s
+: 1495232581:0;d
+: 1495232590:0;make test
+: 1495234708:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495234715:0;git stash
+: 1495234719:0;make test
+: 1495234724:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495234731:0;git stash apply
+: 1495234732:0;clear
+: 1495234733:0;make
+: 1495234741:0;du -hs *
+: 1495234750:0;du -hs * > ~/sample_pre
+: 1495234763:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495234774:0;rm ~/Documents/SearchData/*.idx
+: 1495234776:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495234845:0;rm ~/Documents/SearchData/*.idx
+: 1495234847:0;make test
+: 1495234855:0;./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495234860:0;rm ~/Documents/SearchData/*.idx
+: 1495234865:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495234903:0;du -hs * > ~/sample_post
+: 1495234906:0;ls
+: 1495234909:0;cd ../sample.idx
+: 1495234911:0;du -hs * > ~/sample_post
+: 1495234913:0;du -hs
+: 1495234916:0;du -hs *
+: 1495234930:0;git stash
+: 1495234932:0;make test
+: 1495234937:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495234968:0;git stash apply
+: 1495234970:0;make test
+: 1495234975:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495234992:0;rm ~/Documents/SearchData/*.idx
+: 1495234996:0;git stash
+: 1495234999:0;make test
+: 1495235003:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495235035:0;git stash apply
+: 1495235038:0;make test
+: 1495235041:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495235044:0;rm ~/Documents/SearchData/*.idx
+: 1495235045:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495235095:0;./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf"
+: 1495235097:0;rm ~/Documents/SearchData/*.idx
+: 1495235104:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf"
+: 1495235108:0;clear
+: 1495235109:0;cd ..
+: 1495235110:0;ls
+: 1495235112:0;cd out.idx
+: 1495235113:0;ls
+: 1495235116:0;du -hs *
+: 1495235191:0;watch "du -hs *; wc -w words"
+: 1495235586:0;q
+: 1495235598:0;cd ../out
+: 1495235600:0;du -hs *
+: 1495235604:0;du -hs
+: 1495235616:0;cd ..
+: 1495235617:0;cd sample
+: 1495235620:0;du -hs
+: 1495235636:0;mk dupe
+: 1495235641:0;cp ../* .
+: 1495235646:0;cd ..
+: 1495235648:0;rm dupe
+: 1495235649:0;ls
+: 1495235650:0;clear
+: 1495235652:0;ls | wc -l
+: 1495235846:0;clear
+: 1495235847:0;s
+: 1495235849:0;heroku logs --tail
+: 1495235891:0;heroku run bash
+: 1495236061:0;clear
+: 1495236211:0;git status
+: 1495236215:0;git log
+: 1495236225:0;git push
+: 1495236249:0;s
+: 1495236252:0;a app
+: 1495236259:0;m "Added docstring for db.py
+: 1495236260:0;m "Added docstring for db.py"
+: 1495236262:0;p
+: 1495236300:0;clear
+: 1495236301:0;s
+: 1495236312:0;vim README.md README.md.example
+: 1495238086:0;clear
+: 1495238086:0;s
+: 1495238090:0;rm README.md.example
+: 1495238090:0;clear
+: 1495238091:0;s
+: 1495238092:0;d
+: 1495238100:0;a debug.py
+: 1495238101:0;clear
+: 1495238101:0;s
+: 1495238103:0;a run.py
+: 1495238104:0;clear
+: 1495238104:0;s
+: 1495238106:0;rm app/tmp
+: 1495238107:0;clear
+: 1495238108:0;s
+: 1495238115:0;vim debug.py
+: 1495238182:0;python3 debug.py
+: 1495238188:0;ls
+: 1495238190:0;clear
+: 1495238191:0;ls
+: 1495238197:0;z 20Qs
+: 1495238199:0;clear
+: 1495238200:0;ls
+: 1495238206:0;cd app
+: 1495238207:0;ls
+: 1495238210:0;vim test_db.py
+: 1495238247:0;clear
+: 1495238248:0;s
+: 1495238249:0;a test_db.py
+: 1495238250:0;clear
+: 1495238250:0;s
+: 1495238252:0;a db.py
+: 1495238253:0;clear
+: 1495238254:0;s
+: 1495238257:0;a debug.py
+: 1495238258:0;..
+: 1495238259:0;a debug.py
+: 1495238260:0;s
+: 1495238264:0;d app/server.py
+: 1495238271:0;a app/server.py 
+: 1495238272:0;clear
+: 1495238272:0;s
+: 1495238274:0;d R
+: 1495238277:0;d README.md
+: 1495238286:0;heroku local web
+: 1495238292:0;q
+: 1495238310:0;vim run.py app/server.py
+: 1495238314:0;q
+: 1495238316:0;vim run.py app/server.py
+: 1495238330:0;clear
+: 1495238330:0;s
+: 1495238336:0;vim app/test_db.py
+: 1495238341:0;clear
+: 1495238341:0;s
+: 1495238343:0;d
+: 1495238348:0;a app/test_db.py
+: 1495238349:0;clear
+: 1495238349:0;s
+: 1495238351:0;d
+: 1495238353:0;a README.md
+: 1495238354:0;clear
+: 1495238354:0;s
+: 1495238357:0;d app/server.py
+: 1495238360:0;a app/server.py
+: 1495238361:0;clear
+: 1495238362:0;s
+: 1495238363:0;d
+: 1495238366:0;a run.py
+: 1495238367:0;clear
+: 1495238367:0;s
+: 1495238372:0;d app/debug.py
+: 1495238375:0;d debug.py
+: 1495238380:0;python3 debug.py
+: 1495238390:0;vim app/server.py
+: 1495238419:0;clear
+: 1495238419:0;s
+: 1495238420:0;d
+: 1495238427:0;a app/server.py
+: 1495238428:0;a debug.py
+: 1495238429:0;clear
+: 1495238429:0;s
+: 1495238431:0;python3 debug.py
+: 1495238444:0;heroku local web
+: 1495238453:0;clear
+: 1495238453:0;s
+: 1495238467:0;m "Improved readme and debug scripts"
+: 1495238468:0;clear
+: 1495238469:0;s
+: 1495238469:0;p
+: 1495238480:0;vim app/qa_bot.py
+: 1495238630:0;clar
+: 1495238631:0;clear
+: 1495238631:0;s
+: 1495238632:0;d
+: 1495238638:0;python3 debug.py
+: 1495238653:0;cd app
+: 1495238654:0;ls
+: 1495238657:0;python3 test_db.py
+: 1495238664:0;vim test_db.py
+: 1495238670:0;python3 test_db.py
+: 1495238672:0;vim test_db.py
+: 1495238684:0;mv test_db.py ..
+: 1495238685:0;cd ..
+: 1495238685:0;clear
+: 1495238686:0;s
+: 1495238691:0;git add test_db.py
+: 1495238697:0;git rm app/test_db.py
+: 1495238698:0;clear
+: 1495238698:0;s
+: 1495238700:0;d
+: 1495238709:0;python3 test_db.py
+: 1495238711:0;vim test_db.py
+: 1495238717:0;clear
+: 1495238719:0;python3 test_db.py
+: 1495238725:0;a test_db.py
+: 1495238726:0;clear
+: 1495238726:0;s
+: 1495238729:0;a app/qa_bot.py
+: 1495238730:0;clear
+: 1495238731:0;ls
+: 1495238771:0;m "Moved exes to root, surrounded db access in a try catch"
+: 1495238772:0;p
+: 1495238779:0;heroku local web
+: 1495238790:0;clear
+: 1495238794:0;git push heroku master
+: 1495238836:0;heroku run bash
+: 1495238944:0;vim app/db.py
+: 1495239386:0;grep * "create_all"
+: 1495239389:0;grep ** "create_all"
+: 1495239393:0;grep -r * "create_all"
+: 1495239403:0;grep -r "create_all" *
+: 1495239408:0;grep -r "create_all" *.py
+: 1495239420:0;vim -O run.py debug.py test_db.py
+: 1495239428:0;vim run.py debug.py test_db.py
+: 1495239599:0;s
+: 1495239600:0;d
+: 1495239608:0;git add .
+: 1495239616:0;m "Attempting to fix db creation"
+: 1495239621:0;git push heroku master
+: 1495239697:0;clear
+: 1495239698:0;s
+: 1495239699:0;p
+: 1495239703:0;heroku run bash
+: 1495239807:0;clear
+: 1495239807:0;s
+: 1495239809:0;q
+: 1495239946:0;z 20Qs
+: 1495239952:0;git log | grep "Deepanjan66"
+: 1495239954:0;git log | grep "Deep"
+: 1495239987:0;git status
+: 1495239991:0;vim .heroku
+: 1495239994:0;clear
+: 1495262677:0;z ML
+: 1495262678:0;.
+: 1495262692:0;cd wk11
+: 1495262711:0;vim lecture.md
+: 1495263168:0;./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf"
+: 1495263174:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf"
+: 1495263178:0;clear
+: 1495263291:0;du -hs ~/Documents/SearchData/out
+: 1495263302:0;ls ~/Documents/SearchData/out | wc -l
+: 1495263365:0;clear
+: 1495263365:0;s
+: 1495263366:0;.
+: 1495264484:0;q
+: 1495264490:0;clear
+: 1495264492:0;du -hs
+: 1495264503:0;.
+: 1495264506:0;du -hs *
+: 1495264515:0;rm heroku-osx.pkg
+: 1495264517:0;clear
+: 1495264517:0;s
+: 1495264520:0;rm a3search.h.gch
+: 1495264520:0;.
+: 1495264523:0;du -hs *
+: 1495264536:0;mv wk11_* ~/Downloads
+: 1495264556:0;ls
+: 1495264557:0;clear
+: 1495264557:0;s
+: 1495264561:0;du -hs *
+: 1495264571:0;ls test2
+: 1495264573:0;ls test3
+: 1495264582:0;diff test1 test3
+: 1495264585:0;rm test3
+: 1495264585:0;.
+: 1495264587:0;clear
+: 1495264590:0;du -hs *
+: 1495264594:0;rm dummy.idx
+: 1495264597:0;clear
+: 1495264598:0;ls
+: 1495264600:0;du -hs *
+: 1495264632:0;./a3search test2 dummy.idx "iphone" "apple"
+: 1495264638:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495264641:0;make test
+: 1495264645:0;./a3search test1 dummy.idx "iphone" "apple"
+: 1495264650:0;./a3search test2 dummy.idx "iphone" "apple"
+: 1495264663:0;rm dummy.idx
+: 1495264665:0;./a3search test2 dummy.idx "iphone" "apple"
+: 1495264668:0;./a3search test2 dummy.idx "iphone"
+: 1495264681:0;cat test2
+: 1495264683:0;cat test2*
+: 1495264684:0;cat test2/*
+: 1495264693:0;./a3search test2 dummy.idx "nitrogenous"
+: 1495264699:0;./a3search test2 dummy.idx "houses"
+: 1495264703:0;./a3search test2 dummy.idx "wing"
+: 1495264707:0;./a3search test2 dummy.idx "weee"
+: 1495264709:0;./a3search test2 dummy.idx "wee"
+: 1495264710:0;clear
+: 1495264710:0;s
+: 1495264715:0;git rm test3
+: 1495264719:0;git rm -r test3
+: 1495264720:0;clear
+: 1495264720:0;s
+: 1495264726:0;git rm wk11_Compression.m4v
+: 1495264727:0;clear
+: 1495264728:0;s
+: 1495264732:0;clear
+: 1495264732:0;s
+: 1495264733:0;d
+: 1495264739:0;a a3search.cpp
+: 1495264740:0;clear
+: 1495264741:0;s
+: 1495264762:0;m "Fixed skipping to compress zero counts out of token file"
+: 1495264764:0;clear
+: 1495264765:0;s
+: 1495264766:0;d
+: 1495264771:0;cat WordNet-3.0.tar.gz
+: 1495264775:0;clear
+: 1495264775:0;s
+: 1495264779:0;ls wordnet-blast
+: 1495264905:0;make test
+: 1495264908:0;./a3search test2 dummy.idx "wee"
+: 1495264920:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495264966:0;rm ~/Documents/SearchData/*.idx
+: 1495264967:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495264970:0;rm ~/Documents/SearchData/*.idx
+: 1495264971:0;make test
+: 1495264977:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495265022:0;make test
+: 1495265026:0;rm ~/Documents/SearchData/*.idx
+: 1495265027:0;make test
+: 1495265031:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495265159:0;make test
+: 1495265162:0;rm ~/Documents/SearchData/*.idx
+: 1495265163:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495265424:0;make test
+: 1495265427:0;rm ~/Documents/SearchData/*.idx
+: 1495265429:0;./a3search test2 dummy.idx "wee"
+: 1495265433:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495265660:0;make test
+: 1495265700:0;make
+: 1495265703:0;make test
+: 1495265704:0;./a3search test2 dummy.idx "wee"
+: 1495265707:0;rm ~/Documents/SearchData/*.idx
+: 1495265709:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495266323:0;q
+: 1495266324:0;clear
+: 1495266324:0;s
+: 1495267016:0;make test
+: 1495267021:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495267051:0;make test
+: 1495267055:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495267067:0;make test
+: 1495267070:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495267428:0;make test
+: 1495267431:0;rm ~/Documents/SearchData/*.idx
+: 1495267433:0;make test
+: 1495267435:0;./a3search test2 dummy.idx "wee"
+: 1495267438:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495267469:0;rm ~/Documents/SearchData/*.idx
+: 1495267470:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495267498:0;cd ../sample.idx
+: 1495267501:0;du -hs *
+: 1495267558:0;git status
+: 1495267562:0;git add a3search.cpp
+: 1495267579:0;m "Used less than int sized counts via bit manipulation"
+: 1495267580:0;clear
+: 1495267581:0;s
+: 1495268035:0;make test
+: 1495268041:0;rm ~/Documents/SearchData/*.idx
+: 1495268043:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495268086:0;make test
+: 1495268090:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495268102:0;rm ~/Documents/SearchData/*.idx
+: 1495268105:0;make test
+: 1495268108:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495268692:0;make test
+: 1495268697:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495268724:0;xxd ~/Documents/SearchData/sample.idx/words
+: 1495268794:0;make test
+: 1495270105:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495270236:0;make test
+: 1495270241:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495270243:0;rm ~/Documents/SearchData/*.idx
+: 1495270247:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495270641:0;du -hs *
+: 1495270644:0;cd ../sample.idx
+: 1495270646:0;du -hs *
+: 1495270846:0;make test
+: 1495270854:0;ls dummy.idx/
+: 1495270865:0;make test
+: 1495270872:0;ls dummy.idx/
+: 1495270876:0;du -hs dummy.idx/*
+: 1495270879:0;time
+: 1495270882:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495270886:0;rm ~/Documents/SearchData/*.idx
+: 1495270888:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495270964:0;git diff
+: 1495271133:0;make test
+: 1495271138:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495271145:0;rm ~/Documents/SearchData/*.idx
+: 1495271147:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495271203:0;d
+: 1495271255:0;make test
+: 1495271262:0;rm ~/Documents/SearchData/*.idx
+: 1495271264:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495272378:0;make test
+: 1495272411:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495272425:0;rm ~/Documents/SearchData/*.idx
+: 1495272427:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495272467:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495272473:0;rm ~/Documents/SearchData/*.idx
+: 1495272475:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495272541:0;make test
+: 1495272544:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495272548:0;make test
+: 1495272550:0;./a3search test2 dummy.idx "wee"
+: 1495272552:0;make test
+: 1495272554:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495272564:0;rm ~/Documents/SearchData/*.idx
+: 1495272566:0;make test
+: 1495272567:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495272914:0;make test
+: 1495272921:0;./a3search test2 dummy.idx "wee"
+: 1495272924:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495273271:0;xxd ~/Documents/SearchData/sample.idx/words
+: 1495273275:0;xxd ~/Documents/SearchData/sample.idx/words | head
+: 1495273291:0;ls ~/Documents/SearchData/sample | head
+: 1495273308:0;head ~/Documents/SearchData/sample/ag_barr |head
+: 1495273415:0;clear
+: 1495273415:0;s
+: 1495273417:0;d
+: 1495273643:0;make test
+: 1495273649:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495273652:0;rm ~/Documents/SearchData/*.idx
+: 1495273653:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495273770:0;xxd ~/Documents/SearchData/sample.idx/words | grep "news"
+: 1495273789:0;xxd ~/Documents/SearchData/sample.idx/words | grep "[^a-z]news[^a-z]"
+: 1495273796:0;xxd ~/Documents/SearchData/sample.idx/words | grep "[^a-z]news"
+: 1495273813:0;xxd ~/Documents/SearchData/sample.idx/words | grep "[^a-z]ne"
+: 1495273817:0;xxd ~/Documents/SearchData/sample.idx/words | grep "[^a-z]ne$"
+: 1495273839:0;xxd ~/Documents/SearchData/sample.idx/words | grep -A1 "[^a-z]ne$" | grep " ws"
+: 1495273844:0;xxd ~/Documents/SearchData/sample.idx/words | grep -A1 "[^a-z]ne$" | grep -B1 " ws"
+: 1495273852:0;xxd ~/Documents/SearchData/sample.idx/words | grep -A1 "[^a-z]ne$" | grep -B1 " ws[^a-z]"
+: 1495274117:0;make test
+: 1495274120:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495274129:0;xxd ~/Documents/SearchData/sample.idx/words | grep -A1 "[^a-z]ne$" | grep -B1 " ws[^a-z]"
+: 1495274568:0;clear
+: 1495274568:0;s
+: 1495274573:0;vim a3search.cpp
+: 1495274578:0;s
+: 1495274624:0;make test
+: 1495274629:0;./a3search test2 dummy.idx "wee"
+: 1495274630:0;make test
+: 1495274634:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495274638:0;rm ~/Documents/SearchData/*.idx
+: 1495274639:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495275016:0;z zoo
+: 1495275021:0;z 20Q
+: 1495275024:0;cd datasets
+: 1495275024:0;ls
+: 1495275025:0;vim zoo
+: 1495275290:0;clear
+: 1495275290:0;s
+: 1495275291:0;q
+: 1495275296:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495275545:0;make test
+: 1495275589:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495275594:0;rm ~/Documents/SearchData/*.idx
+: 1495275595:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495275685:0;make test
+: 1495275699:0;rm ~/Documents/SearchData/*.idx
+: 1495275701:0;make test
+: 1495275940:0;vim zoo/zoo.questions.txt zoo/zoo.data.txt
+: 1495284225:0;z
+: 1495284226:0;clear
+: 1495284227:0;cd
+: 1495284231:0;brew install go
+: 1495284651:0;zrc
+: 1495284934:0;clear
+: 1495284934:0;s
+: 1495284936:0;exec zsh
+: 1495285256:0;a3search ~MyAccount/XYZ dummy.idx "apple" "APP" "sales"
+: 1495285292:0;clear
+: 1495285295:0;rm ~/Documents/SearchData/*.idx
+: 1495285301:0;make test
+: 1495285604:0;rm ~/Documents/SearchData/*.idx
+: 1495285606:0;rm dummy.idx
+: 1495285608:0;make test
+: 1495286050:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495286104:0;make test
+: 1495286111:0;rm dummy.idx
+: 1495286113:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495286118:0;rm ~/Documents/SearchData/*.idx
+: 1495286120:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495286162:0;du -hs ~/Documents/SearchData/sample/*
+: 1495286167:0;du -hs ~/Documents/SearchData/sample.idx/*
+: 1495286185:0;du -hs ~/Documents/SearchData/sample
+: 1495286294:0;rm ~/Documents/SearchData/*.idx
+: 1495286369:0;pwd
+: 1495286387:0;cd Documents/SearchData/sample
+: 1495286388:0;pwd
+: 1495286394:0;pwd | pbcopy
+: 1495287581:0;clear
+: 1495287582:0;s
+: 1495287583:0;d
+: 1495287599:0;clear
+: 1495287599:0;s
+: 1495287602:0;a a3search.cpp
+: 1495287604:0;clear
+: 1495287604:0;s
+: 1495287607:0;d a3stemmer.h
+: 1495287645:0;m "Improved wordlist encoding"
+: 1495287646:0;p
+: 1495287648:0;clear
+: 1495287648:0;s
+: 1495287685:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf" "Map" "Truck"
+: 1495287916:0;ping 8.8.8.8
+: 1495288321:0;du -hs ~/Documents/SearchData/out.idx
+: 1495288324:0;du -hs ~/Documents/SearchData/out.idx/*
+: 1495288352:0;du -hs ~/Documents/SearchData/out.idx/*; du -hs ~/Documents/SearchData/out
+: 1495288361:0;watch "du -hs ~/Documents/SearchData/out.idx/*; du -hs ~/Documents/SearchData/out"
+: 1495288411:0;zrc
+: 1495288493:0;mkdir -p $GOPATH/src/github.com/user
+: 1495288500:0;exec zsh
+: 1495288502:0;mkdir -p $GOPATH/src/github.com/user
+: 1495288517:0;mkdir -p $GOPATH/src/github.com/Cypher1
+: 1495288527:0;rm $GOPATH/src/github.com/user
+: 1495288528:0;clear
+: 1495288536:0;mkdir -p $GOPATH/src/github.com/Cypher1/hello
+: 1495288540:0;mk -p $GOPATH/src/github.com/Cypher1/hello
+: 1495288548:0;mk $GOPATH/src/github.com/Cypher1/hello
+: 1495288551:0;ls
+: 1495288554:0;git init
+: 1495288566:0;vim hello.go
+: 1495288605:0;go install github.com/Cypher1/hello
+: 1495288618:0;go install
+: 1495288619:0;ls
+: 1495288625:0;hello
+: 1495288628:0;cd ..
+: 1495288629:0;hello
+: 1495288630:0;cd -
+: 1495288631:0;clear
+: 1495288631:0;ls
+: 1495288648:0;a hello.go
+: 1495288648:0;s
+: 1495288658:0;m "Learning to write go and use go tool"
+: 1495288659:0;clear
+: 1495288671:0;mk ../stringutil
+: 1495288673:0;git init
+: 1495288678:0;vim reverse.go
+: 1495288805:0;cd ../hello
+: 1495288807:0;vim reverse.go
+: 1495288810:0;vim hello.go
+: 1495288904:0;cd ...
+: 1495288905:0;ls
+: 1495288906:0;cd ..
+: 1495288907:0;ls
+: 1495288907:0;cd ..
+: 1495288908:0;ls
+: 1495288909:0;cd bin
+: 1495288910:0;ls
+: 1495288912:0;cd ../pkg
+: 1495288913:0;ls
+: 1495288914:0;cd darwin_amd64
+: 1495288915:0;.
+: 1495288917:0;cd github.com
+: 1495288917:0;.
+: 1495288919:0;cd Cypher1
+: 1495288919:0;.
+: 1495288921:0;vim stringutil.a
+: 1495288927:0;du -hs *
+: 1495288929:0;cd ...
+: 1495288933:0;du -hs *
+: 1495288941:0;cd bin
+: 1495288943:0;du -hs *
+: 1495288945:0;vim hello
+: 1495288953:0;clear
+: 1495288954:0;s
+: 1495288955:0;cd 
+: 1495288957:0;cd go
+: 1495288957:0;.
+: 1495288959:0;cd src
+: 1495288959:0;.
+: 1495288960:0;cd github.com
+: 1495288961:0;.
+: 1495288962:0;cd Cypher1
+: 1495288963:0;.
+: 1495288965:0;cd hello
+: 1495288965:0;.
+: 1495289880:0;watch "du -hs ~/Documents/SearchData/out.idx/*; du -hs ~/Documents/SearchData/out.idx; du -hs ~/Documents/SearchData/out"
+: 1495289905:0;ls ~/Documents/SearchData/out | wc -l
+: 1495291989:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf" "Map" "Truck"
+: 1495292060:0;du -hs *
+: 1495292073:0;du ~/Documents/SearchData/out.idx/
+: 1495292081:0;du ~/Documents/SearchData/out.idx/counts
+: 1495295987:0;s
+: 1495295988:0;d
+: 1495295994:0;a hello.go
+: 1495295996:0;clear
+: 1495295996:0;s
+: 1495296008:0;m "using a lib"
+: 1495296008:0;.
+: 1495296148:0;q
+: 1495296855:0;make test
+: 1495296883:0;rm dummy.idx
+: 1495296885:0;make test
+: 1495296903:0;./a3search test1 dummy.idx "apple"
+: 1495296905:0;./a3search test1 dummy.idx "appl"
+: 1495296906:0;./a3search test1 dummy.idx "app"
+: 1495296910:0;./a3search test1 dummy.idx "investors"
+: 1495296915:0;./a3search test1 dummy.idx "iphone"
+: 1495296923:0;xxd dummy.idx/words
+: 1495296944:0;rm dummy.idx/*
+: 1495296947:0;rm dummy.idx
+: 1495296949:0;make test
+: 1495296954:0;./a3search test1 dummy.idx "iphone"
+: 1495296961:0;./a3search test1 dummy.idx "investors"
+: 1495296964:0;./a3search test1 dummy.idx "invest"
+: 1495296969:0;xxd dummy.idx/words
+: 1495297001:0;make test
+: 1495297006:0;./a3search test1 dummy.idx "invest"
+: 1495297010:0;xxd dummy.idx/words
+: 1495297044:0;./a3search test1 dummy.idx "invest"
+: 1495297046:0;./a3search test1 dummy.idx "investors"
+: 1495297051:0;./a3search test1 dummy.idx "invester"
+: 1495297054:0;./a3search test1 dummy.idx "invest"
+: 1495297070:0;du -hs dummy.idx/*
+: 1495297083:0;wc -c dummy.idx/words
+: 1495297090:0;make test
+: 1495297099:0;wc -c dummy.idx/words
+: 1495297112:0;make test
+: 1495297122:0;make
+: 1495297134:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495297140:0;rm ~/Documents/SearchData/*.idx
+: 1495297142:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495297246:0;make
+: 1495297317:0;./a3search test1 dummy.idx "invest"
+: 1495297322:0;make test
+: 1495297325:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495297327:0;rm ~/Documents/SearchData/*.idx
+: 1495297329:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495297380:0;make test
+: 1495297386:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495297389:0;rm ~/Documents/SearchData/*.idx
+: 1495297390:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495297575:0;make test
+: 1495297579:0;./a3search test1 dummy.idx "invest"
+: 1495297582:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495297588:0;rm ~/Documents/SearchData/*.idx
+: 1495297591:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495297684:0;make test
+: 1495297698:0;rm test1/file8.txt
+: 1495297699:0;clear
+: 1495297700:0;s
+: 1495297707:0;git rm test1/file8.txt
+: 1495297708:0;clear
+: 1495297709:0;s
+: 1495297714:0;make test
+: 1495297734:0;./a3search test1 dummy.idx "apple"
+: 1495297743:0;./a3search test1 dummy.idx "INvestor"
+: 1495297755:0;./a3search test1 dummy.idx "apple" "investor"
+: 1495297767:0;./a3search test1 dummy.idx "apple" "APP"
+: 1495297777:0;./a3search test1 dummy.idx "apple" "APP" "sales"
+: 1495297788:0;./a3search test1 dummy.idx "apple" "APP" "sales" | wc -l
+: 1495297806:0;./a3search test1 dummy.idx "apple" "APP" "sales"
+: 1495297810:0;echo -n ""
+: 1495297813:0;echo -n "\n"
+: 1495297817:0;./a3search test1 dummy.idx "apple" "APP" "sales"
+: 1495297831:0;bash
+: 1495299275:0;./a3search test1 dummy.idx "apple" "APP" "sale"
+: 1495299275:0;./a3search test1 dummy.idx "apple" "APP" "sales"
+: 1495299275:0;clear
+: 1495299275:0;exit
+: 1495297851:0;clear
+: 1495297851:0;s
+: 1495297868:0;./a3search test1 dummy.idx -c 0.5 "iPhone"
+: 1495297889:0;./a3search test1 dummy.idx -c 0.2 "invest" "iphone"
+: 1495297922:0;touch README.md
+: 1495297925:0;a README.md
+: 1495297926:0;clear
+: 1495297927:0;s
+: 1495297931:0;d
+: 1495298036:0;make test
+: 1495298043:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495298046:0;rm test1/file8.txt
+: 1495298049:0;rm ~/Documents/SearchData/*.idx
+: 1495298050:0;rm test1/file8.txt
+: 1495298052:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495298249:0;make test
+: 1495298254:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495298256:0;rm test1/file8.txt
+: 1495298259:0;rm ~/Documents/SearchData/*.idx
+: 1495298261:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495298839:0;make test
+: 1495298862:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495298866:0;rm ~/Documents/SearchData/*.idx
+: 1495298867:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495298895:0;clear
+: 1495298903:0;rm ~/Documents/SearchData/*.idx
+: 1495298905:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News"
+: 1495298939:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf" "Map" "Truck"
+: 1495299230:0;z Web
+: 1495299236:0;ls
+: 1495299245:0;cd ConceptSearch_A3
+: 1495299245:0;.
+: 1495299248:0;cd dummy.idx
+: 1495299254:0;z sample.idx
+: 1495299265:0;cd ~/Documents/SearchData/sample.idx
+: 1495299267:0;du -hs *
+: 1495299275:0;q
+: 1495299305:0;z sample.idx
+: 1495299311:0;cd ../out.idx
+: 1495299317:0;watch "du -hs ~/Documents/SearchData/out.idx/*; du -hs ~/Documents/SearchData/out.idx; du -hs ~/Documents/SearchData/out"
+: 1495300878:0;z Web
+: 1495300880:0;z A3
+: 1495300881:0;.
+: 1495300881:0;s
+: 1495300883:0;clear
+: 1495300883:0;s
+: 1495300889:0;d a3search .cpp
+: 1495300891:0;d a3search.cpp
+: 1495300908:0;a a3search.cpp
+: 1495300909:0;clear
+: 1495300909:0;s
+: 1495300913:0;d a3search.h
+: 1495301217:0;q
+: 1495301227:0;ls
+: 1495301232:0;rm *.h.gch
+: 1495301234:0;clear
+: 1495301234:0;s
+: 1495301433:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf" "Map" "Truck"
+: 1495301459:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Commander" "Sheppard"
+: 1495301477:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "mass" "effect"
+: 1495301484:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "mass"
+: 1495301491:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "effect"
+: 1495301498:0;time ./a3search ~/Documents/SearchData/out ~/Documents/SearchData/out.idx "Wolf" "Map" "Truck"
+: 1495301530:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495301535:0;make clean
+: 1495301537:0;clear
+: 1495301537:0;s
+: 1495301544:0;make test
+: 1495301554:0;q
+: 1495301808:0;vim test.cpp
+: 1495334771:0;echo ":art:"
+: 1495334779:0;echo "&hearts;"
+: 1495334784:0;echo "&hearts;" | marked
+: 1495336073:0;q
+: 1495336081:0;ckear
+: 1495336082:0;clear
+: 1495336082:0;s
+: 1495336085:0;make test
+: 1495336157:0;clear
+: 1495336159:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495336161:0;rm *.h.gch
+: 1495336163:0;rm ~/Documents/SearchData/*.idx
+: 1495336168:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495336347:0;make test
+: 1495336353:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495336355:0;rm ~/Documents/SearchData/*.idx
+: 1495336356:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495362435:0;clear
+: 1495362436:0;s
+: 1495362437:0;d
+: 1495362457:0;a a3search.cpp a3search.h
+: 1495362458:0;clear
+: 1495362459:0;s
+: 1495362462:0;d a3stemmer.h
+: 1495362480:0;clear
+: 1495362480:0;s
+: 1495362482:0;d
+: 1495362493:0;a a3stemmer.h 
+: 1495362515:0;m "Added stemming, fixed some bugs (improving token file)
+: 1495362518:0;D
+: 1495362537:0;m "Added stemming, fixed some bugs (improving token file) added stop words list"
+: 1495362538:0;clear
+: 1495362538:0;s
+: 1495362547:0;d test.cpp
+: 1495362550:0;rm test.cpp
+: 1495362551:0;clear
+: 1495362553:0;s
+: 1495362565:0;git branch
+: 1495362566:0;clear
+: 1495362566:0;s
+: 1495362570:0;b master
+: 1495362574:0;s
+: 1495362582:0;git merge inverted 
+: 1495362584:0;clear
+: 1495362584:0;s
+: 1495362586:0;d
+: 1495362588:0;clear
+: 1495362588:0;s
+: 1495362590:0;b
+: 1495362594:0;git branch
+: 1495362598:0;git branch -d inverted 
+: 1495362599:0;clear
+: 1495362599:0;s
+: 1495362602:0;make test
+: 1495362610:0;clear
+: 1495362610:0;s
+: 1495362632:0;cls
+: 1495362633:0;ls
+: 1495362637:0;cd ..
+: 1495362640:0;mk A3_hask
+: 1495362720:0;vim test.cpp
+: 1495363361:0;ls
+: 1495363365:0;ghc test.hs
+: 1495363375:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id
+: 1495363376:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.idx
+: 1495363387:0;ghc test.hs
+: 1495363392:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.idx
+: 1495363490:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.idx2
+: 1495364173:0;ghc test.hs
+: 1495364177:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.idx2
+: 1495364227:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id
+: 1495364229:0;ghc test.hs
+: 1495364232:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id
+: 1495373643:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple
+: 1495373645:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple"
+: 1495373650:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495375850:0;q
+: 1495376318:0;ghc test.hs
+: 1495376322:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376343:0;ghc test.hs
+: 1495376346:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376403:0;ghc test.hs
+: 1495376406:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376421:0;rm ~/Documents/SearchData/sample/.DS_Store
+: 1495376423:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376439:0;ghc test.hs
+: 1495376441:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376461:0;ghc test.hs
+: 1495376475:0;mk A3_hask
+: 1495376477:0;ls
+: 1495376478:0;cd ..
+: 1495376480:0;rm A3_hask
+: 1495376481:0;.
+: 1495376485:0;clean
+: 1495376487:0;ghc test.hs
+: 1495376490:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376530:0;ghc test.hs
+: 1495376531:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376536:0;ghc test.hs
+: 1495376546:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376757:0;ghc test.hs
+: 1495376767:0;mk A3_hask
+: 1495376771:0;rm .
+: 1495376772:0;cd ..
+: 1495376774:0;rm A3_hask
+: 1495376775:0;clear
+: 1495376776:0;ls
+: 1495376776:0;ghc test.hs
+: 1495376779:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495376876:0;mk A3_hask
+: 1495376878:0;cd ..
+: 1495376881:0;rm A3
+: 1495376882:0;rm A3_hask
+: 1495376883:0;.
+: 1495376885:0;ghc test.hs
+: 1495376967:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495377016:0;ghc test.hs
+: 1495377019:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495377370:0;ghc test.hs
+: 1495377373:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495377430:0;ghc test.hs
+: 1495377432:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495377821:0;ghc test.hs
+: 1495377824:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495377861:0;ghc test.hs
+: 1495377865:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495378240:0;ghc test.hs
+: 1495378243:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495378615:0;ghc test.hs
+: 1495378618:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495378621:0;clear
+: 1495408063:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495408067:0;clear
+: 1495408796:0;ghc test.hs
+: 1495408801:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495409098:0;ghc test.hs
+: 1495409101:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495409810:0;q
+: 1495410599:0;ghc test.hs
+: 1495410601:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495411027:0;ghc test.hs
+: 1495411031:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495411248:0;ghc test.hs
+: 1495411251:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495411321:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495411552:0;ghc test.hs
+: 1495411555:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495411731:0;ghc test.hs
+: 1495411734:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495411881:0;ghc test.hs
+: 1495411884:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495411956:0;ghc test.hs
+: 1495411960:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495412096:0;ghc test.hs -O3
+: 1495412099:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495412141:0;which ghc
+: 1495412461:0;q
+: 1495412975:0;ghc test2.hs -O3
+: 1495412979:0;time ./test2
+: 1495413042:0;ghc test2.hs -O3
+: 1495413045:0;time ./test2
+: 1495413070:0;ghc test2.hs -O3
+: 1495413073:0;time ./test2
+: 1495413087:0;ghc test2.hs -O3
+: 1495413089:0;./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495413092:0;time ./test2
+: 1495413103:0;ghc test2.hs -O3
+: 1495413106:0;time ./test2
+: 1495413132:0;ghc test2.hs
+: 1495413135:0;time ./test2
+: 1495413295:0;q
+: 1495413391:0;ghc test.hs -O3
+: 1495413400:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495414486:0;ghc test.hs -O3
+: 1495414492:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495414756:0;rm ~/Documents/SearchData/sample/.DS_Store
+: 1495414761:0;rm ~/Documents/SearchData/*.idx
+: 1495414793:0;ls ~/Documents/SearchData/sample
+: 1495414925:0;ghc test.hs -O3
+: 1495415866:0;cabal install hashmap
+: 1495415874:0;cabal update
+: 1495415945:0;cabal install hashable
+: 1495416192:0;cabal install unordered-containers
+: 1495416898:0;ghc test.hs -O3
+: 1495416903:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495417016:0;ghc test.hs -O3
+: 1495417024:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495417083:0;ghc test.hs -O3
+: 1495417097:0;du -hs *
+: 1495417099:0;clean
+: 1495417100:0;ls
+: 1495417102:0;rm test2
+: 1495417103:0;ls
+: 1495417108:0;cat test2.hs
+: 1495417113:0;rm test2.hs
+: 1495417114:0;clear
+: 1495417114:0;s
+: 1495417118:0;du -hs *
+: 1495417130:0;du -hs a3search
+: 1495417202:0;pbpaste > stem.hs
+: 1495417206:0;mv stem.hs Stem.hs
+: 1495417207:0;clear
+: 1495417208:0;ls
+: 1495418965:0;ghci
+: 1495419745:0;ghc Stem.hs
+: 1495420613:0;ghc test.hs -O3
+: 1495420621:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495420692:0;ghc test.hs -O3
+: 1495420697:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495420801:0;clear
+: 1495420802:0;s
+: 1495420802:0;q
+: 1495420806:0;clear
+: 1495420806:0;s
+: 1495420808:0;cd ..
+: 1495420808:0;q
+: 1495420838:0;clear
+: 1495420839:0;q
+: 1495420864:0;reboot
+: 1495422076:0;.
+: 1495422079:0;cd ../ML
+: 1495422084:0;cd ../9417_ML
+: 1495422085:0;.
+: 1495422089:0;rm 20questions
+: 1495422092:0;.
+: 1495422100:0;cd 20Qs
+: 1495422101:0;.
+: 1495422291:0;d
+: 1495422293:0;clear
+: 1495422293:0;ls
+: 1495422297:0;d
+: 1495422299:0;git pull
+: 1495422315:0;cd datasets
+: 1495422316:0;clear
+: 1495422316:0;ls
+: 1495422319:0;cd zoo
+: 1495422320:0;ls
+: 1495422325:0;du -hs *
+: 1495423038:0;cat ZooQAs.csv
+: 1495423064:0;....
+: 1495423067:0;cd 20Qs
+: 1495423068:0;.
+: 1495423075:0;heroku local web
+: 1495423089:0;vim *.py
+: 1495426171:0;clear
+: 1495426171:0;s
+: 1495426178:0;git rm ZooQAs.csv
+: 1495426179:0;clear
+: 1495426180:0;s
+: 1495426184:0;a ZooToCsv.py
+: 1495426188:0;vim ZooToCsv.py
+: 1495426194:0;rm ZooToCsv.py
+: 1495426194:0;.
+: 1495426198:0;git rm ZooToCsv.py
+: 1495426199:0;clear
+: 1495426199:0;s
+: 1495426203:0;a load_dataset.py
+: 1495426204:0;clear
+: 1495426204:0;s
+: 1495426212:0;git mv zoo.data.txt zoo.csv
+: 1495426214:0;clear
+: 1495426215:0;s
+: 1495426222:0;cat Zoo.csv
+: 1495426228:0;clear
+: 1495426228:0;s
+: 1495426232:0;cat zoo.data.txt
+: 1495426241:0;git mv -f zoo.data.txt zoo.csv
+: 1495426242:0;clear
+: 1495426242:0;s
+: 1495426258:0;rm Zoo.csv
+: 1495426260:0;clear
+: 1495426260:0;s
+: 1495426263:0;git rm Zoo.csv
+: 1495426264:0;clear
+: 1495426264:0;s
+: 1495426270:0;vim zoo.csv
+: 1495426282:0;git checkout zoo.data.txt
+: 1495426283:0;clear
+: 1495426283:0;s
+: 1495426286:0;git checkout zoo.csv
+: 1495426287:0;clear
+: 1495426287:0;s
+: 1495426295:0;vim zoo.csv
+: 1495426298:0;clear
+: 1495426298:0;s
+: 1495426300:0;a zoo.csv
+: 1495426301:0;clear
+: 1495426301:0;s
+: 1495426305:0;d zoo.questions.txt
+: 1495426309:0;rm zoo.questions.txt
+: 1495426310:0;clear
+: 1495426310:0;s
+: 1495426316:0;git rm zoo.questions.txt
+: 1495426317:0;clear
+: 1495426317:0;s
+: 1495426319:0;a zoo_features.py
+: 1495426320:0;clear
+: 1495426320:0;s
+: 1495426340:0;m "Simplified the zoo.csv loading code, made it a bit more readable and error checkable"
+: 1495426341:0;p
+: 1495426351:0;clear
+: 1495426352:0;ls
+: 1495426359:0;vim load_dataset.py
+: 1495426488:0;python3
+: 1495426571:0;q
+: 1495426804:0;clear
+: 1495426804:0;s
+: 1495426805:0;d
+: 1495426811:0;a load_dataset.py
+: 1495426815:0;m "Cleaned up code a little"
+: 1495426816:0;p
+: 1495426835:0;cd ...
+: 1495426836:0;ls
+: 1495426840:0;vim test_db.py
+: 1495426857:0;cp test_db.py load_db.py
+: 1495426859:0;vim load_db.py
+: 1495426866:0;vim load_dataset.py
+: 1495426890:0;clear
+: 1495426891:0;ls
+: 1495426892:0;d
+: 1495426893:0;s
+: 1495426896:0;ls
+: 1495426897:0;cd ...
+: 1495426898:0;ls
+: 1495426908:0;ls datasets
+: 1495426911:0;cd datasets
+: 1495426915:0;touch __init__.py
+: 1495426918:0;a __init__.py
+: 1495426919:0;clear
+: 1495426919:0;s
+: 1495426922:0;cd zoo/
+: 1495426925:0;touch __init__.py
+: 1495426926:0;clear
+: 1495426926:0;s
+: 1495426928:0;ls
+: 1495426936:0;git rm ZooRefined.csv
+: 1495426937:0;clear
+: 1495426937:0;s
+: 1495426939:0;clear
+: 1495426939:0;s
+: 1495426940:0;ls
+: 1495426950:0;vim zoo.names.txt
+: 1495426963:0;git mv zoo.names.txt README.md
+: 1495426964:0;clear
+: 1495426964:0;s
+: 1495426966:0;vim README.md
+: 1495426972:0;chrome README.md
+: 1495426976:0;clear
+: 1495426977:0;ls
+: 1495426982:0;s
+: 1495426985:0;git add __init__.py
+: 1495426988:0;clear
+: 1495426989:0;s
+: 1495426990:0;cd ..
+: 1495426991:0;..
+: 1495426995:0;cd datasets
+: 1495426996:0;ls
+: 1495426998:0;cd zoo
+: 1495426998:0;ls
+: 1495427005:0;git mv load_dataset.py ../
+: 1495427006:0;ls
+: 1495427008:0;clear
+: 1495427009:0;cd ..
+: 1495427010:0;ls
+: 1495427011:0;vim load_dataset.py
+: 1495427022:0;cd zoo
+: 1495427027:0;mv zoo_features.py features.py
+: 1495427028:0;clear
+: 1495427028:0;s
+: 1495427042:0;git add ../load_dataset.py
+: 1495427043:0;clear
+: 1495427043:0;s
+: 1495427046:0;cd ..
+: 1495427050:0;mv load_dataset.py loader.py
+: 1495427056:0;git mv load_dataset.py loader.py
+: 1495427066:0;git add load
+: 1495427068:0;git add loader.py
+: 1495427069:0;clear
+: 1495427069:0;s
+: 1495427070:0;ls
+: 1495427073:0;clear
+: 1495427073:0;s
+: 1495427079:0;git add zoo/features.py
+: 1495427080:0;clear
+: 1495427080:0;s
+: 1495427084:0;git add zoo/zoo_features.py
+: 1495427085:0;clear
+: 1495427085:0;s
+: 1495427089:0;cd ..
+: 1495427091:0;clear
+: 1495427092:0;s
+: 1495427099:0;cd datasets/zoo/
+: 1495427108:0;git add load_dataset.py
+: 1495427108:0;clear
+: 1495427109:0;s
+: 1495427113:0;git add load_dataset.py
+: 1495427114:0;clear
+: 1495427115:0;s
+: 1495427121:0;git add ../load_dataset.py
+: 1495427122:0;cd ..
+: 1495427123:0;s
+: 1495427124:0;clear
+: 1495427124:0;s
+: 1495427125:0;cd ..
+: 1495427126:0;clear
+: 1495427126:0;s
+: 1495427132:0;ls datasets
+: 1495427161:0;vim load_db.py
+: 1495427166:0;vim datasets/loader.py
+: 1495427483:0;clear
+: 1495427483:0;s
+: 1495427490:0;python3 datasets/loader.py
+: 1495427503:0;vim datasets/loader.py
+: 1495427524:0;clear
+: 1495427524:0;s
+: 1495427526:0;cd datasets
+: 1495427527:0;ls
+: 1495427534:0;python3 loader.py
+: 1495427536:0;clear
+: 1495427536:0;s
+: 1495427542:0;cd ..
+: 1495427547:0;ls
+: 1495427551:0;vim app/db.py
+: 1495427619:0;clear
+: 1495427619:0;s
+: 1495427733:0;vim app/db.py
+: 1495427775:0;q
+: 1495427798:0;python3 load_db.py
+: 1495427993:0;clear
+: 1495427994:0;python3 load_db.py
+: 1495428357:0;clear
+: 1495428360:0;python3
+: 1495428405:0;python3 load_db.py
+: 1495428664:0;python3
+: 1495428853:0;clear
+: 1495428855:0;python3 load_db.py
+: 1495429135:0;s
+: 1495429136:0;clear
+: 1495429136:0;s
+: 1495429156:0;clear
+: 1495429156:0;s
+: 1495429158:0;d
+: 1495429170:0;d app/db.py
+: 1495429176:0;a app/db.py
+: 1495429184:0;m "Added some constraints"
+: 1495429185:0;clear
+: 1495429185:0;s
+: 1495429189:0;d datasets/loader.py
+: 1495429193:0;vim datasets/loader.py
+: 1495429443:0;clear
+: 1495429444:0;s
+: 1495429445:0;d
+: 1495429454:0;a app/db.py
+: 1495429456:0;a datasets/loader.py
+: 1495429457:0;clear
+: 1495429457:0;s
+: 1495429459:0;a load_db.py
+: 1495429460:0;clear
+: 1495429461:0;s
+: 1495429464:0;python3 load_db.py
+: 1495429482:0;vim qa_bot.py
+: 1495429491:0;vim app/qa_bot.py
+: 1495429568:0;clear
+: 1495429569:0;s
+: 1495429571:0;a app/qa_bot.py
+: 1495429574:0;heroku local web
+: 1495429657:0;clear
+: 1495429658:0;heroku local web
+: 1495429685:0;python3
+: 1495429860:0;pip3 uninstall readline
+: 1495429864:0;pip3 install readline
+: 1495429902:0;python3
+: 1495429924:0;vim tmp.py
+: 1495429974:0;rm tmp.py
+: 1495429974:0;.
+: 1495429975:0;s
+: 1495429975:0;clear
+: 1495429976:0;s
+: 1495429978:0;vim qa_bot.py
+: 1495429980:0;q
+: 1495430023:0;clear
+: 1495430023:0;s
+: 1495430027:0;d app/qa_bot.py
+: 1495430030:0;a app/qa_bot.py
+: 1495430032:0;clear
+: 1495430033:0;s
+: 1495430034:0;D
+: 1495430047:0;q
+: 1495430051:0;vim load_db.py
+: 1495430070:0;clear
+: 1495430070:0;s
+: 1495430072:0;a load_db.py
+: 1495430073:0;clear
+: 1495430073:0;s
+: 1495430083:0;m "Fixed database loading"
+: 1495430084:0;p
+: 1495430096:0;git push heroku master
+: 1495430175:0;heroku run bash
+: 1495431203:0;ssh root@http://www.biotechnologyonline.gov.au/
+: 1495431207:0;ssh root@www.biotechnologyonline.gov.au
+: 1495431326:0;ssh admin@www.biotechnologyonline.gov.au
+: 1495431330:0;clear
+: 1495431330:0;s
+: 1495431338:0;q
+: 1495443687:0;vim app/db.py
+: 1495443709:0;python3 debug.py
+: 1495443728:0;cd app
+: 1495443729:0;ls
+: 1495443736:0;vim templates/new_game.html
+: 1495444394:0;python3 debug.py
+: 1495446063:0;watch "python3 debug.py"
+: 1495451784:0;vim ../datasets/zoo/features.py
+: 1495451849:0;python3
+: 1495451874:0;cd ..
+: 1495451876:0;python3
+: 1495451901:0;python3 load_db.py
+: 1495451916:0;s
+: 1495451917:0;clear
+: 1495451918:0;s
+: 1495451930:0;d app/qa_bot.py
+: 1495451935:0;a app/qa_bot.py
+: 1495451936:0;clear
+: 1495451936:0;s
+: 1495451939:0;a app/routes.py
+: 1495451941:0;a app
+: 1495451942:0;clear
+: 1495451943:0;s
+: 1495451947:0;d datasets
+: 1495451951:0;a datasets
+: 1495451952:0;clear
+: 1495451953:0;s
+: 1495451955:0;d debug.py
+: 1495451959:0;a debug.py
+: 1495451965:0;m "Updated UI"
+: 1495451966:0;p
+: 1495451976:0;.
+: 1495451985:0;git push heroku master
+: 1495451988:0;git pull
+: 1495497174:0;vim datasets/zoo/features.py
+: 1495497352:0;clear
+: 1495497352:0;s
+: 1495497354:0;cd ..
+: 1495497358:0;cd 20Qs
+: 1495497359:0;clear
+: 1495497359:0;s
+: 1495497360:0;d
+: 1495497362:0;clear
+: 1495497362:0;ls
+: 1495497389:0;cat Procfile
+: 1495497427:0;d
+: 1495497432:0;vim datasets/zoo/features.py
+: 1495580439:0;vim debug.py\
+: 1495580440:0;vim debug.py
+: 1495580709:0;clear
+: 1495580709:0;s
+: 1495580712:0;clear
+: 1495580712:0;d
+: 1495580717:0;git stash
+: 1495580718:0;clear
+: 1495580718:0;s
+: 1495595115:0;clear
+: 1495595115:0;ls
+: 1495595135:0;z 20Qs
+: 1495595135:0;.
+: 1495595140:0;z A3
+: 1495595141:0;.
+: 1495595141:0;s
+: 1495595142:0;clear
+: 1495595143:0;d
+: 1495595148:0;vim a3search.cpp
+: 1495595215:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495595220:0;rm ~/Documents/SearchData/*.idx
+: 1495595222:0;time ./test ~/Documents/SearchData/sample/ ~/Documents/SearchData/sample.id "apple" "iphone"
+: 1495595228:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495596024:0;cse
+: 1495596176:0;ls
+: 1495596177:0;cd ..
+: 1495596211:0;scp -r ConceptSearch_A3 z5017666@cse.unsw.edu.au:~/A3
+: 1495600665:0;make test
+: 1495600669:0;z A3
+: 1495600671:0;make test
+: 1495673119:0;clear
+: 1495673119:0;s
+: 1495673120:0;d
+: 1495673144:0;make test
+: 1495673359:0;scp -r ConceptSearch_A3 z5017666@cse.unsw.edu.au:~/A3
+: 1495673371:0;scp -r . z5017666@cse.unsw.edu.au:~/A3
+: 1495673385:0;clear
+: 1495673386:0;ls
+: 1495673387:0;clear
+: 1495673387:0;s
+: 1495673395:0;scp -r *.* z5017666@cse.unsw.edu.au:~/A3
+: 1495673406:0;ls
+: 1495673409:0;rm Lecture06-inverted.ppt
+: 1495673412:0;rm *.h.gch
+: 1495673413:0;.
+: 1495673415:0;rm a.out
+: 1495673417:0;make clean
+: 1495673419:0;rm dummy.idx
+: 1495673420:0;.
+: 1495673424:0;rm wordnet-blast
+: 1495673438:0;ls
+: 1495673443:0;rm WordNet-*
+: 1495673448:0;clear
+: 1495673451:0;ls
+: 1495673457:0;rm wordnet-blast
+: 1495673459:0;clear
+: 1495673459:0;s
+: 1495673464:0;git rm Lecture06-inverted.ppt
+: 1495673466:0;git rm wordnet-blast
+: 1495673467:0;clear
+: 1495673468:0;s
+: 1495673471:0;scp -r *.* z5017666@cse.unsw.edu.au:~/A3
+: 1495673478:0;cse
+: 1495673503:0;ls
+: 1495673510:0;scp -r *.* z5017666@cse.unsw.edu.au:~/A3/
+: 1495673524:0;scp -r makefile z5017666@cse.unsw.edu.au:~/A3/
+: 1495673535:0;vim makefile
+: 1495673614:0;scp -r makefile z5017666@cse.unsw.edu.au:~/A3/
+: 1495673696:0;q
+: 1495674631:0;scp -r test* z5017666@cse.unsw.edu.au:~/A3/
+: 1495674647:0;q
+: 1495674734:0;make test
+: 1495675487:0;rm dummy.idx
+: 1495675489:0;make test
+: 1495676451:0;d
+: 1495676456:0;a README.md
+: 1495676457:0;clear
+: 1495676457:0;s
+: 1495676461:0;d master 
+: 1495676464:0;d makefile
+: 1495676470:0;a makefile
+: 1495676470:0;clear
+: 1495676471:0;s
+: 1495676477:0;d a3search.h
+: 1495676490:0;a a3search.h
+: 1495676491:0;clear
+: 1495676491:0;s
+: 1495676492:0;d
+: 1495676494:0;D
+: 1495676511:0;m "Added README, removed bad stopwords (too short)"
+: 1495676512:0;clear
+: 1495676512:0;s
+: 1495676514:0;d
+: 1495676522:0;a a3search.cpp
+: 1495676529:0;m "Started work on concept search"
+: 1495676530:0;clear
+: 1495676530:0;s
+: 1495676601:0;make test
+: 1495677011:0;grep "apple" test1/*
+: 1495677017:0;grep -i "apple" test1/*
+: 1495677045:0;make test
+: 1495677109:0;grep -i "people" test1/*
+: 1495677114:0;grep -i "buying" test1/*
+: 1495677363:0;make test
+: 1495677468:0;cat test1/*
+: 1495677521:0;make test
+: 1495677578:0;cat test1/*
+: 1495677610:0;make test
+: 1495677658:0;cat test1/*
+: 1495677703:0;make test
+: 1495678987:0;make test_stem
+: 1495678997:0;clear
+: 1495679039:0;make test
+: 1495679145:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495679149:0;rm ~/Documents/SearchData/*.idx
+: 1495679150:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495679264:0;clear
+: 1495679264:0;s
+: 1495679265:0;rm ~/Documents/SearchData/*.idx
+: 1495679266:0;clear
+: 1495679268:0;rm dummy.idx
+: 1495679271:0;make test
+: 1495679509:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495679930:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495679975:0;cse
+: 1495679990:0;rm a3search.h.gch
+: 1495679993:0;ls
+: 1495679994:0;rm a.out
+: 1495679998:0;clear
+: 1495679999:0;ls
+: 1495680004:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495680014:0;clear
+: 1495680015:0;cse
+: 1495680282:0;ls
+: 1495680286:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495680694:0;clear
+: 1495680694:0;s
+: 1495680760:0;q
+: 1495680847:0;make test
+: 1495681113:0;rm a.out
+: 1495681115:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495681119:0;rm dummy.idx
+: 1495681121:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495681125:0;rm ~/Documents/SearchData/*.idx
+: 1495681127:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because"
+: 1495681146:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495681438:0;clear
+: 1495681439:0;rm ~/Documents/SearchData/*.idx
+: 1495681441:0;make test
+: 1495681637:0;rm ~/Documents/SearchData/*.idx
+: 1495681640:0;rm dummy.idx
+: 1495681642:0;make test
+: 1495681656:0;rm dummy.idx
+: 1495681694:0;time ./a3search test1 dummy.idx "apple"
+: 1495681698:0;time ./a3search test1 dummy.idx "apple" -c 0.5
+: 1495681701:0;rm dummy.idx
+: 1495681702:0;time ./a3search test1 dummy.idx "apple" -c 0.5
+: 1495681720:0;make test
+: 1495681724:0;rm dummy.idx
+: 1495681725:0;time ./a3search test1 dummy.idx "apple" -c 0.5
+: 1495681733:0;make
+: 1495681736:0;time ./a3search test1 dummy.idx "apple" -c 0.5
+: 1495681785:0;make
+: 1495681814:0;rm dummy.idx
+: 1495681816:0;time ./a3search test1 dummy.idx "apple" -c 0.5
+: 1495681847:0;make
+: 1495681851:0;rm dummy.idx
+: 1495681852:0;time ./a3search test1 dummy.idx "apple" -c 0.5
+: 1495681889:0;make
+: 1495681893:0;rm dummy.idx
+: 1495681894:0;time ./a3search test1 dummy.idx "apple" -c 0.5
+: 1495681915:0;make; rm dummy.idx; time ./a3search test1 dummy.idx "apple" -c 0.5
+: 1495682686:0;rm ~/Documents/SearchData/*.idx
+: 1495682709:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495686340:0;rm ~??????
+: 1495686342:0;rm ~/Documents/SearchData/*.idx
+: 1495686343:0;rm dummy.idx
+: 1495686345:0;make test
+: 1495686411:0;rm dummy.idx
+: 1495686413:0;make test
+: 1495686912:0;du -hs dummy.idx/words
+: 1495686916:0;xxd dummy.idx/words
+: 1495687847:0;make test
+: 1495688016:0;rm ~/Documents/SearchData/*.idx
+: 1495688020:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495688256:0;rm ~/Documents/SearchData/*.idx
+: 1495688260:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495689161:0;clear
+: 1495689162:0;make test
+: 1495689187:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495689189:0;rm ~/Documents/SearchData/*.idx
+: 1495689190:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495689277:0;clear
+: 1495689279:0;make test
+: 1495689283:0;rm ~/Documents/SearchData/*.idx
+: 1495689284:0;make test
+: 1495689287:0;time
+: 1495689290:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495689370:0;make test
+: 1495689375:0;rm ~/Documents/SearchData/*.idx
+: 1495689377:0;make test
+: 1495689380:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495689395:0;make test
+: 1495689400:0;rm ~/Documents/SearchData/*.idx
+: 1495689403:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495689505:0;rm ~/Documents/SearchData/*.idx
+: 1495689507:0;make test
+: 1495689560:0;make clean
+: 1495689562:0;make test
+: 1495689642:0;make clean
+: 1495689644:0;make test
+: 1495689754:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495691210:0;clear
+: 1495691212:0;make test
+: 1495692378:0;m
+: 1495692379:0;make test
+: 1495692417:0;rm ~/Documents/SearchData/*.idx
+: 1495692419:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495692537:0;make test
+: 1495692549:0;z C==
+: 1495692552:0;cd Doc
+: 1495692554:0;z Doc
+: 1495692558:0;mkdir CppSTL
+: 1495692560:0;cd CppSTL
+: 1495692562:0;vim notes.md
+: 1495692620:0;make test
+: 1495692646:0;q
+: 1495692740:0;make test
+: 1495692807:0;rm dummy.idx
+: 1495692809:0;make test
+: 1495692812:0;make
+: 1495692834:0;make test
+: 1495694275:0;rm ~/Documents/SearchData/*.idx
+: 1495694277:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495695166:0;make test
+: 1495695304:0;clear
+: 1495695318:0;make test
+: 1495695558:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495695579:0;clear
+: 1495695586:0;make test
+: 1495695593:0;rm ~/Documents/SearchData/*.idx
+: 1495695594:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495695681:0;make test
+: 1495695890:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "News" "Corporation" "Because" -c 0.5
+: 1495695911:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf"
+: 1495695920:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5
+: 1495695971:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495695977:0;q
+: 1495695986:0;q
+: 1495695992:0;cse
+: 1495696041:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495696047:0;make test
+: 1495696137:0;scp
+: 1495696139:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495696208:0;make test
+: 1495696211:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495696590:0;make test
+: 1495696600:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495696621:0;ls test1
+: 1495696639:0;scp test1/* z5017666@cse.unsw.edu.au:~/A3/test1/
+: 1495696643:0;clear
+: 1495696648:0;make test
+: 1495696754:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495697045:0;vim test.hs
+: 1495698653:0;q
+: 1495698832:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495698836:0;make clean
+: 1495698837:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495698852:0;cse
+: 1495699162:0;z A3
+: 1495699164:0;cd ..
+: 1495699167:0;mk blast
+: 1495699177:0;pbpaste > blast.cpp
+: 1495699179:0;vim blast.cpp
+: 1495699802:0;make test
+: 1495699907:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495699911:0;make clean
+: 1495699912:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495699919:0;make test
+: 1495699941:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5
+: 1495699944:0;rm ~/Documents/SearchData/*.idx
+: 1495699945:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5
+: 1495700000:0;make test
+: 1495700050:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5
+: 1495700070:0;make test
+: 1495700288:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5
+: 1495700290:0;rm ~/Documents/SearchData/*.idx
+: 1495700292:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5
+: 1495700313:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 | grep "FOUND"
+: 1495700362:0;make test
+: 1495700369:0;make test | grep "FOUND"
+: 1495700372:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 | grep "FOUND"
+: 1495700380:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5
+: 1495700401:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495700404:0;make
+: 1495700407:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495700434:0;make
+: 1495700438:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495700496:0;make
+: 1495700499:0;make test
+: 1495702497:0;clear
+: 1495702497:0;s
+: 1495702498:0;d
+: 1495702700:0;make test
+: 1495703574:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703605:0;make test
+: 1495703610:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703685:0;make test
+: 1495703757:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703776:0;make
+: 1495703780:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703787:0;make test
+: 1495703806:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703815:0;make test
+: 1495703819:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703830:0;make
+: 1495703833:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703844:0;rm ~/Documents/SearchData/*.idx
+: 1495703845:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703909:0;ls
+: 1495703915:0;ls ~/Documents/SearchData/sample | wc -l
+: 1495703936:0;make test
+: 1495703941:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495703972:0;make test
+: 1495703975:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495704024:0;make test
+: 1495704030:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495704109:0;q
+: 1495704767:0;clear
+: 1495704773:0;make test
+: 1495704778:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Wolf" -c 0.5 > /dev/null
+: 1495704853:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495704891:0;make test
+: 1495704952:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495704995:0;make test
+: 1495705073:0;time
+: 1495705075:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495705162:0;make test
+: 1495705169:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495705240:0;make test
+: 1495705245:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495705304:0;make test
+: 1495705389:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495705427:0;ls ~/Documents/SearchData/sample | wc -l
+: 1495705536:0;make test
+: 1495710160:0;time
+: 1495710165:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495710256:0;pbpaste
+: 1495710276:0;git clone "https:`pbpaste`"
+: 1495710425:0;make test
+: 1495710433:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495710545:0;make test
+: 1495710559:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495710668:0;make test
+: 1495710753:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495710856:0;make test
+: 1495710861:0;rm ~/Documents/SearchData/*.idx
+: 1495710864:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495710958:0;make test
+: 1495711003:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495711077:0;make test
+: 1495711147:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495711195:0;clear
+: 1495711196:0;s
+: 1495711199:0;d makefile
+: 1495711205:0;a makefile
+: 1495711211:0;m "Fixed use of $PATH"
+: 1495711221:0;m --amend 
+: 1495711227:0;git commit --amend 
+: 1495711272:0;clear
+: 1495711272:0;s
+: 1495711274:0;git log
+: 1495711276:0;clear
+: 1495711276:0;s
+: 1495711292:0;diff stop.txt stopwords2.txt
+: 1495711316:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "Church" -c 0.5 > /dev/null
+: 1495711332:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "dick" -c 0.5 > /dev/null
+: 1495711340:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "guitar" -c 0.5 > /dev/null
+: 1495711348:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "music" -c 0.5 > /dev/null
+: 1495711355:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "law" -c 0.5 > /dev/null
+: 1495711370:0;make test
+: 1495711375:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "law" -c 0.5 > /dev/null
+: 1495711452:0;make test
+: 1495711457:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "law" -c 0.5 > /dev/null
+: 1495711515:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "defense" -c 0.5 > /dev/null
+: 1495711523:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "defence" -c 0.5 > /dev/null
+: 1495711545:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "water" -c 0.5 > /dev/null
+: 1495711561:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "climate" -c 0.5 > /dev/null
+: 1495711579:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "change" -c 0.5 > /dev/null
+: 1495711588:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "iphone" -c 0.5 > /dev/null
+: 1495711598:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "sony" -c 0.5 > /dev/null
+: 1495711609:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "banana" -c 0.5 > /dev/null
+: 1495711636:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "armadillo" -c 0.5 > /dev/null
+: 1495711645:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "arrest" -c 0.5 > /dev/null
+: 1495711672:0;make test
+: 1495711676:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "arrest" -c 0.5 > /dev/null
+: 1495711724:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "leo" -c 0.5 > /dev/null
+: 1495711734:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "ali" -c 0.5 > /dev/null
+: 1495711744:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "jesus" -c 0.5 > /dev/null
+: 1495711758:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "church" -c 0.5 > /dev/null
+: 1495711770:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "trump" -c 0.5 > /dev/null
+: 1495711780:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "doctrine" -c 0.5 > /dev/null
+: 1495711786:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495711799:0;make clean
+: 1495711800:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495711812:0;q
+: 1495711819:0;cse
+: 1495711898:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "law" -c 0.5 > /dev/null
+: 1495711997:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "code" -c 0.5 > /dev/null
+: 1495712006:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "oven" -c 0.5 > /dev/null
+: 1495712015:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "fence" -c 0.5 > /dev/null
+: 1495712021:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "crop" -c 0.5 > /dev/null
+: 1495712027:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "corn" -c 0.5 > /dev/null
+: 1495712032:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "cow" -c 0.5 > /dev/null
+: 1495712047:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "air" -c 0.5 > /dev/null
+: 1495712095:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "control" -c 0.5 > /dev/null
+: 1495712124:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "canada" -c 0.5 > /dev/null
+: 1495712197:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "radar" -c 0.5 > /dev/null
+: 1495712207:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "potato" -c 0.5 > /dev/null
+: 1495712263:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "video" -c 0.5 > /dev/null
+: 1495712276:0;make clean
+: 1495712278:0;make time
+: 1495712283:0;time test
+: 1495712285:0;make test
+: 1495712296:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "video" -c 0.5 > /dev/null
+: 1495712343:0;pbpaste | grep -io "[a-z]* " | sort | uniq -n
+: 1495712345:0;pbpaste | grep -io "[a-z]* " | sort | uniq -c
+: 1495712348:0;pbpaste | grep -io "[a-z]* " | sort | uniq -c | sort 0n
+: 1495712350:0;pbpaste | grep -io "[a-z]* " | sort | uniq -c | sort -n
+: 1495712372:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "game" -c 0.5 > /dev/null
+: 1495712384:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "development" -c 0.5 > /dev/null
+: 1495712470:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "ale" -c 0.5 > /dev/null
+: 1495712488:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "academy" -c 0.5 > /dev/null
+: 1495712496:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "university" -c 0.5 > /dev/null
+: 1495712929:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495713320:0;make test
+: 1495713327:0;rm *.h.gch
+: 1495713329:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495713390:0;cse
+: 1495713741:0;clear
+: 1495713742:0;s
+: 1495713750:0;git rm stopwords2.txt
+: 1495713754:0;rm stopwords2.txt
+: 1495713755:0;clear
+: 1495713755:0;s
+: 1495713758:0;d test.cpp
+: 1495713761:0;cat test.cpp
+: 1495713766:0;clear
+: 1495713767:0;ls
+: 1495713770:0;mv test.cpp ..
+: 1495713771:0;clear
+: 1495713771:0;s
+: 1495713776:0;mv wordnet-blast ..
+: 1495713777:0;clear
+: 1495713778:0;s
+: 1495713780:0;d
+: 1495713783:0;d a3search.h
+: 1495713791:0;a a3search.h
+: 1495713796:0;m "Stemmed the stop words"
+: 1495713797:0;clear
+: 1495713797:0;s
+: 1495713799:0;d
+: 1495713807:0;a a3search.cpp
+: 1495713815:0;m "Concept search\!"
+: 1495713817:0;clear
+: 1495713817:0;s
+: 1495713834:0;ls
+: 1495713850:0;mv ~/Downloads/wnb-0.6 .
+: 1495713851:0;ls
+: 1495713861:0;cd wnb-0.6
+: 1495713861:0;ls
+: 1495713866:0;cmake CMakeLists.txt
+: 1495713871:0;make
+: 1495713887:0;clear
+: 1495713887:0;s
+: 1495713888:0;ls
+: 1495713889:0;clear
+: 1495713892:0;ls
+: 1495713895:0;ls wnb
+: 1495713905:0;less README
+: 1495713927:0;mv wnb ..
+: 1495713928:0;ls
+: 1495713935:0;cd bin
+: 1495713935:0;ls
+: 1495713938:0;cd wntest
+: 1495713941:0;./wntest
+: 1495714005:0;cd ..
+: 1495714009:0;ls
+: 1495714011:0;cd ..
+: 1495714016:0;mv wnb wnb-0.6
+: 1495714092:0;ls
+: 1495714093:0;clear
+: 1495714094:0;ls
+: 1495714105:0;mv wnb-0.6/wnb .
+: 1495714106:0;ls
+: 1495714131:0;clear
+: 1495714135:0;ls wnb
+: 1495714137:0;cd wnb
+: 1495714137:0;ls
+: 1495714140:0;vim main.cc
+: 1495714190:0;clear
+: 1495714191:0;ls
+: 1495714193:0;rm blast.cpp
+: 1495714199:0;cd wnb
+: 1495714199:0;ls
+: 1495714204:0;vim main.cc
+: 1495714212:0;clear
+: 1495714212:0;ls
+: 1495714214:0;cd ..
+: 1495714217:0;mv wnb wnb-0.6
+: 1495714218:0;ls
+: 1495714220:0;cd wnb-0.6
+: 1495714220:0;ls
+: 1495714224:0;cd wnb
+: 1495714225:0;ls
+: 1495714227:0;vim main.cc
+: 1495714233:0;ls
+: 1495714236:0;ls core
+: 1495714241:0;vim main.cc
+: 1495714311:0;cd ...
+: 1495714313:0;..
+: 1495714313:0;clear
+: 1495714314:0;q
+: 1495714390:0;cse
+: 1495714478:0;clear
+: 1495714478:0;s
+: 1495714876:0;q
+: 1495716239:0;make test
+: 1495716261:0;d
+: 1495716547:0;make test
+: 1495716651:0;./a3search ~MyAccount/XYZ dummy.idx "apple"
+: 1495716658:0;./a3search test1 dummy.idx "apple"
+: 1495716672:0;./a3search test1 dummy.idx "INvestor"
+: 1495716683:0;./a3search test1 dummy.idx "apple" "investor"
+: 1495716686:0;./a3search test1 dummy.idx "apple" "invester"
+: 1495716697:0;./a3search test1 dummy.idx "apple" "APP"
+: 1495716703:0;./a3search test1 dummy.idx "apple" "APP" "sales"
+: 1495716715:0;./a3search test1 dummy.idx -c 0.5 "iPhone"
+: 1495716726:0;./a3search test1 dummy.idx -c 0.5 "iPhone" "apple"
+: 1495716739:0;./a3search test1 dummy.idx -c 0.5 "apple"
+: 1495716751:0;./a3search test1 dummy.idx -c 0.5 "apple" "ipad"
+: 1495716755:0;./a3search test1 dummy.idx -c 0.5 "ipad"
+: 1495716758:0;./a3search test1 dummy.idx -c 0.5 "watch"
+: 1495716762:0;./a3search test1 dummy.idx -c 0.5 "investors"
+: 1495716767:0;./a3search test1 dummy.idx -c 0.5 "iPhone" "apple"
+: 1495716770:0;./a3search test1 dummy.idx -c 0.5 "iPhone"
+: 1495716788:0;cat test1/file3.txt test1/file5.txt
+: 1495716984:0;make test
+: 1495716999:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "university" -c 0.5
+: 1495717057:0;time ./a3search ~/Documents/SearchData/sample ~/Documents/SearchData/sample.idx "university"
+: 1495717244:0;make clean
+: 1495717248:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495717256:0;cse
+: 1495717280:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495717290:0;rm *.h.gch
+: 1495717292:0;clear
+: 1495717292:0;ls
+: 1495717296:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495717321:0;scp test1/* z5017666@cse.unsw.edu.au:~/A3/test1/
+: 1495717331:0;scp -r test1 z5017666@cse.unsw.edu.au:~/A3/
+: 1495717375:0;cse
+: 1495717429:0;vim
+: 1495717434:0;cse
+: 1495717460:0;mv README.md README.txt
+: 1495717463:0;clear
+: 1495717463:0;s
+: 1495717470:0;echo $HOME
+: 1495717475:0;d
+: 1495717476:0;clear
+: 1495717476:0;s
+: 1495717478:0;a README.
+: 1495717480:0;a README.*
+: 1495717481:0;s
+: 1495717483:0;a README.md
+: 1495717484:0;clear
+: 1495717484:0;s
+: 1495717486:0;d
+: 1495717494:0;a a3*
+: 1495717495:0;clear
+: 1495717495:0;s
+: 1495717502:0;m "Prep for submit"
+: 1495717526:0;clear
+: 1495717527:0;ls
+: 1495717570:0;scp -r test1 z5017666@cse.unsw.edu.au:~/A3/
+: 1495717574:0;scp * z5017666@cse.unsw.edu.au:~/A3/
+: 1495717595:0;scp .git z5017666@cse.unsw.edu.au:~/A3/
+: 1495717604:0;scp -r .git z5017666@cse.unsw.edu.au:~/A3/
+: 1495717626:0;q
+: 1495717656:0;du -hs ConceptSearch_A3/.git
+: 1495717658:0;q
+: 1495717890:0;exit
+: 1495760444:0;clear
+: 1495760444:0;s
+: 1495760449:0;heroku run bash
+: 1495760454:0;clear
+: 1495760459:0;heroku local web
+: 1495760466:0;ls
+: 1495782677:0;heroku local web
+: 1495782722:0;q
+: 1495783000:0;vrc
+: 1495783021:0;q
+: 1495783078:0;python3 load_db.py
+: 1495783111:0;brew install pdflatex
+: 1495783259:0;vrc
+: 1495783396:0;clear
+: 1495783396:0;s
+: 1495783397:0;vrc
+: 1495783759:0;mv ~/Downloads/3024\ Night.terminal.txt ~/Downloads/3024\ Night.terminal
+: 1495784093:0;vrc
+: 1495784173:0;vim
+: 1495784176:0;vrc
+: 1495784243:0;vr
+: 1495784244:0;vrc
+: 1495784256:0;clear
+: 1495784258:0;vrc
+: 1495784494:0;clear
+: 1495784495:0;s
+: 1495784502:0;clear
+: 1495784502:0;s
+: 1495784503:0;vrc
+: 1495784519:0;clear
+: 1495784519:0;s
+: 1495784520:0;vrc
+: 1495784641:0;clear
+: 1495784642:0;s
+: 1495784644:0;vrc
+: 1495784789:0;clear
+: 1495784789:0;s
+: 1495784815:0;vrc
+: 1495785002:0;clear
+: 1495785002:0;q
+: 1495785004:0;clear
+: 1495785004:0;s
+: 1495785074:0;vim datasets/zoo/features.py
+: 1495785101:0;s
+: 1495785105:0;a datasets/zoo/features.py
+: 1495785110:0;m "Fix wording"
+: 1495785110:0;.
+: 1495785156:0;zrc
+: 1495785180:0;exec zsh
+: 1495785185:0;clear
+: 1495785186:0;s
+: 1495785401:0;vim app/templates/guess.html
+: 1495785531:0;python3 d
+: 1495785533:0;python3 debug.py
+: 1495785539:0;exec zsh
+: 1495785542:0;python3 debug.py
+: 1495786057:0;vrc
+: 1495786090:0;q
+: 1495786212:0;pip3 install --user neovim
+: 1495786217:0;cd
+: 1495786218:0;pip3 install --user neovim
+: 1495786224:0;vrc
+: 1495786381:0;clear
+: 1495786381:0;vrc
+: 1495786388:0;clear
+: 1495786388:0;q
+: 1495847294:0;clear
+: 1495847299:0;python3 debug.py
+: 1495847720:0;python3
+: 1495847742:0;python3 debug.py
+: 1495847751:0;clear
+: 1495847751:0;s
+: 1495847756:0;python3 load_db.py
+: 1495847777:0;vim app/db.py
+: 1495847852:0;clear
+: 1495847853:0;s
+: 1495847854:0;python3
+: 1495847864:0;pip3 install readline
+: 1495847867:0;clear
+: 1495847871:0;sudo pip3 install readline
+: 1495847881:0;clear
+: 1495847881:0;s
+: 1495847885:0;python3
+: 1495847926:0;python3 load_db.py
+: 1495847945:0;python3 d
+: 1495847947:0;python3 debug.py
+: 1495847997:0;clear
+: 1495847997:0;s
+: 1495848001:0;d app/db.py
+: 1495848004:0;a app/db.py
+: 1495848008:0;m "Removed newlines"
+: 1495848009:0;clear
+: 1495848010:0;s
+: 1495848014:0;d app/routes.py
+: 1495848018:0;a app/routes.py
+: 1495848022:0;a app/templates/guess.html
+: 1495848026:0;clears
+: 1495848027:0;clear
+: 1495848028:0;s
+: 1495848040:0;m "Added a way to tell the game about new animals"
+: 1495848041:0;clear
+: 1495848041:0;s
+: 1495848043:0;d
+: 1495848048:0;a datasets/zoo/features.py
+: 1495848052:0;m "Fix wording"
+: 1495848053:0;clear
+: 1495848053:0;s
+: 1495848053:0;p
+: 1495848243:0;clear
+: 1495848244:0;s
+: 1495848253:0;vim app/db.py app/qa_bot.py
+: 1495848917:0;python3
+: 1495849025:0;clear
+: 1495849026:0;s
+: 1495849028:0;d
+: 1495849041:0;vim app/routes.py
+: 1495849052:0;clear
+: 1495849053:0;s
+: 1495849055:0;python3 debug.py
+: 1495849069:0;z app
+: 1495849070:0;cd ..
+: 1495849073:0;python3
+: 1495849093:0;clear
+: 1495849093:0;s
+: 1495849152:0;python3 load_db.py
+: 1495849244:0;q
+: 1495870181:0;python3
+: 1495870220:0;exit
+: 1495870697:0;python3
+: 1495870713:0;clear
+: 1495871096:0;python3 debug.py
+: 1495871269:0;q
+: 1495872531:0;python3 debug.py
+: 1495872592:0;make test1
+: 1495872594:0;clear
+: 1495872594:0;s
+: 1495872596:0;python3 debug.py
+: 1495872757:0;clear
+: 1495872757:0;s
+: 1495872762:0;d app/db.py
+: 1495872767:0;a app/db.py
+: 1495872773:0;m "Fix multi committing"
+: 1495872774:0;clear
+: 1495872774:0;s
+: 1495872776:0;d load_db.py
+: 1495872784:0;a load_db.py
+: 1495872786:0;git commit --amend 
+: 1495872791:0;clear
+: 1495872791:0;s
+: 1495872796:0;d app/qa_bot.py
+: 1495872803:0;a app/qa_bot.py
+: 1495872804:0;clear
+: 1495872804:0;s
+: 1495872806:0;a app/routes.py
+: 1495872843:0;m "Moved game logic into bot and made a decorator to use the bot"
+: 1495872845:0;clear
+: 1495872845:0;s
+: 1495872846:0;p
+: 1495872854:0;vim app/routes.py
+: 1495872935:0;clear
+: 1495872935:0;d
+: 1495872938:0;a app/routes.py
+: 1495872942:0;m "Clean up"
+: 1495872943:0;p
+: 1495872950:0;clear
+: 1495872950:0;ls
+: 1495872954:0;vim app/qa_bot.py
+: 1495873238:0;python3 debug.py
+: 1495873460:0;watch "python3 debug.py"
+: 1495874088:0;clear
+: 1495874089:0;s
+: 1495874092:0;a app/templates
+: 1495874093:0;clear
+: 1495874094:0;s
+: 1495874094:0;d
+: 1495874098:0;a app/db.py
+: 1495874099:0;cler
+: 1495874101:0;clear
+: 1495874102:0;s
+: 1495874104:0;d app/qa_bot.py
+: 1495874109:0;a app/qa_bot.py
+: 1495874113:0;a app/routes.py
+: 1495874133:0;m "Improved guesses system, needs filtering based on questions"
+: 1495874134:0;p
+: 1495874143:0;clear
+: 1495874144:0;s
+: 1495874300:0;vim app/qa_bot.py
+: 1495889438:0;python3
+: 1495889604:0;q
+: 1495921641:0;clear
+: 1495921641:0;s
+: 1495921642:0;d
+: 1495921648:0;cd app
+: 1495921648:0;.
+: 1495921649:0;s
+: 1495921652:0;d templates
+: 1495921656:0;a templates
+: 1495921657:0;clear
+: 1495921657:0;s
+: 1495921659:0;d routes.py
+: 1495921665:0;a templates
+: 1495921665:0;s
+: 1495921669:0;a routes.py
+: 1495921670:0;.
+: 1495921671:0;s
+: 1495921671:0;d
+: 1495921681:0;a qa_bot.py
+: 1495921694:0;m "Pass the real animals to question and guess pages"
+: 1495921695:0;clear
+: 1495921696:0;s
+: 1495921697:0;p
+: 1495921704:0;.
+: 1495921705:0;d
+: 1495921708:0;vim qa_bot.py
+: 1495921908:0;clear
+: 1495921908:0;s
+: 1495921911:0;vim qa_bot.py
+: 1495921988:0;cd
+: 1495921994:0;pip3 install neovim
+: 1495922005:0;pip3 uninstall neovim
+: 1495922009:0;pip3 install neovim
+: 1495922016:0;pip3 uninstall neovim
+: 1495922036:0;pip3 install --user neovim
+: 1495922038:0;clear
+: 1495922061:0;neovim ~/Drive/Uni/2017/9417_ML/20Qs/app/qa_bot.py
+: 1495922066:0;nvim ~/Drive/Uni/2017/9417_ML/20Qs/app/qa_bot.py
+: 1495922082:0;z app
+: 1495922085:0;vim qa_bot.py
+: 1495922095:0;clear
+: 1495922149:0;pip3 install --user neovim
+: 1495922185:0;pip3 -U neovim
+: 1495922190:0;pip3 install -U neovim
+: 1495922199:0;.
+: 1495922201:0;vim qa_bot.py
+: 1495922237:0;pip3 install -U pylint
+: 1495922245:0;clear
+: 1495922247:0;vim qa_bot.py
+: 1495922276:0;clear
+: 1495922277:0;vim qa_bot.py
+: 1495941402:0;python3 
+: 1495941414:0;q
+: 1495941513:0;clear
+: 1495941513:0;s
+: 1495941516:0;vim qa_bot.py
+: 1495942020:0;python3 app/db.py
+: 1495942024:0;python3 db.py
+: 1495942029:0;cd ..
+: 1495942031:0;python3 app/db.py
+: 1495942037:0;python3
+: 1495942086:0;q
+: 1495942316:0;cd ..
+: 1495942318:0;python3
+: 1495942354:0;clear
+: 1495942354:0;q
+: 1495942441:0;clear
+: 1495942441:0;s
+: 1495942542:0;grep *
+: 1495942551:0;grep "from app" *
+: 1495942566:0;vim routes.py db.py qa_bot.py
+: 1495942759:0;clear
+: 1495942759:0;s
+: 1495942760:0;a .
+: 1495942761:0;d
+: 1495942763:0;D
+: 1495942782:0;m "Better imports and a simple (non-cached) guess system"
+: 1495942784:0;clear
+: 1495942784:0;p
+: 1495942796:0;vim qa_bot.py
+: 1495944016:0;clear
+: 1495944016:0;s
+: 1495944018:0;vim qa_bot.py
+: 1495944854:0;watch "python3 debug.py"
+: 1495945610:0;clear
+: 1495945611:0;s
+: 1495945613:0;watch "python3 debug.py"
+: 1495947013:0;clear
+: 1495947013:0;s
+: 1495947016:0;d qa_bot.py
+: 1495947023:0;a qa_bot.py
+: 1495947057:0;m "Added decent guessing (doesn't use how common the animal is but uses the answers)"
+: 1495947058:0;clear
+: 1495947059:0;p
+: 1495947127:0;vim templates/question.html
+: 1495947416:0;clear
+: 1495947416:0;s
+: 1495947417:0;d
+: 1495947420:0;a templates/question.html
+: 1495947424:0;m "Added back button"
+: 1495947424:0;p
+: 1495947744:0;vim qa_bot.py
+: 1495947778:0;clear
+: 1495947778:0;s
+: 1495947782:0;vim routes.py
+: 1495947920:0;cd app
+: 1495947925:0;python3 db.py
+: 1495947933:0;python3
+: 1495947939:0;cd ..
+: 1495947943:0;python3
+: 1495948420:0;q
+: 1495950042:0;python3
+: 1495950062:0;exit
+: 1495951698:0;s
+: 1495951699:0;d
+: 1495951764:0;vim qa_bot.py
+: 1495952082:0;clear
+: 1495952083:0;s
+: 1495952083:0;d
+: 1495952093:0;a qa_bot.py
+: 1495952098:0;m "Added question selector"
+: 1495952099:0;p
+: 1495952106:0;git push heroku master
+: 1495952170:0;heroku run bash
+: 1495952179:0;vim datasets/zoo/features.py
+: 1495952194:0;a .
+: 1495952194:0;s
+: 1495952195:0;D
+: 1495952200:0;m "Fix question
+: 1495952201:0;m "Fix question"
+: 1495952201:0;p
+: 1495952213:0;git push heroku master
+: 1495952327:0;vim datasets/zoo/features.py
+: 1495952335:0;heroku run bash
+: 1495952343:0;git push heroku master
+: 1495955034:0;vim app/templates/question.html
+: 1495955085:0;clear
+: 1495955086:0;s
+: 1495955087:0;a .
+: 1495955097:0;m "Open guesses by default"
+: 1495955098:0;p
+: 1495955105:0;git push heroku master
+: 1495955493:0;vim app/templates/question.html
+: 1495969705:0;z Doc
+: 1495969710:0;mk node_chat
+: 1495969766:0;vim main.js
+: 1495969807:0;cd ..
+: 1495969813:0;mv node_chat bash_msg
+: 1495969818:0;cd bash_msg
+: 1495969818:0;.
+: 1495969835:0;send.sh
+: 1495969839:0;vim send.sh
+: 1495970633:0;ls
+: 1495970634:0;cd ..
+: 1495970637:0;rm bash_msg
+: 1495970638:0;q
+: 1495975392:0;clear
+: 1495975393:0;s
+: 1495975393:0;d
+: 1495975405:0;vim app/templates/question.html
+: 1495975441:0;clear
+: 1495975441:0;s
+: 1495975443:0;a app
+: 1495975456:0;m "Guesses list remembers state (open/closed)"
+: 1495975457:0;p
+: 1495975461:0;z 20
+: 1495975464:0;git push heroku master
+: 1495975678:0;q
+: 1495975680:0;vim
+: 1495975687:0;vrc
+: 1495975699:0;vim
+: 1495976015:0;zrc
+: 1495976118:0;vrc
+: 1495976124:0;clear
+: 1495976124:0;s
+: 1495976192:0;vim app/templates/question.html app/routes.py
+: 1495980107:0;python3
+: 1495980245:0;clear
+: 1495980245:0;s
+: 1495980247:0;d
+: 1495980253:0;d app/server.py
+: 1495980257:0;a app/server.py
+: 1495980258:0;clear
+: 1495980258:0;s
+: 1495980260:0;d app/routes.py
+: 1495980280:0;a app/routes.py
+: 1495980280:0;clear
+: 1495980281:0;s
+: 1495980283:0;d app/db.py
+: 1495980371:0;clear
+: 1495980371:0;s
+: 1495980371:0;q
+: 1495980449:0;clear
+: 1495980449:0;s
+: 1495980456:0;python3 debug.py
+: 1495982232:0;clear
+: 1495982232:0;s
+: 1495982235:0;d app/db.py
+: 1495982241:0;a app/db.py
+: 1495982242:0;clear
+: 1495982242:0;s
+: 1495982246:0;d app/qa_bot.py
+: 1495982252:0;a app/qa_bot.py
+: 1495982253:0;clear
+: 1495982253:0;s
+: 1495982256:0;d
+: 1495982260:0;a app/server.py
+: 1495982261:0;clear
+: 1495982261:0;s
+: 1495982267:0;d app/templates/question.html
+: 1495982273:0;a app/templates/question.html
+: 1495982274:0;clear
+: 1495982275:0;s
+: 1495982277:0;a app/templates
+: 1495982278:0;.
+: 1495982279:0;clear
+: 1495982279:0;s
+: 1495982311:0;m "Added a page for adding questions (really dodgy) and worked on improving the entropy calulations"
+: 1495982313:0;p
+: 1495982321:0;git push heroku master
+: 1495982854:0;.
+: 1495983614:0;ping google.com
+: 1495983677:0;ping 8.8.8.8
+: 1495983869:0;ping google.com
+: 1496020586:0;vim app/qa_bot.py
+: 1496020851:0;cd
+: 1496020863:0;cd Downloads
+: 1496020864:0;git@github.com:felipec/notmuch-vim.git
+: 1496020895:0;mv notmuch-vim ~/.notmuch
+: 1496020896:0;cd
+: 1496020902:0;cd ~/.notmuch
+: 1496020908:0;make build notmuch =~/.notmuch
+: 1496020911:0;make build notmuch =~/.notmuch/
+: 1496020923:0;make build notmuch=~/.notmuch/
+: 1496020937:0;ruby -e "require 'notmuch'
+: 1496020939:0;ruby -e "require 'notmuch'"
+: 1496020946:0;vim --version | grep +ruby
+: 1496020950:0;vim --version | grep "ruby"
+: 1496020953:0;vim --version
+: 1496021012:0;pip3 install neovim
+: 1496021014:0;clear
+: 1496021110:0;cd ..
+: 1496021113:0;rm .notmuch
+: 1496021116:0;.
+: 1496021117:0;clear
+: 1496021118:0;s
+: 1496021122:0;cat unsw_ssh
+: 1496021125:0;rm unsw_ssh
+: 1496021126:0;clear
+: 1496021126:0;s
+: 1496021128:0;cat sample_p
+: 1496021130:0;cat sample_post
+: 1496021133:0;rm sample_p*
+: 1496021134:0;.
+: 1496021134:0;clear
+: 1496021135:0;s
+: 1496021137:0;ls go
+: 1496021139:0;clear
+: 1496021139:0;ls
+: 1496021141:0;ls node_modules
+: 1496021143:0;.
+: 1496021146:0;ls -la
+: 1496021148:0;clear
+: 1496021157:0;ls
+: 1496021159:0;q
+: 1496035685:0;clear
+: 1496035686:0;s
+: 1496035688:0;a app/qa_bot.py
+: 1496035709:0;m "Improved undo via updating with a negative weighting"
+: 1496035711:0;p
+: 1496035727:0;clear
+: 1496035727:0;s
+: 1496035728:0;git pull
+: 1496035752:0;p
+: 1496038289:0;vim app/db.py
+: 1496038444:0;python3 debug.py
+: 1496039650:0;clear
+: 1496039650:0;s
+: 1496039651:0;d
+: 1496039657:0;a app
+: 1496039670:0;m "Log game wins/losses so we can display stats"
+: 1496039671:0;clear
+: 1496039671:0;s
+: 1496039672:0;p
+: 1496039725:0;git push heroku master
+: 1496039760:0;q
+: 1496039765:0;z 20
+: 1496039885:0;clear
+: 1496039885:0;s
+: 1496039894:0;vim app/db.py
+: 1496043232:0;vrc
+: 1496043268:0;clear
+: 1496043268:0;s
+: 1496043270:0;clear
+: 1496043270:0;s
+: 1496043271:0;d
+: 1496043278:0;clear
+: 1496043278:0;s
+: 1496043282:0;vim app/db.py
+: 1496043615:0;clear
+: 1496043617:0;python3
+: 1496043639:0;vim app/db.py
+: 1496043652:0;grep -r "ddb" .
+: 1496043656:0;clear
+: 1496043658:0;python3
+: 1496043703:0;vim app/db.py
+: 1496043933:0;python3 debug.py
+: 1496046174:0;python3
+: 1496046315:0;clear
+: 1496046457:0;python3
+: 1496046621:0;python3 debug.py
+: 1496046908:0;exit
+: 1496046916:0;clear
+: 1496046916:0;s
+: 1496046919:0;python3 debug.py
+: 1496046926:0;python3 
+: 1496046950:0;python3 debug.py
+: 1496048078:0;python3 
+: 1496048300:0;sqlite3
+: 1496048372:0;python3 debug.py
+: 1496048384:0;python3
+: 1496048413:0;python3 debug.py
+: 1496058439:0;clear
+: 1496058439:0;s
+: 1496058543:0;d
+: 1496058563:0;a app
+: 1496058587:0;m "Log game wins/losses and add stats to the about page"
+: 1496058588:0;p
+: 1496058888:0;git pull
+: 1496058898:0;clear
+: 1496058898:0;s
+: 1496058901:0;git pull
+: 1496058909:0;s
+: 1496058913:0;git push
+: 1496058919:0;clear
+: 1496058919:0;ls
+: 1496058923:0;cd datasets
+: 1496058924:0;ls
+: 1496058926:0;rm back_up.csv
+: 1496058929:0;git rm back_up.csv
+: 1496058930:0;cd ..
+: 1496058935:0;s
+: 1496058940:0;m "Removed data file"
+: 1496058944:0;p
+: 1496059067:0;echo "git push heroku master" | pbcopy
+: 1496059068:0;zrc
+: 1496059146:0;clear
+: 1496059146:0;s
+: 1496059149:0;p
+: 1496059154:0;hp
+: 1496059157:0;exec zsh
+: 1496059158:0;hp
+: 1496059161:0;zrc
+: 1496059166:0;h
+: 1496059236:0;q
+: 1496059262:0;heroku logs --tail
+: 1496059286:0;heroku run bash
+: 1496059357:0;cd app
+: 1496059358:0;clear
+: 1496059358:0;s
+: 1496059363:0;vim templates/about.html
+: 1496059400:0;clear
+: 1496059400:0;s
+: 1496059408:0;vim templates/about.html
+: 1496059520:0;clear
+: 1496059521:0;s
+: 1496059521:0;d
+: 1496059525:0;a templates/about.html
+: 1496059535:0;m "Bug fix /0 created value error"
+: 1496059536:0;p
+: 1496059541:0;h
+: 1496059837:0;vim templates/about.html
+: 1496059882:0;clear
+: 1496059882:0;s
+: 1496059884:0;a templates/about.html
+: 1496059887:0;m "Formatting fix"
+: 1496059889:0;h
+: 1496059892:0;p
+: 1496060339:0;q
+: 1496060347:0;vim templates/question.html templates/guess.html
+: 1496060412:0;clear
+: 1496060412:0;s
+: 1496060413:0;d
+: 1496060415:0;a templates
+: 1496060440:0;m "Put animal names in title case for readability"
+: 1496060440:0;p
+: 1496060443:0;h
+: 1496060468:0;vim app/db.py
+: 1496060475:0;clear
+: 1496060476:0;vim db.py
+: 1496060490:0;q
+: 1496060492:0;clear
+: 1496060493:0;s
+: 1496060715:0;vim templates/suggest_question*
+: 1496060873:0;clear
+: 1496060873:0;s
+: 1496060873:0;d
+: 1496060876:0;a templates
+: 1496060879:0;m "Put animal names in title case for readability"
+: 1496060880:0;p
+: 1496060887:0;h
+: 1496062198:0;vim templates/suggest_question_answer.html
+: 1496062211:0;d
+: 1496062215:0;a te
+: 1496062217:0;a templates
+: 1496062220:0;m "Typo"
+: 1496062221:0;h
+: 1496062252:0;p
+: 1496063054:0;heroku run bash
+: 1496063076:0;clear
+: 1496063087:0;heroku run bash
+: 1496063272:0;clear
+: 1496063272:0;s
+: 1496063811:0;vim templates/question.html
+: 1496063903:0;clear
+: 1496063903:0;s
+: 1496099004:0;..
+: 1496099016:0;vim datasets/zoo/zoo.csv
+: 1496099030:0;clear
+: 1496099030:0;s
+: 1496099031:0;cd ..
+: 1496099035:0;cd 20Qs
+: 1496099035:0;.
+: 1496099151:0;vim app/routes.py app/templates/question.html
+: 1496099743:0;clear
+: 1496099743:0;s
+: 1496099745:0;d
+: 1496099756:0;a app/qa_bot.py
+: 1496099758:0;a app/routes.py
+: 1496099759:0;d
+: 1496099761:0;a 
+: 1496099762:0;a .
+: 1496099763:0;clear
+: 1496099763:0;s
+: 1496099782:0;vim app/templates/question.html
+: 1496099897:0;clear
+: 1496099897:0;s
+: 1496099899:0;vim app/templates/question.html
+: 1496099920:0;a .
+: 1496099930:0;m "Added tooltip to show entropy for debugging"
+: 1496099931:0;h
+: 1496099935:0;q
+: 1496099958:0;p
+: 1496100422:0;zrc
+: 1496100440:0;clear
+: 1496100441:0;s
+: 1496100442:0;exec zsh
+: 1496100444:0;hp
+: 1496100481:0;zrc
+: 1496100519:0;clear
+: 1496100519:0;s
+: 1496100521:0;exec zsh
+: 1496100523:0;ho
+: 1496103352:0;clear
+: 1496103353:0;.
+: 1496103358:0;vim app/s
+: 1496103420:0;pip3 install memcache
+: 1496103481:0;s
+: 1496103483:0;d
+: 1496103487:0;git checkout
+: 1496103488:0;clear
+: 1496103488:0;s
+: 1496103493:0;git checkout app/server.py
+: 1496103494:0;cler
+: 1496103495:0;clear
+: 1496103495:0;s
+: 1496103621:0;vim app/server.py
+: 1496103626:0;q
+: 1496103646:0;python3 debug.py
+: 1496104254:0;clear
+: 1496104254:0;s
+: 1496104256:0;a app/*
+: 1496104257:0;clear
+: 1496104257:0;s
+: 1496104279:0;python3 debug.py
+: 1496104284:0;vim app/server.py
+: 1496104295:0;clear
+: 1496104295:0;s
+: 1496104298:0;a app/server.py
+: 1496104298:0;d
+: 1496104301:0;D
+: 1496104324:0;vim app/server.py
+: 1496104330:0;clear
+: 1496104330:0;s
+: 1496104333:0;a app/server.py
+: 1496104334:0;clear
+: 1496104335:0;D
+: 1496104340:0;clear
+: 1496104340:0;s
+: 1496104357:0;m "Improved caching to support function calls and cleaned up some linting errors"
+: 1496104357:0;p
+: 1496104360:0;hp
+: 1496104434:0;vim app/server.py
+: 1496104455:0;vim app/routes.py
+: 1496104521:0;git checkout app/server.py
+: 1496104522:0;clear
+: 1496104522:0;s
+: 1496104556:0;vim qa_bot.py
+: 1496104559:0;.
+: 1496104566:0;vim app/qa_bot.py app/server.py
+: 1496104851:0;python3 debug.py
+: 1496105188:0;grep -r ".all()" *
+: 1496105190:0;clear
+: 1496105192:0;grep -r ".all()" *.py
+: 1496105376:0;grep -r "\.all()" *.py
+: 1496105397:0;clear
+: 1496105397:0;d
+: 1496105399:0;s
+: 1496105403:0;a save_db.py
+: 1496105404:0;clear
+: 1496105404:0;s
+: 1496105407:0;a saveDB.py
+: 1496105407:0;clear
+: 1496105408:0;s
+: 1496105411:0;d
+: 1496105447:0;a app load_db.py
+: 1496105447:0;s
+: 1496105454:0;python3 debug.py
+: 1496105658:0;s
+: 1496105659:0;clear
+: 1496105659:0;s
+: 1496105660:0;d
+: 1496105836:0;q
+: 1496106222:0;grep -r "get_all" .
+: 1496106226:0;grep -r "get_all" *.py
+: 1496106231:0;vim load_db.py
+: 1496106240:0;clear
+: 1496106240:0;s
+: 1496106242:0;vim load_db.py
+: 1496106245:0;clear
+: 1496106246:0;d
+: 1496106249:0;grep -r "get_all" *.py
+: 1496106251:0;cd app
+: 1496106252:0;grep -r "get_all" *.py
+: 1496106256:0;vim qa_bot.py
+: 1496106996:0;clear
+: 1496106996:0;s
+: 1496106998:0;a .
+: 1496106999:0;D
+: 1496107036:0;m "Adding simple caching for many db calls"
+: 1496107036:0;p
+: 1496107039:0;hp
+: 1496107048:0;ho
+: 1496107104:0;vim qa_bot.py
+: 1496107142:0;clear
+: 1496107142:0;s
+: 1496107147:0;grep -r "get_all" **.py
+: 1496107153:0;vim ../load_db.py
+: 1496107160:0;clear
+: 1496107160:0;s
+: 1496107164:0;grep -r "get_all" **.py
+: 1496107166:0;cd ..
+: 1496107168:0;grep -r "get_all" **.py
+: 1496107170:0;s
+: 1496107192:0;vim app/qa_bot.py
+: 1496107691:0;clear
+: 1496107691:0;s
+: 1496107692:0;d
+: 1496107704:0;vim app/qa_bot.py
+: 1496107766:0;.
+: 1496107766:0;d
+: 1496107780:0;python3 debug.py
+: 1496107788:0;clear
+: 1496107788:0;s
+: 1496107790:0;d
+: 1496107798:0;a .
+: 1496107800:0;clear
+: 1496107800:0;s
+: 1496107803:0;D
+: 1496107820:0;m "Convert guess set to list for sorting"
+: 1496107821:0;hp
+: 1496107873:0;vim app/qa_bot.py
+: 1496107906:0;.
+: 1496107907:0;s
+: 1496107908:0;clear
+: 1496109093:0;ho
+: 1496109102:0;vim app/qa_bot.py
+: 1496109141:0;clear
+: 1496109142:0;s
+: 1496109154:0;vim app/routes.py
+: 1496109187:0;clear
+: 1496109190:0;d
+: 1496109193:0;a .
+: 1496109212:0;D
+: 1496109226:0;m "Fixed route argument parameter naming"
+: 1496109227:0;hp
+: 1496109310:0;clear
+: 1496109440:0;heroku addons:create memcachedcloud:30
+: 1496109523:0;hb
+: 1496109553:0;vim app/server.py
+: 1496109768:0;pip3 install memcache
+: 1496109773:0;pip3 install python-memcache
+: 1496110017:0;pip3 install python3-memcached
+: 1496110045:0;pip3 freeze > requirements.txt
+: 1496110047:0;s
+: 1496110049:0;d
+: 1496110055:0;vim app/server.py
+: 1496110065:0;d
+: 1496110081:0;vim requirements.txt
+: 1496110107:0;clear
+: 1496110107:0;s
+: 1496110109:0;d
+: 1496110119:0;a requirements.txt
+: 1496110121:0;clear
+: 1496110121:0;s
+: 1496110122:0;d
+: 1496110125:0;a app/server.py
+: 1496110126:0;clear
+: 1496110126:0;s
+: 1496110139:0;q
+: 1496110158:0;python3 debug.py
+: 1496110224:0;run-help H
+: 1496110266:0;clear
+: 1496110266:0;s
+: 1496110267:0;d
+: 1496110355:0;clear
+: 1496110356:0;s
+: 1496110357:0;d
+: 1496110368:0;m "Adding memcached (untested)"
+: 1496110370:0;hp
+: 1496110462:0;hl
+: 1496110467:0;zrc
+: 1496110476:0;clear
+: 1496110478:0;exec zsh
+: 1496110479:0;hl
+: 1496110485:0;python3 debug.py
+: 1496110676:0;pip install libmemcached pylibmc python-dev
+: 1496110682:0;pip3 install libmemcached pylibmc python-dev
+: 1496110709:0;pip3 install pylibmc python-dev
+: 1496110719:0;clear
+: 1496110719:0;s
+: 1496110720:0;d
+: 1496110728:0;pip3 install pylibmc
+: 1496110828:0;clear
+: 1496110833:0;vim app/server.py
+: 1496110856:0;s
+: 1496110858:0;a .
+: 1496110865:0;m "Testing bug in memcache code"
+: 1496110867:0;hp
+: 1496110931:0;vim app/server.py
+: 1496111086:0;a .
+: 1496111088:0;m "Testing bug in memcache code"
+: 1496111089:0;hp
+: 1496111207:0;vim env/lib/python3.5/site-packages/werkzeug/contrib/cache.py
+: 1496111294:0;q
+: 1496111300:0;hb
+: 1496111368:0;MEMCACHEDCLOUD_SERVERS=("memcached-19517.c11.us-east-1-2.ec2.cloud.redislabs.com:19517")
+: 1496111392:0;MEMCACHEDCLOUD_USERNAME="memcached-app68893472"
+: 1496111409:0;MEMCACHEDCLOUD_PASSWORD="al2qyifu1w6m3ckT"
+: 1496111413:0;python3 debug.py
+: 1496111421:0;vim app/server.py
+: 1496111457:0;python3 debug.py
+: 1496111490:0;export MEMCACHEDCLOUD_SERVERS=("memcached-19517.c11.us-east-1-2.ec2.cloud.redislabs.com:19517")
+: 1496111497:0;export MEMCACHEDCLOUD_USERNAME="memcached-app68893472"
+: 1496111502:0;export MEMCACHEDCLOUD_PASSWORD="al2qyifu1w6m3ckT"
+: 1496111504:0;python3 debug.py
+: 1496111515:0;î‚° export MEMCACHEDCLOUD_SERVERS=("memcached-19517.c11.us-east-1-2.ec2.cloud.redislabs.com:19517")\
+ ðƒ¿ƒ°ƒ­ envî‚°...2017/9417_ML/20Qs î‚°î‚ƒ€ masterâƒ¼¹ î‚°\
+î‚° export MEMCACHEDCLOUD_USERNAME="memcached-app68893472"\
+ ðƒ¿ƒ°ƒ­ envî‚°...2017/9417_ML/20Qs î‚°î‚ƒ€ masterâƒ¼¹ î‚°\
+î‚° export MEMCACHEDCLOUD_PASSWORD="al2qyifu1w6m3ckT"i
+: 1496111525:0;zrc
+: 1496111550:0;clear
+: 1496111550:0;s
+: 1496111552:0;exec zsh
+: 1496111559:0;python3 debug.py
+: 1496111567:0;python3
+: 1496111612:0;echo $MEMCACHEDCLOUD_SERVERS
+: 1496111632:0;vim app/server.py
+: 1496111674:0;python3 debug.py
+: 1496111724:0;echo $MEMCACHEDCLOUD_SERVERS
+: 1496111734:0;echo $MEMCACHEDCLOUD_USERNAME
+: 1496111751:0;python3 debug.py
+: 1496111791:0;zrc
+: 1496111798:0;exec zsh
+: 1496111804:0;exec zsh
+: 1496111806:0;python3 debug.py
+: 1496111966:0;pip3 install pylibmc
+: 1496111989:0;brew install libmemcached
+: 1496112004:0;vim requirements.txt
+: 1496112013:0;clear
+: 1496112013:0;s
+: 1496112014:0;d
+: 1496112024:0;git checkout requirements.txt
+: 1496112026:0;vim requirements.txt
+: 1496112030:0;clear
+: 1496112030:0;s
+: 1496112032:0;a requirements.txt
+: 1496112033:0;clear
+: 1496112033:0;s
+: 1496112039:0;pip3 install pylibmc
+: 1496112056:0;q
+: 1496112058:0;vim app/server.py
+: 1496112063:0;q
+: 1496112172:0;python3 debug.py
+: 1496112345:0;echo $MEMCACHEDCLOUB_SERVER
+: 1496112346:0;echo $MEMCACHEDCLOUB_SERVERS
+: 1496112351:0;echo $MEMCACHEDCLOUD_SERVERS
+: 1496112357:0;python3
+: 1496112402:0;exec zsh
+: 1496112409:0;python3 debug.py
+: 1496112414:0;python3
+: 1496112471:0;zrc
+: 1496112476:0;clear
+: 1496112476:0;s
+: 1496112478:0;exec zsh
+: 1496112486:0;python3 debug.py
+: 1496112488:0;q
+: 1496112713:0;python3 debug.py
+: 1496118340:0;clear
+: 1496118340:0;s
+: 1496118343:0;a app/flask_cache_backends.py
+: 1496118344:0;clear
+: 1496118344:0;s
+: 1496118345:0;d
+: 1496118348:0;a app/server.py
+: 1496118357:0;vim app/server.py app/flask_cache_backends.py
+: 1496118458:0;zrc
+: 1496118471:0;s
+: 1496118471:0;.
+: 1496118475:0;exec zsh
+: 1496118492:0;python3 debug.py
+: 1496118503:0;vim app/server.py app/flask_cache_backends.py
+: 1496118532:0;python3 debug.py
+: 1496118563:0;clear
+: 1496118563:0;s
+: 1496118565:0;python3 debug.py
+: 1496118617:0;vim requirements.txt
+: 1496118684:0;clear
+: 1496118684:0;s
+: 1496118686:0;a requirements.txt
+: 1496118721:0;pip3 install --requirement requirements.txt
+: 1496118743:0;python3 debug.py
+: 1496118747:0;vim requirements.txt
+: 1496118760:0;pip3 install cPickle
+: 1496118773:0;pip3 install cpickle
+: 1496118807:0;pip3 install _pickle
+: 1496118816:0;clear
+: 1496118818:0;python3 debug.py
+: 1496118841:0;vim requirements.txt
+: 1496118848:0;rm requirements.txt
+: 1496118860:0;pip3 install bmemcached
+: 1496118877:0;pip3 install python-binary-memcached
+: 1496118888:0;pip3 freeze > requirements.txt
+: 1496118891:0;vim requirements.txt
+: 1496118914:0;clear
+: 1496118914:0;s
+: 1496118914:0;d
+: 1496118919:0;a requirements.txt
+: 1496118920:0;clear
+: 1496118920:0;s
+: 1496118921:0;d
+: 1496118925:0;a app/server.py
+: 1496118926:0;clear
+: 1496118926:0;s
+: 1496118929:0;python3 debug.py
+: 1496119043:0;pip3 --update
+: 1496119046:0;pip3 update
+: 1496119049:0;pip3 upgrae
+: 1496119054:0;pip3 --help
+: 1496119068:0;vim requirements.txt
+: 1496119096:0;pip3 uninstall python3-memcached pylibmc
+: 1496119101:0;clear
+: 1496119113:0;pip3 uninstall python-binary-memcached
+: 1496119122:0;pip3 install python-binary-memcached
+: 1496119132:0;vim requirements.txt
+: 1496119137:0;clear
+: 1496119137:0;s
+: 1496119138:0;d
+: 1496119141:0;pytho3
+: 1496119145:0;python3 debug.py
+: 1496119194:0;clear
+: 1496119195:0;s
+: 1496119196:0;d
+: 1496119200:0;a requirements.txt
+: 1496119202:0;a app/server.py
+: 1496119218:0;m "Fixed up connection to memcache and dependancies"
+: 1496119220:0;hp
+: 1496119258:0;vim app/server.py
+: 1496119402:0;clear
+: 1496119403:0;s
+: 1496119419:0;clear
+: 1496119419:0;s
+: 1496119421:0;a app/server.py
+: 1496119427:0;m "Added a default timeout again"
+: 1496119429:0;hp
+: 1496119545:0;P
+: 1496119750:0;git pull
+: 1496119773:0;vim save_db.py
+: 1496119881:0;clear
+: 1496119881:0;s
+: 1496119883:0;a save_db.py
+: 1496119896:0;m "Fixed merge"
+: 1496119897:0;p
+: 1496119933:0;hp
+: 1496119975:0;q
+: 1496119977:0;clear
+: 1496119978:0;s
+: 1496119979:0;q
+: 1496120074:0;vim Procfile
+: 1496120138:0;heroku config:set WEB_CONCURRENCY=3
+: 1496120171:0;vim app/server.py
+: 1496120179:0;clear
+: 1496120179:0;s
+: 1496120181:0;a app/server.py
+: 1496120185:0;m "Try threading"
+: 1496120186:0;hp
+: 1496120286:0;hl
+: 1496120311:0;vim app/server.py
+: 1496120327:0;clear
+: 1496120328:0;s
+: 1496120335:0;vim run.py
+: 1496120354:0;clear
+: 1496120355:0;s
+: 1496120357:0;a app/server.py
+: 1496120358:0;a run.py
+: 1496120359:0;D
+: 1496120366:0;m "Try threading (properly)"
+: 1496120368:0;hp
+: 1496120381:0;hl
+: 1496120436:0;vim app/server.py
+: 1496120446:0;clear
+: 1496120447:0;s
+: 1496120448:0;a .
+: 1496120452:0;m "Removed some logging"
+: 1496120453:0;hp
+: 1496120965:0;vim app/server.py
+: 1496120984:0;clear
+: 1496120984:0;s
+: 1496120986:0;a app/server.py
+: 1496120994:0;m "Extend cache timeout"
+: 1496120996:0;hp
+: 1496121026:0;heroku config
+: 1496126142:0;q
+: 1496126154:0;vim app/flask_cache_backends.py
+: 1496126486:0;heroku ps
+: 1496126674:0;vim app/flask_cache_backends.py app/server.py
+: 1496126740:0;heroku addons:open memcachedcloud
+: 1496126773:0;heroku labs:list
+: 1496126919:0;heroku addons:open memcachedcloud
+: 1496128119:0;hb
+: 1496128277:0;vim datasets/zoo/zoo.csv
+: 1496128397:0;vim app/templates/about.html
+: 1496128411:0;clear
+: 1496128411:0;s
+: 1496128413:0;a .
+: 1496128432:0;vim app/templates/about.html
+: 1496128493:0;clear
+: 1496128494:0;s
+: 1496128495:0;q
+: 1496128497:0;clear
+: 1496128499:0;python3 debug.py
+: 1496128516:0;s
+: 1496128518:0;d
+: 1496128558:0;vim app/templates/about.html
+: 1496128874:0;zrc
+: 1496128883:0;clear
+: 1496128883:0;s
+: 1496128885:0;exec zsh
+: 1496128887:0;clear
+: 1496128887:0;s
+: 1496128887:0;q
+: 1496128891:0;clear
+: 1496128892:0;s
+: 1496128894:0;vim app/templates/about.html
+: 1496128922:0;exec zsh
+: 1496128924:0;python3 debug.py
+: 1496128931:0;clear
+: 1496128932:0;s
+: 1496128933:0;zrc
+: 1496128939:0;echo $MEMCACHEDCLOUD_SERVERS
+: 1496128953:0;export MEMCACHEDCLOUD_SERVERS=""
+: 1496128955:0;echo $MEMCACHEDCLOUD_SERVERS
+: 1496128957:0;python3 debug.py
+: 1496128977:0;s
+: 1496128978:0;a .
+: 1496128985:0;vim app/templates/about.html
+: 1496128994:0;echo $MEMCACHEDCLOUD_SERVERS
+: 1496128996:0;python3 debug.py
+: 1496129010:0;hp
+: 1496129027:0;vim datasets/zoo/zoo.csv
+: 1496129031:0;vim datasets/zoo/features.py
+: 1496129044:0;clear
+: 1496129044:0;s
+: 1496129046:0;a datasets/zoo/features.py
+: 1496129051:0;m "Improved wording"
+: 1496129052:0;hp
+: 1496129162:0;clear
+: 1496129162:0;s
+: 1496129174:0;grep -r "@cached" **.py
+: 1496129179:0;grep -r "cached" **.py
+: 1496129182:0;grep -r "cached" *.py
+: 1496129187:0;grep "cached" *.py
+: 1496129190:0;grep "cached" **.py
+: 1496129191:0;clear
+: 1496129192:0;ls
+: 1496129193:0;cd app
+: 1496129194:0;ls
+: 1496129197:0;grep "cached" **.py
+: 1496129201:0;grep "@cached" **.py
+: 1496129276:0;q
+: 1496129281:0;vim qa_bot.py
+: 1496129352:0;hb
+: 1496129459:0;vim qa_bot.py
+: 1496190516:0;clear
+: 1496190516:0;s
+: 1496190517:0;d
+: 1496190532:0;a db.py qa_bot.py
+: 1496190532:0;s
+: 1496190544:0;m "Separated the db code from the bot"
+: 1496190545:0;p
+: 1496190550:0;hp
+: 1496190633:0;vim db.py
+: 1496192880:0;clear
+: 1496192880:0;s
+: 1496192881:0;a .
+: 1496192885:0;m "Fixed caching"
+: 1496192886:0;hp
+: 1496216773:0;hl
+: 1496216839:0;clear
+: 1496216842:0;vim db.py
+: 1496217827:0;python3
+: 1496217868:0;cd ..
+: 1496217869:0;python3
+: 1496218629:0;sqlite3
+: 1496218718:0;python3
+: 1496219222:0;q
+: 1496219250:0;cd ..
+: 1496219257:0;vim app/db.py test.py
+: 1496219917:0;sqlite3
+: 1496220083:0;q
+: 1496221003:0;clear
+: 1496221003:0;s
+: 1496221015:0;mv test.py ..
+: 1496221016:0;clear
+: 1496221016:0;s
+: 1496221017:0;d
+: 1496221023:0;clear
+: 1496221023:0;s
+: 1496221024:0;d
+: 1496221031:0;python3 debug.py
+: 1496221190:0;sqlite3
+: 1496221345:0;vim app/db.py
+: 1496221377:0;python3 debug.py
+: 1496221392:0;vim app/qa_bot.py
+: 1496221487:0;python3 debug.py
+: 1496222213:0;clear
+: 1496222213:0;s
+: 1496222214:0;d
+: 1496222220:0;a .
+: 1496222255:0;m "Working on optimizing db communication"
+: 1496222257:0;p
+: 1496222260:0;hp
+: 1496222305:0;q
+: 1496222318:0;hl
+: 1496222394:0;clear
+: 1496222395:0;s
+: 1496222403:0;vim app/qa_bot.py
+: 1496222465:0;clear
+: 1496222466:0;s
+: 1496222467:0;a .
+: 1496222480:0;m "Bug fix, self.guesses vs self.get_guesses()"
+: 1496222482:0;hp
+: 1496222610:0;vim app/qa_bot.py
+: 1496222655:0;python3 debug.py
+: 1496222670:0;clear
+: 1496222671:0;s
+: 1496222672:0;d
+: 1496222675:0;a app/db.py
+: 1496222683:0;m "Use precomputed list of animals"
+: 1496222684:0;hp
+: 1496222721:0;hl
+: 1496223190:0;clear
+: 1496223190:0;s
+: 1496223191:0;d
+: 1496223194:0;a .
+: 1496223198:0;m "Use default timeout"
+: 1496223199:0;hp
+: 1496237278:0;vim app/qa_bot.py
+: 1496237296:0;clear
+: 1496237296:0;s
+: 1496237298:0;python3 debug.py
+: 1496271287:0;sqlite3
+: 1496271398:0;python3
+: 1496271614:0;python3 debug.py
+: 1496273481:0;python3
+: 1496274413:0;python3 debug.py
+: 1496274632:0;clear
+: 1496274632:0;s
+: 1496274634:0;d
+: 1496274654:0;a .
+: 1496274693:0;m "Added __eq__ for db entries (for debugging), Removed some uses of set for more determinism and worked on db access issues"
+: 1496274694:0;hp
+: 1496274712:0;python3 debug.py
+: 1496274730:0;hl
+: 1496274807:0;python3 debug.py
+: 1496275034:0;clear
+: 1496275035:0;s
+: 1496275035:0;d
+: 1496275047:0;a app/db.py
+: 1496275054:0;m "Attempting to fix caching"
+: 1496275055:0;p
+: 1496275057:0;hp
+: 1496275071:0;hb
+: 1496275266:0;clear
+: 1496275266:0;s
+: 1496275267:0;d
+: 1496275268:0;a .
+: 1496275269:0;clear
+: 1496275269:0;s
+: 1496275272:0;m "Attempting to fix caching"
+: 1496275273:0;hp
+: 1496275276:0;hl
+: 1496275278:0;q
+: 1496275364:0;vim app/qa_bot.py
+: 1496275420:0;clear
+: 1496275420:0;s
+: 1496275422:0;a .
+: 1496275425:0;m "Bug fix"
+: 1496275426:0;hp
+: 1496275465:0;hl
+: 1496275529:0;vim app/s
+: 1496275532:0;vim app/server.py
+: 1496275585:0;clear
+: 1496275585:0;s
+: 1496275588:0;a .
+: 1496275589:0;m "Bug fix"
+: 1496275596:0;git push heroku master
+: 1496275735:0;clear
+: 1496275735:0;s
+: 1496275741:0;git log
+: 1496275745:0;git commit --amend 
+: 1496275765:0;p
+: 1496275771:0;q
+: 1496275920:0;hl
+: 1496276129:0;vim app/s
+: 1496276133:0;vim app/server.py
+: 1496276351:0;s
+: 1496276352:0;clear
+: 1496276352:0;d
+: 1496276358:0;vim app/server.py
+: 1496276373:0;clear
+: 1496276374:0;s
+: 1496276381:0;vim app/server.py
+: 1496276393:0;clear
+: 1496276393:0;s
+: 1496276398:0;vim app/db.py
+: 1496278121:0;q
+: 1496278512:0;python3 debug.py
+: 1496278571:0;vim app/db.py
+: 1496278575:0;clear
+: 1496278581:0;vim app/db.py
+: 1496279525:0;clear
+: 1496279526:0;s
+: 1496279661:0;d
+: 1496279692:0;vim app/db.py
+: 1496279890:0;clear
+: 1496279890:0;s
+: 1496279891:0;a .
+: 1496279915:0;m "Keep cache warm wherepv\
+\
+\
+"
+: 1496279921:0;vim app/server.py
+: 1496279927:0;clear
+: 1496279928:0;s
+: 1496279930:0;git commit --amend 
+: 1496279961:0;clear
+: 1496279961:0;s
+: 1496279963:0;vim app/server.py
+: 1496279975:0;clear
+: 1496279978:0;vim app/db.py
+: 1496280000:0;clear
+: 1496280000:0;s
+: 1496280008:0;vrc
+: 1496280011:0;clear
+: 1496280011:0;s
+: 1496280016:0;vim app/routes.py
+: 1496280039:0;clear
+: 1496280040:0;s
+: 1496280041:0;d
+: 1496280047:0;hp
+: 1496280057:0;P
+: 1496280095:0;git push
+: 1496280102:0;git push heroku master
+: 1496280119:0;git push -f heroku master
+: 1496280359:0;vim app/routes.py
+: 1496280412:0;clear
+: 1496280413:0;s
+: 1496280414:0;a app/db.py
+: 1496280416:0;a .
+: 1496280423:0;m "Added debuging page for animals list"
+: 1496280425:0;hp
+: 1496280467:0;hl
+: 1496280475:0;vim app/routes.py
+: 1496280485:0;clar
+: 1496280486:0;clear
+: 1496280487:0;s
+: 1496280488:0;a .
+: 1496280490:0;m "Bug fix"
+: 1496280491:0;hp
+: 1496281378:0;hl
+: 1496281586:0;vim app/routes.py
+: 1496281604:0;clear
+: 1496281605:0;s
+: 1496281606:0;a .
+: 1496281607:0;m "Bug fix"
+: 1496281609:0;hp
+: 1496285388:0;hl
+: 1496304585:0;ps -ef | grep "bit"
+: 1496304588:0;ps -ef | grep -i "bit"
+: 1496304600:0;pkill -9 82347
+: 1496304603:0;sudo pkill -9 82347
+: 1496304611:0;sudo pkill -9 82335
+: 1496304618:0;sudo pkill -9 82337
+: 1496304668:0;clear
+: 1496304670:0;ps -ef | grep -i "bit"
+: 1496304674:0;ps -ef | grep -i "bitd"
+: 1496304680:0;pkill -9 81986
+: 1496304682:0;clear
+: 1496304684:0;ps -ef | grep -i "bitd"
+: 1496304693:0;pkill -9 82385
+: 1496304695:0;ps -ef | grep -i "bitd"
+: 1496304766:0;clear
+: 1496304768:0;ps -ef | grep -i "bitd"
+: 1496304823:0;.
+: 1496304832:0;q
+: 1496304834:0;cd ~/Applications
+: 1496304835:0;ls
+: 1496304845:0;cd /Applications
+: 1496304845:0;.
+: 1496304852:0;ln -ls
+: 1496304856:0;cd Antivirus\ for\ Mac.app
+: 1496304857:0;ls
+: 1496304858:0;clear
+: 1496304858:0;s
+: 1496304863:0;ls
+: 1496304865:0;ls Contents
+: 1496304869:0;cd Contents
+: 1496304871:0;cd MacOS
+: 1496304871:0;ls
+: 1496304873:0;cd An
+: 1496304882:0;clear
+: 1496304884:0;ls -ls
+: 1496304974:0;q
+: 1496305239:0;vim app/templates/tracking.html
+: 1496305273:0;clear
+: 1496305273:0;s
+: 1496305279:0;vim app/templates/layout.html
+: 1496305590:0;clear
+: 1496305590:0;s
+: 1496305591:0;a app
+: 1496305615:0;m "Added Google Analytics to allow monitoring of usage and downtime"
+: 1496305616:0;hp
+: 1496305981:0;hl
+: 1496306070:0;clear
+: 1496306070:0;q
+: 1496306072:0;clear
+: 1496306073:0;s
+: 1496306073:0;q
+: 1496306124:0;reboot
+: 1496306405:0;z 20
+: 1496306410:0;pip3 install fire
+: 1496306444:0;vim cli.py
+: 1496306783:0;python3 cli.py -- --interactive
+: 1496306820:0;clear
+: 1496306831:0;Lmodeq
+: 1496306832:0;q
+: 1496306902:0;clear
+: 1496306902:0;s
+: 1496306904:0;git stash
+: 1496306905:0;clear
+: 1496306906:0;s
+: 1496306911:0;git mv cli.py ..
+: 1496306915:0;mv cli.py ..
+: 1496306916:0;clear
+: 1496306916:0;s
+: 1496306917:0;q
+: 1496307643:0;vim app/templates/config.html
+: 1496308122:0;clear
+: 1496308122:0;s
+: 1496308123:0;d
+: 1496308126:0;git stash
+: 1496308128:0;vim app/templates/config.html
+: 1496308143:0;clear
+: 1496308143:0;s
+: 1496308425:0;vim app/templates/config.html
+: 1496308854:0;q
+: 1496308860:0;python3 debug.py
+: 1496309106:0;clear
+: 1496309106:0;s
+: 1496309108:0;python3 debug.py
+: 1496309224:0;clear
+: 1496309224:0;s
+: 1496309225:0;d
+: 1496309229:0;a .
+: 1496309679:0;clear
+: 1496309679:0;s
+: 1496309680:0;d
+: 1496309683:0;D
+: 1496309696:0;m "Cleaning up, optimizing using Google Chrome Audit"
+: 1496309698:0;p
+: 1496309763:0;hp
+: 1496309860:0;heroku labs:enable http-sni --app questions20
+: 1496309919:0;heroku labs:list
+: 1496309959:0;brew update heroku
+: 1496309963:0;brew update
+: 1496309991:0;brew upgrade heroku
+: 1496310016:0;heroku labs:list
+: 1496310025:0;heroku help
+: 1496310031:0;heroku labs
+: 1496310037:0;heroku labs:list
+: 1496310039:0;heroku labs
+: 1496310059:0;heroku labs enable http-sni --app questions20
+: 1496310063:0;heroku enable http-sni --app questions20
+: 1496310067:0;heroku help
+: 1496310095:0;heroku certs
+: 1496310103:0;heroku certs:add
+: 1496310111:0;heroku certs:add testing
+: 1496310114:0;clear
+: 1496310114:0;s
+: 1496310115:0;clear
+: 1496310116:0;q
+: 1496311472:0;z CBM
+: 1496311473:0;.
+: 1496311485:0;vim Psychologism\ and\ Behaviorism\ -\ Ned\ Block.md
+: 1496368494:0;clear
+: 1496368495:0;ls
+: 1496368513:0;open Wk6\ -\ Questions.gddoc
+: 1496368532:0;chrome Wk6\ -\ Questions.gddoc
+: 1496368536:0;clear
+: 1496368536:0;s
+: 1496368570:0;q
+: 1496402483:0;z 00
+: 1496402485:0;z 20
+: 1496402486:0;.
+: 1496402489:0;cd app/templates
+: 1496402499:0;b staging
+: 1496402501:0;clear
+: 1496402501:0;s
+: 1496402608:0;vim about.html
+: 1496402612:0;clear
+: 1496402636:0;vim suggest_question.html ../routes.py
+: 1496403325:0;cd ...
+: 1496403327:0;python3 debug.py
+: 1496403616:0;clear
+: 1496403616:0;s
+: 1496403625:0;a app/templates/suggest_question*
+: 1496403626:0;clear
+: 1496403626:0;s
+: 1496403636:0;git rm app/templates/suggest_question.html
+: 1496403641:0;git rm app/templates/suggest_question_answer.html
+: 1496403642:0;clear
+: 1496403642:0;s
+: 1496403646:0;a app/templates/train.html
+: 1496403647:0;clear
+: 1496403648:0;s
+: 1496403654:0;a app/server.py
+: 1496403656:0;a app/routes.py
+: 1496403657:0;clear
+: 1496403658:0;s
+: 1496403671:0;python3 debug.py
+: 1496403767:0;sqlite3
+: 1496403823:0;python3 load_db.py
+: 1496403833:0;vim load_db.py
+: 1496403858:0;clear
+: 1496403858:0;s
+: 1496403860:0;a load_db.py
+: 1496403862:0;python3 load_db.py
+: 1496403864:0;vim load_db.py
+: 1496403868:0;clear
+: 1496403869:0;s
+: 1496403874:0;vim app/server.py
+: 1496404005:0;python3 load_db.py
+: 1496404015:0;s
+: 1496404018:0;d
+: 1496404021:0;a app/server.py
+: 1496404021:0;clear
+: 1496404022:0;s
+: 1496404066:0;q
+: 1496404223:0;clear
+: 1496404223:0;s
+: 1496404227:0;a config.html layout.html
+: 1496404227:0;clear
+: 1496404228:0;s
+: 1496404238:0;vim train.html
+: 1496443164:0;s
+: 1496443167:0;a .
+: 1496443176:0;git commit -m "TEMP"
+: 1496443179:0;b master
+: 1496443184:0;s
+: 1496443195:0;git add ../db.py ../routes.py
+: 1496443205:0;git commit --ammend -m "TEMP"
+: 1496443215:0;git commit --ammend
+: 1496443232:0;git commit --amend -m "TEMP"
+: 1496443236:0;b master
+: 1496443237:0;s
+: 1496443298:0;hl
+: 1496443350:0;..
+: 1496443357:0;vim qa_bot.py
+: 1496443627:0;grep "session" **.py
+: 1496443643:0;routes.py
+: 1496443648:0;vim routes.py
+: 1496443836:0;pip3 install flask_session
+: 1496443848:0;pip3 install flask-session
+: 1496443852:0;q
+: 1496444236:0;clear
+: 1496444237:0;s
+: 1496444240:0;cd ..
+: 1496444245:0;python3 debug.py
+: 1496444256:0;vim app/server.py
+: 1496444268:0;python3 debug.py
+: 1496444275:0;vim app/server.py
+: 1496444287:0;python3 debug.py
+: 1496444341:0;vim app/server.py
+: 1496444969:0;pip3 install flask_memcache_session
+: 1496445053:0;python3 debug.py
+: 1496445089:0;pip3 install flask_memcache_session
+: 1496445091:0;python3 debug.py
+: 1496445290:0;pip3 install session
+: 1496445317:0;python3 debug.py
+: 1496445419:0;cd ..
+: 1496445420:0;git@github.com:unk2k/Flask-memcache-session.git
+: 1496445431:0;cd Flask-memcache-session
+: 1496445432:0;ls
+: 1496445437:0;vim flask_memcache_session/__init__.py
+: 1496445443:0;clear
+: 1496445443:0;s
+: 1496445445:0;a flask_memcache_session
+: 1496445446:0;s
+: 1496445455:0;m "Fixed import error in python3"
+: 1496445465:0;git push
+: 1496445498:0;git remote -v
+: 1496445507:0;git remove add git@github.com:Cypher1/Flask-memcache-session.git
+: 1496445513:0;git remote add git@github.com:Cypher1/Flask-memcache-session.git
+: 1496445522:0;git remote add fork git@github.com:Cypher1/Flask-memcache-session.git
+: 1496445526:0;git push fork
+: 1496445579:0;q
+: 1496445694:0;clear
+: 1496445695:0;ls
+: 1496445708:0;mv flask_memcache_session ../20Qs
+: 1496445709:0;s
+: 1496445714:0;cd ../20Qs
+: 1496445715:0;clear
+: 1496445716:0;s
+: 1496445721:0;a flask_memcache_session
+: 1496445732:0;pip3 remove flask_memcache_session
+: 1496445746:0;pip3 uninstall flask_memcache_session
+: 1496445749:0;clear
+: 1496445750:0;s
+: 1496445753:0;a app/server.py
+: 1496445756:0;python3 debug.py
+: 1496445773:0;python debug.py
+: 1496445809:0;python2.7 debug.py
+: 1496445820:0;python2.6 debug.py
+: 1496445824:0;pip install flask
+: 1496445836:0;pip2.7 install flask
+: 1496445844:0;python2.6 debug.py
+: 1496445851:0;python2.7 debug.py
+: 1496445858:0;pip2.7 install flask_cache
+: 1496445861:0;python2.7 debug.py
+: 1496445875:0;pip2.7 install requirements.txt
+: 1496445880:0;pip2.7 install -f requirements.txt
+: 1496445891:0;pip2.7 --help
+: 1496445917:0;pip2.7 install `cat requirements.txt `
+: 1496445978:0;python2.7 debug.py
+: 1496446009:0;vim app/qa_bot.py
+: 1496446040:0;python2.7 debug.py
+: 1496446064:0;clear
+: 1496446065:0;s
+: 1496446066:0;d
+: 1496446072:0;a app/qa_bot.py
+: 1496446073:0;clear
+: 1496446073:0;s
+: 1496446091:0;m "Added flask memcache session to fix cookie size limitations"
+: 1496446095:0;hp
+: 1496446152:0;cd ../Flask-memcache-session
+: 1496446153:0;s
+: 1496446157:0;git checkout *
+: 1496446158:0;clear
+: 1496446158:0;s
+: 1496446163:0;git stash
+: 1496446164:0;s
+: 1496446170:0;python2.7
+: 1496446190:0;python2.6
+: 1496446205:0;clear
+: 1496446308:0;q
+: 1496446331:0;hl
+: 1496446381:0;clear
+: 1496446382:0;s
+: 1496446382:0;d
+: 1496446405:0;vim app/qa_bot.py
+: 1496446480:0;python debug.py
+: 1496446495:0;clear
+: 1496446495:0;s
+: 1496446497:0;a app
+: 1496446498:0;clear
+: 1496446498:0;s
+: 1496446499:0;d
+: 1496446500:0;D
+: 1496446513:0;m "Attempting to bug fix"
+: 1496446514:0;hp
+: 1496446542:0;vim README.md
+: 1496446550:0;q
+: 1496446552:0;cd .
+: 1496446559:0;vim requirements.txt
+: 1496446564:0;q
+: 1496446618:0;vim app/qa_bot.py
+: 1496446698:0;clear
+: 1496446699:0;s
+: 1496446700:0;a app
+: 1496446703:0;m "Attempting to bug fix"
+: 1496446705:0;hp
+: 1496446998:0;vim flask_memcache_session/session.py
+: 1496447006:0;python3
+: 1496447203:0;clear
+: 1496447203:0;s
+: 1496447206:0;a flask_memcache_session
+: 1496447214:0;m "Attempting to fix flask memcache session"
+: 1496447215:0;hp
+: 1496447270:0;vim flask_memcache_session/session.py
+: 1496447594:0;clear
+: 1496447595:0;s
+: 1496447598:0;a flask_memcache_session/session.py
+: 1496447601:0;hp
+: 1496447609:0;python3
+: 1496447654:0;vim flask_memcache_session/session.py
+: 1496447671:0;clear
+: 1496447671:0;s
+: 1496447676:0;m "Attempting to fix flask memcache session"
+: 1496447678:0;hp
+: 1496447811:0;vim app/s
+: 1496447814:0;vim app/server.py
+: 1496447913:0;clear
+: 1496447913:0;s
+: 1496447919:0;heroku config
+: 1496447925:0;heroku config --help
+: 1496447943:0;python3
+: 1496447984:0;heroku config:set SECRET_KEY=b'3\xe8\xac\x16>O\x92"C\x16c\xa7\xc6\xe6\x99\x9d\xbaX\x9a\xf2\xb1\xe8C\x8a'
+: 1496447991:0;s
+: 1496447992:0;d
+: 1496447996:0;a .
+: 1496448008:0;m "Better hex formatting and adding secret key for sessions"
+: 1496448009:0;hp
+: 1496448104:0;hb
+: 1496448149:0;vim app/server.py
+: 1496448183:0;clear
+: 1496448183:0;s
+: 1496448185:0;a .
+: 1496448192:0;m "Used config for secret key"
+: 1496448193:0;hp
+: 1496448248:0;vim app/server.py
+: 1496448281:0;hb
+: 1496448420:0;python3 debug.py
+: 1496448649:0;clear
+: 1496448649:0;s
+: 1496448650:0;d
+: 1496448653:0;a .
+: 1496448658:0;m "Config secret key once"
+: 1496448660:0;h[
+: 1496448662:0;hp
+: 1496448721:0;vim app/server.py
+: 1496448729:0;clear
+: 1496448730:0;s
+: 1496448735:0;m "removed old code"
+: 1496448736:0;hp
+: 1496448801:0;python3 debug.py
+: 1496448859:0;vim app/server.py
+: 1496448880:0;clear
+: 1496448881:0;s
+: 1496448882:0;a .
+: 1496448887:0;m "Set all the secret keys"
+: 1496448888:0;hp
+: 1496448916:0;vim app/server.py
+: 1496448975:0;clear
+: 1496448975:0;s
+: 1496448977:0;a app/server.py
+: 1496448982:0;m "Fallback session store"
+: 1496448983:0;hp
+: 1496449106:0;env/lib/python3.5/site-packages/flask/sessions.py
+: 1496449112:0;vim env/lib/python3.5/site-packages/flask/sessions.py
+: 1496449114:0;q
+: 1496449180:0;clear
+: 1496449180:0;s
+: 1496449183:0;vim flask_memcache_session/session.py
+: 1496449362:0;clear
+: 1496449362:0;s
+: 1496449365:0;rm flask_memcache_session
+: 1496449370:0;git rm flask_memcache_session
+: 1496449374:0;git rm -rf flask_memcache_session
+: 1496449375:0;clear
+: 1496449375:0;s
+: 1496449378:0;a app/server.py
+: 1496449406:0;clear
+: 1496449408:0;python3 debug.py
+: 1496449558:0;vim app/server.py
+: 1496449587:0;clear
+: 1496449587:0;s
+: 1496449588:0;a .
+: 1496449610:0;m "Rejected crappy library in favour of figuring out flask usage bugs"
+: 1496449611:0;hp
+: 1496449661:0;pip3 install flask_session
+: 1496449668:0;pip3 freeze > requirements.txt
+: 1496449671:0;vim requirements.txt
+: 1496449693:0;clear
+: 1496449693:0;s
+: 1496449701:0;pip3 uninstall Django
+: 1496449715:0;pip3 uninstall dj-database-url 
+: 1496449718:0;clear
+: 1496449719:0;s
+: 1496449721:0;a requirements.txt
+: 1496449727:0;vim requirements.txt
+: 1496449738:0;clear
+: 1496449738:0;s
+: 1496449743:0;m "Updated requirements"
+: 1496449744:0;hp
+: 1496449817:0;vim app/server.py
+: 1496450325:0;clear
+: 1496450326:0;s
+: 1496450328:0;a app/server.py
+: 1496450329:0;s
+: 1496450330:0;d
+: 1496450331:0;D
+: 1496450334:0;git stash
+: 1496450335:0;clear
+: 1496450335:0;s
+: 1496450461:0;vim app/server.py
+: 1496450541:0;clear
+: 1496450541:0;s
+: 1496450543:0;a .
+: 1496450549:0;m "Print config"
+: 1496450550:0;hp
+: 1496450682:0;hl | grep "SECRET_KEY"
+: 1496450729:0;hp
+: 1496450870:0;vim app/server.py
+: 1496450885:0;s
+: 1496450887:0;a app/server.py
+: 1496450899:0;m "Use filesystem cache, it might actually work"
+: 1496450900:0;hp
+: 1496450913:0;hl
+: 1496451072:0;vim app/server.py
+: 1496451149:0;q
+: 1496451322:0;vim requirements.txt
+: 1496451345:0;pip3 install pylibmc
+: 1496451357:0;pip3 install python-dev
+: 1496451370:0;clear
+: 1496451370:0;s
+: 1496451373:0;d
+: 1496451377:0;a app/server.py
+: 1496451381:0;pip3 freeze > requirements.txt
+: 1496451383:0;a requirements.txt
+: 1496451390:0;m "Trying everything"
+: 1496451391:0;hp
+: 1496451484:0;pip3 install memcache
+: 1496451497:0;pip3 install python-memcached
+: 1496451502:0;clear
+: 1496451502:0;s
+: 1496451522:0;clear
+: 1496451522:0;s
+: 1496451667:0;q
+: 1496451735:0;vim app/server.py
+: 1496451761:0;hb
+: 1496451884:0;pip3 install flask_memcache_session
+: 1496451892:0;pip3 freeze
+: 1496451894:0;pip3 freeze > requirements.txt
+: 1496451896:0;clear
+: 1496451896:0;s
+: 1496451900:0;vim app/server.py
+: 1496451955:0;cp ../Flask-memcache-session .
+: 1496451956:0;ls
+: 1496451965:0;mv Flask-memcache-session flask_memcache_session
+: 1496451968:0;clear
+: 1496451968:0;s
+: 1496451969:0;a flask_memcache_session
+: 1496451970:0;clear
+: 1496451970:0;s
+: 1496451973:0;vim app/s
+: 1496451976:0;vim app/server.py
+: 1496452054:0;clear
+: 1496452055:0;s
+: 1496452057:0;vim app/routes.py
+: 1496452069:0;clear
+: 1496452069:0;s
+: 1496452074:0;pylint3 *
+: 1496452076:0;clear
+: 1496452076:0;s
+: 1496452078:0;vim app/routes.py
+: 1496452082:0;q
+: 1496452092:0;clear
+: 1496452094:0;vim app/s
+: 1496452096:0;vim app/server.py
+: 1496452111:0;python3 debug.py
+: 1496452127:0;ls flask_session
+: 1496452134:0;rm flask_session
+: 1496452136:0;ls
+: 1496452138:0;cd flask_memcache_session/
+: 1496452144:0;clear
+: 1496452144:0;ls
+: 1496452150:0;mv flask_memcache_session ..
+: 1496452162:0;mv flask_memcache_session/* .
+: 1496452163:0;ls
+: 1496452166:0;rm .git
+: 1496452173:0;clear
+: 1496452173:0;s
+: 1496452181:0;rm LICENSE MANIFEST.in README.md __init__.pyc
+: 1496452182:0;clear
+: 1496452182:0;s
+: 1496452184:0;clear
+: 1496452184:0;ls
+: 1496452189:0;rm flask_memcache_session/
+: 1496452190:0;clear
+: 1496452191:0;ls
+: 1496452194:0;cat setup.py
+: 1496452200:0;rm setup.py
+: 1496452201:0;clear
+: 1496452201:0;s
+: 1496452202:0;ls
+: 1496452206:0;rm session.pyc
+: 1496452207:0;clear
+: 1496452207:0;s
+: 1496452208:0;vim __init__.py
+: 1496452211:0;clear
+: 1496452212:0;s
+: 1496452213:0;vim session.py
+: 1496452297:0;python3 debug.py
+: 1496452310:0;cd ..
+: 1496452311:0;clear
+: 1496452311:0;s
+: 1496452315:0;a requirements.txt
+: 1496452316:0;clear
+: 1496452316:0;s
+: 1496452319:0;clear
+: 1496452319:0;s
+: 1496452322:0;vim app/server.py
+: 1496452349:0;vim app/routes.py
+: 1496452386:0;vim app/server.py
+: 1496452486:0;python3 debug.py
+: 1496453072:0;clear
+: 1496453072:0;s
+: 1496453074:0;rm flask_memcache_session
+: 1496453080:0;git rm -rf 
+: 1496453084:0;git rm -rf flask_memcache_session
+: 1496453085:0;clear
+: 1496453085:0;s
+: 1496453089:0;vim app/routes.py
+: 1496453400:0;clear
+: 1496453400:0;s
+: 1496453402:0;a .
+: 1496453405:0;python3 debug.py
+: 1496453417:0;pip3 uninstall flask_memcache_session
+: 1496453420:0;clear
+: 1496453420:0;s
+: 1496453425:0;vim app/server.py
+: 1496453435:0;clear
+: 1496453435:0;s
+: 1496453437:0;a .
+: 1496453439:0;python3 debug.py
+: 1496453472:0;s
+: 1496453483:0;m "Use cache as a session store"
+: 1496453484:0;hp
+: 1496453488:0;q
+: 1496453515:0;vim requirements.txt
+: 1496453548:0;pip3 uninstall fire
+: 1496453557:0;pip3 uninstall pylibmc
+: 1496453581:0;pip3 uninstall python-memcached
+: 1496453584:0;clear
+: 1496453584:0;s
+: 1496453586:0;a requirements.txt
+: 1496453590:0;m "Removed old libs"
+: 1496453591:0;hp
+: 1496453723:0;hb
+: 1496458229:0;hl
+: 1496458235:0;q
+: 1496458265:0;python3 debug.py
+: 1496458280:0;q
+: 1496458300:0;vim app/qa_bot.py
+: 1496458478:0;python3
+: 1496458489:0;exit
+: 1496458551:0;clear
+: 1496458551:0;s
+: 1496458554:0;a app/db.py
+: 1496458560:0;m "Avoid empty animal names"
+: 1496458562:0;hp
+: 1496458584:0;vim datasets/zoo/features.py
+: 1496458602:0;clear
+: 1496458605:0;hb
+: 1496458608:0;clear
+: 1496458608:0;s
+: 1496458658:0;vim app/qa
+: 1496458661:0;vim app/qa_bot.py
+: 1496458690:0;clear
+: 1496458691:0;s
+: 1496458693:0;a app/qa_bot.py
+: 1496458705:0;m "Stop considering count of animal guesses"
+: 1496458706:0;hp
+: 1496468118:0;hb
+: 1496468457:0;vim app/db.py
+: 1496468586:0;clear
+: 1496468587:0;s
+: 1496468588:0;d
+: 1496468591:0;a app/db.py
+: 1496468592:0;clear
+: 1496468592:0;s
+: 1496468596:0;m "Adding hashing"
+: 1496468597:0;hp
+: 1496468605:0;clear
+: 1496468605:0;s
+: 1496468806:0;hb
+: 1496468882:0;vim app/db.py
+: 1496468901:0;clear
+: 1496468902:0;s
+: 1496468903:0;a app/db.py
+: 1496468907:0;m "Adding hashing"
+: 1496468908:0;hp
+: 1496468933:0;clear
+: 1496468934:0;s
+: 1496468935:0;b
+: 1496468940:0;clear
+: 1496469102:0;s
+: 1496469105:0;hb
+: 1496469106:0;q
+: 1496469258:0;vim app/server.py
+: 1496469736:0;q
+: 1496469839:0;clear
+: 1496469839:0;s
+: 1496469841:0;a app/db.py
+: 1496469849:0;m "Make sure solution != \"\""
+: 1496469850:0;hp
+: 1496469910:0;heroku run python3
+: 1496470040:0;vim app/templates/about.html
+: 1496470094:0;heroku run python3
+: 1496470116:0;vim app/server.py
+: 1496470342:0;clear
+: 1496470342:0;s
+: 1496470344:0;a app/db.py
+: 1496470350:0;m "Cleaned up stats code"
+: 1496470351:0;hp
+: 1496470388:0;clear
+: 1496470394:0;heroku run python3
+: 1496470558:0;vim app/templates/about.html
+: 1496470633:0;clear
+: 1496470633:0;g
+: 1496470637:0;b test
+: 1496470639:0;git status
+: 1496470649:0;git pull origin master 
+: 1496470654:0;clear
+: 1496470654:0;s
+: 1496470661:0;git diff test master 
+: 1496470666:0;git diff test origin/master 
+: 1496470672:0;git branch -d test
+: 1496470674:0;b staging
+: 1496470675:0;git branch -d test
+: 1496470681:0;git branch -D test
+: 1496470682:0;clear
+: 1496470692:0;python3 debug.py
+: 1496470716:0;vim app/db.py
+: 1496470795:0;hl
+: 1496470825:0;clear
+: 1496470825:0;s
+: 1496470826:0;git stash
+: 1496470828:0;b master
+: 1496470830:0;vim app/db.py
+: 1496470856:0;clear
+: 1496470856:0;s
+: 1496470858:0;a app/db.py
+: 1496470870:0;m "Ninja fix for Noneable animal in entries"
+: 1496470871:0;hp
+: 1496470922:0;clear
+: 1496470922:0;s
+: 1496470929:0;python3 debug.py
+: 1496470953:0;vim app/db.py
+: 1496470956:0;clear
+: 1496470956:0;s
+: 1496470959:0;b staging
+: 1496470960:0;clear
+: 1496470961:0;s
+: 1496470965:0;git stash apply
+: 1496470972:0;clear
+: 1496470973:0;s
+: 1496470974:0;d
+: 1496470977:0;a app/db.py
+: 1496470978:0;clear
+: 1496470981:0;git commit --amend -m "TEMP"
+: 1496471016:0;git reset HEAD^
+: 1496471017:0;clear
+: 1496471017:0;s
+: 1496471020:0;git add .
+: 1496471021:0;clear
+: 1496471022:0;s
+: 1496471024:0;D
+: 1496471045:0;clear
+: 1496471085:0;python3 app/db.py
+: 1496471089:0;vim app/db.py
+: 1496471304:0;clear
+: 1496471305:0;s
+: 1496471306:0;git add .
+: 1496471310:0;git commit --amend -m "TEMP"
+: 1496471316:0;b master
+: 1496471317:0;vim app/db.py
+: 1496471373:0;clear
+: 1496471373:0;s
+: 1496471376:0;a app/qa
+: 1496471377:0;a app/qa_bot.py
+: 1496471393:0;vim app/qa_bot.py
+: 1496471557:0;clear
+: 1496471557:0;d
+: 1496471561:0;a .
+: 1496471562:0;clear
+: 1496471562:0;s
+: 1496471563:0;D
+: 1496471575:0;m "Printing to monitor none in guesses"
+: 1496471576:0;hp
+: 1496471815:0;clear
+: 1496471816:0;s
+: 1496471819:0;vim app/qa_bot.py
+: 1496471823:0;clear
+: 1496471823:0;s
+: 1496471830:0;b staging
+: 1496471830:0;clear
+: 1496471831:0;s
+: 1496471844:0;vim app/templates/about.html
+: 1496471849:0;sqlite3
+: 1496471939:0;python3
+: 1496471981:0;vim app/server.py
+: 1496472050:0;python3 debug.py
+: 1496472062:0;q
+: 1496472640:0;hl
+: 1496472656:0;clear
+: 1496472656:0;s
+: 1496472658:0;a .
+: 1496472659:0;git commit --amend -m "TEMP"
+: 1496472663:0;b master
+: 1496472664:0;clear
+: 1496472665:0;s
+: 1496472672:0;vim app/routes.py
+: 1496472955:0;clear
+: 1496472956:0;s
+: 1496472957:0;a .
+: 1496472968:0;m "Trying to fix guesses bug (not stored in cache)"
+: 1496472969:0;hp
+: 1496473123:0;vim app/server.py
+: 1496473145:0;clear
+: 1496473146:0;s
+: 1496473147:0;a .
+: 1496473151:0;m "Cleanup"
+: 1496473152:0;hp
+: 1496473313:0;vim app/db.py
+: 1496473367:0;clear
+: 1496473368:0;s
+: 1496473370:0;a app/db.py
+: 1496473371:0;clear
+: 1496473372:0;s
+: 1496473379:0;clear
+: 1496473380:0;s
+: 1496473383:0;clear
+: 1496473383:0;ls
+: 1496473392:0;vim app/db.py
+: 1496473415:0;clear
+: 1496473415:0;s
+: 1496473417:0;a .
+: 1496473432:0;m "Update repr for animal"
+: 1496473433:0;hp
+: 1496473663:0;vim app/db.py
+: 1496473800:0;clear
+: 1496473800:0;s
+: 1496473802:0;a .
+: 1496473803:0;m "Update repr for animal"
+: 1496473804:0;hp
+: 1496474161:0;clear
+: 1496474161:0;s
+: 1496474163:0;q
+: 1496474167:0;clear
+: 1496474167:0;s
+: 1496474241:0;b staging
+: 1496474242:0;clear
+: 1496474242:0;s
+: 1496474268:0;vim app/routes.py
+: 1496474324:0;python3
+: 1496474343:0;q
+: 1496474438:0;clear
+: 1496474439:0;s
+: 1496474441:0;a app/routes.py
+: 1496474443:0;s
+: 1496474445:0;vim app/routes.py
+: 1496474658:0;clear
+: 1496474658:0;s
+: 1496474661:0;a app/routes.py
+: 1496474662:0;clear
+: 1496474663:0;s
+: 1496474674:0;m "Added training page"
+: 1496474675:0;hp
+: 1496474683:0;git push --set-upstream origin staging
+: 1496474722:0;git log
+: 1496474729:0;git pull origin master 
+: 1496474735:0;clear
+: 1496474736:0;s
+: 1496474739:0;vim app/db.py
+: 1496474772:0;clear
+: 1496474772:0;s
+: 1496474774:0;d app/db.py
+: 1496474778:0;a app/db.py
+: 1496474779:0;clear
+: 1496474779:0;s
+: 1496474782:0;vim app/routes.py
+: 1496474838:0;clear
+: 1496474838:0;s
+: 1496474840:0;a app/routes.py
+: 1496474841:0;clear
+: 1496474841:0;s
+: 1496474847:0;vim app/templates/config.html
+: 1496474855:0;clear
+: 1496474855:0;s
+: 1496474857:0;a .
+: 1496474860:0;python3 debug.py
+: 1496474875:0;clear
+: 1496474875:0;s
+: 1496474879:0;m "Merged"
+: 1496474880:0;hp
+: 1496475022:0;git checkout master
+: 1496475026:0;hp
+: 1496475035:0;git pull origin master 
+: 1496475041:0;hp
+: 1496475146:0;vim app/templates/config.html
+: 1496475247:0;python3 debug.py
+: 1496475326:0;clear
+: 1496475326:0;s
+: 1496475328:0;vim app/templates/config.html
+: 1496475661:0;heroku run python3
+: 1496476109:0;b staging
+: 1496476115:0;python3 debug.py
+: 1496476139:0;hb
+: 1496476446:0;vim app/routes.py
+: 1496476614:0;clear
+: 1496476614:0;s
+: 1496476616:0;a app/routes.py
+: 1496476617:0;clear
+: 1496476618:0;s
+: 1496476631:0;m "Added override for training page number of animals"
+: 1496476632:0;hp
+: 1496476683:0;git push
+: 1496476899:0;clear
+: 1496476899:0;s
+: 1496476910:0;vim app/routes.py
+: 1496476947:0;clear
+: 1496476949:0;git stash
+: 1496476951:0;b master
+: 1496476954:0;git stash apply
+: 1496476956:0;d
+: 1496476963:0;m "Added debug route for questions"
+: 1496476965:0;s
+: 1496476966:0;a .
+: 1496476968:0;m "Added debug route for questions"
+: 1496476970:0;hp
+: 1496476976:0;git pull
+: 1496476997:0;clear
+: 1496476999:0;hp
+: 1496477019:0;zrc
+: 1496477026:0;clear
+: 1496477026:0;s
+: 1496477028:0;exec zsh
+: 1496477030:0;q
+: 1496477031:0;clear
+: 1496477049:0;hl
+: 1496477079:0;vim app/routes.py
+: 1496477088:0;clear
+: 1496477089:0;s
+: 1496477090:0;a .
+: 1496477093:0;m "Bug fix"
+: 1496477094:0;hp
+: 1496477200:0;hl
+: 1496477203:0;q
+: 1496477210:0;vim app/routes.py
+: 1496477221:0;clear
+: 1496477221:0;s
+: 1496477222:0;a .
+: 1496477224:0;m "Bug fix"
+: 1496477227:0;p
+: 1496477318:0;hb
+: 1496478703:0;q
+: 1496494368:0;clear
+: 1496494368:0;s
+: 1496494371:0;clear
+: 1496494371:0;s
+: 1496494371:0;q
+: 1496494377:0;vim app/templates/about.html
+: 1496494751:0;python3 debug.py
+: 1496494862:0;sqlite3
+: 1496494922:0;python3
+: 1496494952:0;exit
+: 1496494954:0;python3 debug.py
+: 1496494966:0;sqlite3
+: 1496495004:0;python3 debug.py
+: 1496495055:0;s
+: 1496495056:0;clear
+: 1496495056:0;s
+: 1496495057:0;d
+: 1496495076:0;sqlite3
+: 1496495196:0;clear
+: 1496495196:0;s
+: 1496495205:0;vim app/db.py
+: 1496495213:0;q
+: 1496495251:0;clear
+: 1496495251:0;ls
+: 1496495257:0;cd ...
+: 1496495261:0;cd 4015_BNW
+: 1496495261:0;.
+: 1496495267:0;vim assignment.md
+: 1496496138:0;q
+: 1496496140:0;python3 debug.py
+: 1496496803:0;clear
+: 1496496803:0;s
+: 1496496804:0;d
+: 1496496812:0;a .
+: 1496496817:0;m "About page upgrades"
+: 1496496818:0;p
+: 1496496823:0;q
+: 1496496846:0;hb
+: 1496496918:0;hl
+: 1496496940:0;z 20
+: 1496496942:0;vim app/db.py
+: 1496497034:0;clear
+: 1496497034:0;s
+: 1496497035:0;a .
+: 1496497039:0;m "Bug fix"
+: 1496497040:0;p
+: 1496497089:0;sqlite3
+: 1496497320:0;vim app/db.py
+: 1496497335:0;clear
+: 1496497336:0;s
+: 1496497339:0;a app/db.py
+: 1496497350:0;m "Better fix, shouldn't change functionality in postgres"
+: 1496497351:0;p
+: 1496498568:0;ping 8.8.8.8
+: 1496498573:0;ping google.com
+: 1496498576:0;q
+: 1496543178:0;clear
+: 1496543186:0;q
+: 1496543201:0;z BCM
+: 1496543204:0;z CBM
+: 1496543204:0;.
+: 1496543210:0;vim ass2.md
+: 1496557165:0;q
+: 1496581778:0;z 20
+: 1496581785:0;vim app/templates/layout.html
+: 1496581988:0;clear
+: 1496581988:0;s
+: 1496581989:0;d
+: 1496581991:0;a .
+: 1496582029:0;m "Using async script in head to ensure tracking"
+: 1496582030:0;p
+: 1496582583:0;vim app/templates/layout.html
+: 1496582613:0;clear
+: 1496582613:0;s
+: 1496582614:0;a .
+: 1496582622:0;m "Added verification for Google"
+: 1496582623:0;p
+: 1496582632:0;hl
+: 1496582767:0;vim app/templates/tracking.html
+: 1496582771:0;clear
+: 1496582771:0;s
+: 1496582772:0;a .
+: 1496582788:0;m "Removed verification (testing showed that it was unneeded)"
+: 1496582790:0;p
+: 1496622112:0;q
+: 1496625709:0;cd app
+: 1496625720:0;vim templates/charts.html
+: 1496625887:0;vim routes.py
+: 1496625946:0;clear
+: 1496625947:0;s
+: 1496625949:0;python3 debug.py
+: 1496625951:0;cd ..
+: 1496625952:0;python3 debug.py
+: 1496627112:0;clear
+: 1496627112:0;s
+: 1496627114:0;git stash
+: 1496627118:0;b staging
+: 1496627121:0;git stash apply
+: 1496627122:0;clear
+: 1496627122:0;s
+: 1496627125:0;a templates/chart.html
+: 1496627126:0;clear
+: 1496627126:0;s
+: 1496627129:0;a .
+: 1496627131:0;m "TEMP"
+: 1496627131:0;clear
+: 1496627132:0;s
+: 1496627132:0;q
+: 1496627198:0;vim app/templates/config.html
+: 1496627344:0;python3 debug.py
+: 1496630712:0;q
+: 1496631079:0;clear
+: 1496631079:0;s
+: 1496631080:0;q
+: 1496753131:0;vim app/qa_bot.py
+: 1496753459:0;python3 debug.py
+: 1496755075:0;hb
+: 1496757235:0;heroku addons:create heroku-postgresql:hobby-basic
+: 1496757251:0;heroku pg:copu
+: 1496757254:0;heroku pg:copy
+: 1496757268:0;heroku pg:copy postgresql-acute-14656
+: 1496757300:0;heroku pg:copy postgresql-transparent-92605 postgresql-acute-14656
+: 1496757487:0;heroku config
+: 1496757527:0;heroku pg:promote HEROKU_POSTGRESQL_CHARCOAL_URL
+: 1496757839:0;clear
+: 1496757839:0;s
+: 1496757840:0;d
+: 1496757853:0;d app/db.py
+: 1496757859:0;a app/db.py
+: 1496757859:0;clear
+: 1496757860:0;s
+: 1496757863:0;d app/qa_bot.py
+: 1496757898:0;clear
+: 1496757899:0;s
+: 1496757900:0;clear
+: 1496757900:0;a
+: 1496757904:0;a app/qa_bot.py
+: 1496757904:0;clear
+: 1496757905:0;s
+: 1496757905:0;d
+: 1496757916:0;a .
+: 1496757917:0;clear
+: 1496757917:0;s
+: 1496757937:0;m "Working on fixing autocomplete in training page (to help people add to old questions instead of adding new ones)"
+: 1496757938:0;hp
+: 1496757940:0;p
+: 1496758119:0;q
+: 1496800983:0;clear
+: 1496800984:0;s
+: 1496800990:0;git diff staging origin/master 
+: 1496801057:0;git merge origin/master 
+: 1496801058:0;s
+: 1496801062:0;vim app/rou
+: 1496801066:0;vim app/routes.py
+: 1496801077:0;clear
+: 1496801077:0;s
+: 1496801082:0;d app/routes.py
+: 1496801085:0;a app/routes.py
+: 1496801085:0;clear
+: 1496801086:0;s
+: 1496801091:0;vim app/templates/config.html
+: 1496801108:0;clear
+: 1496801108:0;s
+: 1496801110:0;a .
+: 1496801113:0;git diff
+: 1496801114:0;D
+: 1496801140:0;m "Merging work from staging into master"
+: 1496801144:0;git push
+: 1496801219:0;vim app/routes.py
+: 1496801222:0;python3 debug.py
+: 1496802017:0;q
+: 1496802249:0;vim app/routes.py
+: 1496802254:0;python3 debug.py
+: 1496803549:0;s
+: 1496803551:0;a .
+: 1496803559:0;m "Added based win graphing"
+: 1496803560:0;p
+: 1496803664:0;q
+: 1496803670:0;clear
+: 1496803670:0;s
+: 1496803702:0;b master
+: 1496803704:0;vim app/routes.py
+: 1496803711:0;git pull
+: 1496803722:0;clear
+: 1496803722:0;s
+: 1496803723:0;vim app/routes.py
+: 1496803754:0;python3 debug.py
+: 1496803770:0;vim app/routes.py
+: 1496803794:0;clear
+: 1496803794:0;s
+: 1496803795:0;a 
+: 1496803797:0;a .
+: 1496803804:0;m "Fix sorting bug in chart"
+: 1496803804:0;p
+: 1496803845:0;hb
+: 1496803853:0;hl
+: 1496803943:0;vim app/routes.py
+: 1496803963:0;clear
+: 1496803963:0;s
+: 1496803965:0;vim app/routes.py
+: 1496803968:0;a .
+: 1496803970:0;m "Fix sorting bug in chart"
+: 1496803971:0;p
+: 1496804062:0;hb
+: 1496804182:0;q
+: 1496807000:0;git config --global alias.dad '!curl https://icanhazdadjoke.com/ && git add'
+: 1496807003:0;git dad
+: 1496807023:0;git config --global alias.dad '!curl https://icanhazdadjoke.com/ && echo "" && git add'
+: 1496807024:0;git dad
+: 1496807041:0;q
+: 1496809079:0;vim
+: 1496809301:0;q
+: 1496817828:0;z CBM
+: 1496817832:0;vim ass2.md
+: 1496819591:0;q
+: 1496836349:0;z 20
+: 1496836349:0;.
+: 1496836352:0;cd app
+: 1496836356:0;vim unittest.py
+: 1496837676:0;q
+: 1496837692:0;s
+: 1496837694:0;vim unittests.py
+: 1496837713:0;vim ../unittests.py unittests.py
+: 1496837738:0;q
+: 1496837899:0;s
+: 1496837903:0;vim unittests.py
+: 1496837933:0;clear
+: 1496837933:0;s
+: 1496837936:0;cd ..
+: 1496837936:0;s
+: 1496837939:0;python3 unittests.py
+: 1496837942:0;clear
+: 1496837942:0;s
+: 1496837944:0;a unittests.py
+: 1496838032:0;vim circle.yml
+: 1496838042:0;clear
+: 1496838042:0;s
+: 1496838044:0;a circle.yml
+: 1496838045:0;clear
+: 1496838045:0;s
+: 1496838147:0;vim circle.yml
+: 1496838159:0;ls
+: 1496838164:0;vim circle.yml
+: 1496838174:0;python3 load_db.py
+: 1496838207:0;clear
+: 1496838207:0;s
+: 1496838209:0;a circle.yml
+: 1496838210:0;clear
+: 1496838210:0;s
+: 1496838215:0;python3 unittests.py
+: 1496838226:0;m "Added circle CI setup and based db tests"
+: 1496838232:0;p
+: 1496838613:0;vim circle.yml
+: 1496838617:0;clear
+: 1496838618:0;s
+: 1496838619:0;a .
+: 1496838625:0;m "Attempting to fix circle CI"
+: 1496838626:0;p
+: 1496840123:0;q
+: 1496881244:0;python3 debug.py
+: 1496881284:0;vim app/qa_bot.py
+: 1496881717:0;clear
+: 1496881717:0;s
+: 1496881720:0;q
+: 1496887407:0;vim app/qa_bot.py
+: 1496887469:0;python3 debug.py
+: 1496887486:0;python3
+: 1496887645:0;q
+: 1496887658:0;python3 debug.py
+: 1496889228:0;diff
+: 1496889230:0;d
+: 1496889283:0;q
+: 1496889360:0;python3
+: 1496889452:0;python3 debug.py
+: 1496889453:0;q
+: 1496889683:0;python3
+: 1496889723:0;q
+: 1496889744:0;python3 debug.py
+: 1496889909:0;clear
+: 1496889910:0;s
+: 1496889910:0;d
+: 1496889921:0;git stash
+: 1496889925:0;vim app/qa_bot.py
+: 1496889991:0;clear
+: 1496889992:0;s
+: 1496889992:0;d
+: 1496889996:0;a .
+: 1496890003:0;git stash
+: 1496890005:0;b staging
+: 1496890008:0;git stash apply
+: 1496890010:0;s
+: 1496890011:0;a .
+: 1496890013:0;D
+: 1496890028:0;m "Do not consider animals without responses for entropy calculations"
+: 1496890030:0;p
+: 1496890056:0;git pull
+: 1496890066:0;clear
+: 1496890067:0;s
+: 1496890068:0;d
+: 1496890069:0;p
+: 1496890608:0;hl
+: 1496890614:0;hb
+: 1496892719:0;b master
+: 1496892728:0;git revert e6518405c40b649d1e6e8e5dfd644a551428beeb
+: 1496892766:0;vim app/qa_bot.py
+: 1496892775:0;git pull
+: 1496892782:0;git revert e6518405c40b649d1e6e8e5dfd644a551428beeb
+: 1496892808:0;p
+: 1496892815:0;git pull
+: 1496892828:0;b staging
+: 1496892831:0;git merge origin/master 
+: 1496892833:0;clear
+: 1496892833:0;s
+: 1496892835:0;p
+: 1496892858:0;git push
+: 1496892862:0;s
+: 1496892877:0;git log
+: 1496892885:0;git revert e6518405c40b649d1e6e8e5dfd644a551428beeb
+: 1496892888:0;s
+: 1496892889:0;p
+: 1496893046:0;hb
+: 1496896991:0;q
+: 1496897236:0;git ls-files | while read f; do git blame --line-porcelain $f | grep '^author '; done | sort -f | uniq -ic | sort -n
+: 1496897309:0;git config --global alias.authors 'git ls-files | while read f; do git blame --line-porcelain $f | grep "^author "; done | sort -f | uniq -ic | sort -n'
+: 1496897311:0;git authors
+: 1496897359:0;git config --global alias.authors 'git ls-files | while read f; do git blame --line-porcelain $f | grep "^author "; done | sort -f | uniq -ic | sort -n'
+: 1496897365:0;git authors
+: 1496897398:0;git config --global alias.authors 'ls-files | while read f; do git blame --line-porcelain $f | grep "^author "; done | sort -f | uniq -ic | sort -n'
+: 1496897399:0;git authors
+: 1496897409:0;git config --global alias.authors '!git ls-files | while read f; do git blame --line-porcelain $f | grep "^author "; done | sort -f | uniq -ic | sort -n'
+: 1496897411:0;git authors
+: 1496897417:0;clear
+: 1496897418:0;git authors
+: 1496897484:0;git authors | grep -o "author"
+: 1496897487:0;git authors | grep -ov "author"
+: 1496897491:0;git authors | grep -v "author"
+: 1496897502:0;git authors | sed "s/author //"
+: 1496897515:0;git config --global alias.authors '!git ls-files | while read f; do git blame --line-porcelain $f | grep "^author " | sed "s/author //"; done | sort -f | uniq -ic | sort -n'
+: 1496897519:0;git authors
+: 1496897536:0;z Kan
+: 1496897541:0;cd ...
+: 1496897542:0;..
+: 1496897545:0;cd 2016
+: 1496897546:0;.
+: 1496897548:0;cd 4920_Ethics
+: 1496897548:0;ls
+: 1496897553:0;cd ..
+: 1496897554:0;clear
+: 1496897555:0;ls
+: 1496897561:0;cd ../2015
+: 1496897562:0;ls
+: 1496897565:0;cd 2911_OOP
+: 1496897565:0;ls
+: 1496897580:0;clear
+: 1496897580:0;s
+: 1496897583:0;rm Deadlock*
+: 1496897584:0;clear
+: 1496897584:0;s
+: 1496897592:0;cd Study
+: 1496897593:0;ls
+: 1496897593:0;cd ..
+: 1496897594:0;..
+: 1496897601:0;cd 3411_AI
+: 1496897602:0;ls
+: 1496897604:0;cd assignment
+: 1496897605:0;ls
+: 1496897607:0;cd ..
+: 1496897608:0;clear
+: 1496897608:0;s
+: 1496897610:0;cd labs
+: 1496897611:0;.
+: 1496897612:0;cd ..
+: 1496897613:0;ls
+: 1496897618:0;cd ..
+: 1496897619:0;clear
+: 1496897619:0;ls
+: 1496897624:0;cd 2121_Micro
+: 1496897625:0;ls
+: 1496897629:0;cd ..
+: 1496897630:0;.
+: 1496897631:0;..
+: 1496897632:0;.
+: 1496897639:0;cd 2017
+: 1496897639:0;.
+: 1496897643:0;cd ..
+: 1496897644:0;ls
+: 1496897646:0;cd W
+: 1496897652:0;cd 2017/9319_WebData
+: 1496897653:0;ls
+: 1496897659:0;cd ConceptSearch_A3
+: 1496897662:0;git authors
+: 1496897665:0;cd ..
+: 1496897665:0;clear
+: 1496897665:0;s
+: 1496897668:0;cd BWT_Search_A2
+: 1496897671:0;git authors
+: 1496897678:0;cd ../RLE_A1
+: 1496897680:0;git authors
+: 1496897681:0;ls
+: 1496897683:0;cd RLE
+: 1496897684:0;ls
+: 1496897690:0;git init
+: 1496897691:0;clear
+: 1496897692:0;s
+: 1496897698:0;a *.h
+: 1496897701:0;a *.cpp
+: 1496897702:0;clear
+: 1496897702:0;s
+: 1496897704:0;a Makefile
+: 1496897705:0;clear
+: 1496897705:0;s
+: 1496897711:0;rm rlencode
+: 1496897713:0;rm rldecode
+: 1496897714:0;clear
+: 1496897714:0;s
+: 1496897717:0;rm output.rle
+: 1496897718:0;clear
+: 1496897718:0;s
+: 1496897722:0;m "Init"
+: 1496897723:0;clear
+: 1496897723:0;s
+: 1496897727:0;git authors
+: 1496897729:0;cd ..
+: 1496897729:0;clea
+: 1496897731:0;clear
+: 1496897731:0;s
+: 1496897732:0;..
+: 1496897739:0;mv RLE_A1/RLE/* RLE_A1
+: 1496897741:0;cd RLE_A1
+: 1496897741:0;ls
+: 1496897747:0;rm RLE
+: 1496897750:0;clear
+: 1496897751:0;s
+: 1496897752:0;cd RLE
+: 1496897754:0;mv .git ..
+: 1496897755:0;cd ..
+: 1496897756:0;ls
+: 1496897759:0;rm RLE
+: 1496897759:0;clear
+: 1496897760:0;s
+: 1496897762:0;git init
+: 1496897765:0;rm .git
+: 1496897769:0;clear
+: 1496897769:0;s
+: 1496897772:0;git init
+: 1496897774:0;clear
+: 1496897774:0;s
+: 1496897776:0;a .
+: 1496897778:0;m "Init"
+: 1496897780:0;clear
+: 1496897783:0;git authors
+: 1496897784:0;cd ..
+: 1496897785:0;ls
+: 1496897787:0;cd ..
+: 1496897789:0;cd 
+: 1496897791:0;cd Documents
+: 1496897791:0;ls
+: 1496897796:0;cd Projects
+: 1496897797:0;ls
+: 1496897802:0;cd HaskPG
+: 1496897804:0;git authors
+: 1496897806:0;cd ..
+: 1496897811:0;cd Artificial-brain
+: 1496897812:0;ls
+: 1496897813:0;cd ..
+: 1496897813:0;clear
+: 1496897813:0;s
+: 1496897816:0;cd Old
+: 1496897817:0;ls
+: 1496897819:0;cd CppNN
+: 1496897820:0;s
+: 1496897825:0;cd NNplusplus
+: 1496897827:0;git authors
+: 1496897833:0;clear
+: 1496897833:0;s
+: 1496897834:0;d
+: 1496897836:0;clear
+: 1496897839:0;git authors
+: 1496897841:0;cd ..
+: 1496897843:0;clear
+: 1496897843:0;s
+: 1496897844:0;cd ...
+: 1496897846:0;ls
+: 1496897849:0;cd Old
+: 1496897850:0;ls
+: 1496897874:0;git clone git@github.com:Cypher1/KanFam_Ethics.git
+: 1496897966:0;ls
+: 1496897967:0;cd KanFam_Ethics
+: 1496897968:0;ls
+: 1496897970:0;meteor
+: 1496897975:0;ls
+: 1496897979:0;git authors
+: 1496898078:0;clear
+: 1496898079:0;s
+: 1496898082:0;git authors
+: 1496898096:0;zrc
+: 1496898171:0;clear
+: 1496898172:0;exec zsh
+: 1496898175:0;ga
+: 1496898191:0;clear
+: 1496898192:0;s
+: 1496898193:0;which ga
+: 1496898201:0;ga
+: 1496898205:0;which ga
+: 1496898244:0;exec zsh
+: 1496898247:0;ga
+: 1496898287:0;exec zsh
+: 1496898289:0;ga
+: 1496898300:0;clear
+: 1496898302:0;exec zsh; ga
+: 1496898304:0;ga
+: 1496898324:0;clear
+: 1496898324:0;s
+: 1496898332:0;z .con
+: 1496898334:0;s
+: 1496898342:0;d pylintrc
+: 1496898347:0;a pylintrc
+: 1496898351:0;m "Added flask setup"
+: 1496898352:0;clear
+: 1496898352:0;s
+: 1496898357:0;d nvim/spell
+: 1496898363:0;a nvim/spell
+: 1496898370:0;m "Added philosophy"
+: 1496898371:0;clear
+: 1496898371:0;s
+: 1496898374:0;d gitconfig
+: 1496898381:0;a gitconfig
+: 1496898389:0;m "Added some aliases"
+: 1496898390:0;clear
+: 1496898390:0;s
+: 1496898393:0;a heroku
+: 1496898395:0;d
+: 1496898397:0;D
+: 1496898406:0;a heroku
+: 1496898410:0;m "Updated heroku"
+: 1496898411:0;clear
+: 1496898411:0;s
+: 1496898416:0;z direnv
+: 1496898420:0;d direnv
+: 1496898425:0;cat direnv/*
+: 1496898426:0;clear
+: 1496898427:0;s
+: 1496898429:0;ls direnv
+: 1496898436:0;cat direnv/*
+: 1496898439:0;cat direnv/allow
+: 1496898442:0;cd direnv
+: 1496898442:0;ls
+: 1496898444:0;cat allow
+: 1496898446:0;vim allow
+: 1496898452:0;cd ..
+: 1496898457:0;vim .gitignore
+: 1496898463:0;clear
+: 1496898464:0;s
+: 1496898465:0;a .gitignore
+: 1496898466:0;clear
+: 1496898466:0;s
+: 1496898475:0;m "Ignore allowed .envs"
+: 1496898476:0;clear
+: 1496898476:0;s
+: 1496898479:0;d nvim/init.vim
+: 1496898501:0;a nvim/init.vim
+: 1496898512:0;m "Improved neomake, added closetag back in"
+: 1496898513:0;clear
+: 1496898513:0;s
+: 1496898517:0;d nvim/plugged
+: 1496898520:0;a nvim/plugged
+: 1496898522:0;m "Updates"
+: 1496898523:0;clear
+: 1496898523:0;s
+: 1496898526:0;d zshrc
+: 1496898545:0;a zshrc
+: 1496898551:0;m "Added some heroku aliases"
+: 1496898551:0;clear
+: 1496898552:0;s
+: 1496898552:0;p
+: 1496898555:0;clear
+: 1496898555:0;s
+: 1496898560:0;ga
+: 1496898561:0;s
+: 1496898562:0;q
+: 1496898571:0;meteor npm install --save bcrypt
+: 1496898589:0;clear
+: 1496898589:0;s
+: 1496898598:0;vim server/main.js
+: 1496898615:0;vim settings.json
+: 1496898627:0;q
+: 1496900900:0;path
+: 1496900903:0;echo $PATH
+: 1496900906:0;cd .
+: 1496900909:0;exec zsh
+: 1496900911:0;clear
+: 1496900911:0;s
+: 1496900954:0;d
+: 1496900967:0;git add zsh_history&& git commit -m "More zsh_history" && git push
