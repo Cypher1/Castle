@@ -1,6 +1,6 @@
 [TYPECHECK]
 ignored-modules = numpy, tensorflow, flask_sqlalchemy, SQLAlchemy
-generated-members=query,add,commit
+generated-members=query,add,commit,delete
 docstring-min-length=10
 
 # Good variable names which should always be accepted, separated by a comma

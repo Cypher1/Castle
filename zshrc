@@ -114,6 +114,28 @@ function _gitbranchcheck { # AUTO COMPLETE BRANCHES
     reply=($(git branch --no-color | grep -o '[^ ]*$'))
 }
 compctl -K _gitbranchcheck gitbranchcheck
+function realpath {
+  file="$1"
+  dir="$(dirname "$file")"
+  echo "$(cd "$dir"; pwd)/$(basename "$file")"
+}
+function gitignore {
+  top="$(git rev-parse --show-toplevel)"
+  ignore="$top/.gitignore"
+  tmp="/tmp/gitignore"
+  echo $ignore
+  strip="$(echo "$top" | sed -e 's/[]\/$*.^|[]/\\&/g')"
+  for file in "$@"
+  do
+    file="$(realpath "$file")"
+    rfile="$(echo "$file" | sed "s/$strip\///")"
+    echo "Ignoring $rfile"
+    echo "$rfile" >> "$ignore"
+  done
+  echo "Deduplication .gitignore"
+  cat "$ignore" | sort | uniq > "$tmp"
+  mv "$tmp" "$ignore"
+}
 alias -s git='git clone'
 alias s="git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
@@ -123,6 +145,7 @@ alias d="git diff"
 alias D="git diff --staged"
 alias b="gitbranchcheck"
 alias g="git log --graph"
+alias gi="gitignore"
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sed 's/author //' | sed 's/cypher/Joshua Pratt/' | sed 's/kat333/Katherine Perdikis/'; done | sort -f | uniq -ic | sort -n"
 alias gitnuke="confirm 'CONFIRM NUKE' && git fetch origin && git reset --hard origin/master"
 alias P='git fetch && git diff origin/master && confirm "Pull?" && git pull'

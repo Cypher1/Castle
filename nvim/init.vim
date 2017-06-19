@@ -19,6 +19,8 @@ Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'aperezdc/vim-template'            " Template files
 Plug 'alvan/vim-closetag'               " Close html tags
+Plug 'jiangmiao/auto-pairs'             " Close html tags
+Plug 'tpope/vim-fugitive'               " GIT
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'ElmCast/elm-vim'                  " Elm
