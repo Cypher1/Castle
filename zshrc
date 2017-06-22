@@ -168,3 +168,7 @@ export PATH=$PATH:$(go env GOPATH)/bin
 export GOPATH=$(go env GOPATH)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 eval "$(direnv hook zsh)"
+
+autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
+eval "$(stack --bash-completion-script stack)"
