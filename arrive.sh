@@ -18,6 +18,7 @@ PROGRAMS=(
   ghc
   stack
   g++
+  direnv
   python
   python-pip
   python3
