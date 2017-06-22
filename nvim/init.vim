@@ -84,6 +84,7 @@ map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans
 " Buffers/Tabs/Splits {{{
 set splitbelow splitright
 nmap <leader>v :vsp<space>
+nmap <leader>t :vsp<CR>:term<CR>
 nmap <leader>s :sp<space>
 nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>j :wincmd j<CR>
