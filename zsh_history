@@ -47600,3 +47600,3043 @@ git stash apply
 : 1496900911:0;s
 : 1496900954:0;d
 : 1496900967:0;git add zsh_history&& git commit -m "More zsh_history" && git push
+: 1496900974:0;d
+: 1496900978:0;p
+: 1496900982:0;clear
+: 1496900983:0;s
+: 1496900983:0;d
+: 1496900987:0;clear
+: 1496900987:0;s
+: 1496900988:0;cd 
+: 1496900989:0;clear
+: 1496900990:0;s
+: 1496900994:0;ls -la
+: 1496900998:0;vim .rnd
+: 1496901001:0;clear
+: 1496901002:0;ls
+: 1496901003:0;.
+: 1496901007:0;ls -la
+: 1496901011:0;ls -la | grep "->"
+: 1496901014:0;ls -la | grep "\-\>"
+: 1496901021:0;ls -la | grep "\->"
+: 1496901033:0;vim .todo
+: 1496901044:0;rm .todo
+: 1496901045:0;clear
+: 1496901045:0;s
+: 1496901048:0;ls -la
+: 1496901054:0;clear
+: 1496901056:0;ls -la
+: 1496901063:0;rm .dbshell
+: 1496901067:0;rm .DS_Store
+: 1496901068:0;clear
+: 1496901068:0;s
+: 1496901069:0;ls -la
+: 1496901088:0;rm .meteorsession .lesshst .rnd .zsh-update
+: 1496901091:0;exec zsh
+: 1496901093:0;clear
+: 1496901093:0;s
+: 1496901094:0;ls -la
+: 1496901098:0;vim .z
+: 1496901102:0;clear
+: 1496901104:0;ls -la
+: 1496901108:0;rm .emacs.d
+: 1496901109:0;clear
+: 1496901111:0;ls -la
+: 1496901115:0;rm .swipl-dir-history
+: 1496901116:0;clear
+: 1496901116:0;s
+: 1496901118:0;rm .subversion
+: 1496901119:0;clear
+: 1496901119:0;s
+: 1496901120:0;ls -la
+: 1496901140:0;rm .matplotlib .netrc
+: 1496901141:0;clear
+: 1496901142:0;ls -la
+: 1496901150:0;rm .oracle_jre_usage
+: 1496901151:0;clear
+: 1496901152:0;ls -la
+: 1496901158:0;cd .cups
+: 1496901159:0;ls
+: 1496901161:0;cat lpoptions
+: 1496901166:0;cd ..
+: 1496901184:0;rm .Xauthority .emulator_console_auth_token
+: 1496901185:0;clear
+: 1496901186:0;ls -la
+: 1496901189:0;rm .cups
+: 1496901190:0;clear
+: 1496901190:0;s
+: 1496901191:0;la -la
+: 1496901196:0;cd .Trash
+: 1496901197:0;ls
+: 1496901199:0;cd ..
+: 1496901200:0;rm .Trash
+: 1496901201:0;clear
+: 1496901202:0;ls -la
+: 1496901206:0;rm .CFUserTextEncoding
+: 1496901209:0;clear
+: 1496901209:0;s
+: 1496901210:0;ls -la
+: 1496901216:0;ls .local
+: 1496901218:0;ls .local/share
+: 1496901223:0;clear
+: 1496901226:0;vim .viminfo
+: 1496901233:0;clear
+: 1496901233:0;s
+: 1496901234:0;.
+: 1496901236:0;ls -la
+: 1496901239:0;cd .cordova
+: 1496901240:0;ls
+: 1496901241:0;cd lib
+: 1496901242:0;ls
+: 1496901243:0;cd ...
+: 1496901244:0;clear
+: 1496901247:0;rm .cordova
+: 1496901252:0;ls -la
+: 1496901258:0;ls .wine
+: 1496901263:0;rm .wine
+: 1496901275:0;ls -la
+: 1496901279:0;ls .android
+: 1496901284:0;clear
+: 1496901287:0;vim .node_repl_history
+: 1496901295:0;rm .node_repl_history
+: 1496901296:0;clear
+: 1496901297:0;ls -la
+: 1496901304:0;vim .zcompdump-Cortana-5.2
+: 1496901311:0;rm .zcompdump-Cortana-5.2
+: 1496901312:0;exec zsh
+: 1496901316:0;clear
+: 1496901316:0;s
+: 1496901318:0;ls -la
+: 1496901328:0;ls node_modules
+: 1496901333:0;clear
+: 1496901334:0;ls -la
+: 1496901340:0;cd .babel-cache
+: 1496901343:0;cd .babel-cache/ls
+: 1496901344:0;ls
+: 1496901345:0;cd ..
+: 1496901347:0;rm .babel-cache
+: 1496901348:0;clear
+: 1496901349:0;ls -la
+: 1496901352:0;cd .cache
+: 1496901353:0;ls
+: 1496901357:0;cd ..
+: 1496901357:0;clear
+: 1496901359:0;ls -la
+: 1496901361:0;rm .cache
+: 1496901362:0;clear
+: 1496901362:0;s
+: 1496901366:0;a
+: 1496901366:0;la
+: 1496901373:0;ls .gnupg
+: 1496901375:0;.
+: 1496901377:0;la
+: 1496901387:0;ls .stack
+: 1496901392:0;ls .pip
+: 1496901396:0;vim .pip/zsh-cache
+: 1496901404:0;rm .pip
+: 1496901405:0;clear
+: 1496901406:0;ls -la
+: 1496901410:0;go
+: 1496901413:0;clear
+: 1496901414:0;cd go
+: 1496901414:0;ls
+: 1496901416:0;cd bin
+: 1496901417:0;ls
+: 1496901418:0;cd ../src
+: 1496901419:0;ls
+: 1496901421:0;cd github.com
+: 1496901421:0;ls
+: 1496901423:0;cd Cypher1
+: 1496901423:0;ls
+: 1496901424:0;clear
+: 1496901424:0;s
+: 1496901426:0;cd hello
+: 1496901426:0;ls
+: 1496901427:0;vim hello.go
+: 1496901433:0;cd ...
+: 1496901434:0;..
+: 1496901438:0;la
+: 1496901444:0;clear
+: 1496901444:0;ls
+: 1496901445:0;la
+: 1496901451:0;vim .viminfo
+: 1496901464:0;rm .viminfo
+: 1496901465:0;clear
+: 1496901466:0;vim
+: 1496901469:0;clar
+: 1496901471:0;la
+: 1496901484:0;vim .sqlite_history
+: 1496901489:0;rm .sqlite_history
+: 1496901490:0;clear
+: 1496901491:0;la
+: 1496901504:0;ls Music
+: 1496901506:0;clear
+: 1496901506:0;la
+: 1496901511:0;rm .meteor.bak
+: 1496901521:0;rm -rf .meteor.bak
+: 1496901535:0;vim .mongorc.js
+: 1496901541:0;cat .mongorc.js
+: 1496901544:0;rm .mongorc.js
+: 1496901545:0;q
+: 1496901548:0;du -hs
+: 1496901553:0;du -hs *
+: 1496901577:0;cd Documents
+: 1496901579:0;du -hs *
+: 1496901596:0;cd SearchData
+: 1496901597:0;clear
+: 1496901598:0;ls -la
+: 1496901601:0;du -hs *
+: 1496901615:0;rm out sample sample.idx smaller WestburyLab.Wikipedia.Corpus.tar
+: 1496901655:0;s
+: 1496901663:0;du -hs *
+: 1496901687:0;cd ..
+: 1496901689:0;rm SearchData
+: 1496901693:0;clear
+: 1496901693:0;s
+: 1496901695:0;cd SearchData
+: 1496901697:0;ls -la
+: 1496901699:0;clear
+: 1496901699:0;q
+: 1496901710:0;cd .meteor.bak
+: 1496901710:0;ls
+: 1496901712:0;ls -la
+: 1496901716:0;ls packages
+: 1496901718:0;rm packages/*
+: 1496901728:0;cd packages
+: 1496901728:0;ls
+: 1496901731:0;rm routepolicy
+: 1496901736:0;y
+: 1496901738:0;clear
+: 1496901738:0;s
+: 1496901741:0;rm meteor-tool meteorhacks_fast-render meteorhacks_inject-data meteorhacks_meteorx meteorhacks_picker meyerweb-reset mike_mocha mike_mocha-core minifier-css minifier-js minimongo mobile-experience mobile-status-bar modules modules-runtime momentjs_moment mongo mongo-id mongo-livedata npm-bcrypt npm-mongo numeral_numeral oauth oauth-encryption oauth1 oauth2 observe-sequence ordered-dict package-stats-opt-out package-version-parser percolate_icons poetic_materialize-scss practicalmeteor_chai practicalmeteor_loglevel practicalmeteor_mocha practicalmeteor_mocha-core practicalmeteor_sinon preserve-inputs promise random rate-limit react-meteor-data reactive-dict reactive-var reload reload-safetybelt retry sanjo_long-running-child-process sanjo_meteor-files-helpers sanjo_meteor-version service-configuration session sha shell-server showdown softwarerero_accounts-t9n spacebars spacebars-compiler spiderable srp standard-app-packages standard-minifier-css standard-minifier-js standard-minifiers startup stylus templating templating-compiler templating-runtime templating-tools test-helpers test-in-browser test-in-console test-server-tests-in-console-once tinytest tinytest-harness tmeasday_check-npm-versions tmeasday_test-reporter-helpers tracker twitter ui underscore underscore-tests url useraccounts_core useraccounts_flow-routing useraccounts_materialize velocity_chokidar velocity_core velocity_html-reporter velocity_meteor-internals velocity_shim webapp webapp-hashing weibo xmlbuilder xolvio_cleaner zimme_active-route 
+: 1496901753:0;ls
+: 1496901759:0;rm -rf ui
+: 1496901762:0;rm -rf underscore
+: 1496901767:0;rm -rf meteor-tool
+: 1496901779:0;du -hs *
+: 1496901800:0;du -hs u*
+: 1496901805:0;rm -rf u*
+: 1496901809:0;rm -rf v*
+: 1496901812:0;rm -rf z*
+: 1496901815:0;rm -rf w*
+: 1496901819:0;clear
+: 1496901820:0;ls -la
+: 1496901824:0;rm -rf t*
+: 1496901846:0;rm -rf s*
+: 1496901886:0;ls
+: 1496901889:0;rm -rf m*
+: 1496901893:0;ls -la
+: 1496901898:0;clear
+: 1496901898:0;s
+: 1496901899:0;q
+: 1496901902:0;clear
+: 1496901902:0;s
+: 1496901906:0;rm -rf p*
+: 1496901912:0;rm -rf r*
+: 1496901915:0;rm -rf x*
+: 1496901922:0;rm -rf mi*
+: 1496901925:0;la
+: 1496901927:0;q
+: 1496901931:0;rm -rf m*
+: 1496901941:0;la
+: 1496901946:0;rm -rf me*
+: 1496901950:0;ls
+: 1496901960:0;rm mobile-experience
+: 1496901965:0;rm -rf mobile-experience
+: 1496901970:0;rm -rf meteorhacks_fast-render
+: 1496901975:0;rm -rf modules
+: 1496901979:0;rm -rf momentjs_moment
+: 1496901983:0;rm -rf mongo
+: 1496901987:0;rm -rf modules-runtime
+: 1496901991:0;rm -rf npm-bcrypt
+: 1496901995:0;rm -rf numeral_numeral
+: 1496901998:0;rm -rf npm-mongo/
+: 1496902002:0;rm -rf mongo-livedata
+: 1496902005:0;rm -rf mo
+: 1496902007:0;rm -rf mo*
+: 1496902008:0;du -hs *
+: 1496902008:0;q
+: 1496902010:0;clear
+: 1496902010:0;ls
+: 1496902013:0;rm oauth
+: 1496902017:0;rm -rf oauth
+: 1496902021:0;rm -rf oauth-encryption
+: 1496902024:0;rm -rf *
+: 1496902026:0;ls
+: 1496902027:0;cd ..
+: 1496902028:0;rm packages
+: 1496902030:0;ls
+: 1496902031:0;cd ..
+: 1496902034:0;rm .meteor.bak
+: 1496902035:0;clear
+: 1496902035:0;s
+: 1496902036:0;la
+: 1496902039:0;ls
+: 1496902044:0;cd ..
+: 1496902045:0;clear
+: 1496902045:0;s
+: 1496902049:0;du -hs *
+: 1496902062:0;cd Processing3
+: 1496902063:0;ls -la
+: 1496902069:0;rm .DS_Store
+: 1496902070:0;clear
+: 1496902071:0;la
+: 1496902076:0;du -hs *
+: 1496902082:0;cd modes
+: 1496902084:0;ls -la
+: 1496902086:0;du -hs *
+: 1496902088:0;rm AndroidMode
+: 1496902095:0;du -hs *
+: 1496902103:0;cd ..
+: 1496902105:0;clear
+: 1496902106:0;ls
+: 1496902108:0;du -hs *
+: 1496902119:0;cd ..
+: 1496902121:0;du -hs *
+: 1496902130:0;cd Base_Flask
+: 1496902131:0;s
+: 1496902132:0;clear
+: 1496902132:0;s
+: 1496902135:0;cd ..
+: 1496902137:0;rm Base_Flask
+: 1496902141:0;rm -rf Base_Flask
+: 1496902142:0;clear
+: 1496902142:0;s
+: 1496902146:0;du -hs *
+: 1496902150:0;cd Misc
+: 1496902151:0;ls
+: 1496902153:0;s
+: 1496902156:0;rm .DS_Store
+: 1496902157:0;clear
+: 1496902157:0;s
+: 1496902158:0;cd Jason
+: 1496902159:0;ls
+: 1496902162:0;s
+: 1496902163:0;d
+: 1496902165:0;a .
+: 1496902165:0;s
+: 1496902167:0;d
+: 1496902170:0;cat .
+: 1496902173:0;cat *
+: 1496902175:0;clear
+: 1496902176:0;ls
+: 1496902179:0;rm JsonTest
+: 1496902180:0;clear
+: 1496902181:0;s
+: 1496902184:0;a JsonTest
+: 1496902185:0;clear
+: 1496902185:0;s
+: 1496902193:0;git rm *.hi
+: 1496902195:0;clear
+: 1496902196:0;s
+: 1496902201:0;git rm -rf JsonBase.hi
+: 1496902205:0;git rm -rf JsonTEst.hi
+: 1496902207:0;git rm -rf JsonTest.hi
+: 1496902208:0;clear
+: 1496902209:0;s
+: 1496902225:0;m "Added a json parser starter"
+: 1496902226:0;p
+: 1496902229:0;clear
+: 1496902231:0;du -hs *
+: 1496902233:0;q
+: 1496902239:0;du -hs * | sort -n
+: 1496902249:0;cd Library
+: 1496902251:0;du -hs
+: 1496902253:0;du -hs *
+: 1496902265:0;du -hs * | grep "[ 0-9]*G"
+: 1496902273:0;du -hs * | grep "[ 0-9]*G "
+: 1496902277:0;du -hs * | grep "[ 0-9]*G\t"
+: 1496902284:0;cd Application\ S
+: 1496902289:0;cd Application\ Support
+: 1496902293:0;du -hs *
+: 1496902310:0;cd Steam/
+: 1496902311:0;clear
+: 1496902311:0;s
+: 1496902313:0;du -hs *
+: 1496902318:0;cd steamapps
+: 1496902319:0;ls
+: 1496902321:0;clear
+: 1496902323:0;du -hs *
+: 1496902326:0;cd common
+: 1496902328:0;du -hs *
+: 1496902336:0;q
+: 1496903979:0;cd
+: 1496903979:0;.
+: 1496903982:0;cd Applications
+: 1496903982:0;.
+: 1496903989:0;cd
+: 1496903995:0;cd Documents/Projects/
+: 1496903996:0;ls
+: 1496903998:0;cd HaskPG
+: 1496903999:0;ls
+: 1496904000:0;clear
+: 1496904000:0;s
+: 1496904001:0;d
+: 1496904003:0;main
+: 1496904006:0;./main
+: 1496904028:0;clear
+: 1496904029:0;s
+: 1496904032:0;d Inputs
+: 1496904033:0;s
+: 1496904036:0;a Inputs
+: 1496904036:0;s
+: 1496904048:0;clear
+: 1496904109:0;./Inputs/input
+: 1496904140:0;clear
+: 1496904140:0;s
+: 1496904144:0;cd Inputs
+: 1496904144:0;.
+: 1496904147:0;vim input.hs
+: 1496904162:0;q
+: 1496904597:0;s
+: 1496904600:0;vim input.hs
+: 1496904805:0;cabal install sdl
+: 1496904888:0;cabal install libsdl
+: 1496904899:0;cabal update
+: 1496904922:0;cabal install SDL-0.6.5.1
+: 1496904935:0;clear
+: 1496904941:0;stack install SDL
+: 1496904968:0;cabal install --help
+: 1496904975:0;cabal install sdl
+: 1496905030:0;cabal install hsSDL2
+: 1496905088:0;brew install sdl2 pkg-config
+: 1496905134:0;brew upgrade pkg-config
+: 1496905139:0;ghci
+: 1496905195:0;vim test.hs
+: 1496905210:0;cabal install hsSDL2
+: 1496905215:0;cabal install SDL2
+: 1496905228:0;q
+: 1496905832:0;clear
+: 1496905832:0;s
+: 1496905833:0;d
+: 1496905865:0;vim test_keys.hs
+: 1496906455:0;q
+: 1496906459:0;ghci
+: 1496906533:0;q
+: 1496907039:0;cabal install Wire
+: 1496907105:0;cabal install netwire
+: 1496907174:0;clear
+: 1496907174:0;s
+: 1496907176:0;d
+: 1496907182:0;ghc game.hs
+: 1496907230:0;cabal install sdl-graphics
+: 1496907238:0;cabal search
+: 1496907240:0;clear
+: 1496907265:0;cabal install sdl2
+: 1496907273:0;sdl graphics
+: 1496907309:0;cabal install hssdl
+: 1496907321:0;cabal install sdl-bindings
+: 1496907477:0;cabal install SDL
+: 1496907484:0;s
+: 1496907487:0;clear
+: 1496907487:0;s
+: 1496907530:0;rm test_keys
+: 1496907531:0;s
+: 1496907532:0;clear
+: 1496907535:0;rm test_keys.hs
+: 1496907535:0;clear
+: 1496907536:0;s
+: 1496907537:0;d
+: 1496907540:0;rm input
+: 1496907541:0;clear
+: 1496907541:0;s
+: 1496907546:0;git rm input
+: 1496907547:0;clear
+: 1496907547:0;s
+: 1496907552:0;ghc game.hs
+: 1496907556:0;vim game.hs
+: 1496907570:0;rm game.hs
+: 1496907571:0;clear
+: 1496907571:0;s
+: 1496907576:0;ghc test.hs
+: 1496907615:0;ls
+: 1496907621:0;cabal run test
+: 1496907626:0;clear
+: 1496907627:0;s
+: 1496907631:0;ghc test.hs
+: 1496907680:0;clean
+: 1496907687:0;clear
+: 1496907701:0;s
+: 1496907760:0;vim test.hs
+: 1496907829:0;clear
+: 1496907830:0;s
+: 1496907832:0;.
+: 1496907954:0;vim ncurse.hs
+: 1496907965:0;cabal install ncurse
+: 1496907968:0;cabal install ncurses
+: 1496908001:0;cabal install ncurses c2hs
+: 1496908010:0;cabal install c2hs
+: 1496908026:0;cabal install language-c
+: 1496908034:0;cabal install alex
+: 1496908115:0;cabal install language-c
+: 1496908466:0;cabal install c2hs
+: 1496908539:0;cabal install ncurses
+: 1496908584:0;ghc ncurse.hs
+: 1496908587:0;ls
+: 1496908588:0;./ncurse
+: 1496908613:0;clear
+: 1496908613:0;s
+: 1496908615:0;clear
+: 1496908616:0;ls
+: 1496908617:0;s
+: 1496908620:0;exec zsh
+: 1496908621:0;clear
+: 1496908621:0;s
+: 1496908628:0;vim ncurse.hs
+: 1496908786:0;s
+: 1496908786:0;clear
+: 1496908787:0;s
+: 1496908966:0;ghc ncurse.hs
+: 1496908969:0;./ncurse
+: 1496909106:0;ghc ncurse.hs
+: 1496909109:0;./ncurse
+: 1496909133:0;ghc ncurse.hs
+: 1496909136:0;./ncurse
+: 1496909151:0;clear
+: 1496909151:0;s
+: 1496909159:0;clear
+: 1496909280:0;runhaskell ncurse
+: 1496909283:0;runhaskell ncurse.hs
+: 1496909293:0;clear
+: 1496909294:0;s
+: 1496909766:0;ghc ncurse.hs
+: 1496909770:0;./ncurse
+: 1496909942:0;clear
+: 1496909942:0;s
+: 1496909945:0;ghc ncurse.hs
+: 1496909948:0;./ncurse
+: 1496909957:0;q
+: 1496909961:0;./ncurse
+: 1496909970:0;clear
+: 1496909971:0;s
+: 1496909998:0;ghc ncurse.hs
+: 1496910014:0;./ncurse
+: 1496910024:0;clear
+: 1496910024:0;s
+: 1496910027:0;q
+: 1496910726:0;s
+: 1496910732:0;ghc ncurse.hs
+: 1496910735:0;./ncurse
+: 1496910743:0;vim ncurse.hs
+: 1496910754:0;ghc ncurse.hs
+: 1496910759:0;./ncurse
+: 1496912143:0;cd ...
+: 1496912147:0;git clone https://john-millikin.com/code/haskell-ncurses/
+: 1496912178:0;ls
+: 1496912181:0;cd haskell-ncurses
+: 1496912182:0;.
+: 1496912185:0;cd lib
+: 1496912186:0;ls
+: 1496912188:0;cd UI
+: 1496912188:0;ls
+: 1496912192:0;cd NCurses
+: 1496912192:0;ls
+: 1496912199:0;vim 
+: 1496912460:0;q
+: 1496923086:0;s
+: 1496923087:0;.
+: 1496923094:0;vim Enums.chs Types.hs
+: 1496923452:0;cd ..
+: 1496923453:0;..
+: 1496923458:0;rm haskell-ncurses
+: 1496923463:0;rm -rf haskell-ncurses
+: 1496923463:0;.
+: 1496923489:0;clear
+: 1496923490:0;s
+: 1496924135:0;elm
+: 1496924158:0;zrc
+: 1496924161:0;vrc
+: 1496924201:0;clear
+: 1496924202:0;s
+: 1496924243:0;mkdir ElmPG
+: 1496924246:0;cd ElmPG
+: 1496924247:0;ls
+: 1496924293:0;elm-package install elm-lang/http\
+elm-package install NoRedInk/elm-decode-pipeline
+: 1496924325:0;elm-repl
+: 1496925536:0;vim test.elm
+: 1496925598:0;elm-repl test.elm
+: 1496925604:0;elm root
+: 1496925606:0;clear
+: 1496925606:0;ls
+: 1496925612:0;elm test.elm
+: 1496925620:0;elm repl test.elm
+: 1496925625:0;elm-repl
+: 1496925695:0;mv test.elm Test.elm
+: 1496925696:0;ls
+: 1496925703:0;vim Test.elm
+: 1496925710:0;elm-make Test.elm
+: 1496925767:0;ls
+: 1496925768:0;vim index.html
+: 1496925786:0;clear
+: 1496925789:0;du -hs *
+: 1496925793:0;chrome index.html
+: 1496925815:0;elm-repl
+: 1496926118:0;ls
+: 1496926124:0;ls elm-stuff
+: 1496926130:0;elm-run
+: 1496926135:0;elm-reactor
+: 1496926371:0;rm index.html
+: 1496926373:0;clear
+: 1496926373:0;s
+: 1496926379:0;vim elm-package.json
+: 1496926387:0;rm elm-stuff
+: 1496926388:0;s
+: 1496926407:0;ls
+: 1496926411:0;ls elm-stuff
+: 1496926413:0;clear
+: 1496926413:0;s
+: 1496926415:0;vim Test.elm
+: 1496926508:0;q
+: 1496926515:0;vim Test.elm
+: 1496926519:0;q
+: 1496926623:0;clear
+: 1496926623:0;s
+: 1496926625:0;vim Test.elm
+: 1496926672:0;z .config
+: 1496926675:0;z rappel
+: 1496926676:0;s
+: 1496926677:0;d
+: 1496926680:0;a .
+: 1496926686:0;m "Added Elm config"
+: 1496926687:0;s
+: 1496926688:0;clear
+: 1496926688:0;p
+: 1496926714:0;git push origin/master
+: 1496926718:0;git push origin
+: 1496926731:0;git push origin/HEAD
+: 1496926735:0;git push master
+: 1496926736:0;clear
+: 1496926740:0;git remote -v
+: 1496926791:0;git remote add update git@github.com:Cypher1/nvim-rappel.git
+: 1496926796:0;git push update
+: 1496926806:0;vim
+: 1496926825:0;c
+: 1496926827:0;cd ..
+: 1496926828:0;..
+: 1496926829:0;s
+: 1496926830:0;d
+: 1496926834:0;a init.vim
+: 1496926838:0;a plugged/nvim-rappel
+: 1496926841:0;d plugged/neomake
+: 1496926846:0;a plugged
+: 1496926847:0;s
+: 1496926848:0;clear
+: 1496926848:0;s
+: 1496926854:0;m "Added elm and updated plugs"
+: 1496926855:0;p
+: 1496926863:0;cd -
+: 1496926866:0;cd -2
+: 1496926869:0;z elm
+: 1496926871:0;q
+: 1496926872:0;clear
+: 1496926872:0;s
+: 1496926874:0;vim Test.elm
+: 1496926927:0;clear
+: 1496926931:0;q
+: 1496927793:0;elm-repl
+: 1496927810:0;clear
+: 1496927810:0;s
+: 1496927821:0;open index.html
+: 1496927846:0;vim ~/.config/nvim/plugged/nvim-rappel/autoload/rappel.vim
+: 1496927896:0;xopen
+: 1496927897:0;open
+: 1496927922:0;vim Test.elm
+: 1496927955:0;ps -ef | grep "elm"
+: 1496927960:0;pkill 41150
+: 1496927961:0;clear
+: 1496927961:0;s
+: 1496927967:0;ps -ef
+: 1496927971:0;ps -ef | grep "elm"
+: 1496927975:0;pkill elm-reactor
+: 1496928016:0;vim test.elm
+: 1496928090:0;clear
+: 1496928090:0;s
+: 1496928093:0;rm index.html
+: 1496928095:0;vim Test.elm
+: 1496928268:0;z .config
+: 1496928270:0;cd nvim/plugged/nvim-rappel
+: 1496928270:0;s
+: 1496928271:0;d
+: 1496928283:0;s
+: 1496928285:0;a autoload
+: 1496928286:0;s
+: 1496928298:0;m "Use compiled version of project"
+: 1496928300:0;git push update
+: 1496928308:0;clear
+: 1496928308:0;s
+: 1496928312:0;git pull
+: 1496928314:0;s
+: 1496928316:0;clear
+: 1496928317:0;s
+: 1496928350:0;q
+: 1496930273:0;z Elm
+: 1496930277:0;vim pong.elm
+: 1496930328:0;elm-package install elm-lang/collage
+: 1496930337:0;elm-package install elm-lang/graphics
+: 1496930348:0;elm-package install graphics
+: 1496930626:0;elm-package install elm-graphics
+: 1496930645:0;elm-package install evancz/elm-graphics
+: 1496930732:0;elm-make
+: 1496930734:0;ls
+: 1496930739:0;open index.html
+: 1496930748:0;elm-make pong.elm
+: 1496930757:0;ls
+: 1496930760:0;vim elm-package.json
+: 1496930775:0;elm-package help
+: 1496930788:0;rm elm-stuff/packages/evancz
+: 1496930789:0;s
+: 1496930789:0;clear
+: 1496930790:0;s
+: 1496930808:0;elm-package install Kwarrtz/render
+: 1496930813:0;vim elm-package.json
+: 1496930818:0;clear
+: 1496930822:0;elm-package install Kwarrtz/render
+: 1496930830:0;clear
+: 1496930831:0;s
+: 1496930847:0;elm-make
+: 1496930851:0;elm-make pong.elm
+: 1496930886:0;elm-package install elm-lang/keyboard
+: 1496930897:0;elm-make pong.elm
+: 1496930902:0;elm-package install elm-lang/text
+: 1496930907:0;elm-package install elm-lang/html
+: 1496930912:0;elm-make pong.elm
+: 1496930936:0;elm-package install elm-lang/dom
+: 1496930941:0;elm-package install elm-lang/core
+: 1496930945:0;elm-make pong.elm
+: 1496931124:0;elm-package install elm-lang/core/text
+: 1496931131:0;elm-package install elm-lang/text
+: 1496931134:0;elm-make pong.elm
+: 1496931247:0;elm-package install evancz/elm-html  
+: 1496931267:0;elm-package install elm-lang/html
+: 1496931407:0;elm-make
+: 1496931409:0;elm-make pong.elm
+: 1496931417:0;vim elm-package.json
+: 1496931427:0;elm-make pong.elm
+: 1496931536:0;q
+: 1496934439:0;python
+: 1496934511:0;python3
+: 1496934520:0;q
+: 1496934631:0;cabal install titlecase
+: 1496934653:0;cd ..
+: 1496934658:0;vim title.hs
+: 1496934675:0;ls
+: 1496934678:0;cd ..
+: 1496934681:0;./title
+: 1496934690:0;./title "John's Toy"
+: 1496934698:0;./title "John's Toy and the magic Beast"
+: 1496934706:0;q
+: 1496934858:0;s
+: 1496934863:0;rm title*
+: 1496934864:0;.
+: 1496934865:0;s
+: 1496934870:0;cd Josh_the_game
+: 1496934870:0;ls
+: 1496934873:0;jp test.pde
+: 1496934875:0;jp
+: 1496934881:0;ls
+: 1496934886:0;cat test.pde
+: 1496934903:0;mv test.pde Josh_the_game.pde
+: 1496934905:0;jp
+: 1496934941:0;clear
+: 1496934941:0;s
+: 1496934946:0;..
+: 1496934949:0;cd old
+: 1496934950:0;.
+: 1496934956:0;cd KanFam_Ethics
+: 1496934956:0;s
+: 1496934958:0;ga
+: 1496934981:0;z
+: 1496935006:0;clear
+: 1496935006:0;s
+: 1496935006:0;q
+: 1496935011:0;../../
+: 1496935012:0;ls
+: 1496935013:0;cd HaskPG
+: 1496935014:0;ls
+: 1496935017:0;cd Mechanics
+: 1496935017:0;ls
+: 1496935023:0;ghc
+: 1496935026:0;ghc Testload
+: 1496935031:0;cd ..
+: 1496935039:0;ghc Mechanics/Testload
+: 1496935048:0;./Mechanics/Testload
+: 1496935052:0;clear
+: 1496935053:0;ls
+: 1496935055:0;cd Mechanics
+: 1496935055:0;ls
+: 1496935060:0;vim GameLoop.
+: 1496935064:0;vim GameLoop.hs
+: 1496935082:0;q
+: 1496935952:0;z 20
+: 1496935953:0;.
+: 1496935956:0;hb
+: 1496935960:0;ls
+: 1496935965:0;save_db.py
+: 1496935977:0;vim save_db.py
+: 1496935984:0;clear
+: 1496935985:0;s
+: 1496935986:0;a save_db.py
+: 1496935994:0;m "Fixed bug in save_db"
+: 1496935995:0;clear
+: 1496935995:0;s
+: 1496935998:0;save_db.py
+: 1496936003:0;vim save_db.py
+: 1496936012:0;clear
+: 1496936012:0;s
+: 1496936015:0;a save_db.py
+: 1496936017:0;m "Fixed bug in save_db"
+: 1496936018:0;save_db.py
+: 1496936022:0;ls
+: 1496936027:0;s
+: 1496936030:0;cd datasets
+: 1496936032:0;vim back_up.csv
+: 1496936068:0;clear
+: 1496936068:0;s
+: 1496936074:0;vim ../.gitignore
+: 1496936098:0;s
+: 1496936101:0;vim ../.gitignore
+: 1496936108:0;s
+: 1496936110:0;a ../.gitignore
+: 1496936117:0;m "Ignore backup files"
+: 1496936118:0;clear
+: 1496936118:0;p
+: 1496936123:0;clear
+: 1496936123:0;s
+: 1496936128:0;git pull
+: 1496936135:0;p
+: 1496936153:0;clear
+: 1496936153:0;s
+: 1496936155:0;p
+: 1496936316:0;b master
+: 1496936317:0;b
+: 1496936320:0;git pill
+: 1496936322:0;git pull
+: 1496936335:0;P
+: 1496936348:0;clear
+: 1496936349:0;s
+: 1496936350:0;d
+: 1496936352:0;s
+: 1496936365:0;clear
+: 1496936365:0;s
+: 1496936367:0;git pull
+: 1496936375:0;clear
+: 1496936375:0;s
+: 1496936376:0;d
+: 1496936378:0;p
+: 1496936384:0;clear
+: 1496936384:0;s
+: 1496936388:0;git pull
+: 1496936394:0;clear
+: 1496936394:0;s
+: 1496936398:0;git checkout master
+: 1496936406:0;git log
+: 1496936412:0;clear
+: 1496936413:0;s
+: 1496936415:0;ga
+: 1496936418:0;clear
+: 1496936423:0;hb
+: 1496936520:0;ls ~/.he
+: 1496936525:0;heroku --help
+: 1496936530:0;heroku access
+: 1496936626:0;heroku keys
+: 1496936686:0;heroku run "cat ~/datasets/back_up.csv" > backup.csv
+: 1496936701:0;q
+: 1496936703:0;heroku run "cat ~/datasets/back_up.csv" > backup.csv
+: 1496936718:0;ls
+: 1496936724:0;rm back_up.csv
+: 1496936725:0;s
+: 1496936728:0;dh -hs *
+: 1496936731:0;du -hs *
+: 1496936735:0;vim backup.csv
+: 1496936748:0;clear
+: 1496936748:0;s
+: 1496936750:0;rm backup.csv
+: 1496936765:0;heroku run "cat ~/app/datasets/back_up.csv"
+: 1496936788:0;heroku run "ls ~/app/datasets/"
+: 1496936806:0;heroku run "ls"
+: 1496936824:0;heroku run "ls app/datasets"
+: 1496936853:0;heroku run "ls 'app/datasets'"
+: 1496936893:0;heroku run "ls app"
+: 1496936916:0;heroku run "cat datasets/back_up.csv"
+: 1496936939:0;heroku run "cat datasets"
+: 1496936955:0;heroku run "ls datasets"
+: 1496936964:0;q
+: 1496937037:0;heroku run "python3 save_db.py; cat datasets/save_db.csv" > save_db.csv
+: 1496937058:0;ls
+: 1496937061:0;vim save_db.csv
+: 1496937083:0;heroku run "python3 save_db.py; cat datasets/back_up.csv" > back_up.csv
+: 1496937086:0;ls
+: 1496937088:0;rm save_db.csv
+: 1496937090:0;clear
+: 1496937104:0;.
+: 1496937108:0;vim back_up.csv
+: 1496937125:0;dos2unix back_up.csv
+: 1496937126:0;s
+: 1496937128:0;vim back_up.csv
+: 1496937133:0;dos2unix back_up.csv
+: 1496937135:0;vim back_up.csv
+: 1496937145:0;clear
+: 1496937146:0;s
+: 1496937288:0;hb
+: 1496937290:0;ls
+: 1496937293:0;rm back_up.csv
+: 1496937294:0;clear
+: 1496937294:0;s
+: 1496966181:0;q
+: 1496966182:0;COPY (SELECT * FROM ...) TO '/tmp/filename.csv' (format CSV);q
+: 1496968257:0;z HaskPG
+: 1496968258:0;ls
+: 1496968259:0;clear
+: 1496968259:0;s
+: 1496968266:0;rm Inputs/ncurse*
+: 1496968267:0;clear
+: 1496968267:0;s
+: 1496968389:0;cd ..
+: 1496968390:0;clear
+: 1496968391:0;ls
+: 1496968395:0;vim lang.md
+: 1496968501:0;q
+: 1496971305:0;clear
+: 1496971305:0;s
+: 1496971315:0;vim HaskPG/Mechanics/GameLoop.hs
+: 1496972303:0;q
+: 1496975700:0;cat lang.md | wc -w
+: 1496975709:0;ls -la lang
+: 1496975710:0;ls -la lang*
+: 1496975725:0;exec zsh
+: 1496975728:0;clear
+: 1496975778:0;q
+: 1496975844:0;exit
+: 1496975858:0;cd /tmp
+: 1496975859:0;ls
+: 1496975864:0;rm *
+: 1496975869:0;rm -rf *
+: 1496975872:0;clear
+: 1496975872:0;s
+: 1496975875:0;rm wifi-06-0*
+: 1496975881:0;clear
+: 1496975881:0;s
+: 1496975883:0;rm F7C71944B49B446081C0603DE90E4855_*
+: 1496975885:0;q
+: 1496979144:0;z lang
+: 1496979147:0;z Prog
+: 1496979149:0;..
+: 1496979151:0;cd Projects
+: 1496979151:0;.
+: 1496979153:0;vim lang.md
+: 1496980679:0;q
+: 1496980703:0;ls
+: 1496980712:0;vim lang3.md
+: 1496993436:0;q
+: 1497001136:0;vim dsl.hs
+: 1497001828:0;ghci
+: 1497001837:0;q
+: 1497002206:0;z 20
+: 1497002213:0;hb
+: 1497002512:0;s
+: 1497002514:0;clear
+: 1497002514:0;s
+: 1497002517:0;b staging
+: 1497002518:0;clear
+: 1497002518:0;s
+: 1497002520:0;git pull
+: 1497002907:0;hg
+: 1497002908:0;hb
+: 1497003077:0;hl
+: 1497003296:0;vim app/routes.py
+: 1497003309:0;clear
+: 1497003309:0;s
+: 1497003310:0;exit
+: 1497003313:0;q
+: 1497006103:0;s
+: 1497006108:0;vim app/db.py
+: 1497006254:0;python3 debug.py
+: 1497006413:0;python3 load_db.py
+: 1497006428:0;python3 debug.py
+: 1497006481:0;q
+: 1497006530:0;python3
+: 1497006684:0;clear
+: 1497006684:0;s
+: 1497006686:0;d
+: 1497006692:0;a .
+: 1497006707:0;m "Bug fix and create function for merging animals that need to be renamed"
+: 1497006707:0;p
+: 1497006711:0;exit
+: 1497006765:0;hl
+: 1497006889:0;s
+: 1497006891:0;clear
+: 1497006891:0;s
+: 1497007014:0;heroku run python3
+: 1497007496:0;clear
+: 1497007497:0;s
+: 1497007497:0;q
+: 1497007530:0;vim app/db.py
+: 1497007689:0;clear
+: 1497007689:0;s
+: 1497007690:0;d
+: 1497007691:0;a .
+: 1497007705:0;m "Remove caching for debugging routes, the data should be cached"
+: 1497007706:0;p
+: 1497007710:0;gs
+: 1497007712:0;ga
+: 1497007715:0;git pull
+: 1497007722:0;s
+: 1497007723:0;clear
+: 1497007723:0;d
+: 1497007727:0;git log
+: 1497007730:0;clear
+: 1497007730:0;p
+: 1497007878:0;q
+: 1497007983:0;s
+: 1497007987:0;vim .env
+: 1497007995:0;.
+: 1497008247:0;heroku run python3
+: 1497011518:0;vim ~/Downloads/all_entries.csv
+: 1497011546:0;vim app/db.py
+: 1497011580:0;grep -r "Entry(" .
+: 1497011582:0;grep -r "Entry\(" .
+: 1497011589:0;grep -r "Entry\(" **.py
+: 1497011640:0;pylint *
+: 1497011647:0;clear
+: 1497011650:0;pylint **.py
+: 1497012041:0;vim test_db.py
+: 1497012130:0;clear
+: 1497012130:0;s
+: 1497012133:0;d
+: 1497012139:0;a app/db.py
+: 1497012140:0;clear
+: 1497012140:0;s
+: 1497012142:0;a test_db.py
+: 1497012143:0;clear
+: 1497012143:0;s
+: 1497012145:0;d
+: 1497012149:0;d load_db.py
+: 1497012151:0;a load_db.py
+: 1497012152:0;clear
+: 1497012152:0;s
+: 1497012154:0;d staging 
+: 1497012156:0;clear
+: 1497012157:0;d
+: 1497012160:0;a test
+: 1497012161:0;clear
+: 1497012162:0;a .
+: 1497012174:0;m "Enforce animal is not null and pylint hard"
+: 1497012175:0;p
+: 1497012176:0;q
+: 1497012506:0;hb
+: 1497013130:0;vim qa_bot.py
+: 1497013138:0;vim app/qa_bot.py
+: 1497013469:0;clear
+: 1497013469:0;s
+: 1497013474:0;vim app/db.py
+: 1497013510:0;python3 debug.py
+: 1497013518:0;clear
+: 1497013519:0;s
+: 1497013823:0;hb
+: 1497014231:0;clear
+: 1497014232:0;s
+: 1497014233:0;a .
+: 1497014236:0;python3
+: 1497014400:0;python3 d
+: 1497014403:0;python3 debug.py
+: 1497014567:0;q
+: 1497014682:0;rm /tmp/20qs.db
+: 1497014685:0;load_db.py
+: 1497014696:0;python3 debug.py
+: 1497015028:0;clear
+: 1497015029:0;s
+: 1497015029:0;a .
+: 1497015036:0;s
+: 1497015046:0;m "Fixed a bug in merge_animal"
+: 1497015048:0;p
+: 1497015051:0;d
+: 1497015057:0;git diff ^HEAD
+: 1497015059:0;git diff HEAD
+: 1497015064:0;git diff origin/master
+: 1497015142:0;vim ~/.pylintrc
+: 1497015170:0;clear
+: 1497015171:0;s
+: 1497015250:0;clear
+: 1497015250:0;s
+: 1497015264:0;vim unittests.py
+: 1497015267:0;q
+: 1497016010:0;clear
+: 1497016010:0;s
+: 1497016012:0;a unittests.py
+: 1497016023:0;m "Added unit test for merging"
+: 1497016025:0;p
+: 1497016027:0;q
+: 1497016338:0;vim unittests.py test_db.py
+: 1497016357:0;clear
+: 1497016357:0;s
+: 1497016358:0;a .
+: 1497016358:0;s
+: 1497016365:0;m "Remove bad approach to unit testing"
+: 1497016366:0;p
+: 1497016423:0;heroku run python3
+: 1497077046:0;vim
+: 1497077051:0;q
+: 1497077057:0;vim unittests.py
+: 1497077127:0;clear
+: 1497077128:0;q
+: 1497077509:0;vim unittests.py
+: 1497077830:0;q
+: 1497108514:0;cd ~/Downloads
+: 1497108514:0;ls
+: 1497108520:0;open clippy.desktop-osx64.zip
+: 1497108539:0;zip -zxf clippy.desktop-osx64.zip
+: 1497108542:0;zip -h
+: 1497108555:0;zip -x clippy.desktop-osx64.zip
+: 1497108559:0;zip -x clippy.desktop-osx64.zip clippy.desktop-osx64
+: 1497108571:0;unzip clippy.desktop-osx64.zip
+: 1497108573:0;ls
+: 1497108579:0;open clippy.desktop.app
+: 1497108583:0;open .
+: 1497143402:0;unzip clippy.desktop-osx32.zip
+: 1497143405:0;open .
+: 1497143418:0;mkdir clippy
+: 1497143423:0;mv clippy* clippy
+: 1497143425:0;cd clippy
+: 1497143425:0;ls
+: 1497144023:0;cd
+: 1497144026:0;cd Applications
+: 1497144026:0;ls
+: 1497144028:0;cd Portal.app
+: 1497144029:0;ls
+: 1497144032:0;du -hs *
+: 1497144034:0;cd Contents
+: 1497144034:0;ls
+: 1497144038:0;cd MacOS
+: 1497144038:0;ls
+: 1497144040:0;vim run.sh
+: 1497144045:0;cd.
+: 1497144045:0;cd
+: 1497144050:0;cd ~/Library
+: 1497144050:0;ls
+: 1497144056:0;du -hs *
+: 1497144065:0;du -hs * | grep "B "
+: 1497144069:0;du -hs * | grep "B"
+: 1497144074:0;du -hs * | grep -v "0B"
+: 1497144080:0;du -hs * | grep -v "0B" | sort -n
+: 1497144087:0;cd Caches
+: 1497144093:0;cd Messages
+: 1497144095:0;cd ..
+: 1497144097:0;cd Messages
+: 1497144111:0;cd ../Application\ Support
+: 1497144127:0;cd ../Haskell
+: 1497144137:0;q
+: 1497144139:0;ls
+: 1497144141:0;du -hs *
+: 1497144144:0;cd ghc-8.0.1-x86_64
+: 1497144147:0;du -hs *
+: 1497144149:0;cd lib
+: 1497144150:0;du -hs *
+: 1497144158:0;q
+: 1497144161:0;du -hs *
+: 1497144168:0;cd Steam
+: 1497144169:0;ls
+: 1497144170:0;.
+: 1497144171:0;du -hs *
+: 1497144176:0;cd steam
+: 1497144177:0;cd steamapps
+: 1497144178:0;ls
+: 1497144179:0;clear
+: 1497144180:0;du -hs *
+: 1497144183:0;cd common
+: 1497144185:0;du -hs *
+: 1497144209:0;rm Kerbal\ Space\ Program* rm Broforce
+: 1497144213:0;.
+: 1497144220:0;rm Counter-Strike\ *
+: 1497144220:0;.
+: 1497144226:0;q
+: 1497144227:0;.
+: 1497144230:0;du -hs *
+: 1497144235:0;cd ..
+: 1497144238:0;du -hs Messages
+: 1497144241:0;cd Messages
+: 1497144241:0;ls
+: 1497144242:0;c.
+: 1497144243:0;.
+: 1497144247:0;du -hs *
+: 1497144252:0;vim chat.db-wal
+: 1497144258:0;.
+: 1497144270:0;du -hs *
+: 1497144310:0;cd ..
+: 1497144312:0;rm Messages
+: 1497144313:0;s
+: 1497144319:0;du -hs Logs
+: 1497144323:0;cd Logs
+: 1497144323:0;ls
+: 1497144327:0;rm *
+: 1497144330:0;clear
+: 1497144330:0;s
+: 1497144332:0;rm -rf *
+: 1497144335:0;claer
+: 1497144335:0;s
+: 1497144337:0;ls AdobeDownload
+: 1497144341:0;rm AdobeDownload/DLM.log
+: 1497144343:0;cd AdobeDownload
+: 1497144347:0;sudo rm -rf DLM.log
+: 1497144352:0;.
+: 1497144353:0;cd ..
+: 1497144355:0;rm AdobeDownload
+: 1497144357:0;ls
+: 1497144360:0;cd ..
+: 1497144364:0;du -hs *
+: 1497144367:0;du -hs 
+: 1497144388:0;du -hs Application\ Support/Steam
+: 1497144390:0;q
+: 1497144416:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144435:0;rm com.apple.Safari 
+: 1497144437:0;rm com.skype.skype
+: 1497144445:0;rm com.apple.helpd
+: 1497144456:0;rm GeoServices GameKit
+: 1497144457:0;clear
+: 1497144457:0;s
+: 1497144461:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144467:0;rm org.videolan.vlc
+: 1497144474:0;rm com.aspyr.bioshock3.steam
+: 1497144475:0;clear
+: 1497144475:0;s
+: 1497144477:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144480:0;rm CloudKit
+: 1497144484:0;rm Metadata
+: 1497144492:0;rm com.apple.parsecd
+: 1497144495:0;clear
+: 1497144496:0;s
+: 1497144498:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144505:0;rm com.mojang.*
+: 1497144506:0;clear
+: 1497144506:0;s
+: 1497144510:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144522:0;cd Caches/Google
+: 1497144527:0;cd Homebrew
+: 1497144529:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144602:0;\
+763M	Google
+: 1497144614:0;rm -rf brew --cache
+: 1497144616:0;s
+: 1497144618:0;ls
+: 1497144623:0;brew --cache
+: 1497144626:0;cd ..
+: 1497144627:0;ls
+: 1497144630:0;cd Homebrew
+: 1497144631:0;ls
+: 1497144632:0;rm *
+: 1497144634:0;ls
+: 1497144637:0;du -hs *
+: 1497144638:0;cd .
+: 1497144639:0;..
+: 1497144642:0;du -hs *
+: 1497144645:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144647:0;ls
+: 1497144649:0;cd Chrome
+: 1497144649:0;ls
+: 1497144651:0;cd Default
+: 1497144653:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144659:0;cd Media\ Cache
+: 1497144661:0;cd Cache
+: 1497144662:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144674:0;du -hs * | grep -v "[0-9][BK]" | sort -n | wc -l
+: 1497144728:0;cd ..
+: 1497144729:0;du -hs * | grep -v "[0-9][BK]" | sort -n | wc -l
+: 1497144730:0;cd ..
+: 1497144733:0;cd ....
+: 1497144735:0;du -hs * | grep -v "[0-9][BK]" | sort -n | wc -l
+: 1497144737:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144740:0;cd Chrome
+: 1497144741:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144743:0;cd Default
+: 1497144744:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144745:0;cd Cache
+: 1497144746:0;du -hs * | grep -v "[0-9][BK]" | sort -n
+: 1497144751:0;q
+: 1497144760:0;head data_1
+: 1497144784:0;head data_2
+: 1497144787:0;clear
+: 1497144788:0;s
+: 1497144791:0;vim index
+: 1497144795:0;.
+: 1497144795:0;q
+: 1497145979:0;z 20
+: 1497145981:0;cd datasets
+: 1497145981:0;ls
+: 1497145983:0;cd zoo
+: 1497145984:0;.
+: 1497145987:0;vim zoo.csv
+: 1497156659:0;clear
+: 1497156659:0;s
+: 1497156661:0;cse
+: 1497157266:0;z Down
+: 1497157276:0;cse_cp 20Questions.pdf
+: 1497157303:0;scp 20Questions.pdf z5017666@cse.unsw.edu.au:~/ML2
+: 1497157385:0;cse -c "9417 classrun check ass2" | pbcopy
+: 1497157390:0;cse "9417 classrun check ass2" | pbcopy
+: 1497157440:0;cse "9417 classrun check ass2" | ~/Drive/Uni/2017/9417_ML/ass2_submission_record
+: 1497157448:0;cse "9417 classrun check ass2" > ~/Drive/Uni/2017/9417_ML/ass2_submission_record
+: 1497157534:0;q
+: 1497157545:0;z ML
+: 1497157546:0;ls
+: 1497157552:0;cat ass2
+: 1497157553:0;cat ass2_submission_record
+: 1497157554:0;q
+: 1497176311:0;z CBM
+: 1497176311:0;.
+: 1497176323:0;vim searle.md
+: 1497178449:0;q
+: 1497202236:0;z /Users/Cypher/Drive
+: 1497202237:0;ls
+: 1497202239:0;cd Uni
+: 1497202239:0;ls
+: 1497202244:0;vim harmonic.py
+: 1497202821:0;vim ~/.pylintrc
+: 1497202833:0;python3 harmonic.py
+: 1497202837:0;vim harmonic.py
+: 1497202849:0;pylint3 harmonic.py
+: 1497202854:0;pylint harmonic.py
+: 1497202961:0;which pylint
+: 1497202990:0;pip3 install pylint
+: 1497203012:0;pip uninstall pylint
+: 1497203020:0;pip3 install pylint
+: 1497203028:0;pylint harmonic.py
+: 1497203039:0;clear
+: 1497203040:0;s
+: 1497203042:0;vim harmonic.py
+: 1497203093:0;q
+: 1497232823:0;z Movi
+: 1497232824:0;.
+: 1497232833:0;open Compression_wk11.m4v
+: 1497232843:0;q
+: 1497232844:0;ls
+: 1497232852:0;z Comp
+: 1497232855:0;z Web
+: 1497232863:0;vim wk11_lecture.md
+: 1497232876:0;vim wk12_lecture.md
+: 1497232885:0;z Move
+: 1497232885:0;.
+: 1497232887:0;z Mov
+: 1497232888:0;.
+: 1497232895:0;open comp_wk12.m4v
+: 1497232902:0;q
+: 1497233351:0;z Uni
+: 1497233351:0;ls
+: 1497233353:0;vim harmonic.py
+: 1497233560:0;q
+: 1497235141:0;pkill Insync
+: 1497235166:0;rm ~/Downloads/Insync-1.3.16.36155.dmg
+: 1497235167:0;q
+: 1497271241:0;.
+: 1497271251:0;vim requirements.md
+: 1497271350:0;.
+: 1497271350:0;s
+: 1497271352:0;.
+: 1497272369:0;vim whosOn.sh
+: 1497272379:0;./whosOn.sh
+: 1497272382:0;sh wh
+: 1497272386:0;sh whosOn.sh
+: 1497272391:0;vim whosOn.sh
+: 1497272398:0;pp
+: 1497272399:0;.
+: 1497272408:0;cat whosOn.sh| pbcopy
+: 1497272410:0;cse
+: 1497272417:0;q
+: 1497272434:0;cse
+: 1497272444:0;clear
+: 1497272449:0;ls
+: 1497272453:0;rm whosOn.sh
+: 1497272455:0;clear
+: 1497272455:0;ls
+: 1497272481:0;scp z5017666@cse.unsw.edu.au:~/whomon.sh .
+: 1497272494:0;vim whomon.sh
+: 1497272633:0;cse
+: 1497272883:0;q
+: 1497311961:0;..
+: 1497311968:0;vim Me/Project_List.md
+: 1497311969:0;ls
+: 1497311972:0;cd ..
+: 1497311972:0;ls
+: 1497311974:0;z /Users/Cypher/Documents/Projects
+: 1497311975:0;.
+: 1497312186:0;q
+: 1497312194:0;vim dsl.hs
+: 1497313943:0;q
+: 1497340567:0;python3
+: 1497340581:0;ghci
+: 1497346763:0;vim t
+: 1497347265:0;ls
+: 1497347268:0;vim test.s
+: 1497347274:0;vim test.hs test.cpp
+: 1497347904:0;clear
+: 1497347904:0;s
+: 1497347907:0;vim test.hs
+: 1497348085:0;ls
+: 1497348087:0;clean
+: 1497348087:0;ls
+: 1497348097:0;runhaskell test.hs
+: 1497348240:0;echo "2\n3\n" | runhaskell test.hs
+: 1497349327:0;ghci
+: 1497349688:0;echo "2\n3\n" | runhaskell test.hs
+: 1497349833:0;q
+: 1497350193:0;ghci
+: 1497350280:0;q
+: 1497353703:0;vim
+: 1497358328:0;vim ~/Drive/Uni/2017/9319_WebData/Tutorial_Ex2
+: 1497359279:0;ls
+: 1497359280:0;cse
+: 1497359354:0;cd ~/Downloads
+: 1497359355:0;ls
+: 1497359356:0;clear
+: 1497359356:0;ls
+: 1497359396:0;scp z5017666@cse.unsw.edu.au:~/cs9319/papers/XBWT.pdf .
+: 1497359403:0;scp z5017666@cse.unsw.edu.au:~cs9319/papers/XBWT.pdf .
+: 1497359409:0;ls
+: 1497359411:0;open XBWT.pdf
+: 1497359435:0;rm XBWT.pdf
+: 1497359436:0;clear
+: 1497359436:0;ls
+: 1497359617:0;rm Google.Play.Music.Desktop.Player.OSX.zip
+: 1497359618:0;clear
+: 1497359618:0;ls
+: 1497360416:0;vim
+: 1497362749:0;q
+: 1497373080:0;sudo reboot
+: 1497399263:0;q
+: 1497409660:0;,s\\s
+: 1497409661:0;s
+: 1497409669:0;rm Locked*
+: 1497409670:0;.
+: 1497409673:0;rm clippy
+: 1497409673:0;.
+: 1497409678:0;rm 2251299.pdf
+: 1497409679:0;.
+: 1497409685:0;rm 20Questions.pdf
+: 1497410173:0;q
+: 1497414207:0;.
+: 1497414208:0;cd ..
+: 1497414209:0;.
+: 1497414211:0;cd Documents
+: 1497414212:0;ls
+: 1497414213:0;.
+: 1497414242:0;cd prolog_hs
+: 1497414243:0;ls
+: 1497414245:0;vim a1.hs
+: 1497414394:0;clear
+: 1497414394:0;s
+: 1497414395:0;..
+: 1497414396:0;.
+: 1497414400:0;clear
+: 1497414402:0;vim haskell-records.md
+: 1497414590:0;cabal install lenses
+: 1497414667:0;cabal update
+: 1497414687:0;cabal install lenses
+: 1497414743:0;ghc-pkg list | grep template
+: 1497414755:0;ghc --version
+: 1497415393:0;q
+: 1497415411:0;cabal install lenses
+: 1497415470:0;clear
+: 1497415474:0;stack install lenses
+: 1497415479:0;brew install stack
+: 1497415555:0;clear
+: 1497415557:0;stack install lenses
+: 1497419163:0;clean
+: 1497419164:0;ls
+: 1497419165:0;q
+: 1497419194:0;stack make
+: 1497419211:0;ghc records.hs
+: 1497419219:0;stack install lenses
+: 1497419226:0;stack setup
+: 1497441952:0;vim 
+: 1497454593:0;cd ~/Library/Application Support/Insync
+: 1497454597:0;~/Library/Application Support/Insync
+: 1497454602:0;cd ~/Library/Application Support/Insync
+: 1497454616:0;cd ~/Library/Application\ Support/Insync
+: 1497454616:0;ls
+: 1497454622:0;cp logs.db ~/Desktop
+: 1497454628:0;cd ~/Desktop
+: 1497454629:0;clear
+: 1497454629:0;ls
+: 1497454631:0;open .
+: 1497454634:0;q
+: 1497454640:0;:qa
+: 1497454640:0;q
+: 1497582516:0;clear
+: 1497582516:0;ls
+: 1497582519:0;cd 
+: 1497582519:0;.
+: 1497582531:0;z ML
+: 1497582532:0;..
+: 1497582534:0;cd ML
+: 1497582535:0;.
+: 1497582537:0;cd 9417_ML
+: 1497582537:0;.
+: 1497582544:0;mk wk11
+: 1497582547:0;cd wk11
+: 1497582548:0;ls
+: 1497582551:0;vim lecture.md
+: 1497582590:0;..
+: 1497582593:0;mk wk12
+: 1497582596:0;vim lecture.md
+: 1497582623:0;cd /Volumes
+: 1497582623:0;.
+: 1497582625:0;cd Disk
+: 1497582625:0;ls
+: 1497582630:0;cd Mo
+: 1497582635:0;cd ../MobileBackups
+: 1497582636:0;ls
+: 1497582637:0;cd Backups.backupdb
+: 1497582638:0;ls
+: 1497582640:0;cd Cortana
+: 1497582640:0;ls
+: 1497582644:0;cd Latest
+: 1497582645:0;ls
+: 1497582646:0;cd Disk
+: 1497582647:0;.
+: 1497582648:0;cd Us
+: 1497582652:0;cd Users
+: 1497582652:0;ls
+: 1497582653:0;cd Cypher
+: 1497582654:0;ls
+: 1497582656:0;cd Desktop
+: 1497582657:0;ls
+: 1497582658:0;cd 
+: 1497582659:0;exit
+: 1497582664:0;ls
+: 1497582664:0;.
+: 1497582696:0;cd Users
+: 1497582697:0;ls
+: 1497582699:0;cd
+: 1497582708:0;cd /Volumes
+: 1497582708:0;ls
+: 1497582710:0;cd MINt
+: 1497582711:0;ls
+: 1497582714:0;exit
+: 1497598484:0;clear
+: 1497598484:0;s
+: 1497598704:0;cabal install lenses
+: 1497598716:0;q
+: 1497598719:0;clear
+: 1497598719:0;s
+: 1497598742:0;cd -
+: 1497598746:0;z CppSTL
+: 1497598747:0;ls
+: 1497598751:0;vim notes.md
+: 1497598753:0;cd Projects
+: 1497598754:0;ls
+: 1497598765:0;vim test.hs test.cpp
+: 1497598772:0;rm test*
+: 1497598773:0;.
+: 1497598788:0;mk ~/Drive/Me/Lang
+: 1497598789:0;ls
+: 1497598796:0;cp ~/Documents/Projects/lang* .
+: 1497598796:0;ls
+: 1497598801:0;cd -
+: 1497598802:0;ls
+: 1497598807:0;rm lang* dsl*
+: 1497598808:0;.
+: 1497598810:0;rm a.out
+: 1497598811:0;.
+: 1497598818:0;ls Old
+: 1497598821:0;cd Typlogic
+: 1497598821:0;ls
+: 1497598824:0;vim predicate.hs
+: 1497598874:0;..
+: 1497598876:0;.
+: 1497598881:0;mv Josh_the_game Old
+: 1497598881:0;.
+: 1497598887:0;mv Artificial-brain Old
+: 1497598887:0;.
+: 1497598889:0;cd ..
+: 1497598889:0;ls
+: 1497598900:0;ls SearchData
+: 1497598909:0;mv SearchData/split.py split_file.py
+: 1497598910:0;ls
+: 1497598912:0;rm SearchData
+: 1497598912:0;.
+: 1497598918:0;ls weka-3-8-1
+: 1497598923:0;rm weka-3-8-1
+: 1497598925:0;.
+: 1497598929:0;cat dependently-typed-dags.hs.txt
+: 1497598935:0;clear
+: 1497598936:0;ls
+: 1497598941:0;ls make_optimize
+: 1497598943:0;clear
+: 1497598943:0;ls
+: 1497598947:0;ls M
+: 1497598949:0;ls Misc
+: 1497598965:0;mv Misc Programming_Problems
+: 1497598966:0;clear
+: 1497598966:0;ls
+: 1497598995:0;..
+: 1497598997:0;rm CppSTL
+: 1497598997:0;ls
+: 1497598998:0;q
+: 1497598999:0;clear
+: 1497598999:0;s
+: 1497599013:0;ls Projects
+: 1497599028:0;mv prolog_hs Projects/Typlogic
+: 1497599030:0;ls
+: 1497599031:0;cd Projects
+: 1497599031:0;ls
+: 1497599034:0;cd Typlogic
+: 1497599034:0;ls
+: 1497599040:0;vim prolog_hs/prolog.hs
+: 1497600459:0;q
+: 1497602405:0;vrc
+: 1497602442:0;clear
+: 1497602442:0;s
+: 1497602447:0;z 20Qs
+: 1497602453:0;q
+: 1497602455:0;clear
+: 1497602456:0;ls
+: 1497602466:0;vim app/templates/navbar.html
+: 1497602471:0;vrc
+: 1497602485:0;vim app/templates/navbar.html
+: 1497602541:0;vrc
+: 1497602561:0;vim app/templates/navbar.html
+: 1497602597:0;q
+: 1497602955:0;s
+: 1497602956:0;.
+: 1497602956:0;z
+: 1497602958:0;clear
+: 1497602958:0;s
+: 1497602961:0;cd
+: 1497602962:0;s
+: 1497602967:0;ls node_modules
+: 1497602971:0;clear
+: 1497602971:0;ls
+: 1497602974:0;ls Downloads
+: 1497602978:0;rm Downloads/showfile.pdf
+: 1497602979:0;ls
+: 1497602982:0;ls Drive
+: 1497602986:0;ls Library
+: 1497602988:0;.
+: 1497602990:0;ls Music
+: 1497602993:0;cd Music
+: 1497602994:0;ls
+: 1497603003:0;rm 00\ \(Going\ through\)\ the\ Motions\ by.mp3
+: 1497603008:0;rm 00\ Sherlock*
+: 1497603010:0;clear
+: 1497603010:0;ls
+: 1497603029:0;clear
+: 1497603031:0;rm iTunes
+: 1497603032:0;ls
+: 1497603033:0;q
+: 1497619710:0;z
+: 1497619711:0;.
+: 1497619713:0;..
+: 1497619715:0;cd Documents
+: 1497619715:0;.
+: 1497619717:0;cd Projects
+: 1497619718:0;ls
+: 1497619719:0;.
+: 1497619726:0;cd Mosaic
+: 1497619727:0;.
+: 1497619746:0;vim node_modules/void-elements/test/index.js
+: 1497619757:0;s
+: 1497619761:0;d
+: 1497619764:0;clear
+: 1497619767:0;vim mosaic_testing_joshua_pratt.zip
+: 1497619773:0;vim node_modules/void-elements/test/index.js
+: 1497619795:0;dos2unix node_modules/void-elements/test/index.js
+: 1497619798:0;s
+: 1497619800:0;clear
+: 1497619801:0;s
+: 1497619819:0;m "Update node"
+: 1497619823:0;clears
+: 1497619824:0;clear
+: 1497619825:0;s
+: 1497619830:0;a node_modules
+: 1497619831:0;s
+: 1497619837:0;m "Dos2unix"
+: 1497619839:0;clear
+: 1497619840:0;s
+: 1497619843:0;rm mosaic
+: 1497619845:0;rm mosaic_testing_joshua_pratt.zip
+: 1497619846:0;clear
+: 1497619846:0;s
+: 1497619850:0;node server.js
+: 1497619894:0;cd Mosaic
+: 1497619896:0;vim server.js
+: 1497620110:0;node server.js
+: 1497620451:0;clear
+: 1497620508:0;node server.js
+: 1497620839:0;when-changed * 'node server.js'
+: 1497620869:0;when-changed -h
+: 1497620883:0;clear
+: 1497620884:0;node server.js
+: 1497625765:0;q
+: 1497655749:0;d
+: 1497656557:0;q
+: 1497656564:0;clear
+: 1497656566:0;node server.js
+: 1497659422:0;clear
+: 1497659422:0;s
+: 1497659423:0;a .
+: 1497659432:0;m "Caching and bind usage"
+: 1497659433:0;clear
+: 1497659433:0;q
+: 1497665083:0;/Volumes/Nix/isolinux/bootlogo; exit;
+: 1497677412:0;reboot
+: 1497677421:0;shutdown
+: 1497677499:0;clear
+: 1497677500:0;ls
+: 1497677600:0;.
+: 1497677602:0;cd ..
+: 1497677604:0;..
+: 1497677606:0;cd Projects
+: 1497677606:0;.
+: 1497677855:0;mk jungell
+: 1497677868:0;vim Forest.hs
+: 1497679416:0;stack
+: 1497679427:0;stack install
+: 1497679430:0;stack init
+: 1497679436:0;stack new
+: 1497679441:0;stack new Jungell
+: 1497679463:0;vim Jungell/app/Main.hs 
+: 1497679466:0;clear
+: 1497679466:0;ls
+: 1497679482:0;mv *.hs Jungell/src
+: 1497679484:0;cd ..
+: 1497679490:0;mv jungell/Jungell .
+: 1497679497:0;mv jungell Jungell
+: 1497679498:0;ls
+: 1497679501:0;mv Jungell/Jungell .
+: 1497679502:0;ls
+: 1497679504:0;cd Jungell
+: 1497679505:0;ls
+: 1497679508:0;mv Jungell/* .
+: 1497679508:0;ls
+: 1497679510:0;rm Jungell
+: 1497679511:0;ls
+: 1497679516:0;clear
+: 1497679519:0;vim test/Spec.hs
+: 1497679521:0;clear
+: 1497679522:0;ls
+: 1497679525:0;vim  README.md
+: 1497679528:0;vim LICENSE
+: 1497679533:0;vim stack.yaml
+: 1497679554:0;clear
+: 1497679555:0;ls
+: 1497679563:0;vim app/Main.hs src/*
+: 1497679652:0;q
+: 1497679706:0;stack
+: 1497679734:0;stack build
+: 1497679743:0;ghc --install-ghc
+: 1497679749:0;stack --install-ghc
+: 1497679754:0;stack build --install-ghc
+: 1497680268:0;stack build
+: 1497682359:0;clear
+: 1497682365:0;ghc src/Forest.hs
+: 1497685302:0;clear
+: 1497685303:0;ghc src/Forest.hs
+: 1497686725:0;cd src
+: 1497686725:0;ls
+: 1497686727:0;vim Forest.hs
+: 1497688024:0;q
+: 1497688028:0;ghc src/Forest.hs
+: 1497688033:0;ls
+: 1497688034:0;cd src
+: 1497688035:0;ls
+: 1497688038:0;ghc Forest.hs
+: 1497688174:0;ls
+: 1497688221:0;ghc Forest.hs
+: 1497688529:0;ghc Lib.hs
+: 1497688843:0;ghc Forest.hs
+: 1497688870:0;./Lib.hs
+: 1497688871:0;ls
+: 1497688887:0;stack build
+: 1497689352:0;ls
+: 1497689353:0;cd ..
+: 1497689353:0;ls
+: 1497689356:0;ls app
+: 1497689362:0;ls test
+: 1497689367:0;stack
+: 1497689396:0;stack build
+: 1497689412:0;stack bin
+: 1497689419:0;s
+: 1497689436:0;ls .stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497689444:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497689921:0;stack build
+: 1497690943:0;ls
+: 1497690946:0;stack build
+: 1497691178:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691193:0;stack build
+: 1497691198:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691261:0;stack build
+: 1497691264:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691307:0;stack build
+: 1497691322:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691395:0;stack build
+: 1497691416:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691434:0;stack build
+: 1497691437:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691449:0;stack build
+: 1497691452:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691559:0;stack build
+: 1497691590:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691607:0;stack build
+: 1497691610:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691642:0;stack build
+: 1497691645:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691690:0;stack build
+: 1497691696:0;./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497691778:0;stack build && ./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497746816:0;:clear
+: 1497746817:0;clear
+: 1497746818:0;s
+: 1497746821:0;q
+: 1497746829:0;clear
+: 1497746830:0;ls
+: 1497746836:0;vim Forest.hs
+: 1497746840:0;stack build && ./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497748640:0;q
+: 1497748647:0;stack build && ./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497748721:0;ls
+: 1497748725:0;stack build && ./.stack-work/install/x86_64-osx/lts-8.18/8.0.2/bin/Jungell-exe
+: 1497748741:0;stack build && stack run
+: 1497748751:0;man stack
+: 1497748766:0;stack -h
+: 1497748768:0;stack --help
+: 1497748933:0;stack exec Jungell
+: 1497748939:0;stack exec Lib
+: 1497748942:0;stack build
+: 1497748947:0;stack exec Lib
+: 1497748968:0;cd ..
+: 1497748968:0;ls
+: 1497748971:0;ls app
+: 1497749009:0;stack exec Jungell
+: 1497749134:0;clear
+: 1497749135:0;ls
+: 1497749141:0;ls app/Main.hs
+: 1497749143:0;clear
+: 1497749178:0;stack exec Jungell-exe
+: 1497749184:0;stack exec Jungell-test
+: 1497749193:0;stack build test
+: 1497749203:0;stack build
+: 1497749232:0;stack exec Jungell
+: 1497749242:0;stach build && stack exec Jungell
+: 1497749246:0;stack build && stack exec Jungell
+: 1497751137:0;clear
+: 1497751138:0;stack build && stack exec Jungell
+: 1497752078:0;man stack
+: 1497752080:0;stack build && stack exec Jungell
+: 1497752379:0;stack ghci
+: 1497752500:0;stack build && stack exec Jungell
+: 1497753198:0;stack ghci
+: 1497753203:0;stack build && stack exec Jungell
+: 1497757022:0;stack clean
+: 1497757024:0;stack build && stack exec Jungell
+: 1497757576:0;q
+: 1497757598:0;shutdown
+: 1497797204:0;q
+: 1497797207:0;ls
+: 1497797208:0;.
+: 1497797214:0;stack build && stack exec Jungell
+: 1497797336:0;vim src/Lib.hs src/Models.hs
+: 1497797468:0;stack build && stack exec Jungell
+: 1497832505:0;cd
+: 1497832506:0;systemsetup
+: 1497832508:0;sudo systemsetup
+: 1497832532:0;sudo systemsetup -liststartupdisks
+: 1497832563:0;sudo systemsetup -setstartupdisk /Volumes/Disk
+: 1497832575:0;sudo systemsetup -setstartupdisk /Volumes/Disk/System/Library/CoreServices
+: 1497832581:0;sudo systemsetup -setstartupdisk /Volumes/Disk
+: 1497832626:0;hfs-bl
+: 1497832707:0;sudo bless --mount "/Volumes/Ubuntu" --setboot --nextonly --legacy --verbose; sudo reboot
+: 1497832814:0;clear
+: 1497832829:0;sudo bless --mount "/Volumes/Ubuntu" --setboot --nextonly --legacy --verbose
+: 1497832869:0;sudo bless --mount "/Volumes/Mint" --setboot --nextonly --verbose
+: 1497833005:0;sudo systemsetup -liststartupdisks
+: 1497833060:0;sudo systemsetup -help
+: 1497833116:0;systemsetup -getlocalsubnetname
+: 1497833118:0;sudo systemsetup -getlocalsubnetname
+: 1497833129:0;sudo systemsetup -getstartupdisks
+: 1497833130:0;sudo systemsetup -getstartupdisk
+: 1497833148:0;sudo systemsetup -liststartupdisks
+: 1497833265:0;sudo systemsetup -setstartupdisk /Volumes/Disk
+: 1497833270:0;sudo systemsetup -setstartupdisk /Volumes/Mint
+: 1497833320:0;bless /Volumes/Mint
+: 1497833323:0;man bless
+: 1497833472:0;bless --folder "/Volumes/Mint/System/Library/CoreServices" --bootinfo --bootefi
+: 1497833497:0;bless --mount "/Volumes/Mint" --folder "/Volumes/Mint/System/Library/CoreServices" --bootinfo --bootefi
+: 1497833519:0;bless --mount "/Volumes/Mint" --folder "System/Library/CoreServices" --bootinfo --bootefi
+: 1497833526:0;bless --mount "/Volumes/Mint"
+: 1497833529:0;bless --mount "/Volumes/Mint" --bootinfo
+: 1497833535:0;bless --mount "/Volumes/Mint" --bootefi
+: 1497833577:0;cd /Volumes/Mint/EFI/Mint
+: 1497833578:0;ls
+: 1497833581:0;cd ...
+: 1497833582:0;ls
+: 1497833599:0;ln -ls EFI/Mint/System System
+: 1497833604:0;ln -s EFI/Mint/System System
+: 1497833606:0;ls
+: 1497833609:0;sudo ln -s EFI/Mint/System System
+: 1497833613:0;ls
+: 1497833616:0;cd System
+: 1497833616:0;ls
+: 1497833619:0;cd Library
+: 1497833619:0;ls
+: 1497833621:0;cd CoreServices
+: 1497833621:0;ls
+: 1497833694:0;osascript -e "do shell script \"$*\" with administrator privileges"
+: 1497833721:0;osascript -e "do shell script \"$(ls)\" with administrator privileges"
+: 1497833735:0;clear
+: 1497833750:0;osascript -e "do shell script \"ls\" with administrator privileges"
+: 1497833759:0;clear
+: 1497833759:0;ls
+: 1497833952:0;bless -info
+: 1497833956:0;sudo bless -info
+: 1497834099:0;q
+: 1497834644:0;cd ~/Downloads
+: 1497834644:0;ls
+: 1497834651:0;cd ~/Documents
+: 1497834651:0;ls
+: 1497834666:0;cd ls
+: 1497834666:0;;s
+: 1497834674:0;z /Users/Cypher/Downloads
+: 1497834674:0;ls
+: 1497834676:0;cd refind-bin-0.10.8
+: 1497834677:0;ls
+: 1497834681:0;./refind-install
+: 1497834693:0;sudo ./refind-install
+: 1497834711:0;ioreg -l -p IODeviceTree | grep firmware-abi
+: 1497834839:0;sudo ./refind-install --esp
+: 1497834866:0;sudo ./refind-install --usedefault /Volumes/Mint
+: 1497834877:0;sudo ./refind-install --usedefault /Volumes/Mint/EFI
+: 1497834881:0;sudo ./refind-install --usedefault /Volumes/Mint/EFI/Mint/System
+: 1497834890:0;sudo ./refind-install --usedefault /Volumes/Mint/EFI/Mint/System/Library/CoreServices/boot.efi
+: 1497834905:0;sudo umount /Volumes/Mint
+: 1497834921:0;sudo ./refind-install --usedefault /Volumes/Mint/EFI/Mint/System/Library/CoreServices/boot.efi
+: 1497835066:0;mount /Volumes/Mint
+: 1497835076:0;mount /dev/disk0s1
+: 1497835079:0;mount /dev/disk0s2
+: 1497835080:0;mount /dev/disk0s3
+: 1497835089:0;mount /dev/disk0s4
+: 1497835090:0;mount /dev/disk0s5
+: 1497835092:0;mount /dev/disk0s1
+: 1497835094:0;mount /dev/disk0
+: 1497835112:0;q
+: 1497835136:0;brew install efibootmgr
+: 1497835188:0;clear
+: 1497835189:0;s
+: 1497835194:0;./mountesp
+: 1497835197:0;./mountesp --help
+: 1497835207:0;./mountesp /dev/disk0s1
+: 1497835226:0;clear
+: 1497835234:0;ls
+: 1497835237:0;open refind/icons
+: 1497835375:0;mkdir /Volumes/ESP
+: 1497835377:0;sudo mkdir /Volumes/ESP
+: 1497835392:0;sudo mount -t msdos /dev/disk0s1 /Volumes/ESP
+: 1497835408:0;sudo umount /Volumes/Mint
+: 1497835413:0;sudo mount -t msdos /dev/disk0s1 /Volumes/ESP
+: 1497835423:0;diskutil list
+: 1497835659:0;sudo nano /etc/grub.d/40_custom
+: 1497835679:0;sudo vim /Volumes/Mint/EFI/Mint/System/Library/CoreServices/SystemVersion.plist
+: 1497835693:0;clear
+: 1497835693:0;s
+: 1497835694:0;ls
+: 1497835702:0;./mkrlconf --help
+: 1497835706:0;exit
+: 1497835785:0;z Jungell
+: 1497835785:0;s
+: 1497835789:0;git init
+: 1497835792:0;s
+: 1497835803:0;zrc
+: 1497835826:0;exec zsh
+: 1497835831:0;zrc
+: 1497835985:0;ls
+: 1497835987:0;cd app
+: 1497836010:0;git rev-parse --show-toplevel
+: 1497836077:0;~/.config/arrive.sh
+: 1497836091:0;git config --global alias.exec '!exec '
+: 1497836103:0;zrc
+: 1497836158:0;exec zsh
+: 1497836165:0;cd ..
+: 1497836166:0;ls
+: 1497836167:0;clear
+: 1497836167:0;s
+: 1497836265:0;git rev-parse --show-prefix
+: 1497836267:0;git rev-parse --show-prefix .
+: 1497836270:0;cd src
+: 1497836270:0;ls
+: 1497836275:0;git rev-parse --show-prefix Model.hs
+: 1497836289:0;mk test
+: 1497836294:0;git rev-parse --show-prefix .
+: 1497836301:0;mk test2
+: 1497836303:0;touch hi
+: 1497836306:0;git rev-parse --show-prefix hi
+: 1497836381:0;exec zsh
+: 1497836384:0;gitignore hi
+: 1497836392:0;cd .
+: 1497836422:0;exec zsh
+: 1497836425:0;s
+: 1497836437:0;gitignore hi
+: 1497836481:0;git ls-files --full-name hi
+: 1497836488:0;ls
+: 1497836490:0;git ls-files --full-name hi
+: 1497836492:0;git ls-files --full-name
+: 1497836515:0;git rev-parse --show-prefix hi
+: 1497836519:0;git rev-parse hi
+: 1497836524:0;git rev-parse
+: 1497836526:0;git rev-parse --help
+: 1497836562:0;git rev-parse --prefix '.' hi
+: 1497836566:0;git rev-parse --prefix "." hi
+: 1497836569:0;git rev-parse --prefix "/" hi
+: 1497836572:0;git rev-parse --prefix hi
+: 1497836574:0;git rev-parse --prefix
+: 1497836578:0;git rev-parse --prefix="."
+: 1497836582:0;git rev-parse --prefix="." hi
+: 1497836584:0;clear
+: 1497836589:0;git rev-parse --prefix "." hi
+: 1497836599:0;git rev-parse --prefix "src" hi
+: 1497836603:0;git rev-parse --prefix "src/" hi
+: 1497836604:0;clear
+: 1497836611:0;git rev-parse --help
+: 1497836667:0;prefix="git rev-parse --show-prefix hi"
+: 1497836668:0;prefix
+: 1497836671:0;echo $prefix
+: 1497836680:0;prefix="$(git rev-parse --show-prefix hi)"
+: 1497836682:0;echo $prefix
+: 1497836685:0;echo $prefix[0]
+: 1497836688:0;echo $prefix[1]
+: 1497836690:0;echo $prefix[2]
+: 1497836700:0;echo $prefix | head -n 1
+: 1497836704:0;echo $prefix | tail -n 1
+: 1497836718:0;exec zsh
+: 1497836721:0;gitignore hi
+: 1497836733:0;exec zsh
+: 1497836737:0;gitignore hi
+: 1497836753:0;exec zsh
+: 1497836758:0;gitignore hi
+: 1497836816:0;ls
+: 1497836830:0;git rev-parse "./hi"
+: 1497836838:0;git rev-parse --show-prefix "./hi"
+: 1497836842:0;git rev-parse --show-prefix "./hi" | head -n 1
+: 1497836868:0;gitignore hi
+: 1497836881:0;exec zsh
+: 1497836882:0;gitignore hi
+: 1497836896:0;exec zsh
+: 1497836898:0;gitignore hi
+: 1497836904:0;exec zsh
+: 1497836905:0;gitignore hi
+: 1497837023:0;clear
+: 1497837026:0;exec zsh
+: 1497837028:0;cd ..
+: 1497837028:0;ls
+: 1497837029:0;cd ..
+: 1497837032:0;rm test
+: 1497837033:0;ls
+: 1497837034:0;clear
+: 1497837034:0;s
+: 1497837042:0;gitignore ../.stack-work
+: 1497837054:0;vim ../.gitignore
+: 1497837057:0;cd ..
+: 1497837058:0;ls
+: 1497837061:0;vim .gitignore
+: 1497837167:0;realpath src/../.stack-work
+: 1497837198:0;readlink -m src/../.stack-work
+: 1497837201:0;readlink src/../.stack-work
+: 1497837205:0;readlink 0n src/../.stack-work
+: 1497837209:0;readlink -n src/../.stack-work
+: 1497837241:0;abspath="$( cd "src/../.stack-word" && pwd )"
+: 1497837244:0;abspath="$( cd "src/../.stack-work" && pwd )"
+: 1497837256:0;$( cd "src/../.stack-work" && pwd )
+: 1497837262:0;cd "src/../.stack-work" && pwd
+: 1497837267:0;cd ..
+: 1497837309:0;exec zsh
+: 1497837312:0;realpath src/../.stack-work
+: 1497837322:0;cd src/../.stack-work
+: 1497837324:0;cd ..
+: 1497837334:0;exec zsh
+: 1497837338:0;realpath src/../.stack-work
+: 1497837353:0;exec zsh
+: 1497837355:0;realpath src/../.stack-work
+: 1497837365:0;exec zsh
+: 1497837366:0;realpath src/../.stack-work
+: 1497837399:0;git rev-parse --show-prefix "$(realpath 'src/../.stack-work')"
+: 1497837432:0;git rev-parse --show-prefix "$(realpath 'src/../.stack-work')" | head -n 1
+: 1497837454:0;dirname src/../.stack-work
+: 1497837461:0;filename src/../.stack-work
+: 1497837467:0;file src/../.stack-work
+: 1497837477:0;basename src/../.stack-work
+: 1497837521:0;exec zsh
+: 1497837529:0;cd src
+: 1497837536:0;gitignore ../.stack-work
+: 1497837578:0;rm ../.gitignore
+: 1497837579:0;clear
+: 1497837579:0;s
+: 1497837582:0;exec zsh
+: 1497837584:0;giti
+: 1497837587:0;gitignore ../.stack-work
+: 1497837598:0;rm ../.gitignore
+: 1497837623:0;exec zsh
+: 1497837624:0;rm ../.gitignore
+: 1497837626:0;gitignore ../.stack-work
+: 1497837644:0;exec zsh
+: 1497837647:0;gitignore ../.stack-work
+: 1497837679:0;realpath src/../.stack-work
+: 1497837686:0;realpath ../.stack-work
+: 1497837690:0;gitignore ../.stack-work
+: 1497837701:0;realpath ../.stack-work
+: 1497837707:0;realpath "../.stack-work"
+: 1497837783:0;exec zsh
+: 1497837785:0;gitignore ../.stack-work
+: 1497837808:0;exec zsh
+: 1497837810:0;gitignore ../.stack-work
+: 1497837841:0;git rev-parse --show-prefix "$(realpath 'src/../.stack-work')" | head -n 1
+: 1497837845:0;git rev-parse --show-prefix "$(realpath '../.stack-work')" | head -n 1
+: 1497837862:0;git rev-parse --show-prefix "$(realpath '../.stack-work')"
+: 1497837949:0;exec zsh
+: 1497837953:0;gitignore ../.stack-work
+: 1497838105:0;realpath
+: 1497838159:0;echo "$(pwd)"
+: 1497838196:0;echo "$(pwd)" | sed "s/\/Users\/Cypher\/Documents\/Projects\/Jungell//"
+: 1497838199:0;echo "$(pwd)" | sed "s/\/Users\/Cypher\/Documents\/Projects\/Jungell\///"
+: 1497838249:0;pwd | sed -e 's/[]\/$*.^|[]/\\&/g'
+: 1497838290:0;exec zsh
+: 1497838293:0;gitignore ../.stack-work
+: 1497838335:0;exec zsh
+: 1497838338:0;gitignore ../.stack-work
+: 1497838358:0;exec zsh
+: 1497838359:0;gitignore ../.stack-work
+: 1497838368:0;mk test1
+: 1497838370:0;mk test2
+: 1497838373:0;touch hi
+: 1497838376:0;gitignore hi
+: 1497838424:0;exec zsh
+: 1497838426:0;gitignore hi
+: 1497838439:0;basename hi
+: 1497838444:0;dirname hi
+: 1497838458:0;basename .
+: 1497838463:0;dirname .
+: 1497838476:0;clear
+: 1497838477:0;exec zsh
+: 1497838481:0;gitignore hi
+: 1497838485:0;cd ..
+: 1497838488:0;gitignore test2
+: 1497838490:0;gitignore test1
+: 1497838504:0;cd ..
+: 1497838505:0;clear
+: 1497838505:0;s
+: 1497838512:0;gitignore ../.stack-work
+: 1497838590:0;ls
+: 1497838594:0;rm git\ rev-parse\ --show-toplevel
+: 1497838595:0;.
+: 1497838596:0;cd ..
+: 1497838597:0;ls
+: 1497838601:0;cat .gitignore
+: 1497838612:0;cd src
+: 1497838612:0;ls
+: 1497838617:0;cat .gitignore
+: 1497838619:0;cd 
+: 1497838636:0;exec zsh
+: 1497838638:0;z Jungell
+: 1497838641:0;gitignore ../.stack-work
+: 1497838647:0;vim .gitignore
+: 1497838651:0;gitignore ../.stack-work
+: 1497838654:0;vim .gitignore
+: 1497838662:0;exec zsh
+: 1497838666:0;gitignore ../.stack-work
+: 1497838671:0;vim .gitignore
+: 1497838694:0;clear
+: 1497838695:0;exec zsh
+: 1497838698:0;gitignore ../.stack-work
+: 1497838703:0;cat .gitignore
+: 1497838714:0;vim ../.gitignore
+: 1497838721:0;gitignore .stack-work
+: 1497838725:0;vim .gitignore
+: 1497838734:0;gitignore .stack-work
+: 1497838736:0;vim .gitignore
+: 1497838748:0;rm .gitignore
+: 1497838749:0;clear
+: 1497838749:0;s
+: 1497838753:0;gitignore .stack-work
+: 1497838755:0;cat .gitignore
+: 1497838787:0;echo "test" >> .gitignore
+: 1497838788:0;cat .gitignore
+: 1497838791:0;rm .gitignore
+: 1497838792:0;cat .gitignore
+: 1497838795:0;echo "test" >> .gitignore
+: 1497838797:0;cat .gitignore
+: 1497838799:0;rm .gitignore
+: 1497838813:0;exec zsh
+: 1497838814:0;clear
+: 1497838816:0;gitignore .stack-work
+: 1497838818:0;cat .gitignore
+: 1497838821:0;ls
+: 1497838824:0;s
+: 1497838830:0;a .gitignore
+: 1497838831:0;clear
+: 1497838831:0;s
+: 1497838846:0;a README.md LICENSE app src stack.yaml test
+: 1497838846:0;s
+: 1497838849:0;a Jungell.cabal Setup.hs
+: 1497838851:0;clear
+: 1497838856:0;gitignore *.hi
+: 1497838863:0;gitignore "*.hi"
+: 1497838866:0;cat .gitignore
+: 1497838870:0;s
+: 1497838878:0;git rm src/*.hi
+: 1497838882:0;git rm -f src/*.hi
+: 1497838883:0;clear
+: 1497838883:0;s
+: 1497838888:0;git rm -f src/*.o
+: 1497838891:0;clear
+: 1497838891:0;s
+: 1497838900:0;gi "*.o"
+: 1497838901:0;s
+: 1497838903:0;d
+: 1497838906:0;a .gitignore
+: 1497838914:0;gi "*.o"
+: 1497838915:0;cat .gitignore
+: 1497838926:0;cat .gitignore | sort | uniq
+: 1497838930:0;cat .gitignore | sort | uniq > .gitignore
+: 1497838936:0;cat .gitignore
+: 1497838939:0;s
+: 1497839013:0;exec zsh
+: 1497839014:0;clear
+: 1497839017:0;gi "*.o"
+: 1497839020:0;gi "*.hi"
+: 1497839041:0;cat .gitignore
+: 1497839050:0;gi ".stack-work/"
+: 1497839053:0;cat .gitignore
+: 1497839057:0;gi "*.o"
+: 1497839058:0;cat .gitignore
+: 1497839096:0;exec zsh
+: 1497839099:0;gi "*.o"
+: 1497839101:0;cat .gitignore
+: 1497839103:0;clear
+: 1497839103:0;s
+: 1497839105:0;a .gitignore
+: 1497839109:0;clear
+: 1497839109:0;s
+: 1497839112:0;clear
+: 1497839113:0;s
+: 1497839115:0;exec zsh
+: 1497839116:0;s
+: 1497839117:0;clear
+: 1497839117:0;s
+: 1497839123:0;m "First commit"
+: 1497839124:0;clear
+: 1497839124:0;s
+: 1497839125:0;d
+: 1497839127:0;clear
+: 1497839127:0;s
+: 1497839132:0;stack build && stack exec Jungell
+: 1497839134:0;s
+: 1497839145:0;cat .gitignore
+: 1497839147:0;clear
+: 1497839148:0;q
+: 1497839163:0;cd ~/Drive/Uni/2017/9417_ML/20Qs
+: 1497839164:0;clear
+: 1497839164:0;s
+: 1497839166:0;cat .gitignore
+: 1497839174:0;gi "*.pyc"
+: 1497839178:0;vim .gitignore
+: 1497839204:0;clear
+: 1497839204:0;s
+: 1497839213:0;git checkout .gitignore
+: 1497839215:0;clear
+: 1497839218:0;zrc
+: 1497839228:0;clear
+: 1497839229:0;ls
+: 1497839243:0;cat .gitignore | grep "*.pyc"
+: 1497839247:0;cat .gitignore | grep "\*.pyc"
+: 1497839249:0;cat .gitignore | grep "\*\.pyc"
+: 1497839260:0;grep "\*\.pyc" .gitignore
+: 1497839268:0;grep "\." .gitignore
+: 1497839286:0;grep "\*.py[cod]" .gitignore
+: 1497839297:0;grep "\*\.py\[cod\]" .gitignore
+: 1497839334:0;q
+: 1497839337:0;clear
+: 1497839337:0;s
+: 1497839343:0;gi "*.pyc"
+: 1497839345:0;vim .gitignore
+: 1497839370:0;clear
+: 1497839370:0;s
+: 1497839372:0;a .gitignore
+: 1497839373:0;clear
+: 1497839373:0;s
+: 1497839376:0;D
+: 1497839390:0;a .gitignore
+: 1497839404:0;git stash
+: 1497839404:0;clear
+: 1497839405:0;s
+: 1497839405:0;q
+: 1497839407:0;.
+: 1497839421:0;clear
+: 1497839446:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell
+: 1497839451:0;exec zsh
+: 1497839453:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell
+: 1497839464:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839473:0;zrc
+: 1497839549:0;exec zsh
+: 1497839551:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839569:0;exec zsh
+: 1497839570:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839582:0;exec zsh
+: 1497839584:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839612:0;dirname ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839627:0;basename ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839649:0;cd "$(dirname ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs)"
+: 1497839654:0;pwd
+: 1497839673:0;cd -
+: 1497839676:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839687:0;ls
+: 1497839700:0;exec zsh
+: 1497839702:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839732:0;exec zsh
+: 1497839734:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839740:0;exec zsh
+: 1497839742:0;realpath ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839761:0;gi ../Jungell/../Jungell/../Jungell/../HaskPG/../Jungell/../Jungell/../Mosaic/../Old/Artificial-brain/../../Jungell/app/Main.hs
+: 1497839764:0;s
+: 1497839766:0;d
+: 1497839771:0;git stash
+: 1497839772:0;clear
+: 1497839773:0;s
+: 1497839778:0;z .con
+: 1497839779:0;s
+: 1497839780:0;d
+: 1497839784:0;d gitconfig
+: 1497839801:0;a gitconfig
+: 1497839802:0;clear
+: 1497839802:0;s
+: 1497839804:0;d arrive.sh
+: 1497839809:0;vim arrive.sh
+: 1497839814:0;s
+: 1497839815:0;clear
+: 1497839815:0;s
+: 1497839818:0;d nvim/init.vim
+: 1497839822:0;a nvim/init.vim
+: 1497839822:0;clear
+: 1497839823:0;s
+: 1497839826:0;d nvim/plugged
+: 1497839830:0;a nvim/plugged
+: 1497839831:0;clear
+: 1497839831:0;s
+: 1497839833:0;d nvim
+: 1497839836:0;a nvim
+: 1497839837:0;clear
+: 1497839837:0;s
+: 1497839838:0;d pylintrc
+: 1497839841:0;a pylintrc
+: 1497839842:0;clear
+: 1497839842:0;s
+: 1497839844:0;d zsh
+: 1497839846:0;d zsh_history
+: 1497839849:0;d zshrc
+: 1497839856:0;a zsh
+: 1497839857:0;a zshrc
+: 1497839858:0;clear
+: 1497839858:0;s
+: 1497839870:0;m "Added a git ignore alias"
+: 1497839871:0;clear
+: 1497839871:0;s
+: 1497839873:0;d
+: 1497839876:0;s
+: 1497839877:0;q
+: 1497839880:0;z .con
+: 1497839881:0;p
+: 1497839978:0;z Dow
+: 1497839979:0;.
+: 1497839980:0;cd refind-bin-0.10.8
+: 1497839981:0;ls
+: 1497839985:0;./refind-install
+: 1497840076:0;cd ..
+: 1497840078:0;rm refind-bin-0.10.8
+: 1497840080:0;rm refind-bin-0.10.8.zip
+: 1497840081:0;.
+: 1497840262:0;open refind.zip
+: 1497840266:0;cd refind-bin-0.10.8
+: 1497840267:0;ls
+: 1497840271:0;./refind-install
+: 1497840275:0;sudo ./refind-install
+: 1497840300:0;sudo ./refind-install --notesp
+: 1497840331:0;reboot
+: 1497840433:0;./refind-mkdefault
+: 1497840437:0;clear
+: 1497840437:0;ls
+: 1497840441:0;./mountesp
+: 1497840443:0;sudo ./mountesp
+: 1497840493:0;diskutil list
+: 1497840545:0;./refind-install --help
+: 1497840563:0;./refind-install --usedefaul
+: 1497840565:0;./refind-install --usedefault
+: 1497840574:0;sudo ./refind-install --usedefault --notesp
+: 1497840580:0;sudo ./refind-install --notesp
+: 1497840614:0;vim /Volumes/Mint/EFI/Mint/System/Library/CoreServices/boot.efi
+: 1497840621:0;clear
+: 1497840621:0;s
+: 1497840626:0;./mountesp
+: 1497840627:0;sudo ./mountesp
+: 1497840629:0;clear
+: 1497840629:0;ls
+: 1497840798:0;shutdown
+: 1497842551:0;q
+: 1497842557:0;cd
+: 1497842614:0;open .
+: 1497842645:0;fdisk
+: 1497842650:0;gdisk
+: 1497842673:0;gdisk /Volumes/Mint
+: 1497842676:0;gdisk /Volumes/Disk
+: 1497842681:0;gdisk Mint
+: 1497842684:0;gdisk
+: 1497842695:0;gisk --help
+: 1497842699:0;gdisk --help
+: 1497842702:0;gdisk -l
+: 1497842704:0;gdisk list
+: 1497842711:0;fdisk
+: 1497842759:0;fdisktree /Volumes/Mint
+: 1497842765:0;tree /Volumes/Min
+: 1497842766:0;tree /Volumes/Mint
+: 1497842770:0;filtercalltree /Volumes/Mint
+: 1497842771:0;clear
+: 1497842772:0;ls
+: 1497843115:0;brew install efibootmgr
+: 1497843312:0;gpt
+: 1497843316:0;gpt --help
+: 1497843896:0;csrutil status
+: 1497843911:0;exit
+: 1497844003:0;cd Downloads
+: 1497844004:0;.
+: 1497844006:0;cd refind-bin-0.10.8
+: 1497844007:0;ls
+: 1497844014:0;./refind-install
+: 1497844069:0;fdisk
+: 1497844161:0;q
+: 1497847213:0;diskutil list
+: 1497847218:0;diskutil list | pbcopy
+: 1497852410:0;cd
+: 1497852413:0;vim tmp
+: 1497854607:0;gdisk
+: 1497854634:0;ls /dev/sd
+: 1497854635:0;ls /dev/sdt
+: 1497854638:0;cd /dev/
+: 1497854639:0;ls
+: 1497854671:0;echo "hello world" >> /dev/stout
+: 1497854673:0;echo "hello world" >> /dev/stdout
+: 1497854677:0;echo "hello world" >> /dev/stdin
+: 1497854685:0;echo "hello world" >> /dev/stderr
+: 1497854692:0;echo "hello world" >> /dev/stderr | grep "hello"
+: 1497854708:0;clear
+: 1497854714:0;cat
+: 1497854723:0;echo "hello world" >> /dev/stdin"
+: 1497854724:0;echo "hello world" >> /dev/stdin
+: 1497854727:0;q
+: 1497854730:0;clear
+: 1497854731:0;ls
+: 1497854732:0;cd
+: 1497854733:0;clear
+: 1497854734:0;ls
+: 1497854822:0;gdisk
+: 1497854832:0;sudo gdisk
+: 1497855125:0;clear
+: 1497855125:0;s
+: 1497855142:0;diskutil list
+: 1497855146:0;clear
+: 1497855147:0;diskutil list
+: 1497855212:0;mkdir /Volumes/efi
+: 1497855214:0;sudo mkdir /Volumes/efi
+: 1497855220:0;ls /Volumes
+: 1497855230:0;sudo mount -t msdos /dev/disk0s1 /Volumes/efi
+: 1497855401:0;newfs_hfs -v EFI /dev/disk0s1
+: 1497855402:0;sudo newfs_hfs -v EFI /dev/disk0s1
+: 1497855412:0;mkdir /Volumes/EFI
+: 1497855424:0;mount -t hfs /dev/disk0s1 /Volumes/efi
+: 1497855427:0;sudo mount -t hfs /dev/disk0s1 /Volumes/efi
+: 1497855428:0;ls
+: 1497855430:0;ls /Volumes
+: 1497855447:0;cd /Volumes/efi
+: 1497855448:0;ls
+: 1497855483:0;dd
+: 1497855486:0;which dd
+: 1497855488:0;man dd
+: 1497855561:0;gpt
+: 1497855575:0;sudo gpt -r show disk0
+: 1497855853:0;mount /dev/disk0s1 /Volumes/efi
+: 1497855861:0;mount -t hfs /dev/disk0s1 /Volumes/efi
+: 1497855862:0;sudo mount -t hfs /dev/disk0s1 /Volumes/efi
+: 1497855867:0;ls
+: 1497855877:0;umount /dev/disk0s1
+: 1497855879:0;sudo umount /dev/disk0s1
+: 1497855882:0;cd ..
+: 1497855884:0;sudo umount /dev/disk0s1
+: 1497855890:0;diskutil unmount
+: 1497855898:0;diskutil unmount /dev/disk0s1
+: 1497855899:0;clear
+: 1497855900:0;ls
+: 1497855906:0;ls Nix
+: 1497855917:0;ls Nix/EFI/BOOT/*
+: 1497855925:0;mount -t hfs /dev/disk0s1 /Volumes/efi
+: 1497855930:0;mkdir /Volumes/EFI
+: 1497855932:0;sudo mkdir /Volumes/EFI
+: 1497855934:0;mount -t hfs /dev/disk0s1 /Volumes/efi
+: 1497855936:0;sudo mount -t hfs /dev/disk0s1 /Volumes/efi
+: 1497855937:0;ls
+: 1497855987:0;ls Nix/EFI/BOOT/*
+: 1497855994:0;ls /Volumes/EFI/BOOT/*
+: 1497855997:0;ls /Volumes/EFI
+: 1497855999:0;ls /Volumes/EFI*
+: 1497856001:0;ls /Volumes/
+: 1497856003:0;ls /Volumes/EFI
+: 1497856014:0;cd EFI
+: 1497856016:0;cd Nix
+: 1497856017:0;ls
+: 1497856023:0;mkdir EFI
+: 1497856025:0;sudo mkdir EFI
+: 1497856030:0;cd EFI
+: 1497856030:0;ls
+: 1497856036:0;ls boot
+: 1497856040:0;ls boot/grub
+: 1497856048:0;vim boot/grub/grub.cfg
+: 1497856061:0;q
+: 1497856079:0;diskutil list
+: 1497856105:0;clear
+: 1497856106:0;diskutil list
+: 1497856123:0;umount /dev/disk0s1
+: 1497856125:0;sudo umount /dev/disk0s1
+: 1497856136:0;diskutil unmount /dev/disk0s1
+: 1497856146:0;diskutil unmount /dev/discd
+: 1497856147:0;cd
+: 1497856149:0;diskutil unmount /dev/disk0s1
+: 1497856156:0;diskutil list
+: 1497856161:0;diskutil unmount /dev/disk0s2
+: 1497856165:0;diskutil unmount /dev/disk2
+: 1497856171:0;clear
+: 1497856173:0;diskutil list
+: 1497856184:0;clear
+: 1497856185:0;diskutil list
+: 1497856205:0;clear
+: 1497856206:0;diskutil list
+: 1497856226:0;q
+: 1497860154:0;z Jungell
+: 1497860162:0;vim src/Models.hs
+: 1497860173:0;stack build && stack exec Jungell
+: 1497861375:0;stack build && time stack exec Jungell
+: 1497879866:0;clear
+: 1497879866:0;s
+: 1497879872:0;stack exec Jungell
+: 1497879880:0;ls
+: 1497879882:0;cat Jungell.cabal
+: 1497879889:0;cat Jungell.cabal | grep "executable"
+: 1497880003:0;cat Jungell.cabal | grep "executable "
+: 1497880016:0;cat Jungell.cabal | grep "executable" | sed "s/executable //"
+: 1497880027:0;cat Jungell.cabal | /bin/grep "executable" | /bin/sed "s/executable //"
+: 1497880032:0;cat Jungell.cabal | /bin/grep "executable" | sed "s/executable //"
+: 1497880036:0;cat Jungell.cabal | /usr/bin/grep "executable" | sed "s/executable //"
+: 1497880099:0;q
+: 1497880173:0;zrc
+: 1497880221:0;clear
+: 1497880222:0;s
+: 1497880225:0;exec zsh
+: 1497880227:0;clear
+: 1497880227:0;s
+: 1497880266:0;stack exec Jungell
+: 1497885686:0;clear
+: 1497885686:0;s
+: 1497885687:0;d
+: 1497885692:0;d Jungell.cabal
+: 1497885695:0;a Jungell.cabal
+: 1497885695:0;s
+: 1497885701:0;m "Added -O3"
+: 1497885702:0;clear
+: 1497885702:0;s
+: 1497885712:0;d
+: 1497885715:0;clear
+: 1497885715:0;s
+: 1497885723:0;d src/Models.hs
+: 1497885736:0;q
+: 1497885748:0;z .con
+: 1497885749:0;s
+: 1497885750:0;d
+: 1497885753:0;d zshrc
+: 1497885757:0;q
+: 1497918250:0;clear
+: 1497918252:0;cd
+: 1497918252:0;ls
+: 1497918254:0;clear
+: 1497918254:0;ls
+: 1497918256:0;cd Downloads
+: 1497918257:0;ls
+: 1497918261:0;vim COMP9417\ Notes.html
+: 1497918622:0;q
+: 1497918678:0;clear
+: 1497918679:0;ls
+: 1497918684:0;cd study
+: 1497918684:0;ls
+: 1497918699:0;chrome .
+: 1497923661:0;/Applications/Alfred\ 3.app/Contents/Frameworks/Alfred\ Framework.framework/Versions/A/Resources/reindexdel.sh ; exit;
+: 1497923796:0;sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+: 1497923810:0;sudo launchctl unload -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+: 1497923811:0;sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.metadata.mds.plist
+: 1497923812:0;q
+: 1497926637:0;z /Users/Cypher/Documents/Projects
+: 1497926638:0;.
+: 1497926670:0;mk HaskPGRender
+: 1497926676:0;stack init
+: 1497926683:0;stack new
+: 1497926686:0;cd ..
+: 1497926689:0;rm HaskPGRender
+: 1497926705:0;stack new RenderWorld
+: 1497926718:0;cp Jungell RenderWorld
+: 1497926720:0;cd RenderWorld
+: 1497926721:0;ls
+: 1497926728:0;mv Jungell.cabal RenderWorld.cabal
+: 1497926732:0;vim RenderWorld.cabal
+: 1497926802:0;clear
+: 1497926802:0;s
+: 1497926808:0;rm .git
+: 1497926822:0;rm -rf .git
+: 1497926822:0;clear
+: 1497926823:0;s
+: 1497926824:0;git init
+: 1497926829:0;ls
+: 1497926832:0;vim LICENSE RE
+: 1497926854:0;clear
+: 1497926855:0;s
+: 1497926858:0;a .gitignore
+: 1497926859:0;ls
+: 1497926861:0;clear
+: 1497926861:0;s
+: 1497926866:0;a LICENSE README.md
+: 1497926866:0;clear
+: 1497926867:0;s
+: 1497926868:0;a RenderWorld.cabal
+: 1497926869:0;clear
+: 1497926869:0;s
+: 1497926872:0;d Setup.hs
+: 1497926876:0;cat Setup.hs
+: 1497926879:0;a Setup.hs
+: 1497926879:0;clear
+: 1497926879:0;s
+: 1497926883:0;d stack.yaml
+: 1497926885:0;vim stack.yaml
+: 1497926891:0;a stack.yaml
+: 1497926892:0;clear
+: 1497926892:0;s
+: 1497926894:0;a test
+: 1497926896:0;clear
+: 1497926897:0;s
+: 1497926900:0;a app src
+: 1497926900:0;s
+: 1497926906:0;clear
+: 1497926907:0;s
+: 1497926914:0;vim src/* app/*
+: 1497928315:0;s
+: 1497928318:0;a .
+: 1497928319:0;clear
+: 1497928319:0;s
+: 1497928321:0;clear
+: 1497928329:0;stack build && time stack exec RenderWorld
+: 1497932685:0;sudo stack build && time stack exec RenderWorld[A
+: 1497932689:0;stack build && time stack exec RenderWorld
+: 1497932745:0;clear
+: 1497932746:0;stack build && time stack exec RenderWorld
+: 1497933577:0;when-changed src/*.hs "stack build && time stack exec RenderWorld"
+: 1497933601:0;clear
+: 1497933601:0;s
+: 1497933617:0;when-changed src/*.hs -c "stack build && time stack exec RenderWorld"
+: 1497953287:0;z
+: 1497953289:0;cd 
+: 1497953291:0;z ML
+: 1497953291:0;.
+: 1497953298:0;vim AlgoIndep_tut.md
+: 1497954438:0;q
+: 1497955446:0;when-changed src/*.hs -c "stack build && echo "---------" && time stack exec RenderWorld"
+: 1497957290:0;stack exec Renderworld
+: 1497957296:0;time stack exec Renderworld
+: 1497957305:0;stack install Renderworld
+: 1497957309:0;stack install RenderWorld
+: 1497957315:0;time RenderWorld
+: 1497957323:0;stack install RenderWorld
+: 1497957334:0;rm ~/.local/bin/RenderWorld
+: 1497957336:0;clear
+: 1497957336:0;s
+: 1497957337:0;d
+: 1497957343:0;a RenderWorld.cabal
+: 1497957344:0;clear
+: 1497957344:0;s
+: 1497957345:0;a src
+: 1497957346:0;clear
+: 1497957347:0;s
+: 1497957378:0;m "Added a generic tree based on ordered maps to use to represent the world model"
+: 1497957379:0;clear
+: 1497957380:0;p
+: 1497958571:0;clear
+: 1497958572:0;s
+: 1497964482:0;z /Users/Cypher/Documents/Projects/Jungell
+: 1497964483:0;s
+: 1497964487:0;vim
+: 1497964510:0;basename .
+: 1497964514:0;basename `pwd`
+: 1497964538:0;when-changed src/*.hs -c "stack build && echo "---------" && time stack exec $(basename $(pwd))"
+: 1497964826:0;vim SVMs.txt
+: 1497966556:0;z ML
+: 1497966563:0;vim things_to_remember
+: 1498004482:0;time stack exec Renderworld
+: 1498004490:0;stack install RenderWorld
+: 1498004496:0;time RenderWorld
+: 1498004510:0;stack uninstall RenderWorld
+: 1498004518:0;which RenderWorld
+: 1498004522:0;rm `which RenderWorld`
+: 1498004526:0;RenderWorld
+: 1498004527:0;clear
+: 1498004527:0;s
+: 1498004530:0;d
+: 1498004533:0;a RenderWorld.cabal
+: 1498004535:0;clear
+: 1498004535:0;s
+: 1498004536:0;d
+: 1498004542:0;a .
+: 1498004543:0;s
+: 1498004544:0;d
+: 1498004547:0;D
+: 1498004580:0;m "Switch from maps to Hashmaps and started creating a type to represent Areas"
+: 1498004581:0;clear
+: 1498004805:0;when-changed src/*.hs -c "stack build && echo "---------" && time stack exec $(basename $(pwd))-test"
+: 1498004837:0;when-changed src/*.hs test/*.hs-c "stack build && echo "---------" && time stack exec $(basename $(pwd))-test"
+: 1498004857:0;when-changed src/*.hs test/*.hs -c "stack build && echo "---------" && time stack exec $(basename $(pwd))-test"
+: 1498004883:0;when-changed src/*.hs test/*.hs -c "stack build && echo "---------" && time stack test"
+: 1498005064:0;stack solver
+: 1498005087:0;stack --help
+: 1498005093:0;stack list-dependancies
+: 1498005098:0;stack list-dependencies
+: 1498005104:0;stack --help
+: 1498005138:0;stack solver --help
+: 1498005149:0;stack solver
+: 1498005244:0;stack build
+: 1498005305:0;when-changed src/*.hs test/*.hs -c "stack build && echo "---------" && time stack test"
+: 1498005583:0;clear
+: 1498005585:0;stack build
+: 1498005806:0;stack test
+: 1498006541:0;when-changed src/*.hs -c "stack build && echo "---------" && time stack exec RenderWorld"
+: 1498006829:0;stack test
+: 1498006969:0;when-changed src/*.hs -c "stack build && echo "---------" && time stack test"
+: 1498006983:0;when-changed src/*.hs test/*.hs -c "stack build && echo "---------" && time stack test"
+: 1498007885:0;clear
+: 1498007885:0;s
+: 1498007893:0;clear
+: 1498007893:0;s
+: 1498007902:0;mv test/TestArea.hs src/
+: 1498007907:0;mv test/TestTree.hs src/
+: 1498007908:0;clear
+: 1498007908:0;s
+: 1498007914:0;a src
+: 1498007915:0;clear
+: 1498007915:0;s
+: 1498007918:0;a RenderWorld.cabal
+: 1498007919:0;clear
+: 1498007919:0;s
+: 1498007920:0;d
+: 1498007922:0;a .
+: 1498007931:0;when-changed src/*.hs test/*.hs -c "stack build && echo "---------" && time stack test"
+: 1498008136:0;stach ghci
+: 1498008140:0;stack ghci
+: 1498008200:0;when-changed src/*.hs test/*.hs -c "stack build && echo "---------" && time stack test"
+: 1498008492:0;q
+: 1498008503:0;z Render
+: 1498008504:0;s
+: 1498008505:0;a .
+: 1498008510:0;m "Added testing"
+: 1498008511:0;clear
+: 1498008511:0;s
+: 1498008512:0;q
+: 1498097859:0;clear
+: 1498097859:0;s
+: 1498097862:0;z Jung
+: 1498097862:0;.
+: 1498097867:0;vim src/Models.hs
+: 1498097872:0;q
+: 1498097968:0;z Render
+: 1498097969:0;.
+: 1498097991:0;vim
+: 1498098057:0;vrc
+: 1498098153:0;q
+: 1498098167:0;vrc
+: 1498098264:0;head ~/.config/nvim/init.vim
+: 1498098267:0;vim
+: 1498098271:0;vrc
+: 1498098373:0;vr
+: 1498098376:0;vrc
+: 1498098390:0;ls
+: 1498098391:0;q
+: 1498098394:0;clear
+: 1498098394:0;s
+: 1498098395:0;vim
+: 1498098417:0;when-changed src/*.hs test/*.hs -c "stack build && echo "---------" && time stack test"
+: 1498098450:0;when-changed src/*.hs -c "stack build && echo "---------" && time stack exec RenderWorld"
+: 1498098672:0;when-changed src/*.hs -c "time stack exec RenderWorld"
+: 1498098689:0;when-changed src/*.hs -c "sleep 1 && time stack exec RenderWorld"
+: 1498133683:0;z Jung
+: 1498133684:0;s
+: 1498133685:0;a .
+: 1498133687:0;D
+: 1498133697:0;m "Working on testing"
+: 1498133712:0;git remote add origin git@github.com:Cypher1/Jungell.git
+: 1498133714:0;git push
+: 1498133720:0;git push --set-upstream origin master
+: 1498133796:0;git remote add origin git@github.com:Cypher1/HaskPGRender.git
+: 1498133798:0;s
+: 1498133799:0;d
+: 1498133805:0;a .
+: 1498133821:0;m "Working on world model"
+: 1498133823:0;p
+: 1498133827:0;git push --set-upstream origin master
+: 1498134250:0;cd 
+: 1498134252:0;cd -
+: 1498134254:0;..
+: 1498134255:0;git@github.com:Cypher1/CHARLIE.git
+: 1498134292:0;.
+: 1498134297:0;cd CHARLIE
+: 1498134298:0;ls
+: 1498134304:0;cat r
+: 1498134307:0;cat run.sh
+: 1498134323:0;python3 mimir.py
+: 1498134423:0;clear
+: 1498134424:0;s
+: 1498134425:0;cd ..
+: 1498134427:0;rm CHARLIE
+: 1498134432:0;rm -rf CHARLIE
+: 1498134432:0;.
+: 1498134440:0;clear
+: 1498134441:0;ls
+: 1498134445:0;cd Mosaic
+: 1498134445:0;ls
+: 1498134449:0;git push
+: 1498134475:0;git remote add origin git@github.com:Cypher1/Mosaic.git
+: 1498134478:0;git push --set-upstream origin master
+: 1498134489:0;node server.js
+: 1498134647:0;clear
+: 1498134647:0;s
+: 1498134649:0;cd ..
+: 1498134650:0;rm Mosaic
+: 1498134661:0;rm -rf Mosaic
+: 1498134664:0;ls
+: 1498134665:0;cd ..
+: 1498134666:0;clear
+: 1498134667:0;ls
+: 1498134668:0;.
+: 1498134671:0;ls Old
+: 1498134677:0;rm Old/KanFam_Ethics
+: 1498134683:0;rm -rf Old/KanFam_Ethics
+: 1498134686:0;cd Old
+: 1498134687:0;ls
+: 1498134689:0;ls Haskell_Predicate_Logic
+: 1498134697:0;q
+: 1498134699:0;clear
+: 1498134700:0;ls
+: 1498134702:0;cd Artificial-brain
+: 1498134702:0;ls
+: 1498134708:0;cd ..
+: 1498134712:0;ls
+: 1498134716:0;cd HaskPG
+: 1498134716:0;ls
+: 1498134717:0;s
+: 1498134718:0;d
+: 1498134719:0;D
+: 1498134724:0;a .
+: 1498134727:0;m "Working on input"
+: 1498134728:0;clear
+: 1498134728:0;s
+: 1498134729:0;p
+: 1498134731:0;cd ..
+: 1498134733:0;ls
+: 1498134735:0;cd Generative_Grammar
+: 1498134735:0;ls
+: 1498134739:0;vim inf_st.hs
+: 1498134755:0;cd ..
+: 1498134757:0;rm Generative_Grammar
+: 1498134758:0;.
+: 1498134759:0;q
+: 1498134760:0;clear
+: 1498134760:0;ls
+: 1498134763:0;cd ..
+: 1498134765:0;rm HaskPG
+: 1498134770:0;rm -rf HaskPG
+: 1498134771:0;clear
+: 1498134771:0;ls
+: 1498134778:0;rm -rf Jungell
+: 1498134782:0;rm -rf RenderWorld
+: 1498134784:0;ls Typlogic
+: 1498134786:0;cd Typlogic
+: 1498134787:0;ls
+: 1498134796:0;git init
+: 1498134863:0;git remote add origin git@github.com:Cypher1/TypoLogic.git
+: 1498134864:0;s
+: 1498134866:0;a .
+: 1498134886:0;m "Partially working semi-ring based solver"
+: 1498134887:0;p
+: 1498134890:0;git push --set-upstream origin master
+: 1498134974:0;clear
+: 1498134974:0;s
+: 1498134980:0;git rm -f *.o *.hi
+: 1498134990:0;gi "*.hi"
+: 1498134993:0;gi "*.o"
+: 1498134994:0;clear
+: 1498134994:0;s
+: 1498134997:0;a .gitignore
+: 1498135000:0;m "Added gitignore"
+: 1498135002:0;p
+: 1498135005:0;..
+: 1498135005:0;ls
+: 1498135013:0;cd ..
+: 1498135014:0;rm Typlogic
+: 1498135018:0;rm -rf Typlogic
+: 1498135018:0;clear
+: 1498135018:0;s
+: 1498135021:0;cd ElmPG
+: 1498135022:0;ls
+: 1498135023:0;a .
+: 1498135029:0;git init
+: 1498135030:0;s
+: 1498135038:0;a Test.elm
+: 1498135041:0;a elm-package.json
+: 1498135046:0;a pong.elm
+: 1498135046:0;clear
+: 1498135047:0;s
+: 1498135051:0;gi index.html
+: 1498135055:0;gi elm-stuff
+: 1498135056:0;clear
+: 1498135056:0;s
+: 1498135058:0;a .gitignore
+: 1498135059:0;s
+: 1498135063:0;m "Init"
+: 1498135064:0;p
+: 1498135096:0;git add remote origin master git@github.com:Cypher1/ElmTest.git
+: 1498135108:0;git remote add origin git@github.com:Cypher1/ElmTest.git
+: 1498135118:0;p -u origin master
+: 1498135135:0;cd ..
+: 1498135138:0;rm ElmPG
+: 1498135140:0;rm -rf ElmPG
+: 1498135141:0;.
+: 1498135146:0;ls Old
+: 1498135151:0;rm Old/CppNN
+: 1498135154:0;rm -rf Old/CppNN
+: 1498135160:0;ls Old/Haskell_Predicate_Logic
+: 1498135163:0;cd Old/Haskell_Predicate_Logic
+: 1498135163:0;s
+: 1498135164:0;p
+: 1498135169:0;..
+: 1498135172:0;rm -rf Haskell_Predicate_Logic
+: 1498135173:0;.
+: 1498135178:0;ls Extractor
+: 1498135180:0;cd Extractor
+: 1498135187:0;clear
+: 1498135187:0;s
+: 1498135190:0;git init
+: 1498135193:0;s
+: 1498135198:0;a *.js
+: 1498135199:0;clear
+: 1498135199:0;s
+: 1498135202:0;a .eslintrc.js
+: 1498135206:0;a manifest.json
+: 1498135208:0;a main.html
+: 1498135209:0;a popup.html
+: 1498135210:0;s
+: 1498135211:0;clear
+: 1498135211:0;s
+: 1498135212:0;a icon.png
+: 1498135213:0;clear
+: 1498135213:0;s
+: 1498135216:0;m "Init"
+: 1498135281:0;git add remote origin git@github.com:Cypher1/Extractor.git
+: 1498135288:0;git remote add origin git@github.com:Cypher1/Extractor.git
+: 1498135292:0;p -u origin master
+: 1498135314:0;clear
+: 1498135314:0;s
+: 1498135326:0;cd ..
+: 1498135328:0;rm -rf Extractor
+: 1498135329:0;.
+: 1498135332:0;cd monocular/o
+: 1498135333:0;cd monocular/
+: 1498135334:0;s
+: 1498135335:0;d
+: 1498135340:0;git remote -v
+: 1498135342:0;cd ..
+: 1498135346:0;rm -rf monocular
+: 1498135347:0;clear
+: 1498135348:0;s
+: 1498135350:0;cd ...
+: 1498135352:0;ls Pro
+: 1498135354:0;ls Projects
+: 1498135355:0;ls
+: 1498135357:0;open .
+: 1498135392:0;cd ../Processing3
+: 1498135393:0;ls
+: 1498135397:0;cd LewisAndClark
+: 1498135398:0;ls
+: 1498135398:0;s
+: 1498135401:0;rm .DS_Store
+: 1498135406:0;gi .DS_Store
+: 1498135407:0;clear
+: 1498135407:0;s
+: 1498135409:0;a .gitignore
+: 1498135411:0;a LewisAndClark.pde
+: 1498135413:0;a data
+: 1498135413:0;s
+: 1498135419:0;D
+: 1498135438:0;vim LewisAndClark.pde
+: 1498135447:0;s
+: 1498135449:0;a .
+: 1498135450:0;clear
+: 1498135450:0;s
+: 1498135467:0;m "Cleanup and playing with shaders"
+: 1498135468:0;p
+: 1498135475:0;cd ..
+: 1498135475:0;..
+: 1498135476:0;clear
+: 1498135477:0;ls
+: 1498135483:0;cd ..
+: 1498135484:0;clear
+: 1498135485:0;ls
+: 1498135489:0;cd go
+: 1498135490:0;ls
+: 1498135492:0;cd src
+: 1498135492:0;ls
+: 1498135494:0;cd github.com
+: 1498135495:0;ls
+: 1498135495:0;s
+: 1498135496:0;cd Cypher1
+: 1498135497:0;ls
+: 1498135501:0;cd ...
+: 1498135506:0;...
+: 1498135508:0;clear
+: 1498135508:0;s
+: 1498135510:0;q
+: 1498135730:0;clear
+: 1498135730:0;s
+: 1498135733:0;ls .
+: 1498135735:0;ls .*
+: 1498135744:0;ls .* | grep :
+: 1498135753:0;ls -la | grep .
+: 1498135755:0;ls -la | grep \.
+: 1498135759:0;ls -la | grep \.[a-z]
+: 1498135763:0;ls -la | grep \.[a-zA-Z]
+: 1498135764:0;clear
+: 1498135765:0;ls -la | grep \.[a-zA-Z]
+: 1498135770:0;cd .config
+: 1498135775:0;s
+: 1498135776:0;d
+: 1498135784:0;a nvim/init.vim
+: 1498135785:0;clear
+: 1498135785:0;s
+: 1498135788:0;D
+: 1498135804:0;m "Added <leader>t(erm) command"
+: 1498135805:0;clear
+: 1498135805:0;s
+: 1498135810:0;d zshrc
+: 1498135815:0;a zshrc
+: 1498135820:0;m "Added autoload for stack"
+: 1498135823:0;vim arrive.sh
+: 1498135856:0;clear
+: 1498135856:0;s
+: 1498135859:0;a arrive.sh
+: 1498135866:0;m "Added stack to arrive.sh
+: 1498135868:0;m "Added stack to arrive.sh"
+: 1498135869:0;clear
+: 1498135869:0;s
+: 1498135871:0;d
+: 1498135879:0;git add zsh_history&& git commit -m "More zsh_history" && git push
