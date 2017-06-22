@@ -15,6 +15,8 @@ PROGRAMS=(
   haskell-platform
   git
   gcc
+  ghc
+  stack
   g++
   python
   python-pip
