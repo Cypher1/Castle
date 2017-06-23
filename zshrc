@@ -1,26 +1,42 @@
-DEFAULT_USER="jopra"
+DEFAULT_USER="cypher"
 HOME="`cd;pwd`"
 export ZSH="$HOME/.oh-my-zsh"
 
 ZSH_THEME="bullet-train"
-BULLETTRAIN_STATUS_EXIT_SHOW=true
-BULLETTRAIN_PROMPT_ADD_NEWLINE=false
-BULLETTRAIN_DIR_EXTENDED=1
-BULLETTRAIN_VIRTUALENV_SHOW=true
 BULLETTRAIN_VIRTUALENV_FG=black
-BULLETTRAIN_TIME_SHOW=false
-BULLETTRAIN_EXEC_TIME_SHOW=true
+BULLETTRAIN_DIR_FG=black
 BULLETTRAIN_GIT_DIRTY_BG=yellow
 BULLETTRAIN_GIT_BG=green
-BULLETTRAIN_DIR_FG=black
 BULLETTRAIN_GIT_DIRTY_FG=black
 BULLETTRAIN_GIT_FG=black
-BULLETTRAIN_PROMPT_CHAR=""
+
+BULLETTRAIN_PROMPT_ADD_NEWLINE=false
+BULLETTRAIN_DIR_EXTENDED=1
 BULLETTRAIN_GIT_FETCH=true
+BULLETTRAIN_PROMPT_CHAR=""
+BULLETTRAIN_PROMPT_ORDER=(
+    dir
+    virtualenv
+    go
+    elixir
+    git
+    hg
+    status
+    cmd_exec_time
+  )
 
 plugins=(cabal catimg extract gem gitfast jsontools last-working-dir npm pip python sudo z safe-paste zsh-autosuggestions zsh-completions)
 source $ZSH/oh-my-zsh.sh
 export KEYTIMEOUT=1
+
+# OVERRIDES
+export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
+export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
+export PATH="$PATH:/usr/local/opt/go/libexec/bin"
+export PATH=$PATH:$(go env GOPATH)/bin
+export GOPATH=$(go env GOPATH)
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
+eval "$(direnv hook zsh)"
 
 # CHANGING DEFAULTS
 alias reboot="sudo reboot"
@@ -40,6 +56,7 @@ alias cat="ccat"
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
 alias zrc="nvim ~/.zshrc"
 alias vrc="nvim ~/.config/nvim/init.vim"
+alias 3rc="nvim ~/.config/i3/config"
 alias .="clear && cd . && ls"
 alias ..="clear && cd .. && ls"
 alias r="clear"
@@ -159,15 +176,6 @@ alias hb="heroku run bash"
 alias mosh="mosh -6"
 alias cse="ssh z5017666@cse.unsw.edu.au"
 alias cse_cp="scp * z5017666@cse.unsw.edu.au:./"
-
-# OVERRIDES
-export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
-export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
-export PATH="$PATH:/usr/local/opt/go/libexec/bin"
-export PATH=$PATH:$(go env GOPATH)/bin
-export GOPATH=$(go env GOPATH)
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
-eval "$(direnv hook zsh)"
 
 autoload -U +X compinit && compinit
 autoload -U +X bashcompinit && bashcompinit
