@@ -5,7 +5,6 @@ CONFIG_PATH="~/.config/"
 LINKED_FILES=(
   pylintrc
   zshrc
-  oh-my-zsh
 )
 
 PROGRAMS=(
@@ -16,8 +15,8 @@ PROGRAMS=(
   git
   gcc
   ghc
-  stack
   g++
+  golang
   direnv
   python
   python-pip
@@ -32,6 +31,7 @@ PROGRAMS=(
 )
 
 PYTHON_PACKS=(
+  setuptools
   virtualenv
   flask
   numpy
@@ -58,6 +58,10 @@ NPM_PACKS=(
   underscore
 )
 
+
+# Add apt-repos
+# sudo add-apt-repository ppa:neovim-ppa/stable
+
 # start at home
 cd
 echo "Linking Dot-files"
@@ -77,18 +81,22 @@ else
 fi
 
 echo "Installing Python Libraries"
+pip install --upgrade pip
 pip install ${PYTHON_PACKS[@]}
 
 #echo "Installing Haskell Packages"
 #cabal update
 #cabal install ${HASKELL_PACKS[@]}
 
+#Install stack
+curl -sSL https://get.haskellstack.org/ | sh
+
+
 echo "Install NPM Packages"
 npm update
-npm install ${NPM_PACKS[@]} --save
+npm install ${NPM_PACKS[@]} -g
 
-echo "Install Vim Packages"
-nvim +PlugClean +PlugInstall +qall
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 echo "Starting zsh"
 zsh
