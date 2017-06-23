@@ -1,6 +1,9 @@
 autostart
+caja
 chromium
+dconf
 google-chrome
+gtk-3.0
 Insync
 nvim/undo-dir
 Trolltech.conf
