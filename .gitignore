@@ -4,8 +4,10 @@ chromium
 dconf
 google-chrome
 gtk-3.0
+i3/.gtkrc-2.0
 Insync
 nvim/undo-dir
+pulse
 Trolltech.conf
 user-dirs.dirs
 user-dirs.locale
