@@ -118,10 +118,14 @@ nmap j gj
 nmap k gk
 "<A-j>
 nnoremap ∆ :m .+1<CR>==
+nnoremap <A-j> :m .+1<CR>==
 inoremap ∆ <Esc>:m .+1<CR>==gi
+inoremap <A-j> <Esc>:m .+1<CR>==gi
 "<A-k>
 nnoremap ˚ :m .-2<CR>==
+nnoremap <A-k> :m .-2<CR>==
 inoremap ˚ <Esc>:m .-2<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
 set nostartofline
 " }}}
 " NeoMake {{{
