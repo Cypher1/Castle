@@ -69,6 +69,8 @@ nnoremap <silent> : :nohlsearch<CR>:
 tnoremap : <C-\><C-n>:
 tnoremap :: :
 set backup writebackup backupdir=/tmp/ hidden
+" Allow saving of files as sudo when I forgot to start vim using sudo.
+cmap w!! w !sudo tee > /dev/null %
 set undofile undodir=~/.config/nvim/undo-dir
 " No more arrow keys {{{
 map <Up>    <NOP>
