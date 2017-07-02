@@ -1,8 +1,13 @@
-#! /bin/sh -e
+#!/bin/bash
 #
 # wakeup.sh
 # Copyright (C) 2017 cypher <cypher@Cortana>
-#
-echo LID0 > /proc/acpi/wakeup
-echo XHC1 > /proc/acpi/wakeup
-exit 0
+
+ACPIFILE=/proc/acpi/wakeup
+
+SIGNALS=(XHC1 LID0)
+
+for SIGNAL in $SIGNALS
+do
+  grep $SIGNAL $ACPIFILE | grep enabled > /dev/null && echo $SIGNAL > $ACPIFILE
+done
