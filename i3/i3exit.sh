@@ -1,6 +1,6 @@
 #!/bin/sh
 lock() {
-    i3lock -c 000000 -e -f
+    ~/.config/i3/i3lock-fancy/lock -f 'Hack-regular' -t ''
 }
 
 case "$1" in
