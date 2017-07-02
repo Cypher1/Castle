@@ -1,7 +1,11 @@
 #!/bin/sh
 lock() {
-    #i3lock -c 222222
-    i3lock -i ~/.config/i3/lockscreen.png -t
+    i3lock -c 000000 -e -f
+    # -i (display image)
+    # -c (colour)
+    # -t (tiling)
+    # -e ignore empty password
+    # -f (show fails)
 }
 
 case "$1" in
@@ -12,15 +16,7 @@ case "$1" in
         i3-msg exit
         ;;
     suspend)
-        #lock && systemctl supend
-        systemctl supend
-        ;;
-    hibernate)
-        #lock && systemctl hibernate
-        systemctl hibernate
-        ;;
-    reboot)
-        systemctl reboot
+        lock && systemctl suspend
         ;;
     shutdown)
         systemctl poweroff
@@ -29,5 +25,4 @@ case "$1" in
         echo "Usage: $0 {lock|logout|suspend|hibernate|reboot|shutdown}"
         exit 2
 esac
-
 exit 0

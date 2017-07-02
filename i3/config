@@ -52,6 +52,9 @@ bindsym $mod+p focus parent
 # focus the child container
 bindsym $mod+Shift+p focus child
 
+# focus follows mouse
+focus_follows_mouse no
+
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
 
@@ -222,15 +225,13 @@ mode "resize" {
   bindsym Escape mode "default"
 }
 
-set $mode_system System (l) lock, (e) logout, (s) suspend, (h) hibernate, (r) reboot, (Shift+s) shutdown
+set $mode_system System (l) lock, (e) logout, (s) suspend, (Shift+s) shutdown
 bindsym $mod+XF86LaunchB mode "$mode_system"
 
 mode "$mode_system" {
     bindsym l exec --no-startup-id ~/.config/i3/i3exit.sh lock, mode "default"
     bindsym e exec --no-startup-id ~/.config/i3/i3exit.sh logout, mode "default"
     bindsym s exec --no-startup-id ~/.config/i3/i3exit.sh suspend, mode "default"
-    bindsym h exec --no-startup-id ~/.config/i3/i3exit.sh hibernate, mode "default"
-    bindsym r exec --no-startup-id ~/.config/i3/i3exit.sh reboot, mode "default"
     bindsym Shift+s exec --no-startup-id ~/.config/i3/i3exit.sh shutdown, mode "default"
 
     # back to normal: Enter or Escape
