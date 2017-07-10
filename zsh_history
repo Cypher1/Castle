@@ -10515,3 +10515,26 @@ clear
 : 1499679457:0;s
 : 1499679464:0;git add zsh_history; git commit "More history"
 : 1499679470:0;git add zsh_history; git commit -m "More history"
+: 1499679548:0;clear
+: 1499679548:0;s
+: 1499679549:0;p
+: 1499679582:0;clear
+: 1499679583:0;ls
+: 1499679601:0;git remote -v
+: 1499679612:0;git remote update origin git@github.com:Cypher1/Castle.git
+: 1499679619:0;git remote remove origin 
+: 1499679627:0;git remote add origin git@github.com:Cypher1/Castle.git
+: 1499679628:0;clear
+: 1499679629:0;s
+: 1499679630:0;p
+: 1499679640:0;git config --global push.default simple
+: 1499679643:0;clear
+: 1499679643:0;s
+: 1499679655:0;D
+: 1499679659:0;clear
+: 1499679659:0;s
+: 1499679662:0;d
+: 1499679676:0;a nvim/plugged/vim-template
+: 1499679677:0;clear
+: 1499679677:0;s
+: 1499679686:0;git add zsh_history; git commit -m "More history"
