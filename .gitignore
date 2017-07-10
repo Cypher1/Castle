@@ -7,6 +7,10 @@ google-chrome
 gtk-3.0
 i3/.gtkrc-2.0
 Insync
+menus
+mintmenu
+nemo
+nvim/plugged
 nvim/undo-dir
 pulse
 Trolltech.conf
