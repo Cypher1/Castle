@@ -204,7 +204,7 @@ for_window [title="Moving"] floating enable
 for_window [class="Unetbootin.elf"] floating enable
 for_window [class="Galculator"] floating enable
 for_window [class="Usb-creator-gtk"] floating enable
-for_window [class="MintUpdate.py"] floating enable
+for_window [class="MintUpdate.py"] floating disable
 for_window [class="Hexchat"] floating disable
 
 
