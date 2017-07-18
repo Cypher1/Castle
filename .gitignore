@@ -4,16 +4,25 @@ chromium
 dconf
 direnv
 google-chrome
+Google Play Music Desktop Player
 gtk-3.0
 i3/.gtkrc-2.0
 Insync
 menus
+mimeapps.list
 mintmenu
+monitors.xml
+monitors.xml.backup
 nemo
+nvim/.netrwhist
 nvim/plugged
 nvim/undo-dir
 pulse
+skypeforlinux
 Trolltech.conf
+unity3d
 user-dirs.dirs
 user-dirs.locale
+xfce4
+xviewer
 yelp
