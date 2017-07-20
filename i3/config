@@ -184,7 +184,7 @@ exec insync-headless start
 exec unclutter
 
 # Setup wakeup
-exec echo "LID0" > /proc/acpi/wakeup"
+exec --no-startup-id ~/.config/wakeup.sh
 
 # SCREENSHOTS #
 bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'

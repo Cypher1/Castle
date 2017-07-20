@@ -4,11 +4,11 @@
 # Copyright (C) 2017 cypher <cypher@Cortana>
 
 ACPIFILE=/proc/acpi/wakeup
-SIGNALS=(XHC1 LID0)
+SIGNALS=("XHC1" "LID0")
 
-for SIGNAL in $SIGNALS
+for SIGNAL in ${SIGNALS[@]}
 do
-  grep $SIGNAL $ACPIFILE | grep enabled > /dev/null && echo $SIGNAL > $ACPIFILE
+  grep $SIGNAL $ACPIFILE | grep enabled > /dev/null && echo $SIGNAL > $ACPIFILE && echo "DISABLED $SIGNAL"
 done
 
 exit 0
