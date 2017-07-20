@@ -184,7 +184,7 @@ exec insync-headless start
 exec unclutter
 
 # Setup wakeup
-exec --no-startup-id ~/.config/wakeup.sh
+exec --no-startup-id sudo /home/cypher/.config/wakeup.sh 2&> /tmp/wakeup_log
 
 # SCREENSHOTS #
 bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'

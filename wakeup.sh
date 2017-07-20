@@ -8,7 +8,7 @@ SIGNALS=("XHC1" "LID0")
 
 for SIGNAL in ${SIGNALS[@]}
 do
-  grep $SIGNAL $ACPIFILE | grep enabled > /dev/null && echo $SIGNAL > $ACPIFILE && echo "DISABLED $SIGNAL"
+  grep $SIGNAL $ACPIFILE | grep enabled > /dev/null && sudo sh -c "echo $SIGNAL > $ACPIFILE" && echo "DISABLED $SIGNAL"
 done
 
 exit 0
