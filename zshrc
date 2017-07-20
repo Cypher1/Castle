@@ -38,6 +38,9 @@ export GOPATH=$(go env GOPATH)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 eval "$(direnv hook zsh)"
 
+bindkey "^[[H" beginning-of-line
+bindkey "^[[F" end-of-line
+
 # CHANGING DEFAULTS
 alias reboot="sudo reboot"
 alias shutdown="sudo shutdown -h now"
@@ -172,6 +175,8 @@ export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 alias ho="heroku open"
 alias hl="heroku logs -t"
 alias hb="heroku run bash"
+
+alias open="xdg-open"
 
 # SSH via zshrc
 alias mosh="mosh -6"
