@@ -81,7 +81,7 @@ set $workspace5 "5"
 set $workspace6 "6"
 set $workspace7 "7"
 set $workspace8 "8"
-set $workspace9 "9"
+set $workspace9 "9:🎮"
 set $workspace10 "10:♪"
 
 # switch to workspace
@@ -126,6 +126,15 @@ bar {
   }
 }
 
+# class                 border  backgr. text    indicator child_border
+client.focused          #4c7899 #285577 #ffffff #2e9ef4   #285577
+client.focused_inactive #333333 #5f676a #ffffff #484e50   #5f676a
+client.unfocused        #333333 #222222 #888888 #292d2e   #222222
+client.urgent           #2f343a #900000 #ffffff #900000   #900000
+client.placeholder      #000000 #0c0c0c #ffffff #000000   #0c0c0c
+
+client.background       #ffffff
+
 # bar toggle, hide or show
 bindsym $mod+b bar mode toggle
 
@@ -168,13 +177,9 @@ workspace $workspace10 output $secondMonitor
 
 # num lock activated
 exec_always --no-startup-id numlockx on
-# exec --no-startup-id gnome-settings-daemon
-exec pkill gnome-settings-daemon
-exec --no-startup-id nm-applet
 exec --no-startup-id feh --bg-fill ~/Drive/Me/Pictures/firewatch.jpg
-exec insync start
-exec mintupdate-launcher
-exec pasystray
+exec --no-startup-id nm-applet
+exec insync-headless start
 # get the mouse out of the way with unclutter
 exec unclutter
 
@@ -196,6 +201,7 @@ assign [class="Gimp"]             → 4
 assign [class="Vlc"]              → 7
 assign [class="Nemo"]             → 8
 assign [class="Geary"]            → 9
+assign [class="Steam"]            → 9
 assign [class="Evolution"]        → 9
 assign [class="Spotify"]          → 10
 #fix for spotify not moving to workspace 10
@@ -279,5 +285,5 @@ bindsym XF86MonBrightnessUp exec "xbacklight + 5"
 bindsym XF86MonBrightnessDown exec "xbacklight - 5"
 
 # BORDER #
-new_window none
+new_window pixel 1
 hide_edge_borders both
