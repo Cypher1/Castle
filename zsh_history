@@ -3189,7 +3189,7 @@ mup init
 : 1498183866:0;catimg Screenshot_20161215-210031.png
 : 1498183866:0;open Screenshot_20161215-210031.png
 : 1498183866:0;rm Screenshot_20161215-210031.png
-: 1498183866:0;rm Inbox\ â€ƒ³\ jp10010101010000@gmail.pdf
+: 1498183866:0;rm Inbox\ â€ƒ?\ jp10010101010000@gmail.pdf
 : 1498183866:0;cd Pro
 : 1498183866:0;which vim
 : 1498183866:0;which nvim
@@ -5994,7 +5994,7 @@ mup init
 : 1498183866:0;vim MarioMe.md
 : 1498183866:0;cd Test
 : 1498183866:0;vim test.pde
-: 1498183866:0;Âƒ€cd ..
+: 1498183866:0;Âƒ?cd ..
 : 1498183866:0;mv Test Documents/Projects/Josh_the_game
 : 1498183866:0;mv MarioMe.md ~/Drive/Me
 : 1498183866:0;cd Uni/2017/_BMM
@@ -6123,8 +6123,8 @@ mup init
 : 1498183866:0;echo "thisisthe" | ./enbwt | sed "s/\"//g"
 : 1498183866:0;vim lzw.md
 : 1498183866:0;vim wk4_tut.md
-: 1498183866:0;mkdir Regeâƒ©ƒ¨
-: 1498183866:0;mv Regeâƒ©ƒ¨ Regex
+: 1498183866:0;mkdir Regeâƒ©??
+: 1498183866:0;mv Regeâƒ©?? Regex
 : 1498183866:0;/
 : 1498183866:0;cd Regex
 : 1498183866:0;vim fundamental.md
@@ -8211,9 +8211,9 @@ mup init
 : 1498183866:0;export MEMCACHEDCLOUD_USERNAME="memcached-app68893472"
 : 1498183866:0;export MEMCACHEDCLOUD_PASSWORD="al2qyifu1w6m3ckT"
 : 1498183866:0;î‚° export MEMCACHEDCLOUD_SERVERS=("memcached-19517.c11.us-east-1-2.ec2.cloud.redislabs.com:19517")\
- ðƒ¿ƒ°ƒ­ envî‚°...2017/9417_ML/20Qs î‚°î‚ƒ€ masterâƒ¼¹ î‚°\
+ ðƒ¿ƒ??? envî‚°...2017/9417_ML/20Qs î‚°î‚ƒ? masterâƒ¼? î‚°\
 î‚° export MEMCACHEDCLOUD_USERNAME="memcached-app68893472"\
- ðƒ¿ƒ°ƒ­ envî‚°...2017/9417_ML/20Qs î‚°î‚ƒ€ masterâƒ¼¹ î‚°\
+ ðƒ¿ƒ??? envî‚°...2017/9417_ML/20Qs î‚°î‚ƒ? masterâƒ¼? î‚°\
 î‚° export MEMCACHEDCLOUD_PASSWORD="al2qyifu1w6m3ckT"i
 : 1498183866:0;echo $MEMCACHEDCLOUD_USERNAME
 : 1498183866:0;brew install libmemcached
@@ -13040,3 +13040,3261 @@ xcb-proto\
 : 1500557651:0;D
 : 1500557651:0;d
 : 1500557660:0;git add zsh_history; git commit -m "More history"
+: 1500557661:0;clear
+: 1500557662:0;p
+: 1500557688:0;clear
+: 1500557690:0;s
+: 1500557691:0;cd
+: 1500557692:0;clear
+: 1500557692:0;s
+: 1500557703:0;.
+: 1500557704:0;cd
+: 1500557705:0;.
+: 1500557709:0;cd Projects
+: 1500557709:0;.
+: 1500557738:0;cd games
+: 1500557739:0;.
+: 1500557741:0;cd purescript-games
+: 1500557741:0;.
+: 1500557848:0;rm -rf *
+: 1500557850:0;ls
+: 1500557856:0;rm -rf .*
+: 1500557856:0;.
+: 1500557859:0;git init
+: 1500557883:0;pulp init
+: 1500557896:0;xsel
+: 1500557903:0;xsel > Snake.purs
+: 1500557906:0;mkdir src
+: 1500557908:0;ls
+: 1500557912:0;mv Snake.purs src
+: 1500557912:0;.
+: 1500557922:0;vim bower
+: 1500557925:0;vim bower.json
+: 1500557946:0;bower install purescript-canvas
+: 1500557963:0;q
+: 1500558021:0;bower install purescript-generics purescript-off purescript--lists purescript-maybe purescript-tuples purescript-signal purescript-random purescript-foldable-traversable purescript-integers purescript-partial purescript-console purescript-transformers purescript-quickcheck
+: 1500558044:0;bower install purescript-generics purescript-eff purescript--lists purescript-maybe purescript-tuples purescript-signal purescript-random purescript-foldable-traversable purescript-integers purescript-partial purescript-console purescript-transformers purescript-quickcheck
+: 1500558059:0;bower install purescript-generics purescript-eff purescript-lists purescript-maybe purescript-tuples purescript-signal purescript-random purescript-foldable-traversable purescript-integers purescript-partial purescript-console purescript-transformers purescript-quickcheck
+: 1500558093:0;bower install purescript-psci-support
+: 1500558111:0;pulp build
+: 1500558124:0;vim src/Snake.purs
+: 1500558136:0;bower install purescript-signal
+: 1500558175:0;xsel > src/SignalM.purs
+: 1500558176:0;clear
+: 1500558177:0;s
+: 1500558181:0;pulp build
+: 1500558220:0;vim src/Snake.purs
+: 1500558229:0;vim src/SignalM.purs
+: 1500559247:0;clear
+: 1500559298:0;pulp build
+: 1500559301:0;ls
+: 1500559316:0;ls test/Main.purs
+: 1500559317:0;clear
+: 1500559318:0;ls
+: 1500559320:0;cd output
+: 1500559320:0;ls
+: 1500559323:0;clear
+: 1500559324:0;cd ..
+: 1500559324:0;.
+: 1500559328:0;cat bower.json
+: 1500559334:0;clear
+: 1500559383:0;bower install -S purescript-generics purescript-eff purescript-lists purescript-maybe purescript-tuples purescript-signal purescript-random purescript-foldable-traversable purescript-integers purescript-partial purescript-console purescript-transformers purescript-quickcheck
+: 1500559393:0;vim bower.json
+: 1500559396:0;clear
+: 1500559396:0;s
+: 1500559406:0;.
+: 1500559455:0;pulp -h
+: 1500559461:0;pulp browserify
+: 1500559481:0;clear
+: 1500559514:0;mkdir dist
+: 1500559518:0;pulp build
+: 1500559540:0;pulp browserify -m Snake/index.js >> dist/Snake.js
+: 1500559550:0;mk html
+: 1500559553:0;vim index.html
+: 1500559570:0;clear
+: 1500559571:0;s
+: 1500559577:0;clear
+: 1500559577:0;s
+: 1500559588:0;open index.html
+: 1500559609:0;clear
+: 1500559609:0;s
+: 1500559612:0;a .gitignore
+: 1500559613:0;clear
+: 1500559613:0;s
+: 1500559616:0;a bower.json
+: 1500559616:0;clear
+: 1500559617:0;s
+: 1500559620:0;gi dist
+: 1500559624:0;a src
+: 1500559625:0;a test
+: 1500559627:0;a html
+: 1500559627:0;.
+: 1500559628:0;s
+: 1500559629:0;a .gitignore
+: 1500559637:0;m "Init (now building)"
+: 1500559713:0;git remote add origin git@github.com:Cypher1/Snake.git
+: 1500559714:0;clear
+: 1500559714:0;s
+: 1500559717:0;vim .gitignore
+: 1500559723:0;.
+: 1500559730:0;s
+: 1500559731:0;clear
+: 1500559731:0;s
+: 1500559734:0;git status
+: 1500559737:0;git status -a
+: 1500559740:0;clear
+: 1500559744:0;git status -v
+: 1500559746:0;clear
+: 1500559746:0;q
+: 1500559753:0;p
+: 1500559757:0;p -u origin master
+: 1500559834:0;xsel > makefile
+: 1500559836:0;vim makefile
+: 1500559860:0;make
+: 1500559892:0;vim makefile
+: 1500559932:0;npm install -g psc
+: 1500559937:0;npm install -g psc-docs
+: 1500559940:0;npm install -g psc-doc
+: 1500559949:0;make
+: 1500559958:0;vim makefile
+: 1500560140:0;clear
+: 1500560141:0;psc
+: 1500560146:0;npm install -g psc
+: 1500560148:0;psc
+: 1500560175:0;/usr/local/lib/node_modules/psc/README.md
+: 1500560274:0;mv ~/Downloads/psc-package /usr/bin
+: 1500560276:0;sudo mv ~/Downloads/psc-package /usr/bin
+: 1500560286:0;clear
+: 1500560288:0;psc-package
+: 1500560290:0;make
+: 1500560298:0;vim makefile
+: 1500560333:0;mv /usr/bin/psc-package /usr/bin/psc
+: 1500560334:0;sudo mv /usr/bin/psc-package /usr/bin/psc
+: 1500560336:0;vim makefile
+: 1500560338:0;clear
+: 1500560339:0;make
+: 1500560366:0;mv /usr/bin/psc /usr/bin/psc-package
+: 1500560367:0;sudo mv /usr/bin/psc /usr/bin/psc-package
+: 1500560368:0;clear
+: 1500560522:0;purs repl
+: 1500560527:0;pulp psci
+: 1500560706:0;clear
+: 1500560713:0;vim test.purs
+: 1500560737:0;mv test.purs src/Euler.purs
+: 1500560738:0;ls src
+: 1500560744:0;pulpe build
+: 1500560747:0;pulp build
+: 1500560756:0;vim src/Euler.purs
+: 1500560888:0;clear
+: 1500560889:0;ls
+: 1500560896:0;ls dist
+: 1500560919:0;pulp browserify -m Snake/Euler.js >> dist/Euler.js
+: 1500560927:0;clear
+: 1500560943:0;vim output/Snake/index.js
+: 1500560970:0;npm install eslint
+: 1500560974:0;sudo npm install eslint
+: 1500560993:0;sudo npm install -g eslint
+: 1500560998:0;cd
+: 1500560999:0;ls
+: 1500561000:0;q
+: 1500561002:0;clear
+: 1500561011:0;which eslint
+: 1500561012:0;q
+: 1500561106:0;cd dist
+: 1500561107:0;ls
+: 1500561110:0;rm Euler.js
+: 1500561111:0;.
+: 1500561115:0;wc Snake.js
+: 1500561120:0;cd ..
+: 1500561121:0;.
+: 1500561125:0;cd html
+: 1500561126:0;ls
+: 1500561127:0;cd ..
+: 1500561128:0;clear
+: 1500561128:0;ls
+: 1500561151:0;cd dist
+: 1500561152:0;.
+: 1500561154:0;vim Snake.js
+: 1500561308:0;clear
+: 1500561361:0;cd
+: 1500561362:0;git clone git://github.com/mishoo/UglifyJS.git\
+
+: 1500561368:0;clear
+: 1500561369:0;ls
+: 1500561386:0;mkdir -p ~/.node_libraries
+: 1500561408:0;cd ~/.node_libraries
+: 1500561415:0;mv ~/UglifyJS .
+: 1500561416:0;ls
+: 1500561419:0;cd .
+: 1500561438:0;ln -s ~/.node_libraries/UglifyJS/bin/uglifyjs /usr/local/bin
+: 1500561441:0;uglify
+: 1500561463:0;ln -s ~/.node_libraries/UglifyJS/bin/uglifyjs /usr/bin/uglify
+: 1500561465:0;sudo ln -s ~/.node_libraries/UglifyJS/bin/uglifyjs /usr/bin/uglify
+: 1500561471:0;uglifyjs
+: 1500561477:0;cd ..
+: 1500561480:0;uglify
+: 1500561483:0;clear
+: 1500561485:0;q
+: 1500561490:0;uglify Snake.js
+: 1500561494:0;clear
+: 1500561502:0;uglify Snake.js > Snake.js.min
+: 1500561506:0;..
+: 1500561509:0;vim html/index.html
+: 1500561524:0;cd dist
+: 1500561525:0;.
+: 1500561529:0;wc *
+: 1500561536:0;du -hs *
+: 1500561570:0;s
+: 1500561815:0;pm-suspend
+: 1500561817:0;sudo pm-suspend
+: 1500561862:0;s2ram
+: 1500561871:0;cat /sys/power/state
+: 1500561881:0;clear
+: 1500561883:0;shutdown
+: 1500589176:0;gnome-settings-daemon
+: 1500589181:0;clear
+: 1500589182:0;s
+: 1500589191:0;q
+: 1500589195:0;cd
+: 1500589483:0;lsusb
+: 1500589496:0;cat /proc/acpi/wakeup
+: 1500589517:0;3rc
+: 1500589539:0;cat /proc/acpi/wakeup | grep enable
+: 1500589586:0;echo "XHC1" > /proc/acpi/wakeup
+: 1500589587:0;sudo echo "XHC1" > /proc/acpi/wakeup
+: 1500589612:0;sudo echo XHC1 > /proc/acpi/wakeup
+: 1500589621:0;su
+: 1500589960:0;sudo echo XHC1 > /proc/acpi/wakeup
+: 1500589960:0;sudo echo LID0 > /proc/acpi/wakeup
+: 1500589960:0;exit
+: 1500589641:0;echo "XHC1" > /proc/acpi/wakeup
+: 1500589646:0;cat /proc/acpi/wakeup | grep enable
+: 1500589647:0;clear
+: 1500589664:0;chown -R cypher:cypher /proc/acpi/wakeup
+: 1500589665:0;sudo chown -R cypher:cypher /proc/acpi/wakeup
+: 1500589671:0;echo "XHC1" > /proc/acpi/wakeup
+: 1500589677:0;cat /proc/acpi/wakeup | grep enable
+: 1500589678:0;echo "XHC1" > /proc/acpi/wakeup
+: 1500589680:0;cat /proc/acpi/wakeup | grep enable
+: 1500589682:0;clear
+: 1500589848:0;reboot
+: 1500589921:0;gnome-settings-daemon
+: 1500589923:0;clear
+: 1500589923:0;s
+: 1500589926:0;cat /proc/acpi/wakeup | grep enable
+: 1500589932:0;3rc
+: 1500589960:0;q
+: 1500589966:0;3rc
+: 1500589989:0;cat /proc/acpi/wakeup | grep enable
+: 1500589993:0;i3-msg restart
+: 1500589995:0;cat /proc/acpi/wakeup | grep enable
+: 1500590227:0;clear
+: 1500590230:0;cat /proc/acpi/wakeup | grep enable
+: 1500590237:0;ls -la /proc/acpi/wakeup
+: 1500590240:0;sudo chown -R cypher:cypher /proc/acpi/wakeup
+: 1500590245:0;ls -la /proc/acpi/wakeup
+: 1500590381:0;vim ~/.config/wakeup.sh
+: 1500590406:0;~/.config/wakeup.sh
+: 1500590408:0;cat /proc/acpi/wakeup | grep enable
+: 1500590412:0;~/.config/wakeup.sh
+: 1500590413:0;cat /proc/acpi/wakeup | grep enable
+: 1500590429:0;cat /proc/acpi/wakeup
+: 1500590434:0;clear
+: 1500590460:0;~/.config/wakeup.sh
+: 1500590622:0;clear
+: 1500590623:0;s
+: 1500590625:0;clear
+: 1500590625:0;s
+: 1500590626:0;q
+: 1500590628:0;cd .config
+: 1500590628:0;ls
+: 1500590629:0;s
+: 1500590653:0;q
+: 1500590656:0;clear
+: 1500590656:0;s
+: 1500590659:0;cd .config
+: 1500590659:0;s
+: 1500590663:0;a i3/config wakeup.sh
+: 1500590664:0;clear
+: 1500590664:0;s
+: 1500590672:0;m "Hopefully fixed suspend issues"
+: 1500590673:0;p
+: 1500590751:0;gnome-settings-daemon
+: 1500590754:0;clear
+: 1500590754:0;s
+: 1500590757:0;cat /proc/acpi/wakeup
+: 1500590764:0;q
+: 1500590806:0;./wakeup.sh
+: 1500590820:0;vim /etc/sudoers
+: 1500590833:0;cat /etc/sudoers.d/*
+: 1500590835:0;sudo cat /etc/sudoers.d/*
+: 1500590867:0;vim /etc/sudoers.d/wakeup_settings
+: 1500590895:0;sudo vim /etc/sudoers.d/wakeup_settings /etc/sudoers.d/mintupdate
+: 1500590944:0;clear
+: 1500590945:0;s
+: 1500590947:0;cat /etc/sudoers.d/mintupdate /etc/sudoers.d/README /etc/sudoers.d/wakeup_settings 
+: 1500590957:0;reboot
+: 1500591001:0;gnome-settings-daemon
+: 1500591003:0;clear
+: 1500591003:0;s
+: 1500591019:0;cat /proc/acpi/wakeup
+: 1500591026:0;./wakeup.sh
+: 1500591033:0;pwd
+: 1500591038:0;vim /etc/sudoers.d/wakeup_settings
+: 1500591047:0;3rc
+: 1500591090:0;/home/cypher/.config/wakeup.sh 2&> /tmp/wakeup_log
+: 1500591094:0;cat /tmp/wakeup_log
+: 1500591116:0;clear
+: 1500591146:0;sudo vim /etc/sudoers.d/wakeup_settings
+: 1500591180:0;clear
+: 1500591180:0;s
+: 1500591182:0;./wakeup.sh
+: 1500591184:0;clear
+: 1500591184:0;s
+: 1500591287:0;vim wakeup.sh
+: 1500591321:0;./wakeup.sh
+: 1500591330:0;reboot
+: 1500591404:0;gnome-settings-daemon
+: 1500591415:0;sudo service network-manager restart
+: 1500591423:0;pkill nm-applet
+: 1500591441:0;cat /tmp/wakeup_log
+: 1500591448:0;cat /proc/acpi/wakeup | grep enabled
+: 1500591455:0;3rc
+: 1500591472:0;q
+: 1500591487:0;sudo service network-manager restart
+: 1500591494:0;pkill nm-applet
+: 1500591516:0;./wakeup.sh
+: 1500591517:0;cat /proc/acpi/wakeup | grep enabled
+: 1500591580:0;q
+: 1500591637:0;sudo vim /etc/mdm/mdm.conf
+: 1500591909:0;clear
+: 1500591909:0;s
+: 1500591915:0;cat /proc/acpi/wakeup | grep enabled
+: 1500591916:0;clear
+: 1500591917:0;s
+: 1500591920:0;a i3/config wakeup.sh
+: 1500591921:0;D
+: 1500591943:0;m "Probably fixed suspend issues by adding more sudo... what could go wrong"
+: 1500591944:0;p
+: 1500591958:0;/usr/bin/mdm --version
+: 1500591978:0;/usr/sbin/mdm --version
+: 1500591984:0;mdm
+: 1500591986:0;sudo mdm
+: 1500591993:0;clear
+: 1500591993:0;s
+: 1500591994:0;q
+: 1500592187:0;sudo mdmsetup
+: 1500592211:0;sudo vim /etc/mdm/mdm.conf
+: 1500592554:0;sudo apt install lightdm indicator-session unity-greeter ubuntu-mono light-themes
+: 1500592583:0;sudo vim /etc/lightdm/lightdm.conf.d
+: 1500592630:0;clear
+: 1500592641:0;reboot
+: 1500592732:0;clear
+: 1500592732:0;s
+: 1500592733:0;startx
+: 1500592770:0;i3
+: 1500592774:0;exit
+: 1500592886:0;sudo vim /etc/lightdm/lightdm.conf.d
+: 1500592925:0;reboot
+: 1500592996:0;sudo apt remove mdm
+: 1500593007:0;sudo apt autoremove
+: 1500593009:0;reboot
+: 1500595216:0;clear
+: 1500595220:0;echo $USER
+: 1500595222:0;clear
+: 1500595223:0;cd
+: 1500595224:0;clear
+: 1500595224:0;s
+: 1500595233:0;sudo apt install mdm
+: 1500595249:0;sudo apt remove lightdm
+: 1500595260:0;sudo apt remove unity-greeter
+: 1500595264:0;exit
+: 1500595290:0;startx
+: 1500595343:0;chown -R cypher:cypher .Xauthority
+: 1500595345:0;sudo chown -R cypher:cypher .Xauthority
+: 1500595367:0;startx
+: 1500595393:0;reboot
+: 1500595557:0;i3-msg restart
+: 1500595563:0;gnome-settings-daemon
+: 1500595569:0;clear
+: 1500595585:0;ls
+: 1500595597:0;xmodmap .config/Xmodmap
+: 1500595601:0;q
+: 1500595606:0;xrandr --dpi 200 --output eDP1 --gamma 0:0:0 --scale 1x1
+: 1500595611:0;3rc
+: 1500595649:0;i3-msg -h
+: 1500595654:0;i3-msg restart
+: 1500595669:0;xrandr --dpi 200 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1500595675:0;nm-applet &
+: 1500595689:0;vim /home/cypher/.config/gtk-3.0/settings.ini
+: 1500595698:0;nm-applet &
+: 1500595704:0;reboot
+: 1500595710:0;clear
+: 1500595711:0;s
+: 1500595718:0;vim /etc/mdm/mdm.conf
+: 1500595736:0;clear
+: 1500595736:0;s
+: 1500595739:0;reboot
+: 1500595874:0;xmodmap .config/Xmodmap
+: 1500595877:0;xrandr --dpi 200 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1500595894:0;q
+: 1500595904:0;pkill gnome-settings-
+: 1500595906:0;clear
+: 1500595906:0;s
+: 1500595907:0;q
+: 1500595930:0;cd Drive
+: 1500595930:0;ls
+: 1500595931:0;cd ..
+: 1500595933:0;i3-msg restart
+: 1500595941:0;ls
+: 1500595944:0;startx
+: 1500596054:0;clear
+: 1500596081:0;sudo restart mdm
+: 1500596088:0;sudo restart lightdm
+: 1500596095:0;sudo restart mdm
+: 1500596116:0;sudo systemctl restart mdm.service
+: 1500596148:0;pkill gnome-settings-d
+: 1500596150:0;sudo systemctl restart mdm.service
+: 1500596287:0;ls
+: 1500596291:0;what
+: 1500596313:0;vim /etc/pam.d/common-session
+: 1500596336:0;vim /etc/pam.d/common-auth
+: 1500596373:0;ecryptfs-setup-private
+: 1500596441:0;sudo vim /etc/mdm/mdm.conf
+: 1500596454:0;reboot
+: 1500596505:0;ls
+: 1500596506:0;cd
+: 1500596510:0;z Py3
+: 1500596511:0;.
+: 1500596512:0;cd ..
+: 1500596513:0;..
+: 1500596516:0;cd games
+: 1500596516:0;.
+: 1500596521:0;cd purescript-games
+: 1500596521:0;ls
+: 1500596526:0;open html/index.html
+: 1500596596:0;clear
+: 1500596596:0;s
+: 1500596598:0;d
+: 1500596606:0;rm src/Euler.purs
+: 1500596607:0;clear
+: 1500596607:0;s
+: 1500596609:0;make
+: 1500596615:0;make clean
+: 1500596625:0;chown -R cypher:cypher node_modules
+: 1500596627:0;sudo chown -R cypher:cypher node_modules
+: 1500596631:0;clear
+: 1500596631:0;s
+: 1500596635:0;make clean
+: 1500596637:0;make
+: 1500596691:0;clear
+: 1500596692:0;s
+: 1500596695:0;rm makefile
+: 1500596696:0;clear
+: 1500596696:0;s
+: 1500596788:0;cd ~/.config
+: 1500596792:0;cd i3
+: 1500596792:0;ls
+: 1500596802:0;vim i3exit.sh
+: 1500596821:0;q
+: 1500596910:0;systemctl suspend
+: 1500596940:0;q
+: 1500596978:0;sudo service network-manager restart
+: 1500596996:0;q
+: 1500597048:0;systemctl status
+: 1500597058:0;q
+: 1500597157:0;clear
+: 1500597157:0;s
+: 1500597160:0;vim i3exit.sh
+: 1500597171:0;clear
+: 1500597171:0;s
+: 1500597172:0;q
+: 1500597173:0;sudo service network-manager restart
+: 1500597241:0;less /var/log/pm-suspend.log
+: 1500597253:0;pm-suspend
+: 1500597254:0;sudo pm-suspend
+: 1500597265:0;vim i3exit.sh
+: 1500597318:0;cd /etc/sudoers.d/
+: 1500597318:0;ls
+: 1500597325:0;cp wakeup_settings suspend
+: 1500597327:0;sudo cp wakeup_settings suspend
+: 1500597332:0;vim suspend
+: 1500597401:0;vim wakeup_settings
+: 1500597419:0;cat *
+: 1500597423:0;vim suspend
+: 1500597471:0;sudo vim suspend wakeup_settings
+: 1500597487:0;sudo vim wakeup_settings 
+: 1500597491:0;sudo vim suspend 
+: 1500597493:0;rm suspend
+: 1500597496:0;sudo rm suspend
+: 1500597499:0;clear
+: 1500597499:0;ls
+: 1500597504:0;su
+: 1500597588:0;ls
+: 1500597588:0;vim suspend 
+: 1500597588:0;clear
+: 1500597588:0;ls
+: 1500597588:0;cat *
+: 1500597588:0;cd ..
+: 1500597588:0;exit
+: 1500597530:0;clear
+: 1500597530:0;s
+: 1500597533:0;vim *
+: 1500597541:0;sudo vim suspend 
+: 1500597546:0;su
+: 1500597568:0;which pm-suspend
+: 1500597581:0;sudo vim suspend 
+: 1500597588:0;q
+: 1500598356:0;vim suspend 
+: 1500598356:0;q
+: 1500598356:0;exit
+: 1500597592:0;clear
+: 1500598356:0;q
+: 1500598373:0;man shutdown
+: 1500598390:0;man pm-suspend
+: 1500598404:0;man systemctl suspend
+: 1500598414:0;clear
+: 1500598414:0;s
+: 1500598416:0;cd
+: 1500598416:0;.
+: 1500598418:0;cd Proj
+: 1500598418:0;.
+: 1500598421:0;Projects
+: 1500598421:0;.
+: 1500598428:0;clear
+: 1500598428:0;s
+: 1500598438:0;vim makefile
+: 1500598456:0;cd games/purescript-games
+: 1500598456:0;ls
+: 1500598457:0;.
+: 1500598463:0;pulp build
+: 1500598477:0;bower install
+: 1500598483:0;vim bower.json
+: 1500598489:0;open html/index.html
+: 1500598512:0;make play
+: 1500598519:0;clear
+: 1500598537:0;make 
+: 1500598575:0;make install
+: 1500598596:0;vim src/Snake.purs
+: 1500598641:0;sudo service network-manager restart
+: 1500598653:0;insync-headless pause
+: 1500598657:0;insync-headless pause-syncing
+: 1500598662:0;insync-headless pause_syncing
+: 1500598687:0;bower install -S purescript-graphics
+: 1500598720:0;bower install -S purescript-contrib
+: 1500598738:0;bower install -S purescript-canvas
+: 1500598743:0;vim src/Snake.purs
+: 1500598750:0;make install
+: 1500598753:0;make
+: 1500599468:0;q
+: 1500599480:0;make
+: 1500599520:0;make play
+: 1500599595:0;ls -la
+: 1500599614:0;make clean
+: 1500599626:0;make
+: 1500599651:0;clear
+: 1500599651:0;s
+: 1500599655:0;d bower.json
+: 1500599658:0;a bower.json
+: 1500599661:0;m "Updates"
+: 1500599662:0;clear
+: 1500599663:0;s
+: 1500599669:0;a html/index.html
+: 1500599671:0;D
+: 1500599674:0;a makefile
+: 1500599682:0;m "Use makefile and uglify"
+: 1500599683:0;clear
+: 1500599683:0;s
+: 1500599689:0;vim bower.json
+: 1500599708:0;vim .gitignore
+: 1500599713:0;clear
+: 1500599713:0;s
+: 1500599726:0;pulp test
+: 1500599749:0;make
+: 1500599761:0;make clean
+: 1500599764:0;make
+: 1500599774:0;make test
+: 1500599794:0;make
+: 1500599840:0;clear
+: 1500599840:0;s
+: 1500599841:0;D
+: 1500599842:0;d
+: 1500599848:0;a makefile
+: 1500599865:0;m "Cleanup makefile and use pulp test instead of build to ensure that tests are run"
+: 1500599867:0;clear
+: 1500599867:0;s
+: 1500599918:0;psci
+: 1500599929:0;psc-package
+: 1500599935:0;clear
+: 1500599938:0;psc-package build
+: 1500599941:0;clear
+: 1500599955:0;pulp psci
+: 1500600053:0;clear
+: 1500600053:0;s
+: 1500600055:0;d
+: 1500600061:0;glog
+: 1500600074:0;vim test/Main.purs
+: 1500600088:0;pulp psci
+: 1500600140:0;clear
+: 1500600140:0;s
+: 1500600143:0;q
+: 1500600185:0;make test
+: 1500600191:0;pulp test
+: 1500600197:0;clear
+: 1500600204:0;q
+: 1500601826:0;clear
+: 1500601826:0;s
+: 1500601827:0;D
+: 1500601829:0;d
+: 1500601842:0;sudo service network-manager restart
+: 1500601986:0;sudo systemctl suspend
+: 1500602165:0;insync-headless resume_syncing
+: 1500602173:0;3src
+: 1500602297:0;insync-headless status
+: 1500602301:0;insync-headless get_status
+: 1500602369:0;insync-headless get_status | grep 'PAUSED' && insync-headless resume_syncing || insync-headless pause_syncing
+: 1500602375:0;insync-headless get_status
+: 1500602376:0;insync-headless get_status | grep 'PAUSED' && insync-headless resume_syncing || insync-headless pause_syncing
+: 1500602377:0;insync-headless get_status
+: 1500602390:0;insync-headless get_status | grep 'PAUSED' && insync-headless pause_syncing || insync-headless resume_syncing
+: 1500602391:0;insync-headless get_status
+: 1500602394:0;insync-headless get_status | grep 'PAUSED' && insync-headless pause_syncing || insync-headless resume_syncing
+: 1500602395:0;insync-headless get_status
+: 1500602416:0;insync-headless get_status | grep 'PAUSED' && insync-headless pause_syncing || insync-headless resume_syncing
+: 1500602417:0;insync-headless get_status
+: 1500602461:0;insync-headless get_status | grep 'PAUSED' && echo "UNPAUSE" || echo "PAUSE"
+: 1500602471:0;insync-headless resume_syncing
+: 1500602473:0;insync-headless get_status | grep 'PAUSED' && echo "UNPAUSE" || echo "PAUSE"
+: 1500608870:0;(insync-headless get_status | grep 'PAUSED') && echo "UNPAUSE" || echo "PAUSE"
+: 1500608880:0;((insync-headless get_status | grep 'PAUSED') && echo "UNPAUSE") || echo "PAUSE"
+: 1500608902:0;clear
+: 1500608902:0;s
+: 1500608910:0;q
+: 1500608912:0;clear
+: 1500608912:0;s
+: 1500608921:0;3src
+: 1500609420:0;amixer -D pulse set Master toggle
+: 1500609451:0;i3-msg exec 'amixer -D pulse set Master toggle'
+: 1500609506:0;clear
+: 1500609506:0;s
+: 1500609509:0;D
+: 1500609510:0;q
+: 1500609512:0;clear
+: 1500609513:0;s
+: 1500609513:0;q
+: 1500609517:0;d
+: 1500609522:0;q
+: 1500609533:0;cd
+: 1500609535:0;htop
+: 1500609569:0;clear
+: 1500609577:0;powertop
+: 1500609578:0;sudo powertop
+: 1500609703:0;clear
+: 1500609703:0;s
+: 1500609705:0;clear
+: 1500609705:0;s
+: 1500609709:0;q
+: 1500609710:0;s
+: 1500609712:0;clear
+: 1500609712:0;ls
+: 1500609713:0;cd Proj
+: 1500609716:0;z proj
+: 1500609716:0;.
+: 1500609719:0;ls AI
+: 1500609733:0;cd AI/Haskell_Predicate_Logic
+: 1500609733:0;.
+: 1500609736:0;make clean
+: 1500609738:0;clean
+: 1500609739:0;.
+: 1500609742:0;ls test
+: 1500609743:0;./test
+: 1500609745:0;clear
+: 1500609774:0;q
+: 1500609787:0;cd ../../games/pyg
+: 1500609787:0;.
+: 1500609793:0;python3 World.py
+: 1500609796:0;vim World.py
+: 1500609905:0;python3 World.py
+: 1500609911:0;clear
+: 1500681303:0;q
+: 1500683150:0;pkill gnome-settings-d
+: 1500683153:0;pkill gnome-settings-daemon
+: 1500683155:0;gnome-settings-daemon
+: 1500683157:0;clear
+: 1500683157:0;s
+: 1500683159:0;pkill gnome-settings-daemon
+: 1500683161:0;sudo pkill gnome-settings-daemon
+: 1500683165:0;clear
+: 1500683165:0;s
+: 1500683174:0;sudo apt-get install libjogl-java
+: 1500683182:0;sudo apt-get install libjogl2-java
+: 1500683191:0;sudo apt autoremove
+: 1500683198:0;q
+: 1500683199:0;clear
+: 1500683208:0;pgrep gnome
+: 1500683216:0;pkill -15 1659
+: 1500683220:0;pkill -15 19001
+: 1500683224:0;pgrep gnome
+: 1500683231:0;ps -ef | grep gnome
+: 1500683244:0;pkill -9 gnome-settings-
+: 1500683247:0;ps -ef | grep gnome
+: 1500683259:0;ps -ef | grep gnome-ses
+: 1500683271:0;pkill -9 1587
+: 1500683272:0;clear
+: 1500683273:0;s
+: 1500683274:0;d
+: 1500683276:0;clear
+: 1500683299:0;cd
+: 1500683304:0;mkdir Uni
+: 1500683305:0;.
+: 1500683306:0;cd Uni
+: 1500683306:0;.
+: 1500683309:0;mkdir Graphics
+: 1500683313:0;mkdir ANNs
+: 1500683316:0;mkdir Webapps
+: 1500683318:0;cd Graphics
+: 1500683318:0;.
+: 1500683331:0;vim version.jar
+: 1500683649:0;ls
+: 1500683669:0;javac
+: 1500683678:0;sudo apt-get install javacc
+: 1500683705:0;javac OneTriangleAWT.java
+: 1500683747:0;sudo apt-get purge openjdk-\*
+: 1500683795:0;sudo apt-get install openjdk-8-jdk
+: 1500683831:0;sudo apt-get install openjdk-8-jre
+: 1500683839:0;clear
+: 1500683844:0;sudo apt autoremove
+: 1500683848:0;javac OneTriangleAWT.java
+: 1500683982:0;q
+: 1500684025:0;[200~sudo apt-get install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev
+: 1500684025:0;sudo add-apt-repository ppa:eclipse-team/debian-package
+: 1500684029:0;clear
+: 1500684036:0;[200~sudo apt-get install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev
+: 1500684039:0;clear
+: 1500684044:0;sudo apt-get install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev\
+
+: 1500684059:0;sudo apt install mesa-common-dev
+: 1500684069:0;sudo apt install libdrm-dev
+: 1500684078:0;sudo apt install libdrm-dev libdrm2
+: 1500684113:0;sudo apt clean
+: 1500684117:0;sudo apt autoclean
+: 1500684129:0;sudo apt-get -f install
+: 1500684149:0;sudo apt-get -f install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev
+: 1500684157:0;sudo apt-get update
+: 1500684176:0;sudo apt-get -f install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev
+: 1500684221:0;sudo add-apt-repository ppa:eclipse-team/debian-package
+: 1500684290:0;z Py3
+: 1500684292:0;clear
+: 1500684293:0;s
+: 1500684300:0;git checkout apt_updates 
+: 1500684301:0;clear
+: 1500684301:0;s
+: 1500684304:0;vim apt_updates.py
+: 1500684579:0;q
+: 1500684583:0;python apt_updates.py
+: 1500684592:0;python3 apt_updates.py
+: 1500685174:0;python3
+: 1500685212:0;git pull
+: 1500685273:0;git remote add ultrabug https://github.com/ultrabug/py3status.git
+: 1500685280:0;git pull ultrabug master
+: 1500685289:0;clear
+: 1500685293:0;python3 apt_updates.py
+: 1500685302:0;python3
+: 1500685333:0;q
+: 1500685369:0;clear
+: 1500685372:0;python3
+: 1500685399:0;clear
+: 1500685399:0;s
+: 1500685401:0;git status
+: 1500685410:0;git push
+: 1500685444:0;vim ../exceptions.py
+: 1500685452:0;clear
+: 1500685452:0;s
+: 1500685454:0;vim apt_updates.py
+: 1500685463:0;clear
+: 1500685475:0;vim apt_updates.py
+: 1500685489:0;python3 apt_updates.py
+: 1500685568:0;pip3 install py3status
+: 1500685574:0;pip3 update 
+: 1500685579:0;pip3 -h
+: 1500685604:0;pip3 uninstall py3status
+: 1500685626:0;q
+: 1500685631:0;pip3 uninstall py3status
+: 1500685635:0;q
+: 1500685637:0;sudo pip3 uninstall py3status
+: 1500685650:0;sudo pip3 install py3status
+: 1500685657:0;python3 apt_updates.py
+: 1500685660:0;clear
+: 1500685763:0;s
+: 1500685765:0;clear
+: 1500685765:0;s
+: 1500685767:0;clear
+: 1500685768:0;d
+: 1500685771:0;a apt_updates.py
+: 1500685772:0;s
+: 1500685778:0;clear
+: 1500685779:0;s
+: 1500685782:0;m "TEMP"
+: 1500685786:0;s
+: 1500685797:0;git reset HEAD
+: 1500685798:0;s
+: 1500685802:0;git reset HEAD^
+: 1500685803:0;clear
+: 1500685803:0;s
+: 1500688631:0;q
+: 1500689427:0;python3 World.py
+: 1500721763:0;clear
+: 1500721764:0;s
+: 1500721769:0;python3 World.py
+: 1500721797:0;clear
+: 1500721797:0;s
+: 1500721799:0;a
+: 1500721804:0;l
+: 1500721806:0;glog
+: 1500721808:0;a W
+: 1500721810:0;a World.py
+: 1500721815:0;m "Basic movement"
+: 1500721817:0;p
+: 1500721899:0;git remote add origin git@github.com:Cypher1/python_rogue.git
+: 1500721917:0;git push
+: 1500721921:0;git push -u origin master 
+: 1500721932:0;git pull
+: 1500721948:0;clear
+: 1500721948:0;s
+: 1500721952:0;git branch -v
+: 1500721955:0;git log
+: 1500721960:0;s
+: 1500721962:0;git push
+: 1500721963:0;s
+: 1500721967:0;git push -u origin master 
+: 1500721980:0;git merge origin/master 
+: 1500721983:0;d
+: 1500721985:0;q
+: 1500721990:0;s
+: 1500721993:0;cd pyg
+: 1500721997:0;z proj
+: 1500721998:0;.
+: 1500722000:0;cd games
+: 1500722000:0;ls
+: 1500722003:0;cd pyg
+: 1500722003:0;s
+: 1500722006:0;vim .gitignore
+: 1500722019:0;clear
+: 1500722020:0;s
+: 1500722021:0;a .gitignore
+: 1500722022:0;clear
+: 1500722022:0;s
+: 1500722029:0;git merge
+: 1500722033:0;m "Merge"
+: 1500722036:0;p -u origin master
+: 1500722137:0;s
+: 1500722139:0;d
+: 1500722142:0;a .
+: 1500722145:0;m "Pylint"
+: 1500722145:0;p
+: 1500722155:0;q
+: 1500722260:0;3src
+: 1500722263:0;3rc
+: 1500722291:0;q
+: 1500725279:0;xrandr --dpi 100 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1500725289:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1500725326:0;q
+: 1500728483:0;powertop
+: 1500728485:0;sudo powertop
+: 1500728583:0;q
+: 1500730824:0;clear
+: 1500730835:0;history | grep feh
+: 1500730839:0;cd ~/.config
+: 1500730847:0;cat zsh_history| grep feh
+: 1500730852:0;cat zsh_history| grep background
+: 1500730855:0;clear
+: 1500730857:0;s
+: 1500730859:0;d
+: 1500730865:0;a i3
+: 1500730866:0;D
+: 1500730879:0;m "Working on i3 settings"
+: 1500730880:0;clear
+: 1500730880:0;s
+: 1500730882:0;d
+: 1500730909:0;vim zsh_history
+: 1500375672:0;ocamlbuild test.native
+: 1500375673:0;ls
+: 1500375676:0;./test.native
+: 1500375682:0;./_build/test.native
+: 1500375684:0;rm _build
+: 1500375685:0;.
+: 1500375686:0;./test.
+: 1500375688:0;./test.native
+: 1500375695:0;ls
+: 1500375700:0;chmod +x test.native
+: 1500375702:0;ls
+: 1500375704:0;rm test.native
+: 1500375704:0;.
+: 1500375717:0;ocamlbuild.native test.ml
+: 1500375718:0;ls
+: 1500375725:0;rm _build
+: 1500375740:0;ocamlbuild test.ml
+: 1500375743:0;./test.native
+: 1500375744:0;ls
+: 1500375749:0;ocamlbuild test.native
+: 1500375750:0;ls
+: 1500375751:0;./test.native
+: 1500375769:0;node
+: 1500375773:0;clear
+: 1500375777:0;vim test.js
+: 1500375795:0;./test.js
+: 1500375798:0;node test.
+: 1500375800:0;node test.js
+: 1500375801:0;.
+: 1500375892:0;vim lang*
+: 1500375898:0;cd
+: 1500375898:0;.
+: 1500375900:0;cd Projects
+: 1500375900:0;.
+: 1500375902:0;cd games
+: 1500375902:0;.
+: 1500375913:0;mk purescript_snake
+: 1500375914:0;.
+: 1500376028:0;i3lock
+: 1500376106:0;vim launch.sh
+: 1500376118:0;.
+: 1500376129:0;chmod +x launch.sh
+: 1500376130:0;.
+: 1500376138:0;3rc
+: 1500376184:0;.
+: 1500376186:0;./launch.sh
+: 1500376242:0;vim config
+: 1500376260:0;polybar bar1
+: 1500376268:0;vim config
+: 1500376285:0;polybar bar1
+: 1500376340:0;vim config
+: 1500376356:0;polybar bar1
+: 1500376359:0;polybar
+: 1500376361:0;vim config
+: 1500376369:0;polybar example
+: 1500376423:0;clear
+: 1500376423:0;s
+: 1500376425:0;./launch.sh
+: 1500376427:0;vim launch.sh
+: 1500376431:0;vim config
+: 1500376534:0;ls
+: 1500376537:0;cd ~/Downloads
+: 1500376537:0;.
+: 1500376539:0;cd ..
+: 1500376540:0;ls
+: 1500376541:0;cd Projects
+: 1500376541:0;.
+: 1500376542:0;cd polybar
+: 1500376542:0;.
+: 1500376547:0;make userconfig
+: 1500376549:0;cd build
+: 1500376551:0;make userconfig
+: 1500376558:0;cd ~/.config/polybar
+: 1500376558:0;.
+: 1500376560:0;./launch.sh
+: 1500376566:0;polybar example
+: 1500376654:0;clear
+: 1500376655:0;s
+: 1500376693:0;ls
+: 1500376698:0;xclip
+: 1500376704:0;xclip-pastefile
+: 1500376709:0;xclip-pastefile config
+: 1500376715:0;xclip-pastefile
+: 1500376718:0;clear
+: 1500376718:0;ls
+: 1500376725:0;xclipboard
+: 1500376729:0;xclipboard -h
+: 1500376735:0;xclip -h
+: 1500376737:0;xclip -o
+: 1500376741:0;xclip -o > config
+: 1500376742:0;clear
+: 1500376757:0;vim launch.sh
+: 1500376768:0;./launch.sh
+: 1500376868:0;mdp
+: 1500376875:0;sudo apt install mdp
+: 1500376886:0;./launch.sh
+: 1500376933:0;vim /etc/mdm/mdm.conf
+: 1500376994:0;.
+: 1500377003:0;pkill polybar
+: 1500377005:0;clear
+: 1500377006:0;q
+: 1500377127:0;vim config
+: 1500377288:0;./launch.sh
+: 1500377359:0;git clone https://github.com/stark/siji && cd siji
+: 1500377367:0;./install.sh
+: 1500377399:0;clear
+: 1500377403:0;./LICENSE
+: 1500377404:0;clear
+: 1500377405:0;cd ..
+: 1500377405:0;.
+: 1500377407:0;./launch.sh
+: 1500377418:0;cd ..
+: 1500377421:0;rm polybar
+: 1500377430:0;rm -rf polybar
+: 1500377431:0;.
+: 1500377435:0;pkill polybar
+: 1500377436:0;.
+: 1500377437:0;ls
+: 1500377438:0;cd 
+: 1500377441:0;z /home/cypher/Projects/polybar
+: 1500377442:0;cd ..
+: 1500377444:0;rm -rf polybar
+: 1500377444:0;.
+: 1500377446:0;q
+: 1500377454:0;ls
+: 1500377456:0;cd ..
+: 1500377456:0;ls
+: 1500377458:0;clear
+: 1500377458:0;s
+: 1500377460:0;a nvim
+: 1500377461:0;s
+: 1500377462:0;clear
+: 1500377463:0;s
+: 1500377469:0;a "Spell"
+: 1500377470:0;clear
+: 1500377470:0;s
+: 1500377474:0;m "Spell"
+: 1500377475:0;.
+: 1500377476:0;p
+: 1500377530:0;sudo apt install wicd-cli
+: 1500377547:0;wicd-cl
+: 1500377548:0;wicd
+: 1500377550:0;sudo wicd
+: 1500377564:0;sudo apt install wicd-curses
+: 1500377575:0;wicd-curses
+: 1500377677:0;nmcli
+: 1500377689:0;nmcli con up id GetOffMyLAN
+: 1500377691:0;sudo nmcli con up id GetOffMyLAN
+: 1500377696:0;pkill nm-applet
+: 1500377703:0;nm-applet
+: 1500377725:0;wicd-curses
+: 1500377743:0;reboot
+: 1500377962:0;xrandr --dpi 200 --output eDP1 --gamma 0:0:0 --scale 1x1
+: 1500377970:0;gnome-settings-daemon
+: 1500377974:0;clear
+: 1500377992:0;pkill gnome-settings-
+: 1500377993:0;clear
+: 1500377993:0;s
+: 1500377996:0;cd
+: 1500377996:0;.
+: 1500378012:0;3src
+: 1500378026:0;.
+: 1500378033:0;cd Projects
+: 1500378033:0;.
+: 1500378038:0;git@github.com:Cypher1/py3status.git
+: 1500378046:0;cd py3status
+: 1500378047:0;.
+: 1500378049:0;cd py3status
+: 1500378049:0;.
+: 1500378051:0;cd modules
+: 1500378051:0;.
+: 1500378053:0;vim insync.py
+: 1500378073:0;insync get_status
+: 1500378079:0;insync -h
+: 1500378085:0;insync get_new_shares
+: 1500378097:0;insync get_file_status
+: 1500378121:0;insync get_sync_progress
+: 1500378140:0;touch ~/Drive/Me/MarioMe.md
+: 1500378142:0;insync get_sync_progress
+: 1500378164:0;watch "insync get_sync_progress"
+: 1500378171:0;cd ~/Drive
+: 1500378171:0;ls
+: 1500378173:0;cd Uni
+: 1500378173:0;.
+: 1500378185:0;vim Entrance
+: 1500378249:0;q
+: 1500378262:0;insync
+: 1500378265:0;insync get_status
+: 1500378297:0;q
+: 1500378298:0;.
+: 1500378301:0;q
+: 1500378561:0;pwd
+: 1500378566:0;cd ~/.i3/
+: 1500378577:0;cd
+: 1500378580:0;mk .i3
+: 1500378613:0;ln -s ~/Projects/py3status/py3status/modules/insync.py insync.py
+: 1500378623:0;cd -
+: 1500378626:0;cd -2
+: 1500378627:0;ls
+: 1500378634:0;cp arch_updates.py mint_updates.py
+: 1500378638:0;cd ~/.i3
+: 1500378639:0;.
+: 1500378648:0;ln -s ~/Projects/py3status/py3status/modules/mint_updates.py .
+: 1500378648:0;ls
+: 1500378651:0;3rc
+: 1500378654:0;3src
+: 1500378664:0;.
+: 1500378665:0;s
+: 1500378666:0;clear
+: 1500378674:0;vim *
+: 1500378702:0;insync get_status
+: 1500378703:0;q
+: 1500378725:0;3rc
+: 1500378843:0;3src
+: 1500378850:0;ls
+: 1500378855:0;mv insync.py insync2.py
+: 1500378867:0;.
+: 1500378882:0;mk py3status
+: 1500378886:0;mv ../* .
+: 1500378886:0;ls
+: 1500378898:0;mv insync2.py insync.pt
+: 1500378904:0;mv insync.pt insync.py
+: 1500378907:0;3src
+: 1500379049:0;vim ~/Drive/Uni/2017/9319_WebData/staff.xml
+: 1500379185:0;.
+: 1500379279:0;insync get_status
+: 1500379284:0;insync get_status | grep SYNCED
+: 1500379294:0;i3-msg restart
+: 1500379303:0;vim insync.py
+: 1500379312:0;ls
+: 1500379320:0;ls -la
+: 1500379324:0;ls
+: 1500379327:0;mv insync.py py3status
+: 1500379330:0;cd py3status
+: 1500379331:0;vim insync.py
+: 1500379347:0;pip install pylint
+: 1500379352:0;sudo pip install pylint
+: 1500379359:0;sudo pip3 install pylint
+: 1500379365:0;clear
+: 1500379366:0;s
+: 1500379429:0;clear
+: 1500379429:0;s
+: 1500379430:0;vim insync.py
+: 1500379665:0;q
+: 1500379786:0;cd Dr
+: 1500379789:0;cd ~/Drive
+: 1500379789:0;ls
+: 1500379792:0;cd Me
+: 1500379793:0;ls
+: 1500379803:0;mv clean_code.pdf Reading
+: 1500379809:0;mv haskell-linear-submitted.pdf Reading
+: 1500379815:0;mv SwiftLanguage.pdf Reading
+: 1500379816:0;.
+: 1500379822:0;cat MarioMe.md
+: 1500379828:0;rm MarioMe.md
+: 1500379829:0;.
+: 1500379830:0;ls
+: 1500379846:0;clear
+: 1500379847:0;ls
+: 1500379858:0;open IMG_0544.JPG
+: 1500379891:0;xdg-open IMG_0544.JPG
+: 1500379904:0;alias open="xdg-open"
+: 1500379905:0;open IMG_0544.JPG
+: 1500379908:0;clear
+: 1500379908:0;s
+: 1500379911:0;mv IMG_0544.JPG Pictures
+: 1500379911:0;.
+: 1500379926:0;ls Haskann
+: 1500379928:0;.
+: 1500379951:0;cd ..
+: 1500379952:0;clear
+: 1500379953:0;ls
+: 1500379955:0;cd Google\ Photos
+: 1500379956:0;.
+: 1500379960:0;open 1.mov
+: 1500379966:0;clear
+: 1500380006:0;insync-headless
+: 1500380007:0;insync-headless start
+: 1500380009:0;q
+: 1500380027:0;.
+: 1500380038:0;q
+: 1500380409:0;clear
+: 1500380409:0;s
+: 1500380420:0;vim mint_updates.py
+: 1500380431:0;sudo apt update
+: 1500380473:0;3src
+: 1500380596:0;clear
+: 1500380640:0;sudo apt update
+: 1500380671:0;sudo add-apt-repository -h
+: 1500380679:0;sudo add-apt-repository -r 
+: 1500380687:0;sudo add-apt-repository -r htts://repo.skype.com/deb
+: 1500380690:0;sudo apt update
+: 1500380855:0;cd
+: 1500380855:0;https://github.com/jj999/mint-update-CLI.git
+: 1500380861:0;cd mint-update-CLI
+: 1500380862:0;.
+: 1500380864:0;./mintUpdateCLI.py
+: 1500380868:0;python mintUpdateCLI.py
+: 1500380871:0;python mintUpdateCLI.py list
+: 1500381291:0;mv mint_updates.py apt_updates.py
+: 1500381295:0;3src
+: 1500381301:0;q
+: 1500381308:0;vim apt_updates.py
+: 1500381994:0;curl https://repo.skype.com/data/SKYPE-GPG-KEY | sudo apt-key add - 
+: 1500382014:0;vim /etc/mdm/mdm.conf
+: 1500382045:0;q
+: 1500382352:0;ls
+: 1500382356:0;python mintUpdateCLI.py list
+: 1500382368:0;sudo apt update
+: 1500382387:0;python mintUpdateCLI.py list
+: 1500384991:0;curl https://repo.skype.com/data/SKYPE-GPG-KEY | sudo apt-key add - 
+: 1500385001:0;clear
+: 1500385002:0;s
+: 1500385004:0;sudo apt update
+: 1500385023:0;python mintUpdateCLI.py list
+: 1500385052:0;sudo apt list --upgradable
+: 1500385190:0;sudo apt list --upgradable | grep "/"
+: 1500385207:0;sudo apt list --upgradable | grep "/" &2> out
+: 1500385214:0;clear
+: 1500385214:0;ls
+: 1500385216:0;cat out
+: 1500385218:0;rm out
+: 1500385223:0;sudo apt list --upgradable | grep "/"
+: 1500385231:0;sudo apt list --upgradable
+: 1500385239:0;sudo apt list --upgradable a-
+: 1500385243:0;sudo apt list --upgradable -a
+: 1500385250:0;apt list --upgradable
+: 1500385290:0;q
+: 1500385292:0;apt list --upgradable
+: 1500385299:0;apt list --upgradable | wc -l
+: 1500385310:0;apt list --upgradable > out
+: 1500385313:0;cat out
+: 1500385371:0;cd ..
+: 1500385373:0;rm mint-update-CLI
+: 1500385381:0;clear
+: 1500385382:0;cd .i3/py3status
+: 1500385383:0;.
+: 1500385387:0;python apt_updates.py
+: 1500385402:0;pip install py3status
+: 1500385413:0;python apt_updates.py
+: 1500385419:0;ls -a
+: 1500385421:0;ls -la
+: 1500385427:0;cd /home/cypher/Projects/py3status
+: 1500385428:0;.
+: 1500385430:0;cd modules
+: 1500385433:0;cd py3status/modules
+: 1500385433:0;ls
+: 1500385436:0;python apt_updates.py
+: 1500385438:0;ls
+: 1500385443:0;mv mint_updates.py apt_updates.py
+: 1500385446:0;python apt_updates.py
+: 1500385448:0;clear
+: 1500385465:0;cd -
+: 1500385469:0;cd ~/.i3/py3status
+: 1500385469:0;.
+: 1500385478:0;ln -s ~/Projects/py3status/py3status/modules/apt_updates.py .
+: 1500385480:0;rm apt_updates.py
+: 1500385481:0;ln -s ~/Projects/py3status/py3status/modules/apt_updates.py .
+: 1500385528:0;apt list --upgradable > out
+: 1500385530:0;cat out
+: 1500385542:0;rm out
+: 1500385542:0;.
+: 1500385556:0;apt list --upgradable > out
+: 1500385558:0;cat out
+: 1500385605:0;python apt_updates.py
+: 1500385729:0;ls
+: 1500385731:0;python
+: 1500385738:0;clear
+: 1500385744:0;python3 apt_updates.py
+: 1500385757:0;q
+: 1500385768:0;python3 apt_updates.py
+: 1500386060:0;sudo apt update skypeforlinux
+: 1500386100:0;sudo apt upgrade skypeforlinux
+: 1500386113:0;q
+: 1500386136:0;sudo apt upgrade skypeforlinux
+: 1500386152:0;echo ""
+: 1500386159:0;echo "" | xclip -sel
+: 1500386174:0;echo "" | xclip
+: 1500386181:0;q
+: 1500386186:0;sudo apt upgrade skypeforlinux
+: 1500386501:0;clear
+: 1500386501:0;s
+: 1500386506:0;3src
+: 1500386571:0;vim apt_updates.py
+: 1500386645:0;q
+: 1500417290:0;vim apt_updates.py
+: 1500417300:0;3src
+: 1500417537:0;clear
+: 1500417537:0;s
+: 1500417540:0;rm out
+: 1500417541:0;.
+: 1500417556:0;cd ~/Projects
+: 1500417557:0;.
+: 1500417559:0;cd py3status
+: 1500417559:0;s
+: 1500417571:0;a py3status/modules/insync.py
+: 1500417589:0;m "Updating insync module to show more information"
+: 1500417594:0;s
+: 1500417594:0;d
+: 1500417600:0;a py3status/modules/apt_updates.py
+: 1500417605:0;D
+: 1500417635:0;m "Adding module for showing updates with apt"
+: 1500417636:0;clear
+: 1500417636:0;s
+: 1500417649:0;apt list --upgradable > out
+: 1500417651:0;cat out
+: 1500417653:0;rm out
+: 1500417653:0;.
+: 1500417673:0;3src
+: 1500418051:0;q
+: 1500418056:0;ls
+: 1500418058:0;cd -
+: 1500418060:0;cd -2
+: 1500418061:0;.
+: 1500418063:0;vim apt_updates.py
+: 1500418122:0;s
+: 1500418127:0;cd ~/Projects/py3status
+: 1500418128:0;.
+: 1500418128:0;s
+: 1500418129:0;d
+: 1500418132:0;clear
+: 1500418133:0;s
+: 1500418135:0;p
+: 1500418226:0;vim ~/.ssh/config
+: 1500418259:0;git push
+: 1500418263:0;vim ~/.ssh/config
+: 1500418269:0;git push
+: 1500418278:0;clear
+: 1500418278:0;s
+: 1500418281:0;vim ~/.ssh/config
+: 1500418291:0;.
+: 1500418312:0;git remote add origin_https ssh://github.com:443/Cypher1/py3status
+: 1500418316:0;git push origin_https 
+: 1500418325:0;git remote remove origin_https 
+: 1500418325:0;.
+: 1500418327:0;git remote -v
+: 1500418329:0;clear
+: 1500418329:0;s
+: 1500418334:0;git remote -v
+: 1500418435:0;git remote add origin_https https://github.com/Cypher1/py3status.git
+: 1500418438:0;git push origin_https 
+: 1500418465:0;git remote remove origin_https 
+: 1500418466:0;clear
+: 1500418466:0;s
+: 1500418622:0;ifconfig wlp3s0 down
+: 1500418623:0;sudo ifconfig wlp3s0 down
+: 1500418629:0;sudo ifconfig wlp3s0 up
+: 1500418671:0;reboot
+: 1500418712:0;gnome-settings-daemon
+: 1500418714:0;clear
+: 1500418714:0;s
+: 1500418734:0;p
+: 1500418784:0;pkill nm-applet
+: 1500418788:0;insync-headless start
+: 1500418791:0;clear
+: 1500418791:0;s
+: 1500418796:0;nm-applet &
+: 1500418844:0;ls
+: 1500418847:0;reboot
+: 1500418888:0;3rc
+: 1500418918:0;gnome-settings-daemon
+: 1500418920:0;q
+: 1500418922:0;clear
+: 1500418923:0;s
+: 1500418953:0;shutdown
+: 1500419509:0;gnome-settings-daemon
+: 1500419513:0;pkill gnome-settings-
+: 1500419515:0;gnome-settings-daemon
+: 1500419521:0;clear
+: 1500419521:0;s
+: 1500419524:0;3rc
+: 1500419533:0;clear
+: 1500419533:0;s
+: 1500419535:0;gnome-settings-daemon
+: 1500419542:0;clear
+: 1500419549:0;s
+: 1500419554:0;pkill gnome-settings-
+: 1500419565:0;clear
+: 1500419623:0;sudo pdkg --configure -a
+: 1500419632:0;sudo dpkg --configure -a
+: 1500419691:0;sudo lshw -C network
+: 1500419724:0;sudo modprobe -r brcmfmac
+: 1500419729:0;sudo modprobe brcmfmac
+: 1500419750:0;sudo su
+: 1500419760:0;.
+: 1500419792:0;sudo apt-get autoremove
+: 1500419802:0;sudo service wicd stop
+: 1500419809:0;sudo service network-manager restart
+: 1500419885:0;s
+: 1500419886:0;p
+: 1500419891:0;ping github.com
+: 1500419909:0;git push
+: 1500419928:0;clear
+: 1500419928:0;s
+: 1500420139:0;apt update
+: 1500420145:0;sudo apt update
+: 1500420160:0;clear
+: 1500420165:0;sudo apt update
+: 1500420172:0;sudo apt upgrade
+: 1500420175:0;clear
+: 1500420202:0;sudo apt update
+: 1500420207:0;sudo apt-get update
+: 1500420225:0;vim py3status/modules/apt_updates.py
+: 1500420240:0;apt list --upgradable
+: 1500420245:0;apt update
+: 1500420283:0;sudo rm /var/lib/apt/lists/lock
+: 1500420284:0;apt update
+: 1500420296:0;q
+: 1500420317:0;ps aux | grep apt
+: 1500420337:0;apt list --upgradable
+: 1500420350:0;ps aux | grep apt
+: 1500420353:0;ps aux | grep apt | wc -l
+: 1500420377:0;clear
+: 1500420379:0;ps aux | grep apt | wc -l
+: 1500420409:0;clear
+: 1500420410:0;s
+: 1500420412:0;q
+: 1500420415:0;ps aux | grep apt | wc -l
+: 1500420417:0;clear
+: 1500420419:0;ps aux | grep apt | wc -l
+: 1500420433:0;ping au.archive.ubuntu.com
+: 1500420442:0;clear
+: 1500420442:0;s
+: 1500420467:0;clear
+: 1500420467:0;s
+: 1500420468:0;q
+: 1500420469:0;clear
+: 1500420470:0;s
+: 1500420473:0;q
+: 1500420507:0;s
+: 1500420511:0;cd py3status/modules
+: 1500420512:0;clear
+: 1500420512:0;s
+: 1500420517:0;git diff HEAD^
+: 1500420522:0;git diff HEAD^^
+: 1500420527:0;clear
+: 1500420528:0;vim insync.py
+: 1500420535:0;3src
+: 1500420549:0;ls
+: 1500420552:0;cd ~/.i3/py3status
+: 1500420552:0;ls
+: 1500420554:0;vim insync.py
+: 1500420560:0;clear
+: 1500420561:0;s
+: 1500420562:0;ls -ls
+: 1500420564:0;ls -la
+: 1500420577:0;mv insync.py ~/Projects/py3status/py3status/modules/insync.py
+: 1500420579:0;clear
+: 1500420580:0;s
+: 1500420580:0;D
+: 1500420582:0;clear
+: 1500420582:0;s
+: 1500420596:0;vim insync.py
+: 1500420607:0;clear
+: 1500420607:0;s
+: 1500420608:0;a insync.py
+: 1500420609:0;clear
+: 1500420609:0;s
+: 1500420637:0;clear
+: 1500420638:0;d
+: 1500420639:0;D
+: 1500420651:0;git log
+: 1500420659:0;git checkout 7ecd1e9ceba7cb6409b0955c801a04941367a56f
+: 1500420662:0;clear
+: 1500420662:0;s
+: 1500420663:0;D
+: 1500420670:0;s
+: 1500420671:0;clear
+: 1500420698:0;git commit --amend -m "Updated insync module with better symbols and recognizing a few more states"
+: 1500420699:0;clear
+: 1500420699:0;s
+: 1500420701:0;git log
+: 1500420705:0;git log --graph
+: 1500420714:0;clear
+: 1500420714:0;s
+: 1500420729:0;git rebase origin/master
+: 1500420732:0;clear
+: 1500420732:0;s
+: 1500420734:0;vim insync.py
+: 1500420748:0;clear
+: 1500420748:0;s
+: 1500420749:0;a insync.py
+: 1500420750:0;clear
+: 1500420750:0;s
+: 1500420755:0;git rebase --continue 
+: 1500420756:0;s
+: 1500420757:0;clear
+: 1500420757:0;s
+: 1500420759:0;git log
+: 1500420764:0;s
+: 1500420765:0;clear
+: 1500420766:0;s
+: 1500420770:0;git merge origin/master 
+: 1500420772:0;clear
+: 1500420772:0;s
+: 1500420777:0;git push -f origin master 
+: 1500420834:0;sudo service network-manager restart
+: 1500420856:0;git push -f origin master 
+: 1500420863:0;clear
+: 1500420864:0;s
+: 1500420866:0;git branch -v
+: 1500420893:0;git checkout origin/master 
+: 1500420901:0;git reset --hard f116879
+: 1500420903:0;clear
+: 1500420904:0;s
+: 1500420907:0;git log --graph
+: 1500420922:0;clear
+: 1500420923:0;s
+: 1500420925:0;git reset 7ecd1e9ceba7cb6409b0955c801a04941367a56f
+: 1500420927:0;clear
+: 1500420927:0;D
+: 1500420930:0;git status
+: 1500420933:0;a insync.py
+: 1500420933:0;clear
+: 1500420934:0;D
+: 1500420940:0;git merge origin/master 
+: 1500420944:0;s
+: 1500420947:0;clear
+: 1500420947:0;s
+: 1500420951:0;m "Updating insync module to show more information"
+: 1500420952:0;clear
+: 1500420952:0;s
+: 1500420954:0;a apt_updates.py
+: 1500420978:0;m "Adding module for showing updates with apt"
+: 1500420979:0;clear
+: 1500420979:0;s
+: 1500420982:0;git log --graph
+: 1500420988:0;clear
+: 1500420988:0;s
+: 1500420991:0;git merge origin/master 
+: 1500420996:0;clear
+: 1500420996:0;s
+: 1500420999:0;git checkout origin/master 
+: 1500421000:0;clear
+: 1500421000:0;s
+: 1500421002:0;git merge origin/master 
+: 1500421003:0;clear
+: 1500421003:0;s
+: 1500421005:0;git log --graph
+: 1500421012:0;git branch origin
+: 1500421013:0;clear
+: 1500421014:0;s
+: 1500421015:0;git branch
+: 1500421019:0;git checkout master
+: 1500421020:0;clear
+: 1500421023:0;git branch -v
+: 1500421034:0;git branch -d origin
+: 1500421035:0;clear
+: 1500421037:0;git branch -v
+: 1500421040:0;git status
+: 1500421042:0;git log --graph
+: 1500421044:0;D
+: 1500421046:0;clear
+: 1500421046:0;s
+: 1500421048:0;git push -f origin master 
+: 1500421077:0;ping github.com
+: 1500421082:0;clear
+: 1500421094:0;3rc
+: 1500421140:0;clear
+: 1500421140:0;s
+: 1500421142:0;ping github.com
+: 1500421157:0;ping 8.8.8.8
+: 1500421198:0;z /home/cypher/Projects/py3status
+: 1500421199:0;.
+: 1500421201:0;p
+: 1500421206:0;s
+: 1500421209:0;git log --graph
+: 1500421217:0;git push origin master 
+: 1500421224:0;git pull
+: 1500421232:0;git fetch
+: 1500421239:0;git status
+: 1500421245:0;D
+: 1500421247:0;git diff HEAD^^
+: 1500421251:0;clear
+: 1500421251:0;s
+: 1500421256:0;git rebase
+: 1500421263:0;s
+: 1500421273:0;vim py3status/modules/insync.py
+: 1500421287:0;clear
+: 1500421287:0;s
+: 1500421289:0;git log
+: 1500421299:0;git checkout 7ecd1e9ceba7cb6409b0955c801a04941367a56f
+: 1500421301:0;vim py3status/modules/insync.py
+: 1500421306:0;clear
+: 1500421306:0;s
+: 1500421311:0;ls
+: 1500421315:0;git status
+: 1500421317:0;git log
+: 1500421327:0;git checkout master
+: 1500421327:0;clear
+: 1500421328:0;s
+: 1500421329:0;D
+: 1500421330:0;d
+: 1500421333:0;vim py3status/modules/insync.py
+: 1500421366:0;z /home/cypher/Projects/py3status
+: 1500421367:0;.
+: 1500421369:0;cd py3status/modules
+: 1500421369:0;.
+: 1500421372:0;git status
+: 1500421374:0;git log
+: 1500421382:0;git checkout aa21a11afcec2f88237aa9b4384465d975de7b94
+: 1500421384:0;clear
+: 1500421384:0;s
+: 1500421385:0;vim insync.py
+: 1500421393:0;clear
+: 1500421393:0;s
+: 1500421395:0;D
+: 1500421396:0;d
+: 1500421398:0;clear
+: 1500421398:0;s
+: 1500421405:0;git log
+: 1500421414:0;clear
+: 1500421418:0;git stash apply 
+: 1500421419:0;clear
+: 1500421419:0;s
+: 1500421437:0;cd ~/.i3/py3status
+: 1500421438:0;ls
+: 1500421444:0;ln -s ~/Projects/py3status/py3status/modules/insync.py insync.py
+: 1500421445:0;vim insync.py
+: 1500421633:0;clear
+: 1500421633:0;s
+: 1500421635:0;clear
+: 1500421635:0;s
+: 1500421636:0;D
+: 1500421640:0;git checkout master 
+: 1500421641:0;clear
+: 1500421641:0;s
+: 1500421642:0;D
+: 1500421643:0;d
+: 1500421647:0;a insync.py
+: 1500421648:0;clear
+: 1500421648:0;s
+: 1500421675:0;m "Adding better symbols for insync and catching the SYNCED state"
+: 1500421676:0;clear
+: 1500421676:0;s
+: 1500421677:0;p
+: 1500421680:0;clear
+: 1500421680:0;s
+: 1500421716:0;ping 8.8.8.8
+: 1500421753:0;p
+: 1500421796:0;insync-headless get_status
+: 1500421805:0;insync-headless
+: 1500421817:0;insync-headless share
+: 1500421825:0;insync-headless get_recent_changes
+: 1500421845:0;insync-headless accept_share
+: 1500421849:0;insync-headless accept_share -h
+: 1500421865:0;insync-headless get_actions_required
+: 1500421872:0;insync-headless get_sync_progress
+: 1500421888:0;insync-headless get_new_shares
+: 1500421900:0;git accept_share
+: 1500421905:0;insync accept_share
+: 1500421907:0;insync accept_share -h
+: 1500421921:0;ls
+: 1500421923:0;vim insync.py
+: 1500421941:0;insync pause
+: 1500421945:0;insync
+: 1500421953:0;insync pause_syncing
+: 1500421959:0;insync resume_syncing
+: 1500421963:0;clear
+: 1500421963:0;s
+: 1500421973:0;insync start
+: 1500421985:0;insync-headless
+: 1500421988:0;insync-headless quit
+: 1500421990:0;insync start
+: 1500422005:0;insync quit
+: 1500422008:0;insync-headless start
+: 1500422017:0;clear
+: 1500422017:0;s
+: 1500422019:0;vim insync.py
+: 1500422064:0;clear
+: 1500422064:0;s
+: 1500422068:0;git add insync.py
+: 1500422071:0;git commit --amend -m "Updated insync module with better symbols and recognizing a few more states"
+: 1500422073:0;p
+: 1500422084:0;git push -f
+: 1500422093:0;clear
+: 1500422094:0;git log
+: 1500422104:0;git reset 7ecd1e9ceba7cb6409b0955c801a04941367a56f
+: 1500422105:0;s
+: 1500422106:0;d
+: 1500422116:0;clear
+: 1500422117:0;s
+: 1500422120:0;git log
+: 1500422146:0;git reset --head 7ecd1e9ceba7cb6409b0955c801a04941367a56f
+: 1500422151:0;git reset --hard 7ecd1e9ceba7cb6409b0955c801a04941367a56f
+: 1500422152:0;clear
+: 1500422152:0;s
+: 1500422155:0;vim insync.py
+: 1500422160:0;clear
+: 1500422160:0;s
+: 1500422162:0;git log
+: 1500422172:0;git checkout master 
+: 1500422174:0;clear
+: 1500422174:0;s
+: 1500422176:0;vim insync.py
+: 1500422183:0;clear
+: 1500422184:0;git pull
+: 1500422191:0;git pull -f
+: 1500422199:0;git stash
+: 1500422200:0;git pull -f
+: 1500422203:0;a .
+: 1500422209:0;git stash
+: 1500422210:0;git pull
+: 1500422216:0;clear
+: 1500422217:0;s
+: 1500422218:0;vim insync.py
+: 1500422225:0;cp insync.py ~/insync.py
+: 1500422230:0;cp apt_updates.py ~/
+: 1500422231:0;clear
+: 1500422231:0;s
+: 1500422233:0;git log
+: 1500422256:0;git reset --hard 7ecd1e9ceba7cb6409b0955c801a04941367a56
+: 1500422258:0;clear
+: 1500422259:0;git log
+: 1500422269:0;git reset 561c8c685ffbf012ed771e9a0edd8ac84decd2f3
+: 1500422270:0;s
+: 1500422273:0;d
+: 1500422275:0;git stash
+: 1500422276:0;clear
+: 1500422276:0;s
+: 1500422277:0;D
+: 1500422279:0;clear
+: 1500422291:0;cp ~/insync.py insync.py
+: 1500422291:0;s
+: 1500422292:0;D
+: 1500422295:0;m "Adding better symbols for insync and catching the SYNCED state"
+: 1500422298:0;a insync.py
+: 1500422299:0;m "Adding better symbols for insync and catching the SYNCED state"
+: 1500422300:0;clear
+: 1500422300:0;s
+: 1500422306:0;cp ~/apt_updates.py .
+: 1500422307:0;clear
+: 1500422307:0;s
+: 1500422310:0;a apt_updates.py
+: 1500422310:0;s
+: 1500422325:0;m "Adding module for showing updates with apt"
+: 1500422326:0;clear
+: 1500422326:0;s
+: 1500422330:0;git push -f
+: 1500422340:0;clear
+: 1500422341:0;s
+: 1500422342:0;git status
+: 1500422564:0;clear
+: 1500422565:0;s
+: 1500422732:0;clear
+: 1500422732:0;q
+: 1500422801:0;cd
+: 1500422802:0;.
+: 1500422814:0;diff insync.py Projects/py3status/py3status/modules/insync.py
+: 1500422818:0;rm apt_updates.py insync.py
+: 1500422819:0;clear
+: 1500422819:0;s
+: 1500422828:0;3src
+: 1500422863:0;clear
+: 1500422863:0;s
+: 1500422867:0;cd Projects
+: 1500422868:0;.
+: 1500422871:0;cd games
+: 1500422871:0;.
+: 1500422878:0;cd purescript_snake
+: 1500422879:0;.
+: 1500422988:0;ls ..
+: 1500423006:0;cd ../HaskellSpriteKit
+: 1500423007:0;.
+: 1500423010:0;cd HaskellSpriteKit
+: 1500423010:0;ls
+: 1500423018:0;cd ..
+: 1500423020:0;rm .
+: 1500423023:0;rm -rf .
+: 1500423024:0;cd ..
+: 1500423026:0;rm HaskellSpriteKit
+: 1500423030:0;rm -rf HaskellSpriteKit
+: 1500423031:0;.
+: 1500423035:0;ls pyg
+: 1500423035:0;.
+: 1500423038:0;ls reflex
+: 1500423040:0;rm reflex
+: 1500423040:0;.
+: 1500423050:0;cd purescript_snake
+: 1500423052:0;.
+: 1500423053:0;ls
+: 1500423055:0;cd ../
+: 1500423055:0;.
+: 1500423064:0;cd reflex-dom-stack-demo
+: 1500423064:0;ls
+: 1500423073:0;stack setup
+: 1500423109:0;cd ..
+: 1500423113:0;https://github.com/holdenlee/purescript-games.git
+: 1500423122:0;rm purescript_snake
+: 1500423122:0;.
+: 1500423125:0;cd purescript-games
+: 1500423125:0;.
+: 1500423130:0;node
+: 1500423134:0;clear
+: 1500423135:0;ls
+: 1500423140:0;ls src
+: 1500423144:0;ls html
+: 1500423146:0;clear
+: 1500423149:0;open index.html
+: 1500423151:0;zrc
+: 1500423163:0;clear
+: 1500423163:0;s
+: 1500423165:0;clear
+: 1500423165:0;s
+: 1500423168:0;exec zsh
+: 1500423170:0;open index.html
+: 1500423173:0;clear
+: 1500423173:0;s
+: 1500423181:0;vim bower.json
+: 1500423187:0;npm install bower
+: 1500423190:0;clear
+: 1500423191:0;ls
+: 1500423196:0;stack build
+: 1500423200:0;stack setup
+: 1500423217:0;sudo apt-get install libgmp3-dev
+: 1500423258:0;clear
+: 1500423261:0;stack setup
+: 1500423266:0;clear
+: 1500423266:0;ls
+: 1500423271:0;ls html
+: 1500423352:0;cd ..
+: 1500423353:0;clear
+: 1500423353:0;ls
+: 1500423355:0;cd games
+: 1500423356:0;.
+: 1500423359:0;cd purescript-games
+: 1500423359:0;.
+: 1500423366:0;bower
+: 1500423368:0;npm install bower
+: 1500423401:0;node install -g bower
+: 1500423404:0;which bower
+: 1500423415:0;npm config set prefix /usr/local
+: 1500423418:0;node install -g bower
+: 1500423426:0;clear
+: 1500423429:0;npm install -g bower
+: 1500423434:0;sudo npm install -g bower
+: 1500423446:0;clear
+: 1500423447:0;which bower
+: 1500423449:0;bower
+: 1500423456:0;bower install
+: 1500423475:0;npm install -g pulp
+: 1500423515:0;pulp init
+: 1500423519:0;which pulp
+: 1500423520:0;clear
+: 1500423584:0;s
+: 1500423588:0;gi node_modules
+: 1500423589:0;.
+: 1500423590:0;s
+: 1500423592:0;a .gitignore
+: 1500423592:0;.
+: 1500423593:0;s
+: 1500423593:0;clear
+: 1500423594:0;s
+: 1500423601:0;ls .gitignore
+: 1500423603:0;cat .gitignore
+: 1500423606:0;vim .gitignore
+: 1500423619:0;clear
+: 1500423619:0;s
+: 1500423622:0;a .gitignore
+: 1500423623:0;clear
+: 1500423623:0;s
+: 1500423626:0;gi node_modules/*
+: 1500423627:0;clear
+: 1500423627:0;s
+: 1500423629:0;a .gitignore
+: 1500423630:0;clear
+: 1500423630:0;s
+: 1500423633:0;gi node_modules
+: 1500423634:0;clear
+: 1500423634:0;s
+: 1500423637:0;vim .gitignore
+: 1500423647:0;clear
+: 1500423647:0;s
+: 1500423648:0;a .gitignore
+: 1500423649:0;clear
+: 1500423649:0;s
+: 1500423659:0;m "Simplified gitignore"
+: 1500423660:0;q
+: 1500423694:0;clear
+: 1500423694:0;s
+: 1500423696:0;bower install
+: 1500423698:0;clear
+: 1500423698:0;s
+: 1500423700:0;D
+: 1500423701:0;clear
+: 1500423714:0;lear
+: 1500423715:0;clear
+: 1500423715:0;s
+: 1500423717:0;3rc
+: 1500423814:0;q
+: 1500423827:0;clear
+: 1500423828:0;s
+: 1500423830:0;clear
+: 1500423830:0;s
+: 1500423952:0;aconnect
+: 1500423954:0;q
+: 1500423973:0;npm install -g pulp
+: 1500423976:0;q
+: 1500424064:0;ls
+: 1500424067:0;stack build
+: 1500424070:0;stack setup
+: 1500424102:0;..
+: 1500424108:0;mk node_tanks
+: 1500424112:0;..
+: 1500424113:0;rm node_tanks
+: 1500424114:0;https://github.com/rubentd/tanks.git
+: 1500424121:0;cd tanks
+: 1500424123:0;.
+: 1500424136:0;./index.js
+: 1500424155:0;node index.js
+: 1500424157:0;clear
+: 1500424157:0;s
+: 1500424161:0;npm install -g express
+: 1500424171:0;sudo npm install -g pulp
+: 1500424188:0;chown -R cypher:cypher /usr/local/lib/node_modules
+: 1500424191:0;sudo chown -R cypher:cypher /usr/local/lib/node_modules
+: 1500424195:0;clear
+: 1500424195:0;s
+: 1500424196:0;q
+: 1500424203:0;clear
+: 1500424204:0;ls
+: 1500424208:0;open index.html
+: 1500424217:0;pulp build
+: 1500424221:0;mkdir dist
+: 1500424224:0;pulp dist
+: 1500424231:0;pulp build
+: 1500424236:0;npm install -g purs
+: 1500424242:0;npm install -g express
+: 1500424259:0;node index.js
+: 1500424290:0;npm install express
+: 1500424297:0;npm install express --save
+: 1500424308:0;node index.js
+: 1500424356:0;npm install socket.io -g --save
+: 1500424399:0;sudo chown -R cypher:cypher /usr/local/bin/
+: 1500424401:0;npm install socket.io -g --save
+: 1500424409:0;npm install -g purs
+: 1500424456:0;pulp build
+: 1500424462:0;node index.js
+: 1500424478:0;npm install -g socket.io --save
+: 1500430472:0;node index.js
+: 1500430484:0;npm install socket.io --save
+: 1500430490:0;node index.js
+: 1500430570:0;stack setup --clean
+: 1500430576:0;stack clean
+: 1500430579:0;stack setup
+: 1500430589:0;pulp build
+: 1500430611:0;events.js:160
+: 1500430616:0;q
+: 1500430853:0;vim index.js
+: 1500430875:0;ls
+: 1500430887:0;vim www/js/tanks.js
+: 1500430896:0;ls
+: 1500430898:0;cd psd
+: 1500430899:0;ls
+: 1500430900:0;cd ..
+: 1500430900:0;.
+: 1500430905:0;cd www
+: 1500430905:0;ls
+: 1500430910:0;vim js/client.js
+: 1500430924:0;node index.js
+: 1500431162:0;pulp build
+: 1500431209:0;q
+: 1500431255:0;3src
+: 1500431258:0;3rc
+: 1500431368:0;q
+: 1500431443:0;~/.stack/programs/x86_64-linux/ghcjs-0.2.0.20151029_ghc-7.10.2/src/.stack-work/install/x86_64-linux/lts-3.6/7.10.2/bin/ghcjs-boot --clean
+: 1500431449:0;gchjs
+: 1500432062:0;rm -rf node_modules && npm cache clean && npm install
+: 1500432088:0;clear
+: 1500432089:0;ls
+: 1500432096:0;ls node_modules
+: 1500432101:0;node index.js
+: 1500432109:0;pulp build
+: 1500432133:0;gem install jekyll
+: 1500432140:0;sudo gem install jekyll
+: 1500432156:0;clear
+: 1500432163:0;pulp install
+: 1500432165:0;npm install
+: 1500432193:0;vim package.json
+: 1500432246:0;npm install
+: 1500432259:0;vim package.json
+: 1500432273:0;clear
+: 1500432274:0;s
+: 1500432275:0;a package.json
+: 1500432276:0;clear
+: 1500432276:0;s
+: 1500432313:0;bower install
+: 1500432320:0;vim bower.json
+: 1500432327:0;rm package.json
+: 1500432327:0;.
+: 1500432336:0;bower install
+: 1500432341:0;pulp build
+: 1500432359:0;pulp init
+: 1500432761:0;gnome-settings-daemon
+: 1500432762:0;q
+: 1500432916:0;clear
+: 1500432917:0;s
+: 1500432918:0;d
+: 1500432925:0;clear
+: 1500432925:0;s
+: 1500432928:0;vim index.js
+: 1500432937:0;.
+: 1500432952:0;D
+: 1500432953:0;d
+: 1500432960:0;clear
+: 1500432961:0;s
+: 1500432962:0;cd js
+: 1500432964:0;clear
+: 1500432964:0;ls
+: 1500432966:0;vim *
+: 1500433043:0;clear
+: 1500433043:0;s
+: 1500433053:0;cabal install ghcjs
+: 1500433059:0;stack install ghcjs
+: 1500433116:0;stack setup
+: 1500433136:0;pulp install
+: 1500433150:0;pulp browserify
+: 1500433168:0;pulp version
+: 1500433175:0;ls
+: 1500433177:0;clear
+: 1500433177:0;ls
+: 1500433178:0;ls bower
+: 1500433181:0;ls bower_components
+: 1500433192:0;pulp init
+: 1500433198:0;rm bower_components
+: 1500433200:0;clear
+: 1500433200:0;ls
+: 1500433204:0;ls dist
+: 1500433207:0;rm dist/
+: 1500433208:0;ls
+: 1500433209:0;.
+: 1500433211:0;ls html
+: 1500433212:0;clear
+: 1500433213:0;ls
+: 1500433215:0;pulp init
+: 1500433219:0;ls
+: 1500433338:0;sudo npm install -g purescript
+: 1500433427:0;pkill gnome-settings-
+: 1500433444:0;clear
+: 1500433459:0;gnome-settings-daemon
+: 1500433462:0;clear
+: 1500433468:0;pkill gnome-settings-
+: 1500433479:0;clear
+: 1500433479:0;s
+: 1500433482:0;d
+: 1500433484:0;D
+: 1500433487:0;a package.json
+: 1500433488:0;clear
+: 1500433488:0;s
+: 1500433489:0;D
+: 1500433490:0;d
+: 1500433492:0;clears
+: 1500433493:0;s
+: 1500433495:0;.
+: 1500433496:0;q
+: 1500433498:0;pulp init
+: 1500433506:0;pulp init --force
+: 1500433528:0;d
+: 1500433531:0;clear
+: 1500433532:0;s
+: 1500433536:0;D
+: 1500433538:0;d
+: 1500433554:0;clear
+: 1500433555:0;s
+: 1500433556:0;a www
+: 1500433557:0;.
+: 1500433558:0;s
+: 1500433560:0;a index.js
+: 1500433563:0;a package.json
+: 1500433565:0;D package.json
+: 1500433573:0;a .
+: 1500433580:0;m "Tabs -> Spaces"
+: 1500433582:0;clear
+: 1500433582:0;s
+: 1500433583:0;D
+: 1500433624:0;3rc
+: 1500433628:0;rc
+: 1500433630:0;3src
+: 1500433639:0;q
+: 1500433651:0;3src
+: 1500433731:0;pulp build
+: 1500433745:0;pulp install
+: 1500433761:0;pulp init
+: 1500433783:0;vim bower.json
+: 1500433805:0;bower install
+: 1500433851:0;pulp build
+: 1500433910:0;bower install
+: 1500433936:0;pulp build
+: 1500553848:0;q
+: 1500554420:0;.
+: 1500554421:0;q
+: 1500554423:0;clear
+: 1500554424:0;q
+: 1500554559:0;z py3
+: 1500554559:0;.
+: 1500554561:0;git log
+: 1500554569:0;git checkout 8d1386f1e7f51e8f389f957aa9d7a7efdd751e49
+: 1500554578:0;git log
+: 1500554585:0;git branch insync_updates
+: 1500554592:0;git checkout insync_updates 
+: 1500554593:0;clear
+: 1500554595:0;git status
+: 1500554597:0;git log
+: 1500554604:0;git checkout master 
+: 1500554605:0;clear
+: 1500554605:0;s
+: 1500554606:0;git log
+: 1500554615:0;git reset 8d1386f1e7f51e8f389f957aa9d7a7efdd751e49
+: 1500554616:0;git log
+: 1500554620:0;s
+: 1500554636:0;git log
+: 1500554643:0;git reset 561c8c685ffbf012ed771e9a0edd8ac84decd2f3
+: 1500554644:0;clear
+: 1500554644:0;s
+: 1500554648:0;git a insync.py
+: 1500554651:0;a insync.py
+: 1500554652:0;git stash
+: 1500554653:0;clear
+: 1500554653:0;s
+: 1500554655:0;a apt_updates.py
+: 1500554656:0;clear
+: 1500554656:0;s
+: 1500554663:0;git branch apt_updates
+: 1500554664:0;clear
+: 1500554665:0;s
+: 1500554672:0;git checkout apt_updates 
+: 1500554672:0;clear
+: 1500554673:0;s
+: 1500554681:0;m "Added apt updates module"
+: 1500554681:0;clear
+: 1500554682:0;s
+: 1500554684:0;git branch -v
+: 1500554691:0;git checkout master 
+: 1500554698:0;git push -f
+: 1500554714:0;git checkout apt_updates 
+: 1500554722:0;git push -u origin apt_updates
+: 1500554736:0;git checkout insync_updates 
+: 1500554742:0;git push -u origin insync_updates 
+: 1500554874:0;clear
+: 1500554874:0;s
+: 1500554875:0;D
+: 1500554880:0;git diff origin/master 
+: 1500554891:0;cp insync.py ~/insync.py
+: 1500554894:0;vim ~/insync.py
+: 1500554921:0;clear
+: 1500554921:0;s
+: 1500554923:0;git diff origin/master 
+: 1500554962:0;vim insync.py
+: 1500554983:0;mv insync.py ~/my_insync.py
+: 1500554990:0;mv ~/insync.py .
+: 1500554992:0;clear
+: 1500554993:0;s
+: 1500554993:0;D
+: 1500554995:0;d
+: 1500554997:0;a insync.py
+: 1500554999:0;git diff origin/master 
+: 1500555007:0;a insync.py
+: 1500555007:0;clear
+: 1500555008:0;s
+: 1500555017:0;git commit --amend -m "Updated insync module with better symbols and recognizing a few more states"
+: 1500555019:0;git log
+: 1500555028:0;git push -f
+: 1500555042:0;clear
+: 1500555042:0;s
+: 1500555049:0;mv ~/my_insync.py insync.py
+: 1500555050:0;D
+: 1500555051:0;d
+: 1500555059:0;clear
+: 1500555059:0;s
+: 1500555062:0;a insync.py
+: 1500555075:0;clear
+: 1500555076:0;s
+: 1500555091:0;cp insync.py ~/my_insync.py
+: 1500555093:0;git stash
+: 1500555094:0;clear
+: 1500555094:0;s
+: 1500555095:0;D
+: 1500555096:0;clear
+: 1500555205:0;git commit --amend -m "Updated Insync module to recognise SYNCED state"
+: 1500555209:0;git log
+: 1500555212:0;git push -f
+: 1500555249:0;vim insync.py ~/my_insync.py
+: 1500555261:0;clear
+: 1500555261:0;s
+: 1500555263:0;vim insync.py
+: 1500555358:0;clear
+: 1500555358:0;s
+: 1500555359:0;D
+: 1500555361:0;d
+: 1500555365:0;a insync.py
+: 1500555377:0;m "Update doc"
+: 1500555399:0;clear
+: 1500555400:0;p
+: 1500555422:0;clear
+: 1500555422:0;s
+: 1500555431:0;3src
+: 1500555473:0;clear
+: 1500555473:0;s
+: 1500555476:0;clear
+: 1500555476:0;s
+: 1500555480:0;git checkout master 
+: 1500555481:0;clear
+: 1500555481:0;s
+: 1500555485:0;git merge origin/apt_updates 
+: 1500555491:0;git merge origin/insync_updates 
+: 1500555507:0;vim insync.py
+: 1500555511:0;clear
+: 1500555511:0;s
+: 1500555516:0;git diff HEAD^
+: 1500555522:0;clear
+: 1500555522:0;s
+: 1500555524:0;git log
+: 1500555529:0;git push
+: 1500555546:0;clear
+: 1500555547:0;cd
+: 1500555548:0;clear
+: 1500555548:0;q
+: 1500555800:0;ls
+: 1500555855:0;when-changed test_file -c "diff test_file /tmp/test_file > diff; cp test_file > /tmp/test_file; echo "CHANGES:"; cat diff"
+: 1500555874:0;sudoedit   pip install https://github.com/joh/when-changed/archive/master.zip
+: 1500555885:0;sudo pip install https://github.com/joh/when-changed/archive/master.zip
+: 1500555901:0;sudo pip3 install https://github.com/joh/when-changed/archive/master.zip\
+
+: 1500555911:0;clear
+: 1500555913:0;when-changed test_file -c "diff test_file /tmp/test_file > diff; cp test_file > /tmp/test_file; echo "CHANGES:"; cat diff"
+: 1500555917:0;vim test_file
+: 1500555944:0;clear
+: 1500555987:0;when-changed test_file -c "touch /tmp/test_file; diff test_file /tmp/test_file > diff; cp test_file > /tmp/test_file; echo "CHANGES:"; cat diff"
+: 1500555998:0;when-changed test_file -c "touch /tmp/test_file; diff test_file /tmp/test_file > diff; cp test_file /tmp/test_file; echo "CHANGES:"; cat diff"
+: 1500556047:0;when-changed test_file -c "touch /tmp/test_file; diff test_file /tmp/test_file > diff; cp test_file /tmp/test_file; cat diff"
+: 1500556066:0;rm test_file
+: 1500556070:0;vim test_file
+: 1500556077:0;clear
+: 1500556088:0;echo 'when-changed test_file -c "touch /tmp/test_file; diff test_file /tmp/test_file > diff; cp test_file /tmp/test_file; cat diff"'
+: 1500556094:0;echo 'when-changed test_file -c "touch /tmp/test_file; diff test_file /tmp/test_file > diff; cp test_file /tmp/test_file; cat diff"' > xclip
+: 1500556105:0;echo 'when-changed test_file -c "touch /tmp/test_file; diff test_file /tmp/test_file > diff; cp test_file /tmp/test_file; cat diff"' > xclip -sel
+: 1500556114:0;echo 'when-changed test_file -c "touch /tmp/test_file; diff test_file /tmp/test_file > diff; cp test_file /tmp/test_file; cat diff"' > xclip -h
+: 1500556117:0;xclip -h
+: 1500556120:0;echo 'when-changed test_file -c "touch /tmp/test_file; diff test_file /tmp/test_file > diff; cp test_file /tmp/test_file; cat diff"' > xclip -i
+: 1500556315:0;pkill nm-applet
+: 1500556334:0;clear
+: 1500556341:0;xsel
+: 1500556346:0;sudo apt install xsel
+: 1500556357:0;z proj
+: 1500556357:0;.
+: 1500556359:0;cd blogs
+: 1500556359:0;.
+: 1500556361:0;cd blog
+: 1500556361:0;.
+: 1500556370:0;git pull
+: 1500556435:0;vim index.md
+: 1500556447:0;sudo apt install mdl
+: 1500556455:0;npm install -g mdl
+: 1500556492:0;clear
+: 1500556492:0;s
+: 1500556493:0;a index.md
+: 1500556494:0;p
+: 1500556499:0;m "Init"
+: 1500556501:0;git pull
+: 1500556507:0;p
+: 1500556509:0;clear
+: 1500556510:0;s
+: 1500556513:0;rm my_insync.py
+: 1500556514:0;.
+: 1500556517:0;rm test_file xclip
+: 1500556517:0;.
+: 1500556521:0;rm diff
+: 1500556536:0;rm /tmp/tanks.js~ /tmp/test_file /tmp/test_file~ /tmp/tmp.k4vlf0ywVm /tmp/tmp.pugtYuPsDA 
+: 1500556537:0;clear
+: 1500556537:0;s
+: 1500556539:0;.
+: 1500556539:0;q
+: 1500556541:0;clear
+: 1500556541:0;s
+: 1500556542:0;vim index.md
+: 1500556601:0;clear
+: 1500556601:0;s
+: 1500556603:0;p
+: 1500556605:0;clear
+: 1500556606:0;s
+: 1500556619:0;git remote -v
+: 1500556647:0;git remote remove origin 
+: 1500556652:0;git remote add origin git@github.com:Cypher1/tanks.git
+: 1500556654:0;clear
+: 1500556655:0;git remote -v
+: 1500556657:0;clear
+: 1500556658:0;git push
+: 1500556662:0;git push -u origin master 
+: 1500556676:0;clear
+: 1500556676:0;s
+: 1500556698:0;ls
+: 1500556702:0;pulp build
+: 1500556721:0;sudo apt install xsel
+: 1500556730:0;xsel
+: 1500556741:0;sudo apt install xev
+: 1500556744:0;sudo apt install xevil
+: 1500556750:0;xev
+: 1500556845:0;vim ~/.config/Xmodmap
+: 1500556859:0;xev
+: 1500556890:0;q
+: 1500556892:0;clear
+: 1500556892:0;s
+: 1500556898:0;3r
+: 1500556901:0;3rc
+: 1500556915:0;xmodmap ~/.config/Xmodmap
+: 1500556925:0;clear
+: 1500556927:0;vim ~/.config/Xmodmap
+: 1500556968:0;xmodmap ~/.config/Xmodmap
+: 1500556987:0;xmodmap -e "keycode 110 = Home"
+: 1500556990:0;xmodmap -e "keycode 115 = End"
+: 1500556992:0;clear
+: 1500557005:0;q
+: 1500557008:0;clear
+: 1500557159:0;vim /etc/inputrc
+: 1500557197:0;cat
+: 1500557214:0;vim /etc/inputrc
+: 1500557287:0;infocmp $TERM > terminfo.src
+: 1500557290:0;ls terminfo.src
+: 1500557292:0;cat terminfo.src
+: 1500557295:0;rm terminfo.src
+: 1500557295:0;.
+: 1500557312:0;infocmp $TERM > terminfo.src
+: 1500557315:0;tic terminfo.src
+: 1500557337:0;mv terminfo.src ~/.terminfo.src
+: 1500557343:0;export TERMINFO=~/.terminfo
+: 1500557350:0;q
+: 1500557368:0;zrc
+: 1500557412:0;cat > xsel -i
+: 1500557415:0;ls
+: 1500557417:0;rm xsel
+: 1500557421:0;cat | xsel -i
+: 1500557429:0;xsel
+: 1500557442:0;cat
+: 1500557462:0;exec zsh
+: 1500557471:0;q
+: 1500557474:0;clear
+: 1500557475:0;s
+: 1500557478:0;cd ~/.config
+: 1500557479:0;.
+: 1500557481:0;s
+: 1500557483:0;D
+: 1500557484:0;d
+: 1500557490:0;vim Xmodmap
+: 1500557495:0;clear
+: 1500557495:0;s
+: 1500557499:0;d i3
+: 1500557516:0;a i3
+: 1500557524:0;m "Better formatting and symbols"
+: 1500557525:0;clear
+: 1500557525:0;s
+: 1500557529:0;d zshrc
+: 1500557533:0;a zshrc
+: 1500557543:0;m "Usablility improvements"
+: 1500557544:0;clear
+: 1500557544:0;s
+: 1500557549:0;D
+: 1500557550:0;d
+: 1500557571:0;gi nvim/.netrwhist
+: 1500557572:0;clear
+: 1500557572:0;s
+: 1500557575:0;a .gitignore
+: 1500557576:0;clear
+: 1500557576:0;s
+: 1500557589:0;git rm --cached nvim/.netrwhist
+: 1500557590:0;clear
+: 1500557590:0;s
+: 1500557598:0;m "Removed netrw"
+: 1500557599:0;clear
+: 1500557599:0;s
+: 1500557608:0;cat configstore
+: 1500557610:0;cat configstore/*
+: 1500557614:0;gi configstore
+: 1500557615:0;clear
+: 1500557615:0;s
+: 1500557620:0;cat Thunar/*
+: 1500557622:0;clear
+: 1500557625:0;gi Thunar
+: 1500557626:0;clear
+: 1500557626:0;s
+: 1500557632:0;cat gtk-2.0/*
+: 1500557638:0;gi gtk-2.0
+: 1500557639:0;clear
+: 1500557640:0;s
+: 1500557643:0;a .gitignore
+: 1500557643:0;clear
+: 1500557644:0;s
+: 1500557648:0;m "More ignore"
+: 1500557649:0;clear
+: 1500557649:0;s
+: 1500557651:0;D
+: 1500557651:0;d
+: 1500557660:0;git add zsh_history; git commit -m "More history"
+: 1500557661:0;clear
+: 1500557662:0;p
+: 1500557688:0;clear
+: 1500557690:0;s
+: 1500557691:0;cd
+: 1500557692:0;clear
+: 1500557692:0;s
+: 1500557703:0;.
+: 1500557704:0;cd
+: 1500557705:0;.
+: 1500557709:0;cd Projects
+: 1500557709:0;.
+: 1500557738:0;cd games
+: 1500557739:0;.
+: 1500557741:0;cd purescript-games
+: 1500557741:0;.
+: 1500557848:0;rm -rf *
+: 1500557850:0;ls
+: 1500557856:0;rm -rf .*
+: 1500557856:0;.
+: 1500557859:0;git init
+: 1500557883:0;pulp init
+: 1500557896:0;xsel
+: 1500557903:0;xsel > Snake.purs
+: 1500557906:0;mkdir src
+: 1500557908:0;ls
+: 1500557912:0;mv Snake.purs src
+: 1500557912:0;.
+: 1500557922:0;vim bower
+: 1500557925:0;vim bower.json
+: 1500557946:0;bower install purescript-canvas
+: 1500557963:0;q
+: 1500558021:0;bower install purescript-generics purescript-off purescript--lists purescript-maybe purescript-tuples purescript-signal purescript-random purescript-foldable-traversable purescript-integers purescript-partial purescript-console purescript-transformers purescript-quickcheck
+: 1500558044:0;bower install purescript-generics purescript-eff purescript--lists purescript-maybe purescript-tuples purescript-signal purescript-random purescript-foldable-traversable purescript-integers purescript-partial purescript-console purescript-transformers purescript-quickcheck
+: 1500558059:0;bower install purescript-generics purescript-eff purescript-lists purescript-maybe purescript-tuples purescript-signal purescript-random purescript-foldable-traversable purescript-integers purescript-partial purescript-console purescript-transformers purescript-quickcheck
+: 1500558093:0;bower install purescript-psci-support
+: 1500558111:0;pulp build
+: 1500558124:0;vim src/Snake.purs
+: 1500558136:0;bower install purescript-signal
+: 1500558175:0;xsel > src/SignalM.purs
+: 1500558176:0;clear
+: 1500558177:0;s
+: 1500558181:0;pulp build
+: 1500558220:0;vim src/Snake.purs
+: 1500558229:0;vim src/SignalM.purs
+: 1500559247:0;clear
+: 1500559298:0;pulp build
+: 1500559301:0;ls
+: 1500559316:0;ls test/Main.purs
+: 1500559317:0;clear
+: 1500559318:0;ls
+: 1500559320:0;cd output
+: 1500559320:0;ls
+: 1500559323:0;clear
+: 1500559324:0;cd ..
+: 1500559324:0;.
+: 1500559328:0;cat bower.json
+: 1500559334:0;clear
+: 1500559383:0;bower install -S purescript-generics purescript-eff purescript-lists purescript-maybe purescript-tuples purescript-signal purescript-random purescript-foldable-traversable purescript-integers purescript-partial purescript-console purescript-transformers purescript-quickcheck
+: 1500559393:0;vim bower.json
+: 1500559396:0;clear
+: 1500559396:0;s
+: 1500559406:0;.
+: 1500559455:0;pulp -h
+: 1500559461:0;pulp browserify
+: 1500559481:0;clear
+: 1500559514:0;mkdir dist
+: 1500559518:0;pulp build
+: 1500559540:0;pulp browserify -m Snake/index.js >> dist/Snake.js
+: 1500559550:0;mk html
+: 1500559553:0;vim index.html
+: 1500559570:0;clear
+: 1500559571:0;s
+: 1500559577:0;clear
+: 1500559577:0;s
+: 1500559588:0;open index.html
+: 1500559609:0;clear
+: 1500559609:0;s
+: 1500559612:0;a .gitignore
+: 1500559613:0;clear
+: 1500559613:0;s
+: 1500559616:0;a bower.json
+: 1500559616:0;clear
+: 1500559617:0;s
+: 1500559620:0;gi dist
+: 1500559624:0;a src
+: 1500559625:0;a test
+: 1500559627:0;a html
+: 1500559627:0;.
+: 1500559628:0;s
+: 1500559629:0;a .gitignore
+: 1500559637:0;m "Init (now building)"
+: 1500559713:0;git remote add origin git@github.com:Cypher1/Snake.git
+: 1500559714:0;clear
+: 1500559714:0;s
+: 1500559717:0;vim .gitignore
+: 1500559723:0;.
+: 1500559730:0;s
+: 1500559731:0;clear
+: 1500559731:0;s
+: 1500559734:0;git status
+: 1500559737:0;git status -a
+: 1500559740:0;clear
+: 1500559744:0;git status -v
+: 1500559746:0;clear
+: 1500559746:0;q
+: 1500559753:0;p
+: 1500559757:0;p -u origin master
+: 1500559834:0;xsel > makefile
+: 1500559836:0;vim makefile
+: 1500559860:0;make
+: 1500559892:0;vim makefile
+: 1500559932:0;npm install -g psc
+: 1500559937:0;npm install -g psc-docs
+: 1500559940:0;npm install -g psc-doc
+: 1500559949:0;make
+: 1500559958:0;vim makefile
+: 1500560140:0;clear
+: 1500560141:0;psc
+: 1500560146:0;npm install -g psc
+: 1500560148:0;psc
+: 1500560175:0;/usr/local/lib/node_modules/psc/README.md
+: 1500560274:0;mv ~/Downloads/psc-package /usr/bin
+: 1500560276:0;sudo mv ~/Downloads/psc-package /usr/bin
+: 1500560286:0;clear
+: 1500560288:0;psc-package
+: 1500560290:0;make
+: 1500560298:0;vim makefile
+: 1500560333:0;mv /usr/bin/psc-package /usr/bin/psc
+: 1500560334:0;sudo mv /usr/bin/psc-package /usr/bin/psc
+: 1500560336:0;vim makefile
+: 1500560338:0;clear
+: 1500560339:0;make
+: 1500560366:0;mv /usr/bin/psc /usr/bin/psc-package
+: 1500560367:0;sudo mv /usr/bin/psc /usr/bin/psc-package
+: 1500560368:0;clear
+: 1500560522:0;purs repl
+: 1500560527:0;pulp psci
+: 1500560706:0;clear
+: 1500560713:0;vim test.purs
+: 1500560737:0;mv test.purs src/Euler.purs
+: 1500560738:0;ls src
+: 1500560744:0;pulpe build
+: 1500560747:0;pulp build
+: 1500560756:0;vim src/Euler.purs
+: 1500560888:0;clear
+: 1500560889:0;ls
+: 1500560896:0;ls dist
+: 1500560919:0;pulp browserify -m Snake/Euler.js >> dist/Euler.js
+: 1500560927:0;clear
+: 1500560943:0;vim output/Snake/index.js
+: 1500560970:0;npm install eslint
+: 1500560974:0;sudo npm install eslint
+: 1500560993:0;sudo npm install -g eslint
+: 1500560998:0;cd
+: 1500560999:0;ls
+: 1500561000:0;q
+: 1500561002:0;clear
+: 1500561011:0;which eslint
+: 1500561012:0;q
+: 1500561106:0;cd dist
+: 1500561107:0;ls
+: 1500561110:0;rm Euler.js
+: 1500561111:0;.
+: 1500561115:0;wc Snake.js
+: 1500561120:0;cd ..
+: 1500561121:0;.
+: 1500561125:0;cd html
+: 1500561126:0;ls
+: 1500561127:0;cd ..
+: 1500561128:0;clear
+: 1500561128:0;ls
+: 1500561151:0;cd dist
+: 1500561152:0;.
+: 1500561154:0;vim Snake.js
+: 1500561308:0;clear
+: 1500561361:0;cd
+: 1500561362:0;git clone git://github.com/mishoo/UglifyJS.git\
+
+: 1500561368:0;clear
+: 1500561369:0;ls
+: 1500561386:0;mkdir -p ~/.node_libraries
+: 1500561408:0;cd ~/.node_libraries
+: 1500561415:0;mv ~/UglifyJS .
+: 1500561416:0;ls
+: 1500561419:0;cd .
+: 1500561438:0;ln -s ~/.node_libraries/UglifyJS/bin/uglifyjs /usr/local/bin
+: 1500561441:0;uglify
+: 1500561463:0;ln -s ~/.node_libraries/UglifyJS/bin/uglifyjs /usr/bin/uglify
+: 1500561465:0;sudo ln -s ~/.node_libraries/UglifyJS/bin/uglifyjs /usr/bin/uglify
+: 1500561471:0;uglifyjs
+: 1500561477:0;cd ..
+: 1500561480:0;uglify
+: 1500561483:0;clear
+: 1500561485:0;q
+: 1500561490:0;uglify Snake.js
+: 1500561494:0;clear
+: 1500561502:0;uglify Snake.js > Snake.js.min
+: 1500561506:0;..
+: 1500561509:0;vim html/index.html
+: 1500561524:0;cd dist
+: 1500561525:0;.
+: 1500561529:0;wc *
+: 1500561536:0;du -hs *
+: 1500561570:0;s
+: 1500561815:0;pm-suspend
+: 1500561817:0;sudo pm-suspend
+: 1500561862:0;s2ram
+: 1500561871:0;cat /sys/power/state
+: 1500561881:0;clear
+: 1500561883:0;shutdown
+: 1500589176:0;gnome-settings-daemon
+: 1500589181:0;clear
+: 1500589182:0;s
+: 1500589191:0;q
+: 1500589195:0;cd
+: 1500589483:0;lsusb
+: 1500589496:0;cat /proc/acpi/wakeup
+: 1500589517:0;3rc
+: 1500589539:0;cat /proc/acpi/wakeup | grep enable
+: 1500589586:0;echo "XHC1" > /proc/acpi/wakeup
+: 1500589587:0;sudo echo "XHC1" > /proc/acpi/wakeup
+: 1500589612:0;sudo echo XHC1 > /proc/acpi/wakeup
+: 1500589621:0;su
+: 1500589960:0;sudo echo XHC1 > /proc/acpi/wakeup
+: 1500589960:0;sudo echo LID0 > /proc/acpi/wakeup
+: 1500589960:0;exit
+: 1500589641:0;echo "XHC1" > /proc/acpi/wakeup
+: 1500589646:0;cat /proc/acpi/wakeup | grep enable
+: 1500589647:0;clear
+: 1500589664:0;chown -R cypher:cypher /proc/acpi/wakeup
+: 1500589665:0;sudo chown -R cypher:cypher /proc/acpi/wakeup
+: 1500589671:0;echo "XHC1" > /proc/acpi/wakeup
+: 1500589677:0;cat /proc/acpi/wakeup | grep enable
+: 1500589678:0;echo "XHC1" > /proc/acpi/wakeup
+: 1500589680:0;cat /proc/acpi/wakeup | grep enable
+: 1500589682:0;clear
+: 1500589848:0;reboot
+: 1500589921:0;gnome-settings-daemon
+: 1500589923:0;clear
+: 1500589923:0;s
+: 1500589926:0;cat /proc/acpi/wakeup | grep enable
+: 1500589932:0;3rc
+: 1500589960:0;q
+: 1500589966:0;3rc
+: 1500589989:0;cat /proc/acpi/wakeup | grep enable
+: 1500589993:0;i3-msg restart
+: 1500589995:0;cat /proc/acpi/wakeup | grep enable
+: 1500590227:0;clear
+: 1500590230:0;cat /proc/acpi/wakeup | grep enable
+: 1500590237:0;ls -la /proc/acpi/wakeup
+: 1500590240:0;sudo chown -R cypher:cypher /proc/acpi/wakeup
+: 1500590245:0;ls -la /proc/acpi/wakeup
+: 1500590381:0;vim ~/.config/wakeup.sh
+: 1500590406:0;~/.config/wakeup.sh
+: 1500590408:0;cat /proc/acpi/wakeup | grep enable
+: 1500590412:0;~/.config/wakeup.sh
+: 1500590413:0;cat /proc/acpi/wakeup | grep enable
+: 1500590429:0;cat /proc/acpi/wakeup
+: 1500590434:0;clear
+: 1500590460:0;~/.config/wakeup.sh
+: 1500590622:0;clear
+: 1500590623:0;s
+: 1500590625:0;clear
+: 1500590625:0;s
+: 1500590626:0;q
+: 1500590628:0;cd .config
+: 1500590628:0;ls
+: 1500590629:0;s
+: 1500590653:0;q
+: 1500590656:0;clear
+: 1500590656:0;s
+: 1500590659:0;cd .config
+: 1500590659:0;s
+: 1500590663:0;a i3/config wakeup.sh
+: 1500590664:0;clear
+: 1500590664:0;s
+: 1500590672:0;m "Hopefully fixed suspend issues"
+: 1500590673:0;p
+: 1500590751:0;gnome-settings-daemon
+: 1500590754:0;clear
+: 1500590754:0;s
+: 1500590757:0;cat /proc/acpi/wakeup
+: 1500590764:0;q
+: 1500590806:0;./wakeup.sh
+: 1500590820:0;vim /etc/sudoers
+: 1500590833:0;cat /etc/sudoers.d/*
+: 1500590835:0;sudo cat /etc/sudoers.d/*
+: 1500590867:0;vim /etc/sudoers.d/wakeup_settings
+: 1500590895:0;sudo vim /etc/sudoers.d/wakeup_settings /etc/sudoers.d/mintupdate
+: 1500590944:0;clear
+: 1500590945:0;s
+: 1500590947:0;cat /etc/sudoers.d/mintupdate /etc/sudoers.d/README /etc/sudoers.d/wakeup_settings 
+: 1500590957:0;reboot
+: 1500591001:0;gnome-settings-daemon
+: 1500591003:0;clear
+: 1500591003:0;s
+: 1500591019:0;cat /proc/acpi/wakeup
+: 1500591026:0;./wakeup.sh
+: 1500591033:0;pwd
+: 1500591038:0;vim /etc/sudoers.d/wakeup_settings
+: 1500591047:0;3rc
+: 1500591090:0;/home/cypher/.config/wakeup.sh 2&> /tmp/wakeup_log
+: 1500591094:0;cat /tmp/wakeup_log
+: 1500591116:0;clear
+: 1500591146:0;sudo vim /etc/sudoers.d/wakeup_settings
+: 1500591180:0;clear
+: 1500591180:0;s
+: 1500591182:0;./wakeup.sh
+: 1500591184:0;clear
+: 1500591184:0;s
+: 1500591287:0;vim wakeup.sh
+: 1500591321:0;./wakeup.sh
+: 1500591330:0;reboot
+: 1500591404:0;gnome-settings-daemon
+: 1500591415:0;sudo service network-manager restart
+: 1500591423:0;pkill nm-applet
+: 1500591441:0;cat /tmp/wakeup_log
+: 1500591448:0;cat /proc/acpi/wakeup | grep enabled
+: 1500591455:0;3rc
+: 1500591472:0;q
+: 1500591487:0;sudo service network-manager restart
+: 1500591494:0;pkill nm-applet
+: 1500591516:0;./wakeup.sh
+: 1500591517:0;cat /proc/acpi/wakeup | grep enabled
+: 1500591580:0;q
+: 1500591637:0;sudo vim /etc/mdm/mdm.conf
+: 1500591909:0;clear
+: 1500591909:0;s
+: 1500591915:0;cat /proc/acpi/wakeup | grep enabled
+: 1500591916:0;clear
+: 1500591917:0;s
+: 1500591920:0;a i3/config wakeup.sh
+: 1500591921:0;D
+: 1500591943:0;m "Probably fixed suspend issues by adding more sudo... what could go wrong"
+: 1500591944:0;p
+: 1500591958:0;/usr/bin/mdm --version
+: 1500591978:0;/usr/sbin/mdm --version
+: 1500591984:0;mdm
+: 1500591986:0;sudo mdm
+: 1500591993:0;clear
+: 1500591993:0;s
+: 1500591994:0;q
+: 1500592187:0;sudo mdmsetup
+: 1500592211:0;sudo vim /etc/mdm/mdm.conf
+: 1500592554:0;sudo apt install lightdm indicator-session unity-greeter ubuntu-mono light-themes
+: 1500592583:0;sudo vim /etc/lightdm/lightdm.conf.d
+: 1500592630:0;clear
+: 1500592641:0;reboot
+: 1500592732:0;clear
+: 1500592732:0;s
+: 1500592733:0;startx
+: 1500592770:0;i3
+: 1500592774:0;exit
+: 1500592886:0;sudo vim /etc/lightdm/lightdm.conf.d
+: 1500592925:0;reboot
+: 1500592996:0;sudo apt remove mdm
+: 1500593007:0;sudo apt autoremove
+: 1500593009:0;reboot
+: 1500595216:0;clear
+: 1500595220:0;echo $USER
+: 1500595222:0;clear
+: 1500595223:0;cd
+: 1500595224:0;clear
+: 1500595224:0;s
+: 1500595233:0;sudo apt install mdm
+: 1500595249:0;sudo apt remove lightdm
+: 1500595260:0;sudo apt remove unity-greeter
+: 1500595264:0;exit
+: 1500595290:0;startx
+: 1500595343:0;chown -R cypher:cypher .Xauthority
+: 1500595345:0;sudo chown -R cypher:cypher .Xauthority
+: 1500595367:0;startx
+: 1500595393:0;reboot
+: 1500595557:0;i3-msg restart
+: 1500595563:0;gnome-settings-daemon
+: 1500595569:0;clear
+: 1500595585:0;ls
+: 1500595597:0;xmodmap .config/Xmodmap
+: 1500595601:0;q
+: 1500595606:0;xrandr --dpi 200 --output eDP1 --gamma 0:0:0 --scale 1x1
+: 1500595611:0;3rc
+: 1500595649:0;i3-msg -h
+: 1500595654:0;i3-msg restart
+: 1500595669:0;xrandr --dpi 200 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1500595675:0;nm-applet &
+: 1500595689:0;vim /home/cypher/.config/gtk-3.0/settings.ini
+: 1500595698:0;nm-applet &
+: 1500595704:0;reboot
+: 1500595710:0;clear
+: 1500595711:0;s
+: 1500595718:0;vim /etc/mdm/mdm.conf
+: 1500595736:0;clear
+: 1500595736:0;s
+: 1500595739:0;reboot
+: 1500595874:0;xmodmap .config/Xmodmap
+: 1500595877:0;xrandr --dpi 200 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1500595894:0;q
+: 1500595904:0;pkill gnome-settings-
+: 1500595906:0;clear
+: 1500595906:0;s
+: 1500595907:0;q
+: 1500595930:0;cd Drive
+: 1500595930:0;ls
+: 1500595931:0;cd ..
+: 1500595933:0;i3-msg restart
+: 1500595941:0;ls
+: 1500595944:0;startx
+: 1500596054:0;clear
+: 1500596081:0;sudo restart mdm
+: 1500596088:0;sudo restart lightdm
+: 1500596095:0;sudo restart mdm
+: 1500596116:0;sudo systemctl restart mdm.service
+: 1500596148:0;pkill gnome-settings-d
+: 1500596150:0;sudo systemctl restart mdm.service
+: 1500596287:0;ls
+: 1500596291:0;what
+: 1500596313:0;vim /etc/pam.d/common-session
+: 1500596336:0;vim /etc/pam.d/common-auth
+: 1500596373:0;ecryptfs-setup-private
+: 1500596441:0;sudo vim /etc/mdm/mdm.conf
+: 1500596454:0;reboot
+: 1500596505:0;ls
+: 1500596506:0;cd
+: 1500596510:0;z Py3
+: 1500596511:0;.
+: 1500596512:0;cd ..
+: 1500596513:0;..
+: 1500596516:0;cd games
+: 1500596516:0;.
+: 1500596521:0;cd purescript-games
+: 1500596521:0;ls
+: 1500596526:0;open html/index.html
+: 1500596596:0;clear
+: 1500596596:0;s
+: 1500596598:0;d
+: 1500596606:0;rm src/Euler.purs
+: 1500596607:0;clear
+: 1500596607:0;s
+: 1500596609:0;make
+: 1500596615:0;make clean
+: 1500596625:0;chown -R cypher:cypher node_modules
+: 1500596627:0;sudo chown -R cypher:cypher node_modules
+: 1500596631:0;clear
+: 1500596631:0;s
+: 1500596635:0;make clean
+: 1500596637:0;make
+: 1500596691:0;clear
+: 1500596692:0;s
+: 1500596695:0;rm makefile
+: 1500596696:0;clear
+: 1500596696:0;s
+: 1500596788:0;cd ~/.config
+: 1500596792:0;cd i3
+: 1500596792:0;ls
+: 1500596802:0;vim i3exit.sh
+: 1500596821:0;q
+: 1500596910:0;systemctl suspend
+: 1500596940:0;q
+: 1500596978:0;sudo service network-manager restart
+: 1500596996:0;q
+: 1500597048:0;systemctl status
+: 1500597058:0;q
+: 1500597157:0;clear
+: 1500597157:0;s
+: 1500597160:0;vim i3exit.sh
+: 1500597171:0;clear
+: 1500597171:0;s
+: 1500597172:0;q
+: 1500597173:0;sudo service network-manager restart
+: 1500597241:0;less /var/log/pm-suspend.log
+: 1500597253:0;pm-suspend
+: 1500597254:0;sudo pm-suspend
+: 1500597265:0;vim i3exit.sh
+: 1500597318:0;cd /etc/sudoers.d/
+: 1500597318:0;ls
+: 1500597325:0;cp wakeup_settings suspend
+: 1500597327:0;sudo cp wakeup_settings suspend
+: 1500597332:0;vim suspend
+: 1500597401:0;vim wakeup_settings
+: 1500597419:0;cat *
+: 1500597423:0;vim suspend
+: 1500597471:0;sudo vim suspend wakeup_settings
+: 1500597487:0;sudo vim wakeup_settings 
+: 1500597491:0;sudo vim suspend 
+: 1500597493:0;rm suspend
+: 1500597496:0;sudo rm suspend
+: 1500597499:0;clear
+: 1500597499:0;ls
+: 1500597504:0;su
+: 1500597588:0;ls
+: 1500597588:0;vim suspend 
+: 1500597588:0;clear
+: 1500597588:0;ls
+: 1500597588:0;cat *
+: 1500597588:0;cd ..
+: 1500597588:0;exit
+: 1500597530:0;clear
+: 1500597530:0;s
+: 1500597533:0;vim *
+: 1500597541:0;sudo vim suspend 
+: 1500597546:0;su
+: 1500597568:0;which pm-suspend
+: 1500597581:0;sudo vim suspend 
+: 1500597588:0;q
+: 1500598356:0;vim suspend 
+: 1500598356:0;q
+: 1500598356:0;exit
+: 1500597592:0;clear
+: 1500598356:0;q
+: 1500598373:0;man shutdown
+: 1500598390:0;man pm-suspend
+: 1500598404:0;man systemctl suspend
+: 1500598414:0;clear
+: 1500598414:0;s
+: 1500598416:0;cd
+: 1500598416:0;.
+: 1500598418:0;cd Proj
+: 1500598418:0;.
+: 1500598421:0;Projects
+: 1500598421:0;.
+: 1500598428:0;clear
+: 1500598428:0;s
+: 1500598438:0;vim makefile
+: 1500598456:0;cd games/purescript-games
+: 1500598456:0;ls
+: 1500598457:0;.
+: 1500598463:0;pulp build
+: 1500598477:0;bower install
+: 1500598483:0;vim bower.json
+: 1500598489:0;open html/index.html
+: 1500598512:0;make play
+: 1500598519:0;clear
+: 1500598537:0;make 
+: 1500598575:0;make install
+: 1500598596:0;vim src/Snake.purs
+: 1500598641:0;sudo service network-manager restart
+: 1500598653:0;insync-headless pause
+: 1500598657:0;insync-headless pause-syncing
+: 1500598662:0;insync-headless pause_syncing
+: 1500598687:0;bower install -S purescript-graphics
+: 1500598720:0;bower install -S purescript-contrib
+: 1500598738:0;bower install -S purescript-canvas
+: 1500598743:0;vim src/Snake.purs
+: 1500598750:0;make install
+: 1500598753:0;make
+: 1500599468:0;q
+: 1500599480:0;make
+: 1500599520:0;make play
+: 1500599595:0;ls -la
+: 1500599614:0;make clean
+: 1500599626:0;make
+: 1500599651:0;clear
+: 1500599651:0;s
+: 1500599655:0;d bower.json
+: 1500599658:0;a bower.json
+: 1500599661:0;m "Updates"
+: 1500599662:0;clear
+: 1500599663:0;s
+: 1500599669:0;a html/index.html
+: 1500599671:0;D
+: 1500599674:0;a makefile
+: 1500599682:0;m "Use makefile and uglify"
+: 1500599683:0;clear
+: 1500599683:0;s
+: 1500599689:0;vim bower.json
+: 1500599708:0;vim .gitignore
+: 1500599713:0;clear
+: 1500599713:0;s
+: 1500599726:0;pulp test
+: 1500599749:0;make
+: 1500599761:0;make clean
+: 1500599764:0;make
+: 1500599774:0;make test
+: 1500599794:0;make
+: 1500599840:0;clear
+: 1500599840:0;s
+: 1500599841:0;D
+: 1500599842:0;d
+: 1500599848:0;a makefile
+: 1500599865:0;m "Cleanup makefile and use pulp test instead of build to ensure that tests are run"
+: 1500599867:0;clear
+: 1500599867:0;s
+: 1500599918:0;psci
+: 1500599929:0;psc-package
+: 1500599935:0;clear
+: 1500599938:0;psc-package build
+: 1500599941:0;clear
+: 1500599955:0;pulp psci
+: 1500600053:0;clear
+: 1500600053:0;s
+: 1500600055:0;d
+: 1500600061:0;glog
+: 1500600074:0;vim test/Main.purs
+: 1500600088:0;pulp psci
+: 1500600140:0;clear
+: 1500600140:0;s
+: 1500600143:0;q
+: 1500600185:0;make test
+: 1500600191:0;pulp test
+: 1500600197:0;clear
+: 1500600204:0;q
+: 1500601826:0;clear
+: 1500601826:0;s
+: 1500601827:0;D
+: 1500601829:0;d
+: 1500601842:0;sudo service network-manager restart
+: 1500601986:0;sudo systemctl suspend
+: 1500602165:0;insync-headless resume_syncing
+: 1500602173:0;3src
+: 1500602297:0;insync-headless status
+: 1500602301:0;insync-headless get_status
+: 1500602369:0;insync-headless get_status | grep 'PAUSED' && insync-headless resume_syncing || insync-headless pause_syncing
+: 1500602375:0;insync-headless get_status
+: 1500602376:0;insync-headless get_status | grep 'PAUSED' && insync-headless resume_syncing || insync-headless pause_syncing
+: 1500602377:0;insync-headless get_status
+: 1500602390:0;insync-headless get_status | grep 'PAUSED' && insync-headless pause_syncing || insync-headless resume_syncing
+: 1500602391:0;insync-headless get_status
+: 1500602394:0;insync-headless get_status | grep 'PAUSED' && insync-headless pause_syncing || insync-headless resume_syncing
+: 1500602395:0;insync-headless get_status
+: 1500602416:0;insync-headless get_status | grep 'PAUSED' && insync-headless pause_syncing || insync-headless resume_syncing
+: 1500602417:0;insync-headless get_status
+: 1500602461:0;insync-headless get_status | grep 'PAUSED' && echo "UNPAUSE" || echo "PAUSE"
+: 1500602471:0;insync-headless resume_syncing
+: 1500602473:0;insync-headless get_status | grep 'PAUSED' && echo "UNPAUSE" || echo "PAUSE"
+: 1500608870:0;(insync-headless get_status | grep 'PAUSED') && echo "UNPAUSE" || echo "PAUSE"
+: 1500608880:0;((insync-headless get_status | grep 'PAUSED') && echo "UNPAUSE") || echo "PAUSE"
+: 1500608902:0;clear
+: 1500608902:0;s
+: 1500608910:0;q
+: 1500608912:0;clear
+: 1500608912:0;s
+: 1500608921:0;3src
+: 1500609420:0;amixer -D pulse set Master toggle
+: 1500609451:0;i3-msg exec 'amixer -D pulse set Master toggle'
+: 1500609506:0;clear
+: 1500609506:0;s
+: 1500609509:0;D
+: 1500609510:0;q
+: 1500609512:0;clear
+: 1500609513:0;s
+: 1500609513:0;q
+: 1500609517:0;d
+: 1500609522:0;q
+: 1500609533:0;cd
+: 1500609535:0;htop
+: 1500609569:0;clear
+: 1500609577:0;powertop
+: 1500609578:0;sudo powertop
+: 1500609703:0;clear
+: 1500609703:0;s
+: 1500609705:0;clear
+: 1500609705:0;s
+: 1500609709:0;q
+: 1500609710:0;s
+: 1500609712:0;clear
+: 1500609712:0;ls
+: 1500609713:0;cd Proj
+: 1500609716:0;z proj
+: 1500609716:0;.
+: 1500609719:0;ls AI
+: 1500609733:0;cd AI/Haskell_Predicate_Logic
+: 1500609733:0;.
+: 1500609736:0;make clean
+: 1500609738:0;clean
+: 1500609739:0;.
+: 1500609742:0;ls test
+: 1500609743:0;./test
+: 1500609745:0;clear
+: 1500609774:0;q
+: 1500609787:0;cd ../../games/pyg
+: 1500609787:0;.
+: 1500609793:0;python3 World.py
+: 1500609796:0;vim World.py
+: 1500609905:0;python3 World.py
+: 1500609911:0;clear
+: 1500681303:0;q
+: 1500683150:0;pkill gnome-settings-d
+: 1500683153:0;pkill gnome-settings-daemon
+: 1500683155:0;gnome-settings-daemon
+: 1500683157:0;clear
+: 1500683157:0;s
+: 1500683159:0;pkill gnome-settings-daemon
+: 1500683161:0;sudo pkill gnome-settings-daemon
+: 1500683165:0;clear
+: 1500683165:0;s
+: 1500683174:0;sudo apt-get install libjogl-java
+: 1500683182:0;sudo apt-get install libjogl2-java
+: 1500683191:0;sudo apt autoremove
+: 1500683198:0;q
+: 1500683199:0;clear
+: 1500683208:0;pgrep gnome
+: 1500683216:0;pkill -15 1659
+: 1500683220:0;pkill -15 19001
+: 1500683224:0;pgrep gnome
+: 1500683231:0;ps -ef | grep gnome
+: 1500683244:0;pkill -9 gnome-settings-
+: 1500683247:0;ps -ef | grep gnome
+: 1500683259:0;ps -ef | grep gnome-ses
+: 1500683271:0;pkill -9 1587
+: 1500683272:0;clear
+: 1500683273:0;s
+: 1500683274:0;d
+: 1500683276:0;clear
+: 1500683299:0;cd
+: 1500683304:0;mkdir Uni
+: 1500683305:0;.
+: 1500683306:0;cd Uni
+: 1500683306:0;.
+: 1500683309:0;mkdir Graphics
+: 1500683313:0;mkdir ANNs
+: 1500683316:0;mkdir Webapps
+: 1500683318:0;cd Graphics
+: 1500683318:0;.
+: 1500683331:0;vim version.jar
+: 1500683649:0;ls
+: 1500683669:0;javac
+: 1500683678:0;sudo apt-get install javacc
+: 1500683705:0;javac OneTriangleAWT.java
+: 1500683747:0;sudo apt-get purge openjdk-\*
+: 1500683795:0;sudo apt-get install openjdk-8-jdk
+: 1500683831:0;sudo apt-get install openjdk-8-jre
+: 1500683839:0;clear
+: 1500683844:0;sudo apt autoremove
+: 1500683848:0;javac OneTriangleAWT.java
+: 1500683982:0;q
+: 1500684025:0;[200~sudo apt-get install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev
+: 1500684025:0;sudo add-apt-repository ppa:eclipse-team/debian-package
+: 1500684029:0;clear
+: 1500684036:0;[200~sudo apt-get install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev
+: 1500684039:0;clear
+: 1500684044:0;sudo apt-get install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev\
+
+: 1500684059:0;sudo apt install mesa-common-dev
+: 1500684069:0;sudo apt install libdrm-dev
+: 1500684078:0;sudo apt install libdrm-dev libdrm2
+: 1500684113:0;sudo apt clean
+: 1500684117:0;sudo apt autoclean
+: 1500684129:0;sudo apt-get -f install
+: 1500684149:0;sudo apt-get -f install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev
+: 1500684157:0;sudo apt-get update
+: 1500684176:0;sudo apt-get -f install gcc libgl1-mesa-dev libglu1-mesa-dev xorg-dev libice-dev libsm-dev libx11-dev libxext-dev libxxf86vm-dev libxinerama-dev libxrandr-dev libxrender-dev
+: 1500684221:0;sudo add-apt-repository ppa:eclipse-team/debian-package
+: 1500684290:0;z Py3
+: 1500684292:0;clear
+: 1500684293:0;s
+: 1500684300:0;git checkout apt_updates 
+: 1500684301:0;clear
+: 1500684301:0;s
+: 1500684304:0;vim apt_updates.py
+: 1500684579:0;q
+: 1500684583:0;python apt_updates.py
+: 1500684592:0;python3 apt_updates.py
+: 1500685174:0;python3
+: 1500685212:0;git pull
+: 1500685273:0;git remote add ultrabug https://github.com/ultrabug/py3status.git
+: 1500685280:0;git pull ultrabug master
+: 1500685289:0;clear
+: 1500685293:0;python3 apt_updates.py
+: 1500685302:0;python3
+: 1500685333:0;q
+: 1500685369:0;clear
+: 1500685372:0;python3
+: 1500685399:0;clear
+: 1500685399:0;s
+: 1500685401:0;git status
+: 1500685410:0;git push
+: 1500685444:0;vim ../exceptions.py
+: 1500685452:0;clear
+: 1500685452:0;s
+: 1500685454:0;vim apt_updates.py
+: 1500685463:0;clear
+: 1500685475:0;vim apt_updates.py
+: 1500685489:0;python3 apt_updates.py
+: 1500685568:0;pip3 install py3status
+: 1500685574:0;pip3 update 
+: 1500685579:0;pip3 -h
+: 1500685604:0;pip3 uninstall py3status
+: 1500685626:0;q
+: 1500685631:0;pip3 uninstall py3status
+: 1500685635:0;q
+: 1500685637:0;sudo pip3 uninstall py3status
+: 1500685650:0;sudo pip3 install py3status
+: 1500685657:0;python3 apt_updates.py
+: 1500685660:0;clear
+: 1500685763:0;s
+: 1500685765:0;clear
+: 1500685765:0;s
+: 1500685767:0;clear
+: 1500685768:0;d
+: 1500685771:0;a apt_updates.py
+: 1500685772:0;s
+: 1500685778:0;clear
+: 1500685779:0;s
+: 1500685782:0;m "TEMP"
+: 1500685786:0;s
+: 1500685797:0;git reset HEAD
+: 1500685798:0;s
+: 1500685802:0;git reset HEAD^
+: 1500685803:0;clear
+: 1500685803:0;s
+: 1500688631:0;q
+: 1500689427:0;python3 World.py
+: 1500721763:0;clear
+: 1500721764:0;s
+: 1500721769:0;python3 World.py
+: 1500721797:0;clear
+: 1500721797:0;s
+: 1500721799:0;a
+: 1500721804:0;l
+: 1500721806:0;glog
+: 1500721808:0;a W
+: 1500721810:0;a World.py
+: 1500721815:0;m "Basic movement"
+: 1500721817:0;p
+: 1500721899:0;git remote add origin git@github.com:Cypher1/python_rogue.git
+: 1500721917:0;git push
+: 1500721921:0;git push -u origin master 
+: 1500721932:0;git pull
+: 1500721948:0;clear
+: 1500721948:0;s
+: 1500721952:0;git branch -v
+: 1500721955:0;git log
+: 1500721960:0;s
+: 1500721962:0;git push
+: 1500721963:0;s
+: 1500721967:0;git push -u origin master 
+: 1500721980:0;git merge origin/master 
+: 1500721983:0;d
+: 1500721985:0;q
+: 1500721990:0;s
+: 1500721993:0;cd pyg
+: 1500721997:0;z proj
+: 1500721998:0;.
+: 1500722000:0;cd games
+: 1500722000:0;ls
+: 1500722003:0;cd pyg
+: 1500722003:0;s
+: 1500722006:0;vim .gitignore
+: 1500722019:0;clear
+: 1500722020:0;s
+: 1500722021:0;a .gitignore
+: 1500722022:0;clear
+: 1500722022:0;s
+: 1500722029:0;git merge
+: 1500722033:0;m "Merge"
+: 1500722036:0;p -u origin master
+: 1500722137:0;s
+: 1500722139:0;d
+: 1500722142:0;a .
+: 1500722145:0;m "Pylint"
+: 1500722145:0;p
+: 1500722155:0;q
+: 1500722260:0;3src
+: 1500722263:0;3rc
+: 1500722291:0;q
+: 1500725279:0;xrandr --dpi 100 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1500725289:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1500725326:0;q
+: 1500728483:0;powertop
+: 1500728485:0;sudo powertop
+: 1500728583:0;q
+: 1500730824:0;clear
+: 1500730835:0;history | grep feh
+: 1500730839:0;cd ~/.config
+: 1500730847:0;cat zsh_history| grep feh
+: 1500730852:0;cat zsh_history| grep background
+: 1500730855:0;clear
+: 1500730857:0;s
+: 1500730859:0;d
+: 1500730865:0;a i3
+: 1500730866:0;D
+: 1500730879:0;m "Working on i3 settings"
+: 1500730880:0;clear
+: 1500730880:0;s
+: 1500730882:0;d
+: 1500730909:0;vim zsh_history
+: 1500731070:0;s
+: 1500731071:0;clear
+: 1500731071:0;s
+: 1500731072:0;d
+: 1500731084:0;clear
+: 1500731085:0;s
+: 1500731086:0;D
+: 1500731091:0;a zsh_history
+: 1500731091:0;D
+: 1500731099:0;clear
+: 1500731099:0;s
+: 1500731109:0;a zsh_history; git commit -m "More history"
