@@ -11,10 +11,11 @@ case "$1" in
         i3-msg exit
         ;;
     suspend)
-        lock && systemctl suspend
+        lock&
+        sudo pm-suspend
         ;;
     shutdown)
-        systemctl poweroff
+        shutdown 0
         ;;
     *)
         echo "Usage: $0 {lock|logout|suspend|hibernate|reboot|shutdown}"
