@@ -114,7 +114,7 @@ function confirm {
 function lamb () {
     if command -v "hoogle" > /dev/null 2>&1; then
     else
-        confirm "Install Hoogle?" && cabal install hoogle
+        confirm "Install Hoogle?" && stack install hoogle
     fi
     hoogle generate;
     hoogle "$@" | ccat;
@@ -126,6 +126,7 @@ export SAVEHIST=1000000                # save history after logout
 export HISTFILE=~/.config/zsh_history  # history file
 setopt INC_APPEND_HISTORY              # append into history file
 setopt HIST_IGNORE_DUPS                # save only one command if 2 common are same and consistent
+setopt no_bang_hist # turn off history expansion using !
 
 # GIT COMMANDS
 function gitbranchcheck { # FUNCTION TO CHECKOUT OR CREATE A BRANCH
@@ -162,14 +163,14 @@ alias s="git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"
+alias P="git pull --ff-only"
+alias gc="git rebase --continue"
 alias d="git diff"
 alias D="git diff --staged"
 alias b="gitbranchcheck"
 alias g="git log --graph"
 alias gi="gitignore"
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sed 's/author //' | sed 's/cypher/Joshua Pratt/' | sed 's/kat333/Katherine Perdikis/'; done | sort -f | uniq -ic | sort -n"
-alias gitnuke="confirm 'CONFIRM NUKE' && git fetch origin && git reset --hard origin/master"
-alias P='git fetch && git diff origin/master && confirm "Pull?" && git pull'
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 alias ho="heroku open"
