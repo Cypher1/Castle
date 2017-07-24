@@ -281,8 +281,8 @@ bindsym XF86AudioLowerVolume exec "amixer -D pulse sset Master '5%-' && killall 
 bindsym XF86AudioMute exec "amixer -D pulse set Master toggle && killall -SIGUSR1 py3status"
 
 # BRIGHTNESS #
-bindsym XF86MonBrightnessUp exec "xbacklight + 5"
-bindsym XF86MonBrightnessDown exec "xbacklight - 5"
+bindsym XF86MonBrightnessUp exec "xbacklight + 1"
+bindsym XF86MonBrightnessDown exec "xbacklight - 1"
 
 # BORDER #
 new_window pixel 1

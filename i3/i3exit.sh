@@ -18,7 +18,7 @@ case "$1" in
         shutdown 0
         ;;
     *)
-        echo "Usage: $0 {lock|logout|suspend|hibernate|reboot|shutdown}"
+        echo "Usage: $0 {lock|logout|suspend|reboot|shutdown}"
         exit 2
 esac
 exit 0
