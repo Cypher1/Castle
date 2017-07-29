@@ -15,9 +15,9 @@ Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 Plug 'sjl/gundo.vim'                    " UNDO!
 Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
+Plug 'airblade/vim-rooter'              " Understand projects
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'mhinz/vim-signify'                " Sign column diffs
-Plug 'aperezdc/vim-template'            " Template files
 Plug 'alvan/vim-closetag'               " Close html tags
 Plug 'jiangmiao/auto-pairs'             " Close html tags
 Plug 'tpope/vim-fugitive'               " GIT
@@ -27,6 +27,8 @@ Plug 'ElmCast/elm-vim'                  " Elm
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
 Plug 'lervag/vimtex'                    " Latex
+Plug 'eagletmt/neco-ghc'                " Haskell autofill etc
+Plug 'artur-shaik/vim-javacomplete2'    " Complete for java
 call plug#end()
 
 " }}}
@@ -43,6 +45,8 @@ highlight SignifySignAdd ctermbg=8
 highlight SignifySignModify ctermbg=8
 highlight SignifySignDelete ctermbg=8
 highlight SignifySignChangeDelete ctermbg=8
+
+let $COLORTERM = "gnome-terminal"
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 " match OverLength /\%81v.\+/
 " }}}
@@ -130,10 +134,14 @@ inoremap ˚ <Esc>:m .-2<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 set nostartofline
 " }}}
+" Ghc Mod {{{
+let g:necoghc_enable_detailed_browse = 1
+let g:necoghc_use_stack = 1
+" }}}
 " NeoMake {{{
 let g:neomake_rust_enabled_makers = ['cargo']
 let g:neomake_haskell_enabled_makers = ['ghcmod', 'hlint']
-let g:neomake_cpp_enabled_makers = ['clang']
+let g:neomake_jcpp_enabled_makers = ['clang']
 let g:neomake_cpp_clang_maker = {'exe': 'clang++',
             \ 'args': ["-std=c++14", '-Wall', '-Wextra'] }
 let g:neomake_python_enabled_makers = ['pylint']
@@ -149,6 +157,8 @@ let g:neomake_javascript_enabled_makers = ['eslint']
 let g:neomake_open_list = 2
 " }}}
 " Autocommands {{{
+let g:rooter_change_directory_for_non_project_files = 'current'
+
 augroup vim
   autocmd!
   au BufWritePost $MYVIMRC source $MYVIMRC|set fdm=marker
@@ -157,6 +167,8 @@ augroup vim
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
   au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
+  au Filetype qf set nobuflisted
+  au FileType java setlocal omnifunc=javacomplete#Complete
 augroup END
 " }}}
 " My Repls {{{
@@ -172,4 +184,11 @@ let g:rappel#custom_repls={
 \   'run': 'processing-java --sketch=`pwd` --present'
 \ },
 \}
+let g:rappel#custom_repls={
+\ 'java': {
+\   'launch': 'ant main',
+\   'run': 'ant main'
+\ },
+\}
+let g:JavaComplete_SourcesPath='/home/cypher/.java/jogamp/src/'
 " }}}
