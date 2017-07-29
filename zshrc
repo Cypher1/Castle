@@ -34,6 +34,9 @@ export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 export PATH=$PATH:$(go env GOPATH)/bin
+export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
+export CLASSPATH="$HOME/.java/jogamp/jar/jogl-all.jar:$HOME/.java/jogamp/jar/gluegen-rt.jar"
+export PATH="$PATH:$JAVA_HOME/bin"
 export GOPATH=$(go env GOPATH)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 eval "$(direnv hook zsh)"
