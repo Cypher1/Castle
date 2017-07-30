@@ -344,3 +344,5 @@ text/x-perl=xed.desktop;vim.desktop;
 text/x-sql=xed.desktop;vim.desktop;
 text/x-vb=xed.desktop;vim.desktop;
 text/yaml=xed.desktop;vim.desktop;
+application/x-xpinstall=firefox.desktop;
+application/vnd.mozilla.xul+xml=vim.desktop;
