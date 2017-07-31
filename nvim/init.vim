@@ -19,8 +19,8 @@ Plug 'airblade/vim-rooter'              " Understand projects
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'alvan/vim-closetag'               " Close html tags
-Plug 'jiangmiao/auto-pairs'             " Close html tags
 Plug 'tpope/vim-fugitive'               " GIT
+Plug 'termhn/i3-vim-nav'                " i3 nav
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'ElmCast/elm-vim'                  " Elm
@@ -83,11 +83,20 @@ map <Down>  <NOP>
 map <Left>  <<
 map <Right> >>
 " }}}
-" Use F10 to display highlighting rules around the cursor
-map <F10> :echo "hi<" . synIDattr(synID(line("."),col("."),1),"name") . '> trans<'
-\ . synIDattr(synID(line("."),col("."),0),"name") . "> lo<"
-\ . synIDattr(synIDtrans(synID(line("."),col("."),1)),"name") . ">"<CR>
 " }}}
+
+" convert rows to a tuple {{{
+function! ToTupleFunction() range
+    silent execute a:firstline . "," . a:lastline . "s/^/'/"
+    silent execute a:firstline . "," . a:lastline . "s/$/',/"
+    silent execute a:firstline . "," . a:lastline . "join"
+    silent execute "normal I("
+    silent execute "normal $xa)"
+    silent execute "normal ggVGYY"
+endfunction
+command! -range ToTuple <line1>,<line2> call ToTupleFunction()
+" }}}
+
 " Buffers/Tabs/Splits {{{
 set splitbelow splitright
 nmap <leader>v :vsp<space>
@@ -97,6 +106,13 @@ nmap <silent> <leader>h :wincmd h<CR>
 nmap <silent> <leader>j :wincmd j<CR>
 nmap <silent> <leader>k :wincmd k<CR>
 nmap <silent> <leader>l :wincmd l<CR>
+
+" i3 integration
+nnoremap <silent> <A-l> :call Focus('right', 'l')<CR>
+nnoremap <silent> <A-h> :call Focus('left', 'h')<CR>
+nnoremap <silent> <A-k> :call Focus('up', 'k')<CR>
+nnoremap <silent> <A-j> :call Focus('down', 'j')<CR>
+
 nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
