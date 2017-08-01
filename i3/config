@@ -12,7 +12,7 @@ set $workspace4 "4"
 set $workspace5 "5"
 set $workspace6 "6"
 set $workspace7 "7"
-set $workspace8 "8"
+set $workspace8 "8:"
 set $workspace9 "9:🎮"
 set $workspace10 "10:"
 
@@ -33,7 +33,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # start a browser
-bindsym $mod+Shift+Return exec firefox
+bindsym $mod+Shift+Return exec google-chrome
 
 
 # kill focused window
@@ -79,10 +79,15 @@ for_window [urgent=latest] focus
 popup_during_fullscreen smart
 
 # change focus
-bindsym $mod+h focus left
-bindsym $mod+l focus right
-bindsym $mod+j focus down
-bindsym $mod+k focus up
+#bindsym $mod+h focus left
+#bindsym $mod+l focus right
+#bindsym $mod+j focus down
+#bindsym $mod+k focus up
+
+bindsym --release $mod+h exec --no-startup-id "i3-vim-nav h"
+bindsym --release $mod+j exec --no-startup-id "i3-vim-nav j"
+bindsym --release $mod+k exec --no-startup-id "i3-vim-nav k"
+bindsym --release $mod+l exec --no-startup-id "i3-vim-nav l"
 
 # move focused window
 bindsym $mod+Shift+h move left
@@ -140,7 +145,7 @@ bar {
 }
 
 # class                 border      backgr.     text   indicator
-client.focused          $color_border $color_border $color $color_border
+client.focused          $color_border $color_border $color $color_back
 client.focused_inactive $color_back $color_back $color $color_border
 client.unfocused        $color_back $color_back $color $color_border
 client.urgent           $color_bad  $color_bad  $color $color_border
@@ -204,17 +209,11 @@ bindsym Control+Print exec gnome-screenshot -i
 
 
 # ASSIGN #
-assign [class="Firefox"]          → $workspace1
-assign [class="sublime-text"]     → $workspace2
-assign [class="sublime_text"]     → $workspace2
-assign [class="Sublime_text"]     → $workspace2
+# assign [class="Firefox"]          → $workspace1
 assign [class="Inkscape"]         → $workspace3
 assign [class="Gimp"]             → $workspace4
-assign [class="Vlc"]              → $workspace7
-assign [class="Nemo"]             → $workspace8
-assign [class="Geary"]            → $workspace9
+assign [class="Vlc"]              → $workspace10
 assign [class="Steam"]            → $workspace9
-assign [class="Evolution"]        → $workspace9
 assign [class="Spotify"]          → $workspace10
 #fix for spotify not moving to workspace 10
 for_window [class="Spotify"] move to workspace $workspace10
@@ -245,7 +244,6 @@ for_window [window_role="setup"] floating enable
 for_window [title="^Terminator Preferences$"] floating enable
 for_window [class="Font-manager"] floating enable
 for_window [class="System-config-printer.py"] floating enable
-for_window [class="Nitrogen"] floating enable
 for_window [title="Copying"] floating enable
 for_window [title="Deleting"] floating enable
 for_window [title="Moving"] floating enable
