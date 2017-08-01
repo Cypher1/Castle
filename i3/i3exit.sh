@@ -1,6 +1,6 @@
 #!/bin/sh
 lock() {
-    ~/.config/i3/i3lock-fancy/lock -f 'Hack-regular' -t ''
+  i3lock -c "#000000" -d -e -f
 }
 
 case "$1" in
@@ -11,8 +11,7 @@ case "$1" in
         i3-msg exit
         ;;
     suspend)
-        lock&
-        sudo pm-suspend
+        lock && sudo pm-suspend
         ;;
     shutdown)
         shutdown 0

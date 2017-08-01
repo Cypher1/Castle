@@ -24,7 +24,6 @@ FULL=`grep "POWER_SUPPLY_\(CHARGE\|ENERGY\)_FULL_DESIGN" $ACPI_PATH/uevent | cut
 
 # get current energy value in percent
 PERCENT=`echo $(( $REM * 100 / $FULL ))`
-echo "$PERCENT%"
 
 # show warning if energy limit in percent is less then user set limit and
 # if battery is discharging

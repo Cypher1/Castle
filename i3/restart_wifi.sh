@@ -1,1 +1,1 @@
-sudo service network-manager restart
+gksudo service network-manager restart
