@@ -108,10 +108,10 @@ nmap <silent> <leader>k :wincmd k<CR>
 nmap <silent> <leader>l :wincmd l<CR>
 
 " i3 integration
-nnoremap <silent> <A-l> :call Focus('right', 'l')<CR>
-nnoremap <silent> <A-h> :call Focus('left', 'h')<CR>
-nnoremap <silent> <A-k> :call Focus('up', 'k')<CR>
-nnoremap <silent> <A-j> :call Focus('down', 'j')<CR>
+nnoremap <silent> <C-l> :call Focus('right', 'l')<CR>
+nnoremap <silent> <C-h> :call Focus('left', 'h')<CR>
+nnoremap <silent> <C-k> :call Focus('up', 'k')<CR>
+nnoremap <silent> <C-j> :call Focus('down', 'j')<CR>
 
 nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
@@ -193,7 +193,7 @@ let g:filetype_pl="prolog"
 let g:rappel#run_key    = '<leader>p'
 let g:rappel#repl_key   = '<leader>P'
 let g:rappel#launch_key = '<M-c>'
-let g:rappel#launch="firefox \"%\""
+let g:rappel#launch="google-chrome \"%\""
 
 let g:rappel#custom_repls={
 \ 'arduino': {
