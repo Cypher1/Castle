@@ -15,7 +15,7 @@ fi
 
 if [ "$to" = "" ]
 then
-  to="$(echo "$spaces" | dmenu -p "Switch to: ")"
+  to="$(echo "$spaces" | grep -v "$from" | dmenu -p "Switch to: ")"
 fi
 
 IFS=$'\n'
