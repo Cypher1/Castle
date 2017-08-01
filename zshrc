@@ -161,6 +161,11 @@ function gitignore {
   cat "$ignore" | sort | uniq > "$tmp"
   mv "$tmp" "$ignore"
 }
+alias root="cd $(git rev-parse --show-toplevel)"
+function rexe {
+  run="$(git rev-parse --show-toplevel)/$1"
+  $run ${@:2}
+}
 alias -s git='git clone'
 alias s="git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
