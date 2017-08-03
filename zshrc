@@ -99,9 +99,10 @@ alias zrc="nvim ~/.zshrc"
 alias vrc="nvim ~/.config/nvim/init.vim"
 alias 3rc="nvim ~/.config/i3/config"
 alias 3src="nvim ~/.config/i3/i3status.conf"
-alias .="clear && cd . && ls"
-alias ..="clear && cd .. && ls"
-alias r="clear"
+alias .="r && cd . && ls"
+alias ..="r && cd .. && ls"
+alias r="/usr/bin/clear"
+alias clear="echo 'Do you mean r?'"
 alias v="nvim"
 alias t="time"
 alias q="exit"
@@ -125,13 +126,13 @@ function clean {
     rm *.hi;
     rm *.gch;
     rm nohup.out;
-    clear;
+    /usr/bin/clear;
 }
 
 function watch {
     sleeptime="${2:-2}"
     while true; do
-        clear
+        /usr/bin/clear
         echo -n `date`
         echo " Running \`$1\` every $sleeptime seconds"
         sh -c "$1"
@@ -202,7 +203,7 @@ function rexe {
   $run ${@:2}
 }
 alias -s git='git clone'
-alias s="clear; git status -sb 2> /dev/null && echo '-------'; ls"
+alias s="/usr/bin/clear; git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"
