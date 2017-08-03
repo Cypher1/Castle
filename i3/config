@@ -64,10 +64,10 @@ bindsym $mod+Shift+XF86LaunchA floating toggle
 bindsym $mod+XF86LaunchA focus mode_toggle
 
 # focus the parent container
-bindsym $mod+p focus parent
+# bindsym $mod+p focus parent
 
 # focus the child container
-bindsym $mod+Shift+p focus child
+# bindsym $mod+Shift+p focus child
 
 # focus follows mouse
 focus_follows_mouse no
@@ -157,26 +157,8 @@ bindsym $mod+b bar mode toggle
 
 # DUAL SCREEN #
 
-# setting variables for later use
-# use xrandr to know the names of your monitors
-# use this line to tell which monitor is on the right
-# xrandr --output DVI-I-2 --right-of DVI-I-1 --auto
-
-# my current setup
 set $firstMonitor eDP1
-set $secondMonitor HDMI1
-
-#set $firstMonitor DVI-I-2
-#set $secondMonitor VGA-0
-
-#set $firstMonitor DVI-I-2
-#set $secondMonitor DVI-I-3
-
-#set $firstMonitor DVI-0
-#set $secondMonitor DVI-1
-
-# Displays
-exec xrandr --dpi 200 --output $firstMonitor --primary --scale 0.9x0.9
+set $secondMonitor DP1
 
 workspace $workspace1 output $firstMonitor
 workspace $workspace2 output $firstMonitor
@@ -189,13 +171,14 @@ workspace $workspace8 output $secondMonitor
 workspace $workspace9 output $secondMonitor
 workspace $workspace10 output $secondMonitor
 
-
 # EXECUTE #
+
+# Displays
+exec_always /home/cypher/.config/screens.sh
 
 # num lock activated
 exec_always --no-startup-id numlockx on
 exec --no-startup-id feh --bg-fill ~/Drive/Me/Pictures/firewatch.jpg
-exec --no-startup-id nm-applet
 exec insync-headless start
 # get the mouse out of the way with unclutter
 exec unclutter
