@@ -19287,3 +19287,3678 @@ sudo apt-get install notifyosdconfig
 : 1501312999:0;clear
 : 1501313000:0;d
 : 1501313029:0;a zsh_history && m "More zsh_history (And remove end of line whitespace)"
+: 1501313031:0;s
+: 1501313035:0;p
+: 1501313047:0;3src
+: 1501313078:0;s
+: 1501313079:0;d
+: 1501313085:0;a i3/i3status.conf
+: 1501313096:0;m "Hide low up times"
+: 1501313097:0;.
+: 1501313098:0;p
+: 1501313184:0;cd
+: 1501313184:0;.
+: 1501313212:0;ls *
+: 1501313216:0;cd Downloads
+: 1501313217:0;.
+: 1501313220:0;rm arc-theme_1488477732.766ae1a-0_all.deb
+: 1501313226:0;rm eclipse-inst
+: 1501313230:0;rm eclipse-inst*
+: 1501313230:0;.
+: 1501313233:0;rm font-awesome-4.7.0.zip
+: 1501313234:0;.
+: 1501313239:0;open why_bspwm.gif
+: 1501313250:0;bg
+: 1501313252:0;clear
+: 1501313253:0;s
+: 1501313258:0;.
+: 1501313262:0;rm why_bspwm.gif
+: 1501313264:0;.
+: 1501313268:0;vim jashank
+: 1501313365:0;3rc
+: 1501313403:0;q
+: 1501313417:0;firefox
+: 1501316922:0;clear
+: 1501316922:0;s
+: 1501316926:0;z UNi
+: 1501316926:0;.
+: 1501316933:0;firefox wk1.md
+: 1501316940:0;vim wk1.md
+: 1501317067:0;q
+: 1501318664:0;xsel
+: 1501318668:0;xev
+: 1501319587:0;q
+: 1501319591:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1501319594:0;xrandr --dpi 200 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1501319604:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 2x2
+: 1501319611:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.5x0.5
+: 1501319657:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.75x0.75
+: 1501319666:0;sudo xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.75x0.75
+: 1501319680:0;sudo xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.7x0.7
+: 1501319695:0;3rc
+: 1501319712:0;clear
+: 1501319716:0;q
+: 1501319720:0;clear
+: 1501319720:0;s
+: 1501319720:0;q
+: 1501319725:0;3rc
+: 1501319858:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.6x0.6
+: 1501319865:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.8x0.8
+: 1501319872:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9
+: 1501319884:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.7x0.7
+: 1501319894:0;q
+: 1501319985:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 2x2
+: 1501319991:0;q
+: 1501319996:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1501320007:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9
+: 1501320019:0;q
+: 1501320024:0;clear
+: 1501320024:0;s
+: 1501320026:0;q
+: 1501320465:0;vim ~/.ssh/config
+: 1501320474:0;cse
+: 1501320484:0;q
+: 1501320488:0;cse
+: 1501320495:0;clear
+: 1501320495:0;s
+: 1501320495:0;q
+: 1501320497:0;clear
+: 1501320497:0;s
+: 1501320499:0;q
+: 1501320510:0;cse
+: 1501320571:0;clear
+: 1501320571:0;s
+: 1501320575:0;cse
+: 1501320585:0;clear
+: 1501320585:0;s
+: 1501320586:0;q
+: 1501320588:0;cse
+: 1501320596:0;q
+: 1501320598:0;clear
+: 1501320598:0;s
+: 1501320598:0;q
+: 1501320743:0;z Proj
+: 1501320743:0;.
+: 1501320746:0;mkdir web
+: 1501320748:0;cd web
+: 1501320748:0;.
+: 1501320749:0;https://github.com/chpatrick/servant-generic.git
+: 1501320768:0;ls
+: 1501320769:0;cd servant-generic
+: 1501320769:0;.
+: 1501320777:0;vim README.md
+: 1501320781:0;q
+: 1501320784:0;vrc
+: 1501320795:0;vim README.md
+: 1501320937:0;stack exec
+: 1501320945:0;cat servant-generic.cabal
+: 1501320956:0;clear
+: 1501320957:0;cd ..
+: 1501320958:0;rm servant-generic
+: 1501320965:0;y
+: 1501320966:0;clear
+: 1501320966:0;s
+: 1501321022:0;vim servant.hs
+: 1501321029:0;.
+: 1501321035:0;stack new servant
+: 1501321127:0;clear
+: 1501321127:0;s
+: 1501321144:0;mv servant.hs servant/app/Main.hs
+: 1501321146:0;cd servant
+: 1501321147:0;.
+: 1501321151:0;stack build
+: 1501321179:0;vim servant.cabal
+: 1501321257:0;clear
+: 1501321257:0;s
+: 1501321258:0;git init
+: 1501321259:0;clear
+: 1501321260:0;s
+: 1501321264:0;stack build
+: 1501321278:0;vim stack.yaml
+: 1501321282:0;vim servant.cabal
+: 1501321299:0;cd ..
+: 1501321302:0;mv servant servant_test
+: 1501321304:0;cd servant_test
+: 1501321304:0;.
+: 1501321306:0;stack build
+: 1501321315:0;mv servant.cabal servantTest.cabal
+: 1501321318:0;vim servantTest.cabal
+: 1501321328:0;clear
+: 1501321328:0;s
+: 1501321330:0;stack build
+: 1501322124:0;clear
+: 1501322124:0;s
+: 1501322129:0;stack exec
+: 1501322132:0;vim servantTest.cabal
+: 1501322169:0;stack exec ghc -- src/Main.hs
+: 1501322172:0;ls src
+: 1501322175:0;ls app
+: 1501322181:0;stack exec ghc -- app/Main.hs
+: 1501322184:0;ls
+: 1501322186:0;clear
+: 1501322186:0;s
+: 1501322193:0;stack ghc app/Main.hs
+: 1501322195:0;ls
+: 1501322196:0;clear
+: 1501322196:0;s
+: 1501322198:0;stack build
+: 1501322209:0;cd ..
+: 1501322211:0;rm servant_test
+: 1501322212:0;.
+: 1501322250:0;3rc
+: 1501322315:0;clear
+: 1501322315:0;s
+: 1501322418:0;sudo apt-add-repository ppa:numix/ppa; sudo apt update
+: 1501322436:0;sudo apt-get install numix-icon-theme numix-icon-theme-circle
+: 1501322592:0;which dmenu
+: 1501322605:0;cd /usr/bin
+: 1501322606:0;ls
+: 1501322615:0;vim dmenu_run
+: 1501322645:0;which zsh
+: 1501322646:0;q
+: 1501322705:0;3rc
+: 1501322780:0;q
+: 1501322790:0;dmenu
+: 1501322799:0;echo "sleep\nsuspend\nshutdown" | dmenu -p "Power"
+: 1501322802:0;q
+: 1501322812:0;cd /usr/bin
+: 1501322813:0;ls
+: 1501322822:0;mv dmenu dmenu_pure
+: 1501322824:0;sudo mv dmenu dmenu_pure
+: 1501322857:0;ls
+: 1501322860:0;ls dmenu
+: 1501322862:0;ls dmenu*
+: 1501322880:0;chmod +x dmenu
+: 1501322881:0;sudo chmod +x dmenu
+: 1501322929:0;vim dmenu
+: 1501323157:0;mv dmenu_pure dmenu
+: 1501323164:0;sudo mv dmenu_pure dmenu
+: 1501323184:0;sudo cp dmenu dmenu_pure
+: 1501323200:0;dmenu_path | dmenu_pure 
+: 1501323210:0;dmenu_path | dmenu_pure | /usr/bin/zsh
+: 1501323213:0;clear
+: 1501323221:0;dmenu_path | dmenu_pure -fn 'Hack-4' | /usr/bin/zsh
+: 1501323225:0;dmenu_path | dmenu_pure -fn 'Hack-6' | /usr/bin/zsh
+: 1501323229:0;clear
+: 1501323246:0;dmenu_path | dmenu_pure -fn 'Hack-6' "$@" | /usr/bin/zsh
+: 1501323249:0;clear
+: 1501323278:0;vim dmenu
+: 1501323285:0;vim dmenu.sh
+: 1501323349:0;mv dmenu.sh dmenu
+: 1501323352:0;sudo mv dmenu.sh dmenu
+: 1501323354:0;clear
+: 1501323356:0;chmod +x dmenu
+: 1501323357:0;sudo chmod +x dmenu
+: 1501323382:0;q
+: 1501323985:0;3rc
+: 1501324090:0;vrc
+: 1501324122:0;q
+: 1501324124:0;3rc
+: 1501324144:0;q
+: 1501324298:0;vim /usr/bin/dmenu
+: 1501324365:0;sudo service network-manager restart
+: 1501324373:0;q
+: 1501324377:0;vim /usr/bin/dmenu
+: 1501324494:0;dmenu_path | dmenu | /usr/bin/zsh
+: 1501324502:0;vim dmenu
+: 1501324506:0;sudo vim dmenu
+: 1501324522:0;dmenu_path | dmenu | /usr/bin/zsh
+: 1501324564:0;mv dmenu dmenu.sh
+: 1501324566:0;sudo mv dmenu dmenu.sh
+: 1501324575:0;sudo mv dmenu_pure dmenu
+: 1501377809:0;sudo vim dmenu
+: 1501377819:0;mv dmenu dmenu_pure
+: 1501377820:0;sudo mv dmenu dmenu_pure
+: 1501377840:0;sudo vim dmenu dmenu.sh
+: 1501377847:0;q
+: 1501378100:0;stdin=$(cat)
+: 1501378109:0;echo $stdin
+: 1501378122:0;echo < $(cat)
+: 1501378134:0;echo < $(</dev/stdin)
+: 1501378142:0;echo </dev/stdin
+: 1501378146:0;echo < cat
+: 1501378153:0;echo $(cat)
+: 1501378204:0;q
+: 1501378320:0;dmenu_run
+: 1501378328:0;cat "Hi\nBye" | dmenu_run
+: 1501378395:0;echo "Hi\nBye" | dmenu_run
+: 1501378716:0;w
+: 1501378726:0;q
+: 1501379054:0;vim /usr/bin/dmenu
+: 1501379075:0;clear
+: 1501379075:0;ls
+: 1501379077:0;clear
+: 1501379079:0;ls dmenu*
+: 1501379087:0;sudo rm dmenu.sh
+: 1501379088:0;.
+: 1501379090:0;ls dmenu*
+: 1501379105:0;clear
+: 1501379106:0;s
+: 1501379107:0;vim dmenu
+: 1501379125:0;.
+: 1501379128:0;vim =
+: 1501379133:0;which =
+: 1501379145:0;mv /usr/local/bin/= /usr/bin/=
+: 1501379146:0;sudo mv /usr/local/bin/= /usr/bin/=
+: 1501379147:0;.
+: 1501379149:0;vim =
+: 1501379207:0;=
+: 1501379308:0;q
+: 1501379323:0;clear
+: 1501379323:0;s
+: 1501379324:0;clear
+: 1501379327:0;vim dmenu
+: 1501379353:0;q
+: 1501379373:0;.
+: 1501379374:0;clear
+: 1501379374:0;s
+: 1501379379:0;~/.i3/restart_wifi.sh
+: 1501379380:0;sudo ~/.i3/restart_wifi.sh
+: 1501379384:0;sudo sh ~/.i3/restart_wifi.sh
+: 1501379391:0;clear
+: 1501379414:0;cd ~/.config
+: 1501379414:0;ls
+: 1501379421:0;cd i3
+: 1501379421:0;.
+: 1501379438:0;mv ~/.i3/restart_wifi.sh restart_wifi.sh
+: 1501379446:0;ln -s ~/.config/i3/restart_wifi.sh /usr/bin/restart_wifi
+: 1501379447:0;sudo ln -s ~/.config/i3/restart_wifi.sh /usr/bin/restart_wifi
+: 1501379448:0;clear
+: 1501379457:0;ls
+: 1501379463:0;ls restart_wifi
+: 1501379464:0;clear
+: 1501379465:0;s
+: 1501379485:0;mv dmenu ~/.config/i3/my_dmenu.sh
+: 1501379487:0;sudo mv dmenu ~/.config/i3/my_dmenu.sh
+: 1501379500:0;ln -s ~/.config/i3/my_dmenu.sh /usr/bin/dmenu
+: 1501379501:0;sudo ln -s ~/.config/i3/my_dmenu.sh /usr/bin/dmenu
+: 1501379504:0;clear
+: 1501379504:0;s
+: 1501379504:0;q
+: 1501379506:0;s
+: 1501379510:0;a my_dmenu.sh restart_wifi.sh
+: 1501379517:0;m "Adding some linux tools"
+: 1501379518:0;clear
+: 1501379518:0;s
+: 1501379519:0;d config
+: 1501379525:0;a config
+: 1501379525:0;D
+: 1501379532:0;a config
+: 1501379539:0;m "Switch to firefox and move settings to top"
+: 1501379540:0;p
+: 1501379548:0;clear
+: 1501379548:0;s
+: 1501379550:0;../
+: 1501379551:0;s
+: 1501379553:0;d mimeapps.list
+: 1501379556:0;a mimeapps.list
+: 1501379570:0;git commit --amend -m "Switch to firefox"
+: 1501379572:0;s
+: 1501379574:0;d nvim
+: 1501379579:0;a nvim/init.vim
+: 1501379579:0;D
+: 1501379585:0;git commit --amend -m "Switch to firefox"
+: 1501379586:0;clear
+: 1501379587:0;s
+: 1501379592:0;p
+: 1501379595:0;git pull
+: 1501379601:0;s
+: 1501379603:0;log
+: 1501379605:0;glog
+: 1501379614:0;git push
+: 1501379619:0;clear
+: 1501379619:0;s
+: 1501379621:0;d
+: 1501379626:0;clear
+: 1501379638:0;s
+: 1501379639:0;q
+: 1501380502:0;mv ~/Downloads/.Xresources ~/.Xresources
+: 1501380515:0;xrdb ~/.Xresources
+: 1501380526:0;sudo apt install urxvt
+: 1501380588:0;sudo apt install rxvt-unicode
+: 1501380608:0;vim `which dmenu`
+: 1501380616:0;vim ~/.Xresources
+: 1501380645:0;xrdb ~/.Xresources
+: 1501380650:0;urxvt
+: 1501380665:0;q
+: 1501380709:0;which firefox
+: 1501380710:0;q
+: 1501380754:0;xrdb ~/.Xresources
+: 1501380758:0;ls
+: 1501380760:0;clear
+: 1501380760:0;s
+: 1501380766:0;xrdb ~/.Xresources
+: 1501380768:0;q
+: 1501380773:0;ls
+: 1501380777:0;q
+: 1501398148:0;vrc
+: 1501398358:0;git clone https://github.com/aaron-williamson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal\
+.config/base16-gnome-terminal/color-scripts/base16-default-dark.sh\
+
+: 1501398367:0;ls
+: 1501398373:0;rm base16-gnome-terminal
+: 1501398376:0;..
+: 1501398378:0;git clone https://github.com/aaron-williamson/base16-gnome-terminal.git ~/.config/base16-gnome-terminal\
+.config/base16-gnome-terminal/color-scripts/base16-default-dark.sh\
+
+: 1501398404:0;vim .config/base16-gnome-terminal
+: 1501398422:0;cd .config/base16-gnome-terminal
+: 1501398422:0;ls
+: 1501398424:0;cd color-scripts
+: 1501398424:0;.
+: 1501398430:0;./base16-default-dark.sh
+: 1501398492:0;exit
+: 1501398501:0;.
+: 1501398512:0;./base16-google-dark-256.sh
+: 1501398564:0;q
+: 1501398574:0;./base16-google-dark-256.sh
+: 1501398576:0;q
+: 1501398595:0;./base16-google-dark-256.sh
+: 1501398602:0;vim base16-google-dark-256.sh
+: 1501398644:0;q
+: 1501398667:0;clear
+: 1501398667:0;s
+: 1501398681:0;q
+: 1501398694:0;./base16-google-dark.sh
+: 1501398695:0;q
+: 1501398703:0;./base16-default-dark.sh
+: 1501398707:0;q
+: 1501398715:0;./base16-default-light.sh
+: 1501398717:0;q
+: 1501398748:0;cd ..
+: 1501398750:0;..
+: 1501398754:0;rm base16-gnome-terminal
+: 1501398755:0;y
+: 1501398761:0;git clone https://github.com/chriskempson/base16-gnome-terminal.git
+: 1501398771:0;source ~/.config/base16-gnome-terminal/base16-default.dark.sh
+: 1501398776:0;q
+: 1501398810:0;source ~/.config/base16-gnome-terminal/base16-default.dark.sh
+: 1501398811:0;q
+: 1501398880:0;vrc
+: 1501416670:0;vim ~/.Xresources; xrdb ~/.Xresources
+: 1501416695:0;xrdb ~/.Xresources
+: 1501416706:0;q
+: 1501416710:0;.
+: 1501416715:0;vim ~/.Xresources; xrdb ~/.Xresources
+: 1501416740:0;vrc
+: 1501416748:0;vim ~/.Xresources; xrdb ~/.Xresources
+: 1501416803:0;vrc
+: 1501416814:0;vim ~/.Xresources
+: 1501416838:0;q
+: 1501416851:0;xrdb ~/.Xresources
+: 1501416854:0;q
+: 1501416856:0;urxvt
+: 1501416859:0;q
+: 1501416865:0;urxvt
+: 1501416867:0;q
+: 1501416868:0;xrdb ~/.Xresources
+: 1501416869:0;q
+: 1501416873:0;urxvt
+: 1501416876:0;q
+: 1501416916:0;xrdb ~/.Xresources
+: 1501416943:0;vrc
+: 1501416954:0;.
+: 1501416958:0;vrc
+: 1501416962:0;q
+: 1501416967:0;clear
+: 1501416967:0;s
+: 1501416976:0;vrc
+: 1501417232:0;clear
+: 1501417233:0;s
+: 1501417260:0;ls
+: 1501417264:0;cd base16-gnome-terminal
+: 1501417265:0;ls
+: 1501417268:0;cd base16-gnome-terminal
+: 1501417269:0;ls
+: 1501417291:0;./base16-default.dark.sh
+: 1501417302:0;./base16-default-light.sh
+: 1501417305:0;ls
+: 1501417310:0;./base16-default.dark.sh
+: 1501417316:0;q
+: 1501417341:0;vim ~/.Xresources
+: 1501417374:0;xrdb ~/.Xresources
+: 1501417393:0;vim ~/.Xresources base16-google.dark.sh
+: 1501417397:0;q
+: 1501417451:0;xrdb ~/.Xresources
+: 1501417460:0;clear
+: 1501417460:0;s
+: 1501417739:0;vrc
+: 1501417799:0;xrdb ~/.Xresources
+: 1501417800:0;q
+: 1501417842:0;vim ~/.Xresources
+: 1501417871:0;xrdb ~/.Xresources
+: 1501417874:0;q
+: 1501417917:0;vim ~/.Xresources
+: 1501417949:0;xrdb ~/.Xresources
+: 1501417951:0;q
+: 1501417957:0;clear
+: 1501417957:0;s
+: 1501417958:0;clear
+: 1501417967:0;âƒ®ƒ«vrc
+: 1501417971:0;clear
+: 1501417973:0;vrc
+: 1501417992:0;clear
+: 1501417993:0;s
+: 1501417998:0;vim
+: 1501418001:0;vrc
+: 1501418091:0;vim ~/.Xresources
+: 1501418109:0;q
+: 1501418113:0;xrdb ~/.Xresources
+: 1501418118:0;lear
+: 1501418119:0;clear
+: 1501418120:0;vc
+: 1501418122:0;vrc
+: 1501418147:0;vim
+: 1501418150:0;vrc
+: 1501418180:0;vim ~/.Xresources
+: 1501418214:0;xrdb ~/.Xresources
+: 1501418216:0;q
+: 1501418221:0;lear
+: 1501418221:0;s
+: 1501418222:0;clear
+: 1501418222:0;s
+: 1501418234:0;vrc
+: 1501418329:0;vim ~/.Xresources
+: 1501418379:0;xrdb ~/.Xresources
+: 1501418381:0;q
+: 1501418392:0;vim ~/.Xresources
+: 1501418401:0;q
+: 1501418403:0;xrdb ~/.Xresources
+: 1501418408:0;lear
+: 1501418410:0;clear
+: 1501418410:0;s
+: 1501418419:0;vim ~/.Xresources
+: 1501418445:0;q
+: 1501418450:0;lear
+: 1501418450:0;s
+: 1501418451:0;clear
+: 1501418451:0;s
+: 1501418534:0;vrc
+: 1501418616:0;clear
+: 1501418616:0;s
+: 1501418617:0;vrc
+: 1501418631:0;q
+: 1501418636:0;lear
+: 1501418636:0;s
+: 1501418637:0;vrc
+: 1501418643:0;q
+: 1501418660:0;sudo apt remove --purge rxvt-unicode
+: 1501418670:0;clear
+: 1501418670:0;q
+: 1501418671:0;clear
+: 1501418671:0;s
+: 1501418672:0;q
+: 1501418711:0;clear
+: 1501418714:0;q
+: 1501418792:0;export TERM=xterm+256colors
+: 1501418803:0;export TERM=gnome-terminfo+256colors
+: 1501418805:0;clear
+: 1501418962:0;s
+: 1501418964:0;clear
+: 1501418969:0;q
+: 1501418971:0;ls
+: 1501419034:0;vrc
+: 1501419132:0;cd ~/.config/nvim
+: 1501419133:0;ls
+: 1501419135:0;cd plugged
+: 1501419135:0;ls
+: 1501419137:0;cd i3-vim-nav
+: 1501419138:0;ls
+: 1501419152:0;3rc
+: 1501419184:0;./i3-vim-nav h
+: 1501419192:0;./i3-vim-nav.go h
+: 1501419197:0;chmod +x i3-vim-nav.go
+: 1501419198:0;./i3-vim-nav.go h
+: 1501419202:0;chmod -x i3-vim-nav
+: 1501419204:0;chmod -x i3-vim-nav.go
+: 1501419205:0;.
+: 1501419206:0;ls -la
+: 1501419209:0;ls autoload
+: 1501419239:0;clear
+: 1501419239:0;s
+: 1501419244:0;d
+: 1501419247:0;git checkout
+: 1501419247:0;s
+: 1501419249:0;git stash
+: 1501419250:0;clear
+: 1501419251:0;s
+: 1501419253:0;./i3-vim-nav
+: 1501419275:0;sudo apt install libxdo-dev
+: 1501419283:0;clear
+: 1501419285:0;./i3-vim-nav
+: 1501419288:0;./i3-vim-nav h
+: 1501419293:0;./i3-vim-nav l
+: 1501419334:0;ln -s i3-vim-nav /usr/bin/i3-vim-nav
+: 1501419336:0;sudo ln -s i3-vim-nav /usr/bin/i3-vim-nav
+: 1501419337:0;clear
+: 1501419337:0;s
+: 1501419351:0;3rc
+: 1501419359:0;cd
+: 1501419363:0;i3-vim-nav
+: 1501419366:0;i3-vim-nav h
+: 1501419370:0;ls
+: 1501419380:0;which i3-vim-nav
+: 1501419414:0;sudo rm /usr/bin/i3-vim-nav
+: 1501419421:0;q
+: 1501419440:0;pwd
+: 1501419526:0;q
+: 1501419591:0;3rc ~/.config/nvim/init.vim
+: 1501419715:0;cd ~/.config/nvim
+: 1501419723:0;cd plugged/i3-vim-nav
+: 1501419723:0;ls
+: 1501419730:0;./i3-vim-nav l
+: 1501419735:0;./i3-vim-nav h
+: 1501419776:0;go get -u github.com/termhn/i3-vim-nav
+: 1501419779:0;s
+: 1501419809:0;ln -s ~/.config/nvim/plugged/i3-vim-nav/i3-vim-nav /usr/local/bin
+: 1501419833:0;q
+: 1501419835:0;cd
+: 1501419837:0;i3-vim-nav h
+: 1501419868:0;i3-vim-nav l
+: 1501419929:0;3rc ~/.config/nvim/init.vim
+: 1501420169:0;vim
+: 1501420200:0;clear
+: 1501420201:0;s
+: 1501420205:0;rm dmenu_pure
+: 1501420205:0;.
+: 1501420214:0;cd ~/.config/nvim/plugged/i3-vim-nav
+: 1501420214:0;.
+: 1501420216:0;vim i3-vim-nav
+: 1501420222:0;vim i3-vim-nav.go
+: 1501420233:0;sudo apt install xdo
+: 1501420246:0;pip install i3ipc
+: 1501420251:0;clear
+: 1501420252:0;s
+: 1501420290:0;q
+: 1501420521:0;3rc ~/.config/nvim/init.vim
+: 1501420544:0;vrc
+: 1501420697:0;xdotool
+: 1501420707:0;sudo apt install xdotool
+: 1501420733:0;vrc
+: 1501420770:0;clear
+: 1501420770:0;s
+: 1501420774:0;vim i3-vim-nav.go
+: 1501420788:0;q
+: 1501420796:0;3rc ~/.config/nvim/init.vim
+: 1501420832:0;xdotool
+: 1501420850:0;xdotool getactivewindow
+: 1501420889:0;xdotool key --clearmodifiers control+h
+: 1501420904:0;xdotool key --clearmodifiers command+h
+: 1501420909:0;xdotool key --clearmodifiers super_l+h
+: 1501420912:0;xdotool key --clearmodifiers super+h
+: 1501420918:0;xdotool key --clearmodifiers control+h
+: 1501420932:0;xdotool key --clearmodifiers control+l
+: 1501420946:0;clear
+: 1501421037:0;vim i3-vim-nav.go
+: 1501421107:0;ls
+: 1501421109:0;vim README.md
+: 1501421189:0;3rc ~/.config/nvim/init.vim
+: 1501421200:0;ls
+: 1501421201:0;cd ..
+: 1501421203:0;clear
+: 1501421203:0;ls
+: 1501421205:0;cd i3-vim-focus
+: 1501421206:0;.
+: 1501421209:0;ls *
+: 1501421215:0;vim i3-vim-focus
+: 1501421227:0;vim plugin/i3vimfocus.vim
+: 1501421258:0;vim autoload/*
+: 1501421286:0;ls i3-vim-focus/src/main.rs
+: 1501421288:0;vim i3-vim-focus/src/main.rs
+: 1501421303:0;3rc
+: 1501421306:0;q
+: 1501421308:0;3rc ~/.config/nvim/init.vim
+: 1501421333:0;cd ..
+: 1501421334:0;ls
+: 1501421335:0;cd i3-vim-focus
+: 1501421336:0;ls
+: 1501421361:0;clear
+: 1501421362:0;ls
+: 1501421366:0;vim
+: 1501421401:0;ls
+: 1501421404:0;cd i3-vim-focus
+: 1501421404:0;.
+: 1501421406:0;cargo build --release
+: 1501421410:0;sudo apt install cargo
+: 1501421466:0;cargo build --release
+: 1501421802:0;clear
+: 1501421811:0;i3-vim-nav l
+: 1501421816:0;i3-vim-focus l
+: 1501421820:0;ls
+: 1501421822:0;ls src
+: 1501421825:0;ls target
+: 1501421828:0;ls target/release
+: 1501421831:0;cd target/release
+: 1501421832:0;s
+: 1501421837:0;./i3-vim-focus h
+: 1501421842:0;./i3-vim-focus left
+: 1501421846:0;./i3-vim-focus right
+: 1501421862:0;ln -s i3-vim-focus /usr/bin/i3-vim-focus
+: 1501421864:0;sudo ln -s i3-vim-focus /usr/bin/i3-vim-focus
+: 1501421882:0;chmod +x /usr/bin/i3-vim-focus
+: 1501421897:0;mv /usr/bin/i3-vim-focus /usr/local/bin/
+: 1501421899:0;sudo mv /usr/bin/i3-vim-focus /usr/local/bin/
+: 1501421905:0;i3-vim-focus l
+: 1501421907:0;clear
+: 1501421907:0;s
+: 1501421910:0;ls -la
+: 1501421914:0;i3-vim-focus l
+: 1501421919:0;./i3-vim-focus l
+: 1501421925:0;./i3-vim-focus left
+: 1501421939:0;cp i3-vim-focus /usr/bin/i3-vim-focus
+: 1501421941:0;sudo cp i3-vim-focus /usr/bin/i3-vim-focus
+: 1501421942:0;clear
+: 1501421942:0;s
+: 1501421957:0;q
+: 1501421961:0;vim i3-vim-focus/src/main.rs
+: 1501421965:0;clear
+: 1501421965:0;cd
+: 1501421966:0;.
+: 1501421969:0;vim Downloads Drive
+: 1501421989:0;vim deps
+: 1501421994:0;cd native
+: 1501421995:0;ls
+: 1501421996:0;cd ..
+: 1501421998:0;cd build
+: 1501421998:0;.
+: 1501422000:0;cd ...
+: 1501422002:0;..
+: 1501422002:0;ls
+: 1501422004:0;cd src
+: 1501422005:0;ls
+: 1501422006:0;vim main.rs
+: 1501422020:0;sudo apt install libxdo
+: 1501422027:0;sudo apt install libxdo3
+: 1501422094:0;cargo build --release
+: 1501422102:0;../target
+: 1501422103:0;ls
+: 1501422104:0;cd release
+: 1501422104:0;.
+: 1501422107:0;cp i3-vim-focus /usr/bin/i3-vim-focus
+: 1501422108:0;sudo cp i3-vim-focus /usr/bin/i3-vim-focus
+: 1501422145:0;i3-vim-focus left
+: 1501422149:0;i3-vim-focus right
+: 1501422155:0;i3-vim-focus up
+: 1501422158:0;i3-vim-focus down
+: 1501422160:0;i3-vim-focus left
+: 1501422183:0;vim main.rs
+: 1501422212:0;i3-vim-focus
+: 1501422216:0;.
+: 1501422246:0;vim ../../plugin/i3vimfocus.vim
+: 1501422342:0;clear
+: 1501422342:0;s
+: 1501422346:0;clear
+: 1501422346:0;s
+: 1501422353:0;vrc
+: 1501422385:0;3rc
+: 1501422459:0;vrc
+: 1501422546:0;.
+: 1501422548:0;vim main.rs
+: 1501422581:0;cargo build --release
+: 1501422585:0;vrc
+: 1501422604:0;vim main.rs
+: 1501422616:0;cargo build --release
+: 1501422624:0;cp i3-vim-focus /usr/bin/i3-vim-focus
+: 1501422638:0;cp ../target/release/i3-vim-focus /usr/local/bin
+: 1501422643:0;sudo cp ../target/release/i3-vim-focus /usr/local/bin/
+: 1501422656:0;sudo cp ../target/release/i3-vim-focus /usr/local/bin/i3-vim-focus
+: 1501422669:0;cd ../target/release
+: 1501422669:0;ls
+: 1501422675:0;sudo cp i3-vim-focus /usr/bin/i3-vim-focus
+: 1501422682:0;cd ../../src
+: 1501422682:0;.
+: 1501422693:0;vim main.rs
+: 1501422712:0;q
+: 1501422719:0;clear
+: 1501422719:0;s
+: 1501422734:0;rm /usr/local/bin/i3-vim-*
+: 1501422735:0;clear
+: 1501422736:0;s
+: 1501422743:0;i3-vim-focus
+: 1501422747:0;which i3-vim-focus
+: 1501422752:0;rm /usr/bin/i3-vim-focus
+: 1501422754:0;sudo rm /usr/bin/i3-vim-focus
+: 1501422758:0;clear
+: 1501422758:0;s
+: 1501422759:0;q
+: 1501422807:0;notify-send --icon=gtk-info Test "This is a test"
+: 1501422809:0;clear
+: 1501422809:0;s
+: 1501422811:0;d
+: 1501422819:0;cd .
+: 1501422820:0;..
+: 1501422823:0;vrc
+: 1501422830:0;clear
+: 1501422830:0;s
+: 1501422832:0;clear
+: 1501422832:0;s
+: 1501422840:0;ls -la
+: 1501422845:0;ls | wc -l
+: 1501422847:0;clear
+: 1501422847:0;q
+: 1501423877:0;.
+: 1501423880:0;cd
+: 1501423880:0;.
+: 1501423882:0;z Proj
+: 1501423882:0;.
+: 1501423884:0;ls
+: 1501423890:0;mk weird_or_old
+: 1501423894:0;,,
+: 1501423895:0;..
+: 1501423899:0;mv fbjs weird_or_old
+: 1501423900:0;.
+: 1501423904:0;ls web
+: 1501423914:0;ls *
+: 1501423922:0;.
+: 1501423935:0;z .con
+: 1501423935:0;.
+: 1501423936:0;s
+: 1501423937:0;clear
+: 1501423937:0;s
+: 1501423941:0;d mimeapps.list
+: 1501423950:0;a mimeapps.list
+: 1501423951:0;clear
+: 1501423951:0;s
+: 1501423954:0;d nvim
+: 1501423971:0;vim nvim/init.vim
+: 1501423976:0;s
+: 1501423978:0;d nvim
+: 1501423984:0;git checkout nvim/init.vim
+: 1501423985:0;clear
+: 1501423985:0;s
+: 1501423991:0;rm base16-gnome-terminal 
+: 1501423994:0;clear
+: 1501423994:0;s
+: 1501423995:0;d
+: 1501423998:0;D
+: 1501424011:0;m "Switch to firefox even more (i had no idea mime was this complex)"
+: 1501424012:0;p
+: 1501424018:0;clear
+: 1501424019:0;s
+: 1501424019:0;q
+: 1501424212:0;cd games
+: 1501424213:0;.
+: 1501424698:0;cd ..
+: 1501424698:0;ls
+: 1501424705:0;cd blogs
+: 1501424705:0;ls
+: 1501424708:0;cd blog
+: 1501424708:0;.
+: 1501424712:0;cd posts
+: 1501424712:0;ls
+: 1501424718:0;mkdir Lenses_code
+: 1501424721:0;cd Lenses_code
+: 1501424722:0;ls
+: 1501424724:0;clear
+: 1501424725:0;s
+: 1501424791:0;ls
+: 1501424797:0;vim Pipe.hs
+: 1501424833:0;stack new
+: 1501424836:0;cd ..
+: 1501424837:0;rm Lenses_code
+: 1501424861:0;stack new Pipe
+: 1501424864:0;cd Pipe
+: 1501424866:0;clear
+: 1501424866:0;s
+: 1501424869:0;a .
+: 1501424870:0;clear
+: 1501424870:0;s
+: 1501424878:0;cd src/
+: 1501424879:0;vim Lib.hs
+: 1501425100:0;clear
+: 1501425100:0;s
+: 1501425108:0;gi ../.stack-work
+: 1501425109:0;clear
+: 1501425110:0;s
+: 1501425114:0;...
+: 1501425119:0;cd Pipe
+: 1501425120:0;ls
+: 1501425120:0;clear
+: 1501425121:0;s
+: 1501425129:0;clear
+: 1501425129:0;s
+: 1501425135:0;git rm src/Lib.hs
+: 1501425136:0;clear
+: 1501425136:0;s
+: 1501425148:0;vim ../../.gitignore
+: 1501425157:0;clear
+: 1501425157:0;s
+: 1501425161:0;a ../../.gitignore
+: 1501425161:0;clear
+: 1501425162:0;s
+: 1501425163:0;clear
+: 1501425166:0;vim
+: 1501425183:0;..
+: 1501425188:0;mv Pipe ~/Projects/
+: 1501425193:0;clear
+: 1501425193:0;s
+: 1501425197:0;a Pipe
+: 1501425197:0;clear
+: 1501425198:0;s
+: 1501425202:0;cd ..
+: 1501425203:0;ls
+: 1501425205:0;vim p
+: 1501425208:0;vim Pipe.hs
+: 1501425212:0;rm Pipe.hs
+: 1501425213:0;clear
+: 1501425213:0;s
+: 1501425219:0;cd ../../../
+: 1501425219:0;ls
+: 1501425221:0;cd Projects
+: 1501425221:0;.
+: 1501425223:0;cd Pipe
+: 1501425224:0;.
+: 1501425226:0;git init
+: 1501425227:0;clear
+: 1501425227:0;s
+: 1501425231:0;gi .stack-work
+: 1501425231:0;clear
+: 1501425232:0;s
+: 1501425236:0;a *
+: 1501425236:0;.
+: 1501425239:0;vim
+: 1501425259:0;mk src
+: 1501425262:0;..
+: 1501425263:0;vim
+: 1501425693:0;stack exec Pipe
+: 1501425721:0;stack build; stack exec main
+: 1501426019:0;clear
+: 1501426021:0;stack build; stack exec main
+: 1501426392:0;stack install lenses
+: 1501426438:0;stack install lens
+: 1501427169:0;clear
+: 1501427169:0;s
+: 1501427172:0;vim app/Main.hs
+: 1501427180:0;q
+: 1501427417:0;stack build; stack exec main
+: 1501427500:0;stack install lens >= 4.15
+: 1501427505:0;stack install lens@4.15
+: 1501427509:0;stack install lens
+: 1501427512:0;stack build; stack exec main
+: 1501427573:0;q
+: 1501427588:0;stack build; stack exec main
+: 1501460080:0;.
+: 1501460092:0;q
+: 1501460102:0;stack build; stack exec main
+: 1501461035:0;stack exec Pipe
+: 1501461038:0;stack exec main
+: 1501461123:0;insync get_new_shares
+: 1501461129:0;insync reject_all_new_shares jp10010101010000@gmail.com
+: 1501461135:0;q
+: 1501461550:0;3rc
+: 1501461610:0;q
+: 1501462180:0;vrc
+: 1501462238:0;cd ~/.config/nvim/plugged/i3-vim-nav
+: 1501462238:0;ls
+: 1501462247:0;ln -s i3-vim-nav /usr/bin/i3-vim-nav
+: 1501462248:0;sudo ln -s i3-vim-nav /usr/bin/i3-vim-nav
+: 1501462252:0;ls
+: 1501462257:0;i3-vim-nav l
+: 1501462267:0;rm /usr/bin/i3-vim-focus
+: 1501462269:0;rm /usr/bin/i3-vim-nav
+: 1501462270:0;sudo rm /usr/bin/i3-vim-nav
+: 1501462277:0;ln -s i3-vim-nav /usr/local/bin/i3-vim-nav
+: 1501462279:0;i3-vim-nav l
+: 1501462285:0;cd /usr/bin/
+: 1501462288:0;cd ../local
+: 1501462289:0;cd bin
+: 1501462290:0;ls
+: 1501462295:0;clear
+: 1501462299:0;ls -la
+: 1501462317:0;ln -s i3-vim-nav /usr/local/bin/i3-vim-nav
+: 1501462318:0;sudo ln -s i3-vim-nav /usr/local/bin/i3-vim-nav
+: 1501462330:0;rm /usr/bin/i3-vim-nav
+: 1501462334:0;rm /usr/local/bin/i3-vim-nav
+: 1501462346:0;ln -s /home/cypher/.config/nvim/plugged/i3-vim-nav/i3-vim-nav /usr/local/bin
+: 1501462349:0;i3-vim-nav l
+: 1501462355:0;q
+: 1501462360:0;3rc
+: 1501462379:0;vim
+: 1501462407:0;vim i3-vim-nav.go
+: 1501462413:0;sudo apt install go
+: 1501462421:0;sudo apt install golang
+: 1501462434:0;go get -u github.com/termhn/i3-vim-nav
+: 1501462449:0;xdotool
+: 1501462450:0;clear
+: 1501462450:0;s
+: 1501462464:0;sudo apt install libxdo-dev
+: 1501462466:0;clear
+: 1501462498:0;i3-msg exec 'i3-vim-nav l'
+: 1501462511:0;i3-msg exec 'i3-vim-nav r'
+: 1501462519:0;i3-msg exec 'i3-vim-nav right'
+: 1501462573:0;./i3-vim-nav h
+: 1501462596:0;vrc
+: 1501462604:0;3rc
+: 1501462660:0;vrc
+: 1501462678:0;q
+: 1501465177:0;sudo ufw enable
+: 1501465191:0;clear
+: 1501465191:0;s
+: 1501465192:0;cd
+: 1501465193:0;.
+: 1501465194:0;cd
+: 1501465202:0;sudo ufw default deny
+: 1501465213:0;sudo ufw allow ssh
+: 1501465255:0;./.config/i3/restart_wifi.sh
+: 1501465257:0;sudo ./.config/i3/restart_wifi.sh
+: 1501465259:0;sudo sh ./.config/i3/restart_wifi.sh
+: 1501465269:0;chmod +x ~/.config/i3/restart_wifi.sh
+: 1501465270:0;clear
+: 1501465270:0;s
+: 1501465383:0;less /etc/passwd
+: 1501465413:0;sudo apt remove --purge mdm
+: 1501465472:0;clear
+: 1501465473:0;s
+: 1501465475:0;less /etc/passwd
+: 1501465522:0;sudo apt install mdm
+: 1501465534:0;sudo apt remove --purge lightdm
+: 1501465546:0;q
+: 1501465552:0;less /etc/passwd
+: 1501465566:0;cd /usr
+: 1501465567:0;ls
+: 1501465570:0;q
+: 1501469150:0;stack build; stack exec main
+: 1501469155:0;z Pipe
+: 1501469156:0;stack build; stack exec main
+: 1501469846:0;stack exec ghci
+: 1501470044:0;stack build; stack exec main
+: 1501470075:0;stack exec ghci -- src/Main.hs
+: 1501470331:0;stack exec ghci -- src/Pipe.hs
+: 1501470357:0;clear
+: 1501470358:0;s
+: 1501470365:0;cat =
+: 1501470366:0;ls
+: 1501470368:0;rm =
+: 1501470368:0;.
+: 1501470370:0;s
+: 1501470372:0;a src
+: 1501470372:0;clear
+: 1501470372:0;s
+: 1501470374:0;a .gitignore
+: 1501470374:0;.
+: 1501470375:0;s
+: 1501470376:0;d
+: 1501470380:0;a app/Main.hs
+: 1501470381:0;clear
+: 1501470381:0;s
+: 1501470389:0;stack exec ghci -- app/Main.hs
+: 1501470414:0;clear
+: 1501470414:0;s
+: 1501470738:0;q
+: 1501470927:0;s
+: 1501470928:0;clear
+: 1501470928:0;s
+: 1501470971:0;sudo apt install openssh-server
+: 1501471100:0;vrc
+: 1501471403:0;sudo apt install bim
+: 1501471410:0;sudo apt install bum
+: 1501471435:0;q
+: 1501471446:0;sudo /etc/default/speech-dispatcher
+: 1501471454:0;sudo vim /etc/default/speech-dispatcher
+: 1501471463:0;q
+: 1501471536:0;pkill speech-dispatch 
+: 1501471538:0;q
+: 1501471705:0;clear
+: 1501471705:0;s
+: 1501471719:0;cd ~/.config
+: 1501471719:0;s
+: 1501471725:0;.
+: 1501471727:0;clear
+: 1501471727:0;s
+: 1501471733:0;a nvim/plugged
+: 1501471734:0;clear
+: 1501471734:0;s
+: 1501471736:0;d nvim/init.vim
+: 1501471746:0;a nvim/init.vim
+: 1501471762:0;m "Working with i3 more, removing bad autopairs (was more work than help)"
+: 1501471765:0;clear
+: 1501471765:0;s
+: 1501471768:0;d i3
+: 1501471771:0;cd i3
+: 1501471771:0;.
+: 1501471772:0;s
+: 1501471774:0;d config
+: 1501471788:0;d restart_wifi.sh
+: 1501471791:0;a restart_wifi.sh
+: 1501471791:0;clear
+: 1501471792:0;s
+: 1501471799:0;m "+x for restart_wifi"
+: 1501471800:0;.
+: 1501471800:0;s
+: 1501471802:0;d
+: 1501471804:0;q
+: 1501471981:0;sudo vim /usr/bin/dmenu
+: 1501472013:0;q
+: 1501472201:0;pip3 install neovim-remote
+: 1501472211:0;sudo pip3 install neovim-remote
+: 1501472243:0;export NVIM_LISTEN_ADDRESS=/tmp/nvim_socket
+: 1501472259:0;nvim
+: 1501472271:0;nvr --remote ~/.config/nvim/init.vim
+: 1501472278:0;nvr --remote vsp
+: 1501472283:0;nvim
+: 1501472286:0;nvr --remote ~/.config/nvim/init.vim
+: 1501472301:0;nvr --remote-send ':vsp<CR>'
+: 1501472308:0;nvr --remote ~/.config/i3/config
+: 1501472320:0;nvr --remote-send ':wincmd l'
+: 1501472329:0;nvr --remote-send ':wincmd l<CR>'
+: 1501472341:0;nvr --remote-send ':wincmd h<CR>'
+: 1501472427:0;echo "Hi\nBye" | nvr -o -
+: 1501472451:0;nvr --remote-wait ~/.config/i3/config
+: 1501472458:0;nvim
+: 1501472489:0;cd ~/.config/nvim/plugged/i3-vim-nav
+: 1501472489:0;ls
+: 1501472493:0;vim i3-vim-nav.go
+: 1501472543:0;clear
+: 1501472543:0;s
+: 1501472548:0;go i3-vim-nav
+: 1501472553:0;clear
+: 1501472570:0;vrc
+: 1501472625:0;cd ..
+: 1501472626:0;ls
+: 1501472628:0;cd i3-vim-focus
+: 1501472628:0;ls
+: 1501472635:0;cd i3-vim-focus
+: 1501472635:0;ls
+: 1501472637:0;cd src
+: 1501472638:0;ls
+: 1501472639:0;vim main.rs
+: 1501472677:0;xdo -h
+: 1501472680:0;xdotool -h
+: 1501472688:0;xdotool exec ls
+: 1501472691:0;q
+: 1501472702:0;vrc
+: 1501472736:0;nvr --remote-send ':PlugInstall'
+: 1501472743:0;nvr --remote-send ':PlugInstall<CR>'
+: 1501472751:0;export NVIM_LISTEN_ADDRESS=/tmp/nvim_socket
+: 1501472753:0;nvr --remote-send ':PlugInstall<CR>'
+: 1501472757:0;q
+: 1501472760:0;export NVIM_LISTEN_ADDRESS=/tmp/nvim_socket
+: 1501472761:0;vim
+: 1501472765:0;export NVIM_LISTEN_ADDRESS=/tmp/nvim_socket
+: 1501472779:0;nvr --remote-send ':PlugClean<CR>'
+: 1501472787:0;clear
+: 1501472787:0;s
+: 1501472790:0;cd .../
+: 1501472791:0;cd ..
+: 1501472795:0;z i3-vim-
+: 1501472800:0;cd
+: 1501472800:0;z i3-vim-
+: 1501472804:0;z i3-vim-nav
+: 1501472806:0;clear
+: 1501472808:0;cd ~/.config/nvim/plugged/i3-vim-nav
+: 1501472809:0;ls
+: 1501472812:0;d
+: 1501472815:0;vim i3-vim-nav.go
+: 1501472879:0;sleep 5; i3-msg exec "i3-vim-nav l"
+: 1501472905:0;sleep 5; xdotool key --clearmodifiers "Escape+control+l"
+: 1501472964:0;clear
+: 1501472965:0;q
+: 1501473215:0;cd
+: 1501473215:0;.
+: 1501473217:0;cd Uni
+: 1501473218:0;.
+: 1501473219:0;cd Cpp
+: 1501473219:0;.
+: 1501473220:0;git@bitbucket.org:matts1/comp6771tutorials.git
+: 1501473482:0;https://bitbucket.org/matts1/comp6771tutorials.git
+: 1501473488:0;clear
+: 1501473488:0;ls
+: 1501473580:0;cd comp6771tutorials
+: 1501473581:0;.
+: 1501473588:0;open README.md
+: 1501473830:0;vrc
+: 1501473851:0;vim ~/.Xresources
+: 1501473864:0;zrc
+: 1501473870:0;clear
+: 1501473870:0;s
+: 1501473874:0;3rc
+: 1501473888:0;clear
+: 1501473912:0;vim ~/.Xresources
+: 1501473927:0;xrdb ~/.Xresources
+: 1501473935:0;vim ~/.Xresources
+: 1501473953:0;xrdb ~/.Xresources
+: 1501473958:0;q
+: 1501473962:0;vim ~/.Xresources
+: 1501473972:0;xrdb ~/.Xresources
+: 1501473981:0;vim ~/.Xresources
+: 1501473990:0;xrdb ~/.Xresources
+: 1501473996:0;q
+: 1501474152:0;open README.md
+: 1501474163:0;q
+: 1501474167:0;open README.md
+: 1501474178:0;q
+: 1501479355:0;i3 -v
+: 1501479381:0;3rc
+: 1501479429:0;vrc
+: 1501479479:0;q
+: 1501479634:0;restart_wifi
+: 1501479639:0;q
+: 1501479703:0;clear
+: 1501479704:0;s
+: 1501479707:0;cd
+: 1501479707:0;ls
+: 1501479715:0;exit
+: 1501479846:0;clear
+: 1501479846:0;s
+: 1501479847:0;os
+: 1501479849:0;clear
+: 1501479850:0;q
+: 1501484746:0;z Pip
+: 1501484746:0;.
+: 1501484749:0;stack exec ghci -- app/Main.hs
+: 1501484757:0;stack build; stack exec main
+: 1501484775:0;clear
+: 1501484776:0;stack build; stack exec main
+: 1501484818:0;ls
+: 1501484819:0;stack clean
+: 1501484821:0;stack build; stack exec main
+: 1501485001:0;sudo stack build; stack exec main[A
+: 1501485005:0;stack build; stack exec main
+: 1501485312:0;q
+: 1501485315:0;clear
+: 1501485315:0;q
+: 1501485320:0;..
+: 1501485863:0;cd AI
+: 1501485863:0;.
+: 1501485866:0;cd Haskell_Predicate_Logic
+: 1501485866:0;s
+: 1501485872:0;cd HPL
+: 1501485872:0;.
+: 1501485878:0;vim HPL.cabal
+: 1501485882:0;cd P
+: 1501485884:0;cd Pipe
+: 1501485884:0;.
+: 1501485887:0;vmi Pipe.cabal
+: 1501485889:0;vim Pipe.cabal
+: 1501485974:0;q
+: 1501485981:0;clear
+: 1501485981:0;s
+: 1501485983:0;cd ..
+: 1501485984:0;s
+: 1501485988:0;clear
+: 1501485989:0;ls -la
+: 1501485991:0;clear
+: 1501485992:0;s
+: 1501486000:0;vim *.hs
+: 1501486002:0;cd HPL
+: 1501486003:0;ls
+: 1501486011:0;vim src/Lib.hs app/Main.hs
+: 1501486667:0;ls
+: 1501486679:0;mv *.hs HPL/src
+: 1501486681:0;ls
+: 1501486687:0;mv HPL/* .
+: 1501486688:0;ls
+: 1501486691:0;rm HPL
+: 1501486691:0;.
+: 1501486692:0;cd ..
+: 1501486695:0;mv Haskell_Predicate_Logic HPL
+: 1501486695:0;.
+: 1501486697:0;cd HPL
+: 1501486697:0;.
+: 1501486699:0;cd src
+: 1501486699:0;.
+: 1501486707:0;mv test.hs ../test/Spec.hs
+: 1501486707:0;.
+: 1501486709:0;cd ..
+: 1501486710:0;clear
+: 1501486710:0;s
+: 1501486712:0;a .
+: 1501486713:0;clear
+: 1501486713:0;s
+: 1501486716:0;clear
+: 1501486717:0;s
+: 1501486718:0;cd ..
+: 1501486720:0;cclear
+: 1501486720:0;s
+: 1501486722:0;clear
+: 1501486722:0;s
+: 1501486739:0;vim src/*
+: 1501486746:0;q
+: 1501486794:0;fg
+: 1501487046:0;z HPL
+: 1501487047:0;.
+: 1501487052:0;stack build; stack test
+: 1501487079:0;clear
+: 1501487079:0;s
+: 1501487087:0;clear
+: 1501487087:0;s
+: 1501487098:0;q
+: 1501487175:0;vim ~/.Xresources
+: 1501487181:0;sudo vim /usr/bin/dmenu
+: 1501487193:0;fg
+: 1501487207:0;clear
+: 1501487208:0;s
+: 1501487210:0;..
+: 1501487211:0;cd games
+: 1501487212:0;.
+: 1501487218:0;cd HaskPGRender
+: 1501487219:0;ls
+: 1501487224:0;stack build; stack exec main
+: 1501487235:0;vim RenderWorld.cabal
+: 1501487255:0;clear
+: 1501487255:0;s
+: 1501487257:0;stack build; stack exec main
+: 1501487269:0;clear
+: 1501487269:0;s
+: 1501487270:0;clear
+: 1501487271:0;D
+: 1501487272:0;d
+: 1501487281:0;vim RenderWorld.cabal
+: 1501487291:0;s
+: 1501487293:0;vim app/Main.hs
+: 1501487297:0;clear
+: 1501487298:0;stack build; stack exec main
+: 1501487305:0;clear
+: 1501487305:0;s
+: 1501487307:0;d
+: 1501487313:0;a .
+: 1501487320:0;m "Working with better cabal"
+: 1501487320:0;clear
+: 1501487320:0;s
+: 1501487327:0;vim RenderWorld.cabal
+: 1501487380:0;clear
+: 1501487380:0;s
+: 1501487383:0;a RenderWorld.cabal
+: 1501487384:0;.
+: 1501487392:0;vim src/Area.hs src/Lib.hs src/TestArea.hs src/TestTree.hs src/Tree.hs src/Utils.hs src/World.hs  app/Main.hs
+: 1501487397:0;vim RenderWorld.cabal
+: 1501487411:0;clear
+: 1501487411:0;s
+: 1501487413:0;a RE
+: 1501487415:0;a RenderWorld.cabal
+: 1501487415:0;clear
+: 1501487415:0;s
+: 1501488120:0;clear
+: 1501488121:0;s
+: 1501488132:0;stack build; stack exec main
+: 1501488137:0;stack install lens
+: 1501488157:0;z Uni
+: 1501488157:0;.
+: 1501488171:0;..
+: 1501488173:0;cd ANNs
+: 1501488173:0;.
+: 1501488174:0;s
+: 1501488175:0;clear
+: 1501488175:0;s
+: 1501488179:0;mk wk2
+: 1501488208:0;clear
+: 1501488209:0;s
+: 1501488212:0;vim lecture.md
+: 1501488375:0;restart_wifi
+: 1501488382:0;q
+: 1501488476:0;vim lecture.md
+: 1501488492:0;cp ../tensorflow_test.py tensorflow_wk2.py
+: 1501488501:0;python3 tensorflow_wk2.py
+: 1501488512:0;q
+: 1501488552:0;stack install lens
+: 1501488556:0;stack build; stack exec main
+: 1501488573:0;q
+: 1501488708:0;clear
+: 1501488725:0;sudo apt install fail2ban
+: 1501488736:0;clear
+: 1501488822:0;s
+: 1501488824:0;p
+: 1501488833:0;cd .../
+: 1501488834:0;.../
+: 1501488836:0;..
+: 1501488840:0;cd AI/HPL
+: 1501488843:0;stack build; stack exec main
+: 1501488919:0;clear
+: 1501488920:0;s
+: 1501488933:0;clear
+: 1501488933:0;s
+: 1501488938:0;vim src/*
+: 1501489179:0;stack build; stack exec main
+: 1501489298:0;clear
+: 1501489299:0;s
+: 1501489302:0;git pull
+: 1501489305:0;git push
+: 1501489307:0;s
+: 1501489308:0;clear
+: 1501489309:0;d
+: 1501489312:0;D
+: 1501489316:0;a RenderWorld.cabal
+: 1501489317:0;clear
+: 1501489318:0;s
+: 1501489330:0;vim src/*
+: 1501489388:0;cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
+: 1501489389:0;sudo cp /etc/fail2ban/fail2ban.conf /etc/fail2ban/fail2ban.local
+: 1501489431:0;vim /etc/fail2ban/jail.l
+: 1501489434:0;vim /etc/fail2ban/jail.local
+: 1501489447:0;vim /etc/fail2ban/fail2ban.local
+: 1501489481:0;vim /etc/fail2ban/jail.local
+: 1501489524:0;q
+: 1501489538:0;sendmail -t jp10010101010000@gmail.com
+: 1501489544:0;sudo apt install sendmail
+: 1501489753:0;clear
+: 1501489758:0;sendmailconfig
+: 1501489773:0;cd ..
+: 1501489773:0;ls
+: 1501489777:0;q
+: 1501489792:0;git@github.com:Cypher1/Jungell.git
+: 1501489794:0;cd Jungell
+: 1501489794:0;.
+: 1501489799:0;vim src/*
+: 1501489805:0;.
+: 1501489807:0;cd test
+: 1501489807:0;.
+: 1501489808:0;vim Spec.hs
+: 1501489812:0;clear
+: 1501489812:0;..
+: 1501489814:0;cd app
+: 1501489815:0;vim Main.hs
+: 1501489823:0;..
+: 1501489827:0;vim src/Lib.hs
+: 1501490009:0;ls
+: 1501490015:0;stack build; stack exec Jungell
+: 1501490104:0;q
+: 1501490333:0;sendmailconfig
+: 1501490346:0;clear
+: 1501490346:0;s
+: 1501490368:0;clear
+: 1501490369:0;s
+: 1501490373:0;a src/Types.hs
+: 1501490375:0;clear
+: 1501490375:0;s
+: 1501490447:0;q
+: 1501490507:0;cd
+: 1501490507:0;.
+: 1501490524:0;zrc
+: 1501490644:0;q
+: 1501490840:0;q\
+
+: 1501490884:0;sudo apt install ngrok
+: 1501490895:0;sudo apt install ngrok-client ngrok-server
+: 1501490974:0;./ngrok authtoken 3yTVh7XV2c4koBezbgQqC_5DgoaNDBppri9VF81kH3A
+: 1501491028:0;unzip ~/Downloads/ngrok-stable-linux-amd64.zip
+: 1501491032:0;z Down
+: 1501491032:0;.
+: 1501491037:0;clear
+: 1501491038:0;ls
+: 1501491042:0;unzip ngrok-stable-linux-amd64.zip
+: 1501491043:0;cd n
+: 1501491044:0;ls
+: 1501491045:0;clear
+: 1501491045:0;ls
+: 1501491051:0;vim noname
+: 1501491054:0;rm noname
+: 1501491054:0;.
+: 1501491057:0;vim ngrok
+: 1501491061:0;.
+: 1501491067:0;mv ngrok /usr/local/bin
+: 1501491070:0;cd ..
+: 1501491070:0;s
+: 1501491071:0;rm ngrok
+: 1501491072:0;.
+: 1501491082:0;ngrok authtoken 3yTVh7XV2c4koBezbgQqC_5DgoaNDBppri9VF81kH3A
+: 1501491089:0;ngrok http 80
+: 1501491115:0;vim ~/.Xresources
+: 1501491123:0;xrdb ~/.Xresources
+: 1501491124:0;q
+: 1501491147:0;clear
+: 1501491148:0;ls
+: 1501491154:0;q
+: 1501491156:0;ngrok http 80
+: 1501491201:0;ngrok ssh 22
+: 1501491210:0;ngrok tcp 22
+: 1501491232:0;ssh cypher@0.tcp.ngrok.io -p 10543
+: 1501491244:0;clear
+: 1501491245:0;s
+: 1501491249:0;exit
+: 1501491254:0;ssh-copy-id
+: 1501491258:0;ssh-copy-id cypher@localhost
+: 1501491264:0;clear
+: 1501491264:0;s
+: 1501491270:0;ssh cypher@0.tcp.ngrok.io -p 10543
+: 1501491292:0;vim .env/bin/activate
+: 1501491318:0;clear
+: 1501491320:0;s
+: 1501491323:0;exit
+: 1501491325:0;clear
+: 1501491325:0;s
+: 1501491343:0;ssh cypher@0.tcp.ngrok.io -p 10543
+: 1501491347:0;ls
+: 1501491918:0;stack build
+: 1501493273:0;clear
+: 1501493274:0;stack build
+: 1501493406:0;echo "NO"
+: 1501493415:0;q
+: 1501493802:0;stack build
+: 1501494313:0;clear
+: 1501494317:0;stack build
+: 1501494429:0;clear
+: 1501494433:0;stack exec main
+: 1501494441:0;stack exec HPL-exe
+: 1501494445:0;stack exec HPL
+: 1501494455:0;stack test HPL-test
+: 1501494459:0;stack test
+: 1501495493:0;clear
+: 1501495495:0;stack test
+: 1501496714:0;clear
+: 1501496714:0;s
+: 1501496716:0;d
+: 1501496720:0;a HPL.cabal
+: 1501496721:0;clear
+: 1501496721:0;s
+: 1501496729:0;clear
+: 1501496729:0;s
+: 1501496730:0;a .
+: 1501496731:0;clear
+: 1501496731:0;s
+: 1501496739:0;m "Moving properly to stack"
+: 1501496746:0;q
+: 1501496749:0;clear
+: 1501496760:0;s
+: 1501496766:0;clear
+: 1501496931:0;s
+: 1501496932:0;p
+: 1501496942:0;p -u origin monadic
+: 1501497053:0;clear
+: 1501497054:0;s
+: 1501497054:0;.
+: 1501497110:0;stack bui
+: 1501497113:0;stack build
+: 1501497192:0;q
+: 1501497859:0;stack build
+: 1501497936:0;stack test
+: 1501499658:0;q
+: 1501499711:0;clear
+: 1501499712:0;s
+: 1501499713:0;d
+: 1501499889:0;clear
+: 1501499889:0;s
+: 1501499890:0;d
+: 1501499898:0;d app
+: 1501499901:0;a app
+: 1501499918:0;m "Remove empty main"
+: 1501499919:0;clear
+: 1501499919:0;s
+: 1501499920:0;d
+: 1501499927:0;clear
+: 1501499927:0;s
+: 1501499981:0;stack test
+: 1501500682:0;3rc
+: 1501500755:0;i3-nagbar -m "Whoops" -t 3 | sleep 3 | echo "HI"
+: 1501500769:0;i3-nagbar -m "Whoops" -t 3 && sleep 3 && echo "HI"
+: 1501500801:0;q
+: 1501500824:0;i3lock -h
+: 1501500846:0;i3lock -c "#000000"
+: 1501500866:0;i3lock -c "#000000" -i ~/Drive/Me/Pictures/firewatch.jpg
+: 1501500877:0;i3lock -i ~/Drive/Me/Pictures/firewatch.jpg
+: 1501500882:0;clear
+: 1501500882:0;s
+: 1501500889:0;q
+: 1501500897:0;du -hs ~/Drive/Me/Pictures/firewatch.jpg
+: 1501500903:0;man i3lock
+: 1501500935:0;man xautolock
+: 1501500939:0;_xautolock
+: 1501500941:0;xautolock
+: 1501500943:0;clear
+: 1501500943:0;s
+: 1501500948:0;i3lock -h
+: 1501500959:0;man i3lock
+: 1501501199:0;cd ~/.config/i3
+: 1501501199:0;.
+: 1501501203:0;./i3exit.sh lock
+: 1501501265:0;z Drive
+: 1501501266:0;cd Me
+: 1501501267:0;cd P
+: 1501501269:0;cd Pictures
+: 1501501269:0;.
+: 1501501275:0;grep *.png
+: 1501501279:0;ls | grep *.png
+: 1501501282:0;ls *.png
+: 1501501286:0;open .
+: 1501501378:0;q
+: 1501501380:0;open .
+: 1501509384:0;clear
+: 1501509385:0;q
+: 1501509387:0;./i3exit.sh lock
+: 1501509398:0;man i3lock
+: 1501509444:0;restart_wifi
+: 1501509448:0;clear
+: 1501509449:0;s
+: 1501509469:0;clear
+: 1501509469:0;s
+: 1501509472:0;q
+: 1501510225:0;clear
+: 1501510226:0;s
+: 1501510227:0;d
+: 1501510248:0;clear
+: 1501510248:0;s
+: 1501510249:0;a .
+: 1501510250:0;clear
+: 1501510250:0;s
+: 1501510252:0;D
+: 1501510264:0;clear
+: 1501510264:0;s
+: 1501510267:0;d
+: 1501510268:0;D
+: 1501510280:0;stack test
+: 1501510390:0;clear
+: 1501510391:0;s
+: 1501510392:0;a .
+: 1501510393:0;clear
+: 1501510448:0;restart_wifi
+: 1501510463:0;vim `which restart_wifi`
+: 1501510480:0;restart_wifi
+: 1501510484:0;clear
+: 1501510484:0;q
+: 1501510622:0;stack test
+: 1501510667:0;clear
+: 1501510667:0;s
+: 1501510668:0;a .
+: 1501510683:0;m "Convert more types to records to move towards Lenses"
+: 1501510684:0;p
+: 1501510691:0;q
+: 1501510695:0;clear
+: 1501510695:0;s
+: 1501541338:0;z ANN
+: 1501541339:0;.
+: 1501541343:0;vim wk2/lecture.md
+: 1501541365:0;q
+: 1501541912:0;vim wk2/lecture.md
+: 1501541921:0;fg
+: 1501541926:0;vim wk2/lecture.md
+: 1501541942:0;q
+: 1501541949:0;.
+: 1501541950:0;s
+: 1501541954:0;clear
+: 1501541954:0;s
+: 1501541957:0;m "Wk1"
+: 1501541959:0;s
+: 1501541960:0;a wk2
+: 1501541970:0;m "Wk2 - Sigmoids"
+: 1501541971:0;p
+: 1501541987:0;git remote add origin git@github.com:Cypher1/ANNs_UNSW.git
+: 1501541990:0;q
+: 1501542025:0;p
+: 1501542029:0;p -u origin master
+: 1501542042:0;q
+: 1501542231:0;cd ../Cpp
+: 1501542231:0;.
+: 1501542233:0;cd comp6771tutorials
+: 1501542233:0;.
+: 1501542247:0;git remote remove origin cjdb
+: 1501542255:0;mkdir -p build/debug
+: 1501542258:0;cd build/debug
+: 1501542275:0;cmake -DCMAKE_CXX_COMPILER="g++"
+: 1501542286:0;cmake -DCMAKE_CXX_COMPILER="g++" -DCMAKE_BUILD_TYPE=DC
+: 1501542291:0;cmake -DCMAKE_CXX_COMPILER="g++" -DCMAKE_BUILD_TYPE=Debug ../..
+: 1501542299:0;make && make test
+: 1501542308:0;ls ..
+: 1501542311:0;ls ../../
+: 1501542315:0;ls ../../source
+: 1501542322:0;clear
+: 1501542322:0;ls
+: 1501542332:0;ls Testing
+: 1501542334:0;ls Testing/Temporary
+: 1501542354:0;git pull
+: 1501542359:0;git branch
+: 1501542364:0;git remote
+: 1501542366:0;git remote -v
+: 1501542375:0;git remote rename origin cjdb
+: 1501542376:0;git remote -v
+: 1501542378:0;clear
+: 1501542380:0;git pull cjdb 
+: 1501542385:0;s
+: 1501542388:0;make && make test
+: 1501542404:0;vim Makefile
+: 1501542462:0;cd ...
+: 1501542464:0;ls source
+: 1501542469:0;ls source/tut1
+: 1501542498:0;ls *
+: 1501542500:0;ls */*
+: 1501542578:0;pkill mintupdate
+: 1501542580:0;clear
+: 1501542581:0;s
+: 1501542592:0;mintupdate
+: 1501542638:0;clear
+: 1501542644:0;mintupdate-tool
+: 1501542648:0;mintupdate-tool --install-recommends
+: 1501542656:0;mintupdate-tool --install-recommends install
+: 1501542668:0;mintupdate
+: 1501542680:0;mintupdate-launcher
+: 1501542700:0;q
+: 1501542706:0;gksudo mintupdate
+: 1501542746:0;3src
+: 1501542762:0;clear
+: 1501542762:0;q
+: 1501543033:0;i3-msg exec 'gksudo mint-update'
+: 1501543057:0;3rc
+: 1501543063:0;mintupdate
+: 1501543065:0;q
+: 1501543076:0;3sr
+: 1501543078:0;3src
+: 1501543090:0;i3-msg exec 'gksudo mintupdate'
+: 1501543148:0;which gksudo
+: 1501543309:0;which restart_wifi
+: 1501543312:0;vim `which restart_wifi`
+: 1501543319:0;clear
+: 1501543367:0;qq
+: 1501543368:0;q
+: 1501543388:0;clear
+: 1501543388:0;s
+: 1501543391:0;3src
+: 1501543671:0;apt list --upgradable
+: 1501543678:0;sudo apt install imagemagick
+: 1501543706:0;ls
+: 1501543711:0;vim CMakeLists.txt
+: 1501543726:0;ls
+: 1501543728:0;cd source
+: 1501543728:0;ls
+: 1501543731:0;cd tut1
+: 1501543731:0;ls
+: 1501543734:0;cd ..
+: 1501543736:0;..
+: 1501543737:0;cd build
+: 1501543737:0;ls
+: 1501543745:0;make
+: 1501543748:0;ls
+: 1501543751:0;cd debug
+: 1501543752:0;ls
+: 1501543753:0;make
+: 1501543755:0;ls
+: 1501543758:0;ls bin
+: 1501543760:0;ls Testing
+: 1501543762:0;ls Testing/Temporary
+: 1501543764:0;clear
+: 1501543764:0;ls
+: 1501543768:0;cd ..
+: 1501543768:0;ls
+: 1501543769:0;cd ..
+: 1501543770:0;ls
+: 1501543772:0;cd run
+: 1501543774:0;./run
+: 1501543786:0;./run q1
+: 1501543794:0;vim run
+: 1501543820:0;clear
+: 1501543821:0;l
+: 1501543823:0;rm build
+: 1501543826:0;./run
+: 1501543828:0;./run q1
+: 1501543838:0;pwd
+: 1501543841:0;vim run
+: 1501543860:0;./run
+: 1501543862:0;./run q1
+: 1501543968:0;./run source/tut1/q1.cpp
+: 1501543970:0;./run source/tut1/q1
+: 1501543974:0;clear
+: 1501543981:0;cd source/tut1
+: 1501543987:0;../../run q1.cpp
+: 1501543992:0;../../run q1
+: 1501543996:0;ls
+: 1501543999:0;cd ..
+: 1501543999:0;ls
+: 1501544001:0;cd ..
+: 1501544001:0;clear
+: 1501544002:0;ls
+: 1501544004:0;cd build
+: 1501544005:0;ls
+: 1501544006:0;cd debug
+: 1501544006:0;.
+: 1501544010:0;cd ..
+: 1501544011:0;..
+: 1501544013:0;cd source
+: 1501544013:0;ls
+: 1501544015:0;cd tut1
+: 1501544015:0;.
+: 1501544017:0;make
+: 1501544027:0;q
+: 1501544059:0;vim run
+: 1501544160:0;git pull cjdb 
+: 1501544184:0;git rev-parse --show-toplevel
+: 1501544214:0;./run
+: 1501544216:0;cd ..
+: 1501544217:0;..
+: 1501544218:0;./run
+: 1501544220:0;./run q1
+: 1501544297:0;./run
+: 1501544298:0;./run q1
+: 1501544311:0;cd source/tut1
+: 1501544315:0;../../run q1
+: 1501544357:0;zrc
+: 1501544382:0;root
+: 1501544385:0;s
+: 1501544390:0;q
+: 1501544392:0;clear
+: 1501544392:0;s
+: 1501544393:0;d
+: 1501544401:0;d source
+: 1501544407:0;cd source/tut1
+: 1501544408:0;clear
+: 1501544408:0;s
+: 1501544409:0;d .
+: 1501544414:0;a q1 q2
+: 1501544415:0;ls
+: 1501544416:0;./q1
+: 1501544419:0;./q2
+: 1501544427:0;vim q1.cpp
+: 1501544433:0;clear
+: 1501544434:0;s
+: 1501544441:0;git rm q1 q2
+: 1501544442:0;clear
+: 1501544442:0;s
+: 1501544455:0;gi q1 q2 q3 order3
+: 1501544456:0;clear
+: 1501544457:0;s
+: 1501544464:0;git rm --cached q1 q2
+: 1501544465:0;clear
+: 1501544465:0;s
+: 1501544468:0;a ../../.gitignore
+: 1501544469:0;clear
+: 1501544469:0;s
+: 1501544471:0;a ../../run
+: 1501544472:0;clear
+: 1501544472:0;s
+: 1501544491:0;zrc
+: 1501544529:0;clear
+: 1501544530:0;exec zsh
+: 1501544534:0;gexe run
+: 1501544539:0;git !exec ls
+: 1501544566:0;zrc
+: 1501544594:0;rexe run
+: 1501544613:0;exec zsh
+: 1501544615:0;rexe run
+: 1501544618:0;rexe ./run
+: 1501544620:0;rexe ./run q1
+: 1501544709:0;git config --global alias.exec '!exec '
+: 1501544713:0;git exec run
+: 1501544717:0;git exec ./run q1
+: 1501544721:0;clear
+: 1501544722:0;s
+: 1501544725:0;cd source/tut1
+: 1501544728:0;git exec ./run q1
+: 1501544744:0;exec zsh
+: 1501544746:0;clear
+: 1501544749:0;rexe ./run q1
+: 1501544838:0;exec zsh
+: 1501544842:0;rexe ./run q1
+: 1501544858:0;exec zsh
+: 1501544860:0;rexe ./run q1
+: 1501544916:0;q
+: 1501544962:0;git exec ./run
+: 1501544964:0;git exec ./run q1
+: 1501544976:0;cd source/tut1
+: 1501544977:0;git exec ./run q1
+: 1501544987:0;git exec ./run source/tut1/q1
+: 1501545001:0;git exec ./run tut1/q1
+: 1501545009:0;vim ../../run
+: 1501545016:0;q
+: 1501545021:0;vim ../../run
+: 1501545029:0;git exec ./run tut1/q1
+: 1501545037:0;git exec ./run q1
+: 1501545096:0;vrc
+: 1501545098:0;zrc
+: 1501545121:0;exec zsh
+: 1501545123:0;rexe
+: 1501545126:0;cd -
+: 1501545132:0;rexe/run q1
+: 1501545143:0;rexe /run q1
+: 1501545156:0;exec zsh
+: 1501545160:0;rexe ./run q1
+: 1501545178:0;exec zsh
+: 1501545180:0;rexe ./run q1
+: 1501545193:0;exec zsh
+: 1501545194:0;rexe ./run q1
+: 1501545205:0;exec zsh
+: 1501545207:0;rexe ./run q1
+: 1501545231:0;exec zsh
+: 1501545233:0;rexe ./run q1
+: 1501545238:0;exec zsh
+: 1501545240:0;rexe ./run q1
+: 1501545255:0;/home/cypher/Uni/Cpp/comp6771tutorials/./run q1
+: 1501545268:0;rexe run q1
+: 1501545271:0;exec zsh
+: 1501545274:0;rexe run q1
+: 1501545280:0;/home/cypher/Uni/Cpp/comp6771tutorials/run q1
+: 1501545286:0;cd tut1
+: 1501545288:0;cd source/tut1
+: 1501545291:0;/home/cypher/Uni/Cpp/comp6771tutorials/run q1
+: 1501545306:0;...
+: 1501545313:0;zrc run
+: 1501545326:0;/home/cypher/Uni/Cpp/comp6771tutorials/run q1
+: 1501545331:0;rexe run q1
+: 1501545353:0;exec zsh
+: 1501545355:0;rexe run q1
+: 1501545399:0;exec zsh
+: 1501545400:0;rexe run q1
+: 1501545423:0;exec zsh
+: 1501545425:0;rexe run q1
+: 1501545438:0;exec zsh
+: 1501545439:0;rexe run q1
+: 1501545453:0;exec zsh
+: 1501545455:0;rexe run q1
+: 1501545472:0;exec zsh
+: 1501545473:0;rexe run q1
+: 1501545482:0;ls
+: 1501545485:0;./q1
+: 1501545486:0;./q2
+: 1501545487:0;./q3
+: 1501545492:0;clear
+: 1501545492:0;ls
+: 1501545496:0;rm q1 q2
+: 1501545497:0;clear
+: 1501545497:0;s
+: 1501545500:0;a ../../run
+: 1501545500:0;clear
+: 1501545500:0;s
+: 1501545502:0;cd ..
+: 1501545503:0;..
+: 1501545504:0;ls
+: 1501545505:0;cd build
+: 1501545505:0;ls
+: 1501545506:0;cd ds
+: 1501545507:0;cd de
+: 1501545510:0;cd debug
+: 1501545511:0;.
+: 1501545516:0;ls *
+: 1501545526:0;clear
+: 1501545526:0;ls
+: 1501545528:0;source
+: 1501545529:0;ls
+: 1501545530:0;cd source
+: 1501545531:0;ls
+: 1501545534:0;cd ..
+: 1501545535:0;clear
+: 1501545535:0;ls
+: 1501545538:0;vim Makefile
+: 1501545542:0;make
+: 1501545544:0;ls
+: 1501545546:0;s
+: 1501545551:0;vim ../../.gitignore
+: 1501545563:0;git checkout ../../.gitignore
+: 1501545564:0;clear
+: 1501545564:0;s
+: 1501545576:0;git checkout ../../.gitignore
+: 1501545577:0;s
+: 1501545584:0;git clean ../../.gitignore
+: 1501545590:0;git clean -i ../../.gitignore
+: 1501545591:0;clear
+: 1501545591:0;s
+: 1501545596:0;d ../../.git
+: 1501545598:0;d ../../.gitignore
+: 1501545602:0;cd ../../
+: 1501545603:0;clear
+: 1501545603:0;s
+: 1501545606:0;d .gitignore
+: 1501545613:0;git rm --cached .gitignore
+: 1501545614:0;clear
+: 1501545614:0;s
+: 1501545623:0;git checkout .gitignore
+: 1501545641:0;git checkout cjdb/master .gitignore
+: 1501545642:0;s
+: 1501545643:0;clear
+: 1501545645:0;vim .gitignore
+: 1501545649:0;clear
+: 1501545649:0;s
+: 1501545652:0;./run
+: 1501545657:0;clear
+: 1501545657:0;s
+: 1501545660:0;cd source/tut1
+: 1501545661:0;ls
+: 1501545665:0;rexe run q1
+: 1501545667:0;ls
+: 1501545668:0;s
+: 1501545674:0;cd ../../build
+: 1501545674:0;ls
+: 1501545676:0;cd debug
+: 1501545677:0;clear
+: 1501545677:0;s
+: 1501545685:0;cd ...
+: 1501545732:0;cd source/tut1
+: 1501545734:0;rexe run q1
+: 1501545774:0;exec zsh
+: 1501545775:0;rexe run q1
+: 1501545790:0;vim q1.cpp
+: 1501545824:0;rexe run q1
+: 1501545842:0;vim q2.cpp
+: 1501545851:0;cp q1.cpp q2.cpp
+: 1501545854:0;vim q1.cpp q2.cpp
+: 1501545866:0;clear
+: 1501545866:0;s
+: 1501545869:0;vim q3.cpp
+: 1501545883:0;cp q2.cpp q3.cpp
+: 1501545885:0;vim q3.cpp
+: 1501545933:0;clear
+: 1501545933:0;s
+: 1501545936:0;vim q3.cpp
+: 1501545948:0;clear
+: 1501545948:0;s
+: 1501545952:0;vrc
+: 1501545964:0;clear
+: 1501545964:0;s
+: 1501545971:0;mv cs6771.hpp source/tut1
+: 1501545971:0;.
+: 1501545972:0;s
+: 1501545978:0;vim q1.cpp q2.cpp q3.cpp
+: 1501545979:0;q
+: 1501545996:0;clear
+: 1501545997:0;s
+: 1501546000:0;rexe run q1
+: 1501546003:0;rexe run q2
+: 1501546005:0;rexe run q3
+: 1501546006:0;clear
+: 1501546006:0;s
+: 1501546010:0;a q1*
+: 1501546011:0;clear
+: 1501546011:0;s
+: 1501546013:0;a cs6771.hpp
+: 1501546013:0;clear
+: 1501546014:0;s
+: 1501546017:0;a q*
+: 1501546017:0;.
+: 1501546018:0;s
+: 1501546022:0;d ../../run
+: 1501546027:0;rexe run q3
+: 1501546069:0;rexe vim run
+: 1501546082:0;vim rexe run
+: 1501546086:0;clear
+: 1501546092:0;vim $(rexe run)
+: 1501546095:0;clear
+: 1501546095:0;s
+: 1501546097:0;clear
+: 1501546097:0;s
+: 1501546099:0;root
+: 1501546101:0;vim run
+: 1501546108:0;clear
+: 1501546108:0;s
+: 1501546146:0;git remote add origin git@github.com:Cypher1/Cpp_Tuts.git
+: 1501546148:0;s
+: 1501546153:0;D
+: 1501546177:0;vim run
+: 1501546187:0;cd source
+: 1501546187:0;ls
+: 1501546189:0;cd tut1
+: 1501546190:0;ls
+: 1501546194:0;cd ..
+: 1501546203:0;mkdir fuckTheSystem
+: 1501546205:0;mv tut1 fuckTheSystem
+: 1501546206:0;clear
+: 1501546206:0;s
+: 1501546208:0;cd fuckTheSystem
+: 1501546208:0;clear
+: 1501546209:0;s
+: 1501546213:0;cd tut1
+: 1501546213:0;ls
+: 1501546214:0;rexe vim run
+: 1501546217:0;rexe run q3
+: 1501546296:0;clear
+: 1501546297:0;s
+: 1501546299:0;git stash
+: 1501546301:0;cd ...
+: 1501546302:0;..
+: 1501546308:0;./run tut1/q1
+: 1501546313:0;git stash apply 
+: 1501546314:0;clear
+: 1501546314:0;s
+: 1501546316:0;cd source
+: 1501546317:0;clear
+: 1501546317:0;s
+: 1501546319:0;cd fuckTheSystem
+: 1501546320:0;clear
+: 1501546320:0;s
+: 1501546323:0;cd tut1
+: 1501546324:0;clear
+: 1501546324:0;s
+: 1501546378:0;relpath
+: 1501546444:0;realpath
+: 1501546490:0;exec zsh
+: 1501546494:0;rexe run q3
+: 1501546560:0;clear
+: 1501546560:0;ls
+: 1501546578:0;mv tut1 ..
+: 1501546580:0;cd ..
+: 1501546584:0;mv tut1 .
+: 1501546586:0;mv tut1 ..
+: 1501546587:0;clear
+: 1501546588:0;s
+: 1501546592:0;cd ..
+: 1501546593:0;clear
+: 1501546593:0;s
+: 1501546595:0;a tut1
+: 1501546596:0;clear
+: 1501546596:0;s
+: 1501546602:0;mv fuckTheSystem/tut1/* .
+: 1501546603:0;clear
+: 1501546603:0;s
+: 1501546606:0;mv * tut1
+: 1501546607:0;clear
+: 1501546607:0;s
+: 1501546608:0;clear
+: 1501546609:0;a .
+: 1501546610:0;clear
+: 1501546610:0;s
+: 1501546616:0;ls
+: 1501546618:0;cd tut1
+: 1501546619:0;ls
+: 1501546622:0;a CMakeLists.txt
+: 1501546622:0;clear
+: 1501546622:0;s
+: 1501546644:0;git checkout cjdb/master source/CMakeLists.txt
+: 1501546646:0;cd ..
+: 1501546647:0;clear
+: 1501546647:0;s
+: 1501546650:0;d
+: 1501546656:0;cd tut1
+: 1501546657:0;rexe run q3
+: 1501546661:0;mv CMakeLists.txt ..
+: 1501546662:0;rexe run q3
+: 1501546664:0;clear
+: 1501546664:0;s
+: 1501546679:0;git checkout CMakeLists.txt
+: 1501546680:0;s
+: 1501546685:0;cd ..
+: 1501546687:0;a ../CMakeLists.txt
+: 1501546687:0;clear
+: 1501546688:0;s
+: 1501546691:0;a CMakeLists.txt
+: 1501546692:0;clear
+: 1501546692:0;s
+: 1501546695:0;d CMakeLists.txt
+: 1501546698:0;D CMakeLists.txt
+: 1501546703:0;a CMakeLists.txt
+: 1501546704:0;clear
+: 1501546704:0;s
+: 1501546715:0;git rm --cached CMakeLists.txt
+: 1501546715:0;clear
+: 1501546715:0;s
+: 1501546719:0;rm CMakeLists.txt
+: 1501546723:0;git checkout 
+: 1501546726:0;git checkout CMakeLists.txt
+: 1501546731:0;git checkout source/CMakeLists.txt
+: 1501546732:0;clear
+: 1501546732:0;s
+: 1501546750:0;git clean -i CMakeLists.txt
+: 1501546751:0;s
+: 1501546765:0;git reset CMakeLists.txt
+: 1501546770:0;cd ..
+: 1501546771:0;clear
+: 1501546771:0;s
+: 1501546780:0;git reset source/CMakeLists.txt
+: 1501546796:0;touch source/CMakeLists.txt
+: 1501546797:0;clear
+: 1501546797:0;s
+: 1501546800:0;a source/CMakeLists.txt
+: 1501546801:0;clear
+: 1501546801:0;s
+: 1501546802:0;D
+: 1501546803:0;d
+: 1501546811:0;git checkout source/CMakeLists.txt
+: 1501546811:0;s
+: 1501546815:0;cd source
+: 1501546817:0;vim CMakeLists.txt
+: 1501546866:0;git checkout -- CMakeLists.txt
+: 1501546867:0;s
+: 1501546873:0;git discard CMakeLists.txt
+: 1501546873:0;clear
+: 1501546874:0;s
+: 1501546885:0;git clean CMakeLists.txt
+: 1501546890:0;git clean -df CMakeLists.txt
+: 1501546891:0;clear
+: 1501546891:0;s
+: 1501546892:0;d
+: 1501546906:0;git checkout -- CM
+: 1501546908:0;git checkout -- CMakeLists.txt
+: 1501546908:0;s
+: 1501546910:0;cd ..
+: 1501546915:0;git checkout -- source/CMakeLists.txt
+: 1501546916:0;clear
+: 1501546916:0;s
+: 1501546923:0;git checkout cjdb/master source/CMakeLists.txt
+: 1501546923:0;s
+: 1501546925:0;clear
+: 1501546925:0;s
+: 1501546947:0;clear
+: 1501546947:0;s
+: 1501546949:0;d run
+: 1501547095:0;rexe run
+: 1501547137:0;clear
+: 1501547167:0;rexe run
+: 1501547169:0;rexe run > out
+: 1501547171:0;cat out
+: 1501547172:0;rm out
+: 1501547175:0;clear
+: 1501547175:0;s
+: 1501547176:0;a run
+: 1501547177:0;clear
+: 1501547177:0;s
+: 1501547219:0;m "Get run to run files when run from source/*/ and split namespace 6771cpp into header"
+: 1501547220:0;clear
+: 1501547220:0;s
+: 1501547225:0;vim README.md
+: 1501547227:0;zrc
+: 1501547264:0;clear
+: 1501547264:0;s
+: 1501547266:0;p
+: 1501547301:0;p -u origin 
+: 1501547318:0;q
+: 1501547320:0;clear
+: 1501547320:0;s
+: 1501547323:0;q
+: 1501547471:0;git remote add bit git@bitbucket.org:jopro/comp6771tutorials.git
+: 1501547475:0;git push bit
+: 1501547535:0;cat ~/.ssh/id_rsa.pub | xclip
+: 1501547541:0;cat ~/.ssh/id_rsa.pub | xclip -sel
+: 1501547551:0;cat ~/.ssh/id_rsa.pub | xclip -in
+: 1501547561:0;cat ~/.ssh/id_rsa.pub | xclip -i
+: 1501547589:0;xclip-copyfile ~/.ssh/id_rsa.pub
+: 1501547598:0;cat ~/.ssh/id_rsa.pub | xclip -sel clip
+: 1501547618:0;p
+: 1501547622:0;p bit 
+: 1501547693:0;clear
+: 1501547694:0;s
+: 1501547696:0;zrc
+: 1501547879:0;clear
+: 1501547879:0;s
+: 1501547882:0;cd source
+: 1501547888:0;cd tut1
+: 1501547890:0;vim cs6771.hpp
+: 1501548159:0;clear
+: 1501548159:0;s
+: 1501548160:0;d
+: 1501548171:0;a cs6771.hpp
+: 1501548189:0;m "Forgot to keep the unsigned reference version"
+: 1501548190:0;p
+: 1501548195:0;p bit
+: 1501548237:0;clear
+: 1501548238:0;s
+: 1501548243:0;rexe run > out
+: 1501548247:0;rm out
+: 1501548249:0;rexe run q1
+: 1501548252:0;rexe run q2
+: 1501548253:0;rexe run q3
+: 1501548255:0;clear
+: 1501548255:0;s
+: 1501548365:0;q
+: 1501548371:0;s
+: 1501548373:0;clear
+: 1501548373:0;s
+: 1501548374:0;ls fuckTheSystem
+: 1501548377:0;ls fuckTheSystem/tut1
+: 1501548381:0;touch fuckTheSystem/tut1/1
+: 1501548382:0;s
+: 1501548384:0;rm fuckTheSystem
+: 1501548385:0;clear
+: 1501548385:0;s
+: 1501548388:0;git status
+: 1501548390:0;git pull
+: 1501548425:0;clear
+: 1501548426:0;s
+: 1501548431:0;vim q1.cpp cs6771.hpp
+: 1501548437:0;sleep 3; xdotool key --clearmodifiers "Escape+control+l"
+: 1501548448:0;vrc
+: 1501548456:0;sleep 3; xdotool key --clearmodifiers "Escape+control+l"
+: 1501548470:0;3rc
+: 1501548485:0;i3-vim-nav l
+: 1501548490:0;i3-vim-nav h
+: 1501548497:0;sleep 3; xdotool key --clearmodifiers "Escape+control+h"
+: 1501548542:0;sleep 3; xdotool key --clearmodifiers "Escape+control+l"
+: 1501548660:0;apt list --upgradable
+: 1501548690:0;apt upgrade imagemagick-common libmagiccore* libmagickwand*
+: 1501548695:0;apt upgrade imagemagick-common libmagickcore* libmagickwand*
+: 1501548705:0;apt upgrade imagemagick-common libmagickcore-6.q16-2*
+: 1501548707:0;apt upgrade imagemagick-common libmagickcore-6.q16-2
+: 1501548717:0;clear
+: 1501548723:0;apt list --upgradable
+: 1501548727:0;clear
+: 1501548727:0;s
+: 1501548727:0;q
+: 1501548771:0;clear
+: 1501548772:0;s
+: 1501548994:0;mail
+: 1501548997:0;sendmail
+: 1501549008:0;clear
+: 1501549770:0;mail
+: 1501549785:0;sendmail -h
+: 1501549789:0;sendmail --help
+: 1501549791:0;clear
+: 1501549793:0;email
+: 1501549807:0;echo $MAIL
+: 1501549830:0;apt install mail mutt
+: 1501549847:0;apt install mailutils
+: 1501549857:0;mail
+: 1501549907:0;clear
+: 1501549917:0;mail
+: 1501550093:0;crontab -e
+: 1501550099:0;cd ~/.i3
+: 1501550099:0;ls
+: 1501550106:0;cd ../.config/i3
+: 1501550108:0;vim batwarn.sh
+: 1501550115:0;clear
+: 1501550115:0;s
+: 1501550116:0;mail
+: 1501550117:0;clear
+: 1501550118:0;s
+: 1501550146:0;clear
+: 1501550147:0;exit
+: 1501550211:0;mutt
+: 1501550214:0;apt install mutt
+: 1501550236:0;mutt
+: 1501550371:0;clear
+: 1501550371:0;s
+: 1501550416:0;q
+: 1501550426:0;clear
+: 1501550426:0;s
+: 1501550426:0;d
+: 1501550429:0;rm mbox
+: 1501550430:0;clear
+: 1501550430:0;s
+: 1501550431:0;d
+: 1501550435:0;a cs6771.hpp
+: 1501550436:0;clear
+: 1501550436:0;s
+: 1501550448:0;m "Use overloading"
+: 1501550449:0;p
+: 1501550454:0;p bit
+: 1501550471:0;vim q1.cpp q2.cpp cs6771.hpp
+: 1501550521:0;clear
+: 1501550522:0;s
+: 1501550523:0;d
+: 1501550525:0;a q1.cpp
+: 1501550528:0;a q2.cpp
+: 1501550528:0;clear
+: 1501550529:0;s
+: 1501550539:0;m "q1 & q2 shouldn't use header"
+: 1501550540:0;p
+: 1501550545:0;p bit
+: 1501550549:0;clear
+: 1501550549:0;s
+: 1501550552:0;q
+: 1501550554:0;mutt -h
+: 1501550758:0;mutt
+: 1501550811:0;mutt -e m
+: 1501550816:0;mutt -e mail
+: 1501550923:0;writr cypher
+: 1501550928:0;write cypher
+: 1501550945:0;man writr
+: 1501550948:0;man write
+: 1501550951:0;who
+: 1501550960:0;write cypher/tty8
+: 1501550973:0;write cypher pts/6
+: 1501550988:0;write cypher tty8
+: 1501551006:0;ls
+: 1501551028:0;write cypher tty1
+: 1501551032:0;exit
+: 1501551076:0;clear
+: 1501551076:0;s
+: 1501551082:0;3rc
+: 1501551128:0;clear
+: 1501551129:0;s
+: 1501551133:0;clear
+: 1501551133:0;s
+: 1501551135:0;d batwarn.sh
+: 1501551138:0;a batwarn.sh
+: 1501551138:0;clear
+: 1501551138:0;s
+: 1501551141:0;d i3exit.sh
+: 1501551144:0;clear
+: 1501551144:0;s
+: 1501551147:0;d i3status.conf
+: 1501551152:0;a i3
+: 1501551154:0;clear
+: 1501551154:0;s
+: 1501551157:0;a i3status.conf
+: 1501551157:0;clear
+: 1501551158:0;s
+: 1501551161:0;cat my_dmenu.sh
+: 1501551166:0;d
+: 1501551168:0;d master 
+: 1501551171:0;d my_dmenu.sh
+: 1501551174:0;a my_dmenu.sh
+: 1501551175:0;clear
+: 1501551175:0;s
+: 1501551177:0;d restart_wifi.sh
+: 1501551186:0;a restart_wifi.sh
+: 1501551187:0;clear
+: 1501551187:0;s
+: 1501551196:0;d config
+: 1501551201:0;clear
+: 1501551202:0;s
+: 1501551206:0;d i3exit.sh
+: 1501551225:0;clear
+: 1501551226:0;s
+: 1501551229:0;rm i3lock-fancy
+: 1501551230:0;clear
+: 1501551230:0;s
+: 1501551232:0;a i3lock-fancy
+: 1501551235:0;vim i3exit.sh
+: 1501551248:0;clear
+: 1501551248:0;s
+: 1501551250:0;a i3exit.sh
+: 1501551251:0;clear
+: 1501551251:0;s
+: 1501551254:0;d config
+: 1501551278:0;m "Improve linux tools and use plain lock screen for faster lock and privacy"
+: 1501551279:0;clear
+: 1501551280:0;s
+: 1501551281:0;d config
+: 1501551284:0;cd ../nvim
+: 1501551284:0;clear
+: 1501551285:0;s
+: 1501551286:0;d init.vim
+: 1501551303:0;a init.vim
+: 1501551303:0;clear
+: 1501551303:0;s
+: 1501551305:0;D
+: 1501551335:0;vim init.vim
+: 1501551343:0;a init.vim
+: 1501551343:0;clear
+: 1501551344:0;s
+: 1501551356:0;m "Back to chrome and keep trying to get i3-nav working"
+: 1501551357:0;clear
+: 1501551357:0;s
+: 1501551362:0;cd ../
+: 1501551364:0;d zshrc
+: 1501551367:0;a zshrc
+: 1501551374:0;m "Handy functions for using repos"
+: 1501551375:0;clear
+: 1501551375:0;s
+: 1501551377:0;p
+: 1501551401:0;s
+: 1501551402:0;clear
+: 1501551403:0;q
+: 1501551430:0;apt list --upgradable
+: 1501551483:0;3rc
+: 1501551585:0;which switch
+: 1501551590:0;vim /usr/bin/switch
+: 1501551604:0;i3-msg workspace
+: 1501551616:0;i3-msg -h
+: 1501551619:0;i3-msg help
+: 1501551621:0;i3-msg --help
+: 1501551623:0;clear
+: 1501551625:0;man i3-msg
+: 1501551636:0;i3-msg get_workspaces
+: 1501551640:0;i3-msg get_workspace
+: 1501551643:0;man i3-msg
+: 1501551658:0;i3-msg -t
+: 1501551664:0;i3-msg -t get_workspaces
+: 1501551671:0;i3-msg -t get_workspaces | grep "name"
+: 1501551676:0;i3-msg -t get_workspaces | grep "num"
+: 1501551765:0;o3-msg rename workspace 7 6
+: 1501551767:0;i3-msg rename workspace 7 6
+: 1501551774:0;i3-msg "rename workspace 7 to 6"
+: 1501551783:0;i3-msg "rename workspace number 6 to 7"
+: 1501551793:0;i3-msg "rename workspace number 6 to number 7"
+: 1501551801:0;i3-msg "renumber"
+: 1501551915:0;i3-msg "rename workspace number 6 to 7"
+: 1501551937:0;clear
+: 1501551939:0;i3-msg "rename workspace number 6 to 7"
+: 1501551945:0;i3-msg "rename workspace number to 7"
+: 1501551950:0;i3-msg "rename workspace 6 to 7"
+: 1501552056:0;i3-msg -t get_workspaces | grep "num"
+: 1501552109:0;i3-msg -t get_workspaces | grep "num[^v]*}"
+: 1501552114:0;i3-msg -t get_workspaces | grep "num[^v]*\}"
+: 1501552118:0;i3-msg -t get_workspaces | grep "num[^\}]*\}"
+: 1501552130:0;i3-msg -t get_workspaces | grep "\{[^\}]*\}"
+: 1501552136:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}"
+: 1501552173:0;clear
+: 1501552173:0;ls
+: 1501552174:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}"
+: 1501552202:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | grep "(num|name)[^,]*"
+: 1501552208:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | grep -o "(num|name)[^,]*"
+: 1501552355:0;switch 3 2
+: 1501552413:0;clear
+: 1501552414:0;switch 3 2
+: 1501552457:0;clear
+: 1501552458:0;switch 3 2
+: 1501552987:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | grep -o "(num|name)[^,]*"
+: 1501552993:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | grep -o "num[^,]*"
+: 1501553086:0;3rc
+: 1501553100:0;q
+: 1501553129:0;ls
+: 1501553133:0;more
+: 1501553137:0;ls | more 
+: 1501553140:0;ls | less
+: 1501553146:0;clear
+: 1501553150:0;sleep 1000
+: 1501553172:0;stty sane
+: 1501553174:0;sleep 1000
+: 1501553179:0;stty -a
+: 1501553188:0;stty -a | grep intr
+: 1501553192:0;sleep 1000
+: 1501553315:0;q
+: 1501553320:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | grep -o "num[^,]*" | sed "s/num"://"
+: 1501553325:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | grep -o "num[^,]*" | sed "s/num\"://"
+: 1501553333:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\"://"
+: 1501553357:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/.*num\":([0-9]*).*/\1/"
+: 1501553361:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/.*num\":([0-9]*).*/\0/"
+: 1501553368:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\":([0-9]*)/\0/"
+: 1501553374:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\":(\[0-9\]*)/\0/"
+: 1501553377:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\":([0-9]*)/\0/"
+: 1501553383:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\":[0-9]*/\0/"
+: 1501553393:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\":[0-9]*/$1/"
+: 1501553400:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\":([0-9]*)/$1/"
+: 1501553423:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\":([0-9]*)/\1/"
+: 1501553428:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/num\":\([0-9]*\)/\1/"
+: 1501553435:0;i3-msg -t get_workspaces | grep -o "\{[^\}]*\}" | sed "s/.*num\":\([0-9]*\).*/\1/"
+: 1501553504:0;switch 3 2
+: 1501553714:0;switch 2 1
+: 1501553730:0;switch 2 0
+: 1501553770:0;clear
+: 1501553771:0;switch 2 0
+: 1501553805:0;switch 2 10
+: 1501553811:0;switch 2 0
+: 1501553911:0;switch 2 to
+: 1501553943:0;switch 2 3
+: 1501553945:0;switch 2 10
+: 1501553988:0;grep "set $workspace" ~/.config/i3/config
+: 1501553996:0;grep "set \$workspace" ~/.config/i3/config
+: 1501554002:0;grep "set \$workspace" < ~/.config/i3/config
+: 1501554008:0;grep "set $workspace" < ~/.config/i3/config
+: 1501554012:0;grep "^set $workspace" < ~/.config/i3/config
+: 1501554019:0;grep "^set \$workspace" < ~/.config/i3/config
+: 1501554029:0;grep "^set .workspace" < ~/.config/i3/config
+: 1501554101:0;switch 2 10
+: 1501554120:0;s
+: 1501554122:0;switch 2 10
+: 1501554370:0;clear
+: 1501554372:0;switch 2 10
+: 1501554425:0;w
+: 1501554426:0;q
+: 1501554427:0;clear
+: 1501554428:0;s
+: 1501554432:0;z .con
+: 1501554432:0;s
+: 1501554434:0;cd i3
+: 1501554435:0;clear
+: 1501554435:0;s
+: 1501554436:0;d
+: 1501554438:0;a config
+: 1501554439:0;clear
+: 1501554439:0;s
+: 1501554441:0;d switch.sh
+: 1501554463:0;clear
+: 1501554463:0;s
+: 1501554468:0;vim /usr/bin/switch
+: 1501554592:0;switch 2 10
+: 1501555081:0;switch
+: 1501555083:0;clear
+: 1501555111:0;switch
+: 1501555113:0;clear
+: 1501555131:0;switch
+: 1501555150:0;clear
+: 1501555166:0;switch
+: 1501555255:0;grep "^set .workspace" < ~/.config/i3/config
+: 1501555276:0;grep "^set .workspace" < ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/"
+: 1501555305:0;clear
+: 1501555305:0;grep "^set .workspace" < ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/"
+: 1501555318:0;grep -o "^set .workspace" < ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/"
+: 1501555324:0;grep -o "^set .workspace.*" < ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/"
+: 1501555345:0;grep -o "^set .workspace.*" ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/"
+: 1501555350:0;grep "^set .workspace.*" ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/"
+: 1501555381:0;grep "^set .workspace.*" ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/" | dmenu
+: 1501555388:0;/usr/grep "^set .workspace.*" ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/" | dmenu
+: 1501555392:0;/usr/bin/grep "^set .workspace.*" ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/" | dmenu
+: 1501555395:0;which grep
+: 1501555399:0;which egrep
+: 1501555405:0;/bin/egrep "^set .workspace.*" ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/" | dmenu
+: 1501555412:0;clear
+: 1501555438:0;switch
+: 1501555450:0;/bin/egrep "^set .workspace.*" ~/.config/i3/config | sed "s/.*workspace[0-9]* \(.*\)/\1/" | dmenu
+: 1501555461:0;switch
+: 1501555577:0;switch tmp 2
+: 1501555585:0;switch
+: 1501555671:0;switch 9 9
+: 1501555738:0;clear
+: 1501555741:0;switch 9 3
+: 1501555744:0;clear
+: 1501555746:0;switch 9
+: 1501555752:0;clear
+: 1501555753:0;switch
+: 1501555758:0;clear
+: 1501555830:0;switch 2 tmp
+: 1501555835:0;switch 2 s
+: 1501555839:0;clear
+: 1501555855:0;switch 2 tmp
+: 1501555871:0;clear
+: 1501555871:0;s
+: 1501555898:0;a switch.sh
+: 1501555898:0;clear
+: 1501555898:0;s
+: 1501555901:0;d
+: 1501555904:0;D
+: 1501555917:0;m "Better switcher with dmenu"
+: 1501555917:0;clear
+: 1501555918:0;p
+: 1501555921:0;clear
+: 1501555921:0;s
+: 1501555935:0;clear
+: 1501555936:0;s
+: 1501555940:0;ls
+: 1501555950:0;vim batwarn.sh
+: 1501555956:0;clear
+: 1501555956:0;s
+: 1501555961:0;vim batwarn.sh
+: 1501555969:0;vim restart_wifi.sh
+: 1501555972:0;.
+: 1501555976:0;vim i3exit.sh
+: 1501555979:0;q
+: 1501556017:0;vim switch.sh
+: 1501556041:0;clear
+: 1501556041:0;s
+: 1501556043:0;a switch.sh
+: 1501556054:0;m "Don't allow switch to same workspace"
+: 1501556054:0;p
+: 1501556060:0;clear
+: 1501556060:0;q
+: 1501556061:0;clear
+: 1501556061:0;s
+: 1501556080:0;vim switch.sh 
+: 1501556087:0;switch 1
+: 1501556098:0;switch 10 9
+: 1501556125:0;clear
+: 1501556126:0;s
+: 1501556138:0;switch 2 2
+: 1501556148:0;switch 10 10
+: 1501556153:0;clear
+: 1501556154:0;s
+: 1501556155:0;q
+: 1501556238:0;z Cpp
+: 1501556238:0;.
+: 1501556240:0;cd comp6771tutorials
+: 1501556240:0;.
+: 1501556242:0;cd source
+: 1501556244:0;cd tut1
+: 1501556244:0;.
+: 1501556250:0;vim q3.cpp cs6771.hpp
+: 1501556291:0;clear
+: 1501556291:0;s
+: 1501556294:0;git rm cs6771.hpp
+: 1501556295:0;clear
+: 1501556295:0;s
+: 1501556298:0;a q3.cpp
+: 1501556298:0;clear
+: 1501556299:0;s
+: 1501556300:0;d
+: 1501556304:0;vim q3.cpp
+: 1501556306:0;D
+: 1501556327:0;m "Leave header for being made by students"
+: 1501556328:0;p
+: 1501556333:0;p bit
+: 1501556361:0;clear
+: 1501556419:0;glog
+: 1501556429:0;git log
+: 1501556431:0;git log --graph
+: 1501556443:0;git squash 1fa45961a1d84fa01acbc3cb4a5b9c32dd759b06
+: 1501556452:0;clear
+: 1501556487:0;git rebase -i 1fa45961a1d84fa01acbc3cb4a5b9c32dd759b06
+: 1501556549:0;git log --graph
+: 1501556562:0;git rebase -i 1fa45961a1d84fa01acbc3cb4a5b9c32dd759b06
+: 1501556567:0;git rebase -i 1fa45961a1d84fa01acbc3cb4a5b9c32dd759b06^
+: 1501556593:0;s
+: 1501556595:0;git log
+: 1501556601:0;git push -f
+: 1501556606:0;git push -f bit
+: 1501556686:0;zrc
+: 1501556726:0;clear
+: 1501556726:0;s
+: 1501557172:0;vim /var/log/mail.log
+: 1501557217:0;clear
+: 1501557218:0;s
+: 1501557221:0;vim ~/.muttrc
+: 1501557249:0;clear
+: 1501557249:0;s
+: 1501557252:0;mutt
+: 1501557431:0;cat /var/log/mail.err
+: 1501557542:0;vim ~/.muttrc
+: 1501557605:0;clear
+: 1501557606:0;s
+: 1501557607:0;mutt
+: 1501557617:0;vim ~/.muttrc
+: 1501557624:0;mutt
+: 1501557672:0;sudo apt-get install postfix
+: 1501557745:0;vim ~/.muttrc
+: 1501557805:0;q
+: 1501557855:0;sudo apt remove --purge mutt postfix
+: 1501557866:0;sudo apt autoremove
+: 1501557873:0;q
+: 1501557896:0;z Cpp
+: 1501557898:0;cd comp6771tutorials
+: 1501557898:0;.
+: 1501558208:0;clear
+: 1501558208:0;s
+: 1501558232:0;clear
+: 1501558234:0;s
+: 1501558247:0;clear
+: 1501558247:0;s
+: 1501558249:0;vim
+: 1501558316:0;z HPL
+: 1501558323:0;stack build; stack exec main
+: 1501558343:0;stack build; stack exec HPL
+: 1501558365:0;stack build; stack test
+: 1501558876:0;clear
+: 1501558877:0;stack build; stack test
+: 1501558923:0;clear
+: 1501558924:0;stack build; stack test
+: 1501558977:0;clear
+: 1501558977:0;stack build; stack test
+: 1501559316:0;stack install hashable-generics
+: 1501559326:0;stack install base-4.9.1.0
+: 1501559340:0;clear
+: 1501559343:0;stack install hashable-generics
+: 1501559356:0;stack install hashable
+: 1501559359:0;stack install hashable-generics
+: 1501559367:0;stack install hashable-1.2.6.1
+: 1501559373:0;stack install base-4.9.1.0
+: 1501559376:0;stack install hashable-1.2.6.1
+: 1501559378:0;stack install hashable-generics
+: 1501559419:0;stack solver
+: 1501559474:0;stack update
+: 1501559501:0;stack build; stack test
+: 1501559584:0;stack solver
+: 1501559834:0;vim src/*
+: 1501559845:0;stack solver
+: 1501560691:0;stack build; stack test
+: 1501562109:0;clear
+: 1501562114:0;d src/Predicate.hs
+: 1501562176:0;stack build; stack test
+: 1501562204:0;clear
+: 1501562204:0;s
+: 1501562205:0;d
+: 1501562207:0;stack build; stack test
+: 1501562799:0;stack solver
+: 1501562805:0;stack install generics
+: 1501562845:0;stack build; stack test
+: 1501563379:0;clear
+: 1501563379:0;s
+: 1501563380:0;stack build; stack test
+: 1501563536:0;sudo stack build; stack test[A
+: 1501563542:0;stack build; stack test
+: 1501563711:0;z Comp
+: 1501563712:0;.
+: 1501563714:0;cd source
+: 1501563715:0;.
+: 1501563717:0;cd tut1
+: 1501563717:0;ls
+: 1501563720:0;vim q*
+: 1501563730:0;clear
+: 1501563730:0;s
+: 1501563734:0;a q1.cpp
+: 1501563736:0;clear
+: 1501563736:0;s
+: 1501563751:0;m "Auto formatter skipped a run"
+: 1501563752:0;p
+: 1501563789:0;p bit
+: 1501563798:0;p
+: 1501563800:0;clear
+: 1501563800:0;s
+: 1501563805:0;stack build; stack test
+: 1501564373:0;clear
+: 1501564377:0;vim q1.cpp q2.cpp
+: 1501564392:0;vim q3.cpp
+: 1501564399:0;clear
+: 1501564399:0;s
+: 1501564401:0;vim cs
+: 1501564404:0;clear
+: 1501564404:0;s
+: 1501564407:0;a .
+: 1501564407:0;clear
+: 1501564408:0;s
+: 1501564419:0;m "Googlified format"
+: 1501564420:0;p
+: 1501564425:0;p bit
+: 1501564431:0;vrc
+: 1501564671:0;clear
+: 1501564671:0;s
+: 1501564675:0;vim q*
+: 1501564722:0;vrc
+: 1501564796:0;vim q*
+: 1501564877:0;vrc
+: 1501564923:0;clear
+: 1501564923:0;s
+: 1501564925:0;vim q*
+: 1501564942:0;clear
+: 1501564942:0;s
+: 1501564943:0;q
+: 1501565049:0;vim
+: 1501565090:0;vrc
+: 1501565140:0;q
+: 1501565409:0;vrc
+: 1501565656:0;q
+: 1501565664:0;vrc
+: 1501565680:0;q
+: 1501565812:0;clear
+: 1501565812:0;s
+: 1501565813:0;vim src*
+: 1501565818:0;vim src/*
+: 1501565941:0;stack build; stack test
+: 1501566582:0;clear
+: 1501566583:0;stack build; stack test
+: 1501566648:0;clear
+: 1501566649:0;stack build; stack test
+: 1501568367:0;q
+: 1501580543:0;clear
+: 1501580543:0;s
+: 1501580767:0;cd ~/Downloads
+: 1501580767:0;.
+: 1501580772:0;cd ..
+: 1501580772:0;..
+: 1501580776:0;cd Cpp
+: 1501580782:0;mv 6771 ~/Uni/Cpp
+: 1501580783:0;.
+: 1501580788:0;mv ass* ~/Uni/Cpp
+: 1501580789:0;clear
+: 1501580789:0;s
+: 1501580795:0;rm 6771_tuts.zip
+: 1501580798:0;rm 6771.zip
+: 1501580799:0;rm ngrok-stable-linux-amd64.zip
+: 1501580800:0;.
+: 1501580801:0;q
+: 1501580802:0;clear
+: 1501580802:0;s
+: 1501580809:0;mkdir ass1
+: 1501580810:0;mkdir ass2
+: 1501580817:0;unzip ass1.zip -d ass1
+: 1501580818:0;ls
+: 1501580826:0;unzip ass2.zip
+: 1501580827:0;clear
+: 1501580828:0;s
+: 1501580834:0;rm ass1.zip
+: 1501580836:0;rm ass2.zip
+: 1501580837:0;clear
+: 1501580837:0;s
+: 1501580841:0;ls __MACOSX
+: 1501580844:0;ls __MACOSX/ass2
+: 1501580845:0;ls
+: 1501580852:0;ls -la __MACOSX/ass2
+: 1501580857:0;rm __MACOSX
+: 1501580857:0;.
+: 1501580861:0;cd ass1
+: 1501580861:0;ls
+: 1501580864:0;ls __MACOSX
+: 1501580867:0;ls __MACOSX/ass1
+: 1501580868:0;rm __MACOSX
+: 1501580871:0;../ass2
+: 1501580871:0;ls
+: 1501580878:0;../ass1
+: 1501580878:0;.
+: 1501580884:0;mv ass1/* .
+: 1501580885:0;ls
+: 1501580889:0;ls -la ass1
+: 1501580895:0;rm ass1/
+: 1501580895:0;.
+: 1501580899:0;make
+: 1501580949:0;.
+: 1501580953:0;open ass1.html
+: 1501580967:0;clear
+: 1501580986:0;open ass1.html
+: 1501580995:0;clear
+: 1501580995:0;ls
+: 1501580998:0;./a.out
+: 1501581000:0;rm a.out
+: 1501581001:0;clear
+: 1501581001:0;s
+: 1501581006:0;vim ass1.odt
+: 1501581010:0;open ass1.odt
+: 1501581064:0;clear
+: 1501581064:0;ls
+: 1501581077:0;g++ calculator.cpp
+: 1501581080:0;ls
+: 1501581084:0;./a.out
+: 1501581090:0;./a.out < test1.txt
+: 1501581092:0;ls
+: 1501581098:0;cat test1.txt a.out
+: 1501581100:0;62;cclear
+: 1501581101:0;clear
+: 1501581101:0;s
+: 1501581107:0;cat test1.txt | a.out
+: 1501581110:0;cat test1.txt | ./a.out
+: 1501581115:0;a.out test1.txt
+: 1501581117:0;./a.out test1.txt
+: 1501581129:0;./a.out test2.txt
+: 1501581132:0;./a.out test3.txt
+: 1501581136:0;clear
+: 1501581143:0;vim Makefile
+: 1501581175:0;cd ../../../Drive/Uni/2017/
+: 1501581175:0;ls
+: 1501581177:0;ls *
+: 1501581183:0;clear
+: 1501581184:0;../2016
+: 1501581185:0;.
+: 1501581187:0;cd Cpp
+: 1501581189:0;cd 6771_Cpp
+: 1501581189:0;.
+: 1501581191:0;cd ass1
+: 1501581192:0;ls
+: 1501581194:0;cd Ass1
+: 1501581195:0;.
+: 1501581204:0;cp Makefile ~/Uni/Cpp
+: 1501581212:0;mv ../Makefile .
+: 1501581218:0;cp Makefile ..
+: 1501581220:0;vim Makefile
+: 1501581228:0;cd -
+: 1501581230:0;cd -2
+: 1501581232:0;cd -3
+: 1501581237:0;z Cpp
+: 1501581238:0;.
+: 1501581241:0;../ass1
+: 1501581241:0;.
+: 1501581285:0;cd -
+: 1501581294:0;cd ~/Drive/Uni/2016/6771_Cpp
+: 1501581294:0;ls
+: 1501581296:0;cd Ass1
+: 1501581296:0;.
+: 1501581299:0;vim Makefile.dependencies
+: 1501581312:0;cp Makefile.dependencies ~/Uni/Cpp/ass1
+: 1501581338:0;clear
+: 1501581339:0;ls
+: 1501581354:0;vim tools_idler.out
+: 1501581357:0;.
+: 1501581359:0;q
+: 1501581362:0;clear
+: 1501581362:0;s
+: 1501581370:0;z Uni
+: 1501581374:0;../ass1
+: 1501581374:0;.
+: 1501581375:0;make
+: 1501581380:0;./calc input.txt
+: 1501581416:0;clear
+: 1501581418:0;ls *
+: 1501581572:0;make run
+: 1501581582:0;make test
+: 1501581599:0;clear
+: 1501581600:0;ls
+: 1501581602:0;git init
+: 1501581603:0;clear
+: 1501581603:0;s
+: 1501581622:0;a Makefile Makefile.dependencies ass1.html ass1.odt calculator.cpp input.txt test1.txt test2.txt test3.txt test4.txt test5.txt test6.txt test7.txt 
+: 1501581622:0;.
+: 1501581624:0;s
+: 1501581637:0;make test
+: 1501581669:0;clear
+: 1501581670:0;s
+: 1501581676:0;cat out1.txt
+: 1501581681:0;rm out.txt
+: 1501581698:0;make test
+: 1501581700:0;clear
+: 1501581700:0;s
+: 1501581704:0;cat out1.txt
+: 1501581707:0;cat out2.txt
+: 1501581708:0;clear
+: 1501581708:0;s
+: 1501581741:0;rename "s/^out(.*).txt/given\1.txt/ out*
+: 1501581744:0;rename "s/^out(.*).txt/given\1.txt/" out*
+: 1501581753:0;rename "s/^out(.*).txt/given$1.txt/" out*
+: 1501581754:0;clear
+: 1501581755:0;ls
+: 1501581758:0;s
+: 1501581762:0;a given1.txt given2.txt given3.txt given4.txt given5.txt given6.txt given7.txt 
+: 1501581763:0;clear
+: 1501581763:0;s
+: 1501581777:0;a Makefile
+: 1501581778:0;clear
+: 1501581778:0;s
+: 1501581784:0;m "reference solution given"
+: 1501581784:0;clear
+: 1501581785:0;s
+: 1501581795:0;gi a.out calc *.o
+: 1501581796:0;clear
+: 1501581796:0;s
+: 1501581799:0;a .gitignore
+: 1501581800:0;clear
+: 1501581800:0;s
+: 1501581807:0;m "Added gitignore"
+: 1501581808:0;clear
+: 1501581808:0;s
+: 1501581815:0;make test
+: 1501582979:0;./calc < stdin
+: 1501582982:0;./calc < /dev/stdin
+: 1501582985:0;ls
+: 1501582986:0;clear
+: 1501582987:0;s
+: 1501583004:0;./calc /dev/stdin
+: 1501583139:0;clear
+: 1501583142:0;./calc /dev/stdin
+: 1501583276:0;clear
+: 1501583279:0;./calc /dev/stdin
+: 1501583414:0;./calc nested.txt
+: 1501583449:0;clear
+: 1501583450:0;./calc nested.txt
+: 1501584011:0;clear
+: 1501584011:0;s
+: 1501584026:0;./calc nested.txt
+: 1501584034:0;sudo ./calc nested.txt[A
+: 1501584038:0;./calc nested.txt
+: 1501584547:0;vrc
+: 1501584571:0;vim calculator.cpp nested.txt
+: 1501584622:0;g++
+: 1501584631:0;apt install cpplint
+: 1501584653:0;apt install cppcheck
+: 1501584660:0;vrc
+: 1501584677:0;vim calculator.cpp nested.txt
+: 1501584736:0;zrc
+: 1501584739:0;vrc
+: 1501584791:0;clear
+: 1501584792:0;s
+: 1501584795:0;vim calculator.cpp nested.txt
+: 1501585109:0;vrc
+: 1501585226:0;vim calculator.cpp nested.txt strings
+: 1501585730:0;make test
+: 1501585768:0;vrc
+: 1501585803:0;clear
+: 1501585803:0;s
+: 1501585822:0;clear
+: 1501585822:0;s
+: 1501585825:0;clear
+: 1501585826:0;s
+: 1501585832:0;gi out*.txt
+: 1501585833:0;clear
+: 1501585833:0;s
+: 1501585837:0;a .gitignore
+: 1501585837:0;clear
+: 1501585837:0;s
+: 1501585840:0;vim .gitignore
+: 1501585848:0;clear
+: 1501585848:0;s
+: 1501585850:0;a .gitignore
+: 1501585851:0;clear
+: 1501585851:0;s
+: 1501585852:0;D
+: 1501585854:0;clear
+: 1501585854:0;s
+: 1501585858:0;vim calculator.cpp
+: 1501586219:0;q
+: 1501634028:0;clear
+: 1501634028:0;s
+: 1501634030:0;d
+: 1501634037:0;stack test
+: 1501634917:0;z HPL
+: 1501634918:0;stack test
+: 1501635313:0;stach exec ghci
+: 1501635316:0;stack exec ghci
+: 1501635657:0;q
+: 1501636123:0;stack test
+: 1501636435:0;cse
+: 1501637249:0;clear
+: 1501637249:0;s
+: 1501637571:0;stack test
+: 1501642565:0;z cpp
+: 1501642567:0;.
+: 1501642599:0;ping 8.8.8.8
+: 1501642626:0;c
+: 1501642629:0;r
+: 1501642771:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9 --output HDMI1
+: 1501642797:0;xrandr --output HDMI1
+: 1501642884:0;cd ~/Downloads
+: 1501642885:0;ls
+: 1501642889:0;mv pydetect.txt pydetect.py
+: 1501642895:0;q
+: 1501642904:0;python3 pydetect.py eDPI1 HDMI1
+: 1501642919:0;python pydetect.py eDPI1 HDMI1
+: 1501642970:0;python pydetect.py eDPI1 DP1
+: 1501642981:0;python pydetect.py eDP1 DP1
+: 1501643009:0;python pydetect.py eDP1 HDMI1
+: 1501643061:0;python pydetect.py eDP1 DP1
+: 1501643070:0;clear
+: 1501643073:0;python pydetect.py eDP1 DP1
+: 1501643100:0;python pydetect.py eDP1
+: 1501643102:0;python pydetect.py eDP1 DP1
+: 1501643107:0;python pydetect.py eDP1 HDMI1
+: 1501643110:0;python pydetect.py eDP1 DP1
+: 1501643139:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9 --output DP1
+: 1501643161:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9 --output DP1 --auto
+: 1501643185:0;python pydetect.py eDP1 DP1
+: 1501643201:0;python pydetect.py eDP1 DP2
+: 1501643210:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9 --output DP2 --auto
+: 1501643230:0;clear
+: 1501643236:0;q
+: 1501645586:0;..
+: 1501645644:0;git clone https://bitbucket.org/matts1/comp6771tutorials.git
+: 1501645648:0;mk new
+: 1501645649:0;git clone https://bitbucket.org/matts1/comp6771tutorials.git
+: 1501645656:0;cd comp6771tutorials
+: 1501645656:0;ls
+: 1501645667:0;cd source
+: 1501645667:0;ls
+: 1501645670:0;cd tut1
+: 1501645671:0;clear
+: 1501645672:0;ls
+: 1501645680:0;vim q1.cpp
+: 1501645692:0;ls
+: 1501645696:0;cd source/tut1
+: 1501645697:0;ls
+: 1501645700:0;../../run q1
+: 1501645903:0;../../run q1 q1_t
+: 1501645912:0;mv ../../q1_t.dat .
+: 1501645913:0;../../run q1 q1_t
+: 1501648405:0;~/Downloads/pydetect.py eDP1 DP1
+: 1501648411:0;python2 ~/Downloads/pydetect.py eDP1 DP1
+: 1501648416:0;python ~/Downloads/pydetect.py eDP1 DP1
+: 1501648419:0;python ~/Downloads/pydetect.py eDP
+: 1501648422:0;python ~/Downloads/pydetect.py eDP1
+: 1501648439:0;clear
+: 1501648441:0;q
+: 1501648464:0;git clone https://bitbucket.org/matts1/comp6771tutorials.gitq
+: 1501648465:0;q
+: 1501648469:0;clear
+: 1501648470:0;s
+: 1501648489:0;mv q1* ../../../../comp6771tutorials/source/tut1
+: 1501648491:0;s
+: 1501648494:0;cd ...
+: 1501648495:0;..
+: 1501648497:0;rm new
+: 1501648520:0;rm -rf new
+: 1501648520:0;.
+: 1501648522:0;cd comp6771tutorials
+: 1501648523:0;.
+: 1501648547:0;stack test
+: 1501649789:0;wi
+: 1501649790:0;iw
+: 1501649797:0;iw q
+: 1501649799:0;w
+: 1501649825:0;q
+: 1501649880:0;cd ~/Downloads/
+: 1501649881:0;ls
+: 1501649885:0;mk cpp_q
+: 1501649899:0;ls
+: 1501649909:0;g++ -Wall -Werror -O2 -std=c++14 q1.cpp -o q1
+: 1501649913:0;g++ -Wall -Werror -O2 -std=c++14 q2.cpp -o q2
+: 1501649916:0;vim q1.cpp q2.cpp
+: 1501649955:0;clear
+: 1501649956:0;s
+: 1501649958:0;rm a.out
+: 1501649959:0;clear
+: 1501649960:0;ls
+: 1501649967:0;./q1 | ./q2
+: 1501649983:0;vim q1.cpp q2.cpp
+: 1501650029:0;g++ -Wall -Werror -O2 -std=c++14 q2.cpp -o q2
+: 1501650034:0;g++ -Wall -Werror -O2 -std=c++14 q1.cpp -o q1
+: 1501650037:0;./q1 | ./q2
+: 1501650156:0;vim q1.cpp q2.cpp
+: 1501650181:0;g++ -Wall -Werror -O2 -std=c++14 q2.cpp -o q2
+: 1501650183:0;./q1 | ./q2
+: 1501650187:0;vim q1.cpp q2.cpp
+: 1501650194:0;g++ -Wall -Werror -O2 -std=c++14 q1.cpp -o q1
+: 1501650197:0;./q1 | ./q2
+: 1501650319:0;vim q1.cpp q2.cpp
+: 1501650413:0;cd ..
+: 1501650413:0;.
+: 1501650417:0;rm cpp_q
+: 1501650417:0;.
+: 1501650420:0;vim cryptup-jp10010101010000gmailcom.key
+: 1501650489:0;gpg --import cryptup-jp10010101010000gmailcom.key
+: 1501650516:0;vim cryptup-jp10010101010000gmailcom.key
+: 1501650538:0;gpg --export 32F510C5 > pub.key
+: 1501650539:0;ls
+: 1501650544:0;vim pub.key
+: 1501650552:0;clear
+: 1501650554:0;rm pub.key
+: 1501650554:0;.
+: 1501650596:0;mv cryptup-jp10010101010000gmailcom.key ~/.gnupg/cryptup.key
+: 1501650598:0;clear
+: 1501650598:0;ls
+: 1501650679:0;gpg --export 32F510C5 | xclip -sel
+: 1501650682:0;gpg --export 32F510C5 | xclip -h
+: 1501650686:0;gpg --export 32F510C5 | xclip -i
+: 1501650713:0;gpg --export 32F510C5 | xclip -i -selection clipboard
+: 1501650731:0;gpg --export 32F510C5
+: 1501650732:0;clear
+: 1501650778:0;pgp --armor --export jp10010101010000@gmail.com pub
+: 1501650783:0;gpg --armor --export jp10010101010000@gmail.com pub
+: 1501650786:0;clear
+: 1501650787:0;ls
+: 1501650790:0;gpg --armor --export jp10010101010000@gmail.com
+: 1501650799:0;gpg --armor --export jp10010101010000@gmail.com | xclip -i -selection clipboard
+: 1501650866:0;zrc
+: 1501671006:0;insync get_new_shares
+: 1501671026:0;insync reject_all_new_shares jp10010101010000@gmail.com
+: 1501671029:0;q
+: 1501671659:0;display_info
+: 1501671661:0;q
+: 1501672088:0;apt install hub
+: 1501672336:0;cd ~/Projects/AI/20Qs
+: 1501672338:0;ls
+: 1501672343:0;ls -la
+: 1501672365:0;virtualenv .env
+: 1501672371:0;clear
+: 1501672371:0;s
+: 1501672372:0;cd .
+: 1501672391:0;ls .env
+: 1501672472:0;ln -s ~/.envrc .env
+: 1501672474:0;vim .env
+: 1501672509:0;mv .env .venv
+: 1501672518:0;mv .venv/.envrc .env
+: 1501672519:0;cd .
+: 1501672530:0;mv .venv .env
+: 1501672534:0;rm .env
+: 1501672537:0;mv .venv .env
+: 1501672538:0;cd .
+: 1501672539:0;clear
+: 1501672540:0;s
+: 1501672550:0;mv .env .venv
+: 1501672554:0;vim .env
+: 1501672561:0;cd .
+: 1501672564:0;exec zsh
+: 1501672697:0;echo "use_env" > ~/.autoenv
+: 1501672699:0;cd .
+: 1501672703:0;exec zsh
+: 1501672713:0;rm ~/.autoenv
+: 1501672714:0;.
+: 1501672824:0;vim .env
+: 1501672840:0;ls -la
+: 1501672844:0;cd .
+: 1501672848:0;exec zsh
+: 1501672866:0;pip install autoenv
+: 1501672874:0;sudo pip install autoenv
+: 1501672878:0;sudo pip3 install autoenv
+: 1501672882:0;clear
+: 1501672883:0;s
+: 1501672886:0;gi .venv
+: 1501672887:0;clear
+: 1501672887:0;s
+: 1501672892:0;d .gitignore
+: 1501672905:0;a .gitignore
+: 1501672907:0;git stash
+: 1501672908:0;clear
+: 1501672908:0;s
+: 1501672911:0;vim .gitignore
+: 1501672950:0;rm .env
+: 1501672957:0;mv .venv .env
+: 1501672958:0;clear
+: 1501672958:0;s
+: 1501673345:0;z -l AI
+: 1501673362:0;z -lr AI
+: 1501673468:0;exec zsh
+: 1501673470:0;theme
+: 1501673478:0;lstheme
+: 1501673485:0;exec zsh
+: 1501673491:0;clear
+: 1501673494:0;theme
+: 1501673507:0;exec zsh
+: 1501673509:0;theme
+: 1501673514:0;exec zsh
+: 1501673516:0;theme
+: 1501673531:0;vim
+: 1501673537:0;fg
+: 1501673549:0;ping
+: 1501673551:0;ping 8.8.8.8
+: 1501673553:0;fg
+: 1501673557:0;jobs
+: 1501673563:0;kill 2
+: 1501673573:0;kill @2
+: 1501673581:0;kill 8323
+: 1501673583:0;jobs
+: 1501673585:0;fg
+: 1501673588:0;jobs
+: 1501673589:0;fg
+: 1501673593:0;clear
+: 1501673593:0;fg
+: 1501673596:0;q
+: 1501673615:0;ping -c 10 8.8.8.8
+: 1501673618:0;bg
+: 1501673624:0;vim
+: 1501673681:0;jobs
+: 1501673737:0;sleep 7 && echo "DONE"
+: 1501673739:0;bg
+: 1501673758:0;sleep 10 && echo "DONE"
+: 1501673760:0;bg
+: 1501673930:0;bgnotify_begin()\
+fg
+: 1501673951:0;bgnotify_begin "sleep 10; echo 'HI'"
+: 1501673969:0;sleep 10; echo 'HI'; bgnotify_begin
+: 1501673973:0;clear
+: 1501673982:0;bgnotify
+: 1501674003:0;bgnotify "testing" "t1\
+fg
+: 1501674005:0;bgnotify "testing" "t1"
+: 1501674015:0;currentWindowId
+: 1501674050:0;sleep 20; echo 'HI'; bg
+: 1501674054:0;clear
+: 1501674057:0;sleep 20; echo 'HI' & bg
+: 1501674061:0;sleep 20; echo 'HI'
+: 1501674062:0;fg
+: 1501674081:0;bg
+: 1501674091:0;clear
+: 1501674100:0;sleep 20 && echo 'HI'
+: 1501674103:0;bg
+: 1501674125:0;clear
+: 1501674127:0;sleep 20 && echo 'HI'
+: 1501674130:0;bg
+: 1501674135:0;jobs
+: 1501674144:0;q
+: 1501674147:0;clear
+: 1501674147:0;s
+: 1501674167:0;exec zsh
+: 1501674217:0;clear
+: 1501674218:0;exec zsh
+: 1501674253:0;ps -ef | grep ls
+: 1501674255:0;clear
+: 1501674297:0;r
+: 1501674298:0;clear
+: 1501674302:0;q
+: 1501674315:0;clear
+: 1501674348:0;pip install thefuck --upgrade
+: 1501674373:0;sudo wifirestart
+: 1501674379:0;fuck
+: 1501674389:0;sudo pip install thefuck --upgrade
+: 1501674393:0;sudo pip3 install thefuck --upgrade
+: 1501674403:0;clear
+: 1501674640:0;exec zsh
+: 1501674643:0;ls
+: 1501674704:0;exec zsh
+: 1501674735:0;watch "ls"
+: 1501674738:0;fg
+: 1501674741:0;bg
+: 1501674745:0;ls
+: 1501674748:0;clear
+: 1501674750:0;vim
+: 1501674754:0;fg
+: 1501674810:0;copyfile debug.py
+: 1501674814:0;clear
+: 1501674814:0;"""\
+Runs the server in debug mode\
+"""\
+\
+from os import path, walk\
+from app.routes import app\
+\
+def get_watches():\
+    watch_files = []\
+    for extra_dir in WATCH:\
+        for dirname, _, files in walk(extra_dir):\
+            watch_files += [path.join(dirname, file) for file in files]\
+    return watch_files\
+\
+# Config\
+WATCH = ['app/templates', 'app/static']\
+app.config['PORT'] = 8000\
+app.config['DEBUG'] = True\
+\
+if __name__ == '__main__':\
+    print("DEBUGGING")\
+    app.run(host='0.0.0.0', extra_files=get_watches())s
+: 1501674816:0;clear
+: 1501674816:0;s
+: 1501674822:0;copybuffer
+: 1501674838:0;q
+: 1501674839:0;echo "SOMETHING LONG AND COMPLEX"
+: 1501674843:0;q
+: 1501674860:0;z Pic
+: 1501674861:0;.
+: 1501674865:0;catimg firewatch.jpg
+: 1501674870:0;catimg stupidfox.jpg
+: 1501674878:0;catimg im
+: 1501674879:0;catimg image.jpg
+: 1501674889:0;clear
+: 1501674890:0;catimg image.jpg
+: 1501674895:0;man catimg
+: 1501674897:0;catimg -h
+: 1501674914:0;catimg -c "/" image.jpg
+: 1501674921:0;catimg -c "." image.jpg
+: 1501674927:0;catimg -c "_" image.jpg
+: 1501674934:0;catimg image.jpg
+: 1501674937:0;clear
+: 1501674942:0;catimg image.jpg
+: 1501674961:0;clear
+: 1501674965:0;catimg co
+: 1501674978:0;catimg 3i00gfaeoqmy.png
+: 1501674998:0;clear
+: 1501674998:0;ls
+: 1501674999:0;q
+: 1501675017:0;doom
+: 1501675066:0;apt install chocolate-doom
+: 1501675209:0;chocolate-doom
+: 1501675222:0;q
+: 1501675293:0;google "bgnotify zsh"
+: 1501675297:0;q
+: 1501675487:0;cd .
+: 1501675488:0;clear
+: 1501675488:0;s
+: 1501675501:0;(sleep 20 && echo 'HI')
+: 1501675503:0;bg
+: 1501675630:0;add-zsh-hook preexec bgnotify_begin
+: 1501675639:0;add-zsh-hook precmd bgnotify_end
+: 1501675642:0;(sleep 20 && echo 'HI')
+: 1501675645:0;bg
+: 1501675681:0;add-zsh-hook preexec echo "start"
+: 1501675696:0;function start() { echo "START" }
+: 1501675705:0;function end() { echo "END" }
+: 1501675711:0;add-zsh-hook preexec start
+: 1501675716:0;add-zsh-hook precmd end
+: 1501675726:0;sleep 20 && echo 'HI'
+: 1501675727:0;bg
+: 1501675755:0;clear
+: 1501675759:0;sleep 20
+: 1501675831:0;q
+: 1501675891:0;function end() { echo "END" }
+: 1501675902:0;add-zsh-hook precmd end
+: 1501675903:0;ls
+: 1501675980:0;exec zsh
+: 1501675984:0;function end() { echo "END" }
+: 1501675988:0;add-zsh-hook precmd end
+: 1501675989:0;ls
+: 1501675994:0;sleep 10;
+: 1501675996:0;bg
+: 1501676005:0;clear
+: 1501676008:0;sleep 10 &
+: 1501676024:0;sleep 11 &
+: 1501676065:0;sudo zsh
+: 1501676076:0;ls
+: 1501676077:0;clear
+: 1501676081:0;echo $USER
+: 1501676092:0;function end() {echo "END"}
+: 1501676099:0;add-zsh-hook precmd end
+: 1501676104:0;sleep 10 &
+: 1501676112:0;jobs
+: 1501676128:0;add-zsh-hook postcmd end
+: 1501676148:0;add-zsh-hook periodic end
+: 1501676175:0;exit
+: 1501676178:0;clear
+: 1501676178:0;s
+: 1501676285:0;function start() {echo "START"}
+: 1501676291:0;function end() {echo "END"}
+: 1501676298:0;add-zsh-hook preexec start
+: 1501676304:0;add-zsh-hook precmd end
+: 1501676318:0;sleep 5 &
+: 1501676376:0;clear
+: 1501676402:0;exec zsh
+: 1501676412:0;q
+: 1501676459:0;exec zsh
+: 1501676462:0;bindkey -v
+: 1501676514:0;q
+: 1501676521:0;vrc
+: 1501676525:0;zrc
+: 1501676699:0;q
+: 1501676838:0;ping 8.8.8.8
+: 1501676850:0;psmem
+: 1501676855:0;clear
+: 1501676857:0;pscpu
+: 1501676875:0;clear
+: 1501676881:0;pscpu10
+: 1501676896:0;pscpu10 | grep -o "^.*--"
+: 1501676923:0;pscpu10 | grep -o "^[^-]*--"
+: 1501676926:0;pscpu10 | grep -o "^[^-]*"
+: 1501676938:0;pscpu10 | grep -o "^[^-]-[^-]*"
+: 1501676941:0;pscpu10 | grep -o "^[^-]*-[^-]*"
+: 1501676950:0;pscpu10 | /bin/grep -o "^[^-]*-[^-]*"
+: 1501676967:0;psmem10 | /bin/grep -o "^[^-]*-[^-]*"
+: 1501676974:0;psmem10
+: 1501676992:0;hist10
+: 1501677014:0;history | grep clear -A 2 -B 2
+: 1501677042:0;history | grep clear -A 2 -B 2 | sed "s/^[0-9]*//"
+: 1501677045:0;history | grep clear -A 2 -B 2 | sed "s/^[0-9]*  //"
+: 1501677056:0;history | grep clear -A 1 -B 1 | sed "s/^[0-9]*  //"
+: 1501677058:0;jobs
+: 1501677084:0;history | grep clear -B 1 | sed "s/^[0-9]*  //"
+: 1501677091:0;history | grep clear -B 1 | sed "s/^[0-9]*  //" | grep -v "clear"
+: 1501677096:0;history | grep clear -B 1 | sed "s/^[0-9]*  //" | grep -v "clear|--"
+: 1501677101:0;history | grep clear -B 1 | sed "s/^[0-9]*  //" | grep -v "clear|--" | sort | uniq -c
+: 1501677106:0;history | grep clear -B 1 | sed "s/^[0-9]*  //" | grep -v "clear|--" | sort | uniq -c | sort -n
+: 1501677158:0;history | grep clear -B 1 | sed "s/^[0-9]*  \([^ ]*\).*/\1/" | grep -v "clear|--" | sort | uniq -c | sort -n
+: 1501677170:0;history | grep clear -A 1 | sed "s/^[0-9]*  \([^ ]*\).*/\1/" | grep -v "clear|--" | sort | uniq -c | sort -n
+: 1501677207:0;zrc
+: 1501677235:0;fg
+: 1501677250:0;exec zsh
+: 1501677253:0;.
+: 1501677255:0;s
+: 1501677270:0;dls
+: 1501677282:0;sortcons
+: 1501677291:0;con80
+: 1501677309:0;netstat -nat | grep ":80"
+: 1501677319:0;clear
+: 1501677330:0;req20
+: 1501677335:0;http20
+: 1501677349:0;zrc
+: 1501677357:0;webtraffic
+: 1501677376:0;getip
+: 1501677388:0;clrz
+: 1501677390:0;clear
+: 1501677395:0;cd
+: 1501677398:0;zrc
+: 1501677637:0;vim src/*
+: 1501677647:0;stack test
+: 1501677962:0;vim test/Spec.hs
+: 1501678715:0;clear
+: 1501678823:0;vrc
+: 1501678940:0;vim test/Spec.hs
+: 1501679944:0;clear
+: 1501679949:0;q
+: 1501679953:0;stack test
+: 1501679981:0;exec zsh
+: 1501679983:0;fg
+: 1501679989:0;clear
+: 1501679991:0;s
+: 1501680001:0;vim test/Spec.hs src/Predicate.hs
+: 1501680019:0;stack test
+: 1501680025:0;fg
+: 1501680475:0;stack test
+: 1501680480:0;fg
+: 1501680520:0;stack test
+: 1501719585:0;cd
+: 1501719585:0;.
+: 1501719588:0;ls Downloads
+: 1501719589:0;.
+: 1501719592:0;ls mbox
+: 1501719595:0;cat mbox
+: 1501719598:0;rm mbox
+: 1501719598:0;.
+: 1501719601:0;cat sent
+: 1501719604:0;rm sent
+: 1501719605:0;.
+: 1501719607:0;ls Mail
+: 1501719610:0;ls Mail/*
+: 1501719612:0;rm Mail
+: 1501719612:0;.
+: 1501719615:0;cd Downloads
+: 1501719616:0;.
+: 1501719687:0;ls
+: 1501719689:0;.
+: 1501719697:0;unzip smb_v102.zip
+: 1501719697:0;.
+: 1501719704:0;vim README
+: 1501719716:0;rm README SKYMAYBE.* smb_v102.zip
+: 1501719763:0;unzip 10sector.zip
+: 1501719764:0;.
+: 1501719769:0;chocolate-doom
+: 1501719776:0;chocolate-doom -iwad 10sector.wad
+: 1501719913:0;sudo apt remove --purge chocolate-doom
+: 1501719923:0;.
+: 1501719926:0;rm 10sector.*
+: 1501719927:0;.
+: 1501719947:0;mv pydetect.py ~/.i3/screens.py
+: 1501719950:0;cd ~/.i3
+: 1501719951:0;vim screens.py
+: 1501720033:0;python screens.py
+: 1501720045:0;xrandr --prop
+: 1501720052:0;xrandr --prop | grep connected
+: 1501720065:0;xrandr --prop | grep "(dis)?connected"
+: 1501720070:0;xrandr --prop | grep ".* (dis)?connected"
+: 1501720088:0;xrandr --prop | sed "s/\(.*\) (dis)?connected.*/\1"
+: 1501720094:0;xrandr --prop | sed "s/\(.*\) (dis)?connected.*/\1/"
+: 1501720116:0;xrandr --prop | grep "connected" | sed "s/\(.*\) (dis)?connected.*/\1/"
+: 1501720130:0;xrandr --prop | grep ".* connected" | sed "s/\(.*\) (dis)?connected/\1/"
+: 1501720136:0;xrandr --prop | grep ".* connected" | sed "s/\(.*\) (dis)connected/\1/"
+: 1501720141:0;xrandr --prop | grep ".* connected" | sed "s/\(.*\) [dis]connected/\1/"
+: 1501720157:0;xrandr --prop | grep ".* connected" | sed "s/\(.*\) .?.?.?connected/\1/"
+: 1501720167:0;xrandr --prop | grep ".* connected" | sed "s/\(.*\) /\1/"
+: 1501720177:0;xrandr --prop | grep ".* (dis)connected" | sed "s/\(.*\) (dis)connected/\1/"
+: 1501720184:0;xrandr --prop | grep ".*connected" | sed "s/\(.*\) (dis)connected/\1/"
+: 1501720192:0;xrandr --prop | grep ".*connected" | sed "s/\(.*\) (dis)?connected/\1/"
+: 1501720196:0;xrandr --prop | grep ".*connected" | sed "s/\(.*\) /\1/"
+: 1501720202:0;xrandr --prop | grep ".*connected" | sed "s/\(.*\) .*/\1/"
+: 1501720214:0;xrandr --prop | grep ".*connected" | sed "s/.* .*/\1/"
+: 1501720222:0;xrandr --prop | grep ".*connected" | sed "s/\(.*\)/FOO/"
+: 1501720225:0;xrandr --prop | grep ".*connected" | sed "s/\(.*\) /FOO/"
+: 1501720234:0;xrandr --prop | grep ".*connected" | sed "s/\([^ ]*\) .*/FOO/"
+: 1501720237:0;xrandr --prop | grep ".*connected" | sed "s/\([^ ]*\) .*/\1/"
+: 1501720332:0;./screens.sh
+: 1501720377:0;q
+: 1501720423:0;.
+: 1501720428:0;cd ~/.config
+: 1501720428:0;ls
+: 1501720433:0;vim arrive.sh
+: 1501720590:0;cd ../.config
+: 1501720590:0;.
+: 1501720592:0;./screens.sh
+: 1501720598:0;fg
+: 1501720617:0;./screens.sh
+: 1501720619:0;fg
+: 1501720827:0;./screens.sh
+: 1501720839:0;fg
+: 1501720907:0;./screens.sh
+: 1501720914:0;fg
+: 1501720964:0;./screens.sh
+: 1501720984:0;fg
+: 1501720996:0;./screens.sh
+: 1501720999:0;fg
+: 1501721007:0;./screens.sh
+: 1501721012:0;clear
+: 1501721014:0;fg
+: 1501721167:0;q
+: 1501721173:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9 --output DP2 --auto
+: 1501721180:0;xrandr --dpi 300 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9
+: 1501721191:0;xrandr --dpi 200 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9
+: 1501721194:0;xrandr --dpi 200 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1501721199:0;xrandr --dpi 200 --output eDP1 --primary --gamma 0:0:0 --scale 0.8x0.8
+: 1501721211:0;xrandr --dpi 220 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9
+: 1501721213:0;clear
+: 1501721215:0;xrandr --dpi 220 --output eDP1 --primary --gamma 0:0:0 --scale 0.9x0.9
+: 1501721222:0;xrandr --dpi 220 --output eDP1 --primary --gamma 0:0:0 --scale 1x1
+: 1501721233:0;ls
+: 1501721241:0;cd ../.i3
+: 1501721241:0;ls
+: 1501721245:0;mv screens.py ~/.config
+: 1501721249:0;cd ~/.config
+: 1501721250:0;clear
+: 1501721250:0;ls
+: 1501721252:0;s
+: 1501721255:0;python screens.py
+: 1501721258:0;python screens.py eDP1
+: 1501721275:0;fg
+: 1501721362:0;xrdb ~/.Xresources
+: 1501721368:0;fg
+: 1501721678:0;s
+: 1501721681:0;exec zsh
+: 1501721682:0;s
+: 1501721685:0;./screens.sh
+: 1501721688:0;fg
+: 1501721693:0;vim screens.sh
+: 1501721698:0;clear
+: 1501721698:0;s
+: 1501721702:0;fg
+: 1501721704:0;clear
+: 1501721706:0;ps -ef | grep vim
+: 1501721732:0;fg
+: 1501721734:0;jobs
+: 1501721738:0;ps -ef | grep vim
+: 1501721745:0;kill 26023
+: 1501721747:0;ps -ef | grep vim
+: 1501721753:0;pkill 6170
+: 1501721753:0;.
+: 1501721755:0;vim screens.
+: 1501721758:0;vim screens.sh
+: 1501721784:0;./screens.sh
+: 1501721792:0;clear
+: 1501721795:0;vim screens.sh
+: 1501721813:0;rm ~/.local/share/nvim/swap/%home%cypher%*
+: 1501721814:0;vim screens.sh
+: 1501721835:0;./screens.sh
+: 1501723299:0;clear
+: 1501723299:0;s
+: 1501723304:0;d i3/config
+: 1501723329:0;./screens.sh
+: 1501723332:0;./screens.sh | cat
+: 1501723336:0;./screens.sh | ccat
+: 1501723338:0;clear
+: 1501723355:0;./screens.sh > /tmp/out; echo "OUT"; cat /tmp/out
+: 1501723386:0;clear
+: 1501723386:0;s
+: 1501723389:0;a i3/config
+: 1501723392:0;a screens.sh
+: 1501723699:0;iw
+: 1501723711:0;q
+: 1501723721:0;./screens.sh > /tmp/out; echo "OUT"; cat /tmp/out
+: 1501723845:0;q
+: 1501723846:0;clear
+: 1501723846:0;s
+: 1501723849:0;a i3/config
+: 1501723850:0;clear
+: 1501723850:0;s
+: 1501723853:0;a screens.sh
+: 1501723862:0;mv screens.py ~/screens.py
+: 1501723862:0;.
+: 1501723863:0;s
+: 1501723870:0;d mimeapps.list
+: 1501723874:0;a mimeapps.list
+: 1501723874:0;.
+: 1501723876:0;s
+: 1501723884:0;a nvim/plugged
+: 1501723885:0;.
+: 1501723888:0;s
+: 1501723894:0;d nvim
+: 1501723901:0;vrc
+: 1501723910:0;a nvim/init.vim
+: 1501723910:0;s
+: 1501723943:0;m "Back to chrome, tools for screen settings, switch from gundo to mundo (Works better in neovim)"
+: 1501723944:0;s
+: 1501723947:0;d zshrc
+: 1501723966:0;z 20
+: 1501723967:0;s
+: 1501723970:0;vim .env
+: 1501723975:0;vim .envrc
+: 1501723980:0;ln -s ~/.envrc .envrc
+: 1501723982:0;cd 
+: 1501723984:0;cd -
+: 1501723990:0;vim .env
+: 1501723992:0;vim .envrc
+: 1501723997:0;cd .
+: 1501724002:0;source .env/bin/activate
+: 1501724004:0;clear
+: 1501724004:0;s
+: 1501724006:0;zrc
+: 1501724018:0;cd ..
+: 1501724026:0;deactivate
+: 1501724027:0;cd 20Qs
+: 1501724029:0;cd .
+: 1501724032:0;exec zsh
+: 1501724036:0;direnv allow
+: 1501724039:0;cd ..
+: 1501724042:0;cd 20Qs
+: 1501724045:0;man dotenv
+: 1501724051:0;clera
+: 1501724052:0;q
+: 1501724055:0;s
+: 1501724056:0;d
+: 1501724064:0;d zshrc
+: 1501724076:0;a zshrc
+: 1501724084:0;m "More plugins and their settings"
+: 1501724085:0;clear
+: 1501724085:0;s
+: 1501724094:0;d
+: 1501724106:0;which clear
+: 1501724112:0;r
+: 1501724114:0;which r
+: 1501724116:0;zrc
+: 1501724138:0;exec zsh
+: 1501724139:0;clear
+: 1501724140:0;r
+: 1501724143:0;zrc
+: 1501724165:0;which clear
+: 1501724178:0;exec zsh
+: 1501724180:0;clear
+: 1501724181:0;r
+: 1501724184:0;.
+: 1501724185:0;..
+: 1501724187:0;cd 20Qs
+: 1501724204:0;r
+: 1501724207:0;exec zsh
+: 1501724208:0;r
+: 1501724210:0;s
+: 1501724212:0;a zshrc
+: 1501724219:0;zr
+: 1501724221:0;zrc
+: 1501724266:0;m "Stop using clear all the time and make scripts clear about which clear they are using"
+: 1501724269:0;s
+: 1501724278:0;zrc
+: 1501724291:0;exec zsh
+: 1501724293:0;s
+: 1501724298:0;d
+: 1501724301:0;d zshrc
+: 1501724309:0;git commit --amend
+: 1501724312:0;s
+: 1501724314:0;a zshrc
+: 1501724316:0;git commit --amend
+: 1501724323:0;s
+: 1501724325:0;d
+: 1501724338:0;git add zsh_history; git commit -m "More history"
