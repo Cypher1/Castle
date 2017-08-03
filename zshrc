@@ -25,9 +25,47 @@ BULLETTRAIN_PROMPT_ORDER=(
     cmd_exec_time
   )
 
-plugins=(cabal catimg extract gem gitfast jsontools last-working-dir npm pip python sudo z safe-paste zsh-autosuggestions zsh-completions)
+plugins=(
+    last-working-dir
+    sudo
+    z
+    fancy-ctrl-z
+    copybuffer # bound to <c-o>
+    copyfile
+    extract
+    gitfast
+    web-search
+    mosh
+    stack # should PR with completions for exec etc.
+    python
+    jsontools
+    pip
+    systemadmin
+    zsh-autosuggestions
+    zsh-completions
+    # less used
+    npm
+    golang #need to install gopath
+    heroku
+    bgnotify # not working
+    gem
+    command-not-found
+    ant
+    catimg
+    postgres
+    cabal
+    bower
+  )
 source $ZSH/oh-my-zsh.sh
 export KEYTIMEOUT=1
+
+# PLUGIN SETTINGS
+bgnotify_threshold=10
+function notify_formatted {
+  ## $1=exit_status, $2=command, $3=elapsed_time
+  [ $1 -eq 0 ] && title="Holy Smokes Batman!" || title="Holy Graf Zeppelin!"
+  bgnotify "$title -- after $3 s" "$2";
+}
 
 # OVERRIDES
 export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
@@ -40,9 +78,6 @@ export PATH="$PATH:$JAVA_HOME/bin"
 export GOPATH=$(go env GOPATH)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 eval "$(direnv hook zsh)"
-
-bindkey "^[[H" beginning-of-line
-bindkey "^[[F" end-of-line
 
 # CHANGING DEFAULTS
 alias reboot="sudo reboot"
@@ -167,7 +202,7 @@ function rexe {
   $run ${@:2}
 }
 alias -s git='git clone'
-alias s="git status -sb 2> /dev/null && echo '-------'; ls"
+alias s="clear; git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"
