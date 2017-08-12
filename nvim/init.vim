@@ -15,14 +15,13 @@ Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
-Plug 'airblade/vim-rooter'              " Understand projects
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'alvan/vim-closetag'               " Close html tags
 Plug 'tpope/vim-fugitive'               " GIT
-Plug 'termhn/i3-vim-nav'                " i3 nav
 Plug 'google/vim-searchindex'           " Count search solutions
 Plug 'romainl/vim-qf'                   " Fix quick fix
+Plug 'kassio/neoterm'                   " Repls and terminal improvements
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'ElmCast/elm-vim'                  " Elm
@@ -87,8 +86,11 @@ map <Left>  <<
 map <Right> >>
 " }}}
 " }}}
-
-" convert rows to a tuple {{{
+" Fix up indent issues {{{
+set cino=N-s
+" }}}
+" Home made functions {{{
+" convert rows to a tuple
 function! ToTupleFunction() range
     silent execute a:firstline . "," . a:lastline . "s/^/'/"
     silent execute a:firstline . "," . a:lastline . "s/$/',/"
@@ -98,23 +100,24 @@ function! ToTupleFunction() range
     silent execute "normal ggVGYY"
 endfunction
 command! -range ToTuple <line1>,<line2> call ToTupleFunction()
-" }}}
 
+" Send code to bash and back
+command! -nargs=1 FW call FilterToNewWindow(<f-args>)
+
+function! FilterToNewWindow(script)
+    let TempFile = tempname()
+    let SaveModified = &modified
+    exe 'w ' . TempFile
+    let &modified = SaveModified
+    exe 'split ' . TempFile
+    exe '%! ' . a:script
+endfunction
+" }}}
 " Buffers/Tabs/Splits {{{
 set splitbelow splitright
 nmap <leader>v :vsp<space>
 nmap <leader>t :vsp<CR>:term<CR>
 nmap <leader>s :sp<space>
-nmap <silent> <leader>h :wincmd h<CR>
-nmap <silent> <leader>j :wincmd j<CR>
-nmap <silent> <leader>k :wincmd k<CR>
-nmap <silent> <leader>l :wincmd l<CR>
-
-" i3 integration
-nnoremap <silent> <C-l> :call Focus('right', 'l')<CR>
-nnoremap <silent> <C-h> :call Focus('left', 'h')<CR>
-nnoremap <silent> <C-k> :call Focus('up', 'k')<CR>
-nnoremap <silent> <C-j> :call Focus('down', 'j')<CR>
 
 nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
@@ -180,23 +183,32 @@ let g:neomake_open_list = 2
 " Autocommands {{{
 let g:rooter_change_directory_for_non_project_files = 'current'
 
+function! SetupJava()
+  " let l:path=system("echo -n \"$CLASSPATH:$(git rev-parse --show-toplevel)\"")
+  let l:path=system("echo -n \"$CLASSPATH:$(pwd)\"")
+  echom l:path
+  let g:neomake_java_javac_args = ['-cp', l:path.'/src/']
+endfunction
+
 augroup vim
   autocmd!
-  au BufWritePost $MYVIMRC source $MYVIMRC|set fdm=marker
   au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
+  au Filetype qf set nobuflisted
+  au Filetype java setlocal omnifunc=javacomplete#Complete
+  au Filetype java call SetupJava()
+  au BufWritePost $MYVIMRC source $MYVIMRC|set fdm=marker
   au Filetype html iabbrev </ </<C-X><C-O>
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
   au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
-  au Filetype qf set nobuflisted
-  au Filetype java setlocal omnifunc=javacomplete#Complete
+  au BufWinEnter,WinEnter term://* startinsert
 augroup END
 " }}}
 " My Repls {{{
 let g:filetype_pl="prolog"
 let g:rappel#run_key    = '<leader>p'
 let g:rappel#repl_key   = '<leader>P'
-let g:rappel#launch_key = '<M-c>'
+let g:rappel#launch_key = '<leader>c'
 let g:rappel#launch="google-chrome \"%\""
 
 let g:rappel#custom_repls={
@@ -213,20 +225,24 @@ let g:rappel#custom_repls={
 \}
 let g:JavaComplete_SourcesPath='/home/cypher/.java/jogamp/src/'
 " }}}
-
-" Fix up indent issues {{{
-
-set cino=N-s
-
-" }}}
-"
-command! -nargs=1 FW call FilterToNewWindow(<f-args>)
-
-function! FilterToNewWindow(script)
-    let TempFile = tempname()
-    let SaveModified = &modified
-    exe 'w ' . TempFile
-    let &modified = SaveModified
-    exe 'split ' . TempFile
-    exe '%! ' . a:script
+" i3 integration {{{
+function! RegisterNvimI3Connection()
+    if strlen($WINDOWID) != 0
+        silent exec '!~/.config/i3/i3_nvim_focus_client.py register '. $WINDOWID . ' ' . shellescape($NVIM_LISTEN_ADDRESS)
+        let g:i3_nvim_connection = 1
+    else
+        let g:i3_nvim_connection = 0
+    endif
 endfunction
+
+function! UnregisterNvimI3Connection()
+    if g:i3_nvim_connection
+        silent exec '!~/.config/i3/i3_nvim_focus_client.py unregister '. $WINDOWID
+    endif
+endfunction
+
+augroup i3
+call RegisterNvimI3Connection()
+autocmd VimLeave * call UnregisterNvimI3Connection()
+augroup END
+" }}}

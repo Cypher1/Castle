@@ -24,6 +24,9 @@ set $color_degraded #FFFF00
 set $color_back #232323
 set $color_border #555555
 
+set $i3home ~/.config/i3/
+set $i3_nav_cli ~/.config/i3/i3_nvim_focus_client.py
+
 font pango:Hack 4, FontAwesome 4
 
 # Use Mouse+$mod to drag floating windows to their wanted position
@@ -78,22 +81,36 @@ for_window [urgent=latest] focus
 # Popups during fullscreen mode
 popup_during_fullscreen smart
 
-# change focus
-#bindsym $mod+h focus left
-#bindsym $mod+l focus right
-#bindsym $mod+j focus down
-#bindsym $mod+k focus up
-
-bindsym --release $mod+h exec --no-startup-id "i3-vim-nav h"
-bindsym --release $mod+j exec --no-startup-id "i3-vim-nav j"
-bindsym --release $mod+k exec --no-startup-id "i3-vim-nav k"
-bindsym --release $mod+l exec --no-startup-id "i3-vim-nav l"
-
 # move focused window
 bindsym $mod+Shift+h move left
 bindsym $mod+Shift+l move right
 bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
+
+# change focus
+bindsym $mod+h exec "$i3_nav_cli focus left"
+bindsym $mod+j exec "$i3_nav_cli focus down"
+bindsym $mod+k exec "$i3_nav_cli focus up"
+bindsym $mod+l exec "$i3_nav_cli focus right"
+bindsym $mod+Left  exec "$i3_nav_cli focus left"
+bindsym $mod+Down  exec "$i3_nav_cli focus down"
+bindsym $mod+Up    exec "$i3_nav_cli focus up"
+bindsym $mod+Right exec "$i3_nav_cli focus right"
+bindsym $mod+Shift+r mode "resize"
+mode "resize" {
+  bindsym $mod+h exec "$i3_nav_cli focus left"
+  bindsym $mod+j exec "$i3_nav_cli focus down"
+  bindsym $mod+k exec "$i3_nav_cli focus up"
+  bindsym $mod+l exec "$i3_nav_cli focus right"
+  bindsym h exec "$i3_nav_cli resize h"
+  bindsym j exec "$i3_nav_cli resize j"
+  bindsym k exec "$i3_nav_cli resize k"
+  bindsym l exec "$i3_nav_cli resize l"
+  # back to normal: Enter or Escape
+  bindsym Return mode "default"
+  bindsym Escape mode "default"
+}
+exec --no-startup-id i3_nvim_focus_server.py
 
 # switch to workspace
 bindsym $mod+1 workspace $workspace1
@@ -121,27 +138,27 @@ bindsym $mod+Shift+0 move container to workspace $workspace10
 
 # BAR #
 bar {
-  status_command py3status -b -c ~/.config/i3/i3status.conf
-  strip_workspace_numbers yes
-  tray_output primary
-  position top
-  separator_symbol "|"
+  status_command py3status -b -c $i3home/i3status.conf
+    strip_workspace_numbers yes
+    tray_output primary
+    position top
+    separator_symbol "|"
 
-  # disable scroll
-  bindsym button4 nop
-  bindsym button5 nop
+# disable scroll
+    bindsym button4 nop
+    bindsym button5 nop
 
-  colors {
-    separator            $color_border
-    background           $color_back
-    #we shouldn't see this
-    statusline           $color_bad
-                         #<border>         <bg>              <text>
-    focused_workspace    $color_back $color_back $color_good
-    active_workspace     $color_back $color_back $color_degraded
-    urgent_workspace     $color_back $color_back $color_bad
-    inactive_workspace   $color_back $color_back $color
-  }
+    colors {
+      separator            $color_border
+        background           $color_back
+#we shouldn't see this
+        statusline           $color_bad
+#<border>         <bg>              <text>
+        focused_workspace    $color_back $color_back $color_good
+        active_workspace     $color_back $color_back $color_degraded
+        urgent_workspace     $color_back $color_back $color_bad
+        inactive_workspace   $color_back $color_back $color
+    }
 }
 
 # class                 border      backgr.     text   indicator
@@ -237,24 +254,7 @@ for_window [class="MintUpdate.py"] floating disable
 for_window [class="Hexchat"] floating disable
 
 
-# MODE_SYSTEM #
-
-bindsym $mod+Shift+r mode "resize"
-
-# resize window (you can also use the mouse for that)
-mode "resize" {
-  # Resize mode (hjkl)
-  bindsym h resize shrink width 10 px or 10 ppt
-  bindsym l resize grow width 10 px or 10 ppt
-  bindsym j resize shrink height 10 px or 10 ppt
-  bindsym k resize grow height 10 px or 10 ppt
-
-  # back to normal: Enter or Escape
-  bindsym Return mode "default"
-  bindsym Escape mode "default"
-}
-
-bindsym $mod+XF86LaunchB exec "~/.config/i3/i3exit.sh `echo 'lock\nsuspend\nshutdown' | dmenu -p 'Power'`"
+bindsym $mod+XF86LaunchB exec "$i3home/i3exit.sh `echo 'lock\nsuspend\nshutdown' | dmenu -p 'Power'`"
 
 # AUDIO #
 bindsym XF86AudioRaiseVolume exec "amixer -D pulse sset Master '5%+' && killall -SIGUSR1 py3status"

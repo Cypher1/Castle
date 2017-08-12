@@ -1,6 +1,6 @@
 #!/bin/sh
 lock() {
-  i3lock -c "#000000" -d -e -f
+  i3lock -c "#232323" -d -e -f
 }
 
 case "$1" in
