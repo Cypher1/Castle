@@ -7,7 +7,6 @@ spaces=$(echo "$spaces" | sed "s/\"//g")
 from=$1
 to=$2
 
-echo $spaces
 if [ "$from" = "" ]
 then
   from="$(echo "$spaces" | dmenu -p "Switch from: ")"
@@ -22,7 +21,6 @@ IFS=$'\n'
 for space in $spaces
 do
   num="$(echo $space | grep -o "[0-9]*" || echo $space)"
-  echo "NUM: $num, NAME: $space"
   if [ "$num" = "$from" ]
   then
     from=$space
