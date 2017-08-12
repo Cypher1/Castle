@@ -45,6 +45,7 @@ plugins=(
     zsh-completions
     # less used
     npm
+    maven
     golang #need to install gopath
     heroku
     bgnotify # not working
@@ -84,8 +85,10 @@ alias reboot="sudo reboot"
 alias shutdown="sudo shutdown -h now"
 alias cp="cp -r"
 alias rm="rm -r"
-alias grep="egrep --color=always"
-VISUAL="nvim"
+alias grep="egrep"
+alias crap="egrep --color=always"
+VISUAL="/usr/bin/nvim"
+EDITOR="/usr/bin/nvim"
 alias vi="nvim "
 alias vim="nvim -O"
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
@@ -102,7 +105,6 @@ alias 3src="nvim ~/.config/i3/i3status.conf"
 alias .="r && cd . && ls"
 alias ..="r && cd .. && ls"
 alias r="/usr/bin/clear"
-alias clear="echo 'Do you mean r?'"
 alias v="nvim"
 alias t="time"
 alias q="exit"
@@ -163,6 +165,7 @@ function lamb () {
 export HISTSIZE=1000000                # set history size
 export SAVEHIST=1000000                # save history after logout
 export HISTFILE=~/.config/zsh_history  # history file
+export HISTIGNORE="(fg|bg)"
 setopt INC_APPEND_HISTORY              # append into history file
 setopt HIST_IGNORE_DUPS                # save only one command if 2 common are same and consistent
 setopt no_bang_hist # turn off history expansion using !
@@ -225,9 +228,5 @@ alias open="xdg-open"
 
 # SSH via zshrc
 alias mosh="mosh -6"
-alias cse="ssh z5017666@cse.unsw.edu.au"
+alias cse="ssh z5017666@cse.unsw.edu.au -X"
 alias cse_cp="scp * z5017666@cse.unsw.edu.au:./"
-
-autoload -U +X compinit && compinit
-autoload -U +X bashcompinit && bashcompinit
-eval "$(stack --bash-completion-script stack)"
