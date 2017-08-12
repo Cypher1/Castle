@@ -4,7 +4,7 @@
 # @author agribu
 
 # set energy limit in percent, where warning should be displayed
-LIMIT="10"
+LIMIT="5"
 
 # set error message
 MESSAGE="Battery is low."
