@@ -71,10 +71,10 @@ function notify_formatted {
 # OVERRIDES
 export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
-export PATH="$PATH:/usr/local/opt/go/libexec/bin"
+export PATH="$PATH:/usr/local/go/bin"
 export PATH=$PATH:$(go env GOPATH)/bin
 export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
-export CLASSPATH="$HOME/.java/jogamp/jar/jogl-all.jar:$HOME/.java/jogamp/jar/gluegen-rt.jar"
+export CLASSPATH="$HOME/.java/jogamp/jar/jogl-all.jar:$HOME/.java/jogamp/jar/gluegen-rt.jar:$HOME/.java/json/java-json.jar"
 export PATH="$PATH:$JAVA_HOME/bin"
 export GOPATH=$(go env GOPATH)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
@@ -89,8 +89,8 @@ alias grep="egrep"
 alias crap="egrep --color=always"
 VISUAL="/usr/bin/nvim"
 EDITOR="/usr/bin/nvim"
-alias vi="nvim "
-alias vim="nvim -O"
+alias vi="nvim -O"
+alias vim="nvim "
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias ghc="ghc -Wall"
 alias g++="g++ -std=c++14 -Wall -Werror"
@@ -109,13 +109,6 @@ alias v="nvim"
 alias t="time"
 alias q="exit"
 alias u="du -hs *"
-alias -s py='python3'
-alias -s cpp='nvim'
-alias -s h='nvim'
-alias -s tem='nvim'
-alias -s md='nvim'
-alias -s html='nvim'
-alias -s js='nvim'
 alias server="python -m SimpleHTTPServer"
 alias jp='processing-java --sketch=`pwd` --present'
 alias prolog="swipl -s"
@@ -169,6 +162,7 @@ export HISTIGNORE="(fg|bg)"
 setopt INC_APPEND_HISTORY              # append into history file
 setopt HIST_IGNORE_DUPS                # save only one command if 2 common are same and consistent
 setopt no_bang_hist # turn off history expansion using !
+export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 # GIT COMMANDS
 function gitbranchcheck { # FUNCTION TO CHECKOUT OR CREATE A BRANCH
@@ -200,10 +194,19 @@ function gitignore {
   cat "$ignore" | sort | uniq > "$tmp"
   mv "$tmp" "$ignore"
 }
-alias root="cd $(git rev-parse --show-toplevel)"
+function root {
+  cd $(git rev-parse --show-toplevel)
+}
 function rexe {
-  run="$(git rev-parse --show-toplevel)/$1"
-  $run ${@:2}
+  root && $1 ${@:2}
+  cd -
+}
+
+function swap {
+  tmp="/tmp/swapper"
+  mv $1 $tmp
+  mv $2 $1
+  mv $tmp $2
 }
 alias -s git='git clone'
 alias s="/usr/bin/clear; git status -sb 2> /dev/null && echo '-------'; ls"
@@ -218,7 +221,6 @@ alias b="gitbranchcheck"
 alias g="git log --graph"
 alias gi="gitignore"
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sed 's/author //' | sed 's/cypher/Joshua Pratt/' | sed 's/kat333/Katherine Perdikis/'; done | sort -f | uniq -ic | sort -n"
-export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 alias ho="heroku open"
 alias hl="heroku logs -t"
