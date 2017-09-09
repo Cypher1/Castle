@@ -3,6 +3,9 @@
 # Set up KEYS
 exec xmodmap ~/.config/Xmodmap
 
+# Set up touchpad
+exec synclient FingerHigh=80 PalmDetect=1 TapButton1=1 TapButton2=2 TapButton3=3 TapAndDragGesture=0
+
 set $mod Control
 
 set $workspace1 "1"
@@ -21,11 +24,10 @@ set $color #FFFFFF
 set $color_good #00FF00
 set $color_bad #FF0000
 set $color_degraded #FFFF00
-set $color_back #232323
+set $color_back #000000
 set $color_border #555555
 
 set $i3home ~/.config/i3/
-set $i3_nav_cli ~/.config/i3/i3_nvim_focus_client.py
 
 font pango:Hack 4, FontAwesome 4
 
@@ -51,8 +53,9 @@ bindsym $mod+i split h
 # split in vertical orientation
 bindsym $mod+Shift+i split v
 
-# change container layout (stacked, tabbed, toggle split)
-bindsym $mod+e layout toggle split
+# change container layout (tabbed, toggle split)
+bindsym $mod+colon layout tabbed
+bindsym $mod+Shift+colon layout toggle split
 
 # enter fullscreen mode for the focused container
 bindsym XF86LaunchA fullscreen toggle
@@ -88,6 +91,8 @@ bindsym $mod+Shift+j move down
 bindsym $mod+Shift+k move up
 
 # change focus
+set $i3_nav_cli ~/.local/share/nvim/plugged/nvim-i3focus/client.py
+set $i3_nav_server ~/.local/share/nvim/plugged/nvim-i3focus/server.py
 bindsym $mod+h exec "$i3_nav_cli focus left"
 bindsym $mod+j exec "$i3_nav_cli focus down"
 bindsym $mod+k exec "$i3_nav_cli focus up"
@@ -110,9 +115,10 @@ mode "resize" {
   bindsym Return mode "default"
   bindsym Escape mode "default"
 }
-exec --no-startup-id i3_nvim_focus_server.py
+exec --no-startup-id $i3_nav_server
 
 # switch to workspace
+workspace_auto_back_and_forth yes
 bindsym $mod+1 workspace $workspace1
 bindsym $mod+2 workspace $workspace2
 bindsym $mod+3 workspace $workspace3
@@ -123,6 +129,7 @@ bindsym $mod+7 workspace $workspace7
 bindsym $mod+8 workspace $workspace8
 bindsym $mod+9 workspace $workspace9
 bindsym $mod+0 workspace $workspace10
+bindsym $mod+grave workspace back_and_forth
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
@@ -135,10 +142,11 @@ bindsym $mod+Shift+7 move container to workspace $workspace7
 bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10
+bindsym $mod+Shift+grave move container to workspace back_and_forth
 
 # BAR #
 bar {
-  status_command py3status -b -c $i3home/i3status.conf
+    status_command py3status -b -c $i3home/i3status.conf
     strip_workspace_numbers yes
     tray_output primary
     position top
@@ -161,11 +169,11 @@ bar {
     }
 }
 
-# class                 border      backgr.     text   indicator
-client.focused          $color_border $color_border $color $color_back
-client.focused_inactive $color_back $color_back $color $color_border
-client.unfocused        $color_back $color_back $color $color_border
-client.urgent           $color_bad  $color_bad  $color $color_border
+# class                 border        backgr.       text   indicator
+client.focused          $color_back   $color_back   $color $color_back
+client.focused_inactive $color_border $color_back   $color $color_back
+client.unfocused        $color_border $color_back   $color $color_back
+client.urgent           $color_border $color_bad    $color $color_back
 
 client.background       $color_back
 
@@ -270,4 +278,4 @@ bindsym $mod+XF86MonBrightnessUp exec "xbacklight + 1"
 bindsym $mod+XF86MonBrightnessDown exec "xbacklight - 1"
 
 # BORDER #
-new_window pixel 1
+new_window pixel 0
