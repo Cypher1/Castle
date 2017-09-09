@@ -1,5 +1,5 @@
 " Plugin {{{
-call plug#begin('~/.config/nvim/plugged') " Plugins go here
+call plug#begin('~/.local/share/nvim/plugged') " Plugins go here
 " Style
 Plug 'altercation/vim-colors-solarized' " Colours!
 Plug 'vim-airline/vim-airline'          " Airline gui
