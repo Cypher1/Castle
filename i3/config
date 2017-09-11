@@ -1,10 +1,7 @@
 # i3 config file (v4)
 
 # Set up KEYS
-exec xmodmap ~/.config/Xmodmap
-
-# Set up touchpad
-exec synclient FingerHigh=80 PalmDetect=1 TapButton1=1 TapButton2=2 TapButton3=3 TapAndDragGesture=0
+exec always ~/.config/Keys
 
 set $mod Control
 
@@ -63,16 +60,15 @@ bindsym XF86LaunchA fullscreen toggle
 # restart
 bindsym XF86LaunchB restart
 
-# toggle tiling / floating
-bindsym $mod+Shift+XF86LaunchA floating toggle
-
 # change focus between tiling / floating windows
 bindsym $mod+XF86LaunchA focus mode_toggle
+# toggle tiling / floating
+bindsym $mod+Shift+XF86LaunchA floating toggle
 
 # focus the parent container
 # bindsym $mod+p focus parent
 
-# focus the child container
+# focus the child contai3 mod is altainer
 # bindsym $mod+Shift+p focus child
 
 # focus follows mouse
@@ -97,10 +93,6 @@ bindsym $mod+h exec "$i3_nav_cli focus left"
 bindsym $mod+j exec "$i3_nav_cli focus down"
 bindsym $mod+k exec "$i3_nav_cli focus up"
 bindsym $mod+l exec "$i3_nav_cli focus right"
-bindsym $mod+Left  exec "$i3_nav_cli focus left"
-bindsym $mod+Down  exec "$i3_nav_cli focus down"
-bindsym $mod+Up    exec "$i3_nav_cli focus up"
-bindsym $mod+Right exec "$i3_nav_cli focus right"
 bindsym $mod+Shift+r mode "resize"
 mode "resize" {
   bindsym $mod+h exec "$i3_nav_cli focus left"
@@ -130,6 +122,8 @@ bindsym $mod+8 workspace $workspace8
 bindsym $mod+9 workspace $workspace9
 bindsym $mod+0 workspace $workspace10
 bindsym $mod+grave workspace back_and_forth
+bindsym $mod+plus workspace next_on_output
+bindsym $mod+minus workspace next_on_output
 
 # move focused container to workspace
 bindsym $mod+Shift+1 move container to workspace $workspace1
@@ -143,6 +137,8 @@ bindsym $mod+Shift+8 move container to workspace $workspace8
 bindsym $mod+Shift+9 move container to workspace $workspace9
 bindsym $mod+Shift+0 move container to workspace $workspace10
 bindsym $mod+Shift+grave move container to workspace back_and_forth
+bindsym $mod+Shift+plus move container to workspace next_on_output
+bindsym $mod+Shift+minus move container to workspace next_on_output
 
 # BAR #
 bar {
