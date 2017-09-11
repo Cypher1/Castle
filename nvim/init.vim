@@ -11,17 +11,19 @@ Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
 Plug 'ConradIrwin/vim-bracketed-paste'  " Fix paste
 " Tools
-Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
-Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
-Plug 'mhinz/vim-signify'                " Sign column diffs
-Plug 'alvan/vim-closetag'               " Close html tags
-Plug 'tpope/vim-fugitive'               " GIT
-Plug 'google/vim-searchindex'           " Count search solutions
-Plug 'romainl/vim-qf'                   " Fix quick fix
 Plug 'kassio/neoterm'                   " Repls and terminal improvements
+Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
+Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
+Plug 'tpope/vim-fugitive'               " GIT
+Plug 'tpope/vim-surround'               " Braces etc.
+Plug 'tpope/vim-commentary'             " Comments
+Plug 'simnalamburt/vim-mundo'           " UNDO!
+Plug 'alvan/vim-closetag'               " Close html tags
+Plug 'romainl/vim-qf'                   " Fix quick fix
+Plug 'google/vim-searchindex'           " Count search solutions
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'ElmCast/elm-vim'                  " Elm
