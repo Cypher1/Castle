@@ -16,12 +16,12 @@ Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'kassio/neoterm'                   " Repls and terminal improvements
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
+Plug 'alvan/vim-closetag'               " Close html tags
 Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 Plug 'tpope/vim-fugitive'               " GIT
 Plug 'tpope/vim-surround'               " Braces etc.
 Plug 'tpope/vim-commentary'             " Comments
 Plug 'simnalamburt/vim-mundo'           " UNDO!
-Plug 'alvan/vim-closetag'               " Close html tags
 Plug 'romainl/vim-qf'                   " Fix quick fix
 Plug 'google/vim-searchindex'           " Count search solutions
 " Format / Language Specifics
