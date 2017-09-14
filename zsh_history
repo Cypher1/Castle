@@ -8851,3 +8851,1909 @@ clear
 : 1504933984:0;a zsh_history
 : 1504933985:0;s
 : 1504934003:0;a zsh_history && git commit -m "More history"
+: 1504934004:0;s
+: 1504934006:0;d
+: 1504934009:0;p
+: 1504934016:0;s
+: 1504934018:0;q
+: 1504934073:0;z Graph
+: 1504934074:0;.
+: 1504934078:0;mkdir ass
+: 1504934083:0;mv ass ass2
+: 1504934084:0;.
+: 1504934093:0;mv ass2.zip ass2
+: 1504934096:0;cd ass2
+: 1504934098:0;unzip ass2.zip
+: 1504934099:0;ls
+: 1504934110:0;mv ass2.zip ..
+: 1504934111:0;.
+: 1504934113:0;cd ass2
+: 1504934113:0;.
+: 1504934115:0;cd spec
+: 1504934115:0;.
+: 1504934135:0;s
+: 1504934138:0;..
+: 1504934140:0;s
+: 1504934148:0;git init
+: 1504934149:0;s
+: 1504934151:0;a .
+: 1504934152:0;s
+: 1504934158:0;dos2unix *
+: 1504934163:0;dos2unix -r .
+: 1504934174:0;dos2unix **
+: 1504934191:0;dos2unix ass2/spec/Game.java ass2/spec/LevelIO.java ass2/spec/Road.java ass2/spec/Terrain.java ass2/spec/Tree.java org/json/CDL.java org/json/Cookie.java org/json/CookieList.java org/json/HTTP.java org/json/HTTPTokener.java org/json/JSONArray.java org/json/JSONException.java org/json/JSONML.java org/json/JSONObject.java org/json/JSONStringer.java org/json/JSONString.java org/json/JSONTokener.java org/json/JSONWriter.java org/json/Kim.java org/json/README org/json/XML.java org/json/XMLTokener.java 
+: 1504934192:0;clear
+: 1504934193:0;s
+: 1504934194:0;d
+: 1504934203:0;a .
+: 1504934203:0;s
+: 1504934223:0;m "Init with base code""
+: 1504934224:0;m "Init with base code"
+: 1504934225:0;s
+: 1504934249:0;q
+: 1504934835:0;s
+: 1504934837:0;git status
+: 1504934839:0;git fetch
+: 1504934841:0;s
+: 1504934843:0;git status
+: 1504934851:0;npm run dev
+: 1504934854:0;q
+: 1504934884:0;clear
+: 1504934884:0;ls
+: 1504934904:0;z 13k
+: 1504934904:0;.
+: 1504934908:0;cd public
+: 1504934909:0;.
+: 1504934914:0;vim client
+: 1504934938:0;vim client/client.js client/globals.js client/keyboardEvents.js client/Player.js client/Sprite.js server.js
+: 1504941190:0;ls
+: 1504941195:0;cp img/player.png img/player.png
+: 1504941200:0;cp img/player.png img/grass.png
+: 1504941206:0;fg
+: 1504941728:0;clear
+: 1504941729:0;ls
+: 1504941734:0;vim index.html
+: 1504941764:0;fg
+: 1504941851:0;clear
+: 1504941852:0;ls
+: 1504941910:0;fg
+: 1504942687:0;file img/grass.png img/player.png 
+: 1504942699:0;fg
+: 1504942746:0;file img/grass.png img/player.png 
+: 1504942754:0;fg
+: 1504945268:0;cp img/grass.png img/long_grass.png
+: 1504945302:0;fg
+: 1504946957:0;s
+: 1504946964:0;a client
+: 1504946964:0;s
+: 1504946969:0;a img
+: 1504946970:0;s
+: 1504946974:0;d index.html
+: 1504946975:0;a index.html
+: 1504946975:0;s
+: 1504946979:0;d ../s
+: 1504946981:0;d ../src
+: 1504946983:0;cd ..
+: 1504946984:0;s
+: 1504946988:0;ls src
+: 1504946995:0;mv src/micro-enum.js ..
+: 1504946996:0;s
+: 1504946998:0;ls
+: 1504947000:0;ls src
+: 1504947002:0;rm src
+: 1504947002:0;s
+: 1504947007:0;gi img_source
+: 1504947007:0;s
+: 1504947010:0;a .gitignore i
+: 1504947011:0;a .gitignore
+: 1504947012:0;s
+: 1504947014:0;D
+: 1504947079:0;s
+: 1504947081:0;git log
+: 1504947100:0;git branch stateBased
+: 1504947105:0;git checkout stateBased 
+: 1504947106:0;s
+: 1504947161:0;m "Rewrote player to be state based and added an animatedSprite class to make animation easier, also added some bad art to check that tiling workes with the animation code"
+: 1504947162:0;p
+: 1504947173:0;p -u origin stateBased
+: 1505010470:0;git checkout master/cellularAutomata
+: 1505010474:0;git checkout master cellularAutomata
+: 1505010480:0;git checkout cellularAutomata
+: 1505010483:0;git fetch
+: 1505010490:0;git checkout cellularAutomata
+: 1505010495:0;git pull
+: 1505010499:0;clear
+: 1505010555:0;s
+: 1505010563:0;git rebase master 
+: 1505010573:0;git rebase stateBased 
+: 1505010574:0;s
+: 1505010579:0;vim public/client/client.js
+: 1505010601:0;vim public/client/globals.js
+: 1505010608:0;s
+: 1505010609:0;a .
+: 1505010609:0;s
+: 1505010615:0;git rebase --continue 
+: 1505010616:0;s
+: 1505010618:0;vim public/client/client.js
+: 1505010706:0;s
+: 1505010707:0;a .
+: 1505010708:0;s
+: 1505010716:0;vim public/client/globals.js
+: 1505010740:0;a .
+: 1505010740:0;s
+: 1505010741:0;git rebase --continue 
+: 1505010742:0;s
+: 1505010745:0;vim public/index.html
+: 1505010753:0;s
+: 1505010754:0;a .
+: 1505010755:0;vim public/index.html
+: 1505010758:0;git rebase --continue 
+: 1505010759:0;s
+: 1505010765:0;vim public/client/Player.js
+: 1505014856:0;s
+: 1505014862:0;vim public/client/Player.js
+: 1505015267:0;s
+: 1505015272:0;a public/client/Player.js
+: 1505015272:0;s
+: 1505015287:0;vim public/client/World.js public/client/client.js public/client/globals.js
+: 1505015377:0;s
+: 1505015380:0;clear
+: 1505015380:0;s
+: 1505015382:0;a public
+: 1505015383:0;s
+: 1505015386:0;git rebase --continue 
+: 1505015389:0;s
+: 1505015400:0;fg
+: 1505015401:0;clear
+: 1505015401:0;s
+: 1505015405:0;git rebase
+: 1505015406:0;clear
+: 1505015407:0;s
+: 1505015408:0;d
+: 1505015420:0;git rebase --abort 
+: 1505015421:0;s
+: 1505015424:0;git log
+: 1505015426:0;git status
+: 1505015440:0;git diff origin/cellularAutomata 
+: 1505015474:0;vim public/client/AnimatedSprite.js public/client/client.js public/client/globals.js public/client/keyboardEvents.js public/client/Player.js public/client/Sprite.js public/client/Tile.js public/client/World.js 
+: 1505016136:0;fg
+: 1505016137:0;clear
+: 1505016137:0;s
+: 1505016138:0;d
+: 1505016140:0;clear
+: 1505016141:0;s
+: 1505016142:0;d
+: 1505016163:0;clear
+: 1505016163:0;s
+: 1505016174:0;fg
+: 1505016179:0;vim public/client/World.js
+: 1505018204:0;s
+: 1505018205:0;d
+: 1505018223:0;fg
+: 1505018225:0;vim public/client/World.js
+: 1505018249:0;s
+: 1505018250:0;d
+: 1505018254:0;a .
+: 1505018255:0;s
+: 1505018284:0;m "Fixed up some merge issues and cleaned up to use global constants in a few places"
+: 1505018285:0;s
+: 1505018288:0;p
+: 1505018302:0;b cellularAutomataStateBased
+: 1505018305:0;s
+: 1505018308:0;log
+: 1505018309:0;glog
+: 1505018330:0;p -u origin cellularAutomataStateBased 
+: 1505018413:0;git pull origin master 
+: 1505018419:0;s
+: 1505018420:0;git log
+: 1505018428:0;git diff HEAD^
+: 1505018432:0;s
+: 1505018440:0;git diff origin/cellularAutomataStateBased 
+: 1505018443:0;git push
+: 1505018449:0;clear
+: 1505018449:0;s
+: 1505018504:0;clear
+: 1505018505:0;s
+: 1505018526:0;fg
+: 1505018535:0;vim public/client/Sprite.js public/client/Player.js
+: 1505018895:0;q
+: 1505018897:0;d
+: 1505018901:0;a .
+: 1505018902:0;s
+: 1505018903:0;D
+: 1505018919:0;m "Fixed bug that didn't show the player turning"
+: 1505018919:0;p
+: 1505019191:0;clear
+: 1505019191:0;s
+: 1505019206:0;clear
+: 1505019207:0;s
+: 1505019210:0;b
+: 1505019219:0;b -d stateBased
+: 1505019221:0;clear
+: 1505019228:0;git branch -d stateBased 
+: 1505019230:0;b 
+: 1505019237:0;git branch -d cellularAutomata
+: 1505019238:0;s
+: 1505019239:0;clear
+: 1505019239:0;s
+: 1505019246:0;git branch -d cellularAutomata
+: 1505019268:0;b fixSpawn
+: 1505019270:0;clear
+: 1505019271:0;s
+: 1505019271:0;d
+: 1505019274:0;fg
+: 1505024239:0;s
+: 1505024242:0;d
+: 1505024245:0;a .
+: 1505024245:0;s
+: 1505024270:0;fg
+: 1505024277:0;vim public/client/client.js
+: 1505024449:0;s
+: 1505024449:0;d
+: 1505024453:0;a .
+: 1505024474:0;m "Fixed bug where player could spawn inside a wall, added Array.range(s, e) for quick array generation"
+: 1505024485:0;p -u origin HEAD 
+: 1505024491:0;s
+: 1505024495:0;git branch
+: 1505024540:0;git log
+: 1505024546:0;git diff HEAD^
+: 1505024564:0;clear
+: 1505024564:0;s
+: 1505024625:0;git diff HEAD^
+: 1505024636:0;vim
+: 1505024645:0;cd public
+: 1505024647:0;cd client
+: 1505024647:0;ls
+: 1505024651:0;git status Tile.js
+: 1505024656:0;rm Tile.js
+: 1505024656:0;s
+: 1505024662:0;git checkout Tile.js
+: 1505024663:0;s
+: 1505024666:0;vim Tile.js
+: 1505024695:0;git rm Tile.js
+: 1505024703:0;git checkout Tile.js
+: 1505024704:0;s
+: 1505024704:0;clear
+: 1505024705:0;s
+: 1505024711:0;a Tile.js
+: 1505024711:0;s
+: 1505024714:0;git checkout Tile.js
+: 1505024717:0;git stash
+: 1505024718:0;s
+: 1505024727:0;vim client.js
+: 1505024731:0;s
+: 1505024732:0;d
+: 1505024736:0;git add .
+: 1505024742:0;m "Indentation"
+: 1505024753:0;git rebase -i
+: 1505024758:0;git rebase -i HEAD^^^
+: 1505024772:0;s
+: 1505024775:0;p -f
+: 1505024907:0;vim client.js globals.js
+: 1505026842:0;s
+: 1505026843:0;d
+: 1505026853:0;vim globals.js
+: 1505026900:0;s
+: 1505026901:0;clear
+: 1505026902:0;s
+: 1505026902:0;d
+: 1505026907:0;a .
+: 1505026930:0;m "Finally used generators properly, turns out 'in' !=== 'of'"
+: 1505026931:0;p
+: 1505027051:0;q
+: 1505027058:0;npm run
+: 1505027071:0;...
+: 1505027073:0;ls
+: 1505027079:0;cat package.json
+: 1505027083:0;npm start
+: 1505027098:0;npm run build
+: 1505027118:0;npm install html-minifier --save-dev
+: 1505027125:0;npm run build
+: 1505027134:0;npm start
+: 1505027145:0;vim package.json
+: 1505027154:0;vim client_files.txt
+: 1505027173:0;npm run build; npm start
+: 1505027197:0;clear
+: 1505027198:0;s
+: 1505027205:0;du -hs index.js
+: 1505027211:0;du -hs dist
+: 1505027213:0;cd dist
+: 1505027213:0;ls
+: 1505027215:0;open index.html
+: 1505027223:0;clear
+: 1505027226:0;..
+: 1505027229:0;vim package.json
+: 1505027249:0;zip dist.zip dist index.js
+: 1505027253:0;zip -R dist.zip dist index.js
+: 1505027258:0;zip -r dist.zip dist index.js
+: 1505027262:0;rm dist.zip
+: 1505027264:0;zip -r dist.zip dist index.js
+: 1505027266:0;du -hs dist
+: 1505027283:0;which zip
+: 1505027284:0;man zip
+: 1505027385:0;zip -r dist.zip dist index.js
+: 1505027425:0;tar -cf dist.zip dist index.js
+: 1505027426:0;ls
+: 1505027430:0;du -hs dist.zip
+: 1505027435:0;man tar
+: 1505027449:0;open .
+: 1505027509:0;tar -acf dist.zip dist index.js
+: 1505027521:0;clear
+: 1505027521:0;s
+: 1505027523:0;d
+: 1505027525:0;d package.json
+: 1505027563:0;git checkout package.json
+: 1505027563:0;s
+: 1505027569:0;npm run build; npm start
+: 1505027589:0;s
+: 1505027590:0;d
+: 1505027593:0;a client_files.txt
+: 1505027596:0;b master
+: 1505027623:0;git commit -m "Added Animated Sprite to client files"
+: 1505027625:0;b m
+: 1505027628:0;b master
+: 1505027632:0;git branch -d m
+: 1505027639:0;s
+: 1505027643:0;git pull
+: 1505027646:0;clear
+: 1505027647:0;s
+: 1505027650:0;b m
+: 1505027650:0;s
+: 1505027654:0;git diff master
+: 1505027658:0;git merge master
+: 1505027662:0;s
+: 1505027665:0;git log
+: 1505027677:0;b master
+: 1505027680:0;git merge m
+: 1505027683:0;git log
+: 1505027687:0;git rebase -i HEAD^^^
+: 1505027696:0;s
+: 1505027697:0;clear
+: 1505027698:0;s
+: 1505027702:0;git branch -d m
+: 1505027706:0;git branch -D m
+: 1505027707:0;s
+: 1505027712:0;git diff origin/master 
+: 1505027722:0;git fetch
+: 1505027724:0;git diff origin/master 
+: 1505027726:0;git push -f
+: 1505027733:0;git diff origin/master 
+: 1505027857:0;npm run build; npm start
+: 1505028968:0;q
+: 1505028980:0;cd
+: 1505028982:0;cd Projects
+: 1505028982:0;.
+: 1505028986:0;cd AI
+: 1505028987:0;ls
+: 1505028990:0;..
+: 1505028992:0;vim tmp.hs
+: 1505029167:0;vrc
+: 1505029191:0;vim ~/.local/share/nvim/plugged/nvim-rappel
+: 1505029301:0;stack exec ghc -- tmp.hs
+: 1505029313:0;./tmp
+: 1505029319:0;fg
+: 1505029331:0;clear
+: 1505029331:0;s
+: 1505029333:0;vim tmp.hs
+: 1505029842:0;stack exec ghc -- tmp.hs -ddump-simpl-stats
+: 1505029861:0;stack exec ghc -- tmp.hs -ddump-simpl-stats -ddump-rule-firings
+: 1505029863:0;ls
+: 1505029870:0;rm tmp.hi tmp.o
+: 1505029872:0;stack exec ghc -- tmp.hs -ddump-simpl-stats -ddump-rule-firings
+: 1505029895:0;fg
+: 1505029910:0;stack exec ghc -- tmp.hs -ddump-simpl-stats -ddump-rule-firings
+: 1505029915:0;fg
+: 1505029923:0;stack exec ghc -- tmp.hs -ddump-simpl-stats -ddump-rule-firings
+: 1505029970:0;fg
+: 1505030009:0;stack exec ghc -- tmp.hs -ddump-simpl-stats -ddump-rule-firings
+: 1505030015:0;fg
+: 1505030019:0;stack exec ghc -- tmp.hs -ddump-simpl-stats -ddump-rule-firings
+: 1505030031:0;./tmp
+: 1505030038:0;fg
+: 1505030046:0;rm tmp*
+: 1505030047:0;clear
+: 1505030048:0;s
+: 1505030050:0;q
+: 1505030231:0;cse
+: 1505030945:0;vrc
+: 1505042843:0;q
+: 1505043003:0;stack install blaze-html
+: 1505044054:0;q
+: 1505044288:0;clear
+: 1505044288:0;s
+: 1505044289:0;vim
+: 1505044306:0;vrc
+: 1505044454:0;clear
+: 1505044461:0;vim src/Game.hs src/NaughtsAndCrosses.hs src/TDLearner.hs app/Main.hs TDHask.cabal
+: 1505044561:0;vrc
+: 1505045042:0;q
+: 1505088700:0;3rc
+: 1505088786:0;q
+: 1505088875:0;clear
+: 1505088876:0;s
+: 1505088877:0;cse
+: 1505088972:0;cd ../Uni/workspace
+: 1505088973:0;ls
+: 1505088980:0;ls ass1
+: 1505089468:0;ls
+: 1505089470:0;cd ass2
+: 1505089475:0;grep -r "ass1" .
+: 1505089498:0;vim ./.settings/org.eclipse.wst.common.component
+: 1505089514:0;clear
+: 1505089516:0;vim ./.settings/org.eclipse.wst.common.component
+: 1505089519:0;grep -r "ass1" .
+: 1505089539:0;cd src/
+: 1505089542:0;mv ass1 ass2
+: 1505089543:0;clear
+: 1505089544:0;ls
+: 1505089546:0;cd ass2
+: 1505089546:0;ls
+: 1505089552:0;vim **.java
+: 1505089589:0;...
+: 1505089590:0;clear
+: 1505089591:0;s
+: 1505089598:0;a src/ass2
+: 1505089599:0;s
+: 1505089600:0;a .
+: 1505089601:0;s
+: 1505089602:0;clear
+: 1505089602:0;s
+: 1505089614:0;grep -r "ass1" .
+: 1505089631:0;cd src/ass2/pages
+: 1505089632:0;.
+: 1505089634:0;vim *
+: 1505089696:0;s
+: 1505089697:0;a .
+: 1505089697:0;s
+: 1505089705:0;clear
+: 1505089706:0;grep -r "ass1" .
+: 1505089708:0;...
+: 1505089709:0;grep -r "ass1" .
+: 1505089710:0;..
+: 1505089711:0;grep -r "ass1" .
+: 1505089725:0;cd target/m2e-wtp/web-resources/META-INF/maven
+: 1505089726:0;ls
+: 1505089730:0;mv ass1 ass2
+: 1505089733:0;cd ass2
+: 1505089734:0;ls
+: 1505089738:0;rm ass2
+: 1505089740:0;clear
+: 1505089740:0;ls
+: 1505089743:0;mv ass1 ass2
+: 1505089743:0;ls
+: 1505089745:0;cd ass2
+: 1505089745:0;ls
+: 1505089749:0;pwd
+: 1505089752:0;cd ass1
+: 1505089753:0;pwd
+: 1505089755:0;ls
+: 1505089770:0;mv * ..
+: 1505089771:0;ls
+: 1505089772:0;cd ..
+: 1505089773:0;rm ass1
+: 1505089774:0;.
+: 1505089776:0;vim *
+: 1505089795:0;..
+: 1505089805:0;grep -r "ass1" .
+: 1505089808:0;q
+: 1505090098:0;3rc
+: 1505090961:0;sudo apt-get install git gcc make pkg-config libx11-dev libxtst-dev libxi-dev
+: 1505090971:0;cd
+: 1505090977:0;cd ~/.config
+: 1505090991:0;git clone https://github.com/alols/xcape.git
+: 1505090999:0;cd xcape
+: 1505090999:0;make
+: 1505091000:0;sudo make install
+: 1505091060:0;vim ~/.config/Xmodmap ~/.config/i3/config
+: 1505091065:0;fg
+: 1505091067:0;vim ~/.config/Xmodmap ~/.config/i3/config
+: 1505092251:0;clear
+: 1505092252:0;s
+: 1505092253:0;..
+: 1505092253:0;s
+: 1505092262:0;ls
+: 1505092278:0;3rc
+: 1505092305:0;saldkjalksdjls
+: 1505092311:0;fg
+: 1505092320:0;3rc
+: 1505092325:0;fg
+: 1505092413:0;s
+: 1505092416:0;./Keys
+: 1505092429:0;vim Keys
+: 1505092448:0;./Keys
+: 1505092455:0;vim Keys
+: 1505092485:0;clear
+: 1505092486:0;./Keys
+: 1505092504:0;s
+: 1505092509:0;git checkout Xmodmap
+: 1505092512:0;vim Keys Xmodmap
+: 1505092581:0;./Keys
+: 1505092598:0;clear
+: 1505092606:0;alskdjalskjdUulcxz
+: 1505092627:0;git checkout Xmodmap
+: 1505092629:0;vim Keys Xmodmap
+: 1505092702:0;./Keys
+: 1505092705:0;fg
+: 1505092710:0;vim Keys
+: 1505092743:0;setxkbmap -option ctrl:caps
+: 1505092749:0;setxkbmap -option ctrl:swapcaps
+: 1505092777:0;vim 
+: 1505092877:0;s
+: 1505092908:0;3RC
+: 1505092912:0;3rc
+: 1505092941:0;clear
+: 1505092946:0;vim Keys
+: 1505092951:0;fg
+: 1505092954:0;q
+: 1505092999:0;xmodmap -e "keycode 94 = grave asciitilde"
+: 1505093001:0;q
+: 1505093013:0;./Keys
+: 1505093041:0;xmodmap -e "add control = Super_L"
+: 1505093083:0;xmodmap -e "remove Control = Control_L"
+: 1505093096:0;xmodmap -e "remove Lock = Caps_Lock"
+: 1505093112:0;setxkbmap -option ctrl:nocaps
+: 1505093134:0;xmodmap -e "remove Lock = Control_L"
+: 1505093157:0;xmodmap -e "remove Control_L = Caps_Lock"
+: 1505093162:0;xmodmap -e "remove Control = Caps_Lock"
+: 1505093168:0;xev
+: 1505093204:0;jobs
+: 1505093207:0;pkill %1
+: 1505093209:0;fg
+: 1505093219:0;clear
+: 1505093220:0;q
+: 1505093285:0;xmodmap -e "remove Control = Control_L"
+: 1505093295:0;xmodmap -e "remove mod4 = Super_L"
+: 1505093306:0;xmodmap -e "add control = Super_L"
+: 1505093322:0;xmodmap -e "remove Lock = Caps_Lock"
+: 1505093336:0;xmodmap -e "remove Caps_Lock = Control_L"
+: 1505093345:0;xmodmap -e "remove Lock = Control_L"
+: 1505093355:0;xmodmap -e "remove Lock = Caps_Lock"
+: 1505093384:0;setxkbmap -layout us
+: 1505093387:0;./Keys
+: 1505093464:0;clear
+: 1505093465:0;s
+: 1505093467:0;a Xmodmap
+: 1505093468:0;s
+: 1505093474:0;a xcape
+: 1505093475:0;s
+: 1505093479:0;d i3/config
+: 1505093488:0;a i3
+: 1505093488:0;s
+: 1505093493:0;rm i3/config.save
+: 1505093495:0;git rm i3/config.save
+: 1505093496:0;s
+: 1505093512:0;clear
+: 1505093513:0;s
+: 1505093515:0;a Keys
+: 1505093550:0;./Keys
+: 1505093663:0;3rc
+: 1505093720:0;q
+: 1505093723:0;s
+: 1505093724:0;a Keys
+: 1505093725:0;s
+: 1505093753:0;m "Added xcape so that capslock is both esc and control, should mean that I use it more often\
+"
+: 1505093755:0;s
+: 1505093756:0;p
+: 1505093763:0;d
+: 1505093766:0;d nvim
+: 1505093784:0;a nvim
+: 1505093785:0;s
+: 1505093798:0;m "Sort plugins a bit and added surround and commentary"
+: 1505093799:0;p
+: 1505093804:0;q
+: 1505093822:0;xmodmap -e 'keycode 0x42 = Caps_Lock'
+: 1505093825:0;./Keys
+: 1505093839:0;q
+: 1505094056:0;z workspace
+: 1505094058:0;cd ass2
+: 1505094058:0;s
+: 1505094064:0;git init
+: 1505094065:0;s
+: 1505094067:0;d
+: 1505094070:0;s
+: 1505094080:0;git remote add origin git@github.com:Cypher1/UNSWBook.git
+: 1505094081:0;s
+: 1505094092:0;m "First commit with Ass1 content"
+: 1505094093:0;p
+: 1505094096:0;p -u origin HEAD 
+: 1505094102:0;git pull
+: 1505094105:0;s
+: 1505094107:0;p -u origin HEAD 
+: 1505094118:0;git rebase origin/master
+: 1505094120:0;s
+: 1505094124:0;vim .gitignore
+: 1505094173:0;s
+: 1505094174:0;a .gitignore
+: 1505094175:0;s
+: 1505094179:0;ls target
+: 1505094185:0;vim .gitignore
+: 1505094192:0;s
+: 1505094197:0;a .gitignore
+: 1505094208:0;git rebase --continue 
+: 1505094209:0;s
+: 1505094211:0;d
+: 1505094214:0;vim .gitignore
+: 1505094239:0;s
+: 1505094241:0;a .gitignore
+: 1505094241:0;s
+: 1505094258:0;a WebContent/WEB-INF/lib/
+: 1505094259:0;s
+: 1505094262:0;git rebase --continue 
+: 1505094263:0;s
+: 1505094265:0;glog
+: 1505094279:0;git rebase -i HEAD^^^
+: 1505094310:0;git rebase --abort
+: 1505094312:0;git rebase -i HEAD^^^
+: 1505094333:0;glog
+: 1505094344:0;git rebase -i HEAD^^^
+: 1505094349:0;git rebase -i HEAD^^
+: 1505094367:0;s
+: 1505094368:0;glog
+: 1505094376:0;git rebase -i HEAD^^
+: 1505094380:0;git rebase -i HEAD^
+: 1505094384:0;clear
+: 1505094384:0;s
+: 1505094387:0;git push
+: 1505094391:0;p -u origin HEAD 
+: 1505094407:0;s
+: 1505094416:0;rm target
+: 1505094417:0;s
+: 1505103382:0;q
+: 1505117570:0;clear
+: 1505117570:0;s
+: 1505117573:0;fg
+: 1505117584:0;stack build
+: 1505117596:0;q
+: 1505117598:0;vrc
+: 1505117625:0;vim ~/.local/share/nvim/plugged/nvim-rappel/autoload/rappel.vim
+: 1505117683:0;fg
+: 1505117694:0;vim src/Game.hs src/NaughtsAndCrosses.hs src/TDLearner.hs app/Main.hs TDHask.cabal
+: 1505117711:0;vim ~/.local/share/nvim/plugged/nvim-rappel/autoload/rappel.vim
+: 1505117728:0;fg
+: 1505117733:0;vim src/Game.hs src/NaughtsAndCrosses.hs src/TDLearner.hs app/Main.hs TDHask.cabal
+: 1505120510:0;q
+: 1505122788:0;vim
+: 1505122823:0;vrc
+: 1505137906:0;3rc
+: 1505139148:0;s
+: 1505139154:0;q
+: 1505139244:0;clear
+: 1505139244:0;s
+: 1505139261:0;git log
+: 1505139266:0;a src
+: 1505139267:0;s
+: 1505139301:0;m "First bit of work on making an MVC model of a social network, kinda crappy"
+: 1505139347:0;vim notes.md
+: 1505139353:0;s
+: 1505139369:0;q
+: 1505170592:0;sudo apt list --upgradeable
+: 1505170654:0;sudo apt update cups google-chrome python-jwt python-samba python3-jwt python3-louis samba-common smbclient chromium-codecs-ffmpeg-extra gvfs
+: 1505170660:0;sudo apt upgrade cups google-chrome python-jwt python-samba python3-jwt python3-louis samba-common smbclient chromium-codecs-ffmpeg-extra gvfs
+: 1505170669:0;sudo apt upgrade cups google-chrome-stable python-jwt python-samba python3-jwt python3-louis samba-common smbclient chromium-codecs-ffmpeg-extra gvfs
+: 1505170783:0;vim pom.xml
+: 1505170792:0;q
+: 1505171521:0;cse
+: 1505184052:0;cd
+: 1505184055:0;vim tmp.cpp
+: 1505184544:0;q
+: 1505184615:0;clear
+: 1505184619:0;sudo apt list --upgradeable
+: 1505184624:0;q
+: 1505189433:0;vim tmp.cpp
+: 1505189783:0;q
+: 1505194074:0;s
+: 1505194079:0;cd -
+: 1505194080:0;s
+: 1505194081:0;cd -
+: 1505194082:0;cd -2
+: 1505194085:0;z ass2
+: 1505194085:0;.
+: 1505194087:0;d
+: 1505194109:0;vim src/ass2/User.java
+: 1505194131:0;s
+: 1505194141:0;vim src/**/*.java
+: 1505194271:0;clear
+: 1505194272:0;s
+: 1505194276:0;a .
+: 1505194277:0;s
+: 1505194288:0;clear
+: 1505194289:0;s
+: 1505194297:0;git rm --cached notes.md
+: 1505194298:0;s
+: 1505194363:0;m "We now have some pretty nice access control that should work with JSTL and ensure that we don't access data that we're not allowed to and yet it still should be easy to convert a model to HTML and JSON"
+: 1505194365:0;clear
+: 1505194366:0;s
+: 1505194371:0;rm \;\ bn
+: 1505194373:0;s
+: 1505194379:0;git rm "; bn"
+: 1505194380:0;s
+: 1505194387:0;git commit --amend
+: 1505194391:0;s
+: 1505194395:0;git log
+: 1505196490:0;q
+: 1505196500:0;zsh
+: 1505196502:0;cd 
+: 1505196507:0;mk test
+: 1505196515:0;cat > index.html
+: 1505196530:0;vim index.html testpage.html
+: 1505196583:0;q
+: 1505196630:0;server
+: 1505196876:0;vim index.html testpage.html
+: 1505196929:0;vim index.html testpage.html 
+: 1505197002:0;server
+: 1505197030:0;vim index.html testpage.html 
+: 1505197033:0;a
+: 1505197035:0;fg
+: 1505197041:0;server
+: 1505197100:0;clear
+: 1505197100:0;s
+: 1505197102:0;fg
+: 1505197120:0;server
+: 1505197322:0;fg
+: 1505197443:0;npm install http-server -g
+: 1505197478:0;fg
+: 1505197481:0;http-server
+: 1505197897:0;sudo apt install nginx
+: 1505197916:0;clear
+: 1505197921:0;vim config
+: 1505198056:0;mv config nginx.conf
+: 1505198065:0;nginx -c nginx.conf
+: 1505198086:0;sudo chown cypher:cypher -R /var/lib/nginx/
+: 1505198094:0;nginx -t -c nginx.conf
+: 1505198101:0;sudo nginx -t -c nginx.conf
+: 1505198121:0;which nginx
+: 1505198128:0;/usr/sbin/nginx -t -c nginx.conf
+: 1505198134:0;sudo /usr/sbin/nginx -t -c nginx.conf
+: 1505198168:0;vim nginx.conf
+: 1505198339:0;nginx -t -c nginx.conf
+: 1505198354:0;mv nginx.conf /usr/share/nginx/nginx.conf
+: 1505198356:0;sudo mv nginx.conf /usr/share/nginx/nginx.conf
+: 1505198357:0;nginx -t -c nginx.conf
+: 1505198367:0;vim /usr/share/nginx/nginx.conf
+: 1505198375:0;fg
+: 1505198377:0;clear
+: 1505198378:0;s
+: 1505198380:0;nginx -t -c nginx.conf
+: 1505198389:0;touch /var/log/nginx/error.log
+: 1505198391:0;sudo touch /var/log/nginx/error.log
+: 1505198404:0;sudo chown cypher:cypher /var/log/nginx/error.log 
+: 1505198411:0;nginx
+: 1505198417:0;vim /usr/share/nginx/nginx.conf
+: 1505198427:0;vim /etc/nginx/nginx.conf
+: 1505198461:0;sudo chmod cypher:cypher /var/log/nginx/access.log
+: 1505198467:0;sudo chown cypher:cypher /var/log/nginx/access.log
+: 1505198470:0;nginx
+: 1505198479:0;sudo vim /etc/nginx/nginx.conf
+: 1505198486:0;nginx
+: 1505198488:0;sudo vim /etc/nginx/nginx.conf
+: 1505198499:0;vim /usr/share/nginx/nginx.conf
+: 1505198513:0;nginx
+: 1505198517:0;vim /usr/share/nginx/nginx.conf
+: 1505198527:0;sudo vim /etc/nginx/nginx.conf
+: 1505198543:0;clear
+: 1505198544:0;nginx
+: 1505198557:0;nginx -c /usr/share/nginx/nginx.conf
+: 1505198561:0;vim /usr/share/nginx/nginx.conf
+: 1505198572:0;nginx -c /usr/share/nginx/nginx.conf
+: 1505198576:0;vim /usr/share/nginx/nginx.conf
+: 1505198587:0;nginx -c /usr/share/nginx/nginx.conf
+: 1505198592:0;sudo nginx -c /usr/share/nginx/nginx.conf
+: 1505198610:0;vim /usr/share/nginx/nginx.conf
+: 1505198660:0;sudo apt remove nginx
+: 1505198673:0;sudo pkill nginx
+: 1505198683:0;server
+: 1505198848:0;clear
+: 1505198850:0;http-server
+: 1505199135:0;q
+: 1505199900:0;clear
+: 1505199900:0;s
+: 1505199903:0;exit
+: 1505199917:0;z ass2
+: 1505199922:0;cd WebContent
+: 1505199923:0;ls
+: 1505199925:0;cd WEB-INF
+: 1505199926:0;ls
+: 1505199928:0;vim data.xml
+: 1505199956:0;q
+: 1505200309:0;cd ~/test
+: 1505200310:0;ls
+: 1505200319:0;cp index.html websocket.html
+: 1505200339:0;vim websocket.html
+: 1505200645:0;http-server
+: 1505200652:0;ls
+: 1505200654:0;rm ajax.html
+: 1505200656:0;clear
+: 1505200657:0;ls
+: 1505200892:0;q
+: 1505201041:0;http-server
+: 1505201303:0;q
+: 1505203745:0;ls
+: 1505203749:0;z Worksp
+: 1505203749:0;.
+: 1505203752:0;cd JavaDB
+: 1505203753:0;.
+: 1505203784:0;cp ~/Downloads/cast-exercise/* .
+: 1505203785:0;s
+: 1505203787:0;ls WebContent
+: 1505203791:0;ls build
+: 1505203801:0;ls src/edu/unsw/comp9321/jdbc/
+: 1505203802:0;q
+: 1505205070:0;pscpu10 | cut -d' ' -f2,11
+: 1505205082:0;pscpu10 | cut -d' ' -f1,2,11
+: 1505205091:0;pscpu10 | cut -d' ' -f1,2,3,11
+: 1505205094:0;pscpu10 | cut -d' ' -f1,2,3,4,11
+: 1505205096:0;pscpu10 | cut -d' ' -f1,2,3,4,5,11
+: 1505205099:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,11
+: 1505205101:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,11
+: 1505205105:0;pscpu10
+: 1505205195:0;cat /sys/class/thermal/thermal_zone*/temp
+: 1505205202:0;tail /sys/class/thermal/thermal_zone*/temp
+: 1505205207:0;tail -f /sys/class/thermal/thermal_zone*/temp
+: 1505205251:0;watch pscpu10
+: 1505205263:0;which pscpu10
+: 1505205275:0;tail -f `which pscpu10`
+: 1505205283:0;tail -f $(which pscpu10)
+: 1505205290:0;tail -f "$(which pscpu10)"
+: 1505205299:0;$(which pscpu10) | tail
+: 1505205305:0;pscpu10 | tail -f
+: 1505205311:0;clear
+: 1505205314:0;tail -f /sys/class/thermal/thermal_zone*/temp
+: 1505205333:0;watch -n 2 -c "cat /sys/class/thermal/thermal_zone*/temp"
+: 1505205341:0;watch -n 2 -c"cat /sys/class/thermal/thermal_zone*/temp"
+: 1505205349:0;watch -c "cat /sys/class/thermal/thermal_zone*/temp"
+: 1505205354:0;watch -c="cat /sys/class/thermal/thermal_zone*/temp"
+: 1505205358:0;watch "cat /sys/class/thermal/thermal_zone*/temp"
+: 1505205364:0;watch pscpu10
+: 1505205377:0;watch "which pscpu10"
+: 1505205384:0;clear
+: 1505205385:0;which pscpu10
+: 1505205393:0;watch "ps -e -o pcpu,cpu,nice,state,cputime,args|sort -k1 -nr | head -10"
+: 1505205434:0;powertop
+: 1505205436:0;sudo powertop
+: 1505205559:0;q
+: 1505205619:0;grep -n intel_powerclamp /sys/class/thermal/cooling_device*/type
+: 1505205634:0;cd /sys/class/thermal/cooling_device0 /sys/class/thermal/cooling_device1 /sys/class/thermal/cooling_device2 /sys/class/thermal/cooling_device3 /sys/class/thermal/cooling_device4 
+: 1505205638:0;grep -n intel_powerclamp /sys/class/thermal/cooling_device*/type
+: 1505205641:0;grep -n intel_powerclamp /sys/class/thermal/cooling_device3/type
+: 1505205644:0;grep -n intel_powerclamp /sys/class/thermal/cooling_device3/
+: 1505205645:0;ls
+: 1505205655:0;cd /sys/class/thermal/cooling_device3/
+: 1505205655:0;ls
+: 1505205657:0;cat type
+: 1505205662:0;cd ../cooling_device4
+: 1505205664:0;cat type
+: 1505205665:0;clear
+: 1505205672:0;cat cur_state
+: 1505205693:0;cd ..
+: 1505205701:0;ls */cur_state
+: 1505205703:0;cat */cur_state
+: 1505205725:0;cat -n */cur_state
+: 1505205732:0;cat -e */cur_state
+: 1505205746:0;cat -v */cur_state
+: 1505205761:0;cat --show-all */cur_state
+: 1505205771:0;clear
+: 1505205777:0;cat cooling_device0/cur_state
+: 1505205780:0;cat cooling_device1/cur_state
+: 1505205782:0;cat cooling_device2/cur_state
+: 1505205784:0;cat cooling_device3/cur_state
+: 1505205787:0;cat cooling_device4/cur_state
+: 1505205789:0;cat cooling_device5/cur_state
+: 1505205792:0;clear
+: 1505205794:0;cd cooling_device4
+: 1505205794:0;ls
+: 1505205816:0;echo 25 > cur_state
+: 1505205819:0;sudo echo 25 > cur_state
+: 1505205826:0;sudo "echo 25 > cur_state"
+: 1505205834:0;su echo 25 > cur_state
+: 1505205837:0;sudo su echo 25 > cur_state
+: 1505205844:0;sudo echo 25 > sudo cur_state
+: 1505205856:0;sudo $(echo 25 > cur_state)
+: 1505205861:0;clear
+: 1505205881:0;echo 25 | sudo cat > cur_state
+: 1505205886:0;echo 25 | sudo "cat > cur_state"
+: 1505205888:0;clear
+: 1505205888:0;s
+: 1505205895:0;sudo echo 25
+: 1505205933:0;echo 25 | sudo tee cur_state
+: 1505205940:0;pscpu10 | tail -f
+: 1505205942:0;clear
+: 1505205945:0;watch "ps -e -o pcpu,cpu,nice,state,cputime,args|sort -k1 -nr | head -10"
+: 1505205963:0;echo 70 | sudo tee cur_state
+: 1505205966:0;watch "ps -e -o pcpu,cpu,nice,state,cputime,args|sort -k1 -nr | head -10"
+: 1505205980:0;sudo pkill kidle_inject/
+: 1505205983:0;q
+: 1505206006:0;sudo pkill kidle_inject/1
+: 1505206015:0;sudo pkill kidle_inject/
+: 1505206026:0;sudo pkill -9 kidle_inject/2
+: 1505206033:0;sudo pkill -15 kidle_inject/2
+: 1505206045:0;q
+: 1505206066:0;echo 50 | sudo tee cur_state
+: 1505206101:0;cat cur_state
+: 1505206130:0;cat max_state
+: 1505206140:0;echo 90 | sudo tee max_state
+: 1505206142:0;sudo echo 90 | sudo tee max_state
+: 1505206146:0;sudo echo 50 | sudo tee max_state
+: 1505206150:0;sudo echo 30 | sudo tee max_state
+: 1505206193:0;clear
+: 1505206194:0;cat cur_state
+: 1505206222:0;sudo add-apt-repository ppa:mactel-support/ppa
+: 1505206225:0;sudo apt update
+: 1505206238:0;sudo apt install macfanctld
+: 1505206261:0;mactopbm
+: 1505206266:0;macptopbm
+: 1505206270:0;clear
+: 1505206271:0;ls
+: 1505206274:0;macptopbm -h
+: 1505206281:0;cat cur_state
+: 1505206316:0;sudo apt install psensor
+: 1505206368:0;macfanctld
+: 1505206375:0;sudo service macfanctld start
+: 1505206380:0;ps -ef | grep mac
+: 1505206388:0;watch cur_state
+: 1505206392:0;watch cat cur_state
+: 1505206401:0;watch -c "cat cur_state"
+: 1505206405:0;watch 2 -c "cat cur_state"
+: 1505206410:0;watch 2 "cat cur_state"
+: 1505206415:0;watch -h
+: 1505206418:0;man watch
+: 1505206462:0;watch 'cat cur_state'
+: 1505206484:0;powertop
+: 1505206486:0;sudo powertop
+: 1505206716:0;cd
+: 1505206721:0;cd Uni/ANNs
+: 1505206722:0;.
+: 1505206723:0;cd ass1
+: 1505206724:0;.
+: 1505206724:0;ls
+: 1505206726:0;cd src
+: 1505206727:0;..
+: 1505206730:0;python3 src/train.py
+: 1505206877:0;time python3 src/train.py
+: 1505206955:0;vim src/train
+: 1505206958:0;vim src/train.py
+: 1505206968:0;time python3 src/train.py
+: 1505207079:0;sudo rmmod intel_powerclamp
+: 1505207098:0;watch 'cat cur_state'
+: 1505207120:0;pscpu10 | tail -f
+: 1505207140:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,11
+: 1505207236:0;sudo insmod intel_powerclamp
+: 1505207264:0;sudo modprobe intel_powerclamp
+: 1505207291:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,11
+: 1505207317:0;cd /sys/class/thermal/cooling_device4
+: 1505207318:0;ls
+: 1505207321:0;cat cur_state
+: 1505207328:0;sudo modprobe intel_powerclamp
+: 1505207330:0;cat cur_state
+: 1505207336:0;echo 50 | sudo tee cur_state
+: 1505207339:0;cat cur_state
+: 1505207350:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,11
+: 1505207366:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505207399:0;vim src/train.py
+: 1505207409:0;python3 src/train.py
+: 1505207417:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505207493:0;sudo rmmod intel_powerclamp
+: 1505207496:0;..
+: 1505207503:0;python3 src/train.py
+: 1505207507:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505207611:0;vim src/train.py
+: 1505207620:0;python3 src/train.py
+: 1505207628:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505211829:0;sudo modprobe intel_powerclamp
+: 1505211835:0;cat cur_state
+: 1505211841:0;cd cooling_device4
+: 1505211841:0;ls
+: 1505211843:0;cat cur_state
+: 1505211847:0;echo 50 | sudo tee cur_state
+: 1505211851:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505211857:0;echo 5 | sudo tee cur_state
+: 1505211860:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505211869:0;echo 1 | sudo tee cur_state
+: 1505211872:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505211879:0;psmem10 | cut -d' ' -f1,2
+: 1505211889:0;python3 src/train.py
+: 1505211903:0;watch 'cat cur_state'
+: 1505211909:0;watch -d 'cat cur_state'
+: 1505211932:0;when-changed cur_state -c "cat cur_state"
+: 1505211943:0;cat cur_state
+: 1505211964:0;echo 5 | sudo tee cur_state
+: 1505211973:0;psmem10 | cut -d' ' -f1,2
+: 1505211976:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505212112:0;cat cur_state
+: 1505212118:0;tail -f cur_state
+: 1505212122:0;clear
+: 1505212125:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505212163:0;watch 'cat cur_state'
+: 1505212194:0;which pscpu10
+: 1505212204:0;watch "ps -e -o pcpu,cpu,nice,state,cputime,args|sort -k1 -nr | head -10"
+: 1505212222:0;watch "ps -e -o pcpu,cpu,nice,state,cputime,args|sort -k1 -nr | head -10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11"
+: 1505214602:0;pkill %1
+: 1505214603:0;q
+: 1505214604:0;fg
+: 1505214612:0;q
+: 1505215958:0;cd
+: 1505215959:0;.
+: 1505215963:0;cat /sys/class/thermal/thermal_zone0/temp /sys/class/thermal/thermal_zone1/temp /sys/class/thermal/thermal_zone2/temp 
+: 1505215987:0;cat /sys/class/thermal/thermal_zone*/curr_temp
+: 1505215990:0;cat /sys/class/thermal/thermal_zone*/curr*
+: 1505215997:0;clear
+: 1505215997:0;s
+: 1505216316:0;cd -
+: 1505216318:0;cd /sys/class/thermal/cooling_device4
+: 1505216323:0;echo 10 | sudo tee cur_state
+: 1505216330:0;q
+: 1505216437:0;vim /etc/default/grub
+: 1505216608:0;lspci -vvnn | grep VGA
+: 1505216687:0;lshw -c video
+: 1505216689:0;sudo lshw -c video
+: 1505216736:0;modinfo i915
+: 1505216872:0;glxinfo
+: 1505216882:0;glxinfo | less
+: 1505217096:0;q
+: 1505261890:0;3rc
+: 1505262427:0;s
+: 1505262428:0;cd
+: 1505262429:0;.
+: 1505262430:0;s
+: 1505262432:0;rm ass1.war
+: 1505262433:0;.
+: 1505262439:0;open google_translate.png
+: 1505262447:0;mv google_translate.png Drive/Me/Pictures
+: 1505262450:0;open why_eclipse_sucks.png
+: 1505262458:0;mv why_eclipse_sucks.png Drive/Me/Pictures/
+: 1505262459:0;s
+: 1505262461:0;ls t
+: 1505262463:0;ls test
+: 1505262487:0;mv test Projects/web/AJAX_Speed_Test
+: 1505262488:0;s
+: 1505262490:0;vim tmp.cpp
+: 1505262493:0;s
+: 1505262503:0;mv tmp.cpp Uni/Cpp/Validation.cpp
+: 1505262504:0;s
+: 1505262506:0;ls *
+: 1505262515:0;cd Drive
+: 1505262516:0;.
+: 1505262537:0;mkdir Me/Paper\ work/Tax
+: 1505262545:0;mv *tax* Me/Paper\ work/Tax
+: 1505262546:0;s
+: 1505262551:0;open document\ \(1\).pdf
+: 1505262555:0;clear
+: 1505262565:0;mv document* Me/Paper\ work/Tax
+: 1505262566:0;.
+: 1505262571:0;mv Game\ Development\ Resource\ Links.gddoc Me/
+: 1505262572:0;s
+: 1505262580:0;mv Payment\ receipt\ \|\ Australian\ Taxation\ Office.pdf Me/Paper\ work/Tax
+: 1505262580:0;.
+: 1505262585:0;ls Google\ Photos
+: 1505262592:0;cd Google\ Photos
+: 1505262592:0;.
+: 1505262595:0;ls Me
+: 1505262599:0;ls Uni
+: 1505262601:0;cd Uni
+: 1505262601:0;.
+: 1505262619:0;vim classes.md coursemarks.md harmonic.py requirements.md whomon.sh & open Y3S2.png
+: 1505262626:0;fg
+: 1505262637:0;clear
+: 1505262637:0;s
+: 1505262640:0;fg
+: 1505262648:0;pkill %1
+: 1505262650:0;s
+: 1505262651:0;jobs
+: 1505262655:0;bg %1
+: 1505262659:0;pkill %1
+: 1505262661:0;bg %1
+: 1505262680:0;jobs
+: 1505262683:0;pkill %1
+: 1505262687:0;fg %1
+: 1505262691:0;clear
+: 1505262691:0;s
+: 1505262693:0;vim classes.md coursemarks.md harmonic.py requirements.md whomon.sh & open Y3S2.png
+: 1505262700:0;0;66;15M0;66;15mfg
+: 1505262703:0;fg
+: 1505262718:0;clear
+: 1505262718:0;s
+: 1505262721:0;vim classes.md coursemarks.md harmonic.py requirements.md whomon.sh
+: 1505263078:0;.
+: 1505263078:0;s
+: 1505263085:0;mkdir Classes
+: 1505263091:0;mv classes.md Classes
+: 1505263093:0;mv coursemarks.md
+: 1505263099:0;mv *.mh Classes
+: 1505263100:0;.
+: 1505263103:0;mv *.md Classes
+: 1505263104:0;.
+: 1505263108:0;mv harmonic.py Classes
+: 1505263108:0;.
+: 1505263114:0;mv Y3S2.png Classes/
+: 1505263114:0;.
+: 1505263117:0;ls Entrance
+: 1505263130:0;cd Entrance/Beta
+: 1505263131:0;.
+: 1505263135:0;open AI_Beta1.txt Article\ Stuff1.txt Article\ Stuff2.txt 
+: 1505263138:0;vim AI_Beta1.txt Article\ Stuff1.txt Article\ Stuff2.txt 
+: 1505263148:0;..
+: 1505263153:0;mv Beta ../2016
+: 1505263153:0;.
+: 1505263158:0;open Digital\ Portfolio
+: 1505263163:0;clear
+: 1505263164:0;ls
+: 1505263172:0;nemo Digital\ Portfolio
+: 1505263177:0;thunar Digital\ Portfolio
+: 1505263291:0;celar
+: 1505263292:0;clear
+: 1505263293:0;cd
+: 1505263299:0;cd Projects
+: 1505263299:0;.
+: 1505263301:0;mkdir Primes
+: 1505263303:0;cd Primes
+: 1505263303:0;.
+: 1505263310:0;vim primes.cpp
+: 1505263608:0;fg
+: 1505263611:0;vim primes.cpp
+: 1505264643:0;cse
+: 1505267844:0;cd ../../Uni/Cpp
+: 1505267845:0;ls
+: 1505267848:0;vim Validation.cpp
+: 1505268031:0;q
+: 1505269791:0;sudo apt-get install agda-mode
+: 1505270008:0;sudo apt-get install agda-stdlib
+: 1505270182:0;clear
+: 1505270183:0;s
+: 1505270185:0;q
+: 1505270214:0;psmem10 | cut -d' ' -f1,2
+: 1505270228:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505270238:0;pkill a.out
+: 1505270240:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505270255:0;psmem10 | cut -d' ' -f1,2
+: 1505270295:0;clear
+: 1505270296:0;ls
+: 1505270308:0;cd ../../Projects/Primes
+: 1505270308:0;.
+: 1505270315:0;./a.out > found
+: 1505270321:0;tail -f found
+: 1505270357:0;psmem10 | cut -d' ' -f1,2
+: 1505270359:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505270372:0;q
+: 1505270384:0;clear
+: 1505270384:0;s
+: 1505270387:0;tail found
+: 1505270393:0;wc -l found
+: 1505270608:0;g++ -Wall -Wextra -Werror -O2 -std=c++14 -Wpedantic primes.cpp
+: 1505270614:0;./a.out > found
+: 1505270623:0;tail -f 
+: 1505270628:0;tail -f found
+: 1505270635:0;head found
+: 1505270646:0;tail -f found
+: 1505270659:0;q
+: 1505270662:0;clear
+: 1505270663:0;q
+: 1505270780:0;z 13k
+: 1505270781:0;.
+: 1505270783:0;git fetch
+: 1505270790:0;s
+: 1505270793:0;git pull
+: 1505270797:0;s
+: 1505270821:0;npm run dev 
+: 1505271097:0;vim public/index.html
+: 1505271110:0;npm run dev 
+: 1505271120:0;fg
+: 1505271142:0;npm run dev 
+: 1505271170:0;fg
+: 1505271174:0;fg %2
+: 1505271178:0;fg %1
+: 1505271180:0;clear
+: 1505271180:0;s
+: 1505271221:0;fg
+: 1505271229:0;npm run dev 
+: 1505271236:0;clear
+: 1505271237:0;s
+: 1505271252:0;vim public/client/AnimatedSprite.js public/client/Camera.js public/client/client.js public/client/Enemy.js public/client/globals.js public/client/keyboardEvents.js public/client/npm-debug.log public/client/Player.js public/client/Sprite.js public/client/Tile.js public/client/World.js 
+: 1505272286:0;cd public/client
+: 1505272288:0;vim AnimatedSprite.js Camera.js client.js Enemy.js globals.js keyboardEvents.js npm-debug.log Player.js Sprite.js Tile.js World.js 
+: 1505284949:0;d
+: 1505284967:0;fg
+: 1505286759:0;s
+: 1505286760:0;d
+: 1505286762:0;d Enemy.js
+: 1505286825:0;vim Enemy.js
+: 1505287018:0;s
+: 1505287021:0;d Enemy.js
+: 1505287242:0;vim Enemy.js
+: 1505287526:0;s
+: 1505287528:0;d Player.js
+: 1505287570:0;vim Player.js
+: 1505287649:0;s
+: 1505287652:0;d Player.js
+: 1505287662:0;a Player.js
+: 1505287662:0;s
+: 1505287666:0;d World.js
+: 1505287679:0;git checkout World.js
+: 1505287679:0;s
+: 1505287681:0;d globals.js
+: 1505287683:0;vim globals.js
+: 1505287688:0;s
+: 1505287692:0;d ../index.html
+: 1505287696:0;a ../index.html
+: 1505287696:0;s
+: 1505287698:0;d Enemy.js
+: 1505287705:0;a Enemy.js
+: 1505287705:0;s
+: 1505287734:0;m "Bug fix A*, haven't made the 'can see' player more effective, this means the player can sometimes run past the enemy without being seen"
+: 1505287739:0;git fetch
+: 1505287742:0;s
+: 1505287747:0;git rebase -i HEAD^^^
+: 1505287754:0;s
+: 1505287757:0;git status
+: 1505287758:0;git log
+: 1505287762:0;glog
+: 1505287777:0;clear
+: 1505287778:0;glog
+: 1505287780:0;s
+: 1505287784:0;git diff origin/master 
+: 1505287791:0;git diff origin/master HEAD^
+: 1505287880:0;vim Enemy.js
+: 1505288223:0;s
+: 1505288223:0;d
+: 1505288230:0;a Enemy.js
+: 1505288255:0;git checkout Enemy.js
+: 1505288256:0;s
+: 1505288258:0;d
+: 1505288262:0;clear
+: 1505288262:0;s
+: 1505288265:0;git checkout Enemy.js
+: 1505288266:0;s
+: 1505288267:0;d
+: 1505288270:0;vim Enemy.js
+: 1505288282:0;git diff Enemy.js
+: 1505288285:0;clear
+: 1505288291:0;git diff Enemy.js
+: 1505288294:0;clear
+: 1505288294:0;s
+: 1505288300:0;git diff master 
+: 1505288303:0;git push
+: 1505288308:0;git fetch
+: 1505288310:0;s
+: 1505288312:0;git diff master 
+: 1505288319:0;git push -f
+: 1505288330:0;git pull
+: 1505288333:0;git log
+: 1505288334:0;glog
+: 1505288344:0;clear
+: 1505288345:0;s
+: 1505288379:0;vim Enemy.js
+: 1505289623:0;s
+: 1505289624:0;a .
+: 1505289625:0;s
+: 1505289664:0;m "Used A* to work out how far away the Player was 'by sight', makes it a bit more like they can hear, and we can tune the difficulty with a how far they can see"
+: 1505289697:0;git fetch
+: 1505289699:0;git push
+: 1505289720:0;vim World.js
+: 1505291098:0;git log
+: 1505291234:0;clear
+: 1505291235:0;s
+: 1505291238:0;fg
+: 1505292019:0;s
+: 1505292020:0;d
+: 1505292035:0;git add -i World.js
+: 1505292056:0;clear
+: 1505292056:0;s
+: 1505292060:0;git diff Sprite.js
+: 1505292069:0;a Sprite.js
+: 1505292069:0;s
+: 1505292071:0;d World.js
+: 1505292091:0;fg
+: 1505292094:0;clear
+: 1505292094:0;s
+: 1505292097:0;vim World.js Sprite.js
+: 1505292331:0;d
+: 1505292357:0;a .
+: 1505292358:0;D
+: 1505292370:0;git checkout World.js
+: 1505292370:0;s
+: 1505292373:0;d World.js
+: 1505292375:0;a World.js
+: 1505292375:0;s
+: 1505292376:0;d
+: 1505292379:0;git checkout World.js
+: 1505292379:0;s
+: 1505292380:0;d
+: 1505292387:0;git checkout master/World.js
+: 1505292394:0;git checkout master/origin World.js
+: 1505292399:0;git checkout World.js
+: 1505292399:0;s
+: 1505292401:0;d World.js
+: 1505292404:0;d Sprite.js
+: 1505292406:0;vim Sprite.js
+: 1505293228:0;s
+: 1505293231:0;a .
+: 1505293231:0;s
+: 1505293232:0;D
+: 1505293237:0;git stash
+: 1505293239:0;git pull
+: 1505293269:0;b lighting
+: 1505293274:0;git stash apply
+: 1505293276:0;D
+: 1505293277:0;d
+: 1505293298:0;m "Added lighting using overlayed dark squares"
+: 1505293300:0;a .
+: 1505293301:0;m "Added lighting using overlayed dark squares"
+: 1505293306:0;p -u origin HEAD 
+: 1505293311:0;clear
+: 1505293311:0;s
+: 1505293370:0;git checkout master  World.js
+: 1505293370:0;s
+: 1505293371:0;d
+: 1505293372:0;D
+: 1505293381:0;git commit --amend
+: 1505293384:0;s
+: 1505293392:0;git push lighting
+: 1505293395:0;p
+: 1505293399:0;git push -f
+: 1505293702:0;vim Sprite.js
+: 1505293914:0;s
+: 1505293918:0;git checkout Sprite.js
+: 1505293919:0;s
+: 1505293922:0;vim Sprite.js World.js client.js
+: 1505293929:0;rm ~/.local/share/nvim/swap/%home%cypher%Projects%
+: 1505293932:0;rm /home/cypher/.local/share/nvim/swap/%home%cypher%Projects%AI%TDHask%app%Main.hs.swp /home/cypher/.local/share/nvim/swap/%home%cypher%Projects%AI%TDHask%src%BasePlayers.hs.swp /home/cypher/.local/share/nvim/swap/%home%cypher%Projects%AI%TDHask%src%Game.hs.swp /home/cypher/.local/share/nvim/swap/%home%cypher%Projects%AI%TDHask%src%NaughtsAndCrosses.hs.swp /home/cypher/.local/share/nvim/swap/%home%cypher%Projects%AI%TDHask%src%TDLearner.hs.swp /home/cypher/.local/share/nvim/swap/%home%cypher%Projects%AI%TDHask%TDHask.cabal.swp /home/cypher/.local/share/nvim/swap/%home%cypher%Projects%games%13k%public%client%Sprite.js.swp /home/cypher/.local/share/nvim/swap/%home%cypher%Projects%games%13k%public%client%World.js.swp 
+: 1505293933:0;clear
+: 1505293934:0;s
+: 1505293935:0;vim Sprite.js World.js client.js
+: 1505294050:0;s
+: 1505294051:0;d
+: 1505294061:0;a .
+: 1505294063:0;D
+: 1505294078:0;m "Lighting now happens after the world is rendered"
+: 1505294079:0;s
+: 1505294086:0;vim World.js
+: 1505294485:0;s
+: 1505294486:0;d
+: 1505294490:0;a World.js
+: 1505294490:0;s
+: 1505294501:0;m "Restrict drawing to the camera"
+: 1505294502:0;p
+: 1505294537:0;git pull mas
+: 1505294538:0;git pull master
+: 1505294542:0;git fetch
+: 1505294551:0;git pull origin master 
+: 1505294554:0;d
+: 1505294558:0;clear
+: 1505294559:0;s
+: 1505294561:0;vim World.js
+: 1505295026:0;clear
+: 1505295027:0;s
+: 1505295029:0;d World.js
+: 1505295041:0;vim World.js
+: 1505295049:0;d World.js
+: 1505295057:0;a World.js
+: 1505295059:0;s
+: 1505295062:0;git status
+: 1505295069:0;git commit
+: 1505295073:0;clear
+: 1505295073:0;s
+: 1505295075:0;git push
+: 1505295080:0;fg
+: 1505295088:0;clear
+: 1505295088:0;s
+: 1505295251:0;vim Sprite.js World.js
+: 1505295735:0;clear
+: 1505295736:0;s
+: 1505295738:0;d
+: 1505295775:0;vim client.js
+: 1505296084:0;s
+: 1505296085:0;d
+: 1505296091:0;a .
+: 1505296106:0;m "Fixed enemy rendering and as a bonus saved some cpu"
+: 1505296106:0;p
+: 1505296177:0;clear
+: 1505296177:0;s
+: 1505296197:0;vim Sprite.js
+: 1505297227:0;s
+: 1505297228:0;d
+: 1505297233:0;a .
+: 1505297262:0;d
+: 1505297264:0;D
+: 1505297283:0;m "Put enemies hiding back to off (didn't work with different lighting values) and fixed up the AI stubbornness issue"
+: 1505297283:0;p
+: 1505297328:0;git pull master
+: 1505297332:0;git pull origin master 
+: 1505297337:0;d
+: 1505297339:0;clear
+: 1505297339:0;s
+: 1505297341:0;vim Enemy.js
+: 1505297360:0;s
+: 1505297361:0;a Enemy.js
+: 1505297361:0;s
+: 1505297363:0;D
+: 1505297374:0;git commit
+: 1505297377:0;s
+: 1505297379:0;git push
+: 1505297475:0;vim client.js
+: 1505297831:0;s
+: 1505297831:0;d
+: 1505297836:0;b music
+: 1505297840:0;vim client.js
+: 1505298232:0;s
+: 1505298233:0;d
+: 1505298235:0;a client.js
+: 1505298238:0;vim client.js
+: 1505298541:0;s
+: 1505298542:0;d
+: 1505298547:0;vim client.js
+: 1505298815:0;clear
+: 1505298816:0;s
+: 1505298818:0;cd ..
+: 1505298818:0;s
+: 1505298822:0;mv TinyMusic.min.js client
+: 1505298822:0;s
+: 1505298827:0;vim ../client_files.txt
+: 1505298848:0;s
+: 1505298852:0;vim ../client_files.txt
+: 1505298870:0;vim index.html
+: 1505298890:0;grep -R "Tile"
+: 1505298895:0;rm client/Tile.js
+: 1505298897:0;s
+: 1505298905:0;vim client/client.js
+: 1505298909:0;fg
+: 1505299004:0;s
+: 1505299005:0;a .
+: 1505299005:0;s
+: 1505299008:0;a ../client_files.txt
+: 1505299009:0;s
+: 1505299015:0;m "Added music demo"
+: 1505299015:0;p
+: 1505299017:0;p -u origin HEAD 
+: 1505299063:0;clear
+: 1505299063:0;s
+: 1505299071:0;npm build
+: 1505299073:0;ls
+: 1505299078:0;npm start
+: 1505299093:0;npm run clean
+: 1505299096:0;npm run dist
+: 1505299099:0;cat pac
+: 1505299101:0;..
+: 1505299105:0;cat package.json
+: 1505299108:0;npm run dist
+: 1505299112:0;npm run clean
+: 1505299115:0;npm run build
+: 1505299126:0;npm start
+: 1505299137:0;clear
+: 1505299139:0;cat package.json
+: 1505299149:0;ls
+: 1505299155:0;zip -r dist.zip dist index.js
+: 1505299159:0;du -hs dist.zip
+: 1505299168:0;open dist.zip
+: 1505299265:0;clear
+: 1505299266:0;s
+: 1505299272:0;mv dist.zip ..
+: 1505299272:0;ls
+: 1505299273:0;cd ..
+: 1505299276:0;mk dist
+: 1505299281:0;mv ../dist.zip .
+: 1505299283:0;unzip dist.zip
+: 1505299285:0;open index.js
+: 1505299289:0;chrome index.js
+: 1505299297:0;open index.js
+: 1505299301:0;open .
+: 1505299411:0;clear
+: 1505299412:0;s
+: 1505299419:0;cd ../13k
+: 1505299419:0;.
+: 1505299420:0;clear
+: 1505299420:0;s
+: 1505299431:0;npm run dev
+: 1505299513:0;q
+: 1505299734:0;cd
+: 1505299735:0;ls
+: 1505299813:0;q
+: 1505338557:0;vim
+: 1505338678:0;cse
+: 1505338731:0;q
+: 1505338869:0;cat /sys/class/backlight/intel_backlight/max_brightness
+: 1505338876:0;cat /sys/class/backlight/intel_backlight/actual_brightness
+: 1505338880:0;cat /sys/class/backlight/intel_backlight/brightness
+: 1505338888:0;echo "800" > /sys/class/backlight/intel_backlight/brightness
+: 1505338895:0;echo "800" > sudo tee /sys/class/backlight/intel_backlight/brightness
+: 1505338900:0;echo "80" > sudo tee /sys/class/backlight/intel_backlight/brightness
+: 1505338903:0;cat /sys/class/backlight/intel_backlight/brightness
+: 1505338912:0;ls
+: 1505338914:0;rm sudo
+: 1505338914:0;.
+: 1505338921:0;echo "800" | sudo tee /sys/class/backlight/intel_backlight/brightness
+: 1505338928:0;echo "600" | sudo tee /sys/class/backlight/intel_backlight/brightness
+: 1505338934:0;echo "10000" | sudo tee /sys/class/backlight/intel_backlight/brightness
+: 1505338937:0;echo "1000" | sudo tee /sys/class/backlight/intel_backlight/brightness
+: 1505338941:0;echo "700" | sudo tee /sys/class/backlight/intel_backlight/brightness
+: 1505338943:0;clear
+: 1505338974:0;cat /sys/class/graphics/fb0/console
+: 1505338980:0;cat /sys/class/graphics/fb0/name
+: 1505338991:0;cat /sys/class/drm/version
+: 1505339031:0;bluetoothctl -h
+: 1505339048:0;clear
+: 1505339086:0;sudo apt install applesmc-dkms hid-dkms
+: 1505339095:0;sudo add-apt-repository ppa:mactel-support/ppa
+: 1505339171:0;sudo add-apt-repository ppa:mactel-support
+: 1505339186:0;sudo apt install pacman
+: 1505339195:0;sudo apt autoremove
+: 1505339200:0;pacman
+: 1505339215:0;sudo apt remove pacman
+: 1505339219:0;clear
+: 1505339219:0;s
+: 1505339229:0;mkdir 13k_screen_shots
+: 1505339235:0;mv *.png 13k_screen_shots
+: 1505339236:0;.
+: 1505339244:0;mv *.xcf 13k_screen_shots
+: 1505339244:0;.
+: 1505339253:0;mv 13k_screen_shots Projects/games/13k/img_source
+: 1505339257:0;cd Projects/games/13k
+: 1505339257:0;.
+: 1505339259:0;cd img_source
+: 1505339260:0;ls
+: 1505339261:0;cd ..
+: 1505339261:0;s
+: 1505339505:0;cat /usr/local/bin/keyboard-backlight
+: 1505339513:0;cd /usr/local/bin/
+: 1505339514:0;ls
+: 1505339569:0;cd 
+: 1505339572:0;.
+: 1505339585:0;sudo vi /usr/local/bin/keyboard-backlight
+: 1505339594:0;clear
+: 1505339598:0;vim /usr/local/bin/keyboard-backlight
+: 1505339635:0;sudo chmod 755 /usr/local/bin/keyboard-backlight
+: 1505339640:0;sudo visudo
+: 1505339706:0;clear
+: 1505339710:0;which sudo keyboard-backlight
+: 1505339718:0;keyboard-backlight up
+: 1505339727:0;sudo visudo
+: 1505339767:0;clear
+: 1505339768:0;s
+: 1505339770:0;keyboard-backlight up
+: 1505339772:0;sudo keyboard-backlight up
+: 1505339786:0;3rc
+: 1505339794:0;xev
+: 1505339805:0;clear
+: 1505339806:0;3rc
+: 1505339811:0;q
+: 1505339880:0;which keyboard-backlight
+: 1505339885:0;vim /usr/local/bin/keyboard-backlight
+: 1505339929:0;sudo keyboard-backlight + 10
+: 1505339938:0;sudo keyboard-backlight - 10
+: 1505339948:0;c;ear
+: 1505339950:0;clear
+: 1505339959:0;:q
+: 1505339960:0;q
+: 1505340093:0;sudo keyboard-backlight up
+: 1505340095:0;sudo keyboard-backlight up 10
+: 1505340102:0;fg
+: 1505340226:0;sudo keyboard-backlight zero
+: 1505340229:0;sudo keyboard-backlight off
+: 1505340238:0;sudo chmod 755 /usr/local/bin/keyboard-backlight
+: 1505340240:0;sudo keyboard-backlight off
+: 1505340243:0;fg
+: 1505340254:0;ls
+: 1505340255:0;rm sudo
+: 1505340259:0;sudo keyboard-backlight off
+: 1505340266:0;sudo keyboard-backlight up
+: 1505340268:0;fg
+: 1505340289:0;sudo keyboard-backlight up
+: 1505340303:0;fg
+: 1505340329:0;sudo keyboard-backlight up
+: 1505340344:0;fg
+: 1505340355:0;sudo keyboard-backlight up
+: 1505340366:0;fg
+: 1505340404:0;sudo keyboard-backlight up
+: 1505340410:0;sudo keyboard-backlight up 10
+: 1505340436:0;claeear
+: 1505340438:0;clear
+: 1505340445:0;s
+: 1505340450:0;sudo keyboard-backlight off
+: 1505340459:0;vim /usr/local/bin/keyboard-backlight
+: 1505340467:0;sudo keyboard-backlight off
+: 1505340469:0;keyboard-backlight off
+: 1505340472:0;keyboard-backlight on
+: 1505340475:0;keyboard-backlight full
+: 1505340477:0;keyboard-backlight off
+: 1505340484:0;q
+: 1505340490:0;sudo visudo
+: 1505340552:0;keyboard-backlight up
+: 1505340556:0;keyboard-backlight up 10
+: 1505340558:0;q
+: 1505340559:0;fg
+: 1505340570:0;sudo keyboard-backlight up 10
+: 1505340585:0;sudo /usr/local/bin/keyboard-backlight up 10
+: 1505343422:0;sudo visudo
+: 1505343495:0;keyboard-backlight up 10
+: 1505343503:0;/usr/local/bin/keyboard-backlight up 10
+: 1505343522:0;/usr/local/bin/keyboard-backlight up
+: 1505343603:0;ls /etc/sudoers.d/*
+: 1505343623:0;cd /etc/sudoers.d
+: 1505343623:0;.
+: 1505343634:0;vim keyboard_backlight
+: 1505343641:0;which keyboard-backlight
+: 1505343705:0;clear
+: 1505343705:0;s
+: 1505343708:0;keyboard-backlight up 10
+: 1505343711:0;/usr/local/bin/keyboard-backlight up
+: 1505343724:0;clear
+: 1505343724:0;s
+: 1505343776:0;sudo -;;
+: 1505343778:0;sudo -ll
+: 1505343813:0;vim keyboard_backlight mintupdate
+: 1505343825:0;sudo vim keyboard_backlight mintupdate
+: 1505343844:0;which keyboard-backlight
+: 1505343861:0;ls -la *
+: 1505343867:0;keyboard-backlight up 10
+: 1505343871:0;vim keyboard_backlight mintupdate
+: 1505343892:0;keyboard-backlight up 10
+: 1505343926:0;sudo vim keyboard_backlight
+: 1505343932:0;sudo su
+: 1505343969:0;visudo keyboard_backlight
+: 1505343973:0;visudo -f keyboard_backlight
+: 1505343975:0;sudo visudo -f keyboard_backlight
+: 1505343986:0;pkexe visudo -f keyboard_backlight
+: 1505344002:0;mv keyboard_backlight ..
+: 1505344004:0;sudo mv keyboard_backlight ..
+: 1505344115:0;sudo apt install pkexe
+: 1505344121:0;vim mintupdate
+: 1505344132:0;sudo vim keyboard_backlight mintupdate README suspend wakeup_settings 
+: 1505344134:0;clear
+: 1505344134:0;s
+: 1505344358:0;pkexec
+: 1505344367:0;pkexec visudo -f keyboard_backlight
+: 1505344425:0;cat /var/log/auth.log
+: 1505344429:0;cat /var/log/auth.log | tail -f
+: 1505344555:0;ps aux | grep polkit
+: 1505344566:0;pkexec vim keyboard_backlight
+: 1505344642:0;clear
+: 1505344643:0;ls
+: 1505344647:0;pkexec vim keyboard_backlight
+: 1505344661:0;clear
+: 1505344662:0;ls
+: 1505344674:0;cat *
+: 1505344708:0;cp /home/cypher/.config/wakeup.sh /home/cypher/.config/wakeup.sh.bak
+: 1505344720:0;vim /home/cypher/.config/wakeup.sh
+: 1505344842:0;/home/cypher/.config/wakeup.sh
+: 1505344851:0;vim /home/cypher/.config/wakeup.sh
+: 1505344881:0;/home/cypher/.config/wakeup.sh
+: 1505344888:0;vim /home/cypher/.config/wakeup.sh
+: 1505344897:0;/home/cypher/.config/wakeup.sh
+: 1505344904:0;vim /home/cypher/.config/wakeup.sh
+: 1505344912:0;/home/cypher/.config/wakeup.sh
+: 1505344916:0;sudo /home/cypher/.config/wakeup.sh
+: 1505344920:0;vim /home/cypher/.config/wakeup.sh
+: 1505344934:0;exit
+: 1505344950:0;vim ~/.config/wakeup.sh
+: 1505345003:0;vim keyboard_backlight mintupdate
+: 1505345029:0;vim keyboard_backlight
+: 1505345036:0;cat *
+: 1505345056:0;ls *
+: 1505345071:0;cat mintupdate
+: 1505345072:0;cat suspend
+: 1505345083:0;cd .config
+: 1505345083:0;ls
+: 1505345085:0;vim wakeup.sh
+: 1505345092:0;rm wakeup.sh.bak
+: 1505345093:0;clear
+: 1505345094:0;s
+: 1505345101:0;cd /usr/sbin
+: 1505345101:0;ls
+: 1505345105:0;vim pm-suspend
+: 1505345177:0;gksudo vim keyboard_backlight
+: 1505345191:0;gksu vim keyboard_backlight
+: 1505345212:0;sudo -ll
+: 1505345256:0;chmod 644 keyboard_backlight
+: 1505345315:0;clear
+: 1505345316:0;s
+: 1505345327:0;sudo -ll
+: 1505345329:0;clear
+: 1505345329:0;s
+: 1505345331:0;keyboard-backlight up 10
+: 1505345336:0;sudo -ll
+: 1505345350:0;sudo keyboard-backlight up 10
+: 1505345356:0;3rc
+: 1505345391:0;clear
+: 1505345391:0;q
+: 1505345393:0;clear
+: 1505345393:0;q
+: 1505345467:0;vim /etc/ssh/ssh_config
+: 1505345539:0;vim /etc/ssh/sshd_config
+: 1505345632:0;ifconfig
+: 1505345666:0;exit
+: 1505345672:0;clear
+: 1505345672:0;ls
+: 1505345674:0;clear
+: 1505345675:0;vim /etc/ssh/sshd_config
+: 1505345717:0;sudo service sshd restart
+: 1505345720:0;sudo service ssh restart
+: 1505345746:0;exit
+: 1505345844:0;fg
+: 1505345852:0;q
+: 1505345953:0;cd
+: 1505345953:0;.
+: 1505345956:0;cd Uni
+: 1505345957:0;.
+: 1505345959:0;cd Cpp
+: 1505345959:0;.
+: 1505345962:0;rm a.out
+: 1505345963:0;.
+: 1505345968:0;cd comp6771tutorials
+: 1505345968:0;.
+: 1505345970:0;cd source
+: 1505345971:0;.
+: 1505345975:0;git fetch
+: 1505345981:0;git merge
+: 1505345996:0;git fetch -u cjdb master:master 
+: 1505346005:0;git pull
+: 1505346008:0;s
+: 1505346010:0;git status
+: 1505346014:0;git add tut6
+: 1505346015:0;s
+: 1505346017:0;git stash
+: 1505346018:0;s
+: 1505346025:0;git pull cjdb master -f
+: 1505346027:0;s
+: 1505346029:0;d
+: 1505346033:0;vim tut6
+: 1505346038:0;cd tut6
+: 1505346038:0;.
+: 1505346041:0;s
+: 1505346043:0;clear
+: 1505346044:0;d
+: 1505346048:0;s
+: 1505346051:0;vim extrasmart.cpp variadicprint.cpp
+: 1505346169:0;s
+: 1505346170:0;a .
+: 1505346171:0;s
+: 1505346175:0;git commit
+: 1505346178:0;s
+: 1505346183:0;git pull cjdb master -f
+: 1505346186:0;s
+: 1505346190:0;git remote
+: 1505346213:0;git push -u cjdb 
+: 1505346218:0;clear
+: 1505346240:0;git branch --set-upstream-to=cjdb/master 
+: 1505346242:0;s
+: 1505346247:0;git diff cjdb/master 
+: 1505346261:0;git pull cjdb master -f
+: 1505346265:0;s
+: 1505346269:0;git checkout cjdb/master 
+: 1505346270:0;s
+: 1505346272:0;git add .
+: 1505346273:0;s
+: 1505346276:0;git add ../
+: 1505346276:0;s
+: 1505346280:0;git add ../../
+: 1505346281:0;clear
+: 1505346282:0;s
+: 1505346291:0;clear
+: 1505346291:0;s
+: 1505346298:0;git stash
+: 1505346300:0;clear
+: 1505346300:0;s
+: 1505346305:0;git status
+: 1505346307:0;clear
+: 1505346309:0;git merge
+: 1505346319:0;git merge master
+: 1505346322:0;git checkout master
+: 1505346323:0;s
+: 1505346326:0;git checkout cjdb/master 
+: 1505346336:0;git checkout -b true
+: 1505346337:0;s
+: 1505346341:0;git branch
+: 1505346345:0;git master
+: 1505346352:0;b master
+: 1505346353:0;s
+: 1505346361:0;git merge true 
+: 1505346362:0;s
+: 1505346371:0;git branch -d master
+: 1505346375:0;git checkout true 
+: 1505346379:0;git branch -d master
+: 1505346384:0;git branch -D master
+: 1505346387:0;git branch
+: 1505346391:0;b master
+: 1505346400:0;git branch -d true 
+: 1505346405:0;b master
+: 1505346406:0;clear
+: 1505346406:0;s
+: 1505346408:0;git branch
+: 1505346409:0;s
+: 1505346411:0;git status
+: 1505346415:0;git diff cjdb/master 
+: 1505346418:0;git diff origin/master 
+: 1505346421:0;git push origin master 
+: 1505346429:0;p -f origin master 
+: 1505346434:0;clear
+: 1505346434:0;s
+: 1505346530:0;cd ../tut7
+: 1505346531:0;.
+: 1505346533:0;vim CMakeLists.txt library.hpp week8.cpp 
+: 1505355099:0;vim library.hpp week8.cpp
+: 1505355225:0;cd ~/.java
+: 1505355231:0;cd /mnt
+: 1505355231:0;ls
+: 1505355244:0;clear
+: 1505355244:0;ls
+: 1505355246:0;cd ..
+: 1505355260:0;cd /media/cypher/Nix
+: 1505355260:0;.
+: 1505355271:0;cp jogamp /media/cypher/Nix/jogamp
+: 1505355281:0;q
+: 1505355595:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505355722:0;clear
+: 1505355753:0;echo 50 | sudo tee /sys/class/thermal/cooling_device4/cur_state
+: 1505355769:0;cat /sys/class/thermal/cooling_device4/cur_state
+: 1505355777:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505355786:0;psmem10 | cut -d' ' -f1,2
+: 1505355791:0;pkill java
+: 1505355793:0;psmem10 | cut -d' ' -f1,2
+: 1505355795:0;clear
+: 1505355795:0;s
+: 1505355798:0;q
+: 1505355898:0;cse
+: 1505355981:0;q
+: 1505357519:0;pscpu10 | cut -d' ' -f1,2,3,4,5,6,7,8,9,10,11,12
+: 1505357550:0;q
+: 1505358494:0;powertop
+: 1505358495:0;sudo powertop
+: 1505358514:0;clear
+: 1505358515:0;q
+: 1505358527:0;sudo powertop --calibrate
+: 1505358855:0;clear
+: 1505358855:0;s
+: 1505358858:0;history | tail
+: 1505358860:0;clear
+: 1505358864:0;q
+: 1505362333:0;cd ~/.config
+: 1505362333:0;ls
+: 1505362357:0;crontab -e
+: 1505362362:0;cd i3
+: 1505362363:0;vim batwarn.sh
+: 1505362374:0;crontab -e
+: 1505362383:0;q
+: 1505362878:0;clear
+: 1505362878:0;s
+: 1505362879:0;d
+: 1505376973:0;q
+: 1505376982:0;vim ../Keys
+: 1505376990:0;..
+: 1505376992:0;./Keys
+: 1505377000:0;q
+: 1505377005:0;\
+vim i3/config
+: 1505377064:0;q
+: 1505377067:0;\
+
+: 1505377070:0;\
+q
+: 1505377078:0;\
+./Keys
+: 1505377095:0;sudo ls
+: 1505377098:0;clear
+: 1505377113:0;ls
+: 1505377116:0;watch
+: 1505377132:0;clear
+: 1505377228:0;./Keys
+: 1505377244:0;q
+: 1505377278:0;s
+: 1505377281:0;d mimeapps.list
+: 1505377298:0;a mimeapps.list
+: 1505377299:0;s
+: 1505377304:0;d nvim
+: 1505377310:0;a nvim
+: 1505377311:0;s
+: 1505377351:0;m "More chrome and more spelling, also I keep reordering my vim plugins to try to make them easier to look through, maybe this will lead to something one day"
+: 1505377353:0;clear
+: 1505377353:0;s
+: 1505377354:0;d i3
+: 1505377359:0;a i3
+: 1505377359:0;s
+: 1505377396:0;cp /usr/local/bin/keyboard-backlight .
+: 1505377397:0;s
+: 1505377400:0;a keyboard-backlight
+: 1505377400:0;s
+: 1505377421:0;m "Added a keyboard backlight control script and setup the keys for using it"
+: 1505377421:0;p
+: 1505377464:0;clear
+: 1505377465:0;s
+: 1505377469:0;d zsh_history
+: 1505377478:0;a zsh_history && git commit -m "More history"
