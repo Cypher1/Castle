@@ -72,13 +72,20 @@ function notify_formatted {
 export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 export PATH="$PATH:/usr/local/go/bin"
-export PATH=$PATH:$(go env GOPATH)/bin
+export PATH="$PATH:$(go env GOPATH)/bin"
+export PATH="$PATH:$HOME/.psvm/current/bin"
 export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
-export CLASSPATH="$HOME/.java/jogamp/jar/jogl-all.jar:$HOME/.java/jogamp/jar/gluegen-rt.jar:$HOME/.java/json/java-json.jar"
+export DERBY_HOME="/home/cypher/.java/db-derby-10.13.1.1-bin/"
+export CLASSPATH="$HOME/.java/jogamp/jar/jogl-all.jar:$HOME/.java/jogamp/jar/gluegen-rt.jar:$HOME/.java/json/java-json.jar:$HOME/.java/db-derby-10.13.1.1-bin/lib/derby.jar:$HOME/.java/db-derby-10.13.1.1-bin/lib/derbytools.jar"
 export PATH="$PATH:$JAVA_HOME/bin"
 export GOPATH=$(go env GOPATH)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 eval "$(direnv hook zsh)"
+
+
+function java_run() {
+  java -cp "$1:$CLASSPATH" `echo "$1" | sed "s/\.jar$//"`/$2
+}
 
 # CHANGING DEFAULTS
 alias reboot="sudo reboot"
@@ -190,6 +197,8 @@ function gitignore {
     echo "Ignoring $rfile"
     echo "$rfile" >> "$ignore"
   done
+}
+function gitdedup {
   echo "Deduplication .gitignore"
   cat "$ignore" | sort | uniq > "$tmp"
   mv "$tmp" "$ignore"
@@ -220,6 +229,7 @@ alias D="git diff --staged"
 alias b="gitbranchcheck"
 alias g="git log --graph"
 alias gi="gitignore"
+alias gidd="gitdedup"
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sed 's/author //' | sed 's/cypher/Joshua Pratt/' | sed 's/kat333/Katherine Perdikis/'; done | sort -f | uniq -ic | sort -n"
 
 alias ho="heroku open"
