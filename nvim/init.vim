@@ -10,23 +10,23 @@ Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
 Plug 'ConradIrwin/vim-bracketed-paste'  " Fix paste
+Plug 'romainl/vim-qf'                   " Fix quick fix
 " Tools
-Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
-Plug 'kassio/neoterm'                   " Repls and terminal improvements
+Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
-Plug 'alvan/vim-closetag'               " Close html tags
-Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 Plug 'tpope/vim-fugitive'               " GIT
+Plug 'simnalamburt/vim-mundo'           " UNDO!
+Plug 'alvan/vim-closetag'               " Close html tags
+Plug 'google/vim-searchindex'           " Count search solutions
+Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
+Plug 'kassio/neoterm'                   " Repls and terminal improvements
 Plug 'tpope/vim-surround'               " Braces etc.
 Plug 'tpope/vim-commentary'             " Comments
-Plug 'simnalamburt/vim-mundo'           " UNDO!
-Plug 'romainl/vim-qf'                   " Fix quick fix
-Plug 'google/vim-searchindex'           " Count search solutions
+Plug 'baverman/vial-http'               " Make REST queries from vim
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
-Plug 'ElmCast/elm-vim'                  " Elm
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
 Plug 'lervag/vimtex'                    " Latex
