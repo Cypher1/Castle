@@ -182,6 +182,7 @@ application/xhtml+xml=firefox.desktop
 application/x-extension-xhtml=firefox.desktop
 application/x-extension-xht=firefox.desktop
 x-scheme-handler/webcal=google-chrome.desktop
+x-scheme-handler/ssh=google-chrome.desktop
 
 [Added Associations]
 application/msword=google-chrome.desktop;libreoffice-writer.desktop;
@@ -367,5 +368,6 @@ application/xhtml+xml=firefox.desktop;
 application/x-extension-xhtml=firefox.desktop;
 application/x-extension-xht=firefox.desktop;
 application/illustrator=gimp.desktop;
-application/zip=org.gnome.FileRoller.desktop;file-roller.desktop;
+application/zip=file-roller.desktop;org.gnome.FileRoller.desktop;
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;
+application/x-compressed-tar=file-roller.desktop;
