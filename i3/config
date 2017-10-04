@@ -4,9 +4,6 @@
 # Set up KEYS
 exec ~/.config/Keys
 
-# Displays
-exec_always /home/cypher/.config/screens.sh
-
 # num lock activated
 exec_always --no-startup-id numlockx on
 exec --no-startup-id feh --bg-fill ~/Drive/Me/Pictures/firewatch.jpg
@@ -15,7 +12,7 @@ exec insync-headless start
 exec unclutter
 
 # Setup wakeup
-exec --no-startup-id sudo /home/cypher/.config/wakeup.sh 2&> /tmp/wakeup_log
+exec --no-startup-id sudo /home/cypher/.config/bin/wakeup 2&> /tmp/wakeup_log
 
 # SCREENSHOTS #
 bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
@@ -280,3 +277,7 @@ bindsym $mod+XF86KbdBrightnessUp exec "sudo keyboard-backlight up 1"
 bindsym $mod+XF86KbdBrightnessDown exec "sudo keyboard-backlight down 1"
 # BORDER #
 new_window pixel 0
+
+# Displays
+exec_always /home/cypher/.config/bin/screens
+

@@ -35,3 +35,16 @@ xfce4
 xviewer
 yelp
 yarn
+bin/intero
+bin/pip
+bin/pip3
+bin/pip3.5
+bin/easy_install
+bin/easy_install-3.5
+bin/hlint
+bin/hoogle
+bin/cabal
+bin/ppsh
+bin/stack
+bin/ghc-mod
+bin/ghc-modi

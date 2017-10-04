@@ -1,0 +1,2 @@
+#!/bin/bash
+google-chrome "play.google.com/music/listen?authuser#/home"

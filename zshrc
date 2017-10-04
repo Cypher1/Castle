@@ -69,6 +69,7 @@ function notify_formatted {
 }
 
 # OVERRIDES
+export PATH="$PATH:$HOME/.config/bin"
 export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 export PATH="$PATH:/usr/local/go/bin"
