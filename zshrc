@@ -69,17 +69,18 @@ function notify_formatted {
 }
 
 # OVERRIDES
-export PATH="$PATH:$HOME/.config/bin"
+export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
+export DERBY_HOME="/home/cypher/.java/db-derby-10.13.1.1-bin/"
+export CLASSPATH="$HOME/.java/jogamp/jar/jogl-all.jar:$HOME/.java/jogamp/jar/gluegen-rt.jar:$HOME/.java/json/java-json.jar:$HOME/.java/db-derby-10.13.1.1-bin/lib/derby.jar:$HOME/.java/db-derby-10.13.1.1-bin/lib/derbytools.jar"
+
+export GOPATH=$(go env GOPATH)
+
 export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
 export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH="$PATH:$HOME/.psvm/current/bin"
-export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
-export DERBY_HOME="/home/cypher/.java/db-derby-10.13.1.1-bin/"
-export CLASSPATH="$HOME/.java/jogamp/jar/jogl-all.jar:$HOME/.java/jogamp/jar/gluegen-rt.jar:$HOME/.java/json/java-json.jar:$HOME/.java/db-derby-10.13.1.1-bin/lib/derby.jar:$HOME/.java/db-derby-10.13.1.1-bin/lib/derbytools.jar"
 export PATH="$PATH:$JAVA_HOME/bin"
-export GOPATH=$(go env GOPATH)
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 eval "$(direnv hook zsh)"
 
