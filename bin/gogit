@@ -1,0 +1,43 @@
+#!/bin/bash
+remotes=$(git remote -v)
+
+reg="s/\([^ \t]*\)[ \t]*\([^ \t]*\)[ \t]*(\(.*\))/"
+
+gotoRemote=${1:-"origin"}
+gotoUse=${2:-"fetch"}
+
+gotoUrl="https://github.com"
+
+IFS=$'\n'
+for remote in $remotes
+do
+  #echo $remote
+  name=$(echo "$remote" | sed "$reg\1/")
+  path=$(echo "$remote" | sed "$reg\2/")
+  use=$(echo "$remote" | sed "$reg\3/")
+
+  echo "NAME: $name. PATH: $path. USE: $use."
+  if [ $name = $gotoRemote ]
+  then
+    if [ $use = $gotoUse ]
+    then
+      gotoUrl=$path
+    fi
+  fi
+done
+
+if [[ $gotoUrl == *"@"* ]]; then
+  regPath="s/\(.*\)@\(.*\):\(.*\)\.git/"
+
+  username=$(echo "$gotoUrl" | sed "$regPath\1/")
+  hostname=$(echo "$gotoUrl" | sed "$regPath\2/")
+  path=$(echo "$gotoUrl" | sed "$regPath\3/")
+
+  echo "USERNAME: $username."
+  echo "HOST: $hostname."
+  echo "PATH: $path."
+  gotoUrl="https://$hostname/$path"
+fi
+
+echo $gotoUrl
+google-chrome $gotoUrl
