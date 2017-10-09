@@ -1,0 +1,13 @@
+#!/bin/bash
+limitfile="/sys/class/thermal/cooling_device4/cur_state"
+max_speed="0"
+min_speed="50"
+
+function set_speed {
+  echo $1 | sudo tee $limitfile > /dev/null
+}
+
+set_speed $max_speed
+echo "Running (in fast mode) $@" > /dev/stderr
+$@
+set_speed $min_speed
