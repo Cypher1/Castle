@@ -5,11 +5,11 @@ max_speed="0"
 min_speed="50"
 
 function finish() {
+  echo "Cleaning up" > /dev/stderr
   set_speed $min_speed
 }
 
 exit_script() {
-    echo "Cleaning up" > /dev/stderr
     finish
     trap - SIGINT SIGTERM # clear the trap
     kill -- -$$ # Sends SIGTERM to child/sub processes
