@@ -53,7 +53,7 @@ floating_modifier $mod
 bindsym $mod+Return exec i3-sensible-terminal
 
 # start a browser
-bindsym $mod+Shift+Return exec google-chrome
+bindsym $mod+Shift+Return exec chromium-browser
 
 
 # kill focused window
