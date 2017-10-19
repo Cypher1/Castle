@@ -1967,38 +1967,323 @@
 : 1508379534:0;exec zsh
 : 1508379536:0;s
 : 1508379550:0;bash
-git status
-git stash zsh_history
-ss
-clear
-which s
-man s
-s
-ss
-clear
-which ss
-man ss
-git status
-clear
-s
-clear
-ls
-clear
-git status
-git stash zsh_history
-git stash
-s
-git status
-p
-git push
-git stash apply
-git add zshrc
-git commit -m "Fixed zshrc error (set zsh vars before load oh my zsh)"
-s
-git status
-git diff zsh_history
-exit
+: 1508379901:0;git status
+: 1508379901:0;git stash zsh_history
+: 1508379901:0;ss
+: 1508379901:0;clear
+: 1508379901:0;which s
+: 1508379901:0;man s
+: 1508379901:0;s
+: 1508379901:0;ss
+: 1508379901:0;clear
+: 1508379901:0;which ss
+: 1508379901:0;man ss
+: 1508379901:0;git status
+: 1508379901:0;clear
+: 1508379901:0;s
+: 1508379901:0;clear
+: 1508379901:0;ls
+: 1508379901:0;clear
+: 1508379901:0;git status
+: 1508379901:0;git stash zsh_history
+: 1508379901:0;git stash
+: 1508379901:0;s
+: 1508379901:0;git status
+: 1508379901:0;p
+: 1508379901:0;git push
+: 1508379901:0;git stash apply
+: 1508379901:0;git add zshrc
+: 1508379901:0;git commit -m "Fixed zshrc error (set zsh vars before load oh my zsh)"
+: 1508379901:0;s
+: 1508379901:0;git status
+: 1508379901:0;git diff zsh_history
+: 1508379901:0;exit
 : 1508379872:0;s
 : 1508379875:0;a zsh_history
 : 1508379875:0;s
 : 1508379885:0;a zsh_history; git commit -m "More history"
+: 1508379886:0;s
+: 1508379888:0;d
+: 1508379892:0;p
+: 1508379901:0;q
+: 1508380062:0;ps -ef | grep chrom
+: 1508380067:0;ps -ef | grep chrome
+: 1508380239:0;clear
+: 1508380240:0;ps -ef | grep chrome
+: 1508380243:0;ps -ef | grep chrom
+: 1508380254:0;sudo apt remove google-chrome-stable
+: 1508380408:0;which chrome
+: 1508380416:0;sudoedit /usr/bin/chrome
+: 1508380426:0;s
+: 1508380435:0;chrome
+: 1508380440:0;sudoedit /usr/bin/chrome
+: 1508380447:0;chrome
+: 1508380449:0;q
+: 1508387574:0;which gvim
+: 1508387578:0;man gvim
+: 1508387584:0;cd /usr/bin/
+: 1508387586:0;vim gvim
+: 1508387589:0;.
+: 1508387590:0;clear
+: 1508387602:0;rm gvim
+: 1508387604:0;sudo rm gvim
+: 1508387621:0;sudo rm gvim*
+: 1508387622:0;s
+: 1508387624:0;clear
+: 1508387634:0;sudo rm rgvim
+: 1508387648:0;sudo rm rgview
+: 1508387653:0;clear
+: 1508387657:0;q
+: 1508394082:0;s
+: 1508394086:0;z COM
+: 1508394087:0;s
+: 1508394091:0;../workspace/COMP3421Ass2
+: 1508394091:0;s
+: 1508394104:0;a src/ass2/spec/CelestialBody.java
+: 1508394105:0;s
+: 1508394111:0;d src/ass2/spec/DrawingUtils.java target/classes/ass2/spec/DrawingUtils.class 
+: 1508394116:0;cd src
+: 1508394118:0;cd ass2
+: 1508394119:0;cd spec
+: 1508394119:0;s
+: 1508394121:0;d DrawingUtils.java
+: 1508394123:0;a DrawingUtils.java
+: 1508394124:0;s
+: 1508394125:0;d Game.java
+: 1508394143:0;a Game.java
+: 1508394143:0;s
+: 1508394144:0;d LevelIO.java
+: 1508394147:0;a LevelIO.java
+: 1508394147:0;s
+: 1508394149:0;d T
+: 1508394151:0;d Terrain.java
+: 1508394164:0;s
+: 1508394165:0;d
+: 1508394170:0;a Terrain.java
+: 1508394170:0;s
+: 1508394182:0;m "Basic lighting for sun and moon working"
+: 1508394197:0;p
+: 1508394206:0;s
+: 1508394209:0;q
+: 1508394615:0;s
+: 1508394616:0;d
+: 1508394622:0;b bug_fixes
+: 1508394626:0;git stash
+: 1508394627:0;s
+: 1508394629:0;b bug_fixes
+: 1508394629:0;s
+: 1508394632:0;git stash apply
+: 1508394633:0;s
+: 1508394635:0;d
+: 1508394637:0;a Game.java
+: 1508394638:0;s
+: 1508394657:0;m "Fix bug where view changes many times while V key is down"
+: 1508394657:0;p
+: 1508395797:0;clear
+: 1508395797:0;s
+: 1508395806:0;b master
+: 1508395807:0;s
+: 1508395809:0;git status
+: 1508395812:0;git fetch
+: 1508395820:0;glog
+: 1508395832:0;git merge sun_lighting 
+: 1508395835:0;git merge bug_fixes 
+: 1508395839:0;s
+: 1508395846:0;git status
+: 1508395857:0;git checkout origin/master 
+: 1508395868:0;git checkout master 
+: 1508395871:0;git reset origin/master 
+: 1508395872:0;s
+: 1508395875:0;git status
+: 1508395876:0;d
+: 1508395886:0;git stash
+: 1508395886:0;s
+: 1508395891:0;clear
+: 1508395891:0;s
+: 1508395895:0;git rm CelestialBody.java
+: 1508395895:0;s
+: 1508395924:0;rm CelestialBody.java
+: 1508395924:0;s
+: 1508395929:0;rm ../../../test
+: 1508395930:0;rm ../../../tests
+: 1508395930:0;s
+: 1508395935:0;b sun_lighting
+: 1508395939:0;b torch
+: 1508395939:0;s
+: 1508395943:0;q
+: 1508409301:0;vim `which play_music`
+: 1508409309:0;q
+: 1508409320:0;vim `which play_music`
+: 1508409325:0;man chrome
+: 1508409331:0;vim `which chrome`
+: 1508409395:0;cd ~/.config
+: 1508409396:0;s
+: 1508409399:0;a bin/play_music
+: 1508409399:0;s
+: 1508409401:0;D
+: 1508409410:0;m "Fix for calling chrome"
+: 1508409411:0;s
+: 1508409413:0;p
+: 1508409420:0;q
+: 1508409427:0;fg
+: 1508409429:0;s
+: 1508409432:0;q
+: 1508410411:0;sudo apt-get install chromium-codecs-ffmpeg-extra chromium-codecs-ffmpeg-nonfree 
+: 1508410465:0;sudo apt-get install chromium-codecs-ffmpeg-extra
+: 1508410636:0;q
+: 1508411458:0;s
+: 1508411460:0;d
+: 1508411462:0;a mimeapps.list
+: 1508411462:0;s
+: 1508411471:0;m "Use chromium"
+: 1508411472:0;s
+: 1508411472:0;p
+: 1508411478:0;z work
+: 1508411480:0;cd COMP3421Ass2
+: 1508411480:0;s
+: 1508411481:0;d
+: 1508411487:0;cd s/a/s
+: 1508411488:0;cd src/ass2/spec
+: 1508411489:0;s
+: 1508411492:0;d Game.java
+: 1508411499:0;a Game.java
+: 1508411500:0;s
+: 1508411503:0;d Player.java
+: 1508411515:0;d Terrain.java
+: 1508411519:0;a Terrain.java
+: 1508411519:0;s
+: 1508411522:0;d Player.java
+: 1508411653:0;d CelestialBody.java
+: 1508411712:0;fg
+: 1508412114:0;s
+: 1508412115:0;d
+: 1508412118:0;d CelestialBody.java
+: 1508412122:0;a CelestialBody.java
+: 1508412123:0;s
+: 1508412126:0;a LightBody.java
+: 1508412127:0;s
+: 1508412129:0;d P
+: 1508412131:0;d Player.java
+: 1508412136:0;a Player.java
+: 1508412136:0;s
+: 1508412145:0;m "Working on fixing the lights"
+: 1508413098:0;s
+: 1508413099:0;d
+: 1508413105:0;a .
+: 1508413106:0;s
+: 1508413113:0;m "Tweaking lighting"
+: 1508413114:0;s
+: 1508413114:0;p
+: 1508413116:0;p -u origin HEAD 
+: 1508413968:0;s
+: 1508413968:0;d
+: 1508413973:0;a .
+: 1508413973:0;s
+: 1508413979:0;m "Crappy torch"
+: 1508413979:0;p
+: 1508413984:0;ga
+: 1508415777:0;s
+: 1508415777:0;d
+: 1508415802:0;s
+: 1508415803:0;d
+: 1508415820:0;s
+: 1508415822:0;a .
+: 1508415822:0;s
+: 1508415838:0;m "Added spotlight (effected by camera position :/)"
+: 1508415839:0;p
+: 1508415846:0;s
+: 1508416201:0;d
+: 1508416205:0;a .
+: 1508416205:0;s
+: 1508416214:0;m "Improved light positions"
+: 1508416215:0;p
+: 1508416225:0;gotgit
+: 1508416227:0;gogit
+: 1508416233:0;which gogit
+: 1508416237:0;sensible-browser
+: 1508416247:0;vim `which gogit`
+: 1508416261:0;s
+: 1508416264:0;gogit
+: 1508417084:0;s
+: 1508417089:0;b road_fix
+: 1508417099:0;git fetch
+: 1508417109:0;git merge master
+: 1508417111:0;s
+: 1508417365:0;ls ../../../tests
+: 1508417566:0;s
+: 1508417566:0;d
+: 1508417572:0;s
+: 1508417573:0;d
+: 1508417604:0;s
+: 1508417604:0;d
+: 1508417606:0;a .
+: 1508417611:0;m "Make the road flat"
+: 1508417612:0;p
+: 1508417614:0;p -u origin HEAD 
+: 1508417620:0;s
+: 1508417907:0;git fetch
+: 1508417918:0;b master
+: 1508417919:0;git pull
+: 1508417922:0;s
+: 1508417930:0;b road_fix
+: 1508417931:0;s
+: 1508417932:0;git pull
+: 1508417936:0;git merge master 
+: 1508417938:0;s
+: 1508417940:0;vim Road.java
+: 1508417954:0;s
+: 1508417956:0;vim Road.java
+: 1508417960:0;s
+: 1508417964:0;a Road.java
+: 1508417964:0;s
+: 1508417966:0;git merge
+: 1508417972:0;m "Merge"
+: 1508417972:0;s
+: 1508417974:0;p
+: 1508418304:0;d
+: 1508418312:0;s
+: 1508418313:0;d
+: 1508418319:0;s
+: 1508418319:0;d
+: 1508418350:0;m "Make sure that the road can be sloped as well"
+: 1508418351:0;a .
+: 1508418352:0;m "Make sure that the road can be sloped as well"
+: 1508418353:0;p
+: 1508418364:0;b master
+: 1508418370:0;git branch -D bug_fixes road_fix 
+: 1508418406:0;git branch -D sun_lighting origin/altidude origin/drawTerrain origin/lighting_and_trees  origin/roads origin/spec_arrow_keys  origin/sun_movement origin/tests  origin/torch 
+: 1508418408:0;clear
+: 1508418408:0;s
+: 1508418416:0;git branch -D torch 
+: 1508418419:0;s
+: 1508418421:0;git fetch
+: 1508419046:0;git pull
+: 1508419047:0;s
+: 1508419078:0;git pull
+: 1508449002:0;ping google.com
+: 1508449004:0;q
+: 1508449137:0;sudo apt list --upgradeable
+: 1508449142:0;q
+: 1508449178:0;inxi -Fxz
+: 1508449202:0;q
+: 1508449256:0;sudo apt install linux-kernel-generic
+: 1508449261:0;qs
+: 1508449262:0;q
+: 1508449299:0;sudo apt-get remove --purge bcmwl-kernel-source && sudo apt-get install linux-firmware-nonfree
+: 1508449320:0;vim ~/.config/i3/wifi.py
+: 1508449326:0;cd ~/.config
+: 1508449326:0;ls
+: 1508449331:0;vim bin/wakeup
+: 1508449339:0;.
+: 1508449343:0;cd i3
+: 1508449344:0;ls
+: 1508449351:0;vim i3exit.sh
+: 1508449358:0;.
+: 1508449358:0;s
+: 1508449361:0;d
+: 1508449367:0;a ../bin/gogit
+: 1508449373:0;m "Use a sensible browser"
+: 1508449373:0;p
+: 1508449380:0;s
+: 1508449383:0;d
+: 1508449400:0;a ../zsh_history
