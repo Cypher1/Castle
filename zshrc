@@ -57,6 +57,21 @@ plugins=(
     cabal
     bower
   )
+
+
+# HISTORY
+export HISTSIZE=1000000                # set history size
+export SAVEHIST=1000000                # save history after logout
+export HISTFILE=~/.config/zsh_history  # history file
+export HISTIGNORE="(fg|bg)"
+# append into history file
+setopt INC_APPEND_HISTORY
+# save only one command if 2 common are same and consistent
+setopt HIST_IGNORE_DUPS
+# turn off history expansion using !
+setopt no_bang_hist
+export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+
 source $ZSH/oh-my-zsh.sh
 export KEYTIMEOUT=1
 
@@ -163,16 +178,6 @@ function lamb () {
     hoogle generate;
     hoogle "$@" | ccat;
 }
-
-# HISTORY
-export HISTSIZE=1000000                # set history size
-export SAVEHIST=1000000                # save history after logout
-export HISTFILE=~/.config/zsh_history  # history file
-export HISTIGNORE="(fg|bg)"
-setopt INC_APPEND_HISTORY              # append into history file
-setopt HIST_IGNORE_DUPS                # save only one command if 2 common are same and consistent
-setopt no_bang_hist # turn off history expansion using !
-export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 
 # GIT COMMANDS
 function gitbranchcheck { # FUNCTION TO CHECKOUT OR CREATE A BRANCH
