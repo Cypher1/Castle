@@ -42,6 +42,7 @@ cabal.project.local
 *.war
 *.ear
 .env
+.envrc
 .vscode
 *.ini
 /node_modules/*
