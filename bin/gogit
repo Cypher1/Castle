@@ -40,4 +40,4 @@ if [[ $gotoUrl == *"@"* ]]; then
 fi
 
 echo $gotoUrl
-google-chrome $gotoUrl
+sensible-browser $gotoUrl
