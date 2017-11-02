@@ -48,3 +48,4 @@ bin/ppsh
 bin/stack
 bin/ghc-mod
 bin/ghc-modi
+zsh_history
