@@ -17,6 +17,7 @@ Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'tpope/vim-fugitive'               " GIT
+Plug 'tpope/vim-repeat'                 " Repetitions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'alvan/vim-closetag'               " Close html tags
 Plug 'google/vim-searchindex'           " Count search solutions
@@ -211,7 +212,7 @@ let g:filetype_pl="prolog"
 let g:rappel#run_key    = '<leader>p'
 let g:rappel#repl_key   = '<leader>P'
 let g:rappel#launch_key = '<leader>c'
-let g:rappel#launch="google-chrome \"%\""
+let g:rappel#launch="sensible-browser \"%\""
 
 let g:rappel#custom_repls={
 \ 'arduino': {
