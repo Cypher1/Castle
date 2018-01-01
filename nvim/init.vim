@@ -16,7 +16,7 @@ Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
-Plug 'tpope/vim-fugitive'               " GIT
+" Plug 'tpope/vim-fugitive'               " GIT
 Plug 'tpope/vim-repeat'                 " Repetitions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'alvan/vim-closetag'               " Close html tags
@@ -30,7 +30,7 @@ Plug 'baverman/vial-http'               " Make REST queries from vim
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
-Plug 'lervag/vimtex'                    " Latex
+Plug 'lervag/vimtex'                    " Latex {'for': 'tex'}
 Plug 'eagletmt/neco-ghc'                " Haskell autofill etc
 Plug 'artur-shaik/vim-javacomplete2'    " Complete for java
 Plug 'fatih/vim-go'                     " Go
@@ -51,6 +51,10 @@ highlight SignifySignModify ctermbg=8
 highlight SignifySignDelete ctermbg=8
 highlight SignifySignChangeDelete ctermbg=8
 highlight NeomakeError cterm=underline ctermfg=2 ctermbg=9 gui=undercurl guisp=Red
+
+" let g:polyglot_disabled = ['latex']
+let g:vimtex_latexmk_options="-pdf -pdflatex='pdflatex -file-line-error -shell-escape -synctex=1'"
+let g:vimtex_quickfix_mode = 2
 
 let $COLORTERM = "gnome-terminal"
 " highlight OverLength ctermbg=red ctermfg=white guibg=#592929

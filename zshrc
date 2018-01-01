@@ -245,6 +245,8 @@ alias hl="heroku logs -t"
 alias hb="heroku run bash"
 
 alias open="xdg-open"
+alias accio="apt install"
+alias avada_kedavra="pkill -9"
 
 # SSH via zshrc
 alias mosh="mosh -6"
