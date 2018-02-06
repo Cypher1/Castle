@@ -18,7 +18,7 @@ BULLETTRAIN_PROMPT_ORDER=(
     dir
     virtualenv
     go
-    elixir
+    #elixir
     git
     hg
     status

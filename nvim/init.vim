@@ -34,6 +34,8 @@ Plug 'lervag/vimtex'                    " Latex {'for': 'tex'}
 Plug 'eagletmt/neco-ghc'                " Haskell autofill etc
 Plug 'artur-shaik/vim-javacomplete2'    " Complete for java
 Plug 'fatih/vim-go'                     " Go
+Plug 'reasonml-editor/vim-reason-plus'  " ReasonML (for ReasonReact)
+Plug 'dleonard0/pony-vim-syntax'        " Pony!
 call plug#end()
 
 " }}}
@@ -130,6 +132,7 @@ nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
 nmap <silent> <leader>w :w<CR>:Neomake<CR>
+nmap <leader>u :MundoToggle<CR>
 " }}}
 " Control P {{{
 " Setup some default ignores
@@ -185,6 +188,12 @@ let g:neomake_javascript_enabled_makers = ['eslint']
     \ 'errorformat': '%E%f: line %l\, col %c\, Error - %m,' .
     \ '%W%f: line %l\, col %c\, Warning - %m'
     \ }
+
+let g:LanguageClient_serverCommands = {
+    \ 'reason': ['ocaml-language-server', '--stdio'],
+    \ 'ocaml': ['ocaml-language-server', '--stdio'],
+    \ }
+
 let g:neomake_open_list = 2
 " }}}
 " Autocommands {{{
