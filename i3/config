@@ -30,8 +30,8 @@ set $workspace4 "4"
 set $workspace5 "5"
 set $workspace6 "6"
 set $workspace7 "7"
-set $workspace8 "8:"
-set $workspace9 "9:🎮"
+set $workspace8 "8"
+set $workspace9 "9:"
 set $workspace10 "10:"
 
 # COLOURS #
@@ -44,13 +44,14 @@ set $color_border #555555
 
 set $i3home ~/.config/i3/
 
-font pango:Hack 4, FontAwesome 4
+# font FontAwesome 12
+font pango:Hack 12, FontAwesome 12
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec i3-sensible-terminal
+bindsym $mod+Return exec gnome-terminal
 
 # start a browser
 bindsym $mod+Shift+Return exec chromium-browser

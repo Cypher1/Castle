@@ -1,6 +1,7 @@
 DEFAULT_USER="cypher"
 HOME="`cd;pwd`"
 export ZSH="$HOME/.oh-my-zsh"
+export TERM="vt100"
 
 ZSH_THEME="bullet-train"
 BULLETTRAIN_VIRTUALENV_FG=black
@@ -40,6 +41,7 @@ plugins=(
     python
     jsontools
     pip
+    nix-shell
     systemadmin
     zsh-autosuggestions
     zsh-completions
@@ -112,10 +114,10 @@ alias cp="cp -r"
 alias rm="rm -r"
 alias grep="egrep"
 alias crap="egrep --color=always"
-VISUAL="/usr/bin/nvim"
-EDITOR="/usr/bin/nvim"
-alias vi="nvim -O"
-alias vim="nvim "
+EDITOR="/home/cypher/.nix-profile/bin/nvim"
+VISUAL="$EDITOR"
+alias vi="$EDITOR -O"
+alias vim="$EDITOR "
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias ghc="ghc -Wall"
 alias g++="g++ -std=c++14 -Wall -Werror"
@@ -123,14 +125,15 @@ alias g++="g++ -std=c++14 -Wall -Werror"
 
 # ADDITIONS
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
-alias zrc="nvim ~/.zshrc"
-alias vrc="nvim ~/.config/nvim/init.vim"
-alias 3rc="nvim ~/.config/i3/config"
-alias 3src="nvim ~/.config/i3/i3status.conf"
+alias zrc="$EDITOR ~/.zshrc"
+alias nrc="sudo $EDITOR /etc/nixos/configuration.nix"
+alias vrc="$EDITOR ~/.config/nvim/init.vim"
+alias 3rc="$EDITOR ~/.config/i3/config"
+alias 3src="$EDITOR ~/.config/i3/i3status.conf"
 alias .="r && cd . && ls"
 alias ..="r && cd .. && ls"
 alias r="/usr/bin/clear"
-alias v="nvim"
+alias v="$EDITOR"
 alias t="time"
 alias q="exit"
 alias u="du -hs *"
