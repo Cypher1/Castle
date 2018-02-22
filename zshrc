@@ -132,7 +132,7 @@ alias 3rc="$EDITOR ~/.config/i3/config"
 alias 3src="$EDITOR ~/.config/i3/i3status.conf"
 alias .="r && cd . && ls"
 alias ..="r && cd .. && ls"
-alias r="/usr/bin/clear"
+alias r="clear"
 alias v="$EDITOR"
 alias t="time"
 alias q="exit"
@@ -149,13 +149,13 @@ function clean {
     rm *.hi;
     rm *.gch;
     rm nohup.out;
-    /usr/bin/clear;
+    clear;
 }
 
 function watch {
     sleeptime="${2:-2}"
     while true; do
-        /usr/bin/clear
+        clear
         echo -n `date`
         echo " Running \`$1\` every $sleeptime seconds"
         sh -c "$1"
@@ -229,7 +229,7 @@ function swap {
   mv $tmp $2
 }
 alias -s git='git clone'
-alias s="/usr/bin/clear; git status -sb 2> /dev/null && echo '-------'; ls"
+alias s="clear; git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"

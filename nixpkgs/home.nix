@@ -13,6 +13,7 @@
     '';
     file.".zshrc".source = ~/.config/zshrc;
     file.".gitconfig".source = ~/.config/gitconfig;
+    file.".profile".source = ~/.config/profile;
   };
 
   programs.home-manager = {
