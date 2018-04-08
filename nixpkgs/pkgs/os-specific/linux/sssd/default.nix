@@ -2,7 +2,7 @@
   cyrus_sasl, ding-libs, libnl, libunistring, nss, samba, libnfsidmap, doxygen,
   python, python3, pam, popt, talloc, tdb, tevent, pkgconfig, ldb, openldap,
   pcre, kerberos, cifs_utils, glib, keyutils, dbus, fakeroot, libxslt, libxml2,
-  docbook_xml_xslt, ldap, systemd, nspr, check, cmocka, uid_wrapper,
+  libuuid, docbook_xml_xslt, ldap, systemd, nspr, check, cmocka, uid_wrapper,
   nss_wrapper, docbook_xml_dtd_44, ncurses, Po4a, http-parser, jansson
   , withSudo ? false }:
 
@@ -11,11 +11,11 @@ let
 in
 stdenv.mkDerivation rec {
   name = "sssd-${version}";
-  version = "1.16.0";
+  version = "1.16.1";
 
   src = fetchurl {
     url = "https://fedorahosted.org/released/sssd/${name}.tar.gz";
-    sha256 = "03wllgbxxz2zv14dcqr8d2xssppi7ibckh0rlky8gvsw6vjsd0f5";
+    sha256 = "0vjh1c5960wh86zjsamdjhljls7bb5fz5jpcazgzrpmga5w6ggrd";
   };
 
   # Something is looking for <libxml/foo.h> instead of <libxml2/libxml/foo.h>

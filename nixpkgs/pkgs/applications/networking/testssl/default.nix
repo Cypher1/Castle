@@ -1,7 +1,7 @@
 { stdenv, fetchFromGitHub, pkgs }:
 
 let
-  version = "2.9.5-1";
+  version = "2.9.5-3";
   pwdBinPath = "${stdenv.lib.makeBinPath (with pkgs; [ coreutils ])}/pwd";
   opensslBinPath = "${stdenv.lib.makeBinPath (with pkgs; [ openssl ])}/openssl";
 
@@ -12,12 +12,8 @@ in stdenv.mkDerivation rec {
     owner = "drwetter";
     repo = "testssl.sh";
     rev = "v${version}";
-    sha256 = "0hz6g685jwl0c0jrdca746425xpwiwc8lnlc2gigga5hkcq8qzl9";
+    sha256 = "07vlmf3gn2xa4wam2sql6c1s1hvj5adzd6l1fl12lq066v0k7r7n";
   };
-
-  nativeBuildInputs = with pkgs; [
-    makeWrapper
-  ];
 
   patches = [ ./testssl.patch ];
 

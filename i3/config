@@ -3,7 +3,7 @@
 # EXECUTE #
 # Set up KEYS
 exec --no-startup-id google-drive-ocamlfuse ~/Drive || true &
-exec bash ~/.config/Keys
+exec_always bash ~/.config/Keys
 
 # num lock activated
 exec_always --no-startup-id numlockx on

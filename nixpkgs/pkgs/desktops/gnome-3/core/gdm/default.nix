@@ -1,10 +1,20 @@
 { stdenv, fetchurl, pkgconfig, glib, itstool, libxml2, xorg, dbus
 , intltool, accountsservice, libX11, gnome3, systemd, autoreconfHook
-, gtk, libcanberra_gtk3, pam, libtool, gobjectIntrospection, plymouth
+, gtk, libcanberra-gtk3, pam, libtool, gobjectIntrospection, plymouth
 , librsvg, coreutils }:
 
 stdenv.mkDerivation rec {
-  inherit (import ./src.nix fetchurl) name src;
+  name = "gdm-${version}";
+  version = "3.28.0";
+
+  src = fetchurl {
+    url = "mirror://gnome/sources/gdm/${gnome3.versionBranch version}/${name}.tar.xz";
+    sha256 = "0i5rzr6fdvlm88gl85gvql1wf1yflkmg90x81dqjf39as3ixs81s";
+  };
+
+  passthru = {
+    updateScript = gnome3.updateScript { packageName = "gdm"; attrPath = "gnome3.gdm"; };
+  };
 
   # Only needed to make it build
   preConfigure = ''
@@ -25,7 +35,7 @@ stdenv.mkDerivation rec {
   nativeBuildInputs = [ pkgconfig libxml2 itstool intltool autoreconfHook libtool gnome3.dconf ];
   buildInputs = [ glib accountsservice systemd
                   gobjectIntrospection libX11 gtk
-                  libcanberra_gtk3 pam plymouth librsvg ];
+                  libcanberra-gtk3 pam plymouth librsvg ];
 
   enableParallelBuilding = true;
 

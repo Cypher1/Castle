@@ -1,15 +1,15 @@
 { stdenv, buildPackages, hostPlatform, fetchFromGitHub, perl, buildLinux, libelf, utillinux, ... } @ args:
 
 buildLinux (args // rec {
-  version = "4.16-rc1";
-  modDirVersion = "4.16.0-rc1";
+  version = "4.16-rc6";
+  modDirVersion = "4.16.0-rc6";
   extraMeta.branch = "4.16";
 
   src = fetchFromGitHub {
-    owner = "riscv";
+    owner = "shlevy";
     repo ="riscv-linux";
-    rev = "a31991a9c6ce2c86fd676cf458a0ec10edc20d37";
-    sha256 = "0n97wfbi3pnp5c70xfj7s0fk8zjjkjz6ldxh7n54kbf64l4in01f";
+    rev = "a54f259c2adce68e3bd7600be8989bf1ddf9ea3a";
+    sha256 = "140w6mj4hm1vf4zsmcr2w5cghcaalbvw5d4m9z57dmq1z5plsl4q";
   };
 
   # Should the testing kernels ever be built on Hydra?

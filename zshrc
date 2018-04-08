@@ -41,7 +41,7 @@ plugins=(
     python
     jsontools
     pip
-    nix-shell
+    zsh-nix-shell
     systemadmin
     zsh-autosuggestions
     zsh-completions

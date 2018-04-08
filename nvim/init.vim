@@ -1,17 +1,15 @@
 " Plugin {{{
 call plug#begin('~/.local/share/nvim/plugged') " Plugins go here
-" Style
-Plug 'altercation/vim-colors-solarized' " Colours!
-Plug 'vim-airline/vim-airline'          " Airline gui
-Plug 'vim-airline/vim-airline-themes'
+Plug 'sjl/badwolf'
 " Tweaks
 Plug 'tpope/vim-eunuch'                 " Unix built in
 Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
 Plug 'ConradIrwin/vim-bracketed-paste'  " Fix paste
-Plug 'romainl/vim-qf'                   " Fix quick fix
+" Plug 'romainl/vim-qf'                   " Fix quick fix
 " Tools
+Plug 'junegunn/fzf.vim'                 " FZF
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'mhinz/vim-signify'                " Sign column diffs
@@ -26,6 +24,7 @@ Plug 'kassio/neoterm'                   " Repls and terminal improvements
 Plug 'tpope/vim-surround'               " Braces etc.
 Plug 'tpope/vim-commentary'             " Comments
 Plug 'baverman/vial-http'               " Make REST queries from vim
+Plug 'raghur/vim-ghost', {'do': ':GhostInstall'}
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
@@ -42,17 +41,9 @@ call plug#end()
 " Colour Scheme {{{
 syntax enable
 set background=dark
-colorscheme solarized
+colorscheme badwolf
+let g:badwolf_tabline = 0
 highlight Comment ctermfg=DarkMagenta
-highlight SignColumn ctermbg=8
-highlight LineNr ctermbg=8
-highlight LineNr ctermbg=8
-highlight Folded ctermbg=8
-highlight SignifySignAdd ctermbg=8
-highlight SignifySignModify ctermbg=8
-highlight SignifySignDelete ctermbg=8
-highlight SignifySignChangeDelete ctermbg=8
-highlight NeomakeError cterm=underline ctermfg=2 ctermbg=9 gui=undercurl guisp=Red
 
 " let g:polyglot_disabled = ['latex']
 let g:vimtex_latexmk_options="-pdf -pdflatex='pdflatex -file-line-error -shell-escape -synctex=1'"
@@ -156,14 +147,10 @@ nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 nmap j gj
 nmap k gk
 "<A-j>
-nnoremap ∆ :m .+1<CR>==
 nnoremap <A-j> :m .+1<CR>==
-inoremap ∆ <Esc>:m .+1<CR>==gi
 inoremap <A-j> <Esc>:m .+1<CR>==gi
 "<A-k>
-nnoremap ˚ :m .-2<CR>==
 nnoremap <A-k> :m .-2<CR>==
-inoremap ˚ <Esc>:m .-2<CR>==gi
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 set nostartofline
 " }}}
@@ -189,30 +176,16 @@ let g:neomake_javascript_enabled_makers = ['eslint']
     \ '%W%f: line %l\, col %c\, Warning - %m'
     \ }
 
-let g:LanguageClient_serverCommands = {
-    \ 'reason': ['ocaml-language-server', '--stdio'],
-    \ 'ocaml': ['ocaml-language-server', '--stdio'],
-    \ }
-
 let g:neomake_open_list = 2
 " }}}
 " Autocommands {{{
 let g:rooter_change_directory_for_non_project_files = 'current'
 
-function! SetupJava()
-  " let l:path=system("echo -n \"$CLASSPATH:$(git rev-parse --show-toplevel)\"")
-  let l:path=system("echo -n \"$CLASSPATH:$(pwd)\"")
-  echom l:path
-  let g:neomake_java_javac_args = ['-cp', l:path.'/src/']
-endfunction
-
 augroup vim
   autocmd!
   au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
   au Filetype qf set nobuflisted
-  au Filetype java setlocal omnifunc=javacomplete#Complete
-  au Filetype java call SetupJava()
-  au BufWritePost $MYVIMRC source $MYVIMRC|set fdm=marker
+  au BufWritePost $MYVIMRC source $MYVIMRC
   au Filetype html iabbrev </ </<C-X><C-O>
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
@@ -232,14 +205,11 @@ let g:rappel#custom_repls={
 \   'launch': 'processing-java --sketch=`pwd` --present',
 \   'run': 'processing-java --sketch=`pwd` --present'
 \ },
-\}
-let g:rappel#custom_repls={
 \ 'java': {
 \   'launch': 'ant main',
 \   'run': 'ant main'
 \ },
 \}
-let g:JavaComplete_SourcesPath='/home/cypher/.java/jogamp/src/'
 " }}}
 " i3 integration {{{
 function! RegisterNvimI3Connection()
