@@ -3,18 +3,19 @@
 echo "Fix ~"
 xmodmap -e "keycode 94 = grave asciitilde"
 
-echo "Caplock => ESC"
-xmodmap -e "remove Lock = Caps_Lock"
-xmodmap -e "keycode 9 = Escape NoSymbol Escape"
-xmodmap -e "keycode 66 = Escape NoSymbol Escape"
-
-# echo "Swap Control <=> Command_L"
-# xmodmap -e "remove Control = Control_L"
-# xmodmap -e "remove mod4 = Super_L"
-# xmodmap -e "add control = Super_L"
-
+echo "Caps => Control"
+setxkbmap -option 'caps:ctrl_modifier'
 echo "Short press Caps is ESC"
-xcape -e 'Control_L=Escape'
+xcape -e 'Caps_Lock=Escape'
+
+xmodmap -e "remove Lock = Caps_Lock"
+# xmodmap -e "keycode 9 = Escape NoSymbol Escape"
+# xmodmap -e "keycode 66 = Escape NoSymbol Escape"
+
+echo "Swap Control <=> Command_L"
+xmodmap -e "remove Control = Control_L"
+xmodmap -e "remove mod4 = Super_L"
+xmodmap -e "add control = Super_L"
 
 echo "Set up touchpad"
 synclient FingerHigh=80 PalmDetect=1 TapButton1=1 TapButton2=2 TapButton3=3 TapAndDragGesture=0
