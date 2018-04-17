@@ -96,7 +96,7 @@ export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 export PATH="$PATH:/usr/local/go/bin"
 export PATH="$PATH:$(go env GOPATH)/bin"
 export PATH="$PATH:$HOME/.psvm/current/bin"
-export PATH="$PATH:$JAVA_HOME/bin"
+export PATH="$PATH:$HOME/.config/bin"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 
 export GOPATH=$(go env GOPATH)
@@ -255,7 +255,3 @@ alias avada_kedavra="pkill -9"
 alias mosh="mosh -6"
 alias cse="ssh z5017666@cse.unsw.edu.au -X"
 alias cse_cp="scp * z5017666@cse.unsw.edu.au:./"
-
-function wifi20 {
-  sudo tcpdump -i eth0 -tnn dst port 80 -c 1000 | awk -F"." '{print $1"."$2"."$3"."$4}' | sort | uniq -c | sort -nr | head -20
-}

@@ -23,3 +23,4 @@
   dad = !curl https://icanhazdadjoke.com/ && echo \"\" && git add
   authors = "!git ls-files | while read f; do git blame --line-porcelain $f | grep \"^author \" | sed \"s/author //\"; done | sort -f | uniq -ic | sort -n"
   exec = "!exec "
+  wdiff = "diff --color-words"

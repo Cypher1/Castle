@@ -159,6 +159,8 @@ let g:necoghc_enable_detailed_browse = 1
 let g:necoghc_use_stack = 1
 " }}}
 " NeoMake {{{
+let g:neomake_haskell_hlint_exe = '/home/cypher/.nix-profile/bin/hlint'
+
 let g:neomake_rust_enabled_makers = ['cargo']
 let g:neomake_haskell_enabled_makers = ['hlint', 'ghcmod']
 let g:neomake_cpp_enabled_makers = ['gcc', 'cppcheck']
