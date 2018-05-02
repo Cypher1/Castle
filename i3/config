@@ -174,7 +174,7 @@ bindsym $mod+Shift+grave move container to workspace back_and_forth
 
 # BAR #
 bar {
-    status_command nix-shell -p python35Packages.pytz python35Packages.tzlocal python35Packages.i3ipc --run "py3status -b -c $i3home/i3status.conf"
+    status_command nix-shell -p python35Packages.pytz python35Packages.tzlocal python35Packages.i3ipc alsaUtils --run "py3status -b -c $i3home/i3status.conf"
     strip_workspace_numbers yes
     tray_output primary
     position top
