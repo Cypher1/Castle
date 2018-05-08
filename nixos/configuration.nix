@@ -78,12 +78,12 @@ imports =
 
     environment.systemPackages = with pkgs; [
       fzf
-      ripgrep
       gnome3.dconf
       wget
       unetbootin
       chromium
-      #google-chrome
+      neovim
+      git
       htop
       mosh
       tree
