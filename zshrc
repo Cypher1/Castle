@@ -41,7 +41,6 @@ plugins=(
     python
     jsontools
     pip
-    nix-shell
     systemadmin
     zsh-autosuggestions
     zsh-completions
@@ -125,7 +124,7 @@ alias g++="g++ -std=c++14 -Wall -Werror"
 
 # ADDITIONS
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
-alias zrc="$EDITOR ~/.zshrc"
+alias zrc="$EDITOR ~/.config/zshrc"
 alias nrc="sudo $EDITOR /etc/nixos/configuration.nix"
 alias vrc="$EDITOR ~/.config/nvim/init.vim"
 alias 3rc="$EDITOR ~/.config/i3/config"
@@ -250,6 +249,9 @@ alias hb="heroku run bash"
 alias open="xdg-open"
 alias accio="apt install"
 alias avada_kedavra="pkill -9"
+
+alias nix-zsh="nix-shell --command zsh"
+alias nix-env-search="cacher 36000 'nix-env -qaP' |grep -i"
 
 # SSH via zshrc
 alias mosh="mosh -6"
