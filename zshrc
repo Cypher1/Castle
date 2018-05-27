@@ -19,7 +19,6 @@ BULLETTRAIN_PROMPT_ORDER=(
     dir
     virtualenv
     go
-    #elixir
     git
     hg
     status
@@ -37,7 +36,7 @@ plugins=(
     gitfast
     web-search
     mosh
-    stack # should PR with completions for exec etc.
+    # stack # should PR with completions for exec etc.
     python
     jsontools
     pip
@@ -85,26 +84,12 @@ function notify_formatted {
 }
 
 # OVERRIDES
-export JAVA_HOME="/usr/lib/jvm/java-8-oracle/"
-export DERBY_HOME="/home/cypher/.java/db-derby-10.13.1.1-bin/"
-export CLASSPATH="$HOME/.java/jogamp/jar/jogl-all.jar:$HOME/.java/jogamp/jar/gluegen-rt.jar:$HOME/.java/json/java-json.jar:$HOME/.java/db-derby-10.13.1.1-bin/lib/derby.jar:$HOME/.java/db-derby-10.13.1.1-bin/lib/derbytools.jar"
-
-
 export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/"
-export PATH="$PATH:/Applications/Postgres.app/Contents/Versions/latest/bin"
 export PATH="$PATH:/usr/local/go/bin"
-export PATH="$PATH:$(go env GOPATH)/bin"
-export PATH="$PATH:$HOME/.psvm/current/bin"
 export PATH="$PATH:$HOME/.config/bin"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 
-export GOPATH=$(go env GOPATH)
 eval "$(direnv hook zsh)"
-
-
-function java_run() {
-  java -cp "$1:$CLASSPATH" `echo "$1" | sed "s/\.jar$//"`/$2
-}
 
 # CHANGING DEFAULTS
 alias reboot="sudo reboot"
@@ -115,12 +100,12 @@ alias grep="egrep"
 alias crap="egrep --color=always"
 EDITOR="/home/cypher/.nix-profile/bin/nvim"
 VISUAL="$EDITOR"
+alias v="$EDITOR"
 alias vi="$EDITOR -O"
 alias vim="$EDITOR "
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias ghc="ghc -Wall"
 alias g++="g++ -std=c++14 -Wall -Werror"
-# alias cat="ccat"
 
 # ADDITIONS
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
@@ -132,24 +117,11 @@ alias 3src="$EDITOR ~/.config/i3/i3status.conf"
 alias .="r && cd . && ls"
 alias ..="r && cd .. && ls"
 alias r="clear"
-alias v="$EDITOR"
 alias t="time"
 alias q="exit"
 alias u="du -hs *"
-alias server="python -m SimpleHTTPServer"
-alias jp='processing-java --sketch=`pwd` --present'
-alias prolog="swipl -s"
 
 function mk { mkdir $1; cd $1; }
-function clean {
-    rm *.pyc;
-    rm *.o;
-    rm *.class;
-    rm *.hi;
-    rm *.gch;
-    rm nohup.out;
-    clear;
-}
 
 function watch {
     sleeptime="${2:-2}"
@@ -172,6 +144,10 @@ function confirm {
     return 1;
 }
 
+autoload -U +X compinit && compinit
+autoload -U +X bashcompinit && bashcompinit
+eval "$(stack --bash-completion-script stack)"
+
 function lamb () {
     if command -v "hoogle" > /dev/null 2>&1; then
     else
@@ -182,18 +158,6 @@ function lamb () {
 }
 
 # GIT COMMANDS
-function gitbranchcheck { # FUNCTION TO CHECKOUT OR CREATE A BRANCH
-    git checkout $1 || (git branch $1; git checkout $1);
-}
-function _gitbranchcheck { # AUTO COMPLETE BRANCHES
-    reply=($(git branch --no-color | grep -o '[^ ]*$'))
-}
-compctl -K _gitbranchcheck gitbranchcheck
-function realpath {
-  file="$1"
-  dir="$(dirname "$file")"
-  echo "$(cd "$dir"; pwd)/$(basename "$file")"
-}
 function gitignore {
   top="$(git rev-parse --show-toplevel)"
   ignore="$top/.gitignore"
@@ -236,24 +200,16 @@ alias P="git pull --ff-only"
 alias gc="git rebase --continue"
 alias d="git diff"
 alias D="git diff --staged"
-alias b="gitbranchcheck"
 alias g="git log --graph"
 alias gi="gitignore"
 alias gidd="gitdedup"
-alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sed 's/author //' | sed 's/cypher/Joshua Pratt/' | sed 's/kat333/Katherine Perdikis/'; done | sort -f | uniq -ic | sort -n"
+alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sort -f | uniq -ic | sort -n"
 
 alias ho="heroku open"
 alias hl="heroku logs -t"
 alias hb="heroku run bash"
 
 alias open="xdg-open"
-alias accio="apt install"
-alias avada_kedavra="pkill -9"
 
 alias nix-zsh="nix-shell --command zsh"
 alias nix-env-search="cacher 36000 'nix-env -qaP' |grep -i"
-
-# SSH via zshrc
-alias mosh="mosh -6"
-alias cse="ssh z5017666@cse.unsw.edu.au -X"
-alias cse_cp="scp * z5017666@cse.unsw.edu.au:./"
