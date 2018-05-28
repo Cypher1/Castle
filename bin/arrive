@@ -1,33 +1,30 @@
 #!/bin/bash
 
-CONFIG_PATH="~/.config/"
+CONFIG_PATH="$(cd;pwd)/.config"
 
 LINKED_FILES=(
   pylintrc
   zshrc
+  gitconfig
 )
 
 PROGRAMS=(
   zsh
   vim
   neovim
-  haskell-platform
+  hlint
+  ghcmod
   git
   gcc
-  ghc
   g++
-  golang
   direnv
-  python
-  python-pip
   python3
   python3-pip
-  python-dev
   nodejs
   npm
-  ipython
-  swi-prolog
   mosh
+  wget
+  swi-prolog
 )
 
 PYTHON_PACKS=(
@@ -38,8 +35,8 @@ PYTHON_PACKS=(
   pandas
   scikit-learn
   tensorflow
-  tensorflow-gpu
-  jupyter
+  #tensorflow-gpu
+  #jupyter
   https://github.com/joh/when-changed/archive/master.zip
 )
 
