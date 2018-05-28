@@ -56,44 +56,50 @@ NPM_PACKS=(
 )
 
 
-# Add apt-repos
-# sudo add-apt-repository ppa:neovim-ppa/stable
-
 # start at home
-cd
 echo "Linking Dot-files"
 for FILE in "${LINKED_FILES[@]}"
 do
-    ln -s "$CONFIG_PATH$FILE" ".$FILE"
+    mv ".$FILE" "old_$FILE"
+    ln $(echo "$CONFIG_PATH/$FILE") $(echo "$(cd; pwd)/.$FILE")
 done
 
 if hash brew 2>/dev/null; then
   echo "Installing Software"
-  brew cask install --appdir="/Applications" ${PROGRAMS[@]}
+  brew install --appdir="/Applications" ${PROGRAMS[*]}
+  echo "Installing mac specific programs"
+  brew cask install homebrew/cask/alfred
 else
   echo "Updating Apt"
   sudo apt-get update
   echo "Installing Software"
-  sudo apt-get -f install ${PROGRAMS[@]}
+  sudo apt-get -f install ${PROGRAMS[*]}
 fi
+
+# install oh-my-zsh
+sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
+
+ln ~/.config/bullet-train.zsh-theme ~/.oh-my-zsh/custom/bullet-train.zsh-theme
+
+# Install plug
+curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+
+nvim +PlugInstall
 
 echo "Installing Python Libraries"
 pip install --upgrade pip
 pip install ${PYTHON_PACKS[@]}
 
-#echo "Installing Haskell Packages"
-#cabal update
-#cabal install ${HASKELL_PACKS[@]}
-
 #Install stack
 curl -sSL https://get.haskellstack.org/ | sh
 
+echo "Installing Haskell Packages"
+stack install ${HASKELL_PACKS[@]}
 
 echo "Install NPM Packages"
 npm update
 npm install ${NPM_PACKS[@]} -g
-
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
 
 echo "Starting zsh"
 zsh
