@@ -6,35 +6,23 @@ Plug 'tpope/vim-eunuch'                 " Unix built in
 Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
 Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
-Plug 'ConradIrwin/vim-bracketed-paste'  " Fix paste
-" Plug 'romainl/vim-qf'                   " Fix quick fix
 " Tools
-Plug 'junegunn/fzf.vim'                 " FZF
+Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
-" Plug 'tpope/vim-fugitive'               " GIT
 Plug 'tpope/vim-repeat'                 " Repetitions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'alvan/vim-closetag'               " Close html tags
 Plug 'google/vim-searchindex'           " Count search solutions
 Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
-Plug 'kassio/neoterm'                   " Repls and terminal improvements
-Plug 'tpope/vim-surround'               " Braces etc.
-Plug 'tpope/vim-commentary'             " Comments
-Plug 'baverman/vial-http'               " Make REST queries from vim
-Plug 'raghur/vim-ghost', {'do': ':GhostInstall'}
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
-Plug 'lervag/vimtex'                    " Latex {'for': 'tex'}
 Plug 'eagletmt/neco-ghc'                " Haskell autofill etc
-Plug 'artur-shaik/vim-javacomplete2'    " Complete for java
 Plug 'fatih/vim-go'                     " Go
-Plug 'reasonml-editor/vim-reason-plus'  " ReasonML (for ReasonReact)
-Plug 'dleonard0/pony-vim-syntax'        " Pony!
 call plug#end()
 
 " }}}
@@ -181,8 +169,6 @@ let g:neomake_javascript_enabled_makers = ['eslint']
 let g:neomake_open_list = 2
 " }}}
 " Autocommands {{{
-let g:rooter_change_directory_for_non_project_files = 'current'
-
 augroup vim
   autocmd!
   au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
@@ -201,17 +187,6 @@ let g:rappel#run_key    = '<leader>p'
 let g:rappel#repl_key   = '<leader>P'
 let g:rappel#launch_key = '<leader>c'
 let g:rappel#launch="chromium \"%\""
-
-let g:rappel#custom_repls={
-\ 'arduino': {
-\   'launch': 'processing-java --sketch=`pwd` --present',
-\   'run': 'processing-java --sketch=`pwd` --present'
-\ },
-\ 'java': {
-\   'launch': 'ant main',
-\   'run': 'ant main'
-\ },
-\}
 " }}}
 " i3 integration {{{
 function! RegisterNvimI3Connection()
