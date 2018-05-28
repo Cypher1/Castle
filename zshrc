@@ -125,7 +125,7 @@ function lamb () {
     else
         confirm "Install Hoogle?" && stack install hoogle
     fi
-    hoogle generate;
+    cacher 3600 hoogle generate > /dev/null
     hoogle "$@" | ccat;
 }
 

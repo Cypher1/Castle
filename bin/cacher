@@ -10,5 +10,6 @@ EXPIRY=600 # default to 10 minutes
 CMD="$@"
 HASH=$(echo "$CMD" | md5sum | awk '{print $1}')
 CACHE="$DIR/$HASH"
-test -f "${CACHE}" && [ $(expr $(date +%s) - $(date -r "$CACHE" +%s)) -le $EXPIRY ] || eval "$CMD" > "${CACHE}"
+# test -f "${CACHE}" && [ $(expr $(date +%s) - $(date -r "$CACHE" +%s)) -le $EXPIRY ] || eval "$CMD" > "${CACHE}"
+test -f "${CACHE}" && [ $(($(date +%s) - $(stat -t %s -f %m -- "$CACHE"))) -le $EXPIRY ] || eval "$CMD" > "${CACHE}"
 cat "${CACHE}"
