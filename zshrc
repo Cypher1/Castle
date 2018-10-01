@@ -17,6 +17,7 @@ BULLETTRAIN_PROMPT_CHAR=""
 BULLETTRAIN_PROMPT_ORDER=(
     cmd_exec_time
     status
+    virtualenv
     git
     dir
   )
@@ -48,7 +49,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=orange"
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
 # OVERRIDES
-export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/:/usr/local/go/bin:$HOME/.config/bin"
+export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/:/usr/local/go/bin:$HOME/.config/bin:/usr/local/opt/llvm/bin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -125,8 +126,13 @@ function lamb () {
     else
         confirm "Install Hoogle?" && stack install hoogle
     fi
-    cacher 3600 hoogle generate > /dev/null
+    cacher 36000000 hoogle generate > /dev/null
     hoogle "$@" | ccat;
+}
+
+function new-module () {
+  name="$1"
+  echo "module $name where" > "$name.hs"
 }
 
 # GIT COMMANDS
@@ -136,6 +142,34 @@ function root {
 function rexe {
   root && $1 ${@:2}
   cd -
+}
+
+function run-server {
+  BUILDCOMMAND=$1
+  RUNCOMMAND=$2
+  RESTARTER=$3
+  MSG='Server starting'
+
+  COMMAND="$BUILDCOMMAND && ($RESTARTER; echo '$MSG'; date; $RUNCOMMAND &)"
+  when-changed -s **/* -c "$COMMAND"
+}
+
+function run-servant {
+  run-server 'stack build' "stack exec $1" "pkill $1"
+}
+
+function blog {
+  SERVER="jekyll serve --livereload"
+  FILES="$@"
+  for f in ${FILES[@]}; do
+    sed "s/\(published: *\)false/\1true/" ${f} > /tmp/edit_post
+    mv /tmp/edit_post ${f}
+  done
+  ${EDITOR} ${FILES}
+  for f in ${FILES[@]}; do
+    sed "s/\(published: *\)true/\1false/" ${f} > /tmp/edit_post
+    mv /tmp/edit_post ${f}
+  done
 }
 
 alias -s git='git clone'
@@ -149,11 +183,14 @@ alias d="git diff"
 alias D="git diff --staged"
 alias g="git log --graph"
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sort -f | uniq -ic | sort -n"
+alias log="git log"
+alias map="git branch -v"
 
 alias ho="heroku open"
 alias hl="heroku logs -t"
 alias hb="heroku run bash"
 
+alias -s exe='wine'
 #alias open="xdg-open"
 
 alias nix-zsh="nix-shell --command zsh"

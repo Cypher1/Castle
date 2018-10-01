@@ -10,7 +10,7 @@
 [pull]
   rebase = true
 [core]
-  editor = /home/cypher/.nix-profile/bin/nvim
+  editor = nvim
 [merge]
   tool = vimdiff
 [mergetool]
