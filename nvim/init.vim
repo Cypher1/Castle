@@ -8,6 +8,7 @@ Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'roxma/vim-window-resize-easy'     " Resize windows
 " Tools
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
+Plug 'junegunn/fzf.vim'
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'mhinz/vim-signify'                " Sign column diffs
@@ -20,9 +21,15 @@ Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
-Plug 'lepture/vim-jinja'                " Jinja
 Plug 'eagletmt/neco-ghc'                " Haskell autofill etc
+Plug 'lepture/vim-jinja'                " Jinja
 Plug 'fatih/vim-go'                     " Go
+Plug 'rust-lang/rust.vim'               " Rust
+Plug 'idris-hackers/idris-vim'          " Idris
+Plug 'dleonard0/pony-vim-syntax'        " Pony
+
+Plug 'raghur/vim-ghost', {'do': ':GhostInstall'} " Browser typing
+Plug 'AndrewRadev/switch.vim' " Switch t->f
 call plug#end()
 
 " }}}
@@ -33,6 +40,7 @@ colorscheme badwolf
 let g:badwolf_tabline = 0
 highlight Comment ctermfg=DarkMagenta
 
+let g:filetype_pl="prolog"
 " let g:polyglot_disabled = ['latex']
 let g:vimtex_latexmk_options="-pdf -pdflatex='pdflatex -file-line-error -shell-escape -synctex=1'"
 let g:vimtex_quickfix_mode = 2
@@ -115,10 +123,31 @@ nmap <leader>u :MundoToggle<CR>
 " }}}
 " Control P {{{
 " Setup some default ignores
+
+" This is the default extra key bindings
+let g:fzf_action = {
+  \ 'ctrl-t': 'tab split',
+  \ 'ctrl-x': 'split',
+  \ 'ctrl-v': 'vsplit' }
+
+" Command for git grep
+" - fzf#vim#grep(command, with_column, [options], [fullscreen])
+command! -bang -nargs=* GGrep
+  \ call fzf#vim#grep(
+  \   'git grep --line-number '.shellescape(<q-args>), 0,
+  \   { 'dir': systemlist('git rev-parse --show-toplevel')[0] }, <bang>0)
+
+" Likewise, Files command with preview window
+command! -bang -nargs=? -complete=dir Files
+  \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
+
 let g:ctrlp_custom_ignore = {
   \ 'dir':  '\v[\/](\.(git|hg|svn)|node_modules|\_site)$',
   \ 'file': '\v(\.(exe|so|dll|class|png|jpg|jpeg|)$)|^[^\.]*$',
 \}
+
+nmap <C-F> <ESC>:GFiles<CR>
+
 let g:ctrlp_working_path_mode = 'r' "Use git root
 let g:ctrlp_max_files = 0
 nmap <leader>b :CtrlPMixed<cr>
@@ -134,12 +163,33 @@ nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 " Movement {{{
 nmap j gj
 nmap k gk
-"<A-j>
+"Shove down: <A-j>
+nnoremap ∆ :m.+1<CR>==
+inoremap ∆ <Esc>:m .+1<CR>==gi
 nnoremap <A-j> :m .+1<CR>==
 inoremap <A-j> <Esc>:m .+1<CR>==gi
-"<A-k>
+"Show up: <A-k>
+nnoremap ˚ :m .-2<CR>==
+inoremap ˚ <Esc>:m .-2<CR>==gi
 nnoremap <A-k> :m .-2<CR>==
 inoremap <A-k> <Esc>:m .-2<CR>==gi
+nnoremap <leader>! :Switch<CR>
+
+let g:switch_custom_definitions =
+    \ [
+    \   ['foo', 'bar', 'baz'],
+    \   ['0', '1'],
+    \   ['<', '>', '<=', '>=', '!=', '/='],
+    \   ['TRUE', 'FALSE'],
+    \   ['T', 'F'],
+    \   ['.cc', '.h'],
+    \   ['{', '}'],
+    \   ['[', ']'],
+    \   ['(', ')'],
+    \   ['||', '&&'],
+    \   ['and', 'or'],
+    \   ['x', 'y', 'z', 'i', 'j', 'k', 'u', 'v']
+    \ ]
 set nostartofline
 " }}}
 " Ghc Mod {{{
@@ -147,8 +197,13 @@ let g:necoghc_enable_detailed_browse = 1
 let g:necoghc_use_stack = 1
 " }}}
 " NeoMake {{{
-let g:neomake_haskell_hlint_exe = '/home/cypher/.nix-profile/bin/hlint'
+let g:rustfmt_autosave = 1
 
+let g:neomake_verbose = 3
+let g:neomake_haskell_hlint_exe = '/Users/cypher/.local/bin/hlint'
+"let g:neomake_haskell__exe = '/Users/cypher/.local/bin/hlint'
+
+"let g:neomake_enabled_makers = ['stack']
 let g:neomake_rust_enabled_makers = ['cargo']
 let g:neomake_haskell_enabled_makers = ['hlint', 'ghcmod']
 let g:neomake_cpp_enabled_makers = ['gcc', 'cppcheck']
@@ -178,14 +233,10 @@ augroup vim
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
   au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
-  au BufWinEnter,WinEnter term://* startinsert
+  au TabNewEntered,TermOpen term://* startinsert
 augroup END
 " }}}
 " My Repls {{{
-let g:filetype_pl="prolog"
-let g:rappel#run_key    = '<leader>p'
-let g:rappel#repl_key   = '<leader>P'
-let g:rappel#launch_key = '<leader>c'
 let g:rappel#launch="chromium \"%\""
 " }}}
 " i3 integration {{{
