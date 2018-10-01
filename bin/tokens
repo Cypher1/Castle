@@ -1,0 +1,2 @@
+#!/bin/bash
+git ls-files | xargs cat | sed 's/#.*//' | tr ' ' '\n' | grep -v '^ *$' | sort | uniq -c | sort -n | sed 's/^ *[0-9]* //'
