@@ -15,7 +15,6 @@ Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'tpope/vim-repeat'                 " Repetitions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
-Plug 'alvan/vim-closetag'               " Close html tags
 Plug 'google/vim-searchindex'           " Count search solutions
 Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 " Format / Language Specifics
@@ -23,13 +22,9 @@ Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'eagletmt/neco-ghc'                " Haskell autofill etc
 Plug 'lepture/vim-jinja'                " Jinja
-Plug 'fatih/vim-go'                     " Go
 Plug 'rust-lang/rust.vim'               " Rust
 Plug 'idris-hackers/idris-vim'          " Idris
-Plug 'dleonard0/pony-vim-syntax'        " Pony
-
-Plug 'raghur/vim-ghost', {'do': ':GhostInstall'} " Browser typing
-Plug 'AndrewRadev/switch.vim' " Switch t->f
+Plug 'AndrewRadev/switch.vim'           " Switch t->f
 call plug#end()
 
 " }}}
