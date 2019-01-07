@@ -197,3 +197,4 @@ alias nix-zsh="nix-shell --command zsh"
 alias nix-env-search="cacher 36000 'nix-env -qaP' |grep -i"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
