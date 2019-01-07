@@ -13,18 +13,13 @@ PROGRAMS=(
   vim
   neovim
   hlint
-  ghcmod
   git
   gcc
   g++
   direnv
   python3
   python3-pip
-  nodejs
-  npm
-  mosh
   wget
-  swi-prolog
 )
 
 PYTHON_PACKS=(
@@ -33,10 +28,6 @@ PYTHON_PACKS=(
   flask
   numpy
   pandas
-  scikit-learn
-  tensorflow
-  #tensorflow-gpu
-  #jupyter
   https://github.com/joh/when-changed/archive/master.zip
 )
 
@@ -49,7 +40,6 @@ HASKELL_PACKS=(
 
 NPM_PACKS=(
   marked
-  meteor
   mocha
   react
   underscore
@@ -91,13 +81,10 @@ echo "Installing Python Libraries"
 pip install --upgrade pip
 pip install ${PYTHON_PACKS[@]}
 
-#Install stack
-curl -sSL https://get.haskellstack.org/ | sh
-
-echo "Installing Haskell Packages"
-stack install ${HASKELL_PACKS[@]}
-
 echo "Install NPM Packages"
+wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
+source ~/.nvm/nvm.sh
+nvm install node
 npm update
 npm install ${NPM_PACKS[@]} -g
 
