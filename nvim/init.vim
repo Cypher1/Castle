@@ -12,15 +12,12 @@ Plug 'junegunn/fzf.vim'
 Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
 Plug 'cypher1/nvim-rappel'              " Repls
 Plug 'mhinz/vim-signify'                " Sign column diffs
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Completion
 Plug 'tpope/vim-repeat'                 " Repetitions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'google/vim-searchindex'           " Count search solutions
-Plug 'kien/ctrlp.vim'                   " Fuzzy Finder
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
-Plug 'eagletmt/neco-ghc'                " Haskell autofill etc
 Plug 'lepture/vim-jinja'                " Jinja
 Plug 'rust-lang/rust.vim'               " Rust
 Plug 'idris-hackers/idris-vim'          " Idris
@@ -136,16 +133,8 @@ command! -bang -nargs=* GGrep
 command! -bang -nargs=? -complete=dir Files
   \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
 
-let g:ctrlp_custom_ignore = {
-  \ 'dir':  '\v[\/](\.(git|hg|svn)|node_modules|\_site)$',
-  \ 'file': '\v(\.(exe|so|dll|class|png|jpg|jpeg|)$)|^[^\.]*$',
-\}
-
 nmap <C-F> <ESC>:GFiles<CR>
 
-let g:ctrlp_working_path_mode = 'r' "Use git root
-let g:ctrlp_max_files = 0
-nmap <leader>b :CtrlPMixed<cr>
 " }}}
 " Tab (Indent and Completion) {{{
 set tabstop=2 softtabstop=2 shiftwidth=2
@@ -233,25 +222,4 @@ augroup END
 " }}}
 " My Repls {{{
 let g:rappel#launch="chromium \"%\""
-" }}}
-" i3 integration {{{
-function! RegisterNvimI3Connection()
-    if strlen($WINDOWID) != 0
-        silent exec '!~/.config/i3/i3_nvim_focus_client.py register '. $WINDOWID . ' ' . shellescape($NVIM_LISTEN_ADDRESS)
-        let g:i3_nvim_connection = 1
-    else
-        let g:i3_nvim_connection = 0
-    endif
-endfunction
-
-function! UnregisterNvimI3Connection()
-    if g:i3_nvim_connection
-        silent exec '!~/.config/i3/i3_nvim_focus_client.py unregister '. $WINDOWID
-    endif
-endfunction
-
-augroup i3
-call RegisterNvimI3Connection()
-autocmd VimLeave * call UnregisterNvimI3Connection()
-augroup END
 " }}}

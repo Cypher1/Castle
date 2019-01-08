@@ -11,6 +11,7 @@ LINKED_FILES=(
 PROGRAMS=(
   zsh
   vim
+  screen
   neovim
   hlint
   git
