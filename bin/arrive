@@ -90,4 +90,5 @@ npm update
 npm install ${NPM_PACKS[@]} -g
 
 echo "Starting zsh"
+sudo chsh "$(whoami)" -s "$(which zsh)"
 zsh
