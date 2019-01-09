@@ -15,13 +15,14 @@ Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'tpope/vim-repeat'                 " Repetitions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'google/vim-searchindex'           " Count search solutions
+Plug 'AndrewRadev/switch.vim'           " Switch t->f
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
 Plug 'rust-lang/rust.vim'               " Rust
 Plug 'idris-hackers/idris-vim'          " Idris
-Plug 'AndrewRadev/switch.vim'           " Switch t->f
+Plug 'chris-bacon/haskell-refactor'
 call plug#end()
 
 " }}}
@@ -38,8 +39,9 @@ let g:vimtex_latexmk_options="-pdf -pdflatex='pdflatex -file-line-error -shell-e
 let g:vimtex_quickfix_mode = 2
 
 let $COLORTERM = "gnome-terminal"
-" highlight OverLength ctermbg=red ctermfg=white guibg=#592929
-" match OverLength /\%81v.\+/
+set colorcolumn=80
+highlight OverLength ctermbg=red guibg=#592929
+match OverLength /\%81v.\+/
 " }}}
 " Status Information {{{
 set cursorline ruler relativenumber number laststatus=2
@@ -89,6 +91,12 @@ function! ToTupleFunction() range
 endfunction
 command! -range ToTuple <line1>,<line2> call ToTupleFunction()
 
+function! ToUnixFunction()
+    execute "e ++ff=dos"
+    execute "set ff=unix"
+endfunction
+command! -range ToUnix <line1>,<line2> call ToUnixFunction()
+
 " Send code to bash and back
 command! -nargs=1 FW call FilterToNewWindow(<f-args>)
 
@@ -133,7 +141,8 @@ command! -bang -nargs=* GGrep
 command! -bang -nargs=? -complete=dir Files
   \ call fzf#vim#files(<q-args>, fzf#vim#with_preview(), <bang>0)
 
-nmap <C-F> <ESC>:GFiles<CR>
+nmap <C-O> <ESC>:GFiles<CR>
+nmap <C-F> <ESC>:GGrep<CR>
 
 " }}}
 " Tab (Indent and Completion) {{{
@@ -176,18 +185,15 @@ let g:switch_custom_definitions =
     \ ]
 set nostartofline
 " }}}
-" Ghc Mod {{{
-let g:necoghc_enable_detailed_browse = 1
-let g:necoghc_use_stack = 1
+" My Repls {{{
+let g:rappel#launch="chromium \"%\""
 " }}}
 " NeoMake {{{
 let g:rustfmt_autosave = 1
 
 let g:neomake_verbose = 3
 let g:neomake_haskell_hlint_exe = '/Users/cypher/.local/bin/hlint'
-"let g:neomake_haskell__exe = '/Users/cypher/.local/bin/hlint'
 
-"let g:neomake_enabled_makers = ['stack']
 let g:neomake_rust_enabled_makers = ['cargo']
 let g:neomake_haskell_enabled_makers = ['hlint', 'ghcmod']
 let g:neomake_cpp_enabled_makers = ['gcc', 'cppcheck']
@@ -219,7 +225,4 @@ augroup vim
   au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
   au TabNewEntered,TermOpen term://* startinsert
 augroup END
-" }}}
-" My Repls {{{
-let g:rappel#launch="chromium \"%\""
 " }}}
