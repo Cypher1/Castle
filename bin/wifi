@@ -1,3 +1,0 @@
-#!/bin/bash
-
-sudo nix-shell -p python36Packages.pygobject3 ~/.config/bin/wifi_control
