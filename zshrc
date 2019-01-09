@@ -183,8 +183,9 @@ alias d="git diff"
 alias D="git diff --staged"
 alias g="git log --graph"
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sort -f | uniq -ic | sort -n"
+alias gg="git grep -i"
 alias log="git log"
-alias map="git branch -v"
+alias map="$HOME/.depot/git_map_branches.py -vv | git branch -vv | cat"
 
 alias ho="heroku open"
 alias hl="heroku logs -t"
@@ -195,6 +196,8 @@ alias -s exe='wine'
 
 alias nix-zsh="nix-shell --command zsh"
 alias nix-env-search="cacher 36000 'nix-env -qaP' |grep -i"
+
+alias sigh="~/Projects/arcs/tools/sigh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
