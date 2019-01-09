@@ -11,4 +11,3 @@ My config files
 - i3 (config for i3)
  - my_dmenu.sh (a wrapper around dmenu to add Hack font)
  - i3status.conf (settings for py3status bar for i3) 
-- nixos (my old nixos config, hoping to come back to it one day)
