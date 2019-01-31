@@ -1,0 +1,4 @@
+#!/bin/bash
+~/.cabal/bin/graphmod lib/* test/* app/* --no-cabal > /tmp/deps.dot
+dot -Tpng /tmp/deps.dot -o /tmp/deps.png
+imgcat /tmp/deps.png
