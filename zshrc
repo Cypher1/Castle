@@ -1,26 +1,14 @@
 DEFAULT_USER="cypher"
 HOME="`cd;pwd`"
+
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir_writable dir vcs newline)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs time)
+
+source "${HOME}/.config/powerlevel10k/powerlevel10k.zsh-theme"
+
 export ZSH="$HOME/.oh-my-zsh"
 export TERM="xterm-256color"
 
-ZSH_THEME="bullet-train"
-BULLETTRAIN_DIR_FG=white
-BULLETTRAIN_GIT_DIRTY_BG=yellow
-BULLETTRAIN_GIT_BG=black
-BULLETTRAIN_GIT_DIRTY_FG=white
-BULLETTRAIN_GIT_FG=white
-
-BULLETTRAIN_PROMPT_ADD_NEWLINE=false
-BULLETTRAIN_DIR_EXTENDED=1
-BULLETTRAIN_GIT_FETCH=true
-BULLETTRAIN_PROMPT_CHAR=""
-BULLETTRAIN_PROMPT_ORDER=(
-    cmd_exec_time
-    status
-    virtualenv
-    git
-    dir
-  )
 plugins=(
     last-working-dir
     sudo
