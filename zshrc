@@ -49,7 +49,13 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=orange"
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
 # OVERRIDES
-export PATH="$PATH:/usr/local/bin:$HOME/Library/Haskell/bin:$HOME/.local/bin/:/usr/local/go/bin:$HOME/.config/bin:/usr/local/opt/llvm/bin"
+export PATH="${PATH}:/usr/local/bin"
+export PATH="${PATH}:/usr/local/go/bin"
+export PATH="${PATH}:/usr/local/opt/llvm/bin"
+export PATH="${PATH}:${HOME}/Library/Haskell/bin"
+export PATH="${PATH}:${HOME}/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/"
+export PATH="${PATH}:${HOME}/.local/bin/"
+export PATH="${PATH}:${HOME}/.config/bin"
 
 source $ZSH/oh-my-zsh.sh
 
@@ -97,6 +103,11 @@ alias r="clear"
 alias t="time"
 alias q="exit"
 alias u="du -hs *"
+alias :q="exit"
+alias :qa="exit"
+alias :wq="exit"
+alias :wqa="exit"
+alias :r="clear; cabal test"
 
 function mk { mkdir $1; cd $1; }
 
