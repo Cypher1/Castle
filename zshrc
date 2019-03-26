@@ -33,7 +33,7 @@ setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 # turn off history expansion using !
 setopt no_bang_hist
-export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=orange"
+export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
 # OVERRIDES
@@ -180,6 +180,8 @@ alias P="git pull --ff-only"
 alias continue="git rebase --continue || git merge --continue"
 alias d="git diff"
 alias D="git diff --staged"
+alias gl="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq"
+alias ge="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq | xargs nvim"
 alias g="git log --graph"
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sort -f | uniq -ic | sort -n"
 alias gg="git grep -i"

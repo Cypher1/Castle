@@ -1,28 +1,35 @@
+set nocompatible " required
+filetype plugin indent on " required
 " Plugin {{{
 call plug#begin('~/.local/share/nvim/plugged') " Plugins go here
+
 Plug 'sjl/badwolf'
-" Tweaks
-Plug 'tpope/vim-eunuch'                 " Unix built in
-Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
-Plug 'tmhedberg/matchit'                " % Match based jumping
-Plug 'roxma/vim-window-resize-easy'     " Resize windows
-" Tools
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'neomake/neomake'                  " Syntax and Compiler and Linter
-Plug 'cypher1/nvim-rappel'              " Repls
-Plug 'mhinz/vim-signify'                " Sign column diffs
+
+" Tweaks & Fixes
+Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
 Plug 'tpope/vim-repeat'                 " Repetitions
-Plug 'simnalamburt/vim-mundo'           " UNDO!
-Plug 'google/vim-searchindex'           " Count search solutions
+Plug 'roxma/vim-window-resize-easy'     " Resize windows
+Plug 'tmhedberg/matchit'                " % Match based jumping
+Plug 'tpope/vim-eunuch'                 " Unix built in
+" Tools
 Plug 'AndrewRadev/switch.vim'           " Switch t->f
+Plug 'mhinz/vim-signify'                " Sign column diffs
+Plug 'rhysd/vim-clang-format'           " Autoformat
+Plug 'ap/vim-css-color'                 " Show Colors in CSS
+Plug 'google/vim-searchindex'           " Count search solutions
+Plug 'simnalamburt/vim-mundo'           " UNDO!
+Plug 'tpope/vim-fugitive'               " Git!
+Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Async completion
+
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
 Plug 'rust-lang/rust.vim'               " Rust
 Plug 'idris-hackers/idris-vim'          " Idris
-Plug 'chris-bacon/haskell-refactor'
+Plug 'dag/vim2hs'                       " Haskell suppordag/vim2hst
 call plug#end()
 
 " }}}
@@ -34,10 +41,6 @@ let g:badwolf_tabline = 0
 highlight Comment ctermfg=DarkMagenta
 
 let g:filetype_pl="prolog"
-" let g:polyglot_disabled = ['latex']
-let g:vimtex_latexmk_options="-pdf -pdflatex='pdflatex -file-line-error -shell-escape -synctex=1'"
-let g:vimtex_quickfix_mode = 2
-
 let $COLORTERM = "gnome-terminal"
 set colorcolumn=80
 highlight OverLength ctermbg=red guibg=#592929
@@ -45,9 +48,6 @@ match OverLength /\%81v.\+/
 " }}}
 " Status Information {{{
 set cursorline ruler relativenumber number laststatus=2
-let g:airline_powerline_fonts=1
-let g:airline#extensions#tabline#enabled=1
-let g:airline#extensions#tabline#fnamemod = ':t'
 set list listchars=tab:>.,trail:.,extends:#,nbsp:.
 " }}}
 " Input settings {{{
@@ -59,7 +59,7 @@ set clipboard+=unnamedplus
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib/llvm-3.7/lib/libclang.dylib"
 set sessionoptions-=options
-set foldmethod=manual foldlevel=0
+set foldmethod=manual foldlevel=20
 set visualbell noerrorbells novisualbell t_vb=
 set ignorecase smartcase gdefault magic inccommand=split
 nnoremap <silent> : :nohlsearch<CR>:
@@ -118,17 +118,12 @@ nmap <leader>s :sp<space>
 nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
-nmap <silent> <leader>w :w<CR>:Neomake<CR>
 nmap <leader>u :MundoToggle<CR>
 " }}}
-" Control P {{{
-" Setup some default ignores
+" FZF {{{
 
-" This is the default extra key bindings
-let g:fzf_action = {
-  \ 'ctrl-t': 'tab split',
-  \ 'ctrl-x': 'split',
-  \ 'ctrl-v': 'vsplit' }
+let g:fzf_history_dir = '~/.local/share/fzf-history'
+let g:fzf_buffers_jump = 1
 
 " Command for git grep
 " - fzf#vim#grep(command, with_column, [options], [fullscreen])
@@ -143,6 +138,7 @@ command! -bang -nargs=? -complete=dir Files
 
 nmap <C-O> <ESC>:GFiles<CR>
 nmap <C-F> <ESC>:GGrep<CR>
+nmap <C-G> <ESC>:Buffers<CR>
 
 " }}}
 " Tab (Indent and Completion) {{{
@@ -224,5 +220,6 @@ augroup vim
   au BufEnter,BufRead *.swift set filetype=swift
   au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
   au TabNewEntered,TermOpen term://* startinsert
+  au BufEnter *.hs compiler ghc
 augroup END
 " }}}
