@@ -16,12 +16,12 @@ Plug 'tpope/vim-eunuch'                 " Unix built in
 " Tools
 Plug 'AndrewRadev/switch.vim'           " Switch t->f
 Plug 'mhinz/vim-signify'                " Sign column diffs
-Plug 'rhysd/vim-clang-format'           " Autoformat
 Plug 'ap/vim-css-color'                 " Show Colors in CSS
 Plug 'google/vim-searchindex'           " Count search solutions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'tpope/vim-fugitive'               " Git!
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Async completion
+Plug 'Cypher1/nvim-rappel'
 
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
@@ -30,6 +30,7 @@ Plug 'lepture/vim-jinja'                " Jinja
 Plug 'rust-lang/rust.vim'               " Rust
 Plug 'idris-hackers/idris-vim'          " Idris
 Plug 'dag/vim2hs'                       " Haskell suppordag/vim2hst
+Plug 'sbdchd/neoformat'                 " Autoformat (includes clang-format)
 call plug#end()
 
 " }}}
@@ -43,8 +44,8 @@ highlight Comment ctermfg=DarkMagenta
 let g:filetype_pl="prolog"
 let $COLORTERM = "gnome-terminal"
 set colorcolumn=80
-highlight OverLength ctermbg=red guibg=#592929
-match OverLength /\%81v.\+/
+" highlight OverLength ctermbg=yellow guibg=#592929
+" match OverLength /\%81v.\+/
 " }}}
 " Status Information {{{
 set cursorline ruler relativenumber number laststatus=2
@@ -118,6 +119,7 @@ nmap <leader>s :sp<space>
 nmap <leader>n :bn<CR>
 nmap <leader>m :bp<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
+nmap <leader>w :w <CR>
 nmap <leader>u :MundoToggle<CR>
 " }}}
 " FZF {{{

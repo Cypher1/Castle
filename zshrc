@@ -17,7 +17,7 @@ plugins=(
     sudo
     z
     fancy-ctrl-z
-    copybuffer # bound to <c-o>
+    copybuffer # bound to <Control-o>
     python
     pip
     systemadmin
@@ -29,7 +29,7 @@ plugins=(
 export HISTSIZE=1000000                # set history size
 export SAVEHIST=1000000                # save history after logout
 export HISTFILE=~/.config/zsh_history  # history file
-export HISTIGNORE="(fg|bg)"
+export HISTIGNORE="^(fg|bg|ls|s|p|q)$"
 # append into history file
 setopt INC_APPEND_HISTORY
 # save only one command if 2 common are same and consistent
@@ -41,10 +41,12 @@ export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
 # OVERRIDES
 export PATH="${PATH}:/usr/local/bin"
+export PATH="${PATH}:/opt/local/bin"
 export PATH="${PATH}:/usr/local/go/bin"
 export PATH="${PATH}:/usr/local/opt/llvm/bin"
 export PATH="${PATH}:${HOME}/Library/Haskell/bin"
 export PATH="${PATH}:${HOME}/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/"
+export PATH="${PATH}:${HOME}/.cabal/bin"
 export PATH="${PATH}:${HOME}/.local/bin/"
 export PATH="${PATH}:${HOME}/.config/bin"
 
@@ -88,9 +90,10 @@ alias nrc="sudo $EDITOR /etc/nixos/configuration.nix"
 alias vrc="$EDITOR ~/.config/nvim/init.vim"
 alias 3rc="$EDITOR ~/.config/i3/config"
 alias 3src="$EDITOR ~/.config/i3/i3status.conf"
+
+alias r="clear"
 alias .="r && cd . && ls"
 alias ..="r && cd .. && ls"
-alias r="clear"
 alias t="time"
 alias q="exit"
 alias u="du -hs *"
@@ -123,7 +126,7 @@ function confirm {
     return 1;
 }
 
-function lamb () {
+function h() {
     if command -v "hoogle" > /dev/null 2>&1; then
     else
         confirm "Install Hoogle?" && stack install hoogle
@@ -138,14 +141,6 @@ function new-module () {
 }
 
 # GIT COMMANDS
-function root {
-  cd $(git rev-parse --show-toplevel)
-}
-function rexe {
-  root && $1 ${@:2}
-  cd -
-}
-
 function run-server {
   BUILDCOMMAND=$1
   RUNCOMMAND=$2
@@ -186,22 +181,22 @@ alias D="git diff --staged"
 alias gl="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq"
 alias ge="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq | xargs nvim"
 alias g="git log --graph"
-alias ga="git ls-files | while read f; do git blame --line-porcelain \$f | grep '^author ' | sort -f | uniq -ic | sort -n"
+alias ga="git ls-files | while read f; do git blame --line-porcelain \$f; done | grep '^author ' | sort -f | uniq -ic | sort -n"
 alias gg="git grep -i"
 alias log="git log"
+alias gbn="git branch -m"
 alias map="$HOME/.depot/git_map_branches.py -vv | git branch -vv | cat"
 
-alias ho="heroku open"
-alias hl="heroku logs -t"
-alias hb="heroku run bash"
+function swap() {
+  mv "$2" _swap_tmp_
+  mv "$1" "$2"
+  mv _swap_tmp_ "$1"
+}
 
 alias -s exe='wine'
-#alias open="xdg-open"
-
-alias nix-zsh="nix-shell --command zsh"
-alias nix-env-search="cacher 36000 'nix-env -qaP' |grep -i"
-
 alias sigh="~/Projects/arcs/tools/sigh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
+
+source ~/.nix-profile/etc/profile.d/nix.sh
