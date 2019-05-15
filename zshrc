@@ -7,7 +7,7 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=""
 
-source "${HOME}/.config/powerlevel10k/powerlevel10k.zsh-theme"
+source "${HOME}/.config/powerlevel10k/powerlevel10k.zsh-theme" || (git clone https://github.com/romkatv/powerlevel10k.git ~/.config/powerlevel10k && source "${HOME}/.config/powerlevel10k/powerlevel10k.zsh-theme")
 
 export ZSH="$HOME/.oh-my-zsh"
 export TERM="xterm-256color"
@@ -86,7 +86,6 @@ alias g++="g++ -std=c++14 -Wall -Werror"
 # ADDITIONS
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
 alias zrc="$EDITOR ~/.config/zshrc"
-alias nrc="sudo $EDITOR /etc/nixos/configuration.nix"
 alias vrc="$EDITOR ~/.config/nvim/init.vim"
 alias 3rc="$EDITOR ~/.config/i3/config"
 alias 3src="$EDITOR ~/.config/i3/i3status.conf"
@@ -198,5 +197,3 @@ alias sigh="~/Projects/arcs/tools/sigh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
-
-source ~/.nix-profile/etc/profile.d/nix.sh
