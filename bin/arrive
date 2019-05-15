@@ -64,11 +64,16 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
   echo "Installing Mac specific programs"
   brew cask install homebrew/cask/alfred
 else
-  echo "Updating Apt"
-  sudo apt-get update
+  if [[ apt ]]; then
+    echo "Updating Apt"
+    sudo apt-get update
 
-  echo "Installing Software"
-  sudo apt-get -f install ${PROGRAMS[*]}
+    echo "Installing Software"
+    sudo apt-get -f install ${PROGRAMS[*]}
+  else
+    echo "Installing Software"
+    sudo pacman -Syyu ${PROGRAMS[*]}
+  fi
 fi
 
 # Install oh-my-zsh
