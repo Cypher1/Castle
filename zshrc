@@ -7,7 +7,7 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=""
 
-source "${HOME}/.config/powerlevel10k/powerlevel10k.zsh-theme" || (git clone https://github.com/romkatv/powerlevel10k.git ~/.config/powerlevel10k && source "${HOME}/.config/powerlevel10k/powerlevel10k.zsh-theme")
+source "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme" || (git clone https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k && source "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme")
 
 export ZSH="$HOME/.oh-my-zsh"
 export TERM="xterm-256color"
