@@ -42,8 +42,9 @@ export KEYTIMEOUT=1
 # OVERRIDES
 export PATH="${PATH}:/usr/local/bin"
 export PATH="${PATH}:/opt/local/bin"
-export PATH="${PATH}:/usr/local/go/bin"
 export PATH="${PATH}:/usr/local/opt/llvm/bin"
+export PATH="${PATH}:${HOME}/.gem/ruby/2.6.0/bin"
+export PATH="${PATH}:/usr/local/go/bin"
 export PATH="${PATH}:${HOME}/Library/Haskell/bin"
 export PATH="${PATH}:${HOME}/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/"
 export PATH="${PATH}:${HOME}/.cabal/bin"
@@ -184,6 +185,7 @@ alias ga="git ls-files | while read f; do git blame --line-porcelain \$f; done |
 alias gg="git grep -i"
 alias log="git log"
 alias gbn="git branch -m"
+alias branch="git branch --color=never | grep '*' | cut -f2 -d' '"
 alias map="$HOME/.depot/git_map_branches.py -vv | git branch -vv | cat"
 
 function swap() {
@@ -197,3 +199,4 @@ alias sigh="~/Projects/arcs/tools/sigh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
+[ -f ~/.ghcup/env ] && source ~/.ghcup/env
