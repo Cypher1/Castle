@@ -2,26 +2,19 @@
 
 # EXECUTE #
 # Set up KEYS
-exec --no-startup-id google-drive-ocamlfuse ~/Drive || true &
-exec_always bash ~/.config/Keys
+exec bash ~/.config/Keys
 
 # num lock activated
-exec_always --no-startup-id numlockx on
-exec_always --no-startup-id feh --bg-fill ~/Desktop/firewatch.jpg &
-# exec insync-headless start
-# get the mouse out of the way with unclutter
-exec unclutter
+exec_always --no-startup-id feh --bg-fill ~/Pictures/firewatch.jpg &
 
 # Setup wakeup
-exec --no-startup-id sudo /home/cypher/.config/bin/wakeup 2&> /tmp/wakeup_log
+# exec --no-startup-id /home/cypher/.config/bin/wakeup 2&> /tmp/wakeup_log
+exec --no-startup-id xfce4-power-manager
 
 # SCREENSHOTS #
-bindsym Print exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
-bindsym Control+Print exec gnome-screenshot -i
+bindsym XF86LaunchB exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
 
-
-
-set $mod Control
+set $mod Mod4
 set $alt Mod1
 
 set $workspace1 "1"
@@ -45,30 +38,27 @@ set $color_border #555555
 
 set $i3home ~/.config/i3/
 
-# font FontAwesome 12
-font pango:Hack 4, FontAwesome 4
+font pango:Monospace Regular 16
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec gnome-terminal
+bindsym $mod+Return exec qterminal
 
 # start a browser
-bindsym $mod+Shift+Return exec chromium-browser
+bindsym $mod+Shift+Return exec google-chrome-stable
 
 
 # kill focused window
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+space exec dmenu_run
+bindsym $mod+space exec rofi -show run
 
-# split in horizontal orientation
-bindsym $mod+i split h
-
-# split in vertical orientation
-bindsym $mod+Shift+i split v
+# split in v/h orientation
+bindsym $mod+backslash split h
+bindsym $mod+minus split v
 
 # change container layout (tabbed, toggle split)
 bindsym $mod+colon layout tabbed
@@ -78,7 +68,7 @@ bindsym $mod+Shift+colon layout toggle split
 bindsym XF86LaunchA fullscreen toggle
 
 # restart
-bindsym XF86LaunchB restart
+bindsym $mod+Shift+r restart
 
 # change focus between tiling / floating windows
 bindsym $mod+XF86LaunchA focus mode_toggle
@@ -90,9 +80,6 @@ bindsym $mod+Shift+XF86LaunchA floating toggle
 
 # focus the child contai3 mod is altainer
 # bindsym $mod+Shift+p focus child
-
-# focus follows mouse
-focus_follows_mouse no
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -117,7 +104,7 @@ bindsym $mod+l focus right
 #bindsym $mod+j exec "$i3_nav_cli focus down"
 #bindsym $mod+k exec "$i3_nav_cli focus up"
 #bindsym $mod+l exec "$i3_nav_cli focus right"
-bindsym $mod+Shift+r mode "resize"
+bindsym $mod+r mode "resize"
 mode "resize" {
   bindsym $mod+h focus left
   bindsym $mod+j focus down
@@ -127,10 +114,10 @@ mode "resize" {
   #bindsym $mod+j exec "$i3_nav_cli focus down"
   #bindsym $mod+k exec "$i3_nav_cli focus up"
   #bindsym $mod+l exec "$i3_nav_cli focus right"
-  bindsym h resize grow width 5 px
-  bindsym j resize shrink height 5 px
-  bindsym k resize grow height 5 px
-  bindsym l resize shrink width 5 px
+  bindsym h resize grow width 10
+  bindsym j resize shrink height 10
+  bindsym k resize grow height 10
+  bindsym l resize shrink width 10
   #bindsym h exec "$i3_nav_cli resize h"
   #bindsym j exec "$i3_nav_cli resize j"
   #bindsym k exec "$i3_nav_cli resize k"
@@ -174,27 +161,20 @@ bindsym $mod+Shift+grave move container to workspace back_and_forth
 
 # BAR #
 bar {
-    status_command nix-shell -p python35Packages.pytz python35Packages.tzlocal python35Packages.i3ipc alsaUtils --run "py3status -b -c $i3home/i3status.conf"
-    strip_workspace_numbers yes
-    tray_output primary
-    position top
-    separator_symbol "|"
-
-# disable scroll
-    bindsym button4 nop
-    bindsym button5 nop
-
-    colors {
-      separator            $color_border
-        background           $color_back
-#we shouldn't see this
-        statusline           $color_bad
-#<border>         <bg>              <text>
-        focused_workspace    $color_back $color_back $color_good
-        active_workspace     $color_back $color_back $color_degraded
-        urgent_workspace     $color_back $color_back $color_bad
-        inactive_workspace   $color_back $color_back $color
-    }
+  position bottom
+  output primary
+  tray_output primary
+  strip_workspace_numbers yes
+  separator_symbol "|"
+  status_command SCRIPT_DIR=~/.config/i3blocks-contrib/ i3blocks -c ~/.config/i3/i3blocks_config
+  colors {
+    statusline #cdffff
+    background #01002a
+    focused_workspace #3e025c #681364 #cdffff
+    active_workspace #681364 #3e025c #cdffff
+    inactive_workspace #003e7b #001b38 #cdffff
+    urgent_workspace #f4c300 #840054 #cdffff
+  }
 }
 
 # class                 border        backgr.       text   indicator
@@ -224,54 +204,6 @@ workspace $workspace8 output $secondMonitor
 workspace $workspace9 output $secondMonitor
 workspace $workspace10 output $secondMonitor
 
-# ASSIGN #
-# assign [class="Firefox"]          → $workspace1
-assign [class="Inkscape"]         → $workspace3
-assign [class="Gimp"]             → $workspace4
-assign [class="Vlc"]              → $workspace10
-assign [class="Steam"]            → $workspace9
-assign [class="Spotify"]          → $workspace10
-#fix for spotify not moving to workspace 10
-for_window [class="Spotify"] move to workspace $workspace10
-
-
-# FLOATING OR TILED #
-
-#floating enabled from some programs
-for_window [class="Gnome-disks"] floating enable
-for_window [class="^Skype$"] floating enable
-for_window [class="^Gnome-font-viewer$"] floating enable
-#for_window [class="^Thunar$"] floating enable
-for_window [class="^Gpick$"] floating enable
-#for_window [class="^Vlc$"] floating enable
-#for_window [class="^Spotify$"] floating enable workspace $workspace10
-for_window [instance="gimp"] floating enable
-for_window [window_role="^gimp-toolbox-color-dialog$"] floating enable
-for_window [instance="variety"] floating enable
-for_window [class="Gnome-system-monitor"] floating enable
-for_window [class="Brasero"] floating enable
-for_window [class="Xfburn"] floating enable
-for_window [class="Xfce4-appfinder"] floating enable
-for_window [class="Wine"] floating enable
-for_window [class="Pavucontrol"] floating enable
-for_window [window_role="pop-up"] floating enable
-for_window [window_role="^Preferences$"] floating enable
-for_window [window_role="setup"] floating enable
-for_window [title="^Terminator Preferences$"] floating enable
-for_window [class="Font-manager"] floating enable
-for_window [class="System-config-printer.py"] floating enable
-for_window [title="Copying"] floating enable
-for_window [title="Deleting"] floating enable
-for_window [title="Moving"] floating enable
-for_window [class="Unetbootin.elf"] floating enable
-for_window [class="Galculator"] floating enable
-for_window [class="Usb-creator-gtk"] floating enable
-for_window [class="MintUpdate.py"] floating disable
-for_window [class="Hexchat"] floating disable
-
-
-bindsym $mod+XF86LaunchB exec "$i3home/i3exit.sh `echo -e 'lock\nsuspend\nshutdown' | dmenu -p 'Power'`"
-
 # AUDIO #
 set $AUDIO default
 bindsym XF86AudioRaiseVolume exec "pamixer --increase 5 && pkill -SIGUSR1 .py3status-wrap"
@@ -281,17 +213,14 @@ bindsym $mod+XF86AudioLowerVolume exec "pamixer --decrease 1 && pkill -SIGUSR1 .
 bindsym XF86AudioMute exec "pamixer -t && pkill -SIGUSR1 .py3status-wrap"
 
 # BRIGHTNESS #
-bindsym XF86MonBrightnessUp exec "xbacklight + 10"
-bindsym XF86MonBrightnessDown exec "xbacklight - 10"
+bindsym XF86MonBrightnessUp exec "xbacklight + 5"
+bindsym XF86MonBrightnessDown exec "xbacklight - 5"
 bindsym $mod+XF86MonBrightnessUp exec "xbacklight + 1"
 bindsym $mod+XF86MonBrightnessDown exec "xbacklight - 1"
 
-bindsym XF86KbdBrightnessUp exec "sudo keyboard-backlight up 10"
-bindsym XF86KbdBrightnessDown exec "sudo keyboard-backlight down 10"
-bindsym $mod+XF86KbdBrightnessUp exec "sudo keyboard-backlight up 1"
-bindsym $mod+XF86KbdBrightnessDown exec "sudo keyboard-backlight down 1"
+# bindsym XF86KbdBrightnessUp exec "keyboard-backlight up 10"
+#bindsym XF86KbdBrightnessDown exec "keyboard-backlight down 10"
+#bindsym $mod+XF86KbdBrightnessUp exec "keyboard-backlight up 1"
+#bindsym $mod+XF86KbdBrightnessDown exec "keyboard-backlight down 1"
 # BORDER #
 new_window pixel 0
-
-# Displays
-exec_always /home/cypher/.config/bin/screens
