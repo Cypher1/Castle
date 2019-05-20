@@ -3,7 +3,7 @@ filetype plugin indent on " required
 " Plugin {{{
 call plug#begin('~/.local/share/nvim/plugged') " Plugins go here
 
-Plug 'sjl/badwolf'
+Plug 'sickill/vim-monokai' "Colours
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 
@@ -37,15 +37,11 @@ call plug#end()
 " Colour Scheme {{{
 syntax enable
 set background=dark
-colorscheme badwolf
-let g:badwolf_tabline = 0
-highlight Comment ctermfg=DarkMagenta
+colorscheme monokai
 
 let g:filetype_pl="prolog"
 let $COLORTERM = "gnome-terminal"
 set colorcolumn=80
-" highlight OverLength ctermbg=yellow guibg=#592929
-" match OverLength /\%81v.\+/
 " }}}
 " Status Information {{{
 set cursorline ruler relativenumber number laststatus=2
@@ -121,6 +117,7 @@ nmap <leader>m :bp<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
 nmap <leader>w :w <CR>
 nmap <leader>u :MundoToggle<CR>
+nmap <silent> <leader>g /^\(<\{7\}\\|>\{7\}\\|=\{7\}\\|\|\{7\}\)\( \\|$\)<cr>
 " }}}
 " FZF {{{
 
@@ -184,32 +181,7 @@ let g:switch_custom_definitions =
 set nostartofline
 " }}}
 " My Repls {{{
-let g:rappel#launch="chromium \"%\""
-" }}}
-" NeoMake {{{
-let g:rustfmt_autosave = 1
-
-let g:neomake_verbose = 3
-let g:neomake_haskell_hlint_exe = '/Users/cypher/.local/bin/hlint'
-
-let g:neomake_rust_enabled_makers = ['cargo']
-let g:neomake_haskell_enabled_makers = ['hlint', 'ghcmod']
-let g:neomake_cpp_enabled_makers = ['gcc', 'cppcheck']
-let g:neomake_cpp_gcc_args = ["-std=c++14", "-Wextra", "-Wall", "-fsanitize=undefined","-g"]
-let g:neomake_cpp_clang_maker = {'exe': 'clang++',
-            \ 'args': ["-std=c++14", '-Wall', '-Wextra'] }
-let g:neomake_python_enabled_makers = ['pylint']
-let g:neomake_markdown_enabled_makers = ['mdl']
-let g:neomake_markdown_mdl_args = ["-r", "~MD007", "~MD013"]
-let g:neomake_javascript_enabled_makers = ['eslint']
-  let g:neomake_javascript_eslint_maker = {
-    \ 'exe': split(system('npm bin'), '\n')[0].'/eslint',
-    \ 'args': ['-f', 'compact'],
-    \ 'errorformat': '%E%f: line %l\, col %c\, Error - %m,' .
-    \ '%W%f: line %l\, col %c\, Warning - %m'
-    \ }
-
-let g:neomake_open_list = 2
+let g:rappel#launch="google-chrome-stable \"%\""
 " }}}
 " Autocommands {{{
 augroup vim
