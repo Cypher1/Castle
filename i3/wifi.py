@@ -50,7 +50,7 @@ def dmenu_cmd(num_lines, prompt="Networks", active_lines=None):  # pylint: disab
                 dmenu -l <num_lines> -p <prompt> -i ...
 
     """
-    dmenu_command = "dmenu"
+    dmenu_command = "rofi -dmenu".split(" ")
     conf = configparser.ConfigParser()
     conf.read(expanduser("~/.config/networkmanager-dmenu/config.ini"))
     try:
@@ -58,7 +58,7 @@ def dmenu_cmd(num_lines, prompt="Networks", active_lines=None):  # pylint: disab
     except configparser.NoSectionError:
         conf = False
     if not conf:
-        res = [dmenu_command, "-i", "-l", str(num_lines), "-p", str(prompt)]
+        res = dmenu_command+["-i", "-l", str(num_lines), "-p", str(prompt)]
     else:
         args_dict = dict(args)
         dmenu_args = []
@@ -100,7 +100,7 @@ def dmenu_cmd(num_lines, prompt="Networks", active_lines=None):  # pylint: disab
                 dmenu_args.extend(["-a", ",".join([str(num)
                                                    for num in active_lines])])
         extras = (["-" + str(k), str(v)] for (k, v) in args_dict.items())
-        res = [dmenu_command, "-p", str(prompt)]
+        res = dmenu_command+["-p", str(prompt)]
         res.extend(dmenu_args)
         res += list(itertools.chain.from_iterable(extras))
         res[1:1] = lines.split()
