@@ -1,0 +1,23 @@
+#!/bin/sh
+LSTDIR="$(cat $HOME/.oh-my-zsh/cache/last-working-dir)"
+cd "$LSTDIR"
+GITDIR="$(git rev-parse --show-toplevel)"
+
+if [ -z "$GITDIR" ]
+then
+  exit 0
+fi
+
+gstatus="$(git status -sb --porcelain)"
+inf="$(echo "$gstatus" | tail -n +2)"
+dirty="#FFFF00"
+if [ -z "$inf" ]
+then
+  dirty="#00FF00"
+fi
+
+status="$(echo "$gstatus "| head -n 1 | sed "s/## //" | sed "s/\.\.\..*//")"
+repoName="$(basename $GITDIR)"
+echo "${repoName}: ${status}${Reset}"
+echo "${repoName}: ${status}${Reset}"
+echo "${dirty}"
