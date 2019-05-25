@@ -20,14 +20,16 @@ command=$SCRIPT_DIR/temperature/temperature
 color=#dcedc1
 separator=true
 
-[volume]
-command=~/.config/bin/volume
-label=
-interval=once
-signal=10
-#STEP=5%
-#MIXER=[determined automatically]
-#SCONTROL=[determined automatically]
+[git]
+label=
+command=~/.config/bin/gitstatus
+interval=2
+
+[time]
+separator=true
+command= date '+%Y-%m-%d %a %I:%M%P'
+label=
+interval=60
 
 [wifi]
 command=INTERFACE=wlp3s0 $SCRIPT_DIR/wifi/wifi
@@ -42,6 +44,15 @@ instance=wlp3s0
 #color=#83d0c9
 #markup=pango
 
+[volume]
+command=~/.config/bin/volume
+label=
+interval=once
+signal=10
+#STEP=5%
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+
 [battery]
 label=
 separator=true
@@ -49,9 +60,3 @@ interval=60
 command=$SCRIPT_DIR/battery2/battery2
 color=#dfe3ee
 markup=pango
-
-[time]
-separator=true
-command= date '+%Y-%m-%d %a %I:%M%P'
-label=
-interval=60
