@@ -1,7 +1,7 @@
 DEFAULT_USER="cypher"
 HOME="`cd;pwd`"
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir_writable dir vcs)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir_writable dir) # vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs time)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
@@ -101,7 +101,7 @@ alias :q="exit"
 alias :qa="exit"
 alias :wq="exit"
 alias :wqa="exit"
-alias :r="clear; cabal test"
+alias :r="clear; ctest"
 
 function mk { mkdir $1; cd $1; }
 
