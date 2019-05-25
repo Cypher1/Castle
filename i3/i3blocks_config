@@ -21,7 +21,7 @@ color=#dcedc1
 separator=true
 
 [volume]
-command=$SCRIPT_DIR/volume/volume
+command=~/.config/bin/volume
 label=
 interval=once
 signal=10
