@@ -25,8 +25,8 @@ set $workspace5 "5"
 set $workspace6 "6"
 set $workspace7 "7"
 set $workspace8 "8"
-set $workspace9 "9:"
-set $workspace10 "10:"
+set $workspace9 "9"
+set $workspace10 "10"
 
 # COLOURS #
 set $color #FFFFFF
@@ -111,10 +111,10 @@ mode "resize" {
   #bindsym $mod+j exec "$i3_nav_cli focus down"
   #bindsym $mod+k exec "$i3_nav_cli focus up"
   #bindsym $mod+l exec "$i3_nav_cli focus right"
-  bindsym h resize grow width 10
-  bindsym j resize shrink height 10
-  bindsym k resize grow height 10
-  bindsym l resize shrink width 10
+  bindsym h resize grow width 20
+  bindsym j resize shrink height 20
+  bindsym k resize grow height 20
+  bindsym l resize shrink width 20
   #bindsym h exec "$i3_nav_cli resize h"
   #bindsym j exec "$i3_nav_cli resize j"
   #bindsym k exec "$i3_nav_cli resize k"
