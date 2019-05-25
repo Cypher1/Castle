@@ -1,3 +1,4 @@
 #!/bin/bash
 query="$(echo "$@" | sed "s/ +/\+/")"
-google-chrome-stable "https://www.google.com/search?q=$query"
+google-chrome-stable "https://www.google.com/search?q=$query" 1> /dev/null 2> /dev/null &
+disown %1
