@@ -20,18 +20,27 @@ command=$SCRIPT_DIR/temperature/temperature
 color=#dcedc1
 separator=true
 
+[volume]
+command=$SCRIPT_DIR/volume/volume
+label=
+interval=once
+signal=10
+#STEP=5%
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
+
 [wifi]
 command=INTERFACE=wlp3s0 $SCRIPT_DIR/wifi/wifi
 label=
 interval=10
 
-[bandwidth]
-label=
-command=$SCRIPT_DIR/bandwidth3/bandwidth3
+#[bandwidth]
+#label=
+#command=$SCRIPT_DIR/bandwidth3/bandwidth3
 instance=wlp3s0
-interval=persist
-color=#83d0c9
-markup=pango
+#interval=persist
+#color=#83d0c9
+#markup=pango
 
 [battery]
 label=
@@ -43,6 +52,6 @@ markup=pango
 
 [time]
 separator=true
-command= date '+%a %d/%m/%Y %I:%M%P'
+command= date '+%Y-%m-%d %a %I:%M%P'
 label=
 interval=60

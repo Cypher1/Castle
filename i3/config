@@ -40,15 +40,10 @@ set $i3home ~/.config/i3/
 
 font pango:Monospace Regular 16
 
-# Use Mouse+$mod to drag floating windows to their wanted position
-floating_modifier $mod
-
 # start a terminal
 bindsym $mod+Return exec qterminal
-
 # start a browser
 bindsym $mod+Shift+Return exec google-chrome-stable
-
 
 # kill focused window
 bindsym $mod+Shift+q kill
@@ -61,25 +56,27 @@ bindsym $mod+backslash split h
 bindsym $mod+minus split v
 
 # change container layout (tabbed, toggle split)
-bindsym $mod+colon layout tabbed
-bindsym $mod+Shift+colon layout toggle split
+bindsym $mod+w layout toggle split
+bindsym $mod+Shift+w layout tabbed
 
 # enter fullscreen mode for the focused container
-bindsym XF86LaunchA fullscreen toggle
+bindsym $mod+f fullscreen toggle
 
 # restart
 bindsym $mod+Shift+r restart
 
 # change focus between tiling / floating windows
-bindsym $mod+XF86LaunchA focus mode_toggle
+bindsym $mod+XF86LaunchA fullscreen toggle
 # toggle tiling / floating
 bindsym $mod+Shift+XF86LaunchA floating toggle
+# Use Mouse+$mod to drag floating windows to their wanted position
+floating_modifier $mod
 
 # focus the parent container
-# bindsym $mod+p focus parent
+bindsym $mod+p focus parent
 
 # focus the child contai3 mod is altainer
-# bindsym $mod+Shift+p focus child
+bindsym $mod+Shift+p focus child
 
 # switch to workspace with urgent window automatically
 for_window [urgent=latest] focus
@@ -206,11 +203,11 @@ workspace $workspace10 output $secondMonitor
 
 # AUDIO #
 set $AUDIO default
-bindsym XF86AudioRaiseVolume exec "pamixer --increase 5 && pkill -SIGUSR1 .py3status-wrap"
-bindsym XF86AudioLowerVolume exec "pamixer --decrease 5 && pkill -SIGUSR1 .py3status-wrap"
-bindsym $mod+XF86AudioRaiseVolume exec "pamixer --increase 1 && pkill -SIGUSR1 .py3status-wrap"
-bindsym $mod+XF86AudioLowerVolume exec "pamixer --decrease 1 && pkill -SIGUSR1 .py3status-wrap"
-bindsym XF86AudioMute exec "pamixer -t && pkill -SIGUSR1 .py3status-wrap"
+bindsym XF86AudioRaiseVolume exec "pamixer --unmute --increase 5 && pkill -RTMIN+10 i3blocks"
+bindsym XF86AudioLowerVolume exec "pamixer --decrease 5 && pkill -RTMIN+10 i3blocks"
+bindsym $mod+XF86AudioRaiseVolume exec "pamixer --unmute --increase 1 && pkill -RTMIN+10 i3blocks"
+bindsym $mod+XF86AudioLowerVolume exec "pamixer --decrease 1 && pkill -RTMIN+10 i3blocks"
+bindsym XF86AudioMute exec "pamixer -t && pkill -RTMIN+10 i3blocks"
 
 # BRIGHTNESS #
 bindsym XF86MonBrightnessUp exec "xbacklight + 5"
