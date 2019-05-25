@@ -169,6 +169,7 @@ let g:switch_custom_definitions =
     \   ['0', '1'],
     \   ['<', '>', '<=', '>=', '!=', '/='],
     \   ['TRUE', 'FALSE'],
+    \   ['True', 'False'],
     \   ['T', 'F'],
     \   ['.cc', '.h'],
     \   ['{', '}'],
