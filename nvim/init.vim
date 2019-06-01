@@ -118,6 +118,18 @@ nmap <leader>q :bp <BAR> bd #<CR>
 nmap <leader>w :w <CR>
 nmap <leader>u :MundoToggle<CR>
 nmap <silent> <leader>g /^\(<\{7\}\\|>\{7\}\\|=\{7\}\\|\|\{7\}\)\( \\|$\)<cr>
+
+function! ClipboardYank()
+  call system('xclip -i -selection clipboard', @@)
+endfunction
+function! ClipboardPaste()
+  let @@ = system('xclip -o -selection clipboard')
+endfunction
+
+vnoremap <silent> y y:call ClipboardYank()<cr>
+" vnoremap <silent> d d:call ClipboardYank()<cr>
+nnoremap <silent> p :call ClipboardPaste()<cr>p
+
 " }}}
 " FZF {{{
 
@@ -170,7 +182,6 @@ let g:switch_custom_definitions =
     \   ['<', '>', '<=', '>=', '!=', '/='],
     \   ['TRUE', 'FALSE'],
     \   ['True', 'False'],
-    \   ['T', 'F'],
     \   ['.cc', '.h'],
     \   ['{', '}'],
     \   ['[', ']'],
