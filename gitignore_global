@@ -4,6 +4,7 @@ dist-*
 .hsenv
 .cabal-sandbox/
 cabal.sandbox.config
+.ghc.environment.*
 *.prof
 *.aux
 *.hp
