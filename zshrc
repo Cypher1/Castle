@@ -132,7 +132,7 @@ function h() {
         confirm "Install Hoogle?" && stack install hoogle
     fi
     cacher 36000000 hoogle generate > /dev/null
-    hoogle "$@" | ccat;
+    hoogle "$@" --count=60 | ccat;
 }
 
 function new-module () {
