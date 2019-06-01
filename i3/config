@@ -12,7 +12,7 @@ exec_always --no-startup-id feh --bg-fill ~/Pictures/firewatch.jpg &
 exec --no-startup-id xfce4-power-manager
 
 # SCREENSHOTS #
-bindsym XF86LaunchB exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/'
+bindsym XF86LaunchB exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/Screenshots/'
 
 set $mod Mod4
 set $alt Mod1

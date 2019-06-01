@@ -8,6 +8,10 @@ then
   exit 0
 fi
 
+case $BLOCK_BUTTON in
+  1) qterminal ;;
+esac
+
 gstatus="$(git status -sb --porcelain)"
 inf="$(echo "$gstatus" | tail -n +2)"
 dirty="#FFFF00"

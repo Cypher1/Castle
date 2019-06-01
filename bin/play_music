@@ -1,2 +1,2 @@
 #!/bin/bash
-chrome "play.google.com/music/listen?authuser#/home"
+xdg-open "https://play.google.com/music/listen?authuser#/home"

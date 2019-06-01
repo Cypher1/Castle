@@ -1,0 +1,4 @@
+#!/bin/zsh
+source ~/.oh-my-zsh/plugins/z/z.sh
+z $@
+pwd
