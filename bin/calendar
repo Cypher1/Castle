@@ -1,0 +1,9 @@
+#! /bin/sh
+
+DATEFMT="+%Y-%m-%d %a %I:%M%P"
+SHORTFMT="+%I:%M%P"
+
+case "$BLOCK_BUTTON" in
+  3) echo "$LABEL$(date "$DATEFMT")";;
+  *) echo "$LABEL$(date "$SHORTFMT")" ;;
+esac

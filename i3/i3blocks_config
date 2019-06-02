@@ -1,3 +1,8 @@
+[git]
+label=
+command=~/.config/bin/gitstatus
+interval=2
+
 [pacman-updates]
 label= 
 markup=pango
@@ -5,6 +10,20 @@ interval=3600
 command=$SCRIPT_DIR/arch-update/arch-update -a -q
 #BASE_COLOR=#5fff5f
 #UPDATE_COLOR=#FFFF85
+
+[wifi]
+command=INTERFACE=wlp3s0 ~/.config/bin/wifi
+label=
+interval=10
+
+[volume]
+command=~/.config/bin/volume
+label=
+interval=once
+signal=10
+#STEP=5%
+#MIXER=[determined automatically]
+#SCONTROL=[determined automatically]
 
 [cpu]
 label=
@@ -20,39 +39,6 @@ command=$SCRIPT_DIR/temperature/temperature
 color=#dcedc1
 separator=true
 
-[git]
-label=
-command=~/.config/bin/gitstatus
-interval=2
-
-[time]
-separator=true
-command= date '+%Y-%m-%d %a %I:%M%P'
-label=
-interval=60
-
-[wifi]
-command=INTERFACE=wlp3s0 ~/.config/bin/wifi
-label=
-interval=10
-
-#[bandwidth]
-#label=
-#command=$SCRIPT_DIR/bandwidth3/bandwidth3
-instance=wlp3s0
-#interval=persist
-#color=#83d0c9
-#markup=pango
-
-[volume]
-command=~/.config/bin/volume
-label=
-interval=once
-signal=10
-#STEP=5%
-#MIXER=[determined automatically]
-#SCONTROL=[determined automatically]
-
 [battery]
 label=
 separator=true
@@ -60,3 +46,9 @@ interval=60
 command=$SCRIPT_DIR/battery2/battery2
 color=#dfe3ee
 markup=pango
+
+[time]
+separator=true
+command=~/.config/bin/calendar
+label=
+interval=60

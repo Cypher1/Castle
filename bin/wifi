@@ -43,8 +43,8 @@ NETWORK=$(nmcli | grep -o "connected to.*" | sed "s/^connected to //")
 #------------------------------------------------------------------------
 
 case $BLOCK_BUTTON in
-  2) ~/.config/bin/wifi_control && echo "$NETWORK";;
-  3) echo "$NETWORK";;
+  2) echo "$NETWORK";;
+  3) ~/.config/bin/wifi_control && echo "$QUALITY%";;
   *) echo "$QUALITY%";;
 esac
 
