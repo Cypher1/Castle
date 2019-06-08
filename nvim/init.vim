@@ -187,6 +187,7 @@ let g:switch_custom_definitions =
     \   ['[', ']'],
     \   ['(', ')'],
     \   ['||', '&&'],
+    \   ['//', '//TODO(cypher1):', '--', '--TODO(cypher1):'],
     \   ['and', 'or'],
     \   ['x', 'y', 'z', 'i', 'j', 'k', 'u', 'v']
     \ ]
