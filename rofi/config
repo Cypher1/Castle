@@ -1,5 +1,4 @@
 rofi.combi-modi:      window,drun,ssh
-rofi.theme:           solarized_alternate
 rofi.font:            fira-code 16
 rofi.modi:            combi
 rofi.show:            run

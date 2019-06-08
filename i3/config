@@ -4,6 +4,9 @@
 # Set up KEYS
 exec bash ~/.config/Keys
 
+# Start the bookmark server.
+exec ~/.cabal/bin/Automark -p 8888
+
 # num lock activated
 exec_always --no-startup-id feh --bg-fill ~/Pictures/firewatch.jpg &
 
@@ -49,7 +52,7 @@ bindsym $mod+Shift+Return exec google-chrome-stable
 bindsym $mod+Shift+q kill
 
 # start dmenu (a program launcher)
-bindsym $mod+space exec rofi -show run
+bindsym $mod+space exec ~/.config/bin/rofi
 
 # split in v/h orientation
 bindsym $mod+backslash split h
@@ -163,6 +166,7 @@ bar {
   tray_output primary
   strip_workspace_numbers yes
   separator_symbol "|"
+  # status_command SCRIPT_DIR=~/.config/i3blocks-contrib/ i3blocks -c ~/.config/i3/i3blocks_config
   status_command SCRIPT_DIR=~/.config/i3blocks-contrib/ i3blocks -c ~/.config/i3/i3blocks_config
   colors {
     statusline #cdffff
