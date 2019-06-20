@@ -68,10 +68,8 @@ bindsym $mod+f fullscreen toggle
 # restart
 bindsym $mod+Shift+r restart
 
-# change focus between tiling / floating windows
-bindsym $mod+XF86LaunchA fullscreen toggle
 # toggle tiling / floating
-bindsym $mod+Shift+XF86LaunchA floating toggle
+bindsym $mod+Shift+comma floating toggle
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
 
