@@ -29,8 +29,15 @@ Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
 Plug 'rust-lang/rust.vim'               " Rust
 Plug 'idris-hackers/idris-vim'          " Idris
+Plug 'mustache/vim-mustache-handlebars' " Mustach for vim
 Plug 'dag/vim2hs'                       " Haskell suppordag/vim2hst
 Plug 'sbdchd/neoformat'                 " Autoformat (includes clang-format)
+
+Plug 'autozimu/LanguageClient-neovim', {
+    \ 'branch': 'next',
+    \ 'do': 'bash install.sh',
+    \ }
+Plug 'christianrondeau/vimcastle'       " Castle game
 call plug#end()
 
 " }}}
@@ -193,8 +200,21 @@ let g:switch_custom_definitions =
     \ ]
 set nostartofline
 " }}}
-" My Repls {{{
+" My Repls and Language servers {{{
 let g:rappel#launch="google-chrome-stable \"%\""
+
+augroup vim
+  autocmd!
+nnoremap M :call LanguageClient_contextMenu()<CR>
+" Or map each action separately
+nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
+nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
+nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
+augroup END
+
+let g:LanguageClient_serverCommands = {
+  \ 'cpp': ['clangd', '-background-index'],
+  \ }
 " }}}
 " Autocommands {{{
 augroup vim
