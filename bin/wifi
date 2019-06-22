@@ -30,6 +30,9 @@ if [[ "$(cat /sys/class/net/$INTERFACE/operstate)" = 'down' ]]; then
     echo "down"
     echo "down"
     echo "#FF0000"
+    case $BLOCK_BUTTON in
+      3) ~/.config/bin/wifi_control;;
+    esac
     exit
 fi
 
@@ -38,7 +41,7 @@ fi
 QUALITY=$(grep $INTERFACE /proc/net/wireless | awk '{ print int($3 * 100 / 70) }')
 
 
-NETWORK=$(nmcli | grep -o "connected to.*" | sed "s/^connected to //")
+NETWORK=$(nmcli | grep -o "connected to.*" | sed "s/^connected to //" || echo 'down')
 
 #------------------------------------------------------------------------
 

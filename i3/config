@@ -10,9 +10,8 @@ exec ~/.cabal/bin/Automark -p 8888
 # num lock activated
 exec_always --no-startup-id feh --bg-fill ~/Pictures/firewatch.jpg &
 
-# Setup wakeup
-# exec --no-startup-id /home/cypher/.config/bin/wakeup 2&> /tmp/wakeup_log
-exec --no-startup-id xfce4-power-manager
+# POWER
+bindsym XF86PowerOff exec ~/.config/bin/rofi
 
 # SCREENSHOTS #
 bindsym XF86LaunchB exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/Screenshots/'
@@ -41,7 +40,7 @@ set $color_border #555555
 
 set $i3home ~/.config/i3/
 
-font pango:Monospace Regular 16
+font pango:Monospace Regular 12
 
 # start a terminal
 bindsym $mod+Return exec qterminal
@@ -223,3 +222,4 @@ bindsym $mod+XF86MonBrightnessDown exec "xbacklight - 1"
 #bindsym $mod+XF86KbdBrightnessDown exec "keyboard-backlight down 1"
 # BORDER #
 new_window pixel 0
+gaps inner 10
