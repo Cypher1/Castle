@@ -13,7 +13,7 @@ exec ~/.cabal/bin/Automark -p 8888
 exec_always --no-startup-id feh --bg-fill ~/Pictures/firewatch.jpg &
 
 # POWER
-bindsym XF86PowerOff exec ~/.config/bin/rofi
+bindsym XF86PowerOff exec systemctl "$(echo -e 'poweroff\nsuspend' | rofi -p systemctl -show run -dmenu --normal-window)"
 
 # SCREENSHOTS #
 bindsym XF86LaunchB exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/Screenshots/'
