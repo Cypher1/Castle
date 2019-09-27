@@ -1,9 +1,12 @@
 #! /bin/sh
 
+TZ='Australia/Sydney'
+grep 'en_AU' ~/.config/user-dirs.locale > /dev/null || TZ='America/Los_Angeles'
+
 DATEFMT="+%Y-%m-%d %a %I:%M%P"
 SHORTFMT="+%I:%M%P"
 
 case "$BLOCK_BUTTON" in
-  3) echo "$LABEL$(date "$DATEFMT")";;
-  *) echo "$LABEL$(date "$SHORTFMT")" ;;
+  3) echo "$LABEL$(TZ=$TZ date "$DATEFMT")";;
+  *) echo "$LABEL$(TZ=$TZ date "$SHORTFMT")";;
 esac
