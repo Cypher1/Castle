@@ -1,5 +1,7 @@
 dist
 dist-*
+build
+.clangd
 .hpc
 .hsenv
 .cabal-sandbox/
@@ -47,6 +49,8 @@ cabal.project.local
 .vscode
 *.ini
 /node_modules/*
+*/_site/*
+*/*.lock
 cabal-dev
 .stack-work/
 
