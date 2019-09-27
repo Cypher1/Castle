@@ -137,3 +137,7 @@ tako
 deps
 util
 rapidcheck
+takoConfig
+h
+takoTest
+arg
