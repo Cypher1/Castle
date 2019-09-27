@@ -47,8 +47,8 @@ command=$SCRIPT_DIR/battery2/battery2
 color=#dfe3ee
 markup=pango
 
-[time]
+[calendar]
 separator=true
 command=~/.config/bin/calendar
 label=
-interval=60
+interval=1

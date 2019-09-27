@@ -6,14 +6,16 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 # Set up KEYS
 exec bash ~/.config/Keys
 
+exec pamac-tray
+
 # Start the bookmark server.
-exec ~/.cabal/bin/Automark -p 8888
+# exec ~/.cabal/bin/Automark -p 8888
 
 # num lock activated
 exec_always --no-startup-id feh --bg-fill ~/Pictures/firewatch.jpg &
 
 # POWER
-bindsym XF86PowerOff exec systemctl "$(echo -e 'poweroff\nsuspend' | ~/.config/bin/rofi -p systemctl -show run -dmenu --normal-window)"
+bindsym XF86PowerOff exec systemctl "$(echo -e 'poweroff\nsuspend\nreboot' | ~/.config/bin/rofi -p systemctl -show run -dmenu --normal-window)"
 
 # SCREENSHOTS #
 bindsym XF86LaunchB exec scrot '%Y-%m-%d-%s_screenshot_$wx$h.jpg' -e 'mv $f ~/Pictures/Screenshots/'
@@ -218,10 +220,11 @@ bindsym XF86MonBrightnessDown exec "xbacklight - 5"
 bindsym $mod+XF86MonBrightnessUp exec "xbacklight + 1"
 bindsym $mod+XF86MonBrightnessDown exec "xbacklight - 1"
 
-# bindsym XF86KbdBrightnessUp exec "keyboard-backlight up 10"
-#bindsym XF86KbdBrightnessDown exec "keyboard-backlight down 10"
-#bindsym $mod+XF86KbdBrightnessUp exec "keyboard-backlight up 1"
-#bindsym $mod+XF86KbdBrightnessDown exec "keyboard-backlight down 1"
+bindsym XF86KbdBrightnessUp exec "kbdlight up 5"
+bindsym XF86KbdBrightnessDown exec "kbdlight down 5"
+bindsym $mod+XF86KbdBrightnessUp exec "kbdlight up 1"
+bindsym $mod+XF86KbdBrightnessDown exec "kbdlight down 1"
+
 # BORDER #
 new_window pixel 0
 gaps inner 10
