@@ -186,7 +186,10 @@ alias gg="git grep -i"
 alias log="git log"
 alias gbn="git branch -m"
 alias branch="git branch --color=never | grep '*' | cut -f2 -d' '"
-alias map="$HOME/.depot/git_map_branches.py -vv | git branch -vv | cat"
+alias map="git branch -vv --color=always | cat"
+
+alias livetest="when-changed *.* ./src/**/* ./test/**.* -c \"clear && echo '----' && ninja -C build test\""
+alias li=livetest
 
 function swap() {
   mv "$2" _swap_tmp_
