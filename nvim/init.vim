@@ -67,7 +67,6 @@ set ttimeoutlen=50 " fast key codes
 set backspace=indent,eol,start
 set clipboard+=unnamedplus
 let g:deoplete#enable_at_startup = 1
-let g:deoplete#sources#clang#libclang_path = "/usr/local/Cellar/llvm37/3.7.1/lib/llvm-3.7/lib/libclang.dylib"
 set sessionoptions-=options
 set foldmethod=manual foldlevel=20
 set visualbell noerrorbells novisualbell t_vb=
@@ -75,7 +74,7 @@ set ignorecase smartcase gdefault magic inccommand=split
 nnoremap <silent> : :nohlsearch<CR>:
 tnoremap : <C-\><C-n>:
 tnoremap :: :
-set backup writebackup backupdir=/tmp/ hidden
+set backup writebackup backupdir=~/.tmp/ hidden
 " Allow saving of files as sudo when I forgot to start vim using sudo.
 cmap w!! w !sudo tee > /dev/null %
 set undofile undodir=~/.config/nvim/undo-dir
@@ -241,6 +240,7 @@ augroup vim
   au Filetype html iabbrev </ </<C-X><C-O>
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
+  au BufEnter,BufRead *.ik set filetype=rust
   au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
   au TabNewEntered,TermOpen,BufWinEnter,WinEnter term://* startinsert
   au BufEnter *.hs compiler ghc

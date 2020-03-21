@@ -1,6 +1,7 @@
 DEFAULT_USER="cypher"
 HOME="`cd;pwd`"
 
+bindkey -v
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir) # vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -77,6 +78,8 @@ alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
 alias r="clear"
 alias .="r && cd . && ls"
 alias ..="r && cd .. && ls"
+
+alias ct="cargo test"
 alias q="exit"
 alias u="du -hs *"
 alias :q="exit"
@@ -159,3 +162,6 @@ alias sigh="~/Projects/arcs/tools/sigh"
 export DISPLAY=:0
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
 alias vscode=code
+
+export PATH=/usr/lib/ccache:$PATH
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
