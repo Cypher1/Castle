@@ -75,26 +75,34 @@ alias shutdown="sudo shutdown -h now"
 alias cp="cp -r"
 alias rm="rm -r"
 alias grep="egrep"
-EDITOR="$(which nvim || which vim)"
+export EDITOR="$(which nvim || which vim)"
+export MANPAGER="/bin/sh -c \"col -b | $EDITOR -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
 VISUAL="$EDITOR"
-alias v="$EDITOR"
 alias vi="$EDITOR -O"
 alias vim="$EDITOR "
+alias zrc="$EDITOR ~/.config/zshrc"
+alias vrc="$EDITOR ~/.config/nvim/init.vim"
+alias 3rc="$EDITOR ~/.config/i3/config"
+alias 3src="$EDITOR ~/.config/i3/i3status.conf"
+
+export NVIM_LISTEN_ADDRESS="/tmp/nvimsocket"
+if [ -n "${NVIM_LISTEN_ADDRESS+x}" ]; then
+  alias h='nvr -s -o'
+  alias v='nvr -s -O'
+  alias t='nvr -s --remote-tab'
+  export EDITOR="nvr -s -O"
+fi
+
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias ghc="ghc -Wall"
 alias g++="g++ -std=c++14 -Wall -Werror"
 
 # ADDITIONS
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
-alias zrc="$EDITOR ~/.config/zshrc"
-alias vrc="$EDITOR ~/.config/nvim/init.vim"
-alias 3rc="$EDITOR ~/.config/i3/config"
-alias 3src="$EDITOR ~/.config/i3/i3status.conf"
 
 alias r="clear"
 alias .="r && cd . && ls"
 alias ..="r && cd .. && ls"
-alias t="time"
 alias q="exit"
 alias u="du -hs *"
 alias :q="exit"
@@ -156,17 +164,7 @@ function run-servant {
 }
 
 function blog {
-  SERVER="jekyll serve --livereload"
-  FILES="$@"
-  for f in ${FILES[@]}; do
-    sed "s/\(published: *\)false/\1true/" ${f} > /tmp/edit_post
-    mv /tmp/edit_post ${f}
-  done
-  ${EDITOR} ${FILES}
-  for f in ${FILES[@]}; do
-    sed "s/\(published: *\)true/\1false/" ${f} > /tmp/edit_post
-    mv /tmp/edit_post ${f}
-  done
+  bundle exec jekyll serve --livereload --unpublished "$@"
 }
 
 alias -s git='git clone'
@@ -187,6 +185,7 @@ alias log="git log"
 alias gbn="git branch -m"
 alias branch="git branch --color=never | grep '*' | cut -f2 -d' '"
 alias map="git branch -vv --color=always | cat"
+alias mtmp="git commit -m 'TMP - unverified' --no-verify"
 
 alias livetest="when-changed *.* ./src/**/* ./test/**.* -c \"clear && echo '----' && ninja -C build test\""
 alias li=livetest
@@ -203,3 +202,6 @@ alias sigh="~/Projects/arcs/tools/sigh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
 [ -f ~/.ghcup/env ] && source ~/.ghcup/env
+
+# opam configuration
+test -r /home/cypher/.opam/opam-init/init.zsh && . /home/cypher/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
