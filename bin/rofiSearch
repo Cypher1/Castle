@@ -1,0 +1,2 @@
+#!/bin/bash
+echo "" | ~/.config/bin/rofi -dmenu -p "Google" | xargs -I{} xdg-open https://www.google.com/search?q={}

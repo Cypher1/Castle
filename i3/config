@@ -7,6 +7,8 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 exec bash ~/.config/Keys
 
 exec pamac-tray
+exec nm-applet
+exec /usr/bin/gpg-agent --daemon --enable-ssh-support --homedir=%h/.gnupg
 
 # Start the bookmark server.
 # exec ~/.cabal/bin/Automark -p 8888
@@ -48,8 +50,12 @@ font pango:Monospace Regular 12
 
 # start a terminal
 bindsym $mod+Return exec qterminal
+bindsym $mod+Q exec ~/.config/bin/rofiSearch
+# bindsym $mod+Return exec nvim -c 'terminal'
+
 # start a browser
-bindsym $mod+Shift+Return exec google-chrome-stable
+# bindsym $mod+Shift+Return exec google-chrome-stable
+bindsym $mod+Shift+Return exec firefox
 
 # kill focused window
 bindsym $mod+Shift+q kill
