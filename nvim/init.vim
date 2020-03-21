@@ -6,6 +6,7 @@ call plug#begin('~/.local/share/nvim/plugged') " Plugins go here
 Plug 'sickill/vim-monokai' "Colours
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
+Plug 'tomasiser/vim-code-dark'
 
 " Tweaks & Fixes
 Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
@@ -37,26 +38,31 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'christianrondeau/vimcastle'       " Castle game
+Plug 'whonore/Coqtail'                  " Coq (better)
+Plug 'let-def/vimbufsync'               " Dep of coquille
+Plug 'leanprover/lean.vim'              " Lean support
 call plug#end()
 
 " }}}
 " Colour Scheme {{{
 syntax enable
 set background=dark
-colorscheme monokai
+colorscheme codedark
+set notermguicolors
 
 let g:filetype_pl="prolog"
 let $COLORTERM = "gnome-terminal"
-set colorcolumn=80
+" set colorcolumn=120
 " }}}
 " Status Information {{{
-set cursorline ruler relativenumber number laststatus=2
+set cursorline ruler laststatus=2
 set list listchars=tab:>.,trail:.,extends:#,nbsp:.
 " }}}
 " Input settings {{{
 let mapleader=' '
-set mouse=ncr
+set mouse=nicra
 set ttimeoutlen=50 " fast key codes
 set backspace=indent,eol,start
 set clipboard+=unnamedplus
@@ -156,7 +162,8 @@ command! -bang -nargs=? -complete=dir Files
 
 nmap <C-O> <ESC>:GFiles<CR>
 nmap <C-F> <ESC>:GGrep<CR>
-nmap <C-G> <ESC>:Buffers<CR>
+nmap <C-G> <ESC>:Gblame<CR>
+nmap <C-B> <ESC>:Buffers<CR>
 
 " }}}
 " Tab (Indent and Completion) {{{
@@ -170,6 +177,7 @@ nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 " Movement {{{
 nmap j gj
 nmap k gk
+noremap <A-h> :set relativenumber! number!<CR>
 "Shove down: <A-j>
 nnoremap ∆ :m.+1<CR>==
 inoremap ∆ <Esc>:m .+1<CR>==gi
@@ -210,10 +218,18 @@ nnoremap M :call LanguageClient_contextMenu()<CR>
 nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
 nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
 nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
+
+" Lean
+
+imap <A-s>^ ∧
+imap <A-s>> →
 augroup END
 
+let g:LanguageClient_autoStart = 1
 let g:LanguageClient_serverCommands = {
   \ 'cpp': ['clangd', '-background-index'],
+  \ 'lean': ['lean-language-server', '--stdio'],
+  \ 'rust': ['rust-analyzer'],
   \ }
 " }}}
 " Autocommands {{{
@@ -226,7 +242,7 @@ augroup vim
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
   au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
-  au TabNewEntered,TermOpen term://* startinsert
+  au TabNewEntered,TermOpen,BufWinEnter,WinEnter term://* startinsert
   au BufEnter *.hs compiler ghc
 augroup END
 " }}}
