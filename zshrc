@@ -48,6 +48,7 @@ export PATH="${PATH}:/usr/local/go/bin"
 export PATH="${PATH}:${HOME}/Library/Haskell/bin"
 export PATH="${PATH}:${HOME}/opt/gcc-arm-none-eabi-8-2018-q4-major/bin/"
 export PATH="${PATH}:${HOME}/.cabal/bin"
+export PATH="${PATH}:${HOME}/.cargo/bin"
 export PATH="${PATH}:${HOME}/.local/bin/"
 export PATH="${PATH}:${HOME}/.config/bin"
 
@@ -68,6 +69,9 @@ _stack() {
     COMPREPLY=( $(stack "${CMDLINE[@]}") )
 }
 complete -o filenames -F _stack stack
+
+alias python="python3"
+alias python2="python3"
 
 # CHANGING DEFAULTS
 alias reboot="sudo reboot"
@@ -196,7 +200,7 @@ function swap() {
   mv _swap_tmp_ "$1"
 }
 
-alias -s exe='wine'
+# alias -s exe='wine'
 alias sigh="~/Projects/arcs/tools/sigh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
@@ -205,3 +209,5 @@ alias sigh="~/Projects/arcs/tools/sigh"
 
 # opam configuration
 test -r /home/cypher/.opam/opam-init/init.zsh && . /home/cypher/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
+export DISPLAY=:0
+export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
