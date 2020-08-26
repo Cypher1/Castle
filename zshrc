@@ -1,8 +1,8 @@
 DEFAULT_USER="cypher"
 HOME="`cd;pwd`"
 
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir_writable dir) # vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs time)
+POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir) # vcs)
+POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=""
@@ -17,10 +17,6 @@ plugins=(
     sudo
     z
     fancy-ctrl-z
-    copybuffer # bound to <Control-o>
-    python
-    pip
-    systemadmin
     zsh-autosuggestions
     zsh-completions
   )
@@ -54,22 +50,6 @@ export PATH="${PATH}:${HOME}/.config/bin"
 
 source $ZSH/oh-my-zsh.sh
 
-autoload -U +X bashcompinit && bashcompinit
-
-_stack() {
-    # eval "$(stack --bash-completion-script stack)"
-    local CMDLINE
-    local IFS=$'\n'
-    CMDLINE=(--bash-completion-index $COMP_CWORD)
-
-    for arg in ${COMP_WORDS[@]}; do
-        CMDLINE=(${CMDLINE[@]} --bash-completion-word $arg)
-    done
-
-    COMPREPLY=( $(stack "${CMDLINE[@]}") )
-}
-complete -o filenames -F _stack stack
-
 alias python="python3"
 alias python2="python3"
 
@@ -89,16 +69,6 @@ alias vrc="$EDITOR ~/.config/nvim/init.vim"
 alias 3rc="$EDITOR ~/.config/i3/config"
 alias 3src="$EDITOR ~/.config/i3/i3status.conf"
 
-export NVIM_LISTEN_ADDRESS="/tmp/nvimsocket"
-if [ -n "${NVIM_LISTEN_ADDRESS+x}" ]; then
-  alias h='nvr -s -o'
-  alias v='nvr -s -O'
-  alias t='nvr -s --remote-tab'
-  export EDITOR="nvr -s -O"
-fi
-
-alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
-alias ghc="ghc -Wall"
 alias g++="g++ -std=c++14 -Wall -Werror"
 
 # ADDITIONS
@@ -113,7 +83,6 @@ alias :q="exit"
 alias :qa="exit"
 alias :wq="exit"
 alias :wqa="exit"
-alias :r="clear; ctest"
 
 function mk { mkdir $1; cd $1; }
 
@@ -147,11 +116,6 @@ function h() {
     hoogle "$@" --count=60 | ccat;
 }
 
-function new-module () {
-  name="$1"
-  echo "module $name where" > "$name.hs"
-}
-
 # GIT COMMANDS
 function run-server {
   BUILDCOMMAND=$1
@@ -161,10 +125,6 @@ function run-server {
 
   COMMAND="$BUILDCOMMAND && ($RESTARTER; echo '$MSG'; date; $RUNCOMMAND &)"
   when-changed -s **/* -c "$COMMAND"
-}
-
-function run-servant {
-  run-server 'stack build' "stack exec $1" "pkill $1"
 }
 
 function blog {
@@ -191,23 +151,11 @@ alias branch="git branch --color=never | grep '*' | cut -f2 -d' '"
 alias map="git branch -vv --color=always | cat"
 alias mtmp="git commit -m 'TMP - unverified' --no-verify"
 
-alias livetest="when-changed *.* ./src/**/* ./test/**.* -c \"clear && echo '----' && ninja -C build test\""
-alias li=livetest
-
-function swap() {
-  mv "$2" _swap_tmp_
-  mv "$1" "$2"
-  mv _swap_tmp_ "$1"
-}
-
-# alias -s exe='wine'
 alias sigh="~/Projects/arcs/tools/sigh"
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
-[ -f ~/.ghcup/env ] && source ~/.ghcup/env
 
-# opam configuration
-test -r /home/cypher/.opam/opam-init/init.zsh && . /home/cypher/.opam/opam-init/init.zsh > /dev/null 2> /dev/null || true
 export DISPLAY=:0
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
+alias vscode=code
