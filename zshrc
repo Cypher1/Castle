@@ -53,6 +53,21 @@ source $ZSH/oh-my-zsh.sh
 
 alias python="python3"
 alias python2="python3"
+autoload -U +X bashcompinit && bashcompinit
+
+_stack() {
+    eval "$(stack --bash-completion-script stack)"
+    local CMDLINE
+    local IFS=$'\n'
+    CMDLINE=(--bash-completion-index $COMP_CWORD)
+
+    for arg in ${COMP_WORDS[@]}; do
+        CMDLINE=(${CMDLINE[@]} --bash-completion-word $arg)
+    done
+
+    COMPREPLY=( $(stack "${CMDLINE[@]}") )
+}
+complete -o filenames -F _stack stack
 
 # CHANGING DEFAULTS
 alias reboot="sudo reboot"
@@ -70,6 +85,16 @@ alias vrc="$EDITOR ~/.config/nvim/init.vim"
 alias 3rc="$EDITOR ~/.config/i3/config"
 alias 3src="$EDITOR ~/.config/i3/i3status.conf"
 
+#export NVIM_LISTEN_ADDRESS="/tmp/nvimsocket"
+if [ -n "${NVIM_LISTEN_ADDRESS+x}" ]; then
+  alias h='nvr -s -o'
+  alias v='nvr -s -O'
+  alias t='nvr -s --remote-tab'
+  export EDITOR="nvr -s -O"
+fi
+
+alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
+alias ghc="ghc -Wall"
 alias g++="g++ -std=c++14 -Wall -Werror"
 
 # ADDITIONS
