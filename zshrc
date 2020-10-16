@@ -75,9 +75,8 @@ alias g++="g++ -std=c++14 -Wall -Werror"
 # ADDITIONS
 alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
 
-alias r="clear"
-alias .="r && cd . && ls"
-alias ..="r && cd .. && ls"
+alias .="clear && cd . && ls"
+alias ..="clear && cd .. && ls"
 
 alias ct="cargo test"
 alias q="exit"
@@ -134,15 +133,17 @@ function blog {
   bundle exec jekyll serve --livereload --unpublished "$@"
 }
 
+alias got='git'
 alias -s git='git clone'
 alias s="clear; git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"
-alias P="git pull --ff-only"
+alias P="git pull --rebase"
 alias continue="git rebase --continue || git merge --continue"
 alias d="git diff"
 alias D="git diff --staged"
+alias gf="git fetch"
 alias gl="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq"
 alias ge="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq | xargs nvim"
 alias g="git log --graph"
@@ -151,12 +152,13 @@ alias gg="git grep -i"
 alias log="git log"
 alias gbn="git branch -m"
 alias branch="git branch --color=never | grep '*' | cut -f2 -d' '"
-alias map="git branch -vv --color=always | cat"
+alias map="git --no-pager branch -vv --color=always || ls"
+alias ma0="map"
 alias mtmp="git commit -m 'TMP - unverified' --no-verify"
 
 alias sigh="~/Projects/arcs/tools/sigh"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
 
 export DISPLAY=:0
@@ -165,3 +167,10 @@ alias vscode=code
 
 export PATH=/usr/lib/ccache:$PATH
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+alias t="cargo test --release"
+alias r="cargo run"
+alias b="cargo build --color=always 2>&1 | less -"
+# function man() {
+  # man $1 || which $1
+# }
