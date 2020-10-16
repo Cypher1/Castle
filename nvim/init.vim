@@ -37,7 +37,7 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
-Plug 'neoclide/coc.nvim', {'branch': 'release'}
+" Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'christianrondeau/vimcastle'       " Castle game
 Plug 'whonore/Coqtail'                  " Coq (better)
 Plug 'let-def/vimbufsync'               " Dep of coquille
