@@ -3,7 +3,6 @@ filetype plugin indent on " required
 " Plugin {{{
 call plug#begin('~/.local/share/nvim/plugged') " Plugins go here
 
-Plug 'sickill/vim-monokai' "Colours
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
 Plug 'tomasiser/vim-code-dark'
@@ -246,3 +245,8 @@ augroup vim
   au BufEnter *.hs compiler ghc
 augroup END
 " }}}
+
+augroup colors
+  highlight rustFunctionName ctermfg=green
+  highlight rustFunctionCall ctermfg=green
+augroup END
