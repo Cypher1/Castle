@@ -1,4 +1,3 @@
-DEFAULT_USER="cypher"
 HOME="`cd;pwd`"
 
 bindkey -v
@@ -14,10 +13,7 @@ export ZSH="$HOME/.oh-my-zsh"
 export TERM="xterm-256color"
 
 plugins=(
-    last-working-dir
-    sudo
     z
-    fancy-ctrl-z
     zsh-autosuggestions
     zsh-completions
   )
@@ -50,30 +46,10 @@ export PATH="${PATH}:${HOME}/.local/bin/"
 export PATH="${PATH}:${HOME}/.config/bin"
 
 source $ZSH/oh-my-zsh.sh
-
-alias python="python3"
-alias python2="python3"
 autoload -U +X bashcompinit && bashcompinit
 
-_stack() {
-    eval "$(stack --bash-completion-script stack)"
-    local CMDLINE
-    local IFS=$'\n'
-    CMDLINE=(--bash-completion-index $COMP_CWORD)
-
-    for arg in ${COMP_WORDS[@]}; do
-        CMDLINE=(${CMDLINE[@]} --bash-completion-word $arg)
-    done
-
-    COMPREPLY=( $(stack "${CMDLINE[@]}") )
-}
-complete -o filenames -F _stack stack
-
 # CHANGING DEFAULTS
-alias reboot="sudo reboot"
-alias shutdown="sudo shutdown -h now"
 alias cp="cp -r"
-alias rm="rm -r"
 alias grep="egrep"
 export EDITOR="$(which nvim || which vim)"
 export MANPAGER="/bin/sh -c \"col -b | $EDITOR -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
@@ -85,80 +61,12 @@ alias vrc="$EDITOR ~/.config/nvim/init.vim"
 alias 3rc="$EDITOR ~/.config/i3/config"
 alias 3src="$EDITOR ~/.config/i3/i3status.conf"
 
-#export NVIM_LISTEN_ADDRESS="/tmp/nvimsocket"
-if [ -n "${NVIM_LISTEN_ADDRESS+x}" ]; then
-  alias h='nvr -s -o'
-  alias v='nvr -s -O'
-  alias t='nvr -s --remote-tab'
-  export EDITOR="nvr -s -O"
-fi
-
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias ghc="ghc -Wall"
 alias g++="g++ -std=c++14 -Wall -Werror"
-
-# ADDITIONS
-alias zsh_upgrade="zsh ~/.oh-my-zsh/tools/upgrade.sh"
-
-alias .="clear && cd . && ls"
-alias ..="clear && cd .. && ls"
-
-alias ct="cargo test"
 alias q="exit"
-alias u="du -hs *"
-alias :q="exit"
-alias :qa="exit"
-alias :wq="exit"
-alias :wqa="exit"
-
-function mk { mkdir $1; cd $1; }
-
-function watch {
-    sleeptime="${2:-2}"
-    while true; do
-        clear
-        echo -n `date`
-        echo " Running \`$1\` every $sleeptime seconds"
-        sh -c "$1"
-        sleep $sleeptime
-    done;
-}
-
-function confirm {
-    # call with a prompt string or use a default
-    echo -n "${1:-Are you sure?} [y/N] "
-    read response
-    if [[ $response =~ ^([yY][eE][sS]|[yY])$ ]] then;
-        return 0;
-    fi;
-    return 1;
-}
-
-function h() {
-    if command -v "hoogle" > /dev/null 2>&1; then
-    else
-        confirm "Install Hoogle?" && stack install hoogle
-    fi
-    cacher 36000000 hoogle generate > /dev/null
-    hoogle "$@" --count=60 | ccat;
-}
 
 # GIT COMMANDS
-function run-server {
-  BUILDCOMMAND=$1
-  RUNCOMMAND=$2
-  RESTARTER=$3
-  MSG='Server starting'
-
-  COMMAND="$BUILDCOMMAND && ($RESTARTER; echo '$MSG'; date; $RUNCOMMAND &)"
-  when-changed -s **/* -c "$COMMAND"
-}
-
-function blog {
-  bundle exec jekyll serve --livereload --unpublished "$@"
-}
-
-alias got='git'
 alias -s git='git clone'
 alias s="clear; git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
@@ -168,27 +76,25 @@ alias P="git pull --rebase"
 alias continue="git rebase --continue || git merge --continue"
 alias d="git diff"
 alias D="git diff --staged"
-alias gf="git fetch"
 alias gl="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq"
 alias ge="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq | xargs nvim"
-alias g="git log --graph"
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f; done | grep '^author ' | sort -f | uniq -ic | sort -n"
 alias gg="git grep -i"
 alias log="git log"
-alias gbn="git branch -m"
 alias branch="git branch --color=never | grep '*' | cut -f2 -d' '"
 alias map="git --no-pager branch -vv --color=always || ls"
-alias ma0="map"
 alias mtmp="git commit -m 'TMP - unverified' --no-verify"
+
+alias ma0="map"
+alias got='git'
 
 alias sigh="~/Projects/arcs/tools/sigh"
 
-# [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
 
 export DISPLAY=:0
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
-alias vscode=code
 
 export PATH=/usr/lib/ccache:$PATH
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
@@ -196,6 +102,3 @@ export PATH=/usr/lib/ccache:$PATH
 alias t="cargo test --release"
 alias r="cargo run"
 alias b="cargo build --color=always 2>&1 | less -"
-# function man() {
-  # man $1 || which $1
-# }
