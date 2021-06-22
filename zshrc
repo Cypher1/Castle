@@ -14,6 +14,7 @@ export TERM="xterm-256color"
 
 plugins=(
     z
+    last-working-dir
     zsh-autosuggestions
     zsh-completions
   )
@@ -44,6 +45,12 @@ export PATH="${PATH}:${HOME}/.cabal/bin"
 export PATH="${PATH}:${HOME}/.cargo/bin"
 export PATH="${PATH}:${HOME}/.local/bin/"
 export PATH="${PATH}:${HOME}/.config/bin"
+
+SCCACHE=which sccache
+if [[ -x "$SCCACHE" ]]
+then
+export RUSTC_WRAPPER="$SCCACHE" 
+fi
 
 source $ZSH/oh-my-zsh.sh
 autoload -U +X bashcompinit && bashcompinit
@@ -99,6 +106,11 @@ export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/li
 export PATH=/usr/lib/ccache:$PATH
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias t="cargo test --release"
+alias t="cargo test"
+alias c="cargo check --all-targets"
+function st() {
+    cargo test "$@" | grep -v "test .*\.\.\."
+}
+alias tr="cargo test --release"
 alias r="cargo run"
 alias b="cargo build --color=always 2>&1 | less -"
