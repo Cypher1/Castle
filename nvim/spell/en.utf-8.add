@@ -147,3 +147,7 @@ TODOs
 rustc
 ika
 cli
+AST
+Struct
+inlining
+Structs
