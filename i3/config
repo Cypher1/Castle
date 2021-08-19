@@ -46,7 +46,8 @@ set $color_border #555555
 
 set $i3home ~/.config/i3/
 
-font pango:Monospace Regular 12
+# font pango:Monospace Regular 12
+font pango:Consolas 12
 
 # start a terminal
 bindsym $mod+Return exec qterminal

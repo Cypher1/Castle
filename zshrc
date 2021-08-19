@@ -46,7 +46,7 @@ export PATH="${PATH}:${HOME}/.cargo/bin"
 export PATH="${PATH}:${HOME}/.local/bin/"
 export PATH="${PATH}:${HOME}/.config/bin"
 
-SCCACHE=which sccache
+SCCACHE="$(which sccache)"
 if [[ -x "$SCCACHE" ]]
 then
 export RUSTC_WRAPPER="$SCCACHE" 

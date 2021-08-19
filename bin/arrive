@@ -7,6 +7,7 @@ LINKED_FILES=(
   pylintrc
   zshrc
   gitconfig
+  local/share/fonts/Consolas\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf .
 )
 
 PROGRAMS=(
