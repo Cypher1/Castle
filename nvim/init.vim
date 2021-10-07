@@ -188,6 +188,13 @@ nnoremap <A-k> :m .-2<CR>==
 inoremap <A-k> <Esc>:m .-2<CR>==gi
 nnoremap <leader>! :Switch<CR>
 
+set whichwrap+=<,>,h,l
+" allows cursor to go to the end of line with g$
+set virtualedit+=onemore
+noremap $ g$
+" mapping for <End>
+map <Esc>[4~ g$
+
 let g:switch_custom_definitions =
     \ [
     \   ['foo', 'bar', 'baz'],
