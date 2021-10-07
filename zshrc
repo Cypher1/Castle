@@ -1,6 +1,8 @@
 HOME="`cd;pwd`"
 
 bindkey -v
+bindkey "^R" history-incremental-search-backward
+
 POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir) # vcs)
 POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs)
 POWERLEVEL9K_PROMPT_ON_NEWLINE=true
@@ -106,7 +108,7 @@ export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/li
 export PATH=/usr/lib/ccache:$PATH
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
-alias t="cargo test"
+alias t="TAKO_LOG=\"debug\" cargo test"
 alias c="cargo check --all-targets"
 function st() {
     cargo test "$@" | grep -v "test .*\.\.\."
@@ -114,3 +116,4 @@ function st() {
 alias tr="cargo test --release"
 alias r="cargo run"
 alias b="cargo build --color=always 2>&1 | less -"
+alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
