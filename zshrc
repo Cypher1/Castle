@@ -19,6 +19,8 @@ plugins=(
     last-working-dir
     zsh-autosuggestions
     zsh-completions
+    sudo
+    zsh-interactive-cd
   )
 
 # HISTORY
@@ -52,6 +54,8 @@ SCCACHE="$(which sccache)"
 if [[ -x "$SCCACHE" ]]
 then
 export RUSTC_WRAPPER="$SCCACHE" 
+else
+export RUSTC_WRAPPER=""
 fi
 
 source $ZSH/oh-my-zsh.sh
@@ -77,7 +81,7 @@ alias q="exit"
 
 # GIT COMMANDS
 alias -s git='git clone'
-alias s="clear; git status -sb 2> /dev/null && echo '-------'; ls"
+alias s="git status -sb 2> /dev/null && echo '-------'; ls"
 alias a="git add"
 alias m="git commit -m "
 alias p="git push"
@@ -90,7 +94,7 @@ alias ge="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq | xargs nv
 alias ga="git ls-files | while read f; do git blame --line-porcelain \$f; done | grep '^author ' | sort -f | uniq -ic | sort -n"
 alias gg="git grep -i"
 alias log="git log"
-alias branch="git branch --color=never | grep '*' | cut -f2 -d' '"
+alias branch="git branch --color=never | grep '*' | cut -f2 -d' ' | head -n 1"
 alias map="git --no-pager branch -vv --color=always || ls"
 alias mtmp="git commit -m 'TMP - unverified' --no-verify"
 
