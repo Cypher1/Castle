@@ -80,31 +80,15 @@ alias g++="g++ -std=c++14 -Wall -Werror"
 alias q="exit"
 
 # GIT COMMANDS
-alias -s git='git clone'
-alias s="git status -sb 2> /dev/null && echo '-------'; ls"
-alias a="git add"
-alias m="git commit -m "
-alias p="git push"
-alias P="git pull --rebase"
-alias continue="git rebase --continue || git merge --continue"
-alias d="git diff"
-alias D="git diff --staged"
-alias gl="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq"
-alias ge="grep -v 'files changed,' | sed 's/[ :|].*$//' | sort | uniq | xargs nvim"
-alias ga="git ls-files | while read f; do git blame --line-porcelain \$f; done | grep '^author ' | sort -f | uniq -ic | sort -n"
-alias gg="git grep -i"
-alias log="git log"
-alias branch="git branch --color=never | grep '*' | cut -f2 -d' ' | head -n 1"
-alias map="git --no-pager branch -vv --color=always || ls"
-alias mtmp="git commit -m 'TMP - unverified' --no-verify"
-
 alias ma0="map"
 alias got='git'
 
 alias sigh="~/Projects/arcs/tools/sigh"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-[ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh || echo 'fzf is missing'
+[ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh || echo 'nvm is missing'
+[ -f ~/.config/greasy/greasy.zsh ] && source ~/.config/greasy/greasy.zsh || echo 'greasy is missing'
+alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
 
 export DISPLAY=:0
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
@@ -117,7 +101,5 @@ alias c="cargo check --all-targets"
 function st() {
     cargo test "$@" | grep -v "test .*\.\.\."
 }
-alias tr="cargo test --release"
-alias r="cargo run"
-alias b="cargo build --color=always 2>&1 | less -"
-alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
+alias tr="r --release"
+alias bq="r build --color=always 2>&1 | less -"
