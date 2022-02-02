@@ -20,7 +20,6 @@ plugins=(
     zsh-autosuggestions
     zsh-completions
     sudo
-    zsh-interactive-cd
   )
 
 # HISTORY
@@ -88,6 +87,11 @@ alias sigh="~/Projects/arcs/tools/sigh"
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh || echo 'fzf is missing'
 [ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh || echo 'nvm is missing'
 [ -f ~/.config/greasy/greasy.zsh ] && source ~/.config/greasy/greasy.zsh || echo 'greasy is missing'
+
+
+[ -f ~/.config/fzf-tab-completion/zsh/fzf-tab-completion.zsh] && source ~/.config/fzf-tab-completion/zsh/fzf-tab-completion.zsh] || echo 'fzf-tab-completion is missing'
+bindkey '^I' fzf_completion
+
 alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
 
 export DISPLAY=:0
@@ -103,3 +107,4 @@ function st() {
 }
 alias tr="r --release"
 alias bq="r build --color=always 2>&1 | less -"
+alias pi='ssh pi@192.168.0.251 -p 5000'
