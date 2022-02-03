@@ -9,7 +9,7 @@ POWERLEVEL9K_PROMPT_ON_NEWLINE=true
 POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
 POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=""
 
-source "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme" || (git clone https://github.com/romkatv/powerlevel10k.git ~/.powerlevel10k && source "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme")
+source "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme" || (git clone https://github.com/romkatv/powerlevel10k.git ${HOME}/.powerlevel10k && source "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme")
 
 export ZSH="$HOME/.oh-my-zsh"
 export TERM="xterm-256color"
@@ -25,7 +25,7 @@ plugins=(
 # HISTORY
 export HISTSIZE=1000000                # set history size
 export SAVEHIST=1000000                # save history after logout
-export HISTFILE=~/.config/zsh_history  # history file
+export HISTFILE=${HOME}/.config/zsh_history  # history file
 export HISTIGNORE="^(fg|bg|ls|s|p|q)$"
 # append into history file
 setopt INC_APPEND_HISTORY
@@ -68,10 +68,10 @@ export MANPAGER="/bin/sh -c \"col -b | $EDITOR -c 'set ft=man ts=8 nomod nolist 
 VISUAL="$EDITOR"
 alias vi="$EDITOR -O"
 alias vim="$EDITOR "
-alias zrc="$EDITOR ~/.config/zshrc"
-alias vrc="$EDITOR ~/.config/nvim/init.vim"
-alias 3rc="$EDITOR ~/.config/i3/config"
-alias 3src="$EDITOR ~/.config/i3/i3status.conf"
+alias zrc="$EDITOR ${HOME}/.config/zshrc"
+alias vrc="$EDITOR ${HOME}/.config/nvim/init.vim"
+alias 3rc="$EDITOR ${HOME}/.config/i3/config"
+alias 3src="$EDITOR ${HOME}/.config/i3/i3status.conf"
 
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias ghc="ghc -Wall"
@@ -82,14 +82,14 @@ alias q="exit"
 alias ma0="map"
 alias got='git'
 
-alias sigh="~/Projects/arcs/tools/sigh"
+alias sigh="${HOME}/Projects/arcs/tools/sigh"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh || echo 'fzf is missing'
-[ -f ~/.nvm/nvm.sh ] && source ~/.nvm/nvm.sh || echo 'nvm is missing'
-[ -f ~/.config/greasy/greasy.zsh ] && source ~/.config/greasy/greasy.zsh || echo 'greasy is missing'
+[ -f ${HOME}/.fzf.zsh ] && source ${HOME}/.fzf.zsh || echo 'fzf is missing'
+# [ -f ${HOME}/.nvm/nvm.sh ] && source ${HOME}/.nvm/nvm.sh || echo 'nvm is missing'
+[ -f ${HOME}/.config/greasy/greasy.zsh ] && source ${HOME}/.config/greasy/greasy.zsh || echo 'greasy is missing'
 
 
-[ -f ~/.config/fzf-tab-completion/zsh/fzf-tab-completion.zsh] && source ~/.config/fzf-tab-completion/zsh/fzf-tab-completion.zsh] || echo 'fzf-tab-completion is missing'
+[ -f ${HOME}/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh ] && source ${HOME}/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh || echo 'fzf-tab-completion is missing'
 bindkey '^I' fzf_completion
 
 alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
@@ -98,7 +98,7 @@ export DISPLAY=:0
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
 
 export PATH=/usr/lib/ccache:$PATH
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 alias t="TAKO_LOG=\"debug\" cargo test"
 alias c="cargo check --all-targets"
