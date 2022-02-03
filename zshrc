@@ -84,11 +84,7 @@ alias got='git'
 
 alias sigh="${HOME}/Projects/arcs/tools/sigh"
 
-[ -f ${HOME}/.fzf.zsh ] && source ${HOME}/.fzf.zsh || echo 'fzf is missing'
-# [ -f ${HOME}/.nvm/nvm.sh ] && source ${HOME}/.nvm/nvm.sh || echo 'nvm is missing'
 [ -f ${HOME}/.config/greasy/greasy.zsh ] && source ${HOME}/.config/greasy/greasy.zsh || echo 'greasy is missing'
-
-
 [ -f ${HOME}/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh ] && source ${HOME}/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh || echo 'fzf-tab-completion is missing'
 bindkey '^I' fzf_completion
 
@@ -98,8 +94,6 @@ export DISPLAY=:0
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
 
 export PATH=/usr/lib/ccache:$PATH
-#[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 alias t="TAKO_LOG=\"debug\" cargo test"
 alias c="cargo check --all-targets"
 function st() {
