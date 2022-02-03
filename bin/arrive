@@ -67,13 +67,21 @@ if [[ "$OSTYPE" == "darwin"* ]]; then
 else
   if [[ apt ]]; then
     echo "Updating Apt"
-    sudo apt-get update
+    pkg update
 
     echo "Installing Software"
-    sudo apt-get -f install ${PROGRAMS[*]}
+    pkg install ${PROGRAMS[*]}
   else
-    echo "Installing Software"
-    sudo pacman -Syyu ${PROGRAMS[*]}
+    if [[ apt ]]; then
+      echo "Updating Apt"
+      sudo apt-get update
+
+      echo "Installing Software"
+      sudo apt-get -f install ${PROGRAMS[*]}
+    else
+      echo "Installing Software"
+      sudo pacman -Syyu ${PROGRAMS[*]}
+    fi
   fi
 fi
 
@@ -90,7 +98,8 @@ done
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
-git clone https://github.com/lincheney/fzf-tab-completion ~/.config/
+git clone https://github.com/lincheney/fzf-tab-completion ${CONFIG_PATH}/fzf-tab-completion
+git clone https://github.com/google/greasy.git ${CONFIG_PATH}/greasy
 
 # Install plug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
@@ -110,5 +119,5 @@ npm update
 npm install ${NPM_PACKS[@]} -g
 
 echo "Starting zsh"
-sudo chsh "$(whoami)" -s "$(which zsh)"
+sudo chsh "$(whoami)" -s "$(which zsh)" || echo "Possibly not root"
 zsh
