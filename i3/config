@@ -4,7 +4,7 @@ exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 &
 
 # EXECUTE #
 # Set up KEYS
-exec bash ~/.config/Keys
+exec bash ~/.config/bin/setup_io
 
 exec pamac-tray
 exec nm-applet
