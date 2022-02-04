@@ -85,9 +85,6 @@ alias got='git'
 alias sigh="${HOME}/Projects/arcs/tools/sigh"
 
 [ -f ${HOME}/.config/greasy/greasy.zsh ] && source ${HOME}/.config/greasy/greasy.zsh || echo 'greasy is missing'
-[ -f ${HOME}/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh ] && source ${HOME}/.config/fzf-tab-completion/zsh/fzf-zsh-completion.sh || echo 'fzf-tab-completion is missing'
-bindkey '^I' fzf_completion
-
 alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
 
 export DISPLAY=:0

@@ -98,7 +98,6 @@ done
 
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
 git clone https://github.com/zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
-git clone https://github.com/lincheney/fzf-tab-completion ${CONFIG_PATH}/fzf-tab-completion
 git clone https://github.com/google/greasy.git ${CONFIG_PATH}/greasy
 
 # Install plug
