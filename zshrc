@@ -92,7 +92,7 @@ export PATH=/usr/lib/ccache:$PATH
 function w() {
     cargo watch -x "test $@"
 }
-alias t="cargo test"
+alias nt="cargo nextest run"
 alias ti="TAKO_LOG=\"info\" cargo test"
 alias td="TAKO_LOG=\"debug\" cargo test"
 alias tt="TAKO_LOG=\"trace\" cargo test"
