@@ -85,7 +85,6 @@ alias got='git'
 
 alias sigh="${HOME}/Projects/arcs/tools/sigh"
 
-[ -f ${HOME}/.config/greasy/greasy.zsh ] && source ${HOME}/.config/greasy/greasy.zsh || echo 'greasy is missing'
 alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
 
 export DISPLAY=:0
@@ -109,7 +108,4 @@ alias pi='ssh pi@192.168.0.251 -p 5000'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+[ -f ${HOME}/.config/greasy/greasy.zsh ] && source ${HOME}/.config/greasy/greasy.zsh || echo 'greasy is missing'
