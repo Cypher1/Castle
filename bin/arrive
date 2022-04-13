@@ -24,7 +24,7 @@ PROGRAMS=(
 
 PYTHON_PACKS=(
   setuptools
-  flask
+  neovim
   https://github.com/joh/when-changed/archive/master.zip
 )
 
