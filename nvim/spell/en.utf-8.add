@@ -159,3 +159,6 @@ GADTs
 HashMap
 Vec
 REPL
+structs
+impls
+impl
