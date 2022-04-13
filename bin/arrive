@@ -6,6 +6,7 @@ CONFIG_PATH="$HOME/.config"
 LINKED_FILES=(
   pylintrc
   zshrc
+  p10k.zsh
   gitconfig
   local/share/fonts/Consolas\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf .
 )

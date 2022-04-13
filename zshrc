@@ -1,13 +1,14 @@
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 HOME="`cd;pwd`"
 
 bindkey -v
 bindkey "^R" history-incremental-search-backward
-
-POWERLEVEL9K_LEFT_PROMPT_ELEMENTS=(root_indicator dir) # vcs)
-POWERLEVEL9K_RIGHT_PROMPT_ELEMENTS=(status command_execution_time background_jobs)
-POWERLEVEL9K_PROMPT_ON_NEWLINE=true
-POWERLEVEL9K_MULTILINE_FIRST_PROMPT_PREFIX=""
-POWERLEVEL9K_MULTILINE_LAST_PROMPT_PREFIX=""
 
 source "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme" || (git clone https://github.com/romkatv/powerlevel10k.git ${HOME}/.powerlevel10k && source "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme")
 
@@ -91,7 +92,13 @@ export DISPLAY=:0
 export RUST_SRC_PATH=${HOME}/.rustup/toolchains/beta-x86_64-unknown-linux-gnu/lib/rustlib/src/rust/src
 
 export PATH=/usr/lib/ccache:$PATH
-alias t="TAKO_LOG=\"debug\" cargo test"
+function w() {
+    cargo watch -x "test $@"
+}
+alias t="cargo test"
+alias ti="TAKO_LOG=\"info\" cargo test"
+alias td="TAKO_LOG=\"debug\" cargo test"
+alias tt="TAKO_LOG=\"trace\" cargo test"
 alias c="cargo check --all-targets"
 function st() {
     cargo test "$@" | grep -v "test .*\.\.\."
@@ -99,3 +106,6 @@ function st() {
 alias tr="r --release"
 alias bq="r build --color=always 2>&1 | less -"
 alias pi='ssh pi@192.168.0.251 -p 5000'
+
+# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
