@@ -108,4 +108,3 @@ alias pi='ssh pi@192.168.0.251 -p 5000'
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 [ -f ${HOME}/.config/greasy/greasy.zsh ] && source ${HOME}/.config/greasy/greasy.zsh || echo 'greasy is missing'
 [[ ! -f ~/.fzf.zsh ]] || source ~/.fzf.zsh || echo 'fzf is missing'
-[[ ! -f ~/.nvm/nvm.sh ]] || source ~/.nvm/nvm.sh || echo 'nvm is missing'
