@@ -13,42 +13,26 @@ LINKED_FILES=(
 
 PROGRAMS=(
   zsh
-  vim
-  screen
   neovim
   git
   gcc
   g++
   python3
   python3-pip
-  direnv
   wget
-  hlint
-  mdl
 )
 
 PYTHON_PACKS=(
   setuptools
-  virtualenv
   flask
-  numpy
-  pandas
-  tensorflow
   https://github.com/joh/when-changed/archive/master.zip
 )
 
 HASKELL_PACKS=(
-  base
-  hoogle
-  parallel
-  hspec
 )
 
 NPM_PACKS=(
-  marked
   mocha
-  react
-  underscore
 )
 
 # Install programs
@@ -101,6 +85,11 @@ git clone git@github.com:zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zs
 git clone git@github.com:zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
 git clone git@github.com:google/greasy.git ${CONFIG_PATH}/greasy
 git clone git@github.com:romkatv/powerlevel10k ${HOME}/.powerlevel10k
+git clone git@github.com:Cypher1/notes.git ${HOME}/notes
+git clone git@github.com:Cypher1/tako.git ${HOME}/tako
+git clone git@github.com:Cypher1/no_debug.git ${HOME}/no_debug
+git clone git@github.com:Cypher1/cypher1.github.io.git ${HOME}/cypher1.github.io
+git clone git@github.com:project-oak/arcsjs-provable.git ${HOME}/arcsjs-provable
 
 # Install plug
 curl -fLo ~/.local/share/nvim/site/autoload/plug.vim --create-dirs \
