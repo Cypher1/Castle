@@ -1,10 +1,48 @@
-export HOME="$(cd;pwd)"
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ${HOME}/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
+function setup() {
+    NAME=$1
+    ENTRY=$2
+    CMD=$3
+    [[ -e "$ENTRY" ]] && return
+    echo "$NAME is missing"
+    # TODO ask for confirmation or exit
+    [[ -z "$CMD" ]] && return
+    sh -c "$CMD"
+}
+
+function dotfile() {
+    NAME=$1
+    ENTRY="${HOME}/.${NAME}"
+    setup "${NAME}" "${ENTRY}" "ln -s ${HOME}/.config/${NAME} ${ENTRY}"
+}
+
+function load() {
+    NAME=$1
+    ENTRY=$2
+    CMD=$3
+    setup "$NAME" "$ENTRY" "$CMD"
+    [[ -e "${ENTRY}" ]] && source "$ENTRY"
+}
+
+function github() {
+    USER=$1
+    REPO=$2
+    DIR="${3:-$HOME/$REPO}"
+    setup ${REPO} ${DIR} "git clone git@github.com:${USER}/${REPO}.git $DIR"
+    # TODO: if existing warn if there are updates
+}
+
+function pkg_man() {
+  [[ -x $(which pkg) ]] && echo "pkg install -y" && return
+  [[ -x $(which apt) ]] && echo "sudo apt install -y -f" && return
+  [[ -x $(which pacman) ]] && echo "sudo pacman -Syyu" && return
+  echo "No package manager found" > /dev/stderr && exit 1
+}
+
+function program() {
+  PROG=$1
+  PKG=${2:-$1}
+  setup $PKG "$(which $PROG)" "$PKG_MAN $PKG"
+}
 
 plugins=(
     last-working-dir
@@ -14,6 +52,43 @@ plugins=(
     zsh-autosuggestions
     zsh-completions
   )
+
+# LOAD EXTERNALS
+PKG_MAN=$(pkg_man)
+program zsh
+program nvim neovim
+program git
+program python3
+dotfile gitconfig
+dotfile pylintrc
+github google greasy "${HOME}/.config/greasy"
+github romkatv powerlevel10k "${HOME}/.powerlevel10k"
+github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
+github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
+github zsh-users zsh-completions "${ZSH}/custom/plugins/zsh-completions"
+github Cypher1 notes
+github Cypher1 tako
+github Cypher1 no_debug
+github Cypher1 cypher1.github.io
+github project-oak arcsjs-provable
+
+# Install plug
+PLUG="${HOME}/.local/share/nvim/site/autoload/plug.vim"
+PLUG_SRC="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+PLUG_CMD="curl -fLo $PLUG --create-dirs $PLUG_SRC && \
+    python3 -m pip install neovim && \
+    nvim +PlugInstall"
+setup plug $PLUG $PLUG_CMD
+export HOME="$(cd;pwd)"
+load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
+load ohmyzsh "${ZSH}/oh-my-zsh.sh"
+load greasy "${HOME}/.config/greasy/greasy.zsh"
+load p10k "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ${HOME}/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+load p10k_cache "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 
 # SET OPTIONS
 
@@ -75,96 +150,5 @@ alias ti="TAKO_LOG=\"info\" cargo test"
 alias td="TAKO_LOG=\"debug\" cargo test"
 alias tt="TAKO_LOG=\"trace\" cargo test"
 alias c="cargo check --all-targets"
-
-# LOAD EXTERNALS
-function setup() {
-    NAME=$1
-    ENTRY=$2
-    CMD=$3
-    [[ -d "$ENTRY" ]] && return
-    [[ -f "$ENTRY" ]] && return
-    echo "$NAME is missing"
-    # TODO ask for confirmation or exit
-    [[ -z "$CMD" ]] && return
-    sh -c "$CMD"
-}
-
-function dotfile() {
-    NAME=$1
-    ENTRY="${HOME}/.${NAME}"
-    setup "${NAME}" "${ENTRY}" "ln -s ${HOME}/.config/${NAME} ${ENTRY}"
-}
-
-function load() {
-    NAME=$1
-    ENTRY=$2
-    CMD=$3
-    setup "$NAME" "$ENTRY" "$CMD" || echo "could not setup $NAME"
-    source "$ENTRY" || echo "$NAME failed to load"
-}
-
-function github() {
-    USER=$1
-    REPO=$2
-    DIR="${3:-$HOME/$REPO}"
-    setup ${REPO} ${DIR} "git clone git@github.com:${USER}/${REPO}.git $DIR"
-    # TODO: if existing warn if there are updates
-}
-
-function pkg_man() {
-  if [[ -x $(which pkg) ]]; then
-    echo "pkg install -y"
-    return
-  fi
-  if [[ -x $(which apt) ]]; then
-    echo "sudo apt install -y -f"
-    return
-  fi
-  if [[ -x $(which pacman) ]]; then
-    echo "sudo pacman -Syyu"
-    return
-  fi
-  echo "No package manager found" > /dev/stderr
-  exit 1
-}
-
-function program() {
-  PROG=$1
-  PKG=${2:-$1}
-  setup $PKG "$(which $PROG)" "$PKG_MAN $PKG"
-}
-
-function arrive() {
-    PKG_MAN=$(pkg_man)
-    program zsh
-    program nvim neovim
-    program git
-    program python3
-    dotfile gitconfig
-    dotfile pylintrc
-    github google greasy "${HOME}/.config/greasy"
-    github romkatv powerlevel10k "${HOME}/.powerlevel10k"
-    github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
-    github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
-    github zsh-users zsh-completions "${ZSH}/custom/plugins/zsh-completions"
-    github Cypher1 notes
-    github Cypher1 tako
-    github Cypher1 no_debug
-    github Cypher1 cypher1.github.io
-    github project-oak arcsjs-provable
-
-    # Install plug
-    PLUG="${HOME}/.local/share/nvim/site/autoload/plug.vim"
-    PLUG_SRC="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
-    PLUG_CMD="curl -fLo $PLUG --create-dirs $PLUG_SRC && \
-        python3 -m pip install neovim && \
-        nvim +PlugInstall"
-    setup plug $PLUG $PLUG_CMD
-}
-
-load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
-load ohmyzsh "${ZSH}/oh-my-zsh.sh"
-load greasy "${HOME}/.config/greasy/greasy.zsh"
-load p10k "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
 
 autoload -U +X bashcompinit && bashcompinit
