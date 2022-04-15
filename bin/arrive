@@ -3,14 +3,6 @@
 HOME="$(cd;pwd)"
 CONFIG_PATH="$HOME/.config"
 
-LINKED_FILES=(
-  pylintrc
-  zshrc
-  p10k.zsh
-  gitconfig
-  local/share/fonts/Consolas\ Nerd\ Font\ Complete\ Mono\ Windows\ Compatible.ttf .
-)
-
 PROGRAMS=(
   zsh
   neovim
@@ -20,19 +12,6 @@ PROGRAMS=(
   python3
   python3-pip
   wget
-)
-
-PYTHON_PACKS=(
-  setuptools
-  neovim
-  https://github.com/joh/when-changed/archive/master.zip
-)
-
-HASKELL_PACKS=(
-)
-
-NPM_PACKS=(
-  mocha
 )
 
 # Install programs
@@ -70,19 +49,8 @@ else
   fi
 fi
 
-# Install oh-my-zsh
-sh -c "$(wget https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O -)"
-
-# Install our dotfiles
-echo "Linking Dot-files"
-for FILE in "${LINKED_FILES[@]}"
-do
-    mv ".$FILE" "old_$FILE"
-    ln $(echo "$CONFIG_PATH/$FILE") $(echo "$HOME/.$FILE")
-done
-
-git clone git@github.com:zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
-git clone git@github.com:zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-completions
+git clone git@github.com:zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.ohmyzsh/custom}/plugins/zsh-autosuggestions
+git clone git@github.com:zsh-users/zsh-completions ${ZSH_CUSTOM:-~/.ohmyzsh/custom}/plugins/zsh-completions
 git clone git@github.com:google/greasy.git ${CONFIG_PATH}/greasy
 git clone git@github.com:romkatv/powerlevel10k ${HOME}/.powerlevel10k
 git clone git@github.com:Cypher1/notes.git ${HOME}/notes
@@ -99,15 +67,7 @@ nvim +PlugInstall
 
 echo "Installing Python Libraries"
 pip install --upgrade pip
-pip install ${PYTHON_PACKS[@]}
+pip install neovim
 
-echo "Install NPM Packages"
-wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh | bash
-source ~/.nvm/nvm.sh
-nvm install node
-npm update
-npm install ${NPM_PACKS[@]} -g
-
-echo "Starting zsh"
+echo "Switch to zsh"
 sudo chsh "$(whoami)" -s "$(which zsh)" || echo "Possibly not root"
-zsh
