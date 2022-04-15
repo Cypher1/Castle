@@ -1,46 +1,41 @@
-function setup() {
-    NAME=$1
-    ENTRY=$2
-    CMD=$3
+setup() {
+    NAME=$1; ENTRY=$2; CMD=$3
     [[ -e "$ENTRY" ]] && return
     echo "$NAME is missing"
-    # TODO ask for confirmation or exit
     [[ -z "$CMD" ]] && return
-    sh -c "$CMD"
+    sh -c "$CMD" # TODO ask for confirmation or exit
 }
 
-function dotfile() {
-    NAME=$1
-    ENTRY="${HOME}/.${NAME}"
+dotfile() {
+    NAME=$1; ENTRY="${HOME}/.${NAME}"
     setup "${NAME}" "${ENTRY}" "ln -s ${HOME}/.config/${NAME} ${ENTRY}"
 }
 
-function load() {
-    NAME=$1
-    ENTRY=$2
-    CMD=$3
+load() {
+    NAME=$1; ENTRY=$2; CMD=$3
     setup "$NAME" "$ENTRY" "$CMD"
     [[ -e "${ENTRY}" ]] && source "$ENTRY"
 }
 
-function github() {
-    USER=$1
-    REPO=$2
-    DIR="${3:-$HOME/$REPO}"
+github() {
+    USER=$1; REPO=$2; DIR="${3:-$HOME/$REPO}"
     setup ${REPO} ${DIR} "git clone git@github.com:${USER}/${REPO}.git $DIR"
     # TODO: if existing warn if there are updates
 }
 
-function pkg_man() {
+path() {
+  echo "$PATH" | grep -q "$1" || export PATH="${PATH}:$1"
+}
+
+pkg_man() {
   [[ -x $(which pkg) ]] && echo "pkg install -y" && return
   [[ -x $(which apt) ]] && echo "sudo apt install -y -f" && return
   [[ -x $(which pacman) ]] && echo "sudo pacman -Syyu" && return
   echo "No package manager found" > /dev/stderr && exit 1
 }
 
-function program() {
-  PROG=$1
-  PKG=${2:-$1}
+program() {
+  PROG=$1; PKG=${2:-$1}
   setup $PKG "$(which $PROG)" "$PKG_MAN $PKG"
 }
 
@@ -54,6 +49,7 @@ plugins=(
   )
 
 # LOAD EXTERNALS
+HOME="$(cd;pwd)"
 PKG_MAN=$(pkg_man)
 program zsh
 program nvim neovim
@@ -61,6 +57,7 @@ program git
 program python3
 dotfile gitconfig
 dotfile pylintrc
+dotfile zshrc
 github google greasy "${HOME}/.config/greasy"
 github romkatv powerlevel10k "${HOME}/.powerlevel10k"
 github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
@@ -79,37 +76,39 @@ PLUG_CMD="curl -fLo $PLUG --create-dirs $PLUG_SRC && \
     python3 -m pip install neovim && \
     nvim +PlugInstall"
 setup plug $PLUG $PLUG_CMD
-export HOME="$(cd;pwd)"
+load p10k "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
+
+load p10k_cache "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+
 load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
 load ohmyzsh "${ZSH}/oh-my-zsh.sh"
 load greasy "${HOME}/.config/greasy/greasy.zsh"
-load p10k "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
 
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ${HOME}/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-load p10k_cache "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+path "/usr/local/bin"
+path "/opt/local/bin"
+path "${HOME}/.cargo/bin"
+path "${HOME}/.local/bin/"
+path "${HOME}/.config/bin"
+
+unique() {
+  cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-
+}
+alias matches="grep -o"
+join() {
+  tr '\n' $1 | sed "s/$1$//"
+}
+
+PATH="$(echo $PATH | matches '[^:]*' | unique | join ':')"
+autoload -U +X bashcompinit && bashcompinit
 
 # SET OPTIONS
-
-# append into history file
 setopt INC_APPEND_HISTORY
-# save only one command if 2 common are same and consistent
 setopt HIST_IGNORE_DUPS
-# turn off history expansion using !
-setopt no_bang_hist
-
+setopt no_bang_hist # turn off history expansion using !
 bindkey -v
 bindkey "^R" history-incremental-search-backward
-
-# EXPORTS
-
-export ZSH="$HOME/.ohmyzsh"
-export TERM="xterm-256color"
-export EDITOR="$(which nvim || which vim)"
-export MANPAGER="/bin/sh -c \"col -b | $EDITOR -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
-export VISUAL="$EDITOR"
-export RUSTC_WRAPPER="$(which sccache)"
+export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
+export KEYTIMEOUT=1
 
 # HISTORY
 export HISTSIZE=1000000                # set history size
@@ -117,38 +116,30 @@ export SAVEHIST=1000000                # save history after logout
 export HISTFILE=${HOME}/.config/zsh_history  # history file
 export HISTIGNORE="^(fg|bg|ls|s|p|q)$"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
-export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
-export KEYTIMEOUT=1
-# OVERRIDES
-export PATH="${PATH}:/usr/local/bin"
-export PATH="${PATH}:/opt/local/bin"
-export PATH="${PATH}:${HOME}/.cargo/bin"
-export PATH="${PATH}:${HOME}/.local/bin/"
-export PATH="${PATH}:${HOME}/.config/bin"
+
+# EXPORTS
+export ZSH="$HOME/.ohmyzsh"
+export TERM="xterm-256color"
+export EDITOR="$(which nvim || which vim)"
+export MANPAGER="/bin/sh -c \"col -b | $EDITOR -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
+export VISUAL="$EDITOR"
+export RUSTC_WRAPPER="$(which sccache)"
 
 # ALIASES
 alias cp="cp -r"
 alias grep="egrep"
 alias vim="$EDITOR "
+alias g++="g++ -std=c++14 -Wall -Werror"
+alias ghc="ghc -Wall"
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
-alias ghc="ghc -Wall"
-alias g++="g++ -std=c++14 -Wall -Werror"
 alias q="exit"
-
-# GIT COMMANDS
 alias ma0="map"
 alias got='git'
-
 alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
-
-function w() {
-    cargo watch -x "test $@"
-}
+w() { cargo watch -x "test $@" }
 alias nt="cargo nextest run"
 alias ti="TAKO_LOG=\"info\" cargo test"
 alias td="TAKO_LOG=\"debug\" cargo test"
 alias tt="TAKO_LOG=\"trace\" cargo test"
 alias c="cargo check --all-targets"
-
-autoload -U +X bashcompinit && bashcompinit
