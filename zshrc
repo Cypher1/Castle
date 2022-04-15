@@ -1,5 +1,5 @@
 export HOME="$(cd;pwd)"
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ${HOME}/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -81,13 +81,18 @@ function setup() {
     NAME=$1
     ENTRY=$2
     CMD=$3
-    if [[ ! -f "$ENTRY" ]]; then
-        echo "$NAME is missing"
-        # TODO ask for confirmation or exit
-        if [[ ! -z "$CMD" ]]; then
-            $(sh -c "$CMD")
-        fi
-    fi
+    [[ -d "$ENTRY" ]] && return
+    [[ -f "$ENTRY" ]] && return
+    echo "$NAME is missing"
+    # TODO ask for confirmation or exit
+    [[ -z "$CMD" ]] && return
+    sh -c "$CMD"
+}
+
+function dotfile() {
+    NAME=$1
+    ENTRY="${HOME}/.${NAME}"
+    setup "${NAME}" "${ENTRY}" "ln -s ${HOME}/.config/${NAME} ${ENTRY}"
 }
 
 function load() {
@@ -95,33 +100,71 @@ function load() {
     ENTRY=$2
     CMD=$3
     setup "$NAME" "$ENTRY" "$CMD" || echo "could not setup $NAME"
-    source "$ENTRY" || echo "$NAME is failed to load"
-}
-
-function github_pkg() {
-    USER=$1
-    REPO=$2
-    DIR=$3
-    echo "git clone git@github.com:${USER}/${REPO}.git $DIR"
+    source "$ENTRY" || echo "$NAME failed to load"
 }
 
 function github() {
     USER=$1
     REPO=$2
-    github_pkg $USER $REPO "${HOME}/.${REPO}"
+    DIR="${3:-$HOME/$REPO}"
+    setup ${REPO} ${DIR} "git clone git@github.com:${USER}/${REPO}.git $DIR"
+    # TODO: if existing warn if there are updates
 }
 
-function link() {
-    NAME=$1
-    echo "ln -s ${HOME}/.config/${NAME} ~/.${NAME}"
+function pkg_man() {
+  if [[ -x $(which pkg) ]]; then
+    echo "pkg install -y"
+    return
+  fi
+  if [[ -x $(which apt) ]]; then
+    echo "sudo apt install -y -f"
+    return
+  fi
+  if [[ -x $(which pacman) ]]; then
+    echo "sudo pacman -Syyu"
+    return
+  fi
+  echo "No package manager found" > /dev/stderr
+  exit 1
 }
 
-setup gitconfig ~/.gitconfig "$(link gitconfig)"
-setup pylintrc ~/.pylintrc "$(link pylintrc)"
-load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme" "$(github romkatv powerlevel10k)"
-# To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
-load omz $ZSH/oh-my-zsh.sh "$(github ohmyzsh ohmyzsh)"
-load greasy ${HOME}/.config/greasy/greasy.zsh "$(github google greasy)"
-load p10k ~/.p10k.zsh "$(link p10k.zsh)"
+function program() {
+  PROG=$1
+  PKG=${2:-$1}
+  setup $PKG "$(which $PROG)" "$PKG_MAN $PKG"
+}
+
+function arrive() {
+    PKG_MAN=$(pkg_man)
+    program zsh
+    program nvim neovim
+    program git
+    program python3
+    dotfile gitconfig
+    dotfile pylintrc
+    github google greasy "${HOME}/.config/greasy"
+    github romkatv powerlevel10k "${HOME}/.powerlevel10k"
+    github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
+    github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
+    github zsh-users zsh-completions "${ZSH}/custom/plugins/zsh-completions"
+    github Cypher1 notes
+    github Cypher1 tako
+    github Cypher1 no_debug
+    github Cypher1 cypher1.github.io
+    github project-oak arcsjs-provable
+
+    # Install plug
+    PLUG="${HOME}/.local/share/nvim/site/autoload/plug.vim"
+    PLUG_SRC="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
+    PLUG_CMD="curl -fLo $PLUG --create-dirs $PLUG_SRC && \
+        python3 -m pip install neovim && \
+        nvim +PlugInstall"
+    setup plug $PLUG $PLUG_CMD
+}
+
+load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
+load ohmyzsh "${ZSH}/oh-my-zsh.sh"
+load greasy "${HOME}/.config/greasy/greasy.zsh"
+load p10k "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
 
 autoload -U +X bashcompinit && bashcompinit
