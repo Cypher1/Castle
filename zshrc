@@ -49,7 +49,8 @@ plugins=(
   )
 
 # LOAD EXTERNALS
-HOME="$(cd;pwd)"
+export HOME="$(cd;pwd)"
+export ZSH="$HOME/.ohmyzsh"
 PKG_MAN=$(pkg_man)
 program zsh
 program nvim neovim
@@ -118,12 +119,12 @@ export HISTIGNORE="^(fg|bg|ls|s|p|q)$"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 
 # EXPORTS
-export ZSH="$HOME/.ohmyzsh"
 export TERM="xterm-256color"
 export EDITOR="$(which nvim || which vim)"
 export MANPAGER="/bin/sh -c \"col -b | $EDITOR -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
 export VISUAL="$EDITOR"
-export RUSTC_WRAPPER="$(which sccache)"
+SCCACHE="$(which sccache)"
+[[ -e $SCCACHE ]] && export RUSTC_WRAPPER="$SCCACHE"
 
 # ALIASES
 alias cp="cp -r"
