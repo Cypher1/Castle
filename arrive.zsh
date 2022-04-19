@@ -19,10 +19,24 @@ load() {
     [[ -e "${ENTRY}" ]] && source "$ENTRY"
 }
 
+repos=()
+
 git_repo() {
     NAME=$1; REPO=$2; DIR="${3:-$HOME/$NAME}"
+    repos+=($DIR)
     setup ${NAME} ${DIR} "git clone $REPO $DIR"
     # TODO: if existing warn if there are updates
+}
+
+check_repos() {
+  for dir in $repos; do
+    echo $dir
+    (
+      cd $dir
+      git fetch
+      git pull --rebase --no-ff
+    )
+  done
 }
 
 github() {
