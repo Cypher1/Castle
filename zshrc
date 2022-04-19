@@ -68,6 +68,7 @@ github Cypher1 notes
 github Cypher1 tako
 github Cypher1 no_debug
 github Cypher1 cypher1.github.io
+github Cypher1 qmk_firmware
 github project-oak arcsjs-provable
 
 # Install plug
@@ -127,6 +128,7 @@ SCCACHE="$(which sccache)"
 [[ -e $SCCACHE ]] && export RUSTC_WRAPPER="$SCCACHE"
 
 # ALIASES
+alias .="clear;ls"
 alias cp="cp -r"
 alias grep="egrep"
 alias vim="$EDITOR "
