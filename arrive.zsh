@@ -19,9 +19,15 @@ load() {
     [[ -e "${ENTRY}" ]] && source "$ENTRY"
 }
 
+git_repo() {
+    NAME=$1; REPO=$2; DIR="${3:-$HOME/$NAME}"
+    setup ${NAME} ${DIR} "git clone $REPO $DIR"
+    # TODO: if existing warn if there are updates
+}
+
 github() {
     USER=$1; REPO=$2; DIR="${3:-$HOME/$REPO}"
-    setup ${REPO} ${DIR} "git clone git@github.com:${USER}/${REPO}.git $DIR"
+    git_repo ${REPO} "git@github.com:${USER}/${REPO}.git" ${DIR}
     # TODO: if existing warn if there are updates
 }
 

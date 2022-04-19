@@ -21,6 +21,7 @@ dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
 github google greasy "${HOME}/.config/greasy"
+git_repo depot_tools https://chromium.googlesource.com/chromium/tools/depot_tools.git
 github romkatv powerlevel10k "${HOME}/.powerlevel10k"
 github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
 github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
@@ -50,6 +51,7 @@ load greasy "${HOME}/.config/greasy/greasy.zsh"
 path "/usr/local/bin"
 path "/opt/local/bin"
 path "${HOME}/.cargo/bin"
+path "${HOME}/depot_tools"
 path "${HOME}/.local/bin/"
 path "${HOME}/.config/bin"
 
