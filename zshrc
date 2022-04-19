@@ -1,57 +1,18 @@
-setup() {
-    NAME=$1; ENTRY=$2; CMD=$3
-    [[ -e "$ENTRY" ]] && return
-    echo "$NAME is missing"
-    [[ -z "$CMD" ]] && return
-    sh -c "$CMD" # TODO ask for confirmation or exit
-}
-
-dotfile() {
-    NAME=$1; ENTRY="${HOME}/.${NAME}"
-    setup "${NAME}" "${ENTRY}" "ln -s ${HOME}/.config/${NAME} ${ENTRY}"
-}
-
-load() {
-    NAME=$1; ENTRY=$2; CMD=$3
-    setup "$NAME" "$ENTRY" "$CMD"
-    [[ -e "${ENTRY}" ]] && source "$ENTRY"
-}
-
-github() {
-    USER=$1; REPO=$2; DIR="${3:-$HOME/$REPO}"
-    setup ${REPO} ${DIR} "git clone git@github.com:${USER}/${REPO}.git $DIR"
-    # TODO: if existing warn if there are updates
-}
-
-path() {
-  echo "$PATH" | grep -q "$1" || export PATH="${PATH}:$1"
-}
-
-pkg_man() {
-  [[ -x $(which pkg) ]] && echo "pkg install -y" && return
-  [[ -x $(which apt) ]] && echo "sudo apt install -y -f" && return
-  [[ -x $(which pacman) ]] && echo "sudo pacman -Syyu" && return
-  echo "No package manager found" > /dev/stderr && exit 1
-}
-
-program() {
-  PROG=$1; PKG=${2:-$1}
-  setup $PKG "$(which $PROG)" "$PKG_MAN $PKG"
-}
-
-plugins=(
-    last-working-dir
-    rust
-    sudo
-    z
-    zsh-autosuggestions
-    zsh-completions
-  )
-
-# LOAD EXTERNALS
+#!/usr/bin/zsh
 export HOME="$(cd;pwd)"
 export ZSH="$HOME/.ohmyzsh"
-PKG_MAN=$(pkg_man)
+source "${HOME}/.config/arrive.zsh"
+
+plugins=(
+  last-working-dir
+  rust
+  sudo
+  z
+  zsh-autosuggestions
+  zsh-completions
+)
+
+# LOAD EXTERNALS
 program zsh
 program nvim neovim
 program git
@@ -129,20 +90,20 @@ SCCACHE="$(which sccache)"
 
 # ALIASES
 alias .="clear;ls"
+alias c="cargo check --all-targets"
 alias cp="cp -r"
-alias grep="egrep"
-alias vim="$EDITOR "
 alias g++="g++ -std=c++14 -Wall -Werror"
 alias ghc="ghc -Wall"
-alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
-alias q="exit"
-alias ma0="map"
 alias got='git'
-alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
-w() { cargo watch -x "test $@" }
+alias grep="egrep"
+alias ma0="map"
 alias nt="cargo nextest run"
-alias ti="TAKO_LOG=\"info\" cargo test"
+alias q="exit"
+alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
 alias td="TAKO_LOG=\"debug\" cargo test"
+alias ti="TAKO_LOG=\"info\" cargo test"
 alias tt="TAKO_LOG=\"trace\" cargo test"
-alias c="cargo check --all-targets"
+alias vim="$EDITOR "
+alias zrc="$EDITOR ${HOME}/.config/zshrc"
+w() { cargo watch -x "test $@" }
