@@ -70,6 +70,15 @@ setopt HIST_IGNORE_DUPS
 setopt no_bang_hist # turn off history expansion using !
 bindkey -v
 bindkey "^R" history-incremental-search-backward
+bindkey -s "^K" "exec zsh\n"
+function _ggrep {
+  LINE="$BUFFER"
+  zle push-input
+  BUFFER="vim +:GGrep $LINE"
+  zle accept-line
+}
+zle -N _ggrep
+bindkey '^F' _ggrep
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
 
