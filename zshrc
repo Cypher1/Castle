@@ -39,7 +39,7 @@ PLUG_CMD="curl -fLo $PLUG --create-dirs $PLUG_SRC && \
     python3 -m pip install neovim && \
     nvim +PlugInstall"
 setup plug $PLUG $PLUG_CMD
-load p10k "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
+load p10k_config "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
 
 load p10k_cache "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 
