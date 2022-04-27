@@ -20,6 +20,7 @@ program python3
 dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
+dotfile fzf.zsh
 github google greasy "${HOME}/.config/greasy"
 github romkatv powerlevel10k "${HOME}/.powerlevel10k"
 github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"

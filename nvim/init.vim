@@ -21,27 +21,23 @@ Plug 'google/vim-searchindex'           " Count search solutions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'tpope/vim-fugitive'               " Git!
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Async completion
-Plug 'Cypher1/nvim-rappel'
 
 " Format / Language Specifics
 Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'lepture/vim-jinja'                " Jinja
 Plug 'rust-lang/rust.vim'               " Rust
-Plug 'idris-hackers/idris-vim'          " Idris
 Plug 'mustache/vim-mustache-handlebars' " Mustach for vim
 Plug 'dag/vim2hs'                       " Haskell suppordag/vim2hst
 Plug 'sbdchd/neoformat'                 " Autoformat (includes clang-format)
 
+" TODO: Move to the built in language client
 Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
-" Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'christianrondeau/vimcastle'       " Castle game
 Plug 'whonore/Coqtail'                  " Coq (better)
 Plug 'let-def/vimbufsync'               " Dep of coquille
-Plug 'leanprover/lean.vim'              " Lean support
 call plug#end()
 
 " }}}
@@ -49,6 +45,9 @@ call plug#end()
 syntax enable
 set background=dark
 colorscheme codedark
+hi Normal ctermbg=16 guibg=#000000
+hi LineNr ctermbg=16 guibg=#000000
+hi SignColumn ctermbg=16 guibg=#000000
 set notermguicolors
 
 let g:filetype_pl="prolog"
@@ -214,8 +213,6 @@ let g:switch_custom_definitions =
 set nostartofline
 " }}}
 " My Repls and Language servers {{{
-let g:rappel#launch="google-chrome-stable \"%\""
-
 augroup vim
   autocmd!
 nnoremap M :call LanguageClient_contextMenu()<CR>
