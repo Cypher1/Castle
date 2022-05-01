@@ -17,6 +17,7 @@ program zsh
 program nvim neovim
 program git
 program python3
+program cargo
 dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
@@ -69,7 +70,7 @@ autoload -U +X bashcompinit && bashcompinit
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 setopt no_bang_hist # turn off history expansion using !
-bindkey -v
+# bindkey -v
 bindkey "^R" history-incremental-search-backward
 bindkey -s "^K" "exec zsh\n"
 function _ggrep {
