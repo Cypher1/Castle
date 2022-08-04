@@ -51,6 +51,7 @@ load greasy "${HOME}/.config/greasy/greasy.zsh"
 
 path "/usr/local/bin"
 path "/opt/local/bin"
+path "${HOME}/depot_tools"
 path "${HOME}/.cargo/bin"
 path "${HOME}/.local/bin/"
 path "${HOME}/.config/bin"
