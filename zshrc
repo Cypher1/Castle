@@ -101,7 +101,8 @@ SCCACHE="$(which sccache)"
 
 # ALIASES
 alias .="clear;ls"
-alias c="cargo check --all-targets"
+alias cl="less -r -f +G +g .c.log"
+alias c="cargo check --all-targets --color always 2>&1 | tee .c.log | less -r +G +g"
 alias cp="cp -r"
 alias g++="g++ -std=c++14 -Wall -Werror"
 alias ghc="ghc -Wall"
