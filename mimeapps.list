@@ -185,6 +185,7 @@ x-scheme-handler/webcal=google-chrome.desktop
 x-scheme-handler/ssh=google-chrome.desktop
 text/x-haskell=nvim.desktop
 x-scheme-handler/discord-569895407568551989=discord-569895407568551989.desktop
+text/x-arduino=arduino-arduinoide.desktop
 
 [Added Associations]
 application/msword=google-chrome.desktop;libreoffice-writer.desktop;
