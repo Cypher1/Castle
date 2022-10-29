@@ -117,6 +117,7 @@ alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000
 alias td="TAKO_LOG=\"debug\" cargo test"
 alias ti="TAKO_LOG=\"info\" cargo test"
 alias tt="TAKO_LOG=\"trace\" cargo test"
+alias open="xdg-open"
 alias vim="$EDITOR "
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 w() { cargo watch -x "test $@" }
