@@ -11,6 +11,7 @@
   rebase = true
 [core]
   editor = nvim
+	excludesfile = /home/cypher/.config/gitignore_global
 [merge]
   tool = vimdiff
 [mergetool]
