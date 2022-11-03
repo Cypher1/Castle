@@ -1,6 +1,8 @@
 #!/bin/bash
-git ls-files |                     `# Ignore untracked files` \
-  grep -v '(\.lock|docs|\.md)' |   `# Drop non code files.` \
-  grep -v '^\.' |                  `# Drop dot files.` \
-  xargs wc -l |                    `# Count the lines` \
-  sort -n                          `# Sort the files for readability.`
+git ls-files       | `# Ignore untracked files` \
+  grep -v '\.lock' | `# Drop lock files.` \
+  grep -v 'docs'   | `# Drop docs.` \
+  grep -v '\.md'   | `# Drop docs (markdown).` \
+  grep -v '^\.'    | `# Drop dot files.` \
+  xargs wc -l      | `# Count the lines` \
+  sort -n            `# Sort the files for readability.`
