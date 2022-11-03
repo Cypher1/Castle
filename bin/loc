@@ -1,0 +1,6 @@
+#!/bin/bash
+git ls-files |                     `# Ignore untracked files` \
+  grep -v '(\.lock|docs|\.md)' |   `# Drop non code files.` \
+  grep -v '^\.' |                  `# Drop dot files.` \
+  xargs wc -l |                    `# Count the lines` \
+  sort -n                          `# Sort the files for readability.`
