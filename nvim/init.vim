@@ -231,7 +231,7 @@ let g:LanguageClient_autoStart = 1
 let g:LanguageClient_serverCommands = {
   \ 'cpp': ['clangd', '-background-index'],
   \ 'lean': ['lean-language-server', '--stdio'],
-  \ 'rust': ['rust-analyzer'],
+  \ 'rust': ['rustup', 'run', 'nightly', 'rust-analyzer'],
   \ }
 " }}}
 " Autocommands {{{
