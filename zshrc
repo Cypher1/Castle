@@ -104,13 +104,20 @@ SCCACHE="$(which sccache)"
 # ALIASES
 alias .="clear;ls"
 alias cl="less -r -f +G +g .c.log"
-alias c="cargo check --all-targets --color always 2>&1 | tee .c.log | less -r +G +g"
+function c() {
+  cargo check --all-targets --color always $@ 2>&1 | tee .c.log | less -r +G +g
+}
+alias tl="less -r -f +G +g .t.log"
+function t() {
+  cargo test --color always $@ 2>&1 | tee .t.log | less -r +G +g
+}
+
 alias cp="cp -r"
 alias g++="g++ -std=c++14 -Wall -Werror"
 alias ghc="ghc -Wall"
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias got='git'
-alias grep="egrep"
+alias grep="grep -E"
 alias ma0="map"
 alias nt="cargo nextest run"
 alias q="exit"
@@ -122,9 +129,14 @@ alias open="xdg-open"
 alias v="$EDITOR "
 alias vi="$EDITOR "
 alias vim="$EDITOR "
+alias vi="vim"
+alias v="vim"
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias vrc="$EDITOR ${HOME}/.config/nvim/init.vim"
 w() { cargo watch -x "test $@" }
+
+export CARGO_TARGET_DIR="${HOME}/.cargo/target"
+export CARGO_INCREMENTAL=0
 
 # Run the auto-update checker (with colors)
 function update-host() {
