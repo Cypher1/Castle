@@ -123,3 +123,7 @@ alias vi="$EDITOR "
 alias vim="$EDITOR "
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 w() { cargo watch -x "test $@" }
+
+# Run the auto-update checker (with colors)
+source "$HOME/.config/colors.sh"
+source "$HOME/.config/auto-update.sh"
