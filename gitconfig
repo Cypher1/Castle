@@ -12,6 +12,7 @@
 [core]
   editor = nvim
 	excludesfile = /home/cypher/.config/gitignore_global
+	excludesfile = /data/data/com.termux/files/home/.config/gitignore_global
 [merge]
   tool = vimdiff
 [mergetool]
