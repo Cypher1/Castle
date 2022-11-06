@@ -127,5 +127,7 @@ alias vrc="$EDITOR ${HOME}/.config/nvim/init.vim"
 w() { cargo watch -x "test $@" }
 
 # Run the auto-update checker (with colors)
+function update-host() {
+}
 source "$HOME/.config/colors.sh"
 source "$HOME/.config/auto-update.sh"
