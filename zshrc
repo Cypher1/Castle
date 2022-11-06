@@ -18,6 +18,7 @@ program nvim neovim
 program git
 program python3
 program cargo
+program kitty
 dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
@@ -122,6 +123,7 @@ alias v="$EDITOR "
 alias vi="$EDITOR "
 alias vim="$EDITOR "
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
+alias vrc="$EDITOR ${HOME}/.config/nvim/init.vim"
 w() { cargo watch -x "test $@" }
 
 # Run the auto-update checker (with colors)
