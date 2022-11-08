@@ -1,13 +1,14 @@
 #!/usr/bin/zsh
 export HOME="$(cd;pwd)"
-export ZSH="$HOME/.ohmyzsh"
 
-# Run the auto-update checker (with colors)
+# Run the auto-update checker (with colors):
 function update-host() {
 }
-source "$HOME/.config/colors.sh"
-source "$HOME/.config/auto-update.sh"
+source "${HOME}/.config/colors.sh"
+source "${HOME}/.config/auto-update.sh"
 
+# Arrive and zsh setup:
+export ZSH="$HOME/.ohmyzsh"
 source "${HOME}/.config/arrive.zsh"
 
 plugins=(
