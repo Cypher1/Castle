@@ -1,6 +1,13 @@
 #!/usr/bin/zsh
 export HOME="$(cd;pwd)"
 export ZSH="$HOME/.ohmyzsh"
+
+# Run the auto-update checker (with colors)
+function update-host() {
+}
+source "$HOME/.config/colors.sh"
+source "$HOME/.config/auto-update.sh"
+
 source "${HOME}/.config/arrive.zsh"
 
 plugins=(
@@ -137,9 +144,3 @@ w() { cargo watch -x "test $@" }
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
 export CARGO_INCREMENTAL=0
-
-# Run the auto-update checker (with colors)
-function update-host() {
-}
-source "$HOME/.config/colors.sh"
-source "$HOME/.config/auto-update.sh"
