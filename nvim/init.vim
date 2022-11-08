@@ -215,11 +215,12 @@ set nostartofline
 " My Repls and Language servers {{{
 augroup vim
   autocmd!
-nnoremap M :call LanguageClient_contextMenu()<CR>
+" note that if you are using Plug mapping you should not use `noremap` mappings.
+nmap <silent>M  <Plug>(lcn-menu)
 " Or map each action separately
-nnoremap <silent> K :call LanguageClient#textDocument_hover()<CR>
-nnoremap <silent> gd :call LanguageClient#textDocument_definition()<CR>
-nnoremap <silent> <F2> :call LanguageClient#textDocument_rename()<CR>
+nmap <silent>K  <Plug>(lcn-hover)
+nmap <silent>gd <Plug>(lcn-definition)
+nmap <silent>rr <Plug>(lcn-rename)
 
 " Lean
 
