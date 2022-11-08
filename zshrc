@@ -22,6 +22,7 @@ plugins=(
 
 # LOAD EXTERNALS
 program zsh
+program fzf
 program nvim neovim
 program git
 program python3
@@ -145,3 +146,4 @@ w() { cargo watch -x "test $@" }
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
 export CARGO_INCREMENTAL=0
+source "$HOME/.fzf.zsh"
