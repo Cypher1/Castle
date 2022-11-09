@@ -5,10 +5,12 @@
 #
 # Author
 #   Jake Zimmerman <jake@zimmerman.io>
+# Modified by
+#   J Pratt <jay.riley.pratt@gmail.com>
 #
 # Usage
 #   - Requires my colors.sh to have been sourced already for colorized output
-#   - source this file to check if the "system is out of date" (i.e., hasn't
+#   - source this file to check if the "repo is out of date" (i.e., hasn't
 #     been updated in AUTO_UPDATE_UPDATE_THRESHOLD seconds)
 #   - call `update` to run general update checks and checks defined by the
 #     system
@@ -39,20 +41,24 @@ esac
 
 # Number of seconds to wait before printing a reminder
 AUTO_UPDATE_UPDATE_THRESHOLD="86400"
-AUTO_UPDATE_UPDATE_FILE="$HOME/.last_update"
 AUTO_UPDATE_REPO="$HOME/.config"
+AUTO_UPDATE_UPDATE_FILE_RELATIVE=".git/.last_auto_update"
 AUTO_UPDATE_REMOTE="origin"
 AUTO_UPDATE_BRANCH="main"
 
 warn_update() {
-    echo "$cred==>$cemph Your system is out of date!$cnone"
-    echo 'Run `update` to bring it up to date.'
+  REPO=$1
+  # TODO: CHECK IF IT'S THE DEFAULT REPO...
+  echo "$cred==>$cemph Your repo (${REPO}) is out of date!$cnone"
+  echo 'Run `update .` to bring it up to date.'
 }
 
 check_for_updates() {
-  if [ ! -e $AUTO_UPDATE_UPDATE_FILE ]; then
-    touch $AUTO_UPDATE_UPDATE_FILE
-    warn_update
+  REPO="${1:-$AUTO_UPDATE_REPO}"
+  UPDATE_FILE="$REPO/$AUTO_UPDATE_UPDATE_FILE_RELATIVE"
+  if [ ! -e $UPDATE_FILE ]; then
+    warn_update $REPO
+    return
   fi
   # Initialize for when we have no GNU date available
   last_check=0
@@ -60,24 +66,21 @@ check_for_updates() {
 
   # Darwin uses BSD, check for gdate, else use date
   if [[ $(uname) = "Darwin" && -n $(which gdate) ]]; then
-    last_login=$(gdate -r $AUTO_UPDATE_UPDATE_FILE +%s)
+    last_login=$(gdate -r $UPDATE_FILE +%s)
     time_now=$(gdate +%s)
   else
     # Ensure this is GNU grep
     if [ -n "$(date --version 2> /dev/null | grep GNU)" ]; then
-      last_login=$(date -r $AUTO_UPDATE_UPDATE_FILE +%s)
+      last_login=$(date -r $UPDATE_FILE +%s)
       time_now=$(date +%s)
     fi
   fi
 
   time_since_check=$((time_now - last_login))
-
   if [ "$time_since_check" -ge "$AUTO_UPDATE_UPDATE_THRESHOLD" ]; then
-    warn_update
+    warn_update $REPO
   fi
 }
-
-check_for_updates
 
 # update - fetch updates
 # usage:
@@ -87,23 +90,40 @@ check_for_updates
 # that you will run `update` from. Ensure that this function is sourced before
 # calling `update`.
 update() {
+  REPO="${1:-$AUTO_UPDATE_REPO}"
+  REMOTE="${2:-$AUTO_UPDATE_REMOTE}"
+  BRANCH="${3:-$AUTO_UPDATE_BRANCH}"
+  UPDATE_FILE="$REPO/$AUTO_UPDATE_UPDATE_FILE_RELATIVE"
   # Record that we've update
-  touch $AUTO_UPDATE_UPDATE_FILE
+  touch $UPDATE_FILE
 
   # --- Host-independent updates ---
 
   # Update dotfiles repo
-  cd "$AUTO_UPDATE_REPO"
+  cd "$REPO"
   echo "$cblueb==>$cemph Updating...$cnone"
-  git fetch --quiet "$AUTO_UPDATE_REMOTE"
-  if [ "$(git rev-parse HEAD)" != "$(git rev-parse $AUTO_UPDATE_REMOTE/$AUTO_UPDATE_BRANCH)" ]; then echo "$credb  --> outdated.$cnone"; fi
+  git fetch --quiet "$REMOTE"
+  if [ "$(git rev-parse HEAD)" != "$(git rev-parse $REMOTE/$BRANCH)" ]; then echo "$credb  --> outdated.$cnone"; fi
 
   # Update each submodule in the repo
   echo "$cblueb==>$cemph Checking for outdated submodules...$cnone"
-  git submodule foreach --quiet 'git fetch --quiet && if [ "$(git rev-parse HEAD)" != "$(git rev-parse $AUTO_UPDATE_REMOTE/$AUTO_UPDATE_BRANCH)" ]; then echo $path; fi'
+  git submodule foreach --quiet 'git fetch --quiet && if [ "$(git rev-parse HEAD)" != "$(git rev-parse $REMOTE/$BRANCH)" ]; then echo $path; fi'
+
+  # Attempt to update via rebasing any local work?
+  git pull --rebase
+
   cd - &> /dev/null
 
   # --- Host-dependent updates ---
 
   update-host
 }
+
+check_for_updates
+
+CURR="$(pwd)"
+if [[ "$CURR" != "$AUTO_UPDATE_REPO" ]]; then
+  if git -C $CURR rev-parse 2>/dev/null; then
+    check_for_updates $CURR
+  fi
+fi
