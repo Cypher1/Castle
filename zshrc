@@ -7,7 +7,6 @@ function update-host() {
 }
 source "${HOME}/.config/colors.sh"
 source "${HOME}/.config/auto-update.sh"
-source "${HOME}/.config/fzf.zsh"
 source "${HOME}/.config/arrive.zsh"
 
 plugins=(
@@ -146,3 +145,4 @@ w() { cargo watch -x "test $@" }
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
 export CARGO_INCREMENTAL=0
+source "${HOME}/.config/fzf.zsh"
