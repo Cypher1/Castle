@@ -50,7 +50,15 @@ warn_update() {
   REPO=$1
   # TODO: CHECK IF IT'S THE DEFAULT REPO...
   echo "$cred==>$cemph Your repo (${REPO}) is out of date!$cnone"
-  echo 'Run `update .` to bring it up to date.'
+  REL_PATH=" $REPO"
+  if [[ "$REPO" == "$AUTO_UPDATE_REPO" ]]; then
+    REL_PATH=""
+  else;
+    if [[ "$REPO" == "$(pwd)" ]]; then
+      REL_PATH=" ."
+    fi
+  fi
+  echo "Run \`update$REL_PATH\` to bring it up to date."
 }
 
 check_for_updates() {
