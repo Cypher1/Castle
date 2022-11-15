@@ -8,6 +8,7 @@ function update-host() {
 source "${HOME}/.config/colors.sh"
 source "${HOME}/.config/auto-update.sh"
 source "${HOME}/.config/arrive.zsh"
+#export NVM_LAZY_LOAD=true
 
 plugins=(
   last-working-dir
@@ -16,6 +17,7 @@ plugins=(
   z
   zsh-autosuggestions
   zsh-completions
+  #zsh-nvm
 )
 
 # LOAD EXTERNALS
@@ -35,6 +37,7 @@ github romkatv powerlevel10k "${HOME}/.powerlevel10k"
 github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
 github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
 github zsh-users zsh-completions "${ZSH}/custom/plugins/zsh-completions"
+#github lukechilds zsh-nvm "${ZSH_CUSTOM:_${HOME}/.oh-my-zsh/custom}/plugins/zsh-nvm"
 github Cypher1 notes
 github Cypher1 tako
 github Cypher1 no_debug
