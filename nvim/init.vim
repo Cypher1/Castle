@@ -226,6 +226,10 @@ nmap <silent>rr <Plug>(lcn-rename)
 
 imap <A-s>^ ∧
 imap <A-s>> →
+
+"Keyboards with a bad ESC
+inoremap jk <Esc>
+nnoremap jk <Esc>
 augroup END
 
 let g:LanguageClient_autoStart = 1
