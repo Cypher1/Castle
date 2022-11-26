@@ -102,3 +102,8 @@ monitors.xml
 dleyna-renderer-service.conf
 evolution
 monitors.xml~
+gedit
+GNOME-xdg-terminals.list
+onlyoffice
+hexchat
+xdg-terminals.list
