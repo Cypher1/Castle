@@ -222,14 +222,17 @@ nmap <silent>K  <Plug>(lcn-hover)
 nmap <silent>gd <Plug>(lcn-definition)
 nmap <silent>rr <Plug>(lcn-rename)
 
-" Lean
-
-imap <A-s>^ ∧
-imap <A-s>> →
-
-"Keyboards with a bad ESC
-inoremap jk <Esc>
-nnoremap jk <Esc>
+" Maths symbols for Lean, Tako, Coq
+imap <A-1> ⊤
+imap <A-2> ⊥
+imap <A-3> ⊢
+imap <A-4> ⊣
+imap <A-5> →
+imap <A-6> ∧
+imap <A-7> Π
+imap <A-8> ∀
+imap <A-9> ∃
+imap <A-0> λ
 augroup END
 
 let g:LanguageClient_autoStart = 1
