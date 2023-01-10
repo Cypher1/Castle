@@ -1,6 +1,6 @@
 #!/bin/bash
-git ls-files        | `# Ignore untracked files` \
-  xargs grep "TODO" | `# Find the todos` \
-  sed "s/  *//"     | `# Find the todos` \
-  sort              | `# Sort them for readability.` \
+git ls-files                  | `# Ignore untracked files` \
+  xargs grep "\(TODO|todo!\)" | `# Find the todos` \
+  sed "s/  *//"               | `# Find the todos` \
+  sort                        | `# Sort them for readability.` \
   grep "TODO"
