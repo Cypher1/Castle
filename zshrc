@@ -60,6 +60,7 @@ load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
 load ohmyzsh "${ZSH}/oh-my-zsh.sh"
 load greasy "${HOME}/.config/greasy/greasy.zsh"
 
+path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
 path "/usr/local/bin"
 path "/opt/local/bin"
 path "${HOME}/depot_tools"
