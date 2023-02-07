@@ -99,16 +99,17 @@ check_for_updates() {
 # calling `update`.
 update() {
   REPO="${1:-$AUTO_UPDATE_REPO}"
+  cd "$REPO"
+  ROOT=$(git rev-parse --show-toplevel) # Attempt to recover if in a subdir
   REMOTE="${2:-$AUTO_UPDATE_REMOTE}"
   BRANCH="${3:-$AUTO_UPDATE_BRANCH}"
-  UPDATE_FILE="$REPO/$AUTO_UPDATE_UPDATE_FILE_RELATIVE"
+  UPDATE_FILE="$ROOT/$AUTO_UPDATE_UPDATE_FILE_RELATIVE"
   # Record that we've update
   touch $UPDATE_FILE
 
   # --- Host-independent updates ---
 
-  # Update dotfiles repo
-  cd "$REPO"
+  # Update the repo
   echo "$cblueb==>$cemph Updating...$cnone"
   git fetch --quiet "$REMOTE"
   if [ "$(git rev-parse HEAD)" != "$(git rev-parse $REMOTE/$BRANCH)" ]; then echo "$credb  --> outdated.$cnone"; fi
