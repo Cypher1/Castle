@@ -125,6 +125,7 @@ function t() {
   cargo test --color always $@ 2>&1 | tee .t.log | less -r +G +g
 }
 
+alias "a."="a ."
 alias cp="cp -r"
 alias g++="g++ -std=c++14 -Wall -Werror"
 alias ghc="ghc -Wall"
