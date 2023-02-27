@@ -237,7 +237,7 @@ augroup END
 
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_serverCommands = {
-  \ 'cpp': ['clangd', '-background-index', ' -std=c++20'],
+  \ 'cpp': ['clangd', '-background-index'],
   \ 'lean': ['lean-language-server', '--stdio'],
   \ 'rust': ['rustup', 'run', 'stable', 'rust-analyzer'],
   \ }
