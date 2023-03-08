@@ -115,7 +115,7 @@ SCCACHE="$(which sccache)"
 
 # ALIASES
 alias .="clear;ls"
-alias -s {csv,sh,zsh,log,cc,cpp,h,c,kt,tk,vim,rs}="$EDITOR"
+#alias -s {csv,sh,zsh,log,cc,cpp,h,c,kt,tk,vim,rs}="$EDITOR"
 alias cl="less -r -f +G +g .c.log"
 function c() {
   cargo check --all-targets --color always $@ 2>&1 | tee .c.log | less -r +G +g
