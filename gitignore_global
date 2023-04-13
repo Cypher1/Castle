@@ -12,7 +12,7 @@ cabal.sandbox.config
 *.hp
 cabal.project.local
 .HTF/
-
+.bacon-locations
 
 # Compiled source #
 ###################
