@@ -16,6 +16,7 @@ Plug 'tpope/vim-eunuch'                 " Unix built in
 " Tools
 Plug 'AndrewRadev/switch.vim'           " Switch t->f
 Plug 'nvim-tree/nvim-tree.lua'          " File manager
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'} " Tree sitter syntaxes
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'ap/vim-css-color'                 " Show Colors in CSS
 Plug 'google/vim-searchindex'           " Count search solutions
@@ -24,12 +25,8 @@ Plug 'tpope/vim-fugitive'               " Git!
 Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Async completion
 
 " Format / Language Specifics
-Plug 'sheerun/vim-polyglot'             " Lots of languages
 Plug 'chrisbra/csv.vim'                 " CSV
-Plug 'lepture/vim-jinja'                " Jinja
 Plug 'rust-lang/rust.vim'               " Rust
-Plug 'mustache/vim-mustache-handlebars' " Mustach for vim
-Plug 'dag/vim2hs'                       " Haskell suppordag/vim2hst
 Plug 'sbdchd/neoformat'                 " Autoformat (includes clang-format)
 
 " TODO: Move to the built in language client
@@ -37,8 +34,6 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ 'branch': 'next',
     \ 'do': 'bash install.sh',
     \ }
-Plug 'whonore/Coqtail'                  " Coq (better)
-Plug 'let-def/vimbufsync'               " Dep of coquille
 call plug#end()
 
 " Disable netrw at the very start of your init.lua (strongly advised)
