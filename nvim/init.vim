@@ -51,8 +51,7 @@ hi LineNr ctermbg=16 guibg=#000000
 hi SignColumn ctermbg=16 guibg=#000000
 set notermguicolors
 
-let g:filetype_pl="prolog"
-let $COLORTERM = "gnome-terminal"
+" let $COLORTERM = "gnome-terminal"
 " set colorcolumn=120
 " }}}
 " Status Information {{{
@@ -130,18 +129,6 @@ nmap <leader>w :w <CR>
 nmap <leader>u :MundoToggle<CR>
 nmap <leader>f :NvimTreeToggle<CR>
 nmap <silent> <leader>g /^\(<\{7\}\\|>\{7\}\\|=\{7\}\\|\|\{7\}\)\( \\|$\)<cr>
-
-function! ClipboardYank()
-  call system('xclip -i -selection clipboard', @@)
-endfunction
-function! ClipboardPaste()
-  let @@ = system('xclip -o -selection clipboard')
-endfunction
-
-" vnoremap <silent> y y:call ClipboardYank()<cr>
-" vnoremap <silent> d d:call ClipboardYank()<cr>
-" nnoremap <silent> p :call ClipboardPaste()<cr>p
-
 " }}}
 " FZF {{{
 
@@ -259,8 +246,3 @@ augroup vim
   au BufEnter *.hs compiler ghc
 augroup END
 " }}}
-
-augroup colors
-  highlight rustFunctionName ctermfg=green
-  highlight rustFunctionCall ctermfg=green
-augroup END
