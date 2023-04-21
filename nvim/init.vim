@@ -15,6 +15,7 @@ Plug 'tmhedberg/matchit'                " % Match based jumping
 Plug 'tpope/vim-eunuch'                 " Unix built in
 " Tools
 Plug 'AndrewRadev/switch.vim'           " Switch t->f
+Plug 'nvim-tree/nvim-tree.lua'          " File manager
 Plug 'mhinz/vim-signify'                " Sign column diffs
 Plug 'ap/vim-css-color'                 " Show Colors in CSS
 Plug 'google/vim-searchindex'           " Count search solutions
@@ -39,6 +40,11 @@ Plug 'autozimu/LanguageClient-neovim', {
 Plug 'whonore/Coqtail'                  " Coq (better)
 Plug 'let-def/vimbufsync'               " Dep of coquille
 call plug#end()
+
+" Disable netrw at the very start of your init.lua (strongly advised)
+lua vim.g.loaded_netrw = 1
+lua vim.g.loaded_netrwPlugin = 1
+lua require('nvim-tree').setup()
 
 " }}}
 " Colour Scheme {{{
@@ -127,6 +133,7 @@ nmap <leader>m :bp<CR>
 nmap <leader>q :bp <BAR> bd #<CR>
 nmap <leader>w :w <CR>
 nmap <leader>u :MundoToggle<CR>
+nmap <leader>f :NvimTreeToggle<CR>
 nmap <silent> <leader>g /^\(<\{7\}\\|>\{7\}\\|=\{7\}\\|\|\{7\}\)\( \\|$\)<cr>
 
 function! ClipboardYank()
