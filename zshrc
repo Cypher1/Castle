@@ -68,6 +68,7 @@ path "${HOME}/depot_tools"
 path "${HOME}/.cargo/bin"
 path "${HOME}/.local/bin/"
 path "${HOME}/.config/bin"
+path "${HOME}/.npm-global/bin"
 
 unique() {
   cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-

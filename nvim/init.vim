@@ -229,6 +229,8 @@ let g:LanguageClient_serverCommands = {
   \ 'cpp': ['clangd', '-background-index'],
   \ 'lean': ['lean-language-server', '--stdio'],
   \ 'rust': ['rustup', 'run', 'stable', 'rust-analyzer'],
+  \ 'typescript': ['typescript-language-server', '--stdio'],
+  \ 'javascript': ['typescript-language-server', '--stdio'],
   \ }
 " }}}
 " Autocommands {{{
@@ -241,7 +243,7 @@ augroup vim
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
   au BufEnter,BufRead *.ik set filetype=rust
-  au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
+  " au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
   au TabNewEntered,TermOpen,BufWinEnter,WinEnter term://* startinsert
   au BufEnter *.hs compiler ghc
 augroup END
