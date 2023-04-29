@@ -230,6 +230,7 @@ let g:LanguageClient_serverCommands = {
   \ 'lean': ['lean-language-server', '--stdio'],
   \ 'rust': ['rustup', 'run', 'stable', 'rust-analyzer'],
   \ 'typescript': ['typescript-language-server', '--stdio'],
+  \ 'typescriptreact': ['typescript-language-server', '--stdio'],
   \ 'javascript': ['typescript-language-server', '--stdio'],
   \ }
 " }}}
