@@ -149,6 +149,10 @@ alias v="vim"
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias vrc="$EDITOR ${HOME}/.config/nvim/init.vim"
 w() { cargo watch -x "test $@" }
+function mk() {
+  mkdir -p $1
+  cd $1
+}
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
 export CARGO_INCREMENTAL=0
