@@ -25,22 +25,34 @@ export_locations = true
 # Uncomment and change the key-bindings you want to define
 # (some of those ones are the defaults)
 [keybindings]
-# esc = "back"
+# Down = "scroll-lines(1)"
+# End = "scroll-to-bottom"
+# Home = "scroll-to-top"
+# PageDown = "scroll-pages(1)"
+# PageUp = "scroll-pages(-1)"
+# Up = "scroll-lines(-1)"
 # ctrl-c = "quit"
 # ctrl-q = "quit"
-q = "quit"
-s = "toggle-summary"
-w = "toggle-wrap"
+# esc = "back"
 # t = "toggle-backtrace"
-# Home = "scroll-to-top"
-# End = "scroll-to-bottom"
-# Up = "scroll-lines(-1)"
-# Down = "scroll-lines(1)"
-# PageUp = "scroll-pages(-1)"
-# PageDown = "scroll-pages(1)"
 Space = "scroll-pages(1)"
+a = "job:check-all"
+c = "job:clippy"
+d = "job:doc-open"
 g = "scroll-to-top"
-shift-g = "scroll-to-bottom"
-k = "scroll-lines(-1)"
+i = "job:initial"
 j = "scroll-lines(1)"
+k = "scroll-lines(-1)"
+n = "job:nextest"
+q = "quit"
+r = "job:run"
+s = "toggle-summary"
 shift-b = "toggle-backtrace"
+shift-g = "scroll-to-bottom"
+t = "job:test"
+w = "toggle-wrap"
+
+[jobs.nextest]
+command = ["cargo", "nextest", "run", "--color", "always"]
+need_stdout = true
+watch = ["tests"]
