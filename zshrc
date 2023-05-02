@@ -80,6 +80,7 @@ join() {
 
 PATH="$(echo $PATH | matches '[^:]*' | unique | join ':')"
 autoload -U +X bashcompinit && bashcompinit
+source "${HOME}/.config/bin/shuttle.zsh"
 
 # SET OPTIONS
 setopt INC_APPEND_HISTORY
