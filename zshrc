@@ -28,7 +28,7 @@ program nvim neovim
 program git
 program python3
 program cargo
-program kitty
+# program kitty
 dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
