@@ -39,12 +39,12 @@ github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
 github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
 github zsh-users zsh-completions "${ZSH}/custom/plugins/zsh-completions"
 #github lukechilds zsh-nvm "${ZSH_CUSTOM:_${HOME}/.oh-my-zsh/custom}/plugins/zsh-nvm"
-github Cypher1 notes
-github Cypher1 tako
-github Cypher1 no_debug
-github Cypher1 cypher1.github.io
-github Cypher1 qmk_firmware
-github project-oak arcsjs-provable
+github Cypher1 notes "${HOME}/mine/notes"
+github Cypher1 tako "${HOME}/mine/tako"
+github Cypher1 no_debug "${HOME}/mine/no_debug"
+github Cypher1 cypher1.github.io "${HOME}/mine/cypher1.github.io"
+github Cypher1 qmk_firmware "${HOME}/mine/qmk_firmware"
+github skfltech skfl "${HOME}/skfltech/skfl"
 
 # Install plug
 PLUG="${HOME}/.local/share/nvim/site/autoload/plug.vim"
