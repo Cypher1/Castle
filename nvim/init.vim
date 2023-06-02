@@ -5,7 +5,8 @@ call plug#begin('~/.local/share/nvim/plugged') " Plugins go here
 
 Plug 'junegunn/fzf', { 'dir': '~/.fzf', 'do': './install --all' }
 Plug 'junegunn/fzf.vim'
-Plug 'tomasiser/vim-code-dark'
+Plug 'wesgibbs/vim-irblack'   " ir_black
+Plug 'ratazzi/blackboard.vim' " blackboard
 
 " Tweaks & Fixes
 Plug 'ConradIrwin/vim-bracketed-paste'  " Paste properly
@@ -45,7 +46,9 @@ lua require('nvim-tree').setup()
 " Colour Scheme {{{
 syntax enable
 set background=dark
-colorscheme codedark
+" colorscheme ir_black
+colorscheme blackboard
+
 hi Normal ctermbg=16 guibg=#000000
 hi LineNr ctermbg=16 guibg=#000000
 hi SignColumn ctermbg=16 guibg=#000000
