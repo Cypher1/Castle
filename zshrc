@@ -12,6 +12,7 @@ source "${HOME}/.config/arrive.zsh"
 export NVM_LAZY_LOAD=true
 
 plugins=(
+  directories
   last-working-dir
   rust
   sudo
