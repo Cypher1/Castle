@@ -9,7 +9,7 @@ function update-host() {
 source "${HOME}/.config/colors.sh"
 source "${HOME}/.config/auto-update.sh"
 source "${HOME}/.config/arrive.zsh"
-#export NVM_LAZY_LOAD=true
+export NVM_LAZY_LOAD=true
 
 plugins=(
   last-working-dir
@@ -18,7 +18,7 @@ plugins=(
   z
   zsh-autosuggestions
   zsh-completions
-  #zsh-nvm
+  zsh-nvm
 )
 
 # LOAD EXTERNALS
@@ -38,7 +38,7 @@ github romkatv powerlevel10k "${HOME}/.powerlevel10k"
 github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
 github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
 github zsh-users zsh-completions "${ZSH}/custom/plugins/zsh-completions"
-#github lukechilds zsh-nvm "${ZSH_CUSTOM:_${HOME}/.oh-my-zsh/custom}/plugins/zsh-nvm"
+github lukechilds zsh-nvm "${HOME}/.ohmyzsh/custom/plugins/zsh-nvm"
 github Cypher1 notes "${HOME}/mine/notes"
 github Cypher1 tako "${HOME}/mine/tako"
 github Cypher1 no_debug "${HOME}/mine/no_debug"
@@ -158,3 +158,5 @@ function mk() {
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
 export CARGO_INCREMENTAL=0
 source "${HOME}/.config/fzf.zsh"
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
