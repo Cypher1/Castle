@@ -12,7 +12,6 @@ source "${HOME}/.config/arrive.zsh"
 export NVM_LAZY_LOAD=true
 
 plugins=(
-  directories
   last-working-dir
   rust
   sudo
@@ -150,6 +149,7 @@ alias vi="vim"
 alias v="vim"
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias vrc="$EDITOR ${HOME}/.config/nvim/init.vim"
+alias icat="kitty +kitten icat"
 w() { cargo watch -x "test $@" }
 function mk() {
   mkdir -p $1
