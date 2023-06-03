@@ -60,6 +60,7 @@ load p10k_cache "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.
 load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
 load ohmyzsh "${ZSH}/oh-my-zsh.sh"
 load greasy "${HOME}/.config/greasy/greasy.zsh"
+load fzf "${HOME}/.config/fzf.zsh"
 
 path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
 path "/usr/local/bin"
@@ -158,6 +159,3 @@ function mk() {
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
 export CARGO_INCREMENTAL=0
-source "${HOME}/.config/fzf.zsh"
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
