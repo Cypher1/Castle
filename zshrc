@@ -34,7 +34,7 @@ dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
 dotfile fzf.zsh
-github google greasy "${HOME}/.config/greasy"
+github Cypher1 greasy "${HOME}/.config/greasy"
 github romkatv powerlevel10k "${HOME}/.powerlevel10k"
 github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
 github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
