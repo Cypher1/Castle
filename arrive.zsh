@@ -35,8 +35,9 @@ check_repos() {
       cd $dir
       git fetch
       git pull --rebase --no-ff
-    )
+    ) &
   done
+  wait
 }
 
 github() {
