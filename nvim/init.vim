@@ -37,10 +37,20 @@ Plug 'autozimu/LanguageClient-neovim', {
     \ }
 call plug#end()
 
-" Disable netrw at the very start of your init.lua (strongly advised)
-lua vim.g.loaded_netrw = 1
-lua vim.g.loaded_netrwPlugin = 1
-lua require('nvim-tree').setup()
+lua << EOF
+-- Disable netrw at the very start of your init.lua (strongly advised)
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+require('nvim-tree').setup()
+
+require'nvim-treesitter.configs'.setup {
+  -- Modules and its options go here
+  ensure_installed = { "c", "lua", "rust", "typescript", "vim", "javascript", "haskell" },
+  highlight = { enable = true },
+  incremental_selection = { enable = true },
+  textobjects = { enable = true },
+}
+EOF
 
 " }}}
 " Colour Scheme {{{
