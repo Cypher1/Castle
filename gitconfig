@@ -27,3 +27,5 @@
   wdiff = "diff --color-words"
 [init]
 	defaultBranch = main
+[advice]
+	skippedCherryPicks = false
