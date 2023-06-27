@@ -214,8 +214,8 @@ let g:switch_custom_definitions =
     \ ]
 set nostartofline
 " }}}
-" My Repls and Language servers {{{
-augroup vim
+" Key combos {{{
+augroup vim_keys
   autocmd!
 " note that if you are using Plug mapping you should not use `noremap` mappings.
 nmap <silent>M  <Plug>(lcn-menu)
@@ -237,6 +237,7 @@ imap <A-9> ∃
 imap <A-0> λ
 augroup END
 
+" My Repls and Language servers {{{
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_serverCommands = {
   \ 'cpp': ['clangd', '-background-index'],
@@ -248,7 +249,7 @@ let g:LanguageClient_serverCommands = {
   \ }
 " }}}
 " Autocommands {{{
-augroup vim
+augroup vim_auto
   autocmd!
   au BufRead,BufNewFile *.md,gitcommit,*.txt setlocal spell
   au Filetype qf set nobuflisted
