@@ -182,7 +182,7 @@ nnoremap ∆ :m.+1<CR>==
 inoremap ∆ <Esc>:m .+1<CR>==gi
 nnoremap <A-j> :m .+1<CR>==
 inoremap <A-j> <Esc>:m .+1<CR>==gi
-"Show up: <A-k>
+"Shove up: <A-k>
 nnoremap ˚ :m .-2<CR>==
 inoremap ˚ <Esc>:m .-2<CR>==gi
 nnoremap <A-k> :m .-2<CR>==
