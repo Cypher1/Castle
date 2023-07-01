@@ -142,6 +142,8 @@ nmap <leader>w :w <CR>
 nmap <leader>u :MundoToggle<CR>
 nmap <leader>f :NvimTreeToggle<CR>
 nmap <silent> <leader>g /^\(<\{7\}\\|>\{7\}\\|=\{7\}\\|\|\{7\}\)\( \\|$\)<cr>
+nmap gf :e <cfile><CR>
+
 " }}}
 " FZF {{{
 
@@ -246,6 +248,7 @@ let g:LanguageClient_serverCommands = {
   \ 'typescript': ['typescript-language-server', '--stdio'],
   \ 'typescriptreact': ['typescript-language-server', '--stdio'],
   \ 'javascript': ['typescript-language-server', '--stdio'],
+  \ 'zig': ['~/mine/zls/zig-out/bin/zls'],
   \ }
 " }}}
 " Autocommands {{{
