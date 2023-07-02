@@ -84,6 +84,7 @@ join() {
 }
 
 PATH="$(echo $PATH | matches '[^:]*' | unique | join ':')"
+export PATH="/usr/lib/ccache/bin:$PATH"
 autoload -U +X bashcompinit && bashcompinit
 
 compdef _P P
