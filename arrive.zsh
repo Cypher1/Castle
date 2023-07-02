@@ -51,9 +51,10 @@ path() {
 }
 
 pkg_man() {
-  [[ -x $(which pkg) ]] && echo "pkg install -y" && return
-  [[ -x $(which apt) ]] && echo "sudo apt update && sudo apt install -y -f" && return
-  [[ -x $(which pacman) ]] && echo "sudo pacman -Syyu" && return
+  type pkg >/dev/null 2>&1 && echo "pkg install -y" && return
+  type dnf >/dev/null 2>&1 && echo "sudo dnf install" && return
+  type pt >/dev/null 2>&1 && echo "sudo apt update && sudo apt install -y -f" && return
+  type pacman >/dev/null 2>&1 && echo "sudo pacman -Syyu" && return
   echo "No package manager found" > /dev/stderr && exit 1
 }
 
