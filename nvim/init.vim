@@ -179,6 +179,8 @@ nnoremap <leader>i :%s/  *$//c<CR>gg=G<CR>
 nmap j gj
 nmap k gk
 noremap <A-h> :set relativenumber! number!<CR>
+set relativenumber number
+
 "Shove down: <A-j>
 nnoremap ∆ :m.+1<CR>==
 inoremap ∆ <Esc>:m .+1<CR>==gi
@@ -247,6 +249,7 @@ let g:LanguageClient_serverCommands = {
   \ 'rust': ['rustup', 'run', 'stable', 'rust-analyzer'],
   \ 'typescript': ['typescript-language-server', '--stdio'],
   \ 'typescriptreact': ['typescript-language-server', '--stdio'],
+  \ 'vue': ['vue-language-server', '--stdio'],
   \ 'javascript': ['typescript-language-server', '--stdio'],
   \ 'zig': ['~/mine/zls/zig-out/bin/zls'],
   \ }
