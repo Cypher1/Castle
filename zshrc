@@ -78,7 +78,6 @@ path "${HOME}/zig"
 unique() {
   cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-
 }
-alias matches="grep -o"
 join() {
   tr '\n' $1 | sed "s/$1$//"
 }
@@ -123,6 +122,7 @@ SCCACHE="$(which sccache)"
 [[ -e $SCCACHE ]] && export RUSTC_WRAPPER="$SCCACHE"
 
 # ALIASES
+alias matches="grep -o"
 alias .="clear;ls"
 #alias -s {csv,sh,zsh,log,cc,cpp,h,c,kt,tk,vim,rs}="$EDITOR"
 alias cl="less -r -f +G +g .c.log"
@@ -142,12 +142,13 @@ alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias got='git'
 alias grep="grep -E"
 alias ma0="map"
+alias npmm="npm"
 alias nt="cargo nextest run"
 alias q="exit"
 alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
-alias td="TAKO_LOG=\"debug\" cargo test"
-alias ti="TAKO_LOG=\"info\" cargo test"
-alias tt="TAKO_LOG=\"trace\" cargo test"
+alias td="RUST_LOG=\"debug\" cargo test"
+alias ti="RUST_LOG=\"info\" cargo test"
+alias tt="RUST_LOG=\"trace\" cargo test"
 alias open="xdg-open"
 alias v="$EDITOR "
 alias vi="$EDITOR "
