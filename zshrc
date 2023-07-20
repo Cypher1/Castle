@@ -82,7 +82,7 @@ join() {
   tr '\n' $1 | sed "s/$1$//"
 }
 
-PATH="$(echo $PATH | matches '[^:]*' | unique | join ':')"
+PATH="$(echo $PATH | grep -o '[^:]*' | unique | join ':')"
 export PATH="/usr/lib/ccache/bin:$PATH"
 autoload -U +X bashcompinit && bashcompinit
 
