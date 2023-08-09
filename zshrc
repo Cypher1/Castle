@@ -102,6 +102,7 @@ function _ggrep {
   zle accept-line
 }
 zle -N _ggrep
+zstyle ':autocomplete:*' default-context history-incremental-search-backward
 bindkey '^F' _ggrep
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
