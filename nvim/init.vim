@@ -23,7 +23,7 @@ Plug 'ap/vim-css-color'                 " Show Colors in CSS
 Plug 'google/vim-searchindex'           " Count search solutions
 Plug 'simnalamburt/vim-mundo'           " UNDO!
 Plug 'tpope/vim-fugitive'               " Git!
-Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Async completion
+" Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } " Async completion
 
 " Format / Language Specifics
 Plug 'chrisbra/csv.vim'                 " CSV
@@ -242,6 +242,11 @@ imap <A-0> λ
 augroup END
 
 " My Repls and Language servers {{{
+
+" npm install -g vls
+" npm install -g typescript-language-server
+" npm install -g javascript-language-server
+
 let g:LanguageClient_autoStart = 1
 let g:LanguageClient_serverCommands = {
   \ 'cpp': ['clangd', '-background-index'],
@@ -249,7 +254,7 @@ let g:LanguageClient_serverCommands = {
   \ 'rust': ['rustup', 'run', 'stable', 'rust-analyzer'],
   \ 'typescript': ['typescript-language-server', '--stdio'],
   \ 'typescriptreact': ['typescript-language-server', '--stdio'],
-  \ 'vue': ['vue-language-server', '--stdio'],
+  \ 'vue': ['vls', '--stdio'],
   \ 'javascript': ['typescript-language-server', '--stdio'],
   \ 'zig': ['~/mine/zls/zig-out/bin/zls'],
   \ }
