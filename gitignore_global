@@ -58,9 +58,6 @@ cabal-dev
 ######################
 *.log
 *.eventlog
-*.sql
-*.sqlite
-*.sqlite3
 
 # OS generated files #
 ######################
