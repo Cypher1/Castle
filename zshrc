@@ -159,6 +159,7 @@ alias v="vim"
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias vrc="$EDITOR ${HOME}/.config/nvim/init.vim"
 alias icat="kitty +kitten icat"
+alias bob="/data/data/com.termux/files/home/skfltech/skfl/bob.ts"
 w() { cargo watch -x "test $@" }
 function mk() {
   mkdir -p $1
