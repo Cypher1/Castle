@@ -9,7 +9,7 @@ function update-host() {
 source "${HOME}/.config/colors.sh"
 source "${HOME}/.config/auto-update.sh"
 source "${HOME}/.config/arrive.zsh"
-export NVM_LAZY_LOAD=true
+# export NVM_LAZY_LOAD=true
 
 plugins=(
   command-not-found
@@ -143,6 +143,7 @@ alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
 alias got='git'
 alias grep="grep -E"
 alias ma0="map"
+alias mao="map"
 alias npmm="npm"
 alias nt="cargo nextest run"
 alias q="exit"

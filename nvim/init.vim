@@ -269,6 +269,7 @@ augroup vim_auto
   au Filetype markdown match OverLength //
   au BufEnter,BufRead *.swift set filetype=swift
   au BufEnter,BufRead *.ik set filetype=rust
+  au BufEnter,BufRead *.skfl set filetype=dot
   " au BufNewFile,BufRead *.html,*.htm,*.shtml,*.stm set ft=jinja
   au TabNewEntered,TermOpen,BufWinEnter,WinEnter term://* startinsert
   au BufEnter *.hs compiler ghc
