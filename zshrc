@@ -9,7 +9,7 @@ function update-host() {
 source "${HOME}/.config/colors.sh"
 source "${HOME}/.config/auto-update.sh"
 source "${HOME}/.config/arrive.zsh"
-# export NVM_LAZY_LOAD=true
+export NVM_LAZY_LOAD=true
 
 plugins=(
   command-not-found
