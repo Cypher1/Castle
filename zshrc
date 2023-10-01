@@ -46,7 +46,7 @@ github Cypher1 tako "${HOME}/tako"
 github Cypher1 no_debug "${HOME}/no_debug"
 github Cypher1 cypher1.github.io "${HOME}/cypher1.github.io"
 github Cypher1 qmk_firmware "${HOME}/qmk_firmware"
-github skfltech skfl "${HOME}/skfltech/skfl"
+github skfltech skfl "${HOME}/skfl"
 
 # Install plug
 PLUG="${HOME}/.local/share/nvim/site/autoload/plug.vim"
