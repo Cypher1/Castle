@@ -68,6 +68,7 @@ load zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-npm-completion/
 path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
 path "/usr/local/bin"
 path "/opt/local/bin"
+path "/opt/fx_cast/"
 path "${HOME}/depot_tools"
 path "${HOME}/.cargo/bin"
 path "${HOME}/.local/bin/"
