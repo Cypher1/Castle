@@ -139,6 +139,7 @@ function t() {
 
 alias "a."="a ."
 alias cp="cp -r"
+alias ci="r"
 alias g++="g++ -std=c++14 -Wall -Werror"
 alias ghc="ghc -Wall"
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
