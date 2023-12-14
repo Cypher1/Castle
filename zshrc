@@ -104,6 +104,7 @@ function _ggrep {
 }
 zle -N _ggrep
 zstyle ':autocomplete:*' default-context history-incremental-search-backward
+zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
 bindkey '^F' _ggrep
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
