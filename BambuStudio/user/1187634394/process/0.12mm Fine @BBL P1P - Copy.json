@@ -1,0 +1,10 @@
+{
+    "enable_support": "1",
+    "from": "User",
+    "inherits": "0.12mm Fine @BBL P1P",
+    "is_custom_defined": "0",
+    "name": "0.12mm Fine @BBL P1P - Copy",
+    "print_settings_id": "0.12mm Fine @BBL P1P - Copy",
+    "support_on_build_plate_only": "1",
+    "version": "1.8.0.7"
+}
