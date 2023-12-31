@@ -109,6 +109,17 @@ bindkey '^F' _ggrep
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
 
+# from i8ramin - http://getintothis.com/blog/2012/04/02/git-grep-and-blame-bash-function/
+# runs git grep on a pattern, and then uses git blame to who did it
+ggb() {
+    git grep -n $1 | while IFS=: read i j k; do git blame -L $j,$j $i | cat; done
+}
+
+# small modification for git egrep bash
+geb() {
+    git grep -E -n $1 | while IFS=: read i j k; do git blame -L $j,$j $i | cat; done
+}
+
 # HISTORY
 export HISTSIZE=1000000                # set history size
 export SAVEHIST=1000000                # save history after logout
