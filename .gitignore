@@ -136,3 +136,4 @@ BambuStudio/user/*/process
 BambuStudio/hms
 BambuStudio/track
 BambuStudio/BambuStudio.conf
+connections.db

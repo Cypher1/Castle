@@ -1,0 +1,5 @@
+#!/bin/bash
+script_dir="$(realpath $(dirname $0))"
+VIRTUAL_ENV="$script_dir/idazen/env"
+PATH="$VIRTUAL_ENV/bin:$PATH"
+python "$VIRTUAL_ENV/bin/linak-controller" --forward --move-to "$@"
