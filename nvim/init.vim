@@ -90,10 +90,10 @@ set backup writebackup backupdir=~/.tmp/ hidden
 cmap w!! w !sudo tee > /dev/null %
 set undofile undodir=~/.config/nvim/undo-dir
 " No more arrow keys {{{
-map <Up>    <NOP>
-map <Down>  <NOP>
-map <Left>  <<
-map <Right> >>
+" map <Up>    <NOP>
+" map <Down>  <NOP>
+" map <Left>  <<
+" map <Right> >>
 " }}}
 " }}}
 " Fix up indent issues {{{
