@@ -1,8 +1,0 @@
-#!/bin/bash
-script_dir="$(realpath $(dirname $0))"
-VIRTUAL_ENV="$script_dir/idazen/env"
-PATH="$VIRTUAL_ENV/bin:$PATH"
-while true; do
-  python "$VIRTUAL_ENV/bin/linak-controller" --server
-  sleep 10
-done
