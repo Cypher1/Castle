@@ -4,7 +4,7 @@ chromium
 configstore
 dconf
 direnv
-google-chrome
+google-chrome*
 Google Play Music Desktop Player
 gtk-2.0
 gtk-3.0
@@ -137,3 +137,5 @@ BambuStudio/hms
 BambuStudio/track
 BambuStudio/BambuStudio.conf
 connections.db
+microsoft*
+BraveSoftware
