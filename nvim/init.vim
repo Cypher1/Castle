@@ -29,6 +29,7 @@ Plug 'tpope/vim-fugitive'               " Git!
 Plug 'chrisbra/csv.vim'                 " CSV
 Plug 'rust-lang/rust.vim'               " Rust
 Plug 'sbdchd/neoformat'                 " Autoformat (includes clang-format)
+Plug 'zyedidia/vim-snake'
 
 " TODO: Move to the built in language client
 Plug 'autozimu/LanguageClient-neovim', {
@@ -56,7 +57,6 @@ EOF
 " Colour Scheme {{{
 syntax enable
 set background=dark
-" colorscheme ir_black
 colorscheme blackboard
 
 hi Normal ctermbg=16 guibg=#000000
