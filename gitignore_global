@@ -73,6 +73,7 @@ Thumbs.db
 ######################
 *.pyo
 *.pyc
+*.egg-info
 *.bak
 *.swp
 *.swo
