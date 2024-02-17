@@ -1,5 +1,6 @@
 dist
 dist-*
+.turbo
 build
 .clangd
 .hpc
@@ -82,6 +83,7 @@ Thumbs.db
 *.orig
 *.sublime-workspace
 .~lock.*
+*.egg-info
 .buildpath
 .project
 .settings
@@ -91,3 +93,4 @@ Thumbs.db
 CMakeCache.txt
 CMakeFiles
 cmake_install.cmake
+pnpm-lock.yaml
