@@ -94,7 +94,7 @@ setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 setopt no_bang_hist # turn off history expansion using !
 # bindkey -v
-bindkey "^R" history-incremental-search-backward
+# bindkey "^R" history-incremental-search-backward
 bindkey -s "^L" "exec zsh\n"
 function _ggrep {
   LINE="$BUFFER"
