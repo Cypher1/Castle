@@ -50,9 +50,21 @@ s = "toggle-summary"
 shift-b = "toggle-backtrace"
 shift-g = "scroll-to-bottom"
 t = "job:test"
+u = "job:pretty-test"
+f = "job:fmt"
 w = "toggle-wrap"
 
 [jobs.nextest]
 command = ["cargo", "nextest", "run", "--color", "always"]
 need_stdout = true
 watch = ["tests"]
+
+[jobs.pretty-test]
+command = ["cargo", "pretty-test", "run", "--color", "always"]
+need_stdout = true
+watch = ["tests"]
+
+[jobs.fmt]
+command = ["cargo", "fmt"]
+need_stdout = true
+watch = ["src"]
