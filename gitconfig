@@ -7,6 +7,7 @@
   email = jp10010101010000@gmail.com
 [push]
   default = simple
+	autoSetupRemote = true
 [pull]
   rebase = true
 [core]
@@ -14,6 +15,7 @@
 	excludesfile = ~/.config/gitignore_global
 [merge]
   tool = vimdiff
+	conflictstyle = diff3
 [mergetool]
   prompt = true
 [mergetool "vimdiff"]
@@ -31,3 +33,18 @@
 	skippedCherryPicks = false
 [rerere]
 	enabled = true
+[rebase]
+	autosquash = true
+	autostash = true
+[commit]
+	verbose = true
+[help]
+	autocorrect = 10
+[diff]
+	algorithm = histogram
+[url "git@github.com:"]
+	insteadOf = "https://github.com/"
+[branch]
+	sort = -committerdate
+[fetch]
+	prune = true
