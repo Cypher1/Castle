@@ -28,8 +28,10 @@ program fzf
 program nvim neovim
 program git
 program python3
-program cargo
+program rustup
 # program kitty
+# rustup cargo # get from rustup
+# rustup rustc # get from rustup
 dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
@@ -63,6 +65,7 @@ load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
 load ohmyzsh "${ZSH}/oh-my-zsh.sh"
 load greasy "${HOME}/.config/greasy/greasy.zsh"
 load fzf "${HOME}/.config/fzf.zsh"
+load mdbook "${HOME}/.config/mdbook.zsh"
 load zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-npm-completion/zsh-better-npm-completion.plugin.zsh"
 
 path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
@@ -136,6 +139,12 @@ SCCACHE="$(which sccache)"
 [[ -e $SCCACHE ]] && export RUSTC_WRAPPER="$SCCACHE"
 
 # ALIASES
+bluetooth_fix() {
+  #ps -ef | grep blu
+  #echo 'Killing bluetoothd'
+  #sudo pkill bluetoothd
+  sudo modprobe -r btintel btusb
+}
 alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_supply/BAT0/energy_now) / $(cat /sys/class/power_supply/BAT0/energy_full))))"'
 alias matches="grep -o"
 alias .="clear;ls"
