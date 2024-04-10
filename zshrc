@@ -22,6 +22,17 @@ plugins=(
   zsh-nvm
 )
 
+path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
+path "/usr/local/bin"
+path "/opt/local/bin"
+path "/opt/fx_cast/"
+path "${HOME}/depot_tools"
+path "${HOME}/.cargo/bin"
+path "${HOME}/.local/bin/"
+path "${HOME}/.config/bin"
+path "${HOME}/.npm-global/bin"
+path "${HOME}/zig"
+
 # LOAD EXTERNALS
 program zsh
 program fzf
@@ -67,17 +78,6 @@ load greasy "${HOME}/.config/greasy/greasy.zsh"
 load fzf "${HOME}/.config/fzf.zsh"
 load mdbook "${HOME}/.config/mdbook.zsh"
 load zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-npm-completion/zsh-better-npm-completion.plugin.zsh"
-
-path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
-path "/usr/local/bin"
-path "/opt/local/bin"
-path "/opt/fx_cast/"
-path "${HOME}/depot_tools"
-path "${HOME}/.cargo/bin"
-path "${HOME}/.local/bin/"
-path "${HOME}/.config/bin"
-path "${HOME}/.npm-global/bin"
-path "${HOME}/zig"
 
 unique() {
   cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-
