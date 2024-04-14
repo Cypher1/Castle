@@ -19,10 +19,15 @@ vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
 vim.keymap.set("n", "Q", "<nop>") -- no more accidental macros
-vim.keymap.set("n", "jk", ":nohlsearch<CR>") -- clear highlight
+vim.keymap.set("n", ":", ":nohlsearch<CR>:") -- clear highlight
 
 -- Quick fix
 vim.keymap.set("n", "<C-j>", "<cmd>cnext<CR>zz")
 vim.keymap.set("n", "<C-k>", "<cmd>cprev<CR>zz")
 vim.keymap.set("n", "<leader>j", "<cmd>lnext<CR>zz")
 vim.keymap.set("n", "<leader>k", "<cmd>lprev<CR>zz")
+
+vim.keymap.set("n", "<C-O>", "<ESC>:GFiles<CR>")
+vim.keymap.set("n", "<C-F>", "<ESC>:GGrep<CR>")
+vim.keymap.set("n", "<C-G>", "<ESC>:Gblame<CR>")
+vim.keymap.set("n", "<C-B>", "<ESC>:Buffers<CR>")

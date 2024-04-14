@@ -23,8 +23,8 @@ return require('packer').startup(function(use)
 	use('mbbill/undotree')
 	use('tpope/vim-fugitive')
 
-	-- use('junegunn/fzf', { dir = '~/.fzf', run = './install --all' }
-	-- use('junegunn/fzf.vim')
+	use('junegunn/fzf', { dir = '~/.fzf', run = './install --all' })
+	use('junegunn/fzf.vim')
 
 	-- Tweaks & Fixes
 	use('ConradIrwin/vim-bracketed-paste')  -- Paste properly
