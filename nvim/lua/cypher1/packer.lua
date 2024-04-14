@@ -10,16 +10,8 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
-	use {
-		'ratazzi/blackboard.vim',
-		config = function()
-			vim.cmd('colorscheme blackboard')
-		end
-	}
-	use {
-		'rose-pine/neovim',
-		as = 'rose-pine',
-	}
+	use('ratazzi/blackboard.vim')
+	use { 'rose-pine/neovim', as = 'rose-pine' }
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 	use('theprimeagen/harpoon')
