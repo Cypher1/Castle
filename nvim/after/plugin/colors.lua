@@ -1,5 +1,6 @@
 function Colors(color)
-	color = color or "rose-pine-moon"
+  -- "rose-pine-moon"
+	color = color or "material-deep-ocean"
 	vim.cmd.colorscheme(color)
 
 	vim.api.nvim_set_hl(0, "Normal", { bg = "black" })

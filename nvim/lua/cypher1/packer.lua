@@ -10,8 +10,13 @@ return require('packer').startup(function(use)
 		requires = { {'nvim-lua/plenary.nvim'} }
 	}
 
+
+  -- Colorschemes
 	use('ratazzi/blackboard.vim')
+        use('marko-cerovac/material.nvim')
+
 	use { 'rose-pine/neovim', as = 'rose-pine' }
+
 	use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
 
 	use('theprimeagen/harpoon')
@@ -33,7 +38,6 @@ return require('packer').startup(function(use)
 	use('mhinz/vim-signify')                -- Sign column diffs
 	use('ap/vim-css-color')                 -- Show Colors in CSS
 	use('google/vim-searchindex')           -- Count search solutions
-	-- use('Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' } -- Async completion
 
 	-- Format / Language Specifics
 	use('chrisbra/csv.vim')                -- CSV
