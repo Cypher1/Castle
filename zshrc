@@ -56,11 +56,7 @@ github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
 github zsh-users zsh-completions "${ZSH}/custom/plugins/zsh-completions"
 github lukechilds zsh-nvm "${HOME}/.ohmyzsh/custom/plugins/zsh-nvm"
 github lukechilds zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-npm-completion"
-github Cypher1 notes "${HOME}/notes"
 github Cypher1 tako "${HOME}/tako"
-github Cypher1 no_debug "${HOME}/no_debug"
-github Cypher1 cypher1.github.io "${HOME}/cypher1.github.io"
-github Cypher1 qmk_firmware "${HOME}/qmk_firmware"
 github skfltech skfl "${HOME}/skfl"
 
 # Install plug
@@ -80,6 +76,10 @@ load greasy "${HOME}/.config/greasy/greasy.zsh"
 load fzf "${HOME}/.config/fzf.zsh"
 load mdbook "${HOME}/.config/mdbook.zsh"
 load zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-npm-completion/zsh-better-npm-completion.plugin.zsh"
+load ghcup "${HOME}/.ghcup/env"
+
+# Add ninja completions
+fpath=("${HOME}/.config/ninja.zsh" $fpath)
 
 unique() {
   cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-
