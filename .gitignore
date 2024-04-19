@@ -151,3 +151,4 @@ ghc/ghci_history
 nvim/plugin
 nvim/lazy-lock.json
 nvim
+llvmenv
