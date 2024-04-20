@@ -193,7 +193,7 @@ alias vi="vim"
 alias v="vim"
 alias :e="vim"
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
-alias vrc="$EDITOR ${HOME}/.config/nvim/init.vim"
+alias vrc="$EDITOR ${HOME}/.config/nvim/lua/cypher1/init.lua"
 alias icat="kitty +kitten icat"
 alias bob="/data/data/com.termux/files/home/skfltech/skfl/bob.ts"
 w() { cargo watch -x "test $@" }
