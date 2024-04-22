@@ -76,7 +76,7 @@ load greasy "${HOME}/.config/greasy/greasy.zsh"
 load fzf "${HOME}/.config/fzf.zsh"
 load mdbook "${HOME}/.config/mdbook.zsh"
 load zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-npm-completion/zsh-better-npm-completion.plugin.zsh"
-load ghcup "${HOME}/.ghcup/env"
+# load ghcup "${HOME}/.ghcup/env"
 
 # Add ninja completions
 fpath=("${HOME}/.config/ninja.zsh" $fpath)
