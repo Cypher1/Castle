@@ -2,6 +2,7 @@
 export HOME="$(cd;pwd)"
 export ZSH="${HOME}/.ohmyzsh"
 export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
+export WORDCHARS=' *?_-.[]~=/&;!#$%^(){}<>'
 
 # Run the auto-update checker (with colors):
 function update-host() {
