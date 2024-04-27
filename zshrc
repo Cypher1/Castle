@@ -48,7 +48,6 @@ dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
 dotfile fzf.zsh
-github wbthomason packer.nvim "${HOME}/.local/share/nvim/site/pack/packer/start/packer.nvim"
 github Cypher1 nvim_config "${HOME}/.config/nvim"
 github Cypher1 greasy "${HOME}/.config/greasy"
 github romkatv powerlevel10k "${HOME}/.powerlevel10k"
