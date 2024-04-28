@@ -6,7 +6,7 @@
 # Author
 #   Jake Zimmerman <jake@zimmerman.io>
 # Modified by
-#   J Pratt <jay.riley.pratt@gmail.com>
+#   Jay Pratt <jay.riley.pratt@gmail.com>
 #
 # Usage
 #   - Requires my colors.sh to have been sourced already for colorized output

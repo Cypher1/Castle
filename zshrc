@@ -59,15 +59,7 @@ github lukechilds zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-np
 github Cypher1 tako "${HOME}/tako"
 github skfltech skfl "${HOME}/skfl"
 
-# Install plug
-PLUG="${HOME}/.local/share/nvim/site/autoload/plug.vim"
-PLUG_SRC="https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim"
-PLUG_CMD="curl -fLo $PLUG --create-dirs $PLUG_SRC && \
-    python3 -m pip install neovim && \
-    nvim +PlugInstall"
-setup plug $PLUG $PLUG_CMD
 load p10k_config "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
-
 load p10k_cache "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 
 load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
@@ -126,8 +118,8 @@ geb() {
 }
 
 # HISTORY
-export HISTSIZE=1000000                # set history size
-export SAVEHIST=1000000                # save history after logout
+export HISTSIZE=1000000 # set history size
+export SAVEHIST=1000000 # save history after logout
 export HISTFILE=${HOME}/.config/zsh_history  # history file
 export HISTIGNORE="^(fg|bg|ls|s|p|q)$"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
@@ -135,7 +127,6 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 # EXPORTS
 export TERM="xterm-256color"
 export EDITOR="$(which nvim || which vim)"
-#export MANPAGER="/bin/sh -c \"col -b | $EDITOR -c 'set ft=man ts=8 nomod nolist nonu noma' -\""
 export VISUAL="$EDITOR"
 SCCACHE="$(which sccache)"
 [[ -e $SCCACHE ]] && export RUSTC_WRAPPER="$SCCACHE"
@@ -150,7 +141,6 @@ bluetooth_fix() {
 alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_supply/BAT0/energy_now) / $(cat /sys/class/power_supply/BAT0/energy_full))))"'
 alias matches="grep -o"
 alias .="clear;ls"
-#alias -s {csv,sh,zsh,log,cc,cpp,h,c,kt,tk,vim,rs}="$EDITOR"
 alias cl="less -r -f +G +g .c.log"
 function c() {
   cargo check --all-targets --color always $@ 2>&1 | tee .c.log | less -r +G +g
@@ -166,7 +156,7 @@ alias ci="r"
 alias g++="g++ -std=c++14 -Wall -Werror"
 alias ghc="ghc -Wall"
 alias ghct="ghc -Wall -O2 -threaded -rtsopts -with-rtsopts='-N4'"
-alias got='git'
+alias got="git"
 alias grep="grep -E"
 alias ma0="map"
 alias mapo="map"
@@ -181,7 +171,7 @@ alias vitest="npm exec vitest --"
 alias func="npm exec func --"
 alias nt="cargo nextest run"
 alias q="exit"
-alias reauthor="git commit --amend --no-edit --author='J Pratt <jp10010101010000@gmail.com>'"
+alias reauthor="git commit --amend --no-edit --author='Jay Pratt <jp10010101010000@gmail.com>'"
 alias td="RUST_LOG=\"debug\" cargo test"
 alias ti="RUST_LOG=\"info\" cargo test"
 alias tt="RUST_LOG=\"trace\" cargo test"
@@ -189,18 +179,15 @@ alias open="xdg-open"
 alias v="$EDITOR "
 alias vi="$EDITOR "
 alias vim="$EDITOR "
-alias vi="vim"
-alias v="vim"
-alias :e="vim"
+alias :e="$EDITOR "
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias vrc="$EDITOR ${HOME}/.config/nvim/lua/cypher1/init.lua"
 alias icat="kitty +kitten icat"
 alias bob="/data/data/com.termux/files/home/skfltech/skfl/bob.ts"
-w() { cargo watch -x "test $@" }
 function mk() {
   mkdir -p $1
   cd $1
 }
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
-export CARGO_INCREMENTAL=0
+# export CARGO_INCREMENTAL=0

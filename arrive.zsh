@@ -43,7 +43,6 @@ check_repos() {
 github() {
     USER=$1; REPO=$2; DIR="${3:-$HOME/$REPO}"
     git_repo ${REPO} "git@github.com:${USER}/${REPO}.git" ${DIR}
-    # TODO: if existing warn if there are updates
 }
 
 path() {
