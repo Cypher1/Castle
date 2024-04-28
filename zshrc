@@ -49,6 +49,7 @@ dotfile pylintrc
 dotfile zshrc
 dotfile fzf.zsh
 github Cypher1 nvim_config "${HOME}/.config/nvim"
+github Cypher1 mdbook-graphviz "${HOME}/Code/mdbook-graphviz"
 github Cypher1 greasy "${HOME}/.config/greasy"
 github romkatv powerlevel10k "${HOME}/.powerlevel10k"
 github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
@@ -93,16 +94,27 @@ setopt no_bang_hist # turn off history expansion using !
 # bindkey -v
 # bindkey "^R" history-incremental-search-backward
 bindkey -s "^L" "exec zsh\n"
+
+function _ggrepconflict {
+  LINE="<<<<<<<"
+  zle push-input
+  BUFFER="vim \"+:GGrep $LINE\""
+  zle accept-line
+}
+zle -N _ggrepconflict
+bindkey '^G' _ggrepconflict
+
 function _ggrep {
   LINE="$BUFFER"
   zle push-input
-  BUFFER="vim +:GGrep $LINE"
+  BUFFER="vim \"+:GGrep $LINE\""
   zle accept-line
 }
 zle -N _ggrep
+bindkey '^F' _ggrep
+
 zstyle ':autocomplete:*' default-context history-incremental-search-backward
 zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
-bindkey '^F' _ggrep
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=1
 
