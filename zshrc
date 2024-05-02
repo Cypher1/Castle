@@ -1,29 +1,20 @@
 #!/usr/bin/zsh
 zmodload zsh/zprof
 #
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 export HOME="$(cd;pwd)"
 ZPLUG_HOME="${HOME}/.zplug"
 function install_zplug() {
   ZPLUG_URL="https://raw.githubusercontent.com/zplug/installer/master/installer.zsh"
   curl -sL --proto-redir -all,https "${ZPLUG_URL}" | zsh
 }
-
-source "${HOME}/.zplug/init.zsh"
-
-# PLUGINS
-
 function zrepo() {
   # Use zplug for non-plugins :O
   zplug "$@", ignore:"*", defer:3, lazy:1
 }
 
+source "${HOME}/.zplug/init.zsh"
+
+# PLUGINS
 zplug cypher1/Castle, dir:"${HOME}/.config"
 zplug cypher1/greasy, dir:"${HOME}/Code/greasy"
 zplug zsh-users/zsh-autosuggestions
@@ -47,12 +38,19 @@ zrepo skfltech/skfl, dir:"${HOME}/Code/skfl"
 zplug load #--verbose
 
 # Install plugins if there are plugins that have not been installed
-#if ! zplug check --verbose; then
-#    printf "Install? [y/N]: "
-#    if read -q; then
-#        echo; zplug install
-#    fi
-#fi
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
 
 function link() {
   if [ -d "$2" ]; then
