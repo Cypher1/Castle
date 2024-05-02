@@ -170,6 +170,11 @@ bluetooth_fix() {
 alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_supply/BAT0/energy_now) / $(cat /sys/class/power_supply/BAT0/energy_full))))"'
 alias matches="grep -o"
 alias .="clear;ls"
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
 alias cl="less -r -f +G +g .c.log"
 function c() {
   cargo check --all-targets --color always $@ 2>&1 | tee .c.log | less -r +G +g
