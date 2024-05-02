@@ -20,10 +20,9 @@ zplug cypher1/greasy, dir:"${HOME}/Code/greasy"
 zplug zsh-users/zsh-autosuggestions
 zplug zsh-users/zsh-completions
 zplug romkatv/powerlevel10k, as:theme, depth:1
-zplug plugins/git, from:oh-my-zsh # USED BY P10k.
 zplug agkozak/zsh-z, depth:1
 zplug modules/last-working-dir, from:prezto
-zplug plugins/command-not-found, from:oh-my-zsh
+# TODO: find stand alone impls
 zplug plugins/sudo, from:oh-my-zsh
 zplug plugins/zsh-autosuggestions, from:oh-my-zsh
 zplug plugins/zsh-completions, from:oh-my-zsh
