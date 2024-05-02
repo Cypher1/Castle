@@ -31,7 +31,7 @@ zplug plugins/zsh-completions, from:oh-my-zsh
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
 zrepo cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
 zrepo cypher1/tako, dir:"${HOME}/Code/tako"
-zrepo cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware"
+#zrepo cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware"
 zrepo skfltech/skfl, dir:"${HOME}/Code/skfl"
 
 # SETUP ZPLUG
@@ -60,6 +60,9 @@ function link() {
 }
 
 link "${HOME}/Code/nvim" "${HOME}/.config/nvim"
+link "${HOME}/.config/zshrc" "${HOME}/.zshrc"
+link "${HOME}/.config/gitconfig" "${HOME}/.gitconfig"
+link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
 
 # CUSTOM CONFIG
 export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
