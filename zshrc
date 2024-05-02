@@ -62,7 +62,6 @@ function link() {
 link "${HOME}/Code/nvim" "${HOME}/.config/nvim"
 
 # CUSTOM CONFIG
-
 export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
 export WORDCHARS=' *?_-.[]~=/&;!#$%^(){}<>'
 
@@ -89,7 +88,7 @@ program rustup
 dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
-#dotfile fzf.zsh
+dotfile fzf.zsh
 
 unique() {
   cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-
