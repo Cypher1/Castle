@@ -1,33 +1,78 @@
 #!/usr/bin/zsh
 export HOME="$(cd;pwd)"
-export ZSH="${HOME}/.ohmyzsh"
+ZPLUG_HOME="${HOME}/.zplug"
+ZPLUG_REPOS="${ZPLUG_HOME}/repos"
+ZPLUG_URL="https://raw.githubusercontent.com/zplug/installer/master/installer.zsh"
+if [ ! -d "${ZPLUG_HOME}" ]; then
+  curl -sL --proto-redir -all,https "${ZPLUG_URL}" | zsh
+fi
+
+if [ ! -d "${HOME}/.zplug/" ]; then
+  echo "Error loading zplug"
+fi
+
+source "${HOME}/.zplug/init.zsh"
+
+# PLUGINS
+
+zplug cypher1/Castle
+zplug cypher1/nvim_config
+zplug cypher1/mdbook-graphviz
+zplug cypher1/greasy
+zplug zsh-users/zsh-autosuggestions
+zplug zsh-users/zsh-completions
+zplug lukechilds/zsh-nvm
+zplug lukechilds/zsh-better-npm-completion
+zplug romkatv/powerlevel10k, as:theme, depth:1
+zplug cypher1/tako
+zplug skfltech/skfl
+zplug plugins/z, from:oh-my-zsh
+zplug plugins/git, from:oh-my-zsh
+zplug plugins/command-not-found, from:oh-my-zsh
+zplug plugins/last-working-dir, from:oh-my-zsh
+zplug plugins/rust, from:oh-my-zsh
+zplug plugins/sudo, from:oh-my-zsh
+zplug plugins/zsh-autosuggestions, from:oh-my-zsh
+zplug plugins/zsh-completions, from:oh-my-zsh
+
+# SETUP ZPLUG
+zplug load # --verbose
+
+# Install plugins if there are plugins that have not been installed
+if ! zplug check --verbose; then
+    printf "Install? [y/N]: "
+    if read -q; then
+        echo; zplug install
+    fi
+fi
+
+function link() {
+  if [ -d "$2" ]; then
+    return
+  fi
+  ln -sf "$1" "$2"
+}
+
+link "${ZPLUG_REPOS}/cypher1/Castle" "${HOME}/.config"
+link "${ZPLUG_REPOS}/cypher1/nvim_config" "${ZPLUG_REPOS}/cypher1/Castle/nvim"
+link "${ZPLUG_REPOS}/cypher1/greasy" "${ZPLUG_REPOS}/cypher1/Castle/greasy"
+link "${ZPLUG_REPOS}/cypher1/tako" "${HOME}/Code/tako"
+link "${ZPLUG_REPOS}/skfltech/skfl" "${HOME}/Code/skfl"
+link "${ZPLUG_REPOS}/cypher1/mdbook-graphviz" "${HOME}/Code/mdbook-graphviz"
+
+# CUSTOM CONFIG
+
 export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
 export WORDCHARS=' *?_-.[]~=/&;!#$%^(){}<>'
 
-# Run the auto-update checker (with colors):
-function update-host() {
-}
 source "${HOME}/.config/colors.sh"
-source "${HOME}/.config/auto-update.sh"
 source "${HOME}/.config/arrive.zsh"
 export NVM_LAZY_LOAD=true
-
-plugins=(
-  command-not-found
-  last-working-dir
-  rust
-  sudo
-  z
-  zsh-autosuggestions
-  zsh-completions
-  zsh-nvm
-)
 
 path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
 path "/usr/local/bin"
 path "/opt/local/bin"
 path "/opt/fx_cast/"
-path "${HOME}/depot_tools"
 path "${HOME}/.cargo/bin"
 path "${HOME}/.local/bin/"
 path "${HOME}/.config/bin"
@@ -48,31 +93,6 @@ dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
 dotfile fzf.zsh
-github Cypher1 nvim_config "${HOME}/.config/nvim"
-github Cypher1 mdbook-graphviz "${HOME}/Code/mdbook-graphviz"
-github Cypher1 greasy "${HOME}/.config/greasy"
-github romkatv powerlevel10k "${HOME}/.powerlevel10k"
-github ohmyzsh ohmyzsh "${HOME}/.ohmyzsh"
-github zsh-users zsh-autosuggestions "${ZSH}/custom/plugins/zsh-autosuggestions"
-github zsh-users zsh-completions "${ZSH}/custom/plugins/zsh-completions"
-github lukechilds zsh-nvm "${HOME}/.ohmyzsh/custom/plugins/zsh-nvm"
-github lukechilds zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-npm-completion"
-github Cypher1 tako "${HOME}/tako"
-github skfltech skfl "${HOME}/skfl"
-
-load p10k_config "${HOME}/.config/p10k.zsh" "p10k configure && mkdir -p ${HOME}/.config && mv ${HOME}/.p10k.zsh ${HOME}/.config/"
-load p10k_cache "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-
-load powerlevel10k "${HOME}/.powerlevel10k/powerlevel10k.zsh-theme"
-load ohmyzsh "${ZSH}/oh-my-zsh.sh"
-load greasy "${HOME}/.config/greasy/greasy.zsh"
-load fzf "${HOME}/.config/fzf.zsh"
-load mdbook "${HOME}/.config/mdbook.zsh"
-load zsh-better-npm-completion "${ZSH}/custom/plugins/zsh-better-npm-completion/zsh-better-npm-completion.plugin.zsh"
-# load ghcup "${HOME}/.ghcup/env"
-
-# Add ninja completions
-fpath=("${HOME}/.config/ninja.zsh" $fpath)
 
 unique() {
   cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-
@@ -91,8 +111,6 @@ compdef _P P
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 setopt no_bang_hist # turn off history expansion using !
-# bindkey -v
-# bindkey "^R" history-incremental-search-backward
 bindkey -s "^L" "exec zsh\n"
 
 function _ggrepconflict {
@@ -196,10 +214,5 @@ alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias vrc="$EDITOR ${HOME}/.config/nvim/lua/cypher1/init.lua"
 alias icat="kitty +kitten icat"
 alias bob="/data/data/com.termux/files/home/skfltech/skfl/bob.ts"
-function mk() {
-  mkdir -p $1
-  cd $1
-}
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
-# export CARGO_INCREMENTAL=0
