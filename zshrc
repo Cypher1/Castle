@@ -1,50 +1,58 @@
 #!/usr/bin/zsh
-export HOME="$(cd;pwd)"
-ZPLUG_HOME="${HOME}/.zplug"
-ZPLUG_REPOS="${ZPLUG_HOME}/repos"
-ZPLUG_URL="https://raw.githubusercontent.com/zplug/installer/master/installer.zsh"
-if [ ! -d "${ZPLUG_HOME}" ]; then
-  curl -sL --proto-redir -all,https "${ZPLUG_URL}" | zsh
+zmodload zsh/zprof
+#
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
-if [ ! -d "${HOME}/.zplug/" ]; then
-  echo "Error loading zplug"
-fi
+export HOME="$(cd;pwd)"
+ZPLUG_HOME="${HOME}/.zplug"
+function install_zplug() {
+  ZPLUG_URL="https://raw.githubusercontent.com/zplug/installer/master/installer.zsh"
+  curl -sL --proto-redir -all,https "${ZPLUG_URL}" | zsh
+}
 
 source "${HOME}/.zplug/init.zsh"
 
 # PLUGINS
 
-zplug cypher1/Castle
-zplug cypher1/nvim_config
-zplug cypher1/mdbook-graphviz
-zplug cypher1/greasy
+function zrepo() {
+  # Use zplug for non-plugins :O
+  zplug "$@", ignore:"*", defer:3, lazy:1
+}
+
+zplug cypher1/Castle, dir:"${HOME}/.config"
+zplug cypher1/greasy, dir:"${HOME}/Code/greasy"
 zplug zsh-users/zsh-autosuggestions
 zplug zsh-users/zsh-completions
-zplug lukechilds/zsh-nvm
-zplug lukechilds/zsh-better-npm-completion
 zplug romkatv/powerlevel10k, as:theme, depth:1
-zplug cypher1/tako
-zplug skfltech/skfl
-zplug plugins/z, from:oh-my-zsh
-zplug plugins/git, from:oh-my-zsh
+zplug plugins/git, from:oh-my-zsh # USED BY P10k.
+zplug agkozak/zsh-z, depth:1
+zplug modules/last-working-dir, from:prezto
 zplug plugins/command-not-found, from:oh-my-zsh
-zplug plugins/last-working-dir, from:oh-my-zsh
-zplug plugins/rust, from:oh-my-zsh
 zplug plugins/sudo, from:oh-my-zsh
 zplug plugins/zsh-autosuggestions, from:oh-my-zsh
 zplug plugins/zsh-completions, from:oh-my-zsh
 
+zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
+zrepo cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
+zrepo cypher1/tako, dir:"${HOME}/Code/tako"
+zrepo cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware"
+zrepo skfltech/skfl, dir:"${HOME}/Code/skfl"
+
 # SETUP ZPLUG
-zplug load # --verbose
+zplug load #--verbose
 
 # Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
+#if ! zplug check --verbose; then
+#    printf "Install? [y/N]: "
+#    if read -q; then
+#        echo; zplug install
+#    fi
+#fi
 
 function link() {
   if [ -d "$2" ]; then
@@ -53,21 +61,12 @@ function link() {
   ln -sf "$1" "$2"
 }
 
-link "${ZPLUG_REPOS}/cypher1/Castle" "${HOME}/.config"
-link "${ZPLUG_REPOS}/cypher1/nvim_config" "${ZPLUG_REPOS}/cypher1/Castle/nvim"
-link "${ZPLUG_REPOS}/cypher1/greasy" "${ZPLUG_REPOS}/cypher1/Castle/greasy"
-link "${ZPLUG_REPOS}/cypher1/tako" "${HOME}/Code/tako"
-link "${ZPLUG_REPOS}/skfltech/skfl" "${HOME}/Code/skfl"
-link "${ZPLUG_REPOS}/cypher1/mdbook-graphviz" "${HOME}/Code/mdbook-graphviz"
+link "${HOME}/Code/nvim" "${HOME}/.config/nvim"
 
 # CUSTOM CONFIG
 
 export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
 export WORDCHARS=' *?_-.[]~=/&;!#$%^(){}<>'
-
-source "${HOME}/.config/colors.sh"
-source "${HOME}/.config/arrive.zsh"
-export NVM_LAZY_LOAD=true
 
 path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
 path "/usr/local/bin"
@@ -92,7 +91,7 @@ program rustup
 dotfile gitconfig
 dotfile pylintrc
 dotfile zshrc
-dotfile fzf.zsh
+#dotfile fzf.zsh
 
 unique() {
   cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-
@@ -112,6 +111,9 @@ setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 setopt no_bang_hist # turn off history expansion using !
 bindkey -s "^L" "exec zsh\n"
+bindkey  "^[[H"   beginning-of-line
+bindkey  "^[[F"   end-of-line
+bindkey  "^[[3~"  delete-char
 
 function _ggrepconflict {
   LINE="<<<<<<<"
@@ -216,3 +218,6 @@ alias icat="kitty +kitten icat"
 alias bob="/data/data/com.termux/files/home/skfltech/skfl/bob.ts"
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
+
+# To customize prompt, run `p10k configure` or edit ~/.config/p10k.zsh.
+[[ ! -f ~/.config/p10k.zsh ]] || source ~/.config/p10k.zsh
