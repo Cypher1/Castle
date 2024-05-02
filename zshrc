@@ -148,7 +148,7 @@ bluetooth_fix() {
   #ps -ef | grep blu
   #echo 'Killing bluetoothd'
   #sudo pkill bluetoothd
-  sudo modprobe -r btintel btusb
+  sudo modprobe -r btusb btintel
 }
 alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_supply/BAT0/energy_now) / $(cat /sys/class/power_supply/BAT0/energy_full))))"'
 alias matches="grep -o"
