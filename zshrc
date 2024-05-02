@@ -115,7 +115,7 @@ bindkey  "^[[3~"  delete-char
 function _ggrepconflict {
   LINE="<<<<<<<"
   zle push-input
-  BUFFER="vim \"+:GGrep $LINE\""
+  git rev-parse --show-toplevel && BUFFER="vim \"+:GGrep $LINE\""
   zle accept-line
 }
 zle -N _ggrepconflict
@@ -124,7 +124,7 @@ bindkey '^G' _ggrepconflict
 function _ggrep {
   LINE="$BUFFER"
   zle push-input
-  BUFFER="vim \"+:GGrep $LINE\""
+  git rev-parse --show-toplevel && BUFFER="vim \"+:GGrep $LINE\""
   zle accept-line
 }
 zle -N _ggrep
@@ -133,7 +133,7 @@ bindkey '^F' _ggrep
 zstyle ':autocomplete:*' default-context history-incremental-search-backward
 zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
-export KEYTIMEOUT=1
+export KEYTIMEOUT=0.1
 
 # from i8ramin - http://getintothis.com/blog/2012/04/02/git-grep-and-blame-bash-function/
 # runs git grep on a pattern, and then uses git blame to who did it
