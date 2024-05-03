@@ -231,6 +231,7 @@ image/x-wmf=org.gimp.GIMP.desktop
 image/jp2=org.gimp.GIMP.desktop
 image/x-xcursor=org.gimp.GIMP.desktop
 image/openraster=org.gimp.GIMP.desktop
+font/ttf=org.gnome.font-viewer.desktop
 
 [Added Associations]
 application/msword=google-chrome.desktop;libreoffice-writer.desktop;
@@ -420,7 +421,7 @@ application/zip=org.gnome.FileRoller.desktop;file-roller.desktop;
 application/vnd.openxmlformats-officedocument.presentationml.presentation=libreoffice-impress.desktop;
 application/x-compressed-tar=org.manjaro.pamac.manager.desktop;file-roller.desktop;
 application/x-java-archive=java-jar-launcher.desktop;file-roller.desktop;org.gnome.FileRoller.desktop;JB-java-jdk8.desktop;openjdk-8-java.desktop;
-font/ttf=gcr-viewer.desktop;
+font/ttf=gcr-viewer.desktop;org.gnome.font-viewer.desktop;
 text/x-haskell=nvim.desktop;
 application/x-executable=qterminal.desktop;gnvim.desktop;
 audio/opus=org.videolan.VLC.desktop;
