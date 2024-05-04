@@ -151,3 +151,4 @@ nvim/plugin
 nvim/lazy-lock.json
 nvim
 llvmenv
+hyfetch.json
