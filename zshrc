@@ -33,9 +33,6 @@ zrepo cypher1/tako, dir:"${HOME}/Code/tako"
 #zrepo cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware"
 zrepo skfltech/skfl, dir:"${HOME}/Code/skfl"
 
-# SETUP ZPLUG
-zplug load #--verbose
-
 # Install plugins if there are plugins that have not been installed
 if ! zplug check --verbose; then
     printf "Install? [y/N]: "
@@ -50,6 +47,9 @@ fi
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
+
+# SETUP ZPLUG
+zplug load #--verbose
 
 function link() {
   if [ -d "$2" ]; then
@@ -222,6 +222,7 @@ alias icat="kitty +kitten icat"
 alias bob="/data/data/com.termux/files/home/skfltech/skfl/bob.ts"
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
+export CARGO_INCREMENTAL=0
 
 # To customize prompt, run `p10k configure` or edit ~/.config/p10k.zsh.
 [[ ! -f ~/.config/p10k.zsh ]] || source ~/.config/p10k.zsh
