@@ -22,6 +22,7 @@ zplug zsh-users/zsh-completions
 zplug romkatv/powerlevel10k, as:theme, depth:1
 zplug agkozak/zsh-z, depth:1
 zplug modules/last-working-dir, from:prezto
+zplug modules/directory, from:prezto
 # TODO: find stand alone impls
 zplug plugins/sudo, from:oh-my-zsh
 zplug plugins/zsh-autosuggestions, from:oh-my-zsh
