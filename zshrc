@@ -15,7 +15,7 @@ function zrepo() {
 source "${HOME}/.zplug/init.zsh"
 
 # PLUGINS
-zplug cypher1/Castle, dir:"${HOME}/.config"
+zplug cypher1/Castle, dir:"${HOME}/.config", at:main
 zplug cypher1/greasy, dir:"${HOME}/Code/greasy"
 zplug zsh-users/zsh-autosuggestions
 zplug zsh-users/zsh-completions
