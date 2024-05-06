@@ -66,7 +66,7 @@ link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
 
 # CUSTOM CONFIG
 export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
-export WORDCHARS=' *?_-.[]~=/&;!#$%^(){}<>'
+export WORDCHARS=' *?_-.[]~=\\/&;!#$%^(){}<>'
 
 path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
 path "/usr/local/bin"
