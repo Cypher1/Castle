@@ -90,8 +90,6 @@ function do_arrive() {
   if [[ "$OSTYPE" != "linux-android" ]]; then
     program kitty
     program rustup
-    rustup cargo # get from rustup
-    rustup rustc # get from rustup
   fi
   dotfile gitconfig
   dotfile pylintrc
