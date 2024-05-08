@@ -49,6 +49,12 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+# Settings for plugins
+export WORDCHARS=' *?_-.[]~=\\/&;!#$%^(){}<>'
+zstyle ':prezto:module:directory:alias' skip 'yes'
+zstyle ':autocomplete:*' default-context history-incremental-search-backward
+zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
+
 # SETUP ZPLUG
 zplug load #--verbose
 
@@ -66,7 +72,6 @@ link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
 
 # CUSTOM CONFIG
 export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
-export WORDCHARS=' *?_-.[]~=\\/&;!#$%^(){}<>'
 
 path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
 path "/usr/local/bin"
@@ -132,9 +137,6 @@ function _ggrep {
 }
 zle -N _ggrep
 bindkey '^F' _ggrep
-
-zstyle ':autocomplete:*' default-context history-incremental-search-backward
-zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=0.1
 
