@@ -19,7 +19,7 @@ function zrepo() {
 }
 
 function zREPO() {
-  zrepo "$@", if:"[[ $OSTYPE != linux-android ]]"
+  zrepo "$@", if:"[[ \"$OSTYPE\" != \"linux-android\" ]]"
 }
 
 source "${HOME}/.zplug/init.zsh" || echo "'zplug' missing run 'install_zplug'"
