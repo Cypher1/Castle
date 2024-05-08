@@ -22,15 +22,10 @@ zplug zsh-users/zsh-completions
 zplug romkatv/powerlevel10k, as:theme, depth:1
 zplug agkozak/zsh-z, depth:1
 zplug sorin-ionescu/prezto, depth:1
-zplug modules/last-working-dir, from:prezto
 zplug modules/command-not-found, from:prezto
 zplug modules/history, from:prezto
-zplug modules/utility, from:prezto
-zplug modules/dpkg, from:prezto
-zplug modules/docker, from:prezto
 zplug modules/node, from:prezto
 zplug modules/rsync, from:prezto
-zplug modules/directory, from:prezto
 
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
 zrepo cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
@@ -177,17 +172,6 @@ bindkey '^F' _ggrep
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=0.1
 
-# from i8ramin - http://getintothis.com/blog/2012/04/02/git-grep-and-blame-bash-function/
-# runs git grep on a pattern, and then uses git blame to who did it
-ggb() {
-    git grep -n $1 | while IFS=: read i j k; do git blame -L $j,$j $i | cat; done
-}
-
-# small modification for git egrep bash
-geb() {
-    git grep -E -n $1 | while IFS=: read i j k; do git blame -L $j,$j $i | cat; done
-}
-
 # HISTORY
 export HISTSIZE=1000000 # set history size
 export SAVEHIST=1000000 # save history after logout
@@ -218,11 +202,6 @@ alias ...="cd ../.."
 alias ....="cd ../../.."
 alias .....="cd ../../../.."
 alias ......="cd ../../../../.."
-
-# From directories (but without overwriting 'd')
-for index ({1..9}) do;
-  alias "$index"="cd +${index}"; unset index
-done
 
 alias cl="less -r -f +G +g .c.log"
 
@@ -267,7 +246,7 @@ alias :e="$EDITOR "
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias vrc="$EDITOR ${HOME}/.config/nvim/lua/cypher1/init.lua"
 alias icat="kitty +kitten icat"
-alias bob="/data/data/com.termux/files/home/skfltech/skfl/bob.ts"
+alias bob="${HOME}/skfltech/skfl/bob.ts"
 
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
 export CARGO_INCREMENTAL=0
