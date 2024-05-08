@@ -56,6 +56,8 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 # Settings for plugins
+autoload -U select-word-style
+select-word-style bash
 export WORDCHARS=' *?_-.[]~=\\/&;!#$%^(){}<>'
 zstyle ':prezto:module:directory:alias' skip 'yes'
 zstyle ':autocomplete:*' default-context history-incremental-search-backward
