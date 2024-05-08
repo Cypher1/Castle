@@ -37,7 +37,7 @@ zplug modules/history, from:prezto
 zplug modules/node, from:prezto
 zplug modules/rsync, from:prezto
 
-zREPO cypher1/llvm-project, dir:"${HOME}/Code/llvm-project"
+zREPO cypher1/llvm-project, dir:"${HOME}/Code/llvm-project", frozen:1
 zREPO HCAIRESteam/hcaires, dir:"${HOME}/Code/hcaires"
 zREPO cypher1/no_debug, dir:"${HOME}/Code/no_debug"
 zREPO cypher1/poetry, at:main, dir:"${HOME}/Code/poetry"
@@ -47,8 +47,8 @@ zREPO cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware"
 
 zrepo cypher1/notes, dir:"${HOME}/Code/notes"
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
-zrepo cypher1/tako, dir:"${HOME}/Code/tako"
-zrepo skfltech/skfl, dir:"${HOME}/Code/skfl"
+zrepo cypher1/tako, dir:"${HOME}/Code/tako", frozen:1
+zrepo skfltech/skfl, dir:"${HOME}/Code/skfl", frozen:1
 
 # Settings for plugins
 autoload -U select-word-style
