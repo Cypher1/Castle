@@ -31,8 +31,6 @@ zplug modules/docker, from:prezto
 zplug modules/node, from:prezto
 zplug modules/rsync, from:prezto
 zplug modules/directory, from:prezto
-# TODO: find stand alone impls
-zplug plugins/sudo, from:oh-my-zsh
 
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
 zrepo cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
@@ -124,9 +122,40 @@ setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 setopt no_bang_hist # turn off history expansion using !
 bindkey -s "^L" "exec zsh\n"
+# Home and end
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
-bindkey  "^[[3~"  delete-char
+# Alt => Lines
+bindkey '^[[1;3D' beginning-of-line
+bindkey '^[[1;3C' end-of-line
+
+# Chars
+bindkey  "^[[3~"  delete-char # Delete
+
+# Ctrl => Words
+bindkey  "^w"   backward-kill-word
+bindkey  "^H"  backward-kill-word # Ctrl+Backspace
+bindkey  "^[[1;5D"   backward-word
+bindkey  "^[[1;5C"   forward-word
+
+# Debug
+bindkey '^[v' .describe-key-briefly
+
+function _nvim_mode {
+  TMP="$(mktemp)"
+  echo "$BUFFER" >> $TMP
+  ${EDITOR:-vim} $TMP && BUFFER="$(cat $TMP)" && CURSOR="$#BUFFER"
+}
+zle -N _nvim_mode
+bindkey '^e' _nvim_mode
+
+function _sudobuf {
+  OFFSET_CURSOR="$(($#BUFFER-CURSOR))"
+  BUFFER="$(echo "sudo $BUFFER" | sed "s/sudo sudo //")"
+  CURSOR="$(($#BUFFER-OFFSET_CURSOR))"
+}
+zle -N _sudobuf
+bindkey '^[^[' _sudobuf
 
 function _ggrepconflict {
   LINE="<<<<<<<"
