@@ -31,7 +31,7 @@ zplug plugins/zsh-completions, from:oh-my-zsh
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
 zrepo cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
 zrepo cypher1/tako, dir:"${HOME}/Code/tako"
-#zrepo cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware"
+zrepo cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware", if:"[[ $OSTYPE != linux-android ]]"
 zrepo skfltech/skfl, dir:"${HOME}/Code/skfl"
 
 # Install plugins if there are plugins that have not been installed
