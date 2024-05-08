@@ -182,7 +182,17 @@ alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_suppl
 alias matches="grep -o"
 
 alias .="clear;ls"
-for index ({2..9}) alias "$index"="cd +${index}"; unset index
+alias ..="cd .."
+alias ...="cd ../.."
+alias ....="cd ../../.."
+alias .....="cd ../../../.."
+alias ......="cd ../../../../.."
+
+# From directories (but without overwriting 'd')
+for index ({1..9}) do;
+  alias "$index"="cd +${index}"; unset index
+done
+
 alias cl="less -r -f +G +g .c.log"
 
 function c() {
