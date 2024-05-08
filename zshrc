@@ -18,6 +18,10 @@ function zrepo() {
   zplug "$@", ignore:"*", defer:3, lazy:1
 }
 
+function zREPO() {
+  zrepo "$@", if:"[[ $OSTYPE != linux-android ]]"
+}
+
 source "${HOME}/.zplug/init.zsh" || echo "'zplug' missing run 'install_zplug'"
 
 # PLUGINS
@@ -33,10 +37,17 @@ zplug modules/history, from:prezto
 zplug modules/node, from:prezto
 zplug modules/rsync, from:prezto
 
+zREPO cypher1/llvm-project, dir:"${HOME}/Code/llvm-project"
+zREPO HCAIRESteam/hcaires, dir:"${HOME}/Code/hcaires"
+zREPO cypher1/no_debug, dir:"${HOME}/Code/no_debug"
+zREPO cypher1/poetry, at:main, dir:"${HOME}/Code/poetry"
+zREPO cypher1/poetry-core, at:main, dir:"${HOME}/Code/poetry-core"
+zREPO cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
+zREPO cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware"
+
+zrepo cypher1/notes, dir:"${HOME}/Code/notes"
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
-zrepo cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
 zrepo cypher1/tako, dir:"${HOME}/Code/tako"
-zrepo cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware", if:"[[ $OSTYPE != linux-android ]]"
 zrepo skfltech/skfl, dir:"${HOME}/Code/skfl"
 
 # Settings for plugins
