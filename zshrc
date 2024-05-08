@@ -21,12 +21,18 @@ zplug zsh-users/zsh-autosuggestions
 zplug zsh-users/zsh-completions
 zplug romkatv/powerlevel10k, as:theme, depth:1
 zplug agkozak/zsh-z, depth:1
+zplug sorin-ionescu/prezto, depth:1
 zplug modules/last-working-dir, from:prezto
+zplug modules/command-not-found, from:prezto
+zplug modules/history, from:prezto
+zplug modules/utility, from:prezto
+zplug modules/dpkg, from:prezto
+zplug modules/docker, from:prezto
+zplug modules/node, from:prezto
+zplug modules/rsync, from:prezto
 zplug modules/directory, from:prezto
 # TODO: find stand alone impls
 zplug plugins/sudo, from:oh-my-zsh
-zplug plugins/zsh-autosuggestions, from:oh-my-zsh
-zplug plugins/zsh-completions, from:oh-my-zsh
 
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
 zrepo cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
