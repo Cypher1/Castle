@@ -1,7 +1,13 @@
 #!/usr/bin/zsh
 zmodload zsh/zprof
-#
 export HOME="$(cd;pwd)"
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# Initialization code that may require console input (password prompts, [y/n]
+# confirmations, etc.) must go above this block; everything else may go below.
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 ZPLUG_HOME="${HOME}/.zplug"
 function install_zplug() {
   ZPLUG_URL="https://raw.githubusercontent.com/zplug/installer/master/installer.zsh"
@@ -12,7 +18,7 @@ function zrepo() {
   zplug "$@", ignore:"*", defer:3, lazy:1
 }
 
-source "${HOME}/.zplug/init.zsh"
+source "${HOME}/.zplug/init.zsh" || echo "'zplug' missing run 'install_zplug'"
 
 # PLUGINS
 zplug cypher1/Castle, dir:"${HOME}/.config", at:main
@@ -33,21 +39,6 @@ zrepo cypher1/tako, dir:"${HOME}/Code/tako"
 zrepo cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware", if:"[[ $OSTYPE != linux-android ]]"
 zrepo skfltech/skfl, dir:"${HOME}/Code/skfl"
 
-# Install plugins if there are plugins that have not been installed
-if ! zplug check --verbose; then
-    printf "Install? [y/N]: "
-    if read -q; then
-        echo; zplug install
-    fi
-fi
-
-# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
-# Initialization code that may require console input (password prompts, [y/n]
-# confirmations, etc.) must go above this block; everything else may go below.
-if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
-  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
-fi
-
 # Settings for plugins
 autoload -U select-word-style
 select-word-style bash
@@ -59,55 +50,62 @@ zstyle ':completion:*:*' ignored-patterns '*ORIG_HEAD'
 # SETUP ZPLUG
 zplug load #--verbose
 
-function link() {
-  if [ -d "$2" ]; then
-    return
+# CUSTOM CONFIG
+
+# Configure arrive (run after arrive.zsh is loaded)
+function do_arrive() {
+  # Install plugins if there are plugins that have not been installed
+  if ! zplug check --verbose; then
+      printf "Install? [y/N]: "
+      if read -q; then
+          echo; zplug install
+      fi
   fi
-  ln -sf "$1" "$2"
+
+  link "${HOME}/Code/nvim" "${HOME}/.config/nvim"
+  link "${HOME}/.config/zshrc" "${HOME}/.zshrc"
+  link "${HOME}/.config/gitconfig" "${HOME}/.gitconfig"
+  link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
+
+  # Later is higher precedence
+  path "/usr/bin"
+  path "/var/lib/snapd/snap/bin"
+  path "/usr/local/bin"
+  path "/opt/local/bin"
+  path "/usr/sbin"
+  path "/usr/local/sbin"
+  path "${HOME}/.npm-global/bin"
+  path "${HOME}/.cargo/bin"
+  path "${HOME}/.dotnet/tools"
+  path "${HOME}/.local/bin"
+  path "${HOME}/.zplug/bin"
+  path "${HOME}/.config/bin"
+
+  # LOAD EXTERNALS
+  program zsh
+  program fzf
+  program nvim neovim
+  program git
+  program python3
+  if [[ "$OSTYPE" != "linux-android" ]]; then
+    program kitty
+    program rustup
+    rustup cargo # get from rustup
+    rustup rustc # get from rustup
+  fi
+  dotfile gitconfig
+  dotfile pylintrc
+  dotfile zshrc
+  dotfile fzf.zsh
 }
 
-link "${HOME}/Code/nvim" "${HOME}/.config/nvim"
-link "${HOME}/.config/zshrc" "${HOME}/.zshrc"
-link "${HOME}/.config/gitconfig" "${HOME}/.gitconfig"
-link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
-
-# CUSTOM CONFIG
-export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
-
-path "/usr/lib/ccache" # Ensure that ccache versions are used over other compilers
-path "/usr/local/bin"
-path "/opt/local/bin"
-path "/opt/fx_cast/"
-path "${HOME}/.cargo/bin"
-path "${HOME}/.local/bin/"
-path "${HOME}/.config/bin"
-path "${HOME}/.npm-global/bin"
-path "${HOME}/zig"
-
-# LOAD EXTERNALS
-program zsh
-program fzf
-program nvim neovim
-program git
-program python3
-program rustup
-# program kitty
-# rustup cargo # get from rustup
-# rustup rustc # get from rustup
-dotfile gitconfig
-dotfile pylintrc
-dotfile zshrc
-dotfile fzf.zsh
-
-unique() {
+function unique() {
   cat -n | sort --key=2.1 -b -u | sort -n | cut -c8-
 }
-join() {
+function join() {
   tr '\n' $1 | sed "s/$1$//"
 }
 
-PATH="$(echo $PATH | grep -o '[^:]*' | unique | join ':')"
-export PATH="/usr/lib/ccache/bin:$PATH"
 autoload -U +X bashcompinit && bashcompinit
 
 compdef _P P
@@ -180,14 +178,18 @@ export HISTIGNORE="^(fg|bg|ls|s|p|q)$"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 
 # EXPORTS
+export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
 export TERM="xterm-256color"
 export EDITOR="$(which nvim || which vim)"
 export VISUAL="$EDITOR"
+export CARGO_TARGET_DIR="${HOME}/.cargo/target"
+export CARGO_INCREMENTAL=0
+
 SCCACHE="$(which sccache)"
 [[ -e $SCCACHE ]] && export RUSTC_WRAPPER="$SCCACHE"
 
 # ALIASES
-bluetooth_fix() {
+function bluetooth_fix() {
   #ps -ef | grep blu
   #echo 'Killing bluetoothd'
   #sudo pkill bluetoothd
@@ -230,7 +232,6 @@ alias turbo="npm exec turbo --"
 alias tsc="npm exec tsc --"
 alias vite="npm exec vite --"
 alias vitest="npm exec vitest --"
-# alias swa="npm exec swa --"
 alias func="npm exec func --"
 alias nt="cargo nextest run"
 alias q="exit"
@@ -247,9 +248,6 @@ alias zrc="$EDITOR ${HOME}/.config/zshrc"
 alias vrc="$EDITOR ${HOME}/.config/nvim/lua/cypher1/init.lua"
 alias icat="kitty +kitten icat"
 alias bob="${HOME}/skfltech/skfl/bob.ts"
-
-export CARGO_TARGET_DIR="${HOME}/.cargo/target"
-export CARGO_INCREMENTAL=0
 
 # To customize prompt, run `p10k configure` or edit ~/.config/p10k.zsh.
 [[ ! -f ~/.config/p10k.zsh ]] || source ~/.config/p10k.zsh

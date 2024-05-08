@@ -1,5 +1,12 @@
 #!/usr/bin/zsh
 
+link() {
+  if [ -d "$2" ]; then
+    return
+  fi
+  ln -sf "$1" "$2"
+}
+
 setup() {
     NAME=$1; ENTRY=$2; CMD=$3
     [[ -e "$ENTRY" ]] && return
@@ -20,7 +27,10 @@ load() {
 }
 
 path() {
-  echo "$PATH" | grep -q "$1" || export PATH="${PATH}:$1"
+  # Add the path to the front & remove duplicates occuring elsewhere.
+  addition="$1"
+  PATH="$(echo "$PATH" | sed "s|$addition:||g")"
+  export PATH="$addition:${PATH}"
 }
 
 pkg_man() {
@@ -36,3 +46,6 @@ program() {
   PROG=$1; PKG=${2:-$1}
   setup $PKG "$(which $PROG)" "$PKG_MAN $PKG"
 }
+
+# Call the user's config
+do_arrive
