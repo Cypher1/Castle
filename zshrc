@@ -32,7 +32,6 @@ zplug zsh-users/zsh-completions
 zplug romkatv/powerlevel10k, as:theme, depth:1
 zplug agkozak/zsh-z, depth:1
 zplug sorin-ionescu/prezto, depth:1
-zplug modules/command-not-found, from:prezto
 zplug modules/history, from:prezto
 zplug modules/node, from:prezto
 zplug modules/rsync, from:prezto
