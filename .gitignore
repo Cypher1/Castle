@@ -134,6 +134,7 @@ BambuStudio/log
 BambuStudio/user/*/process
 BambuStudio/hms
 BambuStudio/track
+BambuStudio/system
 BambuStudio/BambuStudio.conf
 connections.db
 microsoft*
