@@ -124,7 +124,8 @@ function join() {
 
 autoload -U +X bashcompinit && bashcompinit
 
-compdef _P P
+compdef _p p pP
+compdef _up up
 
 # SET OPTIONS
 setopt INC_APPEND_HISTORY
