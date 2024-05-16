@@ -160,6 +160,9 @@ bindkey '^e' _nvim_mode
 
 function _sudobuf {
   OFFSET_CURSOR="$(($#BUFFER-CURSOR))"
+  if [ -z "$BUFFER" ]; then
+    BUFFER="$history[$((HISTCMD-1))]"
+  fi
   BUFFER="$(echo "sudo $BUFFER" | sed "s/sudo sudo //")"
   CURSOR="$(($#BUFFER-OFFSET_CURSOR))"
 }
