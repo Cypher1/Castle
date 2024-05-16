@@ -63,6 +63,13 @@ zplug load #--verbose
 
 # CUSTOM CONFIG
 
+function lwd() {
+  zshz | tail -n 1 | sed "s/ \+/\t/" | cut -f2
+}
+
+# Start at the last working directory.
+cd $(lwd)
+
 # Configure arrive (run after arrive.zsh is loaded)
 function do_arrive() {
   # Install plugins if there are plugins that have not been installed
