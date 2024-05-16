@@ -261,7 +261,7 @@ alias vi="$EDITOR "
 alias vim="$EDITOR "
 alias :e="$EDITOR "
 alias zrc="$EDITOR ${HOME}/.config/zshrc"
-alias vrc="$EDITOR ${HOME}/.config/nvim/lua/cypher1/init.lua"
+alias vrc="$EDITOR ${HOME}/.config/nvim/**/*.lua"
 alias icat="kitty +kitten icat"
 alias bob="${HOME}/skfltech/skfl/bob.ts"
 
