@@ -123,7 +123,7 @@ function join() {
 
 autoload -U +X bashcompinit && bashcompinit
 
-compdef _p p pP
+compdef _p p pP pPF bd bdF
 compdef _up up
 
 # SET OPTIONS
