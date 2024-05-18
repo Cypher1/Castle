@@ -217,7 +217,7 @@ function bluetooth_fix() {
 alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_supply/BAT0/energy_now) / $(cat /sys/class/power_supply/BAT0/energy_full))))"'
 alias matches="grep -o"
 
-alias .="clear;ls"
+alias .="clear;s"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
