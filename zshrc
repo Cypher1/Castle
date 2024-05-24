@@ -15,7 +15,7 @@ function install_zplug() {
 }
 function zrepo() {
   # Use zplug for non-plugins :O
-  zplug "$@", ignore:"*", lazy:1
+  zplug "$@", ignore:"*"
 }
 
 function zREPO() {
