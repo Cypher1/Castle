@@ -15,11 +15,13 @@ function install_zplug() {
 }
 function zrepo() {
   # Use zplug for non-plugins :O
-  zplug "$@", ignore:"*", defer:3, lazy:1
+  zplug "$@", ignore:"*", lazy:1
 }
 
 function zREPO() {
-  zrepo "$@", if:"[[ \"$OSTYPE\" != \"linux-android\" ]]"
+  if [[ "$OSTYPE" != "linux-android" ]]; then
+    zrepo "$@"
+  fi
 }
 
 source "${HOME}/.zplug/init.zsh" || echo "'zplug' missing run 'install_zplug'"
