@@ -174,7 +174,7 @@ bindkey '^[^[' _sudobuf
 function _ggrepconflict {
   LINE="<<<<<<<"
   zle push-input
-  git rev-parse --show-toplevel && BUFFER="vim \"+:GGrep $LINE\""
+  root && BUFFER="gg '$LINE' | ge '+/$LINE'"
   zle accept-line
 }
 zle -N _ggrepconflict
@@ -183,7 +183,7 @@ bindkey '^G' _ggrepconflict
 function _ggrep {
   LINE="$BUFFER"
   zle push-input
-  git rev-parse --show-toplevel && BUFFER="vim \"+:GGrep $LINE\""
+  root && BUFFER="gg '$LINE' | ge '+/$LINE'"
   zle accept-line
 }
 zle -N _ggrep
