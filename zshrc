@@ -36,7 +36,6 @@ zplug agkozak/zsh-z, depth:1
 zplug sorin-ionescu/prezto, depth:1
 zplug modules/history, from:prezto
 zplug modules/node, from:prezto
-zplug modules/rsync, from:prezto
 
 zREPO cypher1/llvm-project, dir:"${HOME}/Code/llvm-project", frozen:1
 zREPO HCAIRESteam/hcaires, dir:"${HOME}/Code/hcaires"
