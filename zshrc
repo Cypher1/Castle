@@ -182,7 +182,7 @@ bindkey '^G' _ggrepconflict
 function _ggrep {
   LINE="$BUFFER"
   zle push-input
-  root && BUFFER="gg '$LINE' | ge '+/$LINE'"
+  root && BUFFER="gg '$LINE' | ge '+/$LINE' '+:GGrep \"$LINE\"' || vim '+:GGrep \"$LINE\"'"
   zle accept-line
 }
 zle -N _ggrep
