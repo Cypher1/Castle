@@ -1,6 +1,27 @@
 #!/usr/bin/zsh
 zmodload zsh/zprof
 export HOME="$(cd;pwd)"
+path() {
+  # Add the path to the front & remove duplicates occuring elsewhere.
+  addition="$1"
+  PATH="$(echo "$PATH" | sed "s|${addition}:||g")"
+  export PATH="${addition}:${PATH}"
+}
+
+# Later is higher precedence
+path "/usr/bin"
+path "/var/lib/snapd/snap/bin"
+path "/usr/local/bin"
+path "/opt/local/bin"
+path "/usr/sbin"
+path "/usr/local/sbin"
+path "${HOME}/.npm-global/bin"
+path "${HOME}/.cargo/bin"
+path "${HOME}/.dotnet/tools"
+path "${HOME}/.local/bin"
+path "${HOME}/.zplug/bin"
+path "${HOME}/.config/bin"
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
@@ -84,20 +105,6 @@ function do_arrive() {
   link "${HOME}/.config/zshrc" "${HOME}/.zshrc"
   link "${HOME}/.config/gitconfig" "${HOME}/.gitconfig"
   link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
-
-  # Later is higher precedence
-  path "/usr/bin"
-  path "/var/lib/snapd/snap/bin"
-  path "/usr/local/bin"
-  path "/opt/local/bin"
-  path "/usr/sbin"
-  path "/usr/local/sbin"
-  path "${HOME}/.npm-global/bin"
-  path "${HOME}/.cargo/bin"
-  path "${HOME}/.dotnet/tools"
-  path "${HOME}/.local/bin"
-  path "${HOME}/.zplug/bin"
-  path "${HOME}/.config/bin"
 
   # LOAD EXTERNALS
   program zsh
