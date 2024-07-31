@@ -8,6 +8,30 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+path() {
+  # Add the path to the front & remove duplicates occuring elsewhere.
+  addition="$1"
+  PATH="$(echo "$PATH" | sed "s|$addition:||g")"
+  export PATH="$addition:${PATH}"
+}
+
+# Set up path!
+# Later is higher precedence
+path "/usr/bin"
+path "/var/lib/snapd/snap/bin"
+path "/usr/local/bin"
+path "/opt/local/bin"
+path "/usr/sbin"
+path "/usr/local/sbin"
+path "${HOME}/.npm-global/bin"
+path "${HOME}/.cargo/bin"
+path "${HOME}/.dotnet/tools"
+path "${HOME}/.local/bin"
+path "${HOME}/.zplug/bin"
+path "${HOME}/.config/bin"
+path "/usr/local/cuda-12.5/bin"
+
+
 ZPLUG_HOME="${HOME}/.zplug"
 function install_zplug() {
   ZPLUG_URL="https://raw.githubusercontent.com/zplug/installer/master/installer.zsh"
@@ -84,20 +108,6 @@ function do_arrive() {
   link "${HOME}/.config/zshrc" "${HOME}/.zshrc"
   link "${HOME}/.config/gitconfig" "${HOME}/.gitconfig"
   link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
-
-  # Later is higher precedence
-  path "/usr/bin"
-  path "/var/lib/snapd/snap/bin"
-  path "/usr/local/bin"
-  path "/opt/local/bin"
-  path "/usr/sbin"
-  path "/usr/local/sbin"
-  path "${HOME}/.npm-global/bin"
-  path "${HOME}/.cargo/bin"
-  path "${HOME}/.dotnet/tools"
-  path "${HOME}/.local/bin"
-  path "${HOME}/.zplug/bin"
-  path "${HOME}/.config/bin"
 
   # LOAD EXTERNALS
   program zsh
@@ -180,6 +190,10 @@ zle -N _ggrepconflict
 bindkey '^G' _ggrepconflict
 
 function _ggrep {
+  if [ -z "$BUFFER" ]; then
+    root && $EDITOR "+:GGrep"
+    return
+  fi
   LINE="$BUFFER"
   zle push-input
   root && BUFFER="gg '$LINE' | ge '+/$LINE' '+:GGrep \"$LINE\"' || vim '+:GGrep \"$LINE\"'"

@@ -26,13 +26,6 @@ load() {
     [[ -e "${ENTRY}" ]] && source "$ENTRY"
 }
 
-path() {
-  # Add the path to the front & remove duplicates occuring elsewhere.
-  addition="$1"
-  PATH="$(echo "$PATH" | sed "s|$addition:||g")"
-  export PATH="$addition:${PATH}"
-}
-
 pkg_man() {
   type pkg >/dev/null 2>&1 && echo "pkg install -y" && return
   type dnf >/dev/null 2>&1 && echo "sudo dnf install" && return
