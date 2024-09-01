@@ -87,14 +87,12 @@ zplug load #--verbose
 
 # CUSTOM CONFIG
 
-function lwd() {
-  zshz | tail -n 1 | sed "s/ \+/\t/" | cut -f2
+# Configure arrive (run after arrive.zsh is loaded)
+function arrive() {
+  install_zplug
+  curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 }
 
-# Start at the last working directory.
-cd $(lwd)
-
-# Configure arrive (run after arrive.zsh is loaded)
 function do_arrive() {
   # Install plugins if there are plugins that have not been installed
   if ! zplug check --verbose; then
@@ -285,3 +283,9 @@ alias bob="${HOME}/skfltech/skfl/bob.ts"
 
 # To customize prompt, run `p10k configure` or edit ~/.config/p10k.zsh.
 [[ ! -f ~/.config/p10k.zsh ]] || source ~/.config/p10k.zsh
+
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
