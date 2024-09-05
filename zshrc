@@ -139,7 +139,7 @@ compdef _up up
 setopt INC_APPEND_HISTORY
 setopt HIST_IGNORE_DUPS
 setopt no_bang_hist # turn off history expansion using !
-bindkey -s "^L" "exec zsh\n"
+
 # Home and end
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
@@ -199,8 +199,16 @@ function _ggrep {
 }
 zle -N _ggrep
 bindkey '^F' _ggrep
+
 export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export KEYTIMEOUT=0.1
+
+function _restart_zsh {
+  BUFFER="exec zsh"
+  zle accept-line
+}
+zle -N _restart_zsh
+bindkey '^L' _restart_zsh
 
 # HISTORY
 export HISTSIZE=1000000 # set history size
