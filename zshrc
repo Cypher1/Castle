@@ -61,14 +61,19 @@ zplug sorin-ionescu/prezto, depth:1
 zplug modules/history, from:prezto
 zplug modules/node, from:prezto
 
+zREPO HCAIRESteam/hcaires, dir:"${HOME}/Code/hcaires", frozen:1
+zREPO PolymerLabs/arcs, dir:"${HOME}/Code/arcs", frozen:1
+zREPO cypher1/greasy, dir:"${HOME}/Code/greasy"
 zREPO cypher1/llvm-project, dir:"${HOME}/Code/llvm-project", frozen:1
-zREPO HCAIRESteam/hcaires, dir:"${HOME}/Code/hcaires"
-zREPO cypher1/no_debug, dir:"${HOME}/Code/no_debug"
-zREPO cypher1/poetry, at:main, dir:"${HOME}/Code/poetry"
-zREPO cypher1/poetry-core, at:main, dir:"${HOME}/Code/poetry-core"
 zREPO cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
-zREPO cypher1/qmk_firmware, at:main, dir:"${HOME}/Code/qmk_firmware"
-
+zREPO cypher1/no_debug, dir:"${HOME}/Code/no_debug", frozen:1
+zREPO cypher1/nvim_config, dir:"${HOME}/Code/nvim"
+zREPO cypher1/poetry, dir:"${HOME}/Code/poetry"
+zREPO cypher1/poetry-core, dir:"${HOME}/Code/poetry-core"
+zREPO cypher1/qmk_firmware, dir:"${HOME}/Code/qmk_firmware"
+zREPO neovim/neovim, dir:"${HOME}/Code/neovim", frozen:1
+zREPO pop-os/cosmic-epoch, dir:"${HOME}/Code/cosmic-epoch"
+zREPO tcdi/plrust, dir:"${HOME}/Code/plrust"
 zrepo cypher1/notes, dir:"${HOME}/Code/notes"
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
 zrepo cypher1/tako, dir:"${HOME}/Code/tako", frozen:1
