@@ -243,7 +243,7 @@ function bluetooth_fix() {
 alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_supply/BAT0/energy_now) / $(cat /sys/class/power_supply/BAT0/energy_full))))"'
 alias matches="grep -o"
 
-alias .="clear;s"
+alias .="clear;s;ls"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
@@ -300,5 +300,6 @@ alias bob="${HOME}/skfltech/skfl/bob.ts"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+nvm use v18.20.4 > /dev/null
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
