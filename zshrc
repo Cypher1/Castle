@@ -72,7 +72,7 @@ zREPO cypher1/poetry, dir:"${HOME}/Code/poetry"
 zREPO cypher1/poetry-core, dir:"${HOME}/Code/poetry-core"
 zREPO cypher1/qmk_firmware, dir:"${HOME}/Code/qmk_firmware"
 zREPO neovim/neovim, dir:"${HOME}/Code/neovim", frozen:1
-zREPO pop-os/cosmic-epoch, dir:"${HOME}/Code/cosmic-epoch"
+zREPO pop-os/cosmic-epoch, dir:"${HOME}/Code/cosmic-epoch", frozen:1
 zREPO tcdi/plrust, dir:"${HOME}/Code/plrust"
 zrepo cypher1/notes, dir:"${HOME}/Code/notes"
 zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
@@ -243,7 +243,7 @@ function bluetooth_fix() {
 alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_supply/BAT0/energy_now) / $(cat /sys/class/power_supply/BAT0/energy_full))))"'
 alias matches="grep -o"
 
-alias .="clear;s;ls"
+alias .="clear;s"
 alias ..="cd .."
 alias ...="cd ../.."
 alias ....="cd ../../.."
