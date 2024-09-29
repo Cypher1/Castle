@@ -1,0 +1,58 @@
+{
+  "parser-directories": [
+    "/home/jaypratt/github",
+    "/home/jaypratt/src",
+    "/home/jaypratt/source",
+    "/home/jaypratt/Code/tako/",
+    "/home/jaypratt/Code/tako/tree-sitter-tako/"
+  ],
+  "theme": {
+    "embedded": null,
+    "constant.builtin": {
+      "color": 94,
+      "bold": true
+    },
+    "constant": 94,
+    "punctuation.delimiter": 239,
+    "string.special": 30,
+    "module": 136,
+    "function.builtin": {
+      "color": 26,
+      "bold": true
+    },
+    "comment": {
+      "color": 245,
+      "italic": true
+    },
+    "keyword": 56,
+    "variable.builtin": {
+      "bold": true
+    },
+    "property": 124,
+    "function": 26,
+    "punctuation.bracket": 239,
+    "operator": {
+      "color": 239,
+      "bold": true
+    },
+    "attribute": {
+      "italic": true,
+      "color": 124
+    },
+    "number": {
+      "bold": true,
+      "color": 94
+    },
+    "type.builtin": {
+      "color": 23,
+      "bold": true
+    },
+    "tag": 18,
+    "type": 23,
+    "constructor": 136,
+    "variable.parameter": {
+      "underline": true
+    },
+    "string": 28
+  }
+}
