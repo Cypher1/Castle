@@ -137,6 +137,41 @@ function join() {
 
 autoload -U +X bashcompinit && bashcompinit
 
+GIT_BIN="$(which git)"
+
+function git() {
+  declare -a git_opts=()
+  declare -a cmd=()
+  declare -a cmd_opts=()
+  declare -a tail=()
+
+  git_opts_regex="^(--no-pager)"
+  opts_regex="^-"
+  ## Loop through the args and reorder them as necessary
+  for i in "${@}"
+  do
+    if [[ "$i" =~ "$git_opts_regex" ]]; then
+      git_opts+=( "$i" )
+      continue
+    fi
+    if [[ "$i" =~ "$opts_regex" ]]; then
+      cmd_opts+=( "$i" )
+      continue
+    fi
+    if [ ${#cmd[@]} -eq 0 ]; then
+      cmd+=( "$i" )
+      continue
+    fi
+    tail+=( "$i" )
+  done
+  declare -a shell=()
+  shell+=( "${cmd[@]}" )
+  shell+=( "${cmd_opts[@]}" )
+  shell+=( "${tail[@]}" )
+  # echo "$GIT_BIN ${shell[@]}" > /dev/stderr
+  $GIT_BIN ${shell[@]}
+}
+
 compdef _p p pP pPF bd bdF
 compdef _up up
 
