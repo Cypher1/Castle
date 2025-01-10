@@ -52,7 +52,7 @@ source "${HOME}/.zplug/init.zsh" || echo "'zplug' missing run 'install_zplug'"
 
 # PLUGINS
 zplug cypher1/Castle, dir:"${HOME}/.config", at:main
-zplug cypher1/greasy, dir:"${HOME}/Code/greasy"
+zplug cypher1/greasy, dir:"${HOME}/src/greasy"
 zplug zsh-users/zsh-autosuggestions
 zplug zsh-users/zsh-completions
 zplug romkatv/powerlevel10k, as:theme, depth:1
@@ -61,23 +61,23 @@ zplug sorin-ionescu/prezto, depth:1
 zplug modules/history, from:prezto
 zplug modules/node, from:prezto
 
-zREPO HCAIRESteam/hcaires, dir:"${HOME}/Code/hcaires", frozen:1
-zREPO PolymerLabs/arcs, dir:"${HOME}/Code/arcs", frozen:1
-zREPO cypher1/greasy, dir:"${HOME}/Code/greasy"
-zREPO cypher1/llvm-project, dir:"${HOME}/Code/llvm-project", frozen:1
-zREPO cypher1/mdbook-graphviz, dir:"${HOME}/Code/mdbook-graphviz"
-zREPO cypher1/no_debug, dir:"${HOME}/Code/no_debug", frozen:1
-zREPO cypher1/nvim_config, dir:"${HOME}/Code/nvim"
-zREPO cypher1/poetry, dir:"${HOME}/Code/poetry"
-zREPO cypher1/poetry-core, dir:"${HOME}/Code/poetry-core"
-zREPO cypher1/qmk_firmware, dir:"${HOME}/Code/qmk_firmware"
-zREPO neovim/neovim, dir:"${HOME}/Code/neovim", frozen:1
-zREPO pop-os/cosmic-epoch, dir:"${HOME}/Code/cosmic-epoch", frozen:1
-zREPO tcdi/plrust, dir:"${HOME}/Code/plrust"
-zrepo cypher1/notes, dir:"${HOME}/Code/notes"
-zrepo cypher1/nvim_config, dir:"${HOME}/Code/nvim"
-zrepo cypher1/tako, dir:"${HOME}/Code/tako", frozen:1
-zrepo skfltech/skfl, dir:"${HOME}/Code/skfl", frozen:1
+zREPO HCAIRESteam/hcaires, dir:"${HOME}/src/hcaires", frozen:1
+zREPO PolymerLabs/arcs, dir:"${HOME}/src/arcs", frozen:1
+zREPO cypher1/greasy, dir:"${HOME}/src/greasy"
+zREPO cypher1/llvm-project, dir:"${HOME}/src/llvm-project", frozen:1
+zREPO cypher1/mdbook-graphviz, dir:"${HOME}/src/mdbook-graphviz"
+zREPO cypher1/no_debug, dir:"${HOME}/src/no_debug", frozen:1
+zREPO cypher1/nvim_config, dir:"${HOME}/src/nvim"
+zREPO cypher1/poetry, dir:"${HOME}/src/poetry"
+zREPO cypher1/poetry-core, dir:"${HOME}/src/poetry-core"
+zREPO cypher1/qmk_firmware, dir:"${HOME}/src/qmk_firmware"
+zREPO neovim/neovim, dir:"${HOME}/src/neovim", frozen:1
+zREPO pop-os/cosmic-epoch, dir:"${HOME}/src/cosmic-epoch", frozen:1
+zREPO tcdi/plrust, dir:"${HOME}/src/plrust"
+zrepo cypher1/notes, dir:"${HOME}/src/notes"
+zrepo cypher1/nvim_config, dir:"${HOME}/src/nvim"
+zrepo cypher1/tako, dir:"${HOME}/src/tako", frozen:1
+zrepo skfltech/skfl, dir:"${HOME}/src/skfl", frozen:1
 
 # Settings for plugins
 autoload -U select-word-style
@@ -107,7 +107,7 @@ function do_arrive() {
       fi
   fi
 
-  link "${HOME}/Code/nvim" "${HOME}/.config/nvim"
+  link "${HOME}/src/nvim" "${HOME}/.config/nvim"
   link "${HOME}/.config/zshrc" "${HOME}/.zshrc"
   link "${HOME}/.config/gitconfig" "${HOME}/.gitconfig"
   link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
@@ -146,7 +146,10 @@ function git() {
   declare -a tail=()
 
   git_opts_regex="^(--no-pager)"
+  args_later_regex="^(stash)"
   opts_regex="^-"
+  needs_arg=false
+  accepting_args=false
   ## Loop through the args and reorder them as necessary
   for i in "${@}"
   do
@@ -154,12 +157,23 @@ function git() {
       git_opts+=( "$i" )
       continue
     fi
-    if [[ "$i" =~ "$opts_regex" ]]; then
-      cmd_opts+=( "$i" )
-      continue
+    if [[ $accepting_args = "true" ]]; then
+      if [[ $needs_arg = "true" ]]; then
+        cmd_opts+=( "$i" )
+        needs_arg=false
+        continue
+      fi
+      if [[ "$i" =~ "$opts_regex" ]]; then
+        cmd_opts+=( "$i" )
+        needs_arg=true
+        continue
+      fi
     fi
     if [ ${#cmd[@]} -eq 0 ]; then
       cmd+=( "$i" )
+      if [[ "$i" =~ "$args_later_regex" ]]; then
+        accepting_args=false
+      fi
       continue
     fi
     tail+=( "$i" )
@@ -277,6 +291,7 @@ function bluetooth_fix() {
 }
 alias battery_level='python -c "print(str(round(100*$(cat /sys/class/power_supply/BAT0/energy_now) / $(cat /sys/class/power_supply/BAT0/energy_full))))"'
 alias matches="grep -o"
+alias -g withFire="-9"
 
 alias .="clear;s"
 alias ..="cd .."
@@ -295,6 +310,7 @@ function t() {
   cargo test --color always $@ 2>&1 | tee .t.log | less -r +G +g
 }
 
+alias sync='a . && m "Backup $(date)" && pP'
 alias "a."="a ."
 alias cp="cp -r"
 alias ci="r"
