@@ -310,7 +310,7 @@ function t() {
   cargo test --color always $@ 2>&1 | tee .t.log | less -r +G +g
 }
 
-alias sync='a . && m "Backup $(date)" && pP'
+alias sync='((a . && m "Backup $(date)") || true) && pP'
 alias "a."="a ."
 alias cp="cp -r"
 alias ci="r"
