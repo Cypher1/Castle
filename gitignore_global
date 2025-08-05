@@ -48,6 +48,7 @@ cabal.project.local
 .env
 .envrc
 .vscode
+.zed
 *.ini
 /node_modules/*
 */_site/*
