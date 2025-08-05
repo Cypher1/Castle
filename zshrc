@@ -186,7 +186,7 @@ function git() {
   $GIT_BIN ${shell[@]}
 }
 
-compdef _p p pP pPF bd bdF
+compdef _p p pP pPF bd bD bdF bDF
 compdef _up up
 
 # SET OPTIONS
@@ -274,7 +274,7 @@ export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
 # EXPORTS
 export LLVM_SYS_150_PREFIX="${HOME}/llvm-project/build"
 export TERM="xterm-256color"
-export EDITOR="$(which nvim || which vim)"
+export EDITOR="$(which zed || which nvim || which vim)"
 export VISUAL="$EDITOR"
 export CARGO_TARGET_DIR="${HOME}/.cargo/target"
 export CARGO_INCREMENTAL=0
@@ -340,7 +340,8 @@ alias v="$EDITOR "
 alias vi="$EDITOR "
 alias vim="$EDITOR "
 alias :e="$EDITOR "
-alias zrc="$EDITOR ${HOME}/.config/zshrc"
+alias zrc="zed ${HOME}/.config/zshrc"
+alias grc="zed ${HOME}/.config/gitconfig"
 alias vrc="$EDITOR ${HOME}/.config/nvim/**/*.lua"
 alias icat="kitty +kitten icat"
 alias bob="${HOME}/skfltech/skfl/bob.ts"
