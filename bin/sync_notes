@@ -1,0 +1,6 @@
+#!env zsh
+
+cd /storage/emulated/0/notes/
+
+source ~/src/greasy/greasy.zsh
+((a . && m "Backup $(date)") || true) && pP
