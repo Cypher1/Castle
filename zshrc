@@ -352,6 +352,6 @@ alias bob="${HOME}/skfltech/skfl/bob.ts"
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 2> /dev/null  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion" 2> /dev/null  # This loads nvm bash_completion
-nvm use v18.20.4 2> /dev/null
+nvm use v18.20.4 > /dev/null 2>&1
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
