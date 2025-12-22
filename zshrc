@@ -112,6 +112,8 @@ function do_arrive() {
   link "${HOME}/.config/gitconfig" "${HOME}/.gitconfig"
   link "${HOME}/.config/pylintrc" "${HOME}/.pylintrc"
 
+  echo "${HOME}/.config/crontab" > crontab
+
   # LOAD EXTERNALS
   program zsh
   program fzf
