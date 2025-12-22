@@ -98,7 +98,10 @@ function arrive() {
   curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 }
 
+GIT_BIN="$(which git)"
+
 function do_arrive() {
+  PKG_MAN=$(pkg_man)
   # Install plugins if there are plugins that have not been installed
   if ! zplug check --verbose; then
       printf "Install? [y/N]: "
@@ -118,8 +121,7 @@ function do_arrive() {
   program zsh
   program fzf
   program nvim neovim
-  program git
-  setup git "$GIT_BIN" "$PKG_MAN git"
+  setup git "${GIT_BIN}" "${PKG_MAN} git"
   program python3
   if [[ "$OSTYPE" != "linux-android" ]]; then
     program kitty
@@ -139,8 +141,6 @@ function join() {
 }
 
 autoload -U +X bashcompinit && bashcompinit
-
-GIT_BIN="$(which git)"
 
 function git() {
   declare -a git_opts=()
