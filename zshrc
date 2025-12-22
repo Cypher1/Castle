@@ -72,7 +72,7 @@ zREPO cypher1/poetry, dir:"${HOME}/src/poetry"
 zREPO cypher1/poetry-core, dir:"${HOME}/src/poetry-core"
 zREPO cypher1/qmk_firmware, dir:"${HOME}/src/qmk_firmware"
 zREPO neovim/neovim, dir:"${HOME}/src/neovim", frozen:1
-zREPO pop-os/cosmic-epoch, dir:"${HOME}/src/cosmic-epoch", frozen:1
+# zREPO pop-os/cosmic-epoch, dir:"${HOME}/src/cosmic-epoch", frozen:1
 zREPO tcdi/plrust, dir:"${HOME}/src/plrust"
 zrepo cypher1/notes, dir:"${HOME}/src/notes"
 zrepo cypher1/nvim_config, dir:"${HOME}/src/nvim"
