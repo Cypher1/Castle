@@ -9,7 +9,8 @@ link() {
 
 setup() {
     NAME=$1; ENTRY=$2; CMD=$3
-    [[ -e "$ENTRY" ]] && return
+    # If the ENTRY file exists OR is an executable function (typically a wrapper).
+    ([[ -e "$ENTRY" ]] || type -f "$ENTRY" > /dev/null) && return
     echo "$NAME is missing"
     [[ -z "$CMD" ]] && return
     sh -c "$CMD" # TODO ask for confirmation or exit
