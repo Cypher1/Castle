@@ -30,7 +30,7 @@ load() {
 pkg_man() {
   type pkg >/dev/null 2>&1 && echo "pkg install -y" && return
   type dnf >/dev/null 2>&1 && echo "sudo dnf install" && return
-  type pt >/dev/null 2>&1 && echo "sudo apt update && sudo apt install -y -f" && return
+  type apt >/dev/null 2>&1 && echo "sudo apt update && sudo apt install -y -f" && return
   type pacman >/dev/null 2>&1 && echo "sudo pacman -Syyu" && return
   echo "No package manager found" > /dev/stderr && exit 1
 }
