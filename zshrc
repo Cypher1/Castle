@@ -119,6 +119,7 @@ function do_arrive() {
   program fzf
   program nvim neovim
   program git
+  setup git "$GIT_BIN" "$PKG_MAN git"
   program python3
   if [[ "$OSTYPE" != "linux-android" ]]; then
     program kitty
