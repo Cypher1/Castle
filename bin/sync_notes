@@ -1,6 +1,10 @@
 #!env zsh
 
-cd /storage/emulated/0/notes/
+if [[ "$OSTYPE" != "linux-android" ]]; then
+  cd /storage/emulated/0/notes/
+else
+  cd ~/src/notes
+fi
 
 source ~/src/greasy/greasy.zsh
 ((a . && m "Backup $(date)") || true) && pP
