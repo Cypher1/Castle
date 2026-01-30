@@ -314,6 +314,7 @@ function t() {
 }
 
 alias sync='((a . && m "Backup $(date)") || true) && pP'
+alias "sn"="sync_notes"
 alias "a."="a ."
 alias cp="cp -r"
 alias ci="r"
