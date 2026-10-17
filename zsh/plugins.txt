@@ -15,7 +15,7 @@ ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z kind:defer
 ohmyzsh/ohmyzsh path:plugins/magic-enter kind:defer
 ohmyzsh/ohmyzsh path:plugins/mosh kind:defer
 ohmyzsh/ohmyzsh path:plugins/extract kind:defer
-ohmyzsh/ohmyzsh path:plugins/autojump kind:defer
+ohmyzsh/ohmyzsh path:plugins/autojump
 ohmyzsh/ohmyzsh path:plugins/web-search kind:defer
 michel-kraemer/zsh-patina kind:defer
 zsh-users/zsh-autosuggestions kind:defer
