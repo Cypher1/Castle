@@ -177,3 +177,8 @@ zsh_plugins.zsh
 zsh/plugins.zsh
 org.gnome.Ptyxis
 zsh/.zcompdump
+.android
+Android Open Source Project
+java
+zsh/.zcompdump
+Google
