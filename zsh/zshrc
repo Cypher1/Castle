@@ -3,6 +3,12 @@ if [[ -n "$ZSH_DEBUGRC" ]]; then
   zmodload zsh/zprof
 fi
 
+# Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
+# To customize prompt, run `p10k configure` or edit ~/.config/p10k.zsh.
+if [[ -r "${HOME}/.cache/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${HOME}/.cache/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
 for _rc in ${HOME}/.config/zsh/*.zsh(n); do
   if [[ $_rc == ${HOME}/.config/zsh/plugins.zsh ]]; then
     continue
