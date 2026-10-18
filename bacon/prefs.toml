@@ -45,7 +45,8 @@ j = "scroll-lines(1)"
 k = "scroll-lines(-1)"
 n = "job:nextest"
 shift-t = "job:todo"
-shift-c = "job:changelog"
+l = "job:changelog"
+shift-c = "job:coverage"
 q = "quit"
 r = "job:run"
 s = "toggle-summary"
@@ -53,7 +54,6 @@ b = "job:build"
 shift-b = "toggle-backtrace"
 shift-g = "scroll-to-bottom"
 t = "job:test"
-u = "job:pretty-test"
 f = "job:fmt"
 w = "toggle-wrap"
 
@@ -64,11 +64,6 @@ watch = ["tests"]
 
 [jobs.nextest]
 command = ["cargo", "nextest", "run", "--color", "always"]
-need_stdout = true
-watch = ["tests"]
-
-[jobs.pretty-test]
-command = ["cargo", "pretty-test", "run", "--color", "always"]
 need_stdout = true
 watch = ["tests"]
 
@@ -89,13 +84,18 @@ command = ["bash", "-c", "echo \"$(git grep -E \"(todo!|TODO)\" -- **/*.rs | wc 
 need_stdout = true
 watch = ["tests"]
 
+[jobs.coverage]
+command = ["cargo", "tarpaulin", "--engine", "llvm"]
+need_stdout = true
+watch = ["tests"]
+
 jobs.build.env.CARGO_TARGET_DIR = "$CARGO_TARGET_DIR"
 jobs.build.env.RUSTC_WRAPPER = "$RUSTC_WRAPPER"
 jobs.check.env.CARGO_TARGET_DIR = "$CARGO_TARGET_DIR"
 jobs.check.env.RUSTC_WRAPPER = "$RUSTC_WRAPPER"
+jobs.coverage.env.CARGO_TARGET_DIR = "$CARGO_TARGET_DIR"
+jobs.coverage.env.RUSTC_WRAPPER = "$RUSTC_WRAPPER"
 jobs.nextest.env.CARGO_TARGET_DIR = "$CARGO_TARGET_DIR"
 jobs.nextest.env.RUSTC_WRAPPER = "$RUSTC_WRAPPER"
-jobs.pretty-test.env.CARGO_TARGET_DIR = "$CARGO_TARGET_DIR"
-jobs.pretty-test.env.RUSTC_WRAPPER = "$RUSTC_WRAPPER"
 jobs.run.env.CARGO_TARGET_DIR = "$CARGO_TARGET_DIR"
 jobs.run.env.RUSTC_WRAPPER = "$RUSTC_WRAPPER"
