@@ -1,3 +1,5 @@
+bindkey -v
+
 # Home and end
 bindkey  "^[[H"   beginning-of-line
 bindkey  "^[[F"   end-of-line
