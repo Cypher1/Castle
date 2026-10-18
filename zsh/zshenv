@@ -3,7 +3,12 @@ export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 export GIT_BIN="$(which git)"
 export ANTIDOTE_HOME="$HOME/.cache/antidote"
 export CARGO_HOME="$HOME/.cache/cargo"
+export JAVA_HOME="/usr/lib/jvm/java-25-openjdk-amd64"
+export ANDROID_HOME="$HOME/.local/share/android/"
+export ANDROID_NDK_HOME="$HOME/.local/share/android-ndk-r30-linux"
 export CARGO_TARGET_DIR="$CARGO_HOME/target"
+export PYENV_HOME="${HOME}/.local/share/pyenv"
+export FZF_CTRL_R_COMMAND=1
 export CARGO_INCREMENTAL=0
 export ZSH_CACHE_DIR="${XDG_CACHE_HOME:-$HOME/.cache}/zsh"
 
@@ -38,7 +43,6 @@ export SAVEHIST=1000000 # save history after logout
 export HISTFILE=$HOME/.local/share/zsh_history  # history file
 export HISTIGNORE="^(fg|bg|ls|s|p|q|cd|exit)$"
 export ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE="fg=yellow"
-export PYENV_HOME="${HOME}/.local/share/pyenv"
 
 # Set up path!
 path=(
