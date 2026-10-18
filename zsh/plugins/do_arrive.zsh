@@ -23,6 +23,7 @@ function do_arrive_packages() {
   program sccache
   crate bat
   crate bacon
+  crate cargo-nextest
   crate cog cocogitto
   crate "${_ZSH_PATINA_PATH:-zsh-patina}" zsh-patina
   crontab "${HOME}/.config/crontab" 1> /dev/null
