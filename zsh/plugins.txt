@@ -10,7 +10,7 @@ ohmyzsh/ohmyzsh path:plugins/last-working-dir
 ~/.config/zsh/functions kind:autoload
 
 # Lazy plugins
-romkatv/powerlevel10k kind:defer
+romkatv/powerlevel10k
 ohmyzsh/ohmyzsh path:plugins/fancy-ctrl-z kind:defer
 ohmyzsh/ohmyzsh path:plugins/magic-enter kind:defer
 ohmyzsh/ohmyzsh path:plugins/mosh kind:defer
