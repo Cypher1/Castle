@@ -2,3 +2,6 @@
 
 export HOME="$(cd;pwd)"
 export ZDOTDIR="$HOME/.config/zsh"
+
+source "${ZDOTDIR}/zshenv"
+source "${ZDOTDIR}/zshrc"
