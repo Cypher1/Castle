@@ -45,7 +45,6 @@ function do_arrive_configs() {
   link "${HOME}/src/compilersEllie/nvim_config" "${HOME}/.config/nvim"
   link "${HOME}/.config/cargo/config.toml" "${HOME}/.cache/cargo/config.toml"
   link "${ANTIDOTE_HOME}" "${HOME}/src/mattmc3/antidote"
-  setup "fzf zsh" "${HOME}/.config/zsh/fzf.zsh" "fzf --zsh >> \"${HOME}/.config/zsh/fzf.zsh\""
   pyenv init > "${PYENV_HOME}/completions/pyenv.zsh"
   dotfile termux
 }
